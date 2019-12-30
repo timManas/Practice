@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Two Sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Easy_TwoSets/Two Sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1VPTmcxdqoN0ksVtOnG6GbcOQlb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -32,6 +32,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,7 +115,13 @@
       <workItem from="1577153892297" duration="1235000" />
       <workItem from="1577195477546" duration="2440000" />
       <workItem from="1577576360997" duration="3826000" />
-      <workItem from="1577601951770" duration="2703000" />
+      <workItem from="1577601951770" duration="3203000" />
+      <workItem from="1577654663357" duration="636000" />
+      <workItem from="1577721912932" duration="32000" />
+      <workItem from="1577721987293" duration="12000" />
+      <workItem from="1577722620962" duration="95000" />
+      <workItem from="1577722786568" duration="342000" />
+      <workItem from="1577727621051" duration="1486000" />
     </task>
     <servers />
   </component>
