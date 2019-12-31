@@ -54,30 +54,25 @@ public class AddTwoNumbers {
         return value;
     }
 
-    // Uses Recursion
     public static ListNode convert2LL(double total) {
         char [] array = String.valueOf((int)total).toCharArray();
-        char [] reverseArray = new char[array.length];
-
-        int counter = 0;
-        for (int i=array.length-1; i >= 0; i--) {
-            reverseArray[counter] = array[i];
-            counter++;
-        }
-
-        ListNode pointer = null;
         ListNode prevNode = null;
 
-        // Ex Total: 1234, 4 > 3 > 2 > 1
         for (int i = 0; i < array.length; i++) {
-            ListNode node = new ListNode(reverseArray[0]);
-            prevNode.next = node;
+            int value = Integer.valueOf(String.valueOf(array[i]));
+            ListNode node = new ListNode(value);
+
+            if (prevNode == null) {
+                prevNode = node;
+                continue;
+            }
+
+            node.next = prevNode;
+            prevNode = node;
         }
 
-        System.out.println(prevNode);
 
-        return pointer;
+        return prevNode;
     }
-
 
 }
