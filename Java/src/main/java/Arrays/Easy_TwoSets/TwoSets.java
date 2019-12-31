@@ -36,7 +36,7 @@ public class TwoSets {
 
             innerloop:
             for(int j=i+1; j < nums.length; j++) {
-                
+
                 int total = nums[i] + nums[j];
                 if (total == target) {
                     int [] indexArray = new int[2];
