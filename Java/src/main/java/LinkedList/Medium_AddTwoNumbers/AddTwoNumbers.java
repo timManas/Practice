@@ -1,61 +1,131 @@
 package LinkedList.Medium_AddTwoNumbers;
 
+
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Collections;
 
+
 public class AddTwoNumbers {
+
+
+
     public static void main(String [] args) {
-        ListNode l1 = new ListNode(2);
-        ListNode l1a = new ListNode(4);
-        ListNode l1b = new ListNode(3);
 
-        l1.next = l1a;
-        l1a.next = l1b;
+        ListNode list = new ListNode(1);
+        ListNode la = new ListNode(0);
+        ListNode lb = new ListNode(0);
+        ListNode lc = new ListNode(0);
+        ListNode ld = new ListNode(0);
+        ListNode le = new ListNode(0);
+        ListNode lf = new ListNode(0);
+        ListNode lg = new ListNode(0);
+        ListNode lh = new ListNode(0);
+        ListNode li = new ListNode(0);
+        ListNode lj = new ListNode(0);
+        ListNode lk = new ListNode(0);
+        ListNode ll = new ListNode(0);
+        ListNode lm = new ListNode(0);
+        ListNode ln = new ListNode(0);
+        ListNode lo = new ListNode(0);
+        ListNode lp = new ListNode(0);
+        ListNode lq = new ListNode(0);
+        ListNode lr = new ListNode(0);
+        ListNode ls = new ListNode(0);
+        ListNode lt = new ListNode(0);
+        ListNode lu = new ListNode(0);
+        ListNode lv = new ListNode(0);
+        ListNode lw = new ListNode(0);
+        ListNode lx = new ListNode(0);
+        ListNode ly = new ListNode(0);
+        ListNode lz = new ListNode(0);
+        ListNode l1 = new ListNode(0);
+        ListNode l2 = new ListNode(0);
+        ListNode l3 = new ListNode(0);
+        ListNode l4 = new ListNode(1);
 
-        ListNode l2 = new ListNode(5);
+        list.next = la;
+        la.next = lb;
+        lb.next = lc;
+        lc.next = ld;
+        ld.next = le;
+        le.next = lf;
+        lf.next = lg;
+        lg.next = lh;
+        lh.next = li;
+        li.next = lj;
+        lj.next = lk;
+        lk.next = ll;
+        ll.next = lm;
+        lm.next = ln;
+        ln.next = lo;
+        lo.next = lp;
+        lp.next = lq;
+        lq.next = lr;
+        lr.next = ls;
+        ls.next = lt;
+        lt.next = lu;
+        lu.next = lv;
+        lv.next = lw;
+        lw.next = lx;
+        lx.next = ly;
+        ly.next = lz;
+        lz.next = l1;
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+
+        ListNode list2 = new ListNode(5);
         ListNode l2a = new ListNode(6);
         ListNode l2b = new ListNode(4);
-
-        l2.next = l2a;
+        list2.next = l2a;
         l2a.next = l2b;
 
-        addTwoNumbers(l1, l2);
+
+
+        addTwoNumbers(list, list2);
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         // Step #1 - Convert Linked List to Integer
-        double num1 = convert2Integer(l1);
-        double num2 = convert2Integer(l2);
+        String num1 = convert2Integer(l1);
+        String num2 = convert2Integer(l2);
+
+        BigInteger biNum1 = new BigInteger(num1);
+        BigInteger biNum2 = new BigInteger(num2);
 
         // Step #2 - Add Integer
-        double total = num1 + num2;
-        System.out.println("Num1: " + num1);
-        System.out.println("Num2: " + num2);
-        System.out.println("Total: " + total);
+        BigInteger total = biNum1.add(biNum2);
 
         // Step #3 - Convert Answer to LinkedList
         System.out.println(total);
-        ListNode result = convert2LL(total);
+        ListNode result = convert2LL(total.toString());
 
         return result;
     }
 
-    public static double convert2Integer(ListNode listNode) {
-        double value = 0;
-        int counter = 0;
-
+    public static String convert2Integer(ListNode listNode) {
+        StringBuilder sb = new StringBuilder();
         while (listNode != null) {
-            value += listNode.val * Math.pow(10, counter);
-            counter++;
+            sb.append(listNode.val);
             listNode = listNode.next;
+            System.out.println(sb.toString());
         }
 
-        return value;
+        // Reverse the String value
+        sb = sb.reverse();
+
+        return sb.toString();
     }
 
-    public static ListNode convert2LL(double total) {
-        char [] array = String.valueOf((int)total).toCharArray();
+
+
+    public static ListNode convert2LL(String total) {
+
+        char [] array = total.toCharArray();
         ListNode prevNode = null;
 
         for (int i = 0; i < array.length; i++) {
@@ -70,8 +140,6 @@ public class AddTwoNumbers {
             node.next = prevNode;
             prevNode = node;
         }
-
-
         return prevNode;
     }
 
