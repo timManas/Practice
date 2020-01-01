@@ -1,4 +1,4 @@
-package Arrays.Easy_TwoSets;
+package Lists.Easy_TwoSets;
 
 import java.util.Arrays;
 
