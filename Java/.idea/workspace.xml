@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +191,7 @@
       <workItem from="1577812511822" duration="7915000" />
       <workItem from="1577828327060" duration="65000" />
       <workItem from="1577828420404" duration="15028000" />
-      <workItem from="1577979854406" duration="8309000" />
+      <workItem from="1577979854406" duration="13621000" />
     </task>
     <servers />
   </component>
@@ -288,7 +289,18 @@
           <line>38</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="log.substring(3,4)" language="JAVA" />
+        <watch expression="tmDigMap.values()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
