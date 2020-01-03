@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyStocks">
+  <component name="RunManager" selected="Application.MergeSortedArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -86,13 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MaximumSubArray.MaximumSubArray" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MergeSortedArray.MergeSortedArray" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MaximumSubArray.*" />
+          <option name="PATTERN" value="Lists.MergeSortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.BestTimeToBuyStocks" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.ReorderDataInLogFile" />
         <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.MaximumSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,7 @@
       <workItem from="1577828420404" duration="15028000" />
       <workItem from="1577979854406" duration="16525000" />
       <workItem from="1578010016077" duration="8190000" />
-      <workItem from="1578067444823" duration="8037000" />
+      <workItem from="1578067444823" duration="12182000" />
     </task>
     <servers />
   </component>
@@ -314,18 +314,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/BestTimeToBuyStocks/BestTimeToBuyStocks.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="111" />
+          <line>38</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MergeSortedArray/MergeSortedArray.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="log.substring(3,4)" language="JAVA" />
-        <watch expression="tmDigMap.values()" language="JAVA" />
-        <watch expression="log.substring(log.indexOf(&quot; &quot;), log.length())" language="JAVA" />
-        <watch expression="(&quot;kvr&quot;).compareTo(&quot;so&quot;)" language="JAVA" />
-        <watch expression="hmLetMap.get(key)" language="JAVA" />
+        <watch expression="maxProfit" language="JAVA" />
+        <watch expression="localProfit" language="JAVA" />
+        <watch expression="minPrice" language="JAVA" />
+        <watch expression="prices[i]" language="JAVA" />
+        <watch expression="prevMinPrice" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
