@@ -1,11 +1,13 @@
 package Lists.ReOrderDataInLog;
 
-import java.util.ArrayList;
-import java.util.TreeMap;
+import java.util.*;
 
 public class ReorderDataInLogFile {
     public static void main(String [] args) {
-        String [] input = {"dig2 8 1 5 1","let1 art can","dig1 3 6","let2 own kit dig","let3 art zero"};
+//        String [] input = {"dig2 8 1 5 1","let1 art can","dig1 3 6","let2 own kit dig","let3 art zero"};
+//        String [] input = {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"};
+//        String [] input = {"t kvr", "r 3 1", "i 403", "7 so", "t 54"};
+        String [] input = {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo","a2 act car"};
         String [] orderdLogs = reorderLogFiles(input);
 
     }
@@ -18,13 +20,13 @@ public class ReorderDataInLogFile {
         // Step1 - Seperate into two different list
         for (String log : logs) {
             // Fetch the 1st three character sub array
-            String identifier = log.substring(0,4);
-            System.out.println(identifier);
+            String [] identifier = log.split(" ");
 
-            if (identifier.contains("dig")) {
-                digOrdLogs.add(log);
-            } else if (identifier.contains("let")) {
+
+            if (identifier[1].matches("^[a-zA-Z]*$")) {
                 letOrdLogs.add(log);
+            } else if (identifier[1].matches("^[0-9]*$")) {
+                digOrdLogs.add(log);
             }
         }
 
@@ -38,42 +40,51 @@ public class ReorderDataInLogFile {
         ArrayList<String> mergedList = new ArrayList<String>(letOrdLogs);
         mergedList.addAll(digOrdLogs);
         orderedLogs = mergedList.toArray(new String[0]);
-
+        System.out.println(mergedList);
         return orderedLogs;
     }
 
     private static ArrayList<String> sortLetOrdLogs(ArrayList<String> letOrdLogs) {
-        TreeMap<Integer, String> tmLetMap = new TreeMap<Integer, String>();
+        ArrayList<String> orderedList = new ArrayList<String>();                    // List to be returned
+        HashMap<String, String> hmLetMap = new HashMap<String, String>();           // To keep an map of which is which
+        ArrayList<String> withoutIdentifierLetOrdLogs = new ArrayList<String>();    // Why Arraylist ? we have duplicates =/
+
+        // Step1 - Place them in List for easy access
         for (int i=0; i < letOrdLogs.size(); i++) {
             String log = letOrdLogs.get(i);
-            int total = fetchTotal(log.substring(4, log.length()));
-            tmLetMap.put(total, log);
+            String formattedLog = log.substring(log.indexOf(" ") + 1, log.length());
+            hmLetMap.put(log, formattedLog);                                                // Add to Map
+            withoutIdentifierLetOrdLogs.add(formattedLog);                                  // Add to List to be sorted
         }
 
-        ArrayList<String> orderedList = new ArrayList<String>(tmLetMap.values());
+        // Step2 - Sort the Arraylist WITHOUT the identifier.
+        Collections.sort(withoutIdentifierLetOrdLogs);
+
+        // Step3 - Place back into List to Send out
+        // At this point, withoutIndentifier list is sorted, we compare this with list and remove the from the hashmap to avoid sending the same one
+        for (String orderedLog : withoutIdentifierLetOrdLogs) {
+            String key = fetchKeyFromValue(orderedLog, hmLetMap);
+            orderedList.add(key);
+        }
+
         return orderedList;
     }
 
-    private static int fetchTotal(String log) {
-        int total = 0;
-        char [] logArr = log.toCharArray();
-        for (int i=0; i < logArr.length; i++) {
-            total = total + (int)(logArr[i]);
+    private static String fetchKeyFromValue(String orderedLog , HashMap<String, String> hmLetMap) {
+        for (Map.Entry<String, String> mapSetEntry : hmLetMap.entrySet()) {
+            String key = mapSetEntry.getKey();
+            String value = mapSetEntry.getValue();
+            if (value.equals(orderedLog)) {
+                hmLetMap.remove(key);
+                return key;
+            }
         }
-
-        return total;
+        return null;
     }
+
 
     private static ArrayList<String> sortDigOrdLogs(ArrayList<String> digOrdLogs) {
 
-        TreeMap<Integer, String> tmDigMap = new TreeMap<Integer, String>();
-        for (int i = 0; i < digOrdLogs.size(); i++) {
-            String log = digOrdLogs.get(i);
-            int identifier = Integer.parseInt(log.substring(3,4));
-            tmDigMap.put(identifier, log);
-        }
-
-        ArrayList<String> orderedList = new ArrayList<String>(tmDigMap.values());
-        return orderedList;
+        return digOrdLogs;
     }
 }

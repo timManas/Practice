@@ -191,7 +191,8 @@
       <workItem from="1577812511822" duration="7915000" />
       <workItem from="1577828327060" duration="65000" />
       <workItem from="1577828420404" duration="15028000" />
-      <workItem from="1577979854406" duration="13621000" />
+      <workItem from="1577979854406" duration="16525000" />
+      <workItem from="1578010016077" duration="4389000" />
     </task>
     <servers />
   </component>
@@ -291,8 +292,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="83" />
+          <line>43</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReOrderDataInLog/ReorderDataInLogFile.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -300,6 +311,9 @@
       <configuration name="Application">
         <watch expression="log.substring(3,4)" language="JAVA" />
         <watch expression="tmDigMap.values()" language="JAVA" />
+        <watch expression="log.substring(log.indexOf(&quot; &quot;), log.length())" language="JAVA" />
+        <watch expression="(&quot;kvr&quot;).compareTo(&quot;so&quot;)" language="JAVA" />
+        <watch expression="hmLetMap.get(key)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
