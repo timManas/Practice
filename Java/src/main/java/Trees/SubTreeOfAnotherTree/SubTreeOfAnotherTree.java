@@ -1,6 +1,10 @@
 package Trees.SubTreeOfAnotherTree;
 
 
+import java.math.BigInteger;
+import java.util.HashSet;
+import java.util.Stack;
+
 public class SubTreeOfAnotherTree {
 
     public static void main(String [] args) {
@@ -16,7 +20,7 @@ public class SubTreeOfAnotherTree {
         treeNode3.right = treeNode5;
         treeNode4.left = treeNode1;
         treeNode4.right = treeNode2;
-        treeNode2.right = treeNode0;
+        treeNode2.left = treeNode0;
 
         TreeNode subTreeNode4 = new TreeNode(4);
         TreeNode subTreeNode1 = new TreeNode(1);
@@ -29,10 +33,49 @@ public class SubTreeOfAnotherTree {
 
     }
 
-    public static boolean isSubtree(TreeNode s, TreeNode t) {
+    public static boolean isSubtree(TreeNode tree, TreeNode subTree) {
+        Boolean isSubTree = false;
+
+        Stack<TreeNode> treeNodeStack = new Stack<TreeNode>();
+        Stack<TreeNode> subTreeNodeStack = new Stack<TreeNode>();
+
+        HashSet<Integer> treeVisitedNodeSet = new HashSet<Integer>();
+        HashSet<Integer> subTreeVisitedNodeSet = new HashSet<Integer>();
+
+        // Pushing Head Node
+        System.out.print(tree.val + " --> ");
+        treeNodeStack.push(tree);
+        treeVisitedNodeSet.add(tree.val);
+
+        // Traverse Tree Iteratively instead of Recursively
+        while (!treeNodeStack.isEmpty()) {
+
+            if (tree == null) {
+                tree = treeNodeStack.pop();
+                continue;
+            }
+
+            treeVisitedNodeSet.add(tree.val);
+            if (tree.left != null) {
+                tree = tree.left;
+
+
+            } else if (tree.right != null) {
+                tree = tree.right;
+            }
+
+
+            treeNodeStack.add(tree);
+            System.out.println(tree.val  + " -> " );
 
 
 
-        return false;
+        }
+
+
+        return isSubTree;
     }
+
+
+
 }
