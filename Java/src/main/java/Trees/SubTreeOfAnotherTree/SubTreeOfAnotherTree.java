@@ -14,13 +14,13 @@ public class SubTreeOfAnotherTree {
         TreeNode treeNode5 = new TreeNode(5);
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
-        TreeNode treeNode0 = new TreeNode(0);
+//        TreeNode treeNode0 = new TreeNode(0);
 
         treeNode3.left = treeNode4;
         treeNode3.right = treeNode5;
         treeNode4.left = treeNode1;
         treeNode4.right = treeNode2;
-        treeNode2.left = treeNode0;
+//        treeNode2.left = treeNode0;
 
         TreeNode subTreeNode4 = new TreeNode(4);
         TreeNode subTreeNode1 = new TreeNode(1);
@@ -34,41 +34,50 @@ public class SubTreeOfAnotherTree {
     }
 
     public static boolean isSubtree(TreeNode tree, TreeNode subTree) {
-        Boolean isSubTree = false;
+        Boolean isSubTree = true;
 
         Stack<TreeNode> treeNodeStack = new Stack<TreeNode>();
         Stack<TreeNode> subTreeNodeStack = new Stack<TreeNode>();
 
-        HashSet<Integer> treeVisitedNodeSet = new HashSet<Integer>();
-        HashSet<Integer> subTreeVisitedNodeSet = new HashSet<Integer>();
 
         // Pushing Head Node
-        System.out.print(tree.val + " --> ");
         treeNodeStack.push(tree);
-        treeVisitedNodeSet.add(tree.val);
 
         // Traverse Tree Iteratively instead of Recursively
-        while (!treeNodeStack.isEmpty()) {
+        while (treeNodeStack.isEmpty() == false) {
 
-            if (tree == null) {
-                tree = treeNodeStack.pop();
-                continue;
+            TreeNode currentTreeNode = treeNodeStack.pop();
+
+            if (currentTreeNode.val == subTree.val && subTreeNodeStack.isEmpty()) {
+                subTreeNodeStack.push(subTree);
             }
 
-            treeVisitedNodeSet.add(tree.val);
-            if (tree.left != null) {
-                tree = tree.left;
+            TreeNode subTreeNode = subTreeNodeStack.isEmpty() ? null : subTreeNodeStack.pop();
+            System.out.println("CurrentNode: " + currentTreeNode.val + "   SubTreeNode: " + (subTreeNode == null ? null: subTreeNode.val));
 
+            if (currentTreeNode.right != null) {
+                treeNodeStack.push(currentTreeNode.right);
 
-            } else if (tree.right != null) {
-                tree = tree.right;
+                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
+                    if (subTreeNode.right != null) {
+                        subTreeNodeStack.push(subTreeNode.right);
+                    } else {
+                        return false;
+                    }
+                }
             }
 
+            if (currentTreeNode.left != null) {
+                treeNodeStack.push(currentTreeNode.left);
 
-            treeNodeStack.add(tree);
-            System.out.println(tree.val  + " -> " );
-
-
+                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
+                    if (subTreeNode.left != null) {
+                        subTreeNodeStack.push(subTreeNode.left);
+                    } else {
+                        return false;
+                    }
+                }
+            }
 
         }
 

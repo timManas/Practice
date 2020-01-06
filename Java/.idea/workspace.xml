@@ -196,7 +196,7 @@
       <workItem from="1578010016077" duration="8190000" />
       <workItem from="1578067444823" duration="16269000" />
       <workItem from="1578104254638" duration="13348000" />
-      <workItem from="1578252556075" duration="1697000" />
+      <workItem from="1578252556075" duration="4996000" />
     </task>
     <servers />
   </component>
@@ -341,10 +341,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="150" />
+          <line>64</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="167" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentTreeNode" language="JAVA" />
+        <watch expression="subTreeNode" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
