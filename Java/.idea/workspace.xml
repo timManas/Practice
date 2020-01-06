@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
+  <component name="RunManager" selected="Application.ValidPalindromeII">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ValidPalindrome.ValidPalindrome" />
+    <configuration name="ValidPalindromeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ValidPalindromeII.ValidPalindromeII" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ValidPalindrome.*" />
+          <option name="PATTERN" value="Strings.ValidPalindromeII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindromeII" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.SubDomainCount" />
         <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1578010016077" duration="8190000" />
       <workItem from="1578067444823" duration="16269000" />
       <workItem from="1578104254638" duration="13348000" />
-      <workItem from="1578252556075" duration="10052000" />
+      <workItem from="1578252556075" duration="10720000" />
+      <workItem from="1578352892675" duration="1633000" />
     </task>
     <servers />
   </component>
@@ -367,6 +368,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/SubDomainVisitCount/SubDomainCount.java</url>
           <line>59</line>
           <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
