@@ -25,9 +25,11 @@ public class SubTreeOfAnotherTree {
         TreeNode subTreeNode4 = new TreeNode(4);
         TreeNode subTreeNode1 = new TreeNode(1);
         TreeNode subTreeNode2 = new TreeNode(2);
+        TreeNode subTreeNode11 = new TreeNode(1);
 
         subTreeNode4.left = subTreeNode1;
         subTreeNode4.right = subTreeNode2;
+        subTreeNode2.left = subTreeNode11;
 
         System.out.println("IsSubTree: " + isSubtree(treeNode3, subTreeNode4));
 
