@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,23 +50,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindromeII">
+  <component name="RunManager" selected="Application.Roman2Integer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.FizzBuzz.FizzBuzz" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.FizzBuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,13 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubDomainCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SubDomainVisitCount.SubDomainCount" />
+    <configuration name="Roman2Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Roman2Integer.Roman2Integer" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.SubDomainVisitCount.*" />
+          <option name="PATTERN" value="Strings.Roman2Integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,13 +85,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubTreeOfAnotherTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SubTreeOfAnotherTree.SubTreeOfAnotherTree" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.StringCompression.StringCompression" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.SubTreeOfAnotherTree.*" />
+          <option name="PATTERN" value="Strings.StringCompression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubDomainCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.SubDomainVisitCount.SubDomainCount" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.SubDomainVisitCount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Roman2Integer" />
+        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.ValidPalindromeII" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.SubDomainCount" />
-        <item itemvalue="Application.SubTreeOfAnotherTree" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +196,7 @@
       <workItem from="1578067444823" duration="16269000" />
       <workItem from="1578104254638" duration="13348000" />
       <workItem from="1578252556075" duration="10720000" />
-      <workItem from="1578352892675" duration="5423000" />
+      <workItem from="1578352892675" duration="12364000" />
     </task>
     <servers />
   </component>
@@ -381,12 +379,29 @@
           <line>45</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/Roman2Integer/Roman2Integer.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="currentTreeNode" language="JAVA" />
         <watch expression="subTreeNode" language="JAVA" />
+        <watch expression="symbolMap.get(character)" language="JAVA" />
+        <watch expression="symbolMap.get(prev)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
