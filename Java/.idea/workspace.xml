@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +198,7 @@
       <workItem from="1578067444823" duration="16269000" />
       <workItem from="1578104254638" duration="13348000" />
       <workItem from="1578252556075" duration="10720000" />
-      <workItem from="1578352892675" duration="1633000" />
+      <workItem from="1578352892675" duration="5423000" />
     </task>
     <servers />
   </component>
@@ -371,8 +373,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="170" />
+          <line>29</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidPalindromeII/ValidPalindromeII.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
