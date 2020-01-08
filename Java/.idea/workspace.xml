@@ -52,20 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringCompression">
+  <component name="RunManager" selected="Application.DesignHashMap">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PalindromNumber.PalindromeNumber" />
+    <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Maps.DesignHashMap.DesignHashMap" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.PalindromNumber.*" />
+          <option name="PATTERN" value="Maps.DesignHashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignHashMap" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.Roman2Integer" />
         <item itemvalue="Application.ValidPalindromeII" />
-        <item itemvalue="Application.PalindromeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -388,13 +388,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
-          <line>81</line>
+          <line>24</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
-          <line>78</line>
+          <line>23</line>
           <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Maps/DesignHashMap/DesignHashMap.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Maps/DesignHashMap/MyHashMap.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Maps/DesignHashMap/MyHashArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
