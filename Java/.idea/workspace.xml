@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
+  <component name="RunManager" selected="Application.StringCompression">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -159,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.Roman2Integer" />
-        <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.ValidPalindromeII" />
         <item itemvalue="Application.PalindromeNumber" />
       </list>
@@ -379,28 +382,26 @@
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/Roman2Integer/Roman2Integer.java</url>
           <line>48</line>
           <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringCompression/StringCompression.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="199" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="currentTreeNode" language="JAVA" />
-        <watch expression="subTreeNode" language="JAVA" />
-        <watch expression="symbolMap.get(character)" language="JAVA" />
-        <watch expression="symbolMap.get(prev)" language="JAVA" />
+        <watch expression="filteredMap.get(currentLetter).charAt(0)" language="JAVA" />
+        <watch expression="filteredMap.get(currentLetter)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
