@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MoveZeroes/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MoveZeroes/MoveZeroes.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +200,7 @@
       <workItem from="1578252556075" duration="10720000" />
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
-      <workItem from="1578615384626" duration="1428000" />
+      <workItem from="1578615384626" duration="2022000" />
     </task>
     <servers />
   </component>
@@ -421,6 +422,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Stacks/MinStack/MinStack.java</url>
           <line>29</line>
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MoveZeroes/MoveZeroes.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

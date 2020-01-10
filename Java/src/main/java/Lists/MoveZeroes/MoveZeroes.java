@@ -1,5 +1,7 @@
 package Lists.MoveZeroes;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class MoveZeroes {
@@ -18,6 +20,13 @@ public class MoveZeroes {
     public static void moveZeroes(int[] nums) {
 
         // Solution using a Stack
+//        stackSolution(nums);
+
+        // Solution using Queue
+        stackQueue(nums);
+    }
+
+    private static void stackSolution(int[] nums) {
         Stack<Integer> stack = new Stack<Integer>();
         int zeroCount = 0;
 
@@ -36,8 +45,29 @@ public class MoveZeroes {
         for (int i=nums.length -1; i >= 0; i--) {
             nums[i] = stack.pop();
         }
+    }
 
-        System.out.println();
+    private static void stackQueue(int[] nums) {
+        Queue<Integer> queue = new LinkedList<Integer>();
+        int zeroCount = 0;
+
+        for (int num : nums) {
+            if (num == 0) {
+                ++zeroCount;
+                continue;
+            }
+            queue.add(num);
+        }
+
+        while (zeroCount > 0) {
+            queue.add(0);
+            --zeroCount;
+        }
+
+        for (int i=0; i < nums.length; i++) {
+            nums[i] = queue.remove();
+        }
+
     }
 
 }
