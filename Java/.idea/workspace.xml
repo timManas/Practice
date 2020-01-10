@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stacks/MinStack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stacks/MinStack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stacks/MinStack/MinStackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stacks/MinStack/MinStackMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +51,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinStackMain">
+  <component name="RunManager" selected="Application.MoveZeroes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.AddTwoStrings.AddTwoString" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.AddTwoStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,27 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseString.ReverseString" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MoveZeroes.MoveZeroes" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReverseString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.StringCompression.StringCompression" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.StringCompression.*" />
+          <option name="PATTERN" value="Lists.MoveZeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.AddTwoString" />
         <item itemvalue="Application.MinStackMain" />
         <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.DesignHashMap" />
-        <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +198,8 @@
       <workItem from="1578104254638" duration="13348000" />
       <workItem from="1578252556075" duration="10720000" />
       <workItem from="1578352892675" duration="12364000" />
-      <workItem from="1578542567914" duration="2604000" />
+      <workItem from="1578542567914" duration="6538000" />
+      <workItem from="1578615384626" duration="1428000" />
     </task>
     <servers />
   </component>
@@ -429,6 +428,7 @@
       <configuration name="Application">
         <watch expression="filteredMap.get(currentLetter).charAt(0)" language="JAVA" />
         <watch expression="filteredMap.get(currentLetter)" language="JAVA" />
+        <watch expression="index.length()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
