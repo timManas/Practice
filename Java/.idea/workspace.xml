@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +200,7 @@
       <workItem from="1578252556075" duration="10720000" />
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
-      <workItem from="1578615384626" duration="6881000" />
+      <workItem from="1578615384626" duration="7466000" />
     </task>
     <servers />
   </component>
@@ -429,23 +430,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java</url>
-          <line>63</line>
+          <line>66</line>
           <option name="timeStamp" value="214" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/AddBinary/AddBinary.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="218" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

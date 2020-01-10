@@ -17,7 +17,7 @@ public class AddBinary {
         if (a.length() < b.length()) {
             String tempA = addZerosIfSmaller(a,b);
             a = tempA + a;
-         } else if (a.length() > b.length()) {
+        } else if (a.length() > b.length()) {
             String tempB = addZerosIfSmaller(b, a);
             b = tempB + b;
         }
@@ -25,7 +25,7 @@ public class AddBinary {
         // Initialize
         char [] totalChar = new char[a.length()];
         int index = a.length() - 1;
-        char carryOvr = 0;
+        char carryOvr = '0';
 
         // Traverse starting from end to the front
         while (index >= 0) {
@@ -36,25 +36,29 @@ public class AddBinary {
 
 
             char result = 0;
-            if (charA == '1' && charB =='1') {
-                result = '0';
-                carryOvr = '1';
-
-                totalChar[index] = result;
-                index--;
-                continue;
-
-            } else if (charA == '1' || charB =='1') {
-                result = '1';
-            } else {
-                result = '0';
-            }
-
-            if (carryOvr == '1') {
-                if (result == '1') {
+            if (carryOvr == '0') {
+                if (charA == '1' && charB =='1') {
                     result = '0';
                     carryOvr = '1';
-                } else if (result == '0') {
+
+                } else if (charA == '1' || charB =='1') {
+                    result = '1';
+
+                } else {
+                    result = '0';
+                }
+
+            } else {
+                // Carry Over '1'
+                if (charA == '1' && charB =='1') {
+                    result = '1';
+                    carryOvr = '1';
+
+                } else if (charA == '1' || charB =='1') {
+                    result = '0';
+                    carryOvr = '1';
+
+                } else {
                     result = '1';
                     carryOvr = '0';
                 }
