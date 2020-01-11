@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqueCharacterInString">
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.MinStack.MinStackMain" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongestCommonPrefix.LongestCommonPrefix" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stacks.MinStack.*" />
+          <option name="PATTERN" value="Strings.LongestCommonPrefix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.FirstUniqueCharacterInString" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.AddTwoString" />
-        <item itemvalue="Application.MinStackMain" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +200,8 @@
       <workItem from="1578252556075" duration="10720000" />
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
-      <workItem from="1578615384626" duration="11020000" />
+      <workItem from="1578615384626" duration="12423000" />
+      <workItem from="1578770687172" duration="2614000" />
     </task>
     <servers />
   </component>
@@ -433,11 +434,23 @@
           <line>13</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestCommonPrefix/LongestCommonPrefix.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestCommonPrefix/LongestCommonPrefix.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="result" language="JAVA" />
+        <watch expression="strs[i].charAt(i)" language="JAVA" />
+        <watch expression="strs[i].length()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
