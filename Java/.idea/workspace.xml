@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.MaxStackMain">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -66,20 +66,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.AddBinary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.AddTwoStrings.AddTwoString" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.AddTwoStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +94,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.LongestCommonPrefix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.MaxStack.MaxStackMain" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks.MaxStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxStackMain" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.FirstUniqueCharacterInString" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.AddTwoString" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,7 @@
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
       <workItem from="1578615384626" duration="12423000" />
-      <workItem from="1578770687172" duration="2614000" />
+      <workItem from="1578770687172" duration="5287000" />
     </task>
     <servers />
   </component>
@@ -444,13 +444,21 @@
           <line>42</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Stacks/MaxStack/MaxStackMain.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Stacks/MaxStack/MaxStack.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="result" language="JAVA" />
-        <watch expression="strs[i].charAt(i)" language="JAVA" />
-        <watch expression="strs[i].length()" language="JAVA" />
+        <watch expression="orderList" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
