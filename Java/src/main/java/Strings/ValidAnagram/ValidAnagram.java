@@ -56,6 +56,15 @@ public class ValidAnagram {
             else if (map1Counter != map2Counter)
                 return false;
 
+
+            /**
+             OYYYY ...
+             DO NOT USE INTEGERS when comparing ==
+             Use primitive types when comparing ==. Comparing TWO integers vs int is different
+             Using == on Integers will check the reference as well
+             Using == on int will only check the values
+             */
+
         }
 
         return true;

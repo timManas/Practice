@@ -53,20 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidAnagram">
+  <component name="RunManager" selected="Application.IntersectionOfArrays">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.FirstUniqueCharacterInString.FirstUniqueCharacterInString" />
+    <configuration name="IntersectionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.IntersectionOfArrays.IntersectionOfArrays" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.FirstUniqueCharacterInString.*" />
+          <option name="PATTERN" value="Lists.IntersectionOfArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfArrays" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.MaxStackMain" />
         <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.FirstUniqueCharacterInString" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,7 @@
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
       <workItem from="1578615384626" duration="12423000" />
-      <workItem from="1578770687172" duration="10909000" />
+      <workItem from="1578770687172" duration="13056000" />
     </task>
     <servers />
   </component>
