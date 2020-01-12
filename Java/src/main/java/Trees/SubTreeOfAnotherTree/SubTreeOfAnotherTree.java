@@ -46,7 +46,7 @@ public class SubTreeOfAnotherTree {
         treeNodeStack.push(tree);
 
         // Traverse Tree Iteratively instead of Recursively
-        while (treeNodeStack.isEmpty() == false) {
+        while (!treeNodeStack.isEmpty()) {
 
             TreeNode currentTreeNode = treeNodeStack.pop();
 
