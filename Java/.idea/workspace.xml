@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ValidAnagram/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ValidAnagram/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +202,7 @@
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
       <workItem from="1578615384626" duration="12423000" />
-      <workItem from="1578770687172" duration="9238000" />
+      <workItem from="1578770687172" duration="10909000" />
     </task>
     <servers />
   </component>
@@ -435,16 +435,16 @@
           <line>28</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidAnagram/ValidAnagram.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="243" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="orderList" language="JAVA" />
+        <watch expression="treeMap1.get(letter)" language="JAVA" />
+        <watch expression="treeMap2.get(letter)" language="JAVA" />
+        <watch expression="treeMap1.get(letter) != treeMap2.get(letter)" language="JAVA" />
+        <watch expression="treeMap1.get(letter) == treeMap2.get(letter)" language="JAVA" />
+        <watch expression="treeMap1.get(letter).compareTo(treeMap2.get(letter))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
