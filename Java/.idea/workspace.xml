@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SingleNumber/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SingleNumber/SingleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleNumber">
+  <component name="RunManager" selected="Application.SubTreeOfAnotherTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -162,10 +164,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.IntersectionOfArrays" />
         <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.MaxStackMain" />
       </list>
     </recent_temporary>
@@ -201,7 +203,7 @@
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
       <workItem from="1578615384626" duration="12423000" />
-      <workItem from="1578770687172" duration="14335000" />
+      <workItem from="1578770687172" duration="20124000" />
     </task>
     <servers />
   </component>
@@ -434,16 +436,21 @@
           <line>28</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="orderList" language="JAVA" />
-        <watch expression="treeMap1.get(letter)" language="JAVA" />
-        <watch expression="treeMap2.get(letter)" language="JAVA" />
-        <watch expression="treeMap1.get(letter) != treeMap2.get(letter)" language="JAVA" />
-        <watch expression="treeMap1.get(letter) == treeMap2.get(letter)" language="JAVA" />
-        <watch expression="treeMap1.get(letter).compareTo(treeMap2.get(letter))" language="JAVA" />
+        <watch expression="treeNodeStack" language="JAVA" />
+        <watch expression="subTreeNodeStack" language="JAVA" />
+        <watch expression="currentTreeNode" language="JAVA" />
+        <watch expression="(currentTreeNode.left.val != subTreeNode.left.val)" language="JAVA" />
+        <watch expression="subTreeNode" language="JAVA" />
+        <watch expression="subTreeNode.val" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

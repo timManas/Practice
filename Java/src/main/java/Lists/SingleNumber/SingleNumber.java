@@ -27,7 +27,9 @@ public class SingleNumber {
             if (value == 1)
                 return key;
         }
-        
+
+
+
         return -1;
     }
 }

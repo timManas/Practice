@@ -14,39 +14,42 @@ public class SubTreeOfAnotherTree {
         TreeNode treeNode5 = new TreeNode(5);
         TreeNode treeNode1 = new TreeNode(1);
         TreeNode treeNode2 = new TreeNode(2);
-//        TreeNode treeNode0 = new TreeNode(0);
+        TreeNode treeNode0 = new TreeNode(0);
 
         treeNode3.left = treeNode4;
         treeNode3.right = treeNode5;
         treeNode4.left = treeNode1;
         treeNode4.right = treeNode2;
-//        treeNode2.left = treeNode0;
+        treeNode2.left = treeNode0;
 
         TreeNode subTreeNode4 = new TreeNode(4);
         TreeNode subTreeNode1 = new TreeNode(1);
         TreeNode subTreeNode2 = new TreeNode(2);
-        TreeNode subTreeNode11 = new TreeNode(1);
+//        TreeNode subTreeNode11 = new TreeNode(1);
 
         subTreeNode4.left = subTreeNode1;
         subTreeNode4.right = subTreeNode2;
-        subTreeNode2.left = subTreeNode11;
+//        subTreeNode2.left = subTreeNode11;
+
+//        TreeNode treeNode3 = new TreeNode(0);
+//        TreeNode subTreeNode4 = new TreeNode(1);
 
         System.out.println("IsSubTree: " + isSubtree(treeNode3, subTreeNode4));
 
     }
 
     public static boolean isSubtree(TreeNode tree, TreeNode subTree) {
-        Boolean isSubTree = true;
+        boolean isMatch = false;
 
         Stack<TreeNode> treeNodeStack = new Stack<TreeNode>();
         Stack<TreeNode> subTreeNodeStack = new Stack<TreeNode>();
-
 
         // Pushing Head Node
         treeNodeStack.push(tree);
 
         // Traverse Tree Iteratively instead of Recursively
         while (!treeNodeStack.isEmpty()) {
+
 
             TreeNode currentTreeNode = treeNodeStack.pop();
 
@@ -55,37 +58,113 @@ public class SubTreeOfAnotherTree {
             }
 
             TreeNode subTreeNode = subTreeNodeStack.isEmpty() ? null : subTreeNodeStack.pop();
-            System.out.println("CurrentNode: " + currentTreeNode.val + "   SubTreeNode: " + (subTreeNode == null ? null: subTreeNode.val));
+            System.out.println("CurrentNode: " + currentTreeNode.val + "   SubTreeNode: " + (subTreeNode == null ? null : subTreeNode.val));
 
+
+            // Compare
+            if (subTreeNode != null) {
+                int curTreeValue = currentTreeNode.val;
+                int subTreeValue = subTreeNode.val;
+
+                // Check Current Node Exist
+                if (curTreeValue == subTreeValue)
+                    isMatch = true;
+                else
+                    isMatch=false;
+
+
+                // Check the Left Node Exist
+                int curTreeValueLeft = currentTreeNode.left != null ? currentTreeNode.left.val : -1;
+                int subTreeValueLeft = subTreeNode.left != null ? subTreeNode.left.val : -1;
+                if (curTreeValueLeft == subTreeValueLeft)
+                    isMatch =  true;
+                else
+                    isMatch = false;
+
+                // Check the Right Node Exist
+                int currTreeValueRight = currentTreeNode.right != null ? currentTreeNode.right.val : -1;
+                int subTreeValueRight = subTreeNode.right != null ? subTreeNode.right.val : -1;
+                if (currTreeValueRight == subTreeValueRight)
+                    isMatch = true;
+                else
+                    isMatch = false;
+
+            }
+
+
+            // Iterate to Next
             if (currentTreeNode.right != null) {
                 treeNodeStack.push(currentTreeNode.right);
 
-                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
-                    if (subTreeNode.right != null) {
-                        subTreeNodeStack.push(subTreeNode.right);
-                    } else {
-                        return false;
-                    }
-                }
+                if (subTreeNode != null)
+                    subTreeNodeStack.push(subTreeNode.right);
             }
 
             if (currentTreeNode.left != null) {
                 treeNodeStack.push(currentTreeNode.left);
 
-                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
-                    if (subTreeNode.left != null) {
-                        subTreeNodeStack.push(subTreeNode.left);
-                    } else {
-                        return false;
-                    }
-                }
+                if (subTreeNode != null)
+                    subTreeNodeStack.push(subTreeNode.left);
             }
 
         }
 
 
-        return isSubTree;
+        return isMatch;
     }
+
+//    public static boolean isSubtree2(TreeNode tree, TreeNode subTree) {
+//        Boolean isSubTree = true;
+//
+//        Stack<TreeNode> treeNodeStack = new Stack<TreeNode>();
+//        Stack<TreeNode> subTreeNodeStack = new Stack<TreeNode>();
+//
+//
+//        // Pushing Head Node
+//        treeNodeStack.push(tree);
+//
+//        // Traverse Tree Iteratively instead of Recursively
+//        while (!treeNodeStack.isEmpty()) {
+//
+//            TreeNode currentTreeNode = treeNodeStack.pop();
+//
+//            if (currentTreeNode.val == subTree.val && subTreeNodeStack.isEmpty()) {
+//                subTreeNodeStack.push(subTree);
+//            }
+//
+//            TreeNode subTreeNode = subTreeNodeStack.isEmpty() ? null : subTreeNodeStack.pop();
+//            System.out.println("CurrentNode: " + currentTreeNode.val + "   SubTreeNode: " + (subTreeNode == null ? null: subTreeNode.val));
+//
+//            if (currentTreeNode.right != null) {
+//                treeNodeStack.push(currentTreeNode.right);
+//
+//                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
+//                    if (subTreeNode.right != null) {
+//                        subTreeNodeStack.push(subTreeNode.right);
+//                    } else {
+//                        return false;
+//                    }
+//                }
+//            }
+//
+//            if (currentTreeNode.left != null) {
+//                treeNodeStack.push(currentTreeNode.left);
+//
+//                if (subTreeNode != null && currentTreeNode.val == subTreeNode.val) {
+//                    if (subTreeNode.left != null) {
+//                        subTreeNodeStack.push(subTreeNode.left);
+//                    } else {
+//                        return false;
+//                    }
+//                }
+//            }
+//
+//        }
+//
+//
+//        return isSubTree;
+//    }
+
 
 
 
