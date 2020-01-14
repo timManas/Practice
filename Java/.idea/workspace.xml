@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SingleNumber/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SingleNumber/SingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubTreeOfAnotherTree">
+  <component name="RunManager" selected="Application.RemoveLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -75,13 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxStackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.MaxStack.MaxStackMain" />
+    <configuration name="RemoveLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.RemoveLinkedList.RemoveLinkedList" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stacks.MaxStack.*" />
+          <option name="PATTERN" value="LinkedList.RemoveLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLinkedList" />
         <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.IntersectionOfArrays" />
         <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.MaxStackMain" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +202,8 @@
       <workItem from="1578352892675" duration="12364000" />
       <workItem from="1578542567914" duration="6538000" />
       <workItem from="1578615384626" duration="12423000" />
-      <workItem from="1578770687172" duration="20124000" />
+      <workItem from="1578770687172" duration="24198000" />
+      <workItem from="1578958273832" duration="1972000" />
     </task>
     <servers />
   </component>
@@ -438,20 +438,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
-          <line>69</line>
+          <line>167</line>
           <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/RemoveLinkedList/RemoveLinkedList.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/RemoveLinkedList/RemoveLinkedList.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="262" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="treeNodeStack" language="JAVA" />
-        <watch expression="subTreeNodeStack" language="JAVA" />
-        <watch expression="currentTreeNode" language="JAVA" />
-        <watch expression="(currentTreeNode.left.val != subTreeNode.left.val)" language="JAVA" />
-        <watch expression="subTreeNode" language="JAVA" />
-        <watch expression="subTreeNode.val" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
