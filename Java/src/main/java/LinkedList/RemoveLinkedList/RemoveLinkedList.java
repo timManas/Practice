@@ -46,7 +46,7 @@ public class RemoveLinkedList {
                     prevNode.next = currentNode.next;   // If MATCH is anywhere else.
                 }
                 currentNode = currentNode.next;
-                continue; 
+                continue;
             }
 
             // Iterate
