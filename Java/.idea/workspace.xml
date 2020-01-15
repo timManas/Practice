@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,7 @@
       <workItem from="1578615384626" duration="12423000" />
       <workItem from="1578770687172" duration="24198000" />
       <workItem from="1578958273832" duration="11140000" />
-      <workItem from="1579045081899" duration="9306000" />
+      <workItem from="1579045081899" duration="10166000" />
     </task>
     <servers />
   </component>
@@ -492,11 +491,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java</url>
           <line>33</line>
           <option name="timeStamp" value="277" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="284" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

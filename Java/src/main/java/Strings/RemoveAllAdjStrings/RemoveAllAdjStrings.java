@@ -1,9 +1,12 @@
 package Strings.RemoveAllAdjStrings;
 
+import java.util.ArrayList;
+import java.util.Stack;
+
 public class RemoveAllAdjStrings {
 
     public static void main(String [] args) {
-//        String input = "aaaaaaaa";
+//        String input = "abbaca";
 //        String input = "aaaaaaaa";
 //        String input = "aababaab";
         String input = "lisukrbebfudcupuvjiuunsutortnrrtjfqrpgcghqgdckbfbklriplmqtvksuqnrhrmmultddklsooqnvvsvclgbkmubhdpnplqidrnssnplkmthdgqlqarpgvbtsmbhlovnupnhpjbvnvlshuvgothtoblahuuncsjhdfrdqjlgedvhhvrcibinfsbdqgqdqksodvltgiskljokfgvthdashirlulnheqppajvffvnpglsgujbalochufeiogdfcenqvmaepdcmjsdqoardnkforkugidiglaafvnunratpqlcunttmviahofdomligogmdokmagpdhjkgrckladtepnjsbftinelimgloofigmkeokrcnpjevknechketgibfcljanvdmmkkquhpbofovgcebejflslufodskcjsseqpmnarqthvadlolkcaqpgskmcihioidusingdevmfkpltlvntomckrcockdbnddcjmsoglllbabojhprnoflisukrbebfudcupuvjiuunsutortnrrtjfqrpgcghqgdckbfbklriplmqtvksuqnrhrmmultddklsooqnvvsvclgbkmubhdpnplqidrnssnplkmthdgqlqarpgvbtsmbhlovnupnhpjbvnvlshuvgothtoblahuuncsjhdfrdqjlgedvhhvrcibinfsbdqgqdqksodvltgiskljokfgvthdashirlulnheqppajvffvnpglsgujbalochufeiogdfcenqvmaepdcmjsdqoardnkforkugidiglaafvnunratpqlcunttmviahofdomligogmdokmagpdhjkgrckladtepnjsbftinelimgloofigmkeokrcnpjevknechketgibfcljanvdmmkkquhpbofovgcebejflslufodskcjsseqpmnarqthvadlolkcaqpgskmcihioidusingdevmfkpltlvntomckrcockdbnddcjmsoglllbabojhprnof";
@@ -12,39 +15,31 @@ public class RemoveAllAdjStrings {
 
 
     public static  String removeDuplicates(String input) {
-        String removed;
-        StringBuilder stringBuilder = new StringBuilder(input);
-        boolean hasDuplicates = true;
+        Stack<Character> stack = new Stack<Character>();
+        StringBuilder stringBuilder = new StringBuilder();
 
-        char prevChar = 0;
-        int index = 0;
-        while (hasDuplicates) {
 
-            if (stringBuilder.toString().equals(""))
-                return "";
+        for (int i=0; i < input.length(); i++) {
 
-            System.out.println(stringBuilder.toString());
-            char currentChar = stringBuilder.charAt(index);
-            if (currentChar == prevChar) {
+            char letter = input.charAt(i);
 
-                if (index == 1) {
-                    stringBuilder.delete(0, index + 1);
+            if (stack.isEmpty()) {
+                stack.push(letter);
 
+            } else {
+                char top = stack.peek();
+                if (top == letter) {
+                    stack.pop();
                 } else {
-                    stringBuilder.delete(index - 1, index + 1);
+                    stack.push(letter);
                 }
-                prevChar = 0;
-
-                index = 0;
-                continue;
             }
 
-            if (index == stringBuilder.length() - 1)
-                break;
+            System.out.println(stack.toString());
+        }
 
-
-            prevChar = currentChar;
-            index++;
+        while (!stack.isEmpty()) {
+            stringBuilder.append(stack.pop());
         }
 
         return stringBuilder.toString();
