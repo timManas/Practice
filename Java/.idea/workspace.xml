@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DefangingIPAddress">
+  <component name="RunManager" selected="Application.DetectLoopInLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -64,6 +69,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.DefangingIPAddress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DetectLoopInLinkedList.DetectLoopInLinkedList" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.DetectLoopInLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,20 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.PalindromeLinkedList.PalindromeLinkedList" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.PalindromeLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectLoopInLinkedList" />
         <item itemvalue="Application.DefangingIPAddress" />
         <item itemvalue="Application.IntersectionOfArraysII" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ImplementQueueMain" />
-        <item itemvalue="Application.PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +206,7 @@
       <workItem from="1578615384626" duration="12423000" />
       <workItem from="1578770687172" duration="24198000" />
       <workItem from="1578958273832" duration="11140000" />
-      <workItem from="1579045081899" duration="1842000" />
+      <workItem from="1579045081899" duration="4387000" />
     </task>
     <servers />
   </component>
@@ -473,6 +478,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/IntersectionOfArraysII/IntersectionOfArraysII.java</url>
           <line>71</line>
           <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="274" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
