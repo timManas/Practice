@@ -1,5 +1,7 @@
 package Lists.MajorityElement;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -32,7 +34,6 @@ public class MajorityElement {
             if(value == list.get(list.size() - 1))
                 return key;
         }
-
 
         return majority;
     }

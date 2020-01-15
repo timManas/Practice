@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DetectLoopInLinkedList/DetectLoopInLinkedList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
+  <component name="RunManager" selected="Application.RemoveAllAdjStrings">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -115,13 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingNumber.MissingNumber" />
+    <configuration name="RemoveAllAdjStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RemoveAllAdjStrings.RemoveAllAdjStrings" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MissingNumber.*" />
+          <option name="PATTERN" value="Strings.RemoveAllAdjStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAllAdjStrings" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.DetectLoopInLinkedList" />
         <item itemvalue="Application.DefangingIPAddress" />
         <item itemvalue="Application.IntersectionOfArraysII" />
-        <item itemvalue="Application.MissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +205,7 @@
       <workItem from="1578615384626" duration="12423000" />
       <workItem from="1578770687172" duration="24198000" />
       <workItem from="1578958273832" duration="11140000" />
-      <workItem from="1579045081899" duration="5813000" />
+      <workItem from="1579045081899" duration="9306000" />
     </task>
     <servers />
   </component>
@@ -488,15 +490,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="284" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="list.get(list.size() - 1)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
