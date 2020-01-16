@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RemoveAllAdjStrings/RemoveAllAdjStrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveAllAdjStrings">
+  <component name="RunManager" selected="Application.MaximumProduct3Nums">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -88,20 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.IntersectionOfArraysII.IntersectionOfArraysII" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.IntersectionOfArraysII.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MajorityElement.MajorityElement" />
       <module name="Java" />
@@ -109,6 +94,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MajorityElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumProduct3Nums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MaximumProd3Numbers.MaximumProduct3Nums" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.MaximumProd3Numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumProduct3Nums" />
         <item itemvalue="Application.RemoveAllAdjStrings" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.DetectLoopInLinkedList" />
         <item itemvalue="Application.DefangingIPAddress" />
-        <item itemvalue="Application.IntersectionOfArraysII" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +203,8 @@
       <workItem from="1578615384626" duration="12423000" />
       <workItem from="1578770687172" duration="24198000" />
       <workItem from="1578958273832" duration="11140000" />
-      <workItem from="1579045081899" duration="10166000" />
+      <workItem from="1579045081899" duration="12534000" />
+      <workItem from="1579148209567" duration="454000" />
     </task>
     <servers />
   </component>
