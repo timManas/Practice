@@ -36,7 +36,19 @@ public class RelativeSort {
             int key = arr2[i];
             int counter = map.containsKey(key) ? map.get(key) : 1;
 
-            for (int i=0; i<counter; i++) {
+            for (int j=0; j<counter; j++) {
+                sorted[index] = key;
+                index++;
+            }
+            map.remove(key);
+        }
+
+        // Add Remaining
+        for (Map.Entry<Integer, Integer> mapEntry : map.entrySet()) {
+            int key = mapEntry.getKey();
+            int counter = mapEntry.getValue();
+
+            for (int j=0; j<counter; j++) {
                 sorted[index] = key;
                 index++;
             }
