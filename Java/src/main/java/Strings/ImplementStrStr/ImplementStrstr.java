@@ -4,8 +4,9 @@ public class ImplementStrstr {
 
     public static void main(String [] args) {
 
-        String haystack = "hello";
-        String needle = "ll";
+        String haystack = "mississippi";
+
+        String needle = "issip";
 
         System.out.println("FirstOccurrence: " + strStr(haystack, needle));
 
@@ -18,11 +19,26 @@ public class ImplementStrstr {
         if (needle.equals(""))
             return 0;
 
-        index = haystack.indexOf(needle);
 
+        // Solution #1 - Using Java built in method
+        System.out.println("Easy Solution: " + useBuiltInMethods(haystack, needle));
 
+        // Solution #2 - Using old fashion way
+        index = useSoln2(haystack, needle);
 
         return index;
+    }
+
+    private static int useSoln2(String haystack, String needle) {
+
+        // TODO :: UNFINISHED ...USE KMP Solution on Youtube
+
+
+        return 0;
+    }
+
+    private static int useBuiltInMethods(String haystack, String needle) {
+        return haystack.indexOf(needle);
     }
 
 }
