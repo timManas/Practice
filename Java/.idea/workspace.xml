@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ImplementStrStr/ImplementStrstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ImplementStrStr/ImplementStrstr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubTreeOfAnotherTree">
+  <component name="RunManager" selected="Application.Sqrt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -103,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllAdjStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RemoveAllAdjStrings.RemoveAllAdjStrings" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Sqrt.Sqrt" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.RemoveAllAdjStrings.*" />
+          <option name="PATTERN" value="Math.Sqrt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.SubTreeOfAnotherTree" />
         <item itemvalue="Application.ImplementStrstr" />
         <item itemvalue="Application.RelativeSort" />
         <item itemvalue="Application.MaximumProduct3Nums" />
-        <item itemvalue="Application.RemoveAllAdjStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,8 @@
       <workItem from="1578958273832" duration="11140000" />
       <workItem from="1579045081899" duration="12534000" />
       <workItem from="1579148209567" duration="2886000" />
-      <workItem from="1579229788086" duration="6451000" />
+      <workItem from="1579229788086" duration="6927000" />
+      <workItem from="1579375468350" duration="3162000" />
     </task>
     <servers />
   </component>
@@ -499,6 +498,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/RelativeSort/RelativeSort.java</url>
           <line>46</line>
           <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/Sqrt/Sqrt.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="281" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
