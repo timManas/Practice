@@ -67,6 +67,6 @@ public class InvertBinaryTree {
 
  1. Use Post Order traversal to traverse the list
     why ? We want to get the bottom first them make the parent node switch the child nodes =)
- 
+
 
  */
