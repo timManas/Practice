@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/Sqrt/Sqrt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/Sqrt/Sqrt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +37,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.InverstBinaryTreee" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
@@ -209,7 +210,8 @@
       <workItem from="1579045081899" duration="12534000" />
       <workItem from="1579148209567" duration="2886000" />
       <workItem from="1579229788086" duration="6927000" />
-      <workItem from="1579375468350" duration="6601000" />
+      <workItem from="1579375468350" duration="8800000" />
+      <workItem from="1579453693802" duration="838000" />
     </task>
     <servers />
   </component>
@@ -509,7 +511,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SubTreeOfAnotherTree/SubTreeOfAnotherTree.java</url>
-          <line>77</line>
+          <line>73</line>
           <option name="timeStamp" value="285" />
         </line-breakpoint>
       </breakpoints>

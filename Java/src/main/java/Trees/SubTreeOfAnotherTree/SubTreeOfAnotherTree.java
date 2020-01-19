@@ -40,18 +40,14 @@ public class SubTreeOfAnotherTree {
 
 
     // Working Solution
-    public static boolean isSubtree (TreeNode currentNode, TreeNode subTreeNode)
-    {
-        return checkTree(currentNode, subTreeNode);
+    public static boolean isSubtree(TreeNode currentNode, TreeNode subTreeNode) {
 
-    }
-
-    public static boolean checkTree(TreeNode currentNode, TreeNode subTreeNode) {
+        // Step 0 - Make sure BOTH NOdes are NOT NULL
         if (currentNode == null && subTreeNode != null)
             return false;
         else if (subTreeNode == null && currentNode != null)
             return false;
-        else if (currentNode == null && subTreeNode == null)
+        else if (currentNode == null && subTreeNode == null)        // If both null, then return true
             return true;
 
         // Step 1 - Check if they match
@@ -59,20 +55,20 @@ public class SubTreeOfAnotherTree {
             return true;
 
         // Step 2 - Check if the Left or Right SubTree is a Match
-        return checkTree(currentNode.left, subTreeNode) || checkTree(currentNode.right, subTreeNode);
+        return isSubtree(currentNode.left, subTreeNode) || isSubtree(currentNode.right, subTreeNode);
     }
 
 
     private static boolean isMatch(TreeNode currentNode, TreeNode subTreeNode) {
 
+        // Step 0 - Make sure BOTH NOdes are NOT NULL
         if (currentNode == null && subTreeNode != null)
             return false;
         else if (subTreeNode == null && currentNode != null)
             return false;
-        else if (currentNode == null && subTreeNode == null)
+        else if (currentNode == null && subTreeNode == null)        // If both null, then return true
             return true;
 
-        // If BOTH NOT NULL
 
         // Step #1 - Check the value
         if (currentNode.val != subTreeNode.val)
