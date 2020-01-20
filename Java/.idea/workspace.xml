@@ -58,23 +58,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
+  <component name="RunManager" selected="Application.ReverseStringIII">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntersectionLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.IntersectionLinkedList.IntersectionLinkedList" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.IntersectionLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +100,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.RemoveDuplicatesFromSortedArr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseStringIII.ReverseStringIII" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ReverseStringIII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringIII" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArr" />
         <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.IntersectionLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,8 @@
       <workItem from="1579148209567" duration="2886000" />
       <workItem from="1579229788086" duration="6927000" />
       <workItem from="1579375468350" duration="8800000" />
-      <workItem from="1579453693802" duration="14782000" />
+      <workItem from="1579453693802" duration="15222000" />
+      <workItem from="1579563158026" duration="704000" />
     </task>
     <servers />
   </component>
