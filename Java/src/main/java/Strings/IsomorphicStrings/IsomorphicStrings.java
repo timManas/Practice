@@ -6,14 +6,14 @@ import java.util.LinkedHashMap;
 public class IsomorphicStrings {
 
     public static void main(String [] args) {
-//        String s = "paper";
-//        String t = "title";
+        String s = "paper";
+        String t = "title";
 
 //        String s = "foo";     // False
 //        String t = "bar";
 
-        String s = "food";      // false
-        String t = "abad";
+//        String s = "food";      // false
+//        String t = "abad";
         System.out.println("Isomorphic: " + isIsomorphic(s, t));
     }
 
