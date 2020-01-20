@@ -35,3 +35,9 @@ public class RemoveDuplicatesFromSortedArr {
         return index;
     }
 }
+
+/**
+ Solution
+ 1. Use two pointers ... one pointer to move by one, and the other pointer to move slowly
+ 2. Use a map to store all the key sets
+ */
