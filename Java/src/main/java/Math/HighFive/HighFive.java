@@ -19,9 +19,8 @@ public class HighFive {
 
     public static int[][] highFive(int[][] items) {
 
-
-        HashMap<Integer, ArrayList<Integer>> map = new HashMap<Integer, ArrayList<Integer>>();
         // Step1 - Add to HashMap
+        HashMap<Integer, ArrayList<Integer>> map = new HashMap<Integer, ArrayList<Integer>>();
         for (int row=0; row < items.length; row++) {
             int id = items[row][0];
             int grade = items[row][1];
@@ -37,9 +36,10 @@ public class HighFive {
             map.put(id, arrayList);
         }
 
+        // Step 2 - Create new Outout
         int [][] totalArr = new int [map.size()][2];
 
-        // Step2 - Add TopFive
+        // Step3 - Add TopFive to output Array while sorting and totalling
         int rowIndex = 0;
         int colIndex = 0;
         for (Map.Entry<Integer, ArrayList<Integer>> mapEntry : map.entrySet()) {
@@ -63,13 +63,15 @@ public class HighFive {
     private static int fetchTopFive(ArrayList<Integer> gradeList) {
         int total = 0;
         int counter = 5;
+
+        // Step 4 - Sort
         Collections.sort(gradeList);
 
+        // Step 5 - Calculate Average
         while (counter > 0) {
             total += gradeList.get(gradeList.size() - counter);
             counter--;
         }
-
         total = total / 5;
 
         return total;

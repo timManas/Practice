@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HighFive">
+  <component name="RunManager" selected="Application.LicenseKeyFormatting">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -79,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MaximumDepthOfBinaryTree.MaximumDepthOfBinaryTree" />
+    <configuration name="LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LicenseKeyFormatting.LicenseKeyFormatting" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.MaximumDepthOfBinaryTree.*" />
+          <option name="PATTERN" value="Strings.LicenseKeyFormatting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,13 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.RemoveDuplicatesFromSortedArr.RemoveDuplicatesFromSortedArr" />
+    <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MaximumDepthOfBinaryTree.MaximumDepthOfBinaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.RemoveDuplicatesFromSortedArr.*" />
+          <option name="PATTERN" value="Trees.MaximumDepthOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LicenseKeyFormatting" />
         <item itemvalue="Application.HighFive" />
         <item itemvalue="Application.ReverseStringIII" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.MaximumDepthOfBinaryTree" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArr" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,7 @@
       <workItem from="1579229788086" duration="6927000" />
       <workItem from="1579375468350" duration="8800000" />
       <workItem from="1579453693802" duration="15222000" />
-      <workItem from="1579563158026" duration="5725000" />
+      <workItem from="1579563158026" duration="8246000" />
     </task>
     <servers />
   </component>
@@ -544,24 +545,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
-          <line>65</line>
+          <line>59</line>
           <option name="timeStamp" value="293" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
-          <line>61</line>
+          <line>55</line>
           <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
-          <line>53</line>
+          <line>46</line>
           <option name="timeStamp" value="300" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="totalArr[0][0]" language="JAVA" />
+        <watch expression="stringInput.charAt(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
