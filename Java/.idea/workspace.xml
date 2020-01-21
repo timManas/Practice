@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +58,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseStringIII">
+  <component name="RunManager" selected="Application.HighFive">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.IsomorphicStrings.IsomorphicStrings" />
+    <configuration name="HighFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.HighFive.HighFive" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.IsomorphicStrings.*" />
+          <option name="PATTERN" value="Math.HighFive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighFive" />
         <item itemvalue="Application.ReverseStringIII" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArr" />
-        <item itemvalue="Application.IsomorphicStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1579229788086" duration="6927000" />
       <workItem from="1579375468350" duration="8800000" />
       <workItem from="1579453693802" duration="15222000" />
-      <workItem from="1579563158026" duration="977000" />
+      <workItem from="1579563158026" duration="5725000" />
     </task>
     <servers />
   </component>
@@ -540,7 +542,27 @@
           <line>45</line>
           <option name="timeStamp" value="291" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="totalArr[0][0]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
