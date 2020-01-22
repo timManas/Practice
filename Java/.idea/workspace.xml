@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreePaths">
+  <component name="RunManager" selected="Application.FindAllNumbersMissingInArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +74,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.BinaryTreePaths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAllNumbersMissingInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FindAllNumbersMissingInArray.FindAllNumbersMissingInArray" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.FindAllNumbersMissingInArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.RotateArray.RotateArray" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.RotateArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindAllNumbersMissingInArray" />
         <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.LicenseKeyFormatting" />
         <item itemvalue="Application.HighFive" />
         <item itemvalue="Application.ReverseStringIII" />
-        <item itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,7 @@
       <workItem from="1579375468350" duration="8800000" />
       <workItem from="1579453693802" duration="15222000" />
       <workItem from="1579563158026" duration="12561000" />
-      <workItem from="1579649116459" duration="689000" />
+      <workItem from="1579649116459" duration="4146000" />
     </task>
     <servers />
   </component>
@@ -568,6 +569,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePaths/BinaryTreePaths.java</url>
           <line>44</line>
           <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="319" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
