@@ -31,8 +31,10 @@ public class FindAllNumbersMissingInArray {
             int val = Math.abs(nums[i]);
 
             // Step 4 - If positive, we convert to Negative
+            // Why val - 1 ? Because we want to get the original index ...rember this new list starts from 1-n
+            // Not from 0 - n-1. Hence we need to get the val - 1
             if (nums[val - 1] > 0) {
-                nums[val - 1] =  -nums[val - 1];
+                nums[val - 1] =  -nums[val - 1];    // Turn negative
             }
 
         }
