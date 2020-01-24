@@ -34,10 +34,10 @@ public class FindCommonCharacters {
         charLoop:
         for (char character : lngCharArr) {
 
-
+            // Step 3b - Traverse each word in input Array
             wordLoop:
             for (String word : input) {
-                if (word.indexOf(character) == -1) {
+                if (word.indexOf(character) == -1) {            // If character does not exists, we move on
                     continue charLoop;
                 }
             }
