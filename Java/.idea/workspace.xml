@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/FindCommonCharacters/FindCommonCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/FindCommonCharacters/FindCommonCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePaths/BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePaths/BinaryTreePaths.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextGreatestInteger">
+  <component name="RunManager" selected="Application.BinaryTreePaths">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -170,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.NextGreatestInteger" />
         <item itemvalue="Application.FindCommonCharacters" />
         <item itemvalue="Application.FindAllNumbersMissingInArray" />
-        <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.LicenseKeyFormatting" />
       </list>
     </recent_temporary>
@@ -218,7 +218,7 @@
       <workItem from="1579453693802" duration="15222000" />
       <workItem from="1579563158026" duration="12561000" />
       <workItem from="1579649116459" duration="5104000" />
-      <workItem from="1579751823515" duration="6652000" />
+      <workItem from="1579751823515" duration="12129000" />
     </task>
     <servers />
   </component>
@@ -560,16 +560,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/HighFive/HighFive.java</url>
           <line>46</line>
           <option name="timeStamp" value="300" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePaths/BinaryTreePaths.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="308" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePaths/BinaryTreePaths.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/FindAllNumbersMissingInArray/FindAllNumbersMissingInArray.java</url>

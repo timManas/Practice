@@ -27,25 +27,66 @@ public class BinaryTreePaths {
     }
 
     public static List<String> binaryTreePaths(TreeNode root) {
-        List<String>  list = new ArrayList<String>();
+
         Stack<TreeNode> stack = new Stack<TreeNode>();
-        traverseTree(root, list, stack);
-        return  list;
+
+        System.out.println("---- Print from Root to each Leaf ----");
+        List<String>  listRoot2Leaf = new ArrayList<String>();
+        traverseTreeRoot2Leaf(root, stack, listRoot2Leaf, "");
+        System.out.println(listRoot2Leaf);
+
+        System.out.println("\n--- Print from Root to each Node ----");
+        List<String>  listRoot2Node = new ArrayList<String>();
+        traverseTreeRoot2Node(root, stack, listRoot2Node, "");
+        System.out.println(listRoot2Node);
+
+        return  listRoot2Leaf;
     }
 
-    private static void traverseTree(TreeNode node, List<String> list, Stack<TreeNode> stack) {
+    // Prints all from Root to each Leaf
+    private static void traverseTreeRoot2Leaf(TreeNode node, Stack<TreeNode> stack, List<String> list, String path) {
 
+
+        // Step 1 - Check if node null ...Go back
         if (node == null) {
-            if (!stack.isEmpty())
-                stack.pop();
             return;
         }
 
         stack.push(node);
-        System.out.print(node.val + " -> ");
-        traverseTree(node.left, list, stack);
-        traverseTree(node.right, list, stack);
 
+        // Step2 - Traverse Left and Right tree
+        traverseTreeRoot2Leaf(node.left, stack, list, path + node.val + "->");
+        traverseTreeRoot2Leaf(node.right, stack, list, path + node.val + "->");
+
+        // Step 3 - If both Left and Right are null
+        // Then we are at leaf node ...Add to list
+        if (node.left == null && node.right == null) {
+            list.add(path + node.val);
+        }
     }
+
+
+    // Prints all from Root to each Node
+    private static void traverseTreeRoot2Node(TreeNode node, Stack<TreeNode> stack, List<String> list, String path) {
+
+
+        // Step 1 - Check if node null ...Go back
+        if (node == null) {
+            return;
+        }
+
+        stack.push(node);
+        list.add(path + node.val);
+        // Step2 - Traverse Left and Right tree
+        traverseTreeRoot2Node(node.left, stack, list, path + node.val + "->");
+        traverseTreeRoot2Node(node.right, stack, list, path + node.val + "->");
+    }
+
+    /**
+     We dont need a Stack
+     ... Only need it for graphs
+
+     */
+
 
 }
