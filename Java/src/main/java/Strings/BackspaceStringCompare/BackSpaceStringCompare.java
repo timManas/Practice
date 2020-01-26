@@ -14,7 +14,7 @@ public class BackSpaceStringCompare {
 
     }
 
-    // Working Solution #2 
+    // Working Solution #2
     public static boolean backspaceCompare(String S, String T) {
         String strS = fetchString(S);
         String strT = fetchString(T);
