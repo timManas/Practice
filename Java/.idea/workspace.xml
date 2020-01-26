@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/BackspaceStringCompare/BackSpaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/BackspaceStringCompare/BackSpaceStringCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/RemovedDuplicatesFromLL/RemoveDuplicatesFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/RemovedDuplicatesFromLL/RemoveDuplicatesFromLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +220,7 @@
       <workItem from="1579649116459" duration="5104000" />
       <workItem from="1579751823515" duration="14873000" />
       <workItem from="1579908976162" duration="3703000" />
-      <workItem from="1580002119241" duration="2361000" />
+      <workItem from="1580002119241" duration="3240000" />
     </task>
     <servers />
   </component>
@@ -602,6 +602,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/BackspaceStringCompare/BackSpaceStringCompare.java</url>
           <line>48</line>
           <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/RemovedDuplicatesFromLL/RemoveDuplicatesFromLinkedList.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="327" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

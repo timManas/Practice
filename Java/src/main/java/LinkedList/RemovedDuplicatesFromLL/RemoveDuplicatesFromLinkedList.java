@@ -31,38 +31,72 @@ public class RemoveDuplicatesFromLinkedList {
 
     }
 
-
-    // Solution #1 - Traverse through LL and add to LinkedHashSet
+    // Solution #2 - Remove Linkedlist nodes in place
     public static ListNode deleteDuplicates(ListNode node) {
-        LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
 
-        int index = 0;
-        while (node != null) {
-            set.add(node.val);
-            node = node.next;
-            index++;
-        }
+        if (node == null)
+            return node;
 
-        ListNode prevNode = null;
-        ListNode startNode = null;
-        Iterator<Integer> iterator = set.iterator();
-        while (iterator.hasNext()) {
-            int number = iterator.next();
-            ListNode tempNode = new ListNode(number);
-            if (startNode == null) {
-                startNode = tempNode;
+        ListNode head = node;
+        ListNode sortedNode = node;
+        ListNode currentNode = node.next;
+
+
+        while (currentNode != null) {
+
+            if (sortedNode.val == currentNode.val) {
+                sortedNode.next = currentNode.next;
+
+                // Check if the next values are indeed special
+                if (sortedNode.val != currentNode.val) {
+                    sortedNode = currentNode.next;
+                }
             } else {
-                prevNode.next = tempNode;
+                sortedNode = currentNode;
             }
 
 
-            prevNode = tempNode;
+
+            currentNode = currentNode.next;
         }
 
 
 
-        return startNode;
+        return head;
     }
+
+
+//    // Solution #1 - Traverse through LL and add to LinkedHashSet
+//    public static ListNode deleteDuplicates(ListNode node) {
+//        LinkedHashSet<Integer> set = new LinkedHashSet<Integer>();
+//
+//        // Traverse a place in set
+//        while (node != null) {
+//            set.add(node.val);
+//            node = node.next;
+//        }
+//
+//        // Create new LinkedList with No duplicates
+//        ListNode prevNode = null;
+//        ListNode startNode = null;
+//        Iterator<Integer> iterator = set.iterator();
+//        while (iterator.hasNext()) {
+//            int number = iterator.next();
+//            ListNode tempNode = new ListNode(number);
+//            if (startNode == null) {
+//                startNode = tempNode;
+//            } else {
+//                prevNode.next = tempNode;
+//            }
+//
+//
+//            prevNode = tempNode;
+//        }
+//
+//
+//
+//        return startNode;
+//    }
 
 
 }
