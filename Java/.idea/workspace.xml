@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImplementStacksUsingQueues">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +73,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Stacks.ImplementStacksUsingQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongestPalindrome.LongestPalindrome" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.LongestPalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,20 +115,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.RepeatedString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedStringMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RepeatedStringMatch.RepeatedStringMatch" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.RepeatedStringMatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.ImplementStacksUsingQueues" />
         <item itemvalue="Application.ThirdMaximumNumber" />
         <item itemvalue="Application.NonDecreasingArray" />
         <item itemvalue="Application.RepeatedString" />
-        <item itemvalue="Application.RepeatedStringMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,7 @@
       <workItem from="1580066416859" duration="2363000" />
       <workItem from="1580093223146" duration="489000" />
       <workItem from="1580168316353" duration="10400000" />
-      <workItem from="1580255843573" duration="5132000" />
+      <workItem from="1580255843573" duration="8024000" />
     </task>
     <servers />
   </component>
@@ -656,12 +656,23 @@
           <line>30</line>
           <option name="timeStamp" value="349" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestPalindrome/LongestPalindrome.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestPalindrome/LongestPalindrome.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="currentNum" language="JAVA" />
         <watch expression="preNum" language="JAVA" />
+        <watch expression="queue.peek()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
