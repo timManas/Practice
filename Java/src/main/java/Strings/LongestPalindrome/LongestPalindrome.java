@@ -55,7 +55,7 @@ public class LongestPalindrome {
             // Add the value
             longest = longest + value;
 
-            // If value is odd, we start 
+            // If value is odd, we start
             if (value % 2 == 1) {
                 longest = longest - 1;
             }
