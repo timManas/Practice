@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongestPalindrome/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongestPalindrome/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicates/ContainsDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicates/ContainsDuplicates.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LinkedList.DeleteNodeFromLinkedList" />
       <recent name="LinkedList.RemovedDuplicatesFromLL" />
       <recent name="Trees.PathSum" />
       <recent name="Trees.BinaryTreePaths" />
       <recent name="Trees.ClosestBinarySearchTreeValue" />
-      <recent name="Trees.MaximumDepthOfBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicates">
+  <component name="RunManager" selected="Application.DeleteNodeFromLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +74,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.ContainsDuplicates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteNodeFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DeleteNodeFromLinkedList.DeleteNodeFromLinkedList" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.DeleteNodeFromLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,20 +116,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.LongestPalindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonDecreasingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.NonDecreasingArray.NonDecreasingArray" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.NonDecreasingArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNodeFromLinkedList" />
         <item itemvalue="Application.ContainsDuplicates" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.ImplementStacksUsingQueues" />
         <item itemvalue="Application.ThirdMaximumNumber" />
-        <item itemvalue="Application.NonDecreasingArray" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,8 @@
       <workItem from="1580066416859" duration="2363000" />
       <workItem from="1580093223146" duration="489000" />
       <workItem from="1580168316353" duration="10400000" />
-      <workItem from="1580255843573" duration="8498000" />
+      <workItem from="1580255843573" duration="9284000" />
+      <workItem from="1580356488159" duration="2054000" />
     </task>
     <servers />
   </component>
@@ -665,6 +667,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestPalindrome/LongestPalindrome.java</url>
           <line>42</line>
           <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromLinkedList/DeleteNodeFromLinkedList.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="356" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
