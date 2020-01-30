@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicates/ContainsDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicates/ContainsDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromLinkedList/DeleteNodeFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromLinkedList/DeleteNodeFromLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +225,7 @@
       <workItem from="1580093223146" duration="489000" />
       <workItem from="1580168316353" duration="10400000" />
       <workItem from="1580255843573" duration="9284000" />
-      <workItem from="1580356488159" duration="2054000" />
+      <workItem from="1580356488159" duration="2542000" />
     </task>
     <servers />
   </component>
@@ -670,8 +670,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/DeleteNodeFromLinkedList/DeleteNodeFromLinkedList.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="356" />
+          <line>29</line>
+          <option name="timeStamp" value="360" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
