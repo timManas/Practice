@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/AddTwoNumbers" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/AddTwoNumbers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.SymmetricTree" />
       <recent name="Trees.SameTree" />
       <recent name="LinkedList.DeleteNodeFromLinkedList" />
       <recent name="LinkedList.RemovedDuplicatesFromLL" />
       <recent name="Trees.PathSum" />
-      <recent name="Trees.BinaryTreePaths" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -62,23 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubString">
+  <component name="RunManager" selected="Application.SymmetricTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ContainsDuplicates.ContainsDuplicates" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.ContainsDuplicates.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,6 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.SymmetricTree.SymmetricTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.SymmetricTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -172,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricTree" />
         <item itemvalue="Application.LongestPalindromicSubString" />
         <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.GoatLatin" />
         <item itemvalue="Application.DeleteNodeFromLinkedList" />
-        <item itemvalue="Application.ContainsDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +226,7 @@
       <workItem from="1580255843573" duration="9284000" />
       <workItem from="1580356488159" duration="8092000" />
       <workItem from="1580442420804" duration="1226000" />
-      <workItem from="1580671974491" duration="2239000" />
+      <workItem from="1580671974491" duration="5495000" />
     </task>
     <servers />
   </component>
@@ -677,13 +674,36 @@
           <line>30</line>
           <option name="timeStamp" value="360" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SymmetricTree/SymmetricTree.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SymmetricTree/SymmetricTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SymmetricTree/SymmetricTree.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SymmetricTree/SymmetricTree.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SymmetricTree/SymmetricTree.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="currentNum" language="JAVA" />
-        <watch expression="preNum" language="JAVA" />
-        <watch expression="queue.peek()" language="JAVA" />
+        <watch expression="leftNode.left" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
