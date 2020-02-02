@@ -1,4 +1,4 @@
-package LinkedList.Medium_AddTwoNumbers;
+package LinkedList.AddTwoNumbers;
 
 public class ListNode {
     int val;

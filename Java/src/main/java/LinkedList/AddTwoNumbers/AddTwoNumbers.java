@@ -1,11 +1,7 @@
-package LinkedList.Medium_AddTwoNumbers;
+package LinkedList.AddTwoNumbers;
 
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.text.DecimalFormat;
-import java.util.Arrays;
-import java.util.Collections;
 
 
 public class AddTwoNumbers {

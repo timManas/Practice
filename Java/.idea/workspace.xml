@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/GoatLatin/GoatLatin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/GoatLatin/GoatLatin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/AddTwoNumbers" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/AddTwoNumbers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SameTree">
+  <component name="RunManager" selected="Application.LongestPalindromicSubString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -109,13 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LongestPalindrome.LongestPalindrome" />
+    <configuration name="LongestPalindromicSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongestPalindromicSubString.LongestPalindromicSubString" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.LongestPalindrome.*" />
+          <option name="PATTERN" value="Strings.LongestPalindromicSubString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubString" />
         <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.GoatLatin" />
         <item itemvalue="Application.DeleteNodeFromLinkedList" />
         <item itemvalue="Application.ContainsDuplicates" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +227,9 @@
       <workItem from="1580093223146" duration="489000" />
       <workItem from="1580168316353" duration="10400000" />
       <workItem from="1580255843573" duration="9284000" />
-      <workItem from="1580356488159" duration="6730000" />
+      <workItem from="1580356488159" duration="8092000" />
+      <workItem from="1580442420804" duration="1226000" />
+      <workItem from="1580671974491" duration="2239000" />
     </task>
     <servers />
   </component>
@@ -254,7 +258,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Medium_AddTwoNumbers/AddTwoNumbers.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/AddTwoNumbers/AddTwoNumbers.java</url>
           <line>142</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
