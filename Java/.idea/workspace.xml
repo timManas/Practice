@@ -59,20 +59,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToLowerCase">
+  <component name="RunManager" selected="Application.FindWordsThatCanBeFormedByCharacters">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoatLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.GoatLatin.GoatLatin" />
+    <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FindWordsThatCanBeFormedByCharacters.FindWordsThatCanBeFormedByCharacters" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.GoatLatin.*" />
+          <option name="PATTERN" value="Strings.FindWordsThatCanBeFormedByCharacters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.ToLowerCase" />
         <item itemvalue="Application.SymmetricTree" />
         <item itemvalue="Application.LongestPalindromicSubString" />
         <item itemvalue="Application.SameTree" />
-        <item itemvalue="Application.GoatLatin" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,7 @@
       <workItem from="1580255843573" duration="9284000" />
       <workItem from="1580356488159" duration="8092000" />
       <workItem from="1580442420804" duration="1226000" />
-      <workItem from="1580671974491" duration="6426000" />
+      <workItem from="1580671974491" duration="8513000" />
     </task>
     <servers />
   </component>
@@ -699,11 +699,19 @@
           <line>92</line>
           <option name="timeStamp" value="370" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindWordsThatCanBeFormedByCharacters/FindWordsThatCanBeFormedByCharacters.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="leftNode.left" language="JAVA" />
+        <watch expression="charMap" language="JAVA" />
+        <watch expression="charMap.containsKey(key)" language="JAVA" />
+        <watch expression="key" language="JAVA" />
+        <watch expression="charMap.get(key)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
