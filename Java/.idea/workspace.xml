@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strings/_InProgress_WordPattern/WordPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/WordPattern/WordPattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/_InProgress_WordPattern/WordPattern" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/WordPattern/WordPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/MaximumNumBalloons/MaximumNumOfBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/MaximumNumBalloons/MaximumNumOfBalloons.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordPattern">
+  <component name="RunManager" selected="Application.MaximumNumOfBalloons">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -83,13 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LongestPalindromicSubString.LongestPalindromicSubString" />
+    <configuration name="MaximumNumOfBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MaximumNumBalloons.MaximumNumOfBalloons" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.LongestPalindromicSubString.*" />
+          <option name="PATTERN" value="Strings.MaximumNumBalloons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNumOfBalloons" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.ToLowerCase" />
         <item itemvalue="Application.SymmetricTree" />
-        <item itemvalue="Application.LongestPalindromicSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +229,7 @@
       <workItem from="1580442420804" duration="1226000" />
       <workItem from="1580671974491" duration="9015000" />
       <workItem from="1580872508410" duration="4513000" />
-      <workItem from="1580959953481" duration="1135000" />
+      <workItem from="1580959953481" duration="3129000" />
     </task>
     <servers />
   </component>
@@ -713,6 +711,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/_InProgress_WordPattern/WordPattern.java</url>
           <line>37</line>
           <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/MaximumNumBalloons/MaximumNumOfBalloons.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="389" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,11 +2,14 @@ package Strings.MaximumNumBalloons;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class MaximumNumOfBalloons {
 
     public static void main(String [] args) {
-        String text = "nlaebolko";
+//        String text = "balon"; // 0
+//        String text = "loonbalxballpoon"; // 2
+        String text = "nlaebolko";      // 1
         System.out.println("MaxNumber: " + maxNumberOfBalloons(text));
     }
 
@@ -30,6 +33,32 @@ public class MaximumNumOfBalloons {
                 count = inputTextMap.get(letter) + 1;
 
             inputTextMap.put(letter, count);
+        }
+
+
+        boolean isValid = true;
+
+        int count = 0;
+        while (isValid) {
+
+            for (Map.Entry<Character, Integer> mapEntry : balloonMap.entrySet()) {
+                char balloonKey = mapEntry.getKey();
+                Integer balloonValue = mapEntry.getValue();
+
+                // If it does not contain Balloon letters -> Return
+                if (!inputTextMap.containsKey(balloonKey))
+                    return count;
+
+
+                // If count is zero or lower
+                if (inputTextMap.get(balloonKey) <= 0 || inputTextMap.get(balloonKey) < balloonValue)
+                    return count;
+
+
+                inputTextMap.put(balloonKey, inputTextMap.get(balloonKey) - balloonValue);
+//                System.out.println();
+            }
+            count++;
         }
 
         return 0;
