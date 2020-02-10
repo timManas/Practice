@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.DiameterOfBinaryTree" />
       <recent name="Trees.SymmetricTree" />
       <recent name="Trees.SameTree" />
       <recent name="LinkedList.DeleteNodeFromLinkedList" />
       <recent name="LinkedList.RemovedDuplicatesFromLL" />
-      <recent name="Trees.PathSum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesignHashSet">
+  <component name="RunManager" selected="Application.DiameterBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.FindWordsThatCanBeFormedByCharacters.FindWordsThatCanBeFormedByCharacters" />
+    <configuration name="DiameterBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.DiameterOfBinaryTree.DiameterBinaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.FindWordsThatCanBeFormedByCharacters.*" />
+          <option name="PATTERN" value="Trees.DiameterOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterBinaryTree" />
         <item itemvalue="Application.DesignHashSet" />
         <item itemvalue="Application.ReverseVowels" />
         <item itemvalue="Application.MaximumNumOfBalloons" />
         <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +229,8 @@
       <workItem from="1580671974491" duration="9015000" />
       <workItem from="1580872508410" duration="4513000" />
       <workItem from="1580959953481" duration="3741000" />
-      <workItem from="1581047104845" duration="3492000" />
+      <workItem from="1581047104845" duration="4082000" />
+      <workItem from="1581296461384" duration="1586000" />
     </task>
     <servers />
   </component>
@@ -717,11 +718,16 @@
           <line>58</line>
           <option name="timeStamp" value="389" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sets/DesignHashSet/MyHashSet.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="pattern.charAt(patternIndex)" language="JAVA" />
+        <watch expression="numList.remove(key)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
