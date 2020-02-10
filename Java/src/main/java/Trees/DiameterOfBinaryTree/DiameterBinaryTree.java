@@ -49,3 +49,10 @@ public class DiameterBinaryTree {
 
 
 }
+
+/**
+ Notes
+ - We use a global variable to keep track of the count
+ - Every time the max is smaller than the largestDiameter (aka global) -> We set it it to the max
+ - We incremenet the maxDiameter + 1, to include the current diameter after it has finished processing the children
+ */
