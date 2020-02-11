@@ -13,9 +13,9 @@ public class MinimumDepthOfBinaryTree {
         TreeNode treeNode6 = new TreeNode(0);
 
         treeNode1.left = treeNode2;
-//        treeNode1.right = treeNode3;
-//        treeNode3.left = treeNode4;
-//        treeNode3.right = treeNode5;
+        treeNode1.right = treeNode3;
+        treeNode3.left = treeNode4;
+        treeNode3.right = treeNode5;
 
         System.out.println("MinDepth: " + minDepth(treeNode1));
 
@@ -29,9 +29,12 @@ public class MinimumDepthOfBinaryTree {
         if (root == null)
             return 0;
 
+        System.out.println(root.val);
         // Step 2 - Find left and right Depth
         int leftDepth = findMinDepth(root.left);
         int rightDepth = findMinDepth(root.right);
+
+        // Note at this point - We are technically going back to the Parent Node
 
         // Step 3 - If left or Right is 0 (i.e Node is null) then we take the largerst one since it is NOT a leaf node
         if (leftDepth == 0 || rightDepth == 0) {

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.LowestCommonAncestorBinaryTree" />
       <recent name="Trees.MinimumDepthOfBinaryTree" />
       <recent name="Trees.DiameterOfBinaryTree" />
       <recent name="Trees.SymmetricTree" />
       <recent name="Trees.SameTree" />
-      <recent name="LinkedList.DeleteNodeFromLinkedList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -231,7 +232,8 @@
       <workItem from="1580959953481" duration="3741000" />
       <workItem from="1581047104845" duration="4082000" />
       <workItem from="1581296461384" duration="2425000" />
-      <workItem from="1581379646190" duration="2321000" />
+      <workItem from="1581379646190" duration="3836000" />
+      <workItem from="1581464135194" duration="432000" />
     </task>
     <servers />
   </component>
@@ -726,18 +728,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="392" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
-          <line>42</line>
+          <line>45</line>
           <option name="timeStamp" value="393" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="394" />
+          <line>40</line>
+          <option name="timeStamp" value="395" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
