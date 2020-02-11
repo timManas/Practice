@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DiameterOfBinaryTree/DiameterBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DiameterOfBinaryTree/DiameterBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.MinimumDepthOfBinaryTree" />
       <recent name="Trees.DiameterOfBinaryTree" />
       <recent name="Trees.SymmetricTree" />
       <recent name="Trees.SameTree" />
       <recent name="LinkedList.DeleteNodeFromLinkedList" />
-      <recent name="LinkedList.RemovedDuplicatesFromLL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterBinaryTree">
+  <component name="RunManager" selected="Application.MinimumDepthOfBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -108,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseVowels.ReverseVowels" />
+    <configuration name="MinimumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MinimumDepthOfBinaryTree.MinimumDepthOfBinaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReverseVowels.*" />
+          <option name="PATTERN" value="Trees.MinimumDepthOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings._InProgress_WordPattern.WordPattern" />
+    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseVowels.ReverseVowels" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings._InProgress_WordPattern.*" />
+          <option name="PATTERN" value="Strings.ReverseVowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumDepthOfBinaryTree" />
         <item itemvalue="Application.DiameterBinaryTree" />
         <item itemvalue="Application.DesignHashSet" />
         <item itemvalue="Application.ReverseVowels" />
         <item itemvalue="Application.MaximumNumOfBalloons" />
-        <item itemvalue="Application.WordPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +230,8 @@
       <workItem from="1580872508410" duration="4513000" />
       <workItem from="1580959953481" duration="3741000" />
       <workItem from="1581047104845" duration="4082000" />
-      <workItem from="1581296461384" duration="1906000" />
+      <workItem from="1581296461384" duration="2425000" />
+      <workItem from="1581379646190" duration="2321000" />
     </task>
     <servers />
   </component>
@@ -722,6 +723,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Sets/DesignHashSet/MyHashSet.java</url>
           <line>25</line>
           <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="394" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
