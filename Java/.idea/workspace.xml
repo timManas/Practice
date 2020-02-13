@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.ConvertArray2BinaryTree" />
       <recent name="Trees.LowestCommonAncestorBinaryTree" />
       <recent name="Trees.MinimumDepthOfBinaryTree" />
       <recent name="Trees.DiameterOfBinaryTree" />
       <recent name="Trees.SymmetricTree" />
-      <recent name="Trees.SameTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -233,7 +233,9 @@
       <workItem from="1581047104845" duration="4082000" />
       <workItem from="1581296461384" duration="2425000" />
       <workItem from="1581379646190" duration="3836000" />
-      <workItem from="1581464135194" duration="1685000" />
+      <workItem from="1581464135194" duration="2020000" />
+      <workItem from="1581487069102" duration="496000" />
+      <workItem from="1581567340479" duration="774000" />
     </task>
     <servers />
   </component>

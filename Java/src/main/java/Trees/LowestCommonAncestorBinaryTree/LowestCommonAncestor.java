@@ -61,7 +61,7 @@ public class LowestCommonAncestor {
  - The reason this works is because the structure is a binary tree
  - This allows us to determine if its gonna be on the left or right subtree
  - We assume all the values are there
- 
+
 
 
  Algorithm
