@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/LowestCommonAncestorBinaryTree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/LowestCommonAncestorBinaryTree/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConvertArray2BinaryTree/ConvertArray2BinaryTree" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConvertArray2BinaryTree/ConvertArray2BinaryTree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConvertArray2BinaryTree/ConvertArray2BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConvertArray2BinaryTree/ConvertArray2BinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +61,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestor">
+  <component name="RunManager" selected="Application.ConvertArray2BinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertArray2BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.ConvertArray2BinaryTree.ConvertArray2BinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.ConvertArray2BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,20 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseVowels.ReverseVowels" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.ReverseVowels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertArray2BinaryTree" />
         <item itemvalue="Application.LowestCommonAncestor" />
         <item itemvalue="Application.MinimumDepthOfBinaryTree" />
         <item itemvalue="Application.DiameterBinaryTree" />
         <item itemvalue="Application.DesignHashSet" />
-        <item itemvalue="Application.ReverseVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,7 @@
       <workItem from="1581379646190" duration="3836000" />
       <workItem from="1581464135194" duration="2020000" />
       <workItem from="1581487069102" duration="496000" />
-      <workItem from="1581567340479" duration="774000" />
+      <workItem from="1581567340479" duration="5084000" />
     </task>
     <servers />
   </component>
@@ -757,7 +758,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="numList.remove(key)" language="JAVA" />
+        <watch expression="(nums.length / 2) - 1" language="JAVA" />
+        <watch expression="(nums.length - 1) / 2" language="JAVA" />
+        <watch expression="(nums.length + 1) / 2" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
