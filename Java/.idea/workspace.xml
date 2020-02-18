@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/RangeSumBst/RangeSumBST" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/RangeSumBst/RangeSumBST" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BalancedBinaryTree" />
       <recent name="Trees.RangeSumBst" />
       <recent name="Trees.ConvertArray2BinaryTree" />
       <recent name="Trees.LowestCommonAncestorBinaryTree" />
       <recent name="Trees.MinimumDepthOfBinaryTree" />
-      <recent name="Trees.DiameterOfBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RangeSumBST">
+  <component name="RunManager" selected="Application.BalancedBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BalancedBinaryTree.BalancedBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.BalancedBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,20 +88,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.ConvertArray2BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiameterBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.DiameterOfBinaryTree.DiameterBinaryTree" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.DiameterOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.RangeSumBST" />
         <item itemvalue="Application.ConvertArray2BinaryTree" />
         <item itemvalue="Application.LowestCommonAncestor" />
         <item itemvalue="Application.MinimumDepthOfBinaryTree" />
-        <item itemvalue="Application.DiameterBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,9 @@
       <workItem from="1581464135194" duration="2020000" />
       <workItem from="1581487069102" duration="496000" />
       <workItem from="1581567340479" duration="5743000" />
-      <workItem from="1581638205390" duration="2434000" />
+      <workItem from="1581638205390" duration="3096000" />
+      <workItem from="1581658854010" duration="243000" />
+      <workItem from="1582044818550" duration="3055000" />
     </task>
     <servers />
   </component>
