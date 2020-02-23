@@ -13,31 +13,32 @@ public class ClosestBinarySearchTreeValue {
         TreeNode treeNode5 = new TreeNode(3);
 
 
-        treeNode1.left = treeNode2;
-        treeNode1.right = treeNode3;
-        treeNode2.left = treeNode4;
-        treeNode2.right = treeNode5;
+//        treeNode1.left = treeNode2;
+//        treeNode1.right = treeNode3;
+//        treeNode2.left = treeNode4;
+//        treeNode2.right = treeNode5;
 
-        double target = 3.714286;
+//        double target = 3.714286;
+        double target = 2147483648.0;
         System.out.println("ClosestValue: " + closestValue(treeNode1, target));
 
     }
 
     public static int closestValue(TreeNode node, double target) {
-        int closestVal = 0;
+        int closestVal = node.val;
         List<Integer> list = new ArrayList<Integer>();
         createList(node, list);
         System.out.println("List: " + list );
 
-        int smallest = -1;
-        int largest = -1;
-        for (int i=1; i < list.size(); i++) {
-            int preValue = list.get(i - 1);
+
+        for (int i=0; i < list.size(); i++) {
             int currentValue = list.get(i);
-            
+
+            if (Math.abs(currentValue - target) < Math.abs(closestVal - target)) {
+                closestVal = currentValue;
+            }
         }
 
-        closestVal = Math.min(smallest, largest);
 
         return closestVal;
     }
@@ -50,9 +51,6 @@ public class ClosestBinarySearchTreeValue {
         createList(node.left, list);
         list.add(node.val);
         createList(node.right, list);
-
-
-
     }
 
 
