@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumStepsReduceToZero">
+  <component name="RunManager" selected="Application.NumSmallerThanCurrentNum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.FibonacciNumbers.FibNumbers" />
+    <configuration name="NumSmallerThanCurrentNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.NumSmallerThanCurrentNum.NumSmallerThanCurrentNum" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.FibonacciNumbers.*" />
+          <option name="PATTERN" value="Lists.NumSmallerThanCurrentNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumSmallerThanCurrentNum" />
         <item itemvalue="Application.NumStepsReduceToZero" />
         <item itemvalue="Application.RemoveVowelsFromStrings" />
         <item itemvalue="Application.SquaresOfSortedArray" />
         <item itemvalue="Application.ContainDuplicatesII" />
-        <item itemvalue="Application.FibNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="5201000" />
+      <workItem from="1583379485438" duration="8961000" />
     </task>
     <servers />
   </component>
@@ -788,6 +788,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java</url>
           <line>35</line>
           <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/NumSmallerThanCurrentNum/NumSmallerThanCurrentNum.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/NumSmallerThanCurrentNum/NumSmallerThanCurrentNum.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="405" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
