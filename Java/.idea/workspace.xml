@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainDuplicatesII">
+  <component name="RunManager" selected="Application.SquaresOfSortedArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -123,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.RangeSumBst.RangeSumBST" />
+    <configuration name="SquaresOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SquaresOfSortedArray.SquaresOfSortedArray" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.RangeSumBst.*" />
+          <option name="PATTERN" value="Lists.SquaresOfSortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquaresOfSortedArray" />
         <item itemvalue="Application.ContainDuplicatesII" />
         <item itemvalue="Application.FibNumbers" />
         <item itemvalue="Application.ClosestBinarySearchTreeValue" />
         <item itemvalue="Application.BalancedBinaryTree" />
-        <item itemvalue="Application.RangeSumBST" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="2627000" />
+      <workItem from="1583379485438" duration="3883000" />
     </task>
     <servers />
   </component>
