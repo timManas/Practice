@@ -59,20 +59,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumSmallerThanCurrentNum">
+  <component name="RunManager" selected="Application.DecompressList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainDuplicatesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ContainsDuplicatesII.ContainDuplicatesII" />
+    <configuration name="DecompressList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.DecompressList.DecompressList" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.ContainsDuplicatesII.*" />
+          <option name="PATTERN" value="Math.DecompressList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecompressList" />
         <item itemvalue="Application.NumSmallerThanCurrentNum" />
         <item itemvalue="Application.NumStepsReduceToZero" />
         <item itemvalue="Application.RemoveVowelsFromStrings" />
         <item itemvalue="Application.SquaresOfSortedArray" />
-        <item itemvalue="Application.ContainDuplicatesII" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="8961000" />
+      <workItem from="1583379485438" duration="10139000" />
     </task>
     <servers />
   </component>
