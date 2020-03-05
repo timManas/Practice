@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ImplementStrStr/ImplementStrStr" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ImplementStrStr/ImplementStrStr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +257,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="1281000" />
+      <workItem from="1583379485438" duration="2627000" />
     </task>
     <servers />
   </component>
@@ -787,8 +787,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/ContainsDuplicatesII/ContainDuplicatesII.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="401" />
+          <line>35</line>
+          <option name="timeStamp" value="402" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -797,6 +797,7 @@
         <watch expression="(nums.length / 2) - 1" language="JAVA" />
         <watch expression="(nums.length - 1) / 2" language="JAVA" />
         <watch expression="(nums.length + 1) / 2" language="JAVA" />
+        <watch expression="i + k" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
