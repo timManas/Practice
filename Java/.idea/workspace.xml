@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/DecompressList/DecompressList" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/DecompressList/DecompressList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/DecompressList/DecompressList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/DecompressList/DecompressList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +258,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="10139000" />
+      <workItem from="1583379485438" duration="10814000" />
     </task>
     <servers />
   </component>

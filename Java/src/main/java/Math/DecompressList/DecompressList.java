@@ -27,7 +27,7 @@ public class DecompressList {
                 list.add(repChar);
             }
         }
-        
+
         // Convert to int [] array
         int [] arr = new int[list.size()];
         for (int i=0; i < list.size(); i++) {
