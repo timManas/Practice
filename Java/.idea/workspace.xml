@@ -59,23 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveVowelsFromStrings">
+  <component name="RunManager" selected="Application.NumStepsReduceToZero">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClosestBinarySearchTreeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.ClosestBinarySearchValue.ClosestBinarySearchTreeValue" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.ClosestBinarySearchValue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +87,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.FibonacciNumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumStepsReduceToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.NumStepsReduceToZero.NumStepsReduceToZero" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.NumStepsReduceToZero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumStepsReduceToZero" />
         <item itemvalue="Application.RemoveVowelsFromStrings" />
         <item itemvalue="Application.SquaresOfSortedArray" />
         <item itemvalue="Application.ContainDuplicatesII" />
         <item itemvalue="Application.FibNumbers" />
-        <item itemvalue="Application.ClosestBinarySearchTreeValue" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="4720000" />
+      <workItem from="1583379485438" duration="5201000" />
     </task>
     <servers />
   </component>
