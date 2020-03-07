@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JewelsAndStones">
+  <component name="RunManager" selected="Application.FindEvenNumberDigits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +73,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.DecompressList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindEvenNumberDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FindEvenNumberDigits.FindEvenNumberDigits" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.FindEvenNumberDigits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveVowelsFromStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RemoveVowelsFromStrings.RemoveVowelsFromStrings" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.RemoveVowelsFromStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindEvenNumberDigits" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.DecompressList" />
         <item itemvalue="Application.NumSmallerThanCurrentNum" />
         <item itemvalue="Application.NumStepsReduceToZero" />
-        <item itemvalue="Application.RemoveVowelsFromStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="11454000" />
+      <workItem from="1583379485438" duration="12293000" />
     </task>
     <servers />
   </component>
