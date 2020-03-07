@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubractProductAndSum">
+  <component name="RunManager" selected="Application.SingleRowKeyboard">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -108,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumSmallerThanCurrentNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.NumSmallerThanCurrentNum.NumSmallerThanCurrentNum" />
+    <configuration name="SingleRowKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SingleRowKeyboard.SingleRowKeyboard" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.NumSmallerThanCurrentNum.*" />
+          <option name="PATTERN" value="Lists.SingleRowKeyboard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleRowKeyboard" />
         <item itemvalue="Application.SubractProductAndSum" />
         <item itemvalue="Application.FindEvenNumberDigits" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.DecompressList" />
-        <item itemvalue="Application.NumSmallerThanCurrentNum" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="13139000" />
+      <workItem from="1583379485438" duration="14763000" />
     </task>
     <servers />
   </component>
@@ -798,6 +798,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/NumSmallerThanCurrentNum/NumSmallerThanCurrentNum.java</url>
           <line>29</line>
           <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SubractProductAndSum/SubractProductAndSum.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="407" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
