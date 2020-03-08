@@ -59,23 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleRowKeyboard">
+  <component name="RunManager" selected="Application.SplitAStringInBalancedStrings">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecompressList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.DecompressList.DecompressList" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.DecompressList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +101,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.SingleRowKeyboard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitAStringInBalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.SplitAStringInBalancedStrings.SplitAStringInBalancedStrings" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.SplitAStringInBalancedStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitAStringInBalancedStrings" />
         <item itemvalue="Application.SingleRowKeyboard" />
         <item itemvalue="Application.SubractProductAndSum" />
         <item itemvalue="Application.FindEvenNumberDigits" />
         <item itemvalue="Application.JewelsAndStones" />
-        <item itemvalue="Application.DecompressList" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,9 @@
       <workItem from="1583208585202" duration="595000" />
       <workItem from="1583279888082" duration="1936000" />
       <workItem from="1583329912846" duration="410000" />
-      <workItem from="1583379485438" duration="14763000" />
+      <workItem from="1583379485438" duration="15263000" />
+      <workItem from="1583629844418" duration="598000" />
+      <workItem from="1583692192121" duration="2664000" />
     </task>
     <servers />
   </component>
@@ -803,6 +805,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/SubractProductAndSum/SubractProductAndSum.java</url>
           <line>30</line>
           <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SplitAStringInBalancedStrings/SplitAStringInBalancedStrings.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SplitAStringInBalancedStrings/SplitAStringInBalancedStrings.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="410" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
