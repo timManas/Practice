@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertBinaryNum2Integer">
+  <component name="RunManager" selected="Application.CountNegativeNumbersInSortedMatrix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +73,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.ConvertBinaryNum2Integer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountNegativeNumbersInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CountNegativeNumbersInSortedMatrix.CountNegativeNumbersInSortedMatrix" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.CountNegativeNumbersInSortedMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubractProductAndSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.SubractProductAndSum.SubractProductAndSum" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.SubractProductAndSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNegativeNumbersInSortedMatrix" />
         <item itemvalue="Application.ConvertBinaryNum2Integer" />
         <item itemvalue="Application.FindAnagramMappings" />
         <item itemvalue="Application.SplitAStringInBalancedStrings" />
         <item itemvalue="Application.SingleRowKeyboard" />
-        <item itemvalue="Application.SubractProductAndSum" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1583329912846" duration="410000" />
       <workItem from="1583379485438" duration="15263000" />
       <workItem from="1583629844418" duration="598000" />
-      <workItem from="1583692192121" duration="4889000" />
+      <workItem from="1583692192121" duration="5717000" />
     </task>
     <servers />
   </component>
