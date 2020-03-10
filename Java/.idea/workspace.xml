@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/GenerateStringWithCharactersOddCounts/GenerateStringWithCharactersOddCounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/GenerateStringWithCharactersOddCounts/GenerateStringWithCharactersOddCounts.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenerateStringWithCharactersOddCounts">
+  <component name="RunManager" selected="Application.CountSubStringsWithOneDistinctLetter">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,13 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNegativeNumbersInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CountNegativeNumbersInSortedMatrix.CountNegativeNumbersInSortedMatrix" />
+    <configuration name="CountSubStringsWithOneDistinctLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountSubStringsWithOneDistinctLetter.CountSubStringsWithOneDistinctLetter" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.CountNegativeNumbersInSortedMatrix.*" />
+          <option name="PATTERN" value="Lists.CountSubStringsWithOneDistinctLetter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSubStringsWithOneDistinctLetter" />
         <item itemvalue="Application.GenerateStringWithCharactersOddCounts" />
         <item itemvalue="Application.ReplaceElementsWithGreatestElementOnRight" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.Maximum69" />
-        <item itemvalue="Application.CountNegativeNumbersInSortedMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,8 @@
       <workItem from="1583329912846" duration="410000" />
       <workItem from="1583379485438" duration="15263000" />
       <workItem from="1583629844418" duration="598000" />
-      <workItem from="1583692192121" duration="15639000" />
+      <workItem from="1583692192121" duration="16184000" />
+      <workItem from="1583880903316" duration="1661000" />
     </task>
     <servers />
   </component>
@@ -835,6 +837,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/GenerateStringWithCharactersOddCounts/GenerateStringWithCharactersOddCounts.java</url>
           <line>21</line>
           <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountSubStringsWithOneDistinctLetter/CountSubStringsWithOneDistinctLetter.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="432" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -40,7 +40,7 @@ public class GenerateStringWithCharactersOddCounts {
             sb.append(++letter);
         }
 
-        
+
         return sb.toString();
     }
 
