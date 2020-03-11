@@ -49,5 +49,5 @@ public class CountSubStringsWithOneDistinctLetter {
  - Another point to traverse from pointer 1 till the End of the String
     OR
     Till the set has multiple values (therefore not distinct) anymore
- 
+
  */
