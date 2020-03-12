@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindNUniqueIntergersSumToZero">
+  <component name="RunManager" selected="Application.UniqueMorseCode">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -123,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceElementsWithGreatestElementOnRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ReplaceElementsWithGreatestElementOnRight.ReplaceElementsWithGreatestElementOnRight" />
+    <configuration name="UniqueMorseCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.UniqueMorseCode.UniqueMorseCode" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.ReplaceElementsWithGreatestElementOnRight.*" />
+          <option name="PATTERN" value="Strings.UniqueMorseCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueMorseCode" />
         <item itemvalue="Application.FindNUniqueIntergersSumToZero" />
         <item itemvalue="Application.DecryptStringFromAlphabetToIntMapping" />
         <item itemvalue="Application.CountSubStringsWithOneDistinctLetter" />
         <item itemvalue="Application.GenerateStringWithCharactersOddCounts" />
-        <item itemvalue="Application.ReplaceElementsWithGreatestElementOnRight" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,7 @@
       <workItem from="1583629844418" duration="598000" />
       <workItem from="1583692192121" duration="16184000" />
       <workItem from="1583880903316" duration="7571000" />
-      <workItem from="1583982550617" duration="1186000" />
+      <workItem from="1583982550617" duration="2521000" />
     </task>
     <servers />
   </component>
