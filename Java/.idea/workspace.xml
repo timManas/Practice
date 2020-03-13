@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UniqueMorseCode">
+  <component name="RunManager" selected="Application.SelfDividingNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -108,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateStringWithCharactersOddCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.GenerateStringWithCharactersOddCounts.GenerateStringWithCharactersOddCounts" />
+    <configuration name="SelfDividingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.SelfDividingNumber.SelfDividingNumber" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.GenerateStringWithCharactersOddCounts.*" />
+          <option name="PATTERN" value="Math.SelfDividingNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelfDividingNumber" />
         <item itemvalue="Application.UniqueMorseCode" />
         <item itemvalue="Application.FindNUniqueIntergersSumToZero" />
         <item itemvalue="Application.DecryptStringFromAlphabetToIntMapping" />
         <item itemvalue="Application.CountSubStringsWithOneDistinctLetter" />
-        <item itemvalue="Application.GenerateStringWithCharactersOddCounts" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,7 @@
       <workItem from="1583629844418" duration="598000" />
       <workItem from="1583692192121" duration="16184000" />
       <workItem from="1583880903316" duration="7571000" />
-      <workItem from="1583982550617" duration="2521000" />
+      <workItem from="1583982550617" duration="4259000" />
     </task>
     <servers />
   </component>
@@ -863,6 +863,11 @@
           <line>32</line>
           <option name="timeStamp" value="442" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SelfDividingNumber/SelfDividingNumber.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -872,6 +877,9 @@
         <watch expression="(nums.length + 1) / 2" language="JAVA" />
         <watch expression="i + k" language="JAVA" />
         <watch expression="(char) 99" language="JAVA" />
+        <watch expression="count % Integer.valueOf(letter)" language="JAVA" />
+        <watch expression="Integer.parseInt(String.valueOf(letter))" language="JAVA" />
+        <watch expression="count % number" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
