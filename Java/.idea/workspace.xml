@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.MergeTwoBinaryTree" />
       <recent name="Trees.ClosestBinarySearchValue" />
       <recent name="Trees.BalancedBinaryTree" />
       <recent name="Trees.RangeSumBst" />
       <recent name="Trees.ConvertArray2BinaryTree" />
-      <recent name="Trees.LowestCommonAncestorBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -263,7 +262,9 @@
       <workItem from="1583880903316" duration="7571000" />
       <workItem from="1583982550617" duration="4938000" />
       <workItem from="1584133535120" duration="2898000" />
-      <workItem from="1584294565796" duration="940000" />
+      <workItem from="1584294565796" duration="1478000" />
+      <workItem from="1584315995103" duration="1067000" />
+      <workItem from="1584396164961" duration="657000" />
     </task>
     <servers />
   </component>
