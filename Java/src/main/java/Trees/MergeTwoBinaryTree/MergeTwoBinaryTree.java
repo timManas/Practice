@@ -37,7 +37,7 @@ public class MergeTwoBinaryTree {
     public static TreeNode mergeTrees(TreeNode node1, TreeNode node2) {
 
 
-
+        return null;
     }
 
 }

@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOfDigits">
+  <component name="RunManager" selected="Application.UniqueNumOfOccurences">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -122,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueMorseCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.UniqueMorseCode.UniqueMorseCode" />
+    <configuration name="UniqueNumOfOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.UniqueNumOfOccurences.UniqueNumOfOccurences" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.UniqueMorseCode.*" />
+          <option name="PATTERN" value="Lists.UniqueNumOfOccurences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueNumOfOccurences" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.RobotReturnToOrigin" />
         <item itemvalue="Application.NRepeatedElement" />
         <item itemvalue="Application.SelfDividingNumber" />
-        <item itemvalue="Application.UniqueMorseCode" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,8 @@
       <workItem from="1584133535120" duration="2898000" />
       <workItem from="1584294565796" duration="1478000" />
       <workItem from="1584315995103" duration="1067000" />
-      <workItem from="1584396164961" duration="657000" />
+      <workItem from="1584396164961" duration="1283000" />
+      <workItem from="1584483323554" duration="1071000" />
     </task>
     <servers />
   </component>
