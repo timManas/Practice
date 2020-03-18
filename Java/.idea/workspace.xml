@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UniqueNumOfOccurences">
+  <component name="RunManager" selected="Application.MergeTwoBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MergeTwoBinaryTree.MergeTwoBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.MergeTwoBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,20 +102,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.RobotReturnToOrigin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelfDividingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.SelfDividingNumber.SelfDividingNumber" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.SelfDividingNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoBinaryTree" />
         <item itemvalue="Application.UniqueNumOfOccurences" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.RobotReturnToOrigin" />
         <item itemvalue="Application.NRepeatedElement" />
-        <item itemvalue="Application.SelfDividingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +266,7 @@
       <workItem from="1584294565796" duration="1478000" />
       <workItem from="1584315995103" duration="1067000" />
       <workItem from="1584396164961" duration="1283000" />
-      <workItem from="1584483323554" duration="1071000" />
+      <workItem from="1584483323554" duration="4018000" />
     </task>
     <servers />
   </component>
@@ -872,6 +873,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/SelfDividingNumber/SelfDividingNumber.java</url>
           <line>30</line>
           <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="445" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

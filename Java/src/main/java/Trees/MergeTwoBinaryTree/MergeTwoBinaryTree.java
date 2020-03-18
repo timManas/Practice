@@ -26,18 +26,52 @@ public class MergeTwoBinaryTree {
         treeNode33.right = treeNode55;
 
         TreeNode result = mergeTrees(treeNode1, treeNode11);
-//        while (result != null) {
-//            System.out.println(result.left);
-//            System.out.println(result.val);
-//            System.out.println(result.right);
-//        }
+        System.out.println("Need to debug to see the results faster: ");
 
     }
 
     public static TreeNode mergeTrees(TreeNode node1, TreeNode node2) {
 
+        // Step1 - Check for null values
+        //Check if node1 is null
+        if (node1 == null)
+            return node2;
 
-        return null;
+        if (node2 == null)
+            return node1;
+
+        // Step2 - Set val, left and right
+        // At this point, Both node1 and node2 are NOT NULL
+        node1.val += node2.val;
+        node1.left = mergeTrees(node1.left, node2.left);
+        node1.right = mergeTrees(node1.right, node2.right);
+
+        // Return the first node
+        return node1;
     }
 
 }
+
+/**
+
+ HIT LEAVES FIRST THEN WORK TO THE PARENT
+
+ Solution:
+ - Use depth first search
+ Step by Step
+ 1. Check if node1 or node2 are null, if one is null, return the other
+    Why ? Because 1. We need to return a treeNode
+ 2. Set the val, left and right node
+ 3. Return node1 or node2
+
+
+ Note:
+ - We can return node1 or node2 but we need to add the proper value
+    > In this case, we are returning node1 since we are doing node1.val += node2.val
+ - We traverse to the VERY END FIRST THEN WORK BACKWARDS FROM THERE
+    > Hit the leaves first since that will the first to return
+        > Dont believe me ? Set a break point in the if statements and those will be hit first
+
+
+
+ */
