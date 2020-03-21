@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayPartition">
+  <component name="RunManager" selected="Application.NaryTreePostorderTraversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -94,13 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotReturnToOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.RobotReturnToOrigin.RobotReturnToOrigin" />
+    <configuration name="NaryTreePostorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePostorderTraversal.NaryTreePostorderTraversal" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.RobotReturnToOrigin.*" />
+          <option name="PATTERN" value="Trees.NaryTreePostorderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaryTreePostorderTraversal" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.MergeTwoBinaryTree" />
         <item itemvalue="Application.UniqueNumOfOccurences" />
         <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.RobotReturnToOrigin" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +266,9 @@
       <workItem from="1584315995103" duration="1067000" />
       <workItem from="1584396164961" duration="1283000" />
       <workItem from="1584483323554" duration="5100000" />
-      <workItem from="1584654997671" duration="1925000" />
+      <workItem from="1584654997671" duration="2680000" />
+      <workItem from="1584763387951" duration="96000" />
+      <workItem from="1584818220146" duration="1543000" />
     </task>
     <servers />
   </component>
@@ -893,6 +895,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java</url>
           <line>40</line>
           <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ArrayPartition/ArrayPartition.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/NaryTreePostorderTraversal/NaryTreePostorderTraversal.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/NaryTreePostorderTraversal/NaryTreePostorderTraversal.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="451" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
