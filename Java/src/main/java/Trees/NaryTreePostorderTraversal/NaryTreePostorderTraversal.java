@@ -41,22 +41,37 @@ public class NaryTreePostorderTraversal {
 
     private static List<Integer> traverseNodes(Node node, List<Integer> list) {
 
+        // Step1 - Check if node is null
         if (node == null)
             return null;
 
+        // Step2 - Check if node has children
+        // If not, then node is leaf and add to list
         List<Node> nodeList = node.children;
         if (nodeList == null) {
             list.add(node.val);
             return list;
         }
 
-
+        // Step3 - Traverse all the child node leaves first
         for (Node childNode : nodeList) {
             traverseNodes(childNode, list);
         }
+
+        // Ste-4 - Finally add the parent node
         list.add(node.val);
 
 
         return list;
     }
 }
+
+/**
+ Solution
+ 1. Remember Post order requires the left or right to be traversed first before naming the current value
+    > Using this fact, we place the "list.add" after the for loop  which traverses all the child nodes
+
+
+
+
+ */
