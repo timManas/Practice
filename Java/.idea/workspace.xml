@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/NaryTreePostorderTraversal/NaryTreePostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/NaryTreePostorderTraversal/NaryTreePostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.NaryTreePreorderTraversal" />
       <recent name="Trees.MergeTwoBinaryTree" />
       <recent name="Trees.ClosestBinarySearchValue" />
       <recent name="Trees.BalancedBinaryTree" />
       <recent name="Trees.RangeSumBst" />
-      <recent name="Trees.ConvertArray2BinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NaryTreePostorderTraversal">
+  <component name="RunManager" selected="Application.NaryTreePreorderTraversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -108,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.SumOfDigits.SumOfDigits" />
+    <configuration name="NaryTreePreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderTraversal.NaryTreePreorderTraversal" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.SumOfDigits.*" />
+          <option name="PATTERN" value="Trees.NaryTreePreorderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaryTreePreorderTraversal" />
         <item itemvalue="Application.NaryTreePostorderTraversal" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.MergeTwoBinaryTree" />
         <item itemvalue="Application.UniqueNumOfOccurences" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,7 @@
       <workItem from="1584483323554" duration="5100000" />
       <workItem from="1584654997671" duration="2680000" />
       <workItem from="1584763387951" duration="96000" />
-      <workItem from="1584818220146" duration="2002000" />
+      <workItem from="1584818220146" duration="2594000" />
     </task>
     <servers />
   </component>
