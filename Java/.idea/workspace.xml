@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.SearchInABinaryTree" />
       <recent name="Trees.NaryTreePreorderTraversal" />
       <recent name="Trees.MergeTwoBinaryTree" />
       <recent name="Trees.ClosestBinarySearchValue" />
       <recent name="Trees.BalancedBinaryTree" />
-      <recent name="Trees.RangeSumBst" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NaryTreePreorderTraversal">
+  <component name="RunManager" selected="Application.SearchInABinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -122,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNumOfOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.UniqueNumOfOccurences.UniqueNumOfOccurences" />
+    <configuration name="SearchInABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.SearchInABinaryTree.SearchInABinaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.UniqueNumOfOccurences.*" />
+          <option name="PATTERN" value="Trees.SearchInABinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInABinaryTree" />
         <item itemvalue="Application.NaryTreePreorderTraversal" />
         <item itemvalue="Application.NaryTreePostorderTraversal" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.MergeTwoBinaryTree" />
-        <item itemvalue="Application.UniqueNumOfOccurences" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,9 @@
       <workItem from="1584483323554" duration="5100000" />
       <workItem from="1584654997671" duration="2680000" />
       <workItem from="1584763387951" duration="96000" />
-      <workItem from="1584818220146" duration="2594000" />
+      <workItem from="1584818220146" duration="3102000" />
+      <workItem from="1584896637603" duration="502000" />
+      <workItem from="1585001328306" duration="1295000" />
     </task>
     <servers />
   </component>
@@ -910,6 +912,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/NaryTreePostorderTraversal/NaryTreePostorderTraversal.java</url>
           <line>56</line>
           <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SearchInABinaryTree/SearchInABinaryTree.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="452" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
