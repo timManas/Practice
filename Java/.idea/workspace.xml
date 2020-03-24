@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.MaxDepthNaryTree" />
       <recent name="Trees.SearchInABinaryTree" />
       <recent name="Trees.NaryTreePreorderTraversal" />
       <recent name="Trees.MergeTwoBinaryTree" />
       <recent name="Trees.ClosestBinarySearchValue" />
-      <recent name="Trees.BalancedBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchInABinaryTree">
+  <component name="RunManager" selected="Application.MaxDepthNaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MergeTwoBinaryTree.MergeTwoBinaryTree" />
+    <configuration name="MaxDepthNaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MaxDepthNaryTree.MaxDepthNaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.MergeTwoBinaryTree.*" />
+          <option name="PATTERN" value="Trees.MaxDepthNaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxDepthNaryTree" />
         <item itemvalue="Application.SearchInABinaryTree" />
         <item itemvalue="Application.NaryTreePreorderTraversal" />
         <item itemvalue="Application.NaryTreePostorderTraversal" />
         <item itemvalue="Application.ArrayPartition" />
-        <item itemvalue="Application.MergeTwoBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +270,8 @@
       <workItem from="1584763387951" duration="96000" />
       <workItem from="1584818220146" duration="3102000" />
       <workItem from="1584896637603" duration="502000" />
-      <workItem from="1585001328306" duration="1295000" />
+      <workItem from="1585001328306" duration="2009000" />
+      <workItem from="1585085856301" duration="5264000" />
     </task>
     <servers />
   </component>
@@ -917,6 +918,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SearchInABinaryTree/SearchInABinaryTree.java</url>
           <line>20</line>
           <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="461" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
