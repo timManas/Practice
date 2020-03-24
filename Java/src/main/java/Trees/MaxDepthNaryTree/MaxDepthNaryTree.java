@@ -46,18 +46,41 @@ public class MaxDepthNaryTree {
     private static int traverseNode(Node node, int maxDepth, int currentDepth) {
 
 
+        // Step1 - Find out if Leaf Node
+        // If true > Return currentdepth + 1
         List<Node> nodeList = node.children;
-        if (nodeList == null)
+        if (nodeList == null || nodeList.size() == 0)
             return currentDepth + 1;
 
+        // Step2 - Traverse Child Nodes
         for (Node childNode : nodeList) {
             int childDepth = traverseNode(childNode, maxDepth, currentDepth + 1);
+
+            // Compare the childNode depth with the maxDepth
             maxDepth = Math.max(maxDepth, childDepth);
             System.out.println("Node: " + node.val + "  ChildDepth: " + childDepth + "  MaxDepth: " + maxDepth);
         }
 
         return maxDepth;
     }
-
-
 }
+
+/**
+ Solution
+ - We need the following node, maxDepth, currentDepth
+ - We need:
+ node > To traverse and check level
+ maxDepth > PlaceHolder where the largest value is
+ currentDepth > PlaceHolder to know where we currently are
+
+ 1. Everytime we go to child, we increment curerntDepth
+ 2. If leafNode -> Return currentDepth + 1;
+ 3. Traverse Children
+    > Compare each children depth to maxDepth
+        > If childDepth > maxDepth, set maxDepth to childDepth
+
+ Note:
+ 1. Notice we dont do ++currentDepth ... why ? Because we want to know which level we are on.
+ Therefore, once when we start, our currentDepth should be at 0. When we end, currentDepth should still be on 0
+
+ */

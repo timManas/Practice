@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +272,7 @@
       <workItem from="1584818220146" duration="3102000" />
       <workItem from="1584896637603" duration="502000" />
       <workItem from="1585001328306" duration="2009000" />
-      <workItem from="1585085856301" duration="5264000" />
+      <workItem from="1585085856301" duration="6258000" />
     </task>
     <servers />
   </component>
@@ -921,28 +922,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="456" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
-          <line>58</line>
+          <line>63</line>
           <option name="timeStamp" value="458" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="459" />
+          <line>52</line>
+          <option name="timeStamp" value="462" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="460" />
+          <line>60</line>
+          <option name="timeStamp" value="463" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxDepthNaryTree/MaxDepthNaryTree.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="461" />
+          <line>41</line>
+          <option name="timeStamp" value="464" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
