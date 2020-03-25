@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LinkedList.MiddleOfLinkedList" />
       <recent name="Trees.UnivaluedBinaryTree" />
       <recent name="Trees.MaxDepthNaryTree" />
       <recent name="Trees.SearchInABinaryTree" />
       <recent name="Trees.NaryTreePreorderTraversal" />
-      <recent name="Trees.MergeTwoBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnivaluedBinaryTree">
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaryTreePreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.NaryTreePreorderTraversal.NaryTreePreorderTraversal" />
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.MiddleOfLinkedList.MiddleOfLinkedList" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.NaryTreePreorderTraversal.*" />
+          <option name="PATTERN" value="LinkedList.MiddleOfLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.UnivaluedBinaryTree" />
         <item itemvalue="Application.SortByParityII" />
         <item itemvalue="Application.MaxDepthNaryTree" />
         <item itemvalue="Application.SearchInABinaryTree" />
-        <item itemvalue="Application.NaryTreePreorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,8 @@
       <workItem from="1584818220146" duration="3102000" />
       <workItem from="1584896637603" duration="502000" />
       <workItem from="1585001328306" duration="2009000" />
-      <workItem from="1585085856301" duration="10830000" />
+      <workItem from="1585085856301" duration="11285000" />
+      <workItem from="1585175086974" duration="4361000" />
     </task>
     <servers />
   </component>
@@ -956,8 +957,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/UnivaluedBinaryTree/UnivaluedBinaryTree.java</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/MiddleOfLinkedList/MiddleOfLinkedList.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/MiddleOfLinkedList/MiddleOfLinkedList.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/MiddleOfLinkedList/MiddleOfLinkedList.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="486" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
