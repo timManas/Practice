@@ -59,20 +59,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecondMinimumNodeInBinaryTree">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDepthNaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MaxDepthNaryTree.MaxDepthNaryTree" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinarySearch.BinarySearch" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.MaxDepthNaryTree.*" />
+          <option name="PATTERN" value="Trees.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SecondMinimumNodeInBinaryTree" />
         <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.UnivaluedBinaryTree" />
         <item itemvalue="Application.SortByParityII" />
-        <item itemvalue="Application.MaxDepthNaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +273,7 @@
       <workItem from="1585001328306" duration="2009000" />
       <workItem from="1585085856301" duration="11285000" />
       <workItem from="1585175086974" duration="5151000" />
-      <workItem from="1585228773279" duration="467000" />
+      <workItem from="1585228773279" duration="2353000" />
     </task>
     <servers />
   </component>
@@ -977,9 +977,19 @@
           <option name="timeStamp" value="486" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/SecondMinimumNodeInBinaryTree/SecondMinimumNodeInBinaryTree.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="487" />
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinarySearch/BinarySearch.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinarySearch/BinarySearch.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinarySearch/BinarySearch.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="490" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
