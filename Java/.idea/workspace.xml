@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinarySearch/BinarySearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.CousinsInBinaryTree" />
       <recent name="Trees.SecondMinimumNodeInBinaryTree" />
       <recent name="LinkedList.MiddleOfLinkedList" />
       <recent name="Trees.UnivaluedBinaryTree" />
       <recent name="Trees.MaxDepthNaryTree" />
-      <recent name="Trees.SearchInABinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -273,7 +274,8 @@
       <workItem from="1585001328306" duration="2009000" />
       <workItem from="1585085856301" duration="11285000" />
       <workItem from="1585175086974" duration="5151000" />
-      <workItem from="1585228773279" duration="2353000" />
+      <workItem from="1585228773279" duration="2860000" />
+      <workItem from="1585343001796" duration="864000" />
     </task>
     <servers />
   </component>

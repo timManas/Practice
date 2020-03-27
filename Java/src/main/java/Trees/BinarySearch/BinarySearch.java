@@ -14,7 +14,7 @@ public class BinarySearch {
 
     public static int search(int[] nums, int target) {
         int index = -1;
-        
+
         // Step1 - Create Set to keep track of all values visited
         Set<Integer> set = new TreeSet<Integer>();
 
