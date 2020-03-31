@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CousinsInBinaryTree">
+  <component name="RunManager" selected="Application.AverageOfLevelsInBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageOfLevelsInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.AverageOfLevelsInBinaryTree.AverageOfLevelsInBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.AverageOfLevelsInBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,20 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnivaluedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.UnivaluedBinaryTree.UnivaluedBinaryTree" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.UnivaluedBinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageOfLevelsInBinaryTree" />
         <item itemvalue="Application.CousinsInBinaryTree" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SecondMinimumNodeInBinaryTree" />
         <item itemvalue="Application.MiddleOfLinkedList" />
-        <item itemvalue="Application.UnivaluedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,7 @@
       <workItem from="1585415981057" duration="10422000" />
       <workItem from="1585430372777" duration="593000" />
       <workItem from="1585521153481" duration="594000" />
-      <workItem from="1585602946561" duration="4327000" />
+      <workItem from="1585602946561" duration="7006000" />
     </task>
     <servers />
   </component>
@@ -1021,6 +1021,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java</url>
           <line>88</line>
           <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/AverageOfLevelsInBinaryTree/AverageOfLevelsInBinaryTree.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="508" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
