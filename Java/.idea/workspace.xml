@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.AverageOfLevelsInBinaryTree" />
       <recent name="Trees.CousinsInBinaryTree" />
       <recent name="Trees.SecondMinimumNodeInBinaryTree" />
       <recent name="LinkedList.MiddleOfLinkedList" />
       <recent name="Trees.UnivaluedBinaryTree" />
-      <recent name="Trees.MaxDepthNaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -276,7 +276,10 @@
       <workItem from="1585175086974" duration="5151000" />
       <workItem from="1585228773279" duration="2860000" />
       <workItem from="1585343001796" duration="1463000" />
-      <workItem from="1585415981057" duration="10049000" />
+      <workItem from="1585415981057" duration="10422000" />
+      <workItem from="1585430372777" duration="593000" />
+      <workItem from="1585521153481" duration="594000" />
+      <workItem from="1585602946561" duration="4327000" />
     </task>
     <servers />
   </component>
@@ -1011,18 +1014,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="504" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java</url>
-          <line>87</line>
+          <line>88</line>
           <option name="timeStamp" value="505" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/CousinsInBinaryTree/CousinsInBinaryTree.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="506" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
