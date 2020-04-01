@@ -37,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.LeafSimilarTrees" />
       <recent name="Trees.SumOfRootToLeafBinaryNumbers" />
       <recent name="Trees.AverageOfLevelsInBinaryTree" />
       <recent name="Trees.CousinsInBinaryTree" />
       <recent name="Trees.SecondMinimumNodeInBinaryTree" />
-      <recent name="LinkedList.MiddleOfLinkedList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumLeaf2RootBinary">
+  <component name="RunManager" selected="Application.LeafSimilarTrees">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -108,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondMinimumNodeInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SecondMinimumNodeInBinaryTree.SecondMinimumNodeInBinaryTree" />
+    <configuration name="LeafSimilarTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.LeafSimilarTrees.LeafSimilarTrees" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.SecondMinimumNodeInBinaryTree.*" />
+          <option name="PATTERN" value="Trees.LeafSimilarTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeafSimilarTrees" />
         <item itemvalue="Application.SumLeaf2RootBinary" />
         <item itemvalue="Application.AverageOfLevelsInBinaryTree" />
         <item itemvalue="Application.CousinsInBinaryTree" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SecondMinimumNodeInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,7 @@
       <workItem from="1585430372777" duration="593000" />
       <workItem from="1585521153481" duration="594000" />
       <workItem from="1585602946561" duration="7444000" />
-      <workItem from="1585691857538" duration="1745000" />
+      <workItem from="1585691857538" duration="3488000" />
     </task>
     <servers />
   </component>
@@ -1034,12 +1034,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SumOfRootToLeafBinaryNumbers/SumLeaf2RootBinary.java</url>
-          <line>42</line>
+          <line>47</line>
           <option name="timeStamp" value="511" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SumOfRootToLeafBinaryNumbers/SumLeaf2RootBinary.java</url>
-          <line>38</line>
+          <line>43</line>
           <option name="timeStamp" value="512" />
         </line-breakpoint>
       </breakpoints>
