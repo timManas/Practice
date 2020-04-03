@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/LeafSimilarTrees/LeafSimilarTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/LeafSimilarTrees/LeafSimilarTrees.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -279,7 +281,7 @@
       <workItem from="1585430372777" duration="593000" />
       <workItem from="1585521153481" duration="594000" />
       <workItem from="1585602946561" duration="7444000" />
-      <workItem from="1585691857538" duration="3488000" />
+      <workItem from="1585691857538" duration="6766000" />
     </task>
     <servers />
   </component>

@@ -101,7 +101,7 @@ public class LeafSimilarTrees {
             list.add(node.val);
         }
 
-        // Step4 - Traverse Right 
+        // Step4 - Traverse Right
         traverseTree(node.right, list);
     }
 
