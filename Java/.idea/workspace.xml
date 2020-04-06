@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindCorrespondingNodeOfBinaryTreeInCloneofThatTree/FindCorrespondingNodeOfBinaryTreeInCloneofThatTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindCorrespondingNodeOfBinaryTreeInCloneofThatTree/FindCorrespondingNodeOfBinaryTreeInCloneofThatTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +281,7 @@
       <workItem from="1585521153481" duration="594000" />
       <workItem from="1585602946561" duration="7444000" />
       <workItem from="1585691857538" duration="6980000" />
-      <workItem from="1585920484201" duration="8555000" />
+      <workItem from="1585920484201" duration="9618000" />
     </task>
     <servers />
   </component>
