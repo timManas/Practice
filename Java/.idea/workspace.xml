@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DeepestLeavesSum/DeepestLeavesSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DeepestLeavesSum/DeepestLeavesSum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +39,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.SumOfNodesEvenValuedGrandParents" />
       <recent name="Trees.DeepestLeavesSum" />
       <recent name="Trees.FindCorrespondingNodeOfBinaryTreeInCloneofThatTree" />
       <recent name="Trees.LeafSimilarTrees" />
       <recent name="Trees.SumOfRootToLeafBinaryNumbers" />
-      <recent name="Trees.AverageOfLevelsInBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeepestLeavesSum">
+  <component name="RunManager" selected="Application.SumOfNodesEvenValuedGrandParents">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -123,13 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeafSimilarTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.LeafSimilarTrees.LeafSimilarTrees" />
+    <configuration name="SumOfNodesEvenValuedGrandParents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.SumOfNodesEvenValuedGrandParents.SumOfNodesEvenValuedGrandParents" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.LeafSimilarTrees.*" />
+          <option name="PATTERN" value="Trees.SumOfNodesEvenValuedGrandParents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfNodesEvenValuedGrandParents" />
         <item itemvalue="Application.DeepestLeavesSum" />
         <item itemvalue="Application.GroupPeopleByGroupSize" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.FindCorrespondingNodeOfBinaryTreeInCloneofThatTree" />
-        <item itemvalue="Application.LeafSimilarTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +283,7 @@
       <workItem from="1585602946561" duration="7444000" />
       <workItem from="1585691857538" duration="6980000" />
       <workItem from="1585920484201" duration="9733000" />
-      <workItem from="1586191593072" duration="4523000" />
+      <workItem from="1586191593072" duration="6709000" />
     </task>
     <servers />
   </component>
@@ -1094,6 +1095,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/DeepestLeavesSum/DeepestLeavesSum.java</url>
           <line>77</line>
           <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SumOfNodesEvenValuedGrandParents/SumOfNodesEvenValuedGrandParents.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="541" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

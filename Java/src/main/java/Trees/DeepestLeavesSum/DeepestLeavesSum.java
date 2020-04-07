@@ -77,7 +77,7 @@ public class DeepestLeavesSum {
             }
             System.out.println("Sum: " + sum);
         }
-        
+
         return sum;
     }
 
