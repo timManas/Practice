@@ -11,23 +11,22 @@ public class CountNumTeams {
     public static int numTeams(int[] rating) {
         int total = 0;
 
-        for (int i=0; i <= rating.length - 3; i++) {
+        // Step1 - Traverse pointer i,j,k
+        for (int i=0; i < rating.length; i++) {
 
-            for (int j=i+1; j <= rating.length - 2; j++) {
+            for (int j=i+1; j < rating.length; j++) {
 
-                for (int k=j+1; k <= rating.length - 1; k++) {
+                for (int k=j+1; k < rating.length; k++) {
 
-                    
+                    // Step2 - Check if Ascending order or Descending Order
                     if (rating[i] > rating[j] && rating[j] > rating[k]) {
-                        System.out.println("i: " + rating[i] + "    j: " + rating[j] + "    k: " + rating[k]);
+//                        System.out.println("i: " + rating[i] + "    j: " + rating[j] + "    k: " + rating[k]);
+                        ++total;
+
+                    } else if (rating[i] < rating[j] && rating[j] < rating[k]) {
+//                        System.out.println("i: " + rating[i] + "    j: " + rating[j] + "    k: " + rating[k]);
                         ++total;
                     }
-
-                    if (rating[i] < rating[j] && rating[j] < rating[k]) {
-                        System.out.println("i: " + rating[i] + "    j: " + rating[j] + "    k: " + rating[k]);
-                        ++total;
-                    }
-
                 }
             }
         }
@@ -36,3 +35,10 @@ public class CountNumTeams {
     }
 
 }
+
+/**
+ Solution:
+ - Ugly ass solution. Runtime is O(n^3)
+ - Traverse each pointer until we get to the end
+
+ */
