@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/CountNumTeams/CountNumTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/CountNumTeams/CountNumTeams.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BinarySearchTree2GreaterSumTree" />
       <recent name="Trees.SumOfNodesEvenValuedGrandParents" />
       <recent name="Trees.DeepestLeavesSum" />
       <recent name="Trees.FindCorrespondingNodeOfBinaryTreeInCloneofThatTree" />
       <recent name="Trees.LeafSimilarTrees" />
-      <recent name="Trees.SumOfRootToLeafBinaryNumbers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -61,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountNumTeams">
+  <component name="RunManager" selected="Application.BinarySearchTree2GreaterSumTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTree2GreaterSumTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinarySearchTree2GreaterSumTree.BinarySearchTree2GreaterSumTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.BinarySearchTree2GreaterSumTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,20 +116,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.GroupPeopleByGroupSize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.HappyNumber.HappyNumber" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.HappyNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree2GreaterSumTree" />
         <item itemvalue="Application.CountNumTeams" />
         <item itemvalue="Application.SumOfNodesEvenValuedGrandParents" />
         <item itemvalue="Application.DeepestLeavesSum" />
         <item itemvalue="Application.GroupPeopleByGroupSize" />
-        <item itemvalue="Application.HappyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +283,8 @@
       <workItem from="1585691857538" duration="6980000" />
       <workItem from="1585920484201" duration="9733000" />
       <workItem from="1586191593072" duration="7719000" />
-      <workItem from="1586350960694" duration="2609000" />
+      <workItem from="1586350960694" duration="3308000" />
+      <workItem from="1586464576301" duration="1038000" />
     </task>
     <servers />
   </component>
