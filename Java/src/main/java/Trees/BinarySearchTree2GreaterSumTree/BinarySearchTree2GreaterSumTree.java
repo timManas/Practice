@@ -29,17 +29,37 @@ public class BinarySearchTree2GreaterSumTree {
         System.out.println("GstNode: " + gstNode.val);
     }
 
+    static int count = 0;
     public static TreeNode bstToGst(TreeNode node) {
-
-        if (node == null)
-            return null;
-
-        bstToGst(node.right);
-        System.out.println(node.val);
-        bstToGst(node.left);
-
-
+        traverseTree(node);
         return node;
     }
 
+    private static void traverseTree(TreeNode node) {
+
+        // Step1 - Check if node is null. Return nothing
+        if (node == null)
+            return;
+
+        // Step2 - Traverse Right Node
+        traverseTree(node.right);
+
+        // Step3 - Add to Count
+        count += node.val;
+
+        // Step4 - Set new value to node.val
+        node.val = count;
+        System.out.println("Node: " + node.val + "  Count: " + count);
+
+        // Step5 - Traverse Left Node
+        traverseTree(node.left);
+    }
+
 }
+
+/**
+ Solution
+ - Use Inorder Traversal BUT starting from the Right instead of starting from  Left
+ - Everytime we get to the node, we incremenet the count which is a global variable
+    > Why ? Because placing it as argument is a giant pain in the ass. And this solution is more intuitive
+ */
