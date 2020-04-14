@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.MaxBinaryTree" />
       <recent name="Trees.ConstructBSTFromPreOrderTraversal" />
       <recent name="Trees.InsertIntoBST" />
       <recent name="Trees.BinarySearchTree2GreaterSumTree" />
       <recent name="Trees.SumOfNodesEvenValuedGrandParents" />
-      <recent name="Trees.DeepestLeavesSum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstructBSTFromPreOrderTraversal">
+  <component name="RunManager" selected="Application.MinNumStepsTwoStringAnagram">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -123,13 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfNodesEvenValuedGrandParents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SumOfNodesEvenValuedGrandParents.SumOfNodesEvenValuedGrandParents" />
+    <configuration name="MinNumStepsTwoStringAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MinNumStepsTwoStringAnagram.MinNumStepsTwoStringAnagram" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.SumOfNodesEvenValuedGrandParents.*" />
+          <option name="PATTERN" value="Strings.MinNumStepsTwoStringAnagram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinNumStepsTwoStringAnagram" />
         <item itemvalue="Application.ConstructBSTFromPreOrderTraversal" />
         <item itemvalue="Application.InsertIntoBST" />
         <item itemvalue="Application.BinarySearchTree2GreaterSumTree" />
         <item itemvalue="Application.CountNumTeams" />
-        <item itemvalue="Application.SumOfNodesEvenValuedGrandParents" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,7 @@
       <workItem from="1586484453691" duration="279000" />
       <workItem from="1586532664331" duration="6398000" />
       <workItem from="1586645041741" duration="547000" />
-      <workItem from="1586723747903" duration="4392000" />
+      <workItem from="1586723747903" duration="7830000" />
     </task>
     <servers />
   </component>
@@ -1121,19 +1121,17 @@
           <line>23</line>
           <option name="timeStamp" value="545" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/MinNumStepsTwoStringAnagram/MinNumStepsTwoStringAnagram.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="(nums.length / 2) - 1" language="JAVA" />
-        <watch expression="(nums.length - 1) / 2" language="JAVA" />
-        <watch expression="(nums.length + 1) / 2" language="JAVA" />
-        <watch expression="i + k" language="JAVA" />
-        <watch expression="(char) 99" language="JAVA" />
-        <watch expression="count % Integer.valueOf(letter)" language="JAVA" />
-        <watch expression="Integer.parseInt(String.valueOf(letter))" language="JAVA" />
-        <watch expression="count % number" language="JAVA" />
-        <watch expression="count % number != 0" language="JAVA" />
+        <watch expression="sbT.charAt(sChar)" language="JAVA" />
+        <watch expression="sbT.indexOf(String.valueOf(sChar))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
