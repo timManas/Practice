@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.AllElementsInTwoBST" />
       <recent name="Trees.MaxBinaryTree" />
       <recent name="Trees.ConstructBSTFromPreOrderTraversal" />
       <recent name="Trees.InsertIntoBST" />
       <recent name="Trees.BinarySearchTree2GreaterSumTree" />
-      <recent name="Trees.SumOfNodesEvenValuedGrandParents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -60,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinNumStepsTwoStringAnagram">
+  <component name="RunManager" selected="Application.AllElementsInTwoBST">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllElementsInTwoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.AllElementsInTwoBST.AllElementsInTwoBST" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.AllElementsInTwoBST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,20 +102,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.ConstructBSTFromPreOrderTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountNumTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CountNumTeams.CountNumTeams" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.CountNumTeams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllElementsInTwoBST" />
         <item itemvalue="Application.MinNumStepsTwoStringAnagram" />
         <item itemvalue="Application.ConstructBSTFromPreOrderTraversal" />
         <item itemvalue="Application.InsertIntoBST" />
         <item itemvalue="Application.BinarySearchTree2GreaterSumTree" />
-        <item itemvalue="Application.CountNumTeams" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,7 @@
       <workItem from="1586484453691" duration="279000" />
       <workItem from="1586532664331" duration="6398000" />
       <workItem from="1586645041741" duration="547000" />
-      <workItem from="1586723747903" duration="7830000" />
+      <workItem from="1586723747903" duration="8961000" />
     </task>
     <servers />
   </component>
