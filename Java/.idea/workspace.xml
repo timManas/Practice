@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BalanceBST" />
       <recent name="Trees.AllElementsInTwoBST" />
       <recent name="Trees.MaxBinaryTree" />
       <recent name="Trees.ConstructBSTFromPreOrderTraversal" />
       <recent name="Trees.InsertIntoBST" />
-      <recent name="Trees.BinarySearchTree2GreaterSumTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -288,7 +288,8 @@
       <workItem from="1586484453691" duration="279000" />
       <workItem from="1586532664331" duration="6398000" />
       <workItem from="1586645041741" duration="547000" />
-      <workItem from="1586723747903" duration="8961000" />
+      <workItem from="1586723747903" duration="9571000" />
+      <workItem from="1586886630170" duration="1159000" />
     </task>
     <servers />
   </component>
