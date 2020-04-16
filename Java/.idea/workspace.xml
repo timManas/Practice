@@ -289,7 +289,7 @@
       <workItem from="1586532664331" duration="6398000" />
       <workItem from="1586645041741" duration="547000" />
       <workItem from="1586723747903" duration="9571000" />
-      <workItem from="1586886630170" duration="4872000" />
+      <workItem from="1586886630170" duration="6256000" />
     </task>
     <servers />
   </component>
@@ -1134,7 +1134,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/FindSmallestCommonElementInRows/FindSmallestCommonElementInRows.java</url>
-          <line>37</line>
+          <line>12</line>
           <option name="timeStamp" value="554" />
         </line-breakpoint>
       </breakpoints>
