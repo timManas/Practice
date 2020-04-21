@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -289,7 +290,8 @@
       <workItem from="1586532664331" duration="6398000" />
       <workItem from="1586645041741" duration="547000" />
       <workItem from="1586723747903" duration="9571000" />
-      <workItem from="1586886630170" duration="14483000" />
+      <workItem from="1586886630170" duration="16127000" />
+      <workItem from="1587337544189" duration="1574000" />
     </task>
     <servers />
   </component>
@@ -316,26 +318,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
           <line>32</line>
           <option name="timeStamp" value="575" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="576" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="577" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="578" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="579" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -40,19 +40,46 @@ public class BinaryTreePruning {
 
     private static void traverseTree(TreeNode node) {
 
+        // Step1 - Check if node is null
         if (node == null)
             return;
 
+        // Step2 - Traverse Left and Right
         traverseTree(node.left);
         traverseTree(node.right);
 
-        if (node.left != null && node.left.val == 0)
-            node.left = null;
 
-        if (node.right != null && node.right.val == 0)
-            node.right = null;
+        // Step3 - We check the child node
+        if (node.left != null && node.left.val != 1) {
 
+            // Step4 - Check the grand child node
+            if (node.left.left == null && node.left.right == null)
+                node.left = null;
+        }
+
+        // Step3 - We check the child node
+        if (node.right != null && node.right.val != 1) {
+
+            // Step4 - Check the grand child node
+            if (node.right.left == null && node.right.right == null)
+                node.right = null;
+
+        }
 
     }
 
 }
+
+/**
+ Solution
+ - We use post order traversal since we want to start from the bottom up
+ - After we traverse left and right, we check the node child and grand children
+ - If the grandchildren have values, that means somewhere down the line, there is a one
+ - If the grandchildren are null, we remove the child node
+
+ Why ?
+ - Because if there is a value at the grand child node, it means there is a one
+ - Otherwise, it just empty and the child node is ZERO 
+
+
+ */
