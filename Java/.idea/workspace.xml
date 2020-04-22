@@ -11,6 +11,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PracticeJava" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -291,7 +295,9 @@
       <workItem from="1586645041741" duration="547000" />
       <workItem from="1586723747903" duration="9571000" />
       <workItem from="1586886630170" duration="16127000" />
-      <workItem from="1587337544189" duration="1574000" />
+      <workItem from="1587337544189" duration="2039000" />
+      <workItem from="1587515501014" duration="179000" />
+      <workItem from="1587515684152" duration="249000" />
     </task>
     <servers />
   </component>

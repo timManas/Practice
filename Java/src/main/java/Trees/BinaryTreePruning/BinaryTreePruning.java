@@ -79,7 +79,7 @@ public class BinaryTreePruning {
 
  Why ?
  - Because if there is a value at the grand child node, it means there is a one
- - Otherwise, it just empty and the child node is ZERO 
+ - Otherwise, it just empty and the child node is ZERO
 
 
  */
