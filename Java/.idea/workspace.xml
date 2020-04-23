@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElementsInContaminatedBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElementsInContaminatedBT.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,23 +64,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindElementsInContaminatedBT">
+  <component name="RunManager" selected="Application.FindAndReplacePattern">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalanceBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BalanceBST.BalanceBST" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.BalanceBST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,6 +78,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.BinaryTreePruning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAndReplacePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FindAndReplacePattern.FindAndReplacePattern" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.FindAndReplacePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindAndReplacePattern" />
         <item itemvalue="Application.FindElementsInContaminatedBT" />
         <item itemvalue="Application.BinaryTreePruning" />
         <item itemvalue="Application.RevealCardsIncreasingOrder" />
         <item itemvalue="Application.FindSmallestCommonElementInRows" />
-        <item itemvalue="Application.BalanceBST" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +298,7 @@
       <workItem from="1587515501014" duration="179000" />
       <workItem from="1587515684152" duration="893000" />
       <workItem from="1587562718483" duration="3188000" />
+      <workItem from="1587657726017" duration="2910000" />
     </task>
     <servers />
   </component>
@@ -332,6 +331,31 @@
           <line>44</line>
           <option name="timeStamp" value="576" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="583" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -343,6 +367,7 @@
         <watch expression="sbT.charAt(sChar)" language="JAVA" />
         <watch expression="sbT.indexOf(String.valueOf(sChar))" language="JAVA" />
         <watch expression="list.get(middleIndex)" language="JAVA" />
+        <watch expression="map.containsValue('b')" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
