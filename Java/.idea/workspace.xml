@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElementsInContaminatedBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElementsInContaminatedBT.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.FindElementsInContaminatedBT" />
       <recent name="Trees.BinaryTreePruning" />
       <recent name="Trees.BalanceBST" />
       <recent name="Trees.AllElementsInTwoBST" />
       <recent name="Trees.MaxBinaryTree" />
-      <recent name="Trees.ConstructBSTFromPreOrderTraversal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -65,23 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreePruning">
+  <component name="RunManager" selected="Application.FindElementsInContaminatedBT">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllElementsInTwoBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.AllElementsInTwoBST.AllElementsInTwoBST" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.AllElementsInTwoBST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +94,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.BinaryTreePruning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementsInContaminatedBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.FindElementsInContaminatedBT.FindElementsInContaminatedBT" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.FindElementsInContaminatedBT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindElementsInContaminatedBT" />
         <item itemvalue="Application.BinaryTreePruning" />
         <item itemvalue="Application.RevealCardsIncreasingOrder" />
         <item itemvalue="Application.FindSmallestCommonElementInRows" />
         <item itemvalue="Application.BalanceBST" />
-        <item itemvalue="Application.AllElementsInTwoBST" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +298,8 @@
       <workItem from="1586886630170" duration="16127000" />
       <workItem from="1587337544189" duration="2039000" />
       <workItem from="1587515501014" duration="179000" />
-      <workItem from="1587515684152" duration="249000" />
+      <workItem from="1587515684152" duration="893000" />
+      <workItem from="1587562718483" duration="3188000" />
     </task>
     <servers />
   </component>
@@ -324,6 +326,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/BinaryTreePruning/BinaryTreePruning.java</url>
           <line>32</line>
           <option name="timeStamp" value="575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/FindElementsInContaminatedBT/FindElements.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="576" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
