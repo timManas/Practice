@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteLeavesWithGivenValue">
+  <component name="RunManager" selected="Application.DesignStackWithIncrementOption">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -100,6 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignStackWithIncrementOption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks.DesignStackWithIncrementOption.DesignStackWithIncrementOption" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stacks.DesignStackWithIncrementOption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindAndReplacePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.FindAndReplacePattern.FindAndReplacePattern" />
       <module name="Java" />
@@ -121,20 +134,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.FindElementsInContaminatedBT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RevealCardsIncreasingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.RevealCardsIncreasingOrder.RevealCardsIncreasingOrder" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.RevealCardsIncreasingOrder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignStackWithIncrementOption" />
         <item itemvalue="Application.DeleteLeavesWithGivenValue" />
         <item itemvalue="Application.FindAndReplacePattern" />
         <item itemvalue="Application.FindElementsInContaminatedBT" />
         <item itemvalue="Application.BinaryTreePruning" />
-        <item itemvalue="Application.RevealCardsIncreasingOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +298,7 @@
       <workItem from="1587515501014" duration="179000" />
       <workItem from="1587515684152" duration="893000" />
       <workItem from="1587562718483" duration="3188000" />
-      <workItem from="1587657726017" duration="5190000" />
+      <workItem from="1587657726017" duration="7833000" />
     </task>
     <servers />
   </component>
@@ -361,6 +360,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java</url>
           <line>24</line>
           <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Stacks/DesignStackWithIncrementOption/CustomStack.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="586" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
