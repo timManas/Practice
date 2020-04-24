@@ -42,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.DeleteLeavesWithGivenValue" />
       <recent name="Trees.FindElementsInContaminatedBT" />
       <recent name="Trees.BinaryTreePruning" />
       <recent name="Trees.BalanceBST" />
       <recent name="Trees.AllElementsInTwoBST" />
-      <recent name="Trees.MaxBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -64,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAndReplacePattern">
+  <component name="RunManager" selected="Application.DeleteLeavesWithGivenValue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -78,6 +78,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.BinaryTreePruning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteLeavesWithGivenValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.DeleteLeavesWithGivenValue.DeleteLeavesWithGivenValue" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.DeleteLeavesWithGivenValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.FindElementsInContaminatedBT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindSmallestCommonElementInRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FindSmallestCommonElementInRows.FindSmallestCommonElementInRows" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.FindSmallestCommonElementInRows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteLeavesWithGivenValue" />
         <item itemvalue="Application.FindAndReplacePattern" />
         <item itemvalue="Application.FindElementsInContaminatedBT" />
         <item itemvalue="Application.BinaryTreePruning" />
         <item itemvalue="Application.RevealCardsIncreasingOrder" />
-        <item itemvalue="Application.FindSmallestCommonElementInRows" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +298,7 @@
       <workItem from="1587515501014" duration="179000" />
       <workItem from="1587515684152" duration="893000" />
       <workItem from="1587562718483" duration="3188000" />
-      <workItem from="1587657726017" duration="2910000" />
+      <workItem from="1587657726017" duration="4278000" />
     </task>
     <servers />
   </component>
