@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -298,7 +299,7 @@
       <workItem from="1587515501014" duration="179000" />
       <workItem from="1587515684152" duration="893000" />
       <workItem from="1587562718483" duration="3188000" />
-      <workItem from="1587657726017" duration="4278000" />
+      <workItem from="1587657726017" duration="5190000" />
     </task>
     <servers />
   </component>
@@ -355,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/FindAndReplacePattern/FindAndReplacePattern.java</url>
           <line>62</line>
           <option name="timeStamp" value="583" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/DeleteLeavesWithGivenValue/DeleteLeavesWithGivenValue.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="585" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
