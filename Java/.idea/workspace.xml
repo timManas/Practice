@@ -302,7 +302,8 @@
       <workItem from="1587657726017" duration="9179000" />
       <workItem from="1587827036985" duration="598000" />
       <workItem from="1587852586547" duration="297000" />
-      <workItem from="1587929117170" duration="1102000" />
+      <workItem from="1587929117170" duration="2818000" />
+      <workItem from="1587940807543" duration="1863000" />
     </task>
     <servers />
   </component>
@@ -372,13 +373,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="594" />
+          <line>49</line>
+          <option name="timeStamp" value="609" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="595" />
+          <line>43</line>
+          <option name="timeStamp" value="611" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -386,13 +387,5 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="sbT.charAt(sChar)" language="JAVA" />
-        <watch expression="sbT.indexOf(String.valueOf(sChar))" language="JAVA" />
-        <watch expression="list.get(middleIndex)" language="JAVA" />
-        <watch expression="map.containsValue('b')" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
