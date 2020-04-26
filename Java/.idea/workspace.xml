@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,6 +300,9 @@
       <workItem from="1587515684152" duration="893000" />
       <workItem from="1587562718483" duration="3188000" />
       <workItem from="1587657726017" duration="9179000" />
+      <workItem from="1587827036985" duration="598000" />
+      <workItem from="1587852586547" duration="297000" />
+      <workItem from="1587929117170" duration="1102000" />
     </task>
     <servers />
   </component>
@@ -370,6 +374,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixBlockSum/MatrixBlockSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="595" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
