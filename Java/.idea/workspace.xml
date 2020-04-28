@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/PathZigZagLabelledBinaryTree/PathZigZagLabelledBinaryTree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/PathZigZagLabelledBinaryTree/PathZigZagLabelledBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/PathZigZagLabelledBinaryTree/TreeNode.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +306,7 @@
       <workItem from="1587852586547" duration="297000" />
       <workItem from="1587929117170" duration="2818000" />
       <workItem from="1587940807543" duration="13678000" />
-      <workItem from="1588086102230" duration="1469000" />
+      <workItem from="1588086102230" duration="2230000" />
     </task>
     <servers />
   </component>
