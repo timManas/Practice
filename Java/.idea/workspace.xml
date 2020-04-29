@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/SortIntegersByPowerValue/SortIntegersByPowerValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/SortIntegersByPowerValue/SortIntegersByPowerValue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.KthLexiographicalStringOfHappyStrings" />
       <recent name="Trees.PathZigZagLabelledBinaryTree" />
       <recent name="Trees.MaximumLevelSumOfBinaryTree" />
       <recent name="Trees.DeleteLeavesWithGivenValue" />
       <recent name="Trees.FindElementsInContaminatedBT" />
-      <recent name="Trees.BinaryTreePruning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -305,7 +303,8 @@
       <workItem from="1587852586547" duration="297000" />
       <workItem from="1587929117170" duration="2818000" />
       <workItem from="1587940807543" duration="13678000" />
-      <workItem from="1588086102230" duration="7964000" />
+      <workItem from="1588086102230" duration="8805000" />
+      <workItem from="1588166640803" duration="2359000" />
     </task>
     <servers />
   </component>
