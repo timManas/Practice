@@ -113,6 +113,8 @@ class TreeNode {
  Notes:
  1. If current letter is equal to last letter in sb.toString we fuck off
  2. We only stop the loop once the count  == n, then start deleting elements
+ 3. The way we build is the tree is using DFS
+    > Once count == n, we stop and remove last element on sb
 
 
  */
