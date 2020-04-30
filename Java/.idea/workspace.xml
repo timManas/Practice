@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/KthLexiographicalStringOfHappyStrings/KthLexiographicalStringOfHappyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/KthLexiographicalStringOfHappyStrings/KthLexiographicalStringOfHappyStrings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.FindLeavesOfBinaryTree" />
       <recent name="Trees.KthLexiographicalStringOfHappyStrings" />
       <recent name="Trees.PathZigZagLabelledBinaryTree" />
       <recent name="Trees.MaximumLevelSumOfBinaryTree" />
       <recent name="Trees.DeleteLeavesWithGivenValue" />
-      <recent name="Trees.FindElementsInContaminatedBT" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -65,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLexiographicalStringOfHappyStrings">
+  <component name="RunManager" selected="Application.FindLeavesOfBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -79,6 +78,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.FindKLengthSubsStringNoRepeatingChar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindLeavesOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.FindLeavesOfBinaryTree.FindLeavesOfBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.FindLeavesOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.MaximumLevelSumOfBinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinAddMakeParenthesisValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MinAddMakeParenthesisValid.MinAddMakeParenthesisValid" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.MinAddMakeParenthesisValid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLeavesOfBinaryTree" />
         <item itemvalue="Application.KthLexiographicalStringOfHappyStrings" />
         <item itemvalue="Application.SortIntegersByPowerValue" />
         <item itemvalue="Application.FindKLengthSubsStringNoRepeatingChar" />
         <item itemvalue="Application.MaximumLevelSumOfBinaryTree" />
-        <item itemvalue="Application.MinAddMakeParenthesisValid" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +304,7 @@
       <workItem from="1587929117170" duration="2818000" />
       <workItem from="1587940807543" duration="13678000" />
       <workItem from="1588086102230" duration="8805000" />
-      <workItem from="1588166640803" duration="9578000" />
+      <workItem from="1588166640803" duration="13293000" />
     </task>
     <servers />
   </component>
@@ -408,19 +407,16 @@
           <line>102</line>
           <option name="timeStamp" value="630" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/FindLeavesOfBinaryTree/FindLeavesOfBinaryTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="set.contains(letter)" language="JAVA" />
-        <watch expression="sb.charAt(letter)" language="JAVA" />
-        <watch expression="sb." language="JAVA" />
-        <watch expression="node.childList.add(childNode)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
