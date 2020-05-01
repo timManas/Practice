@@ -24,72 +24,57 @@ public class FindLeavesOfBinaryTree {
 
     public static List<List<Integer>> findLeaves(TreeNode root) {
 
+        // Step1 - Create list of list to be returnd
         List<List<Integer>> list = new ArrayList<>();
-        Set<Integer> set = new HashSet<>();
+
+        // Step2 - Continous Traverse the array until the root is null
         while (root != null) {
+
+            // Step3 - Create a temp list for evey run which will add to mainList 'list'
             List<Integer> leafList = new ArrayList<>();
 
-            fetchLeaves(root, leafList, set);
+            // Step4 - Traverse Tree and place leaves onto list
+            root = fetchLeaves(root, leafList);
 
-            if (leafList.size() == 0) {
-                leafList.add(root.val);
-                root = null;
-            }
-
+            // Step5 - Add temp list to main list
             list.add(leafList);
-            set.clear();
         }
-
-
-
 
         return list;
     }
 
-    private static void fetchLeaves(TreeNode node, List<Integer> list, Set<Integer> set) {
+    private static TreeNode fetchLeaves(TreeNode node, List<Integer> list) {
 
+        // Step1 - Check if node is null
         if (node == null)
-            return;
+            return null;
 
-
-        fetchLeaves(node.left, list, set);
-        fetchLeaves(node.right, list, set);
-
-//        if (node.left == null && node.right == null) {
-//            System.out.println("Leaf: " + node.val);
-//            set.add(node.val);
-//        }
-
-        boolean isParent = false;
-
-        if (node.left != null && node.left.left == null && node.left.right == null) {
-
-
-            if (!set.contains(node.left.val)) {
-                System.out.println("Leaf: " + node.left.val);
-                list.add(node.left.val);
-                node.left = null;
-                isParent = true;
-            }
-
-
+        // Step2 - Check if node is parent of leaves
+        if (node.left == null && node.right == null) {
+            list.add(node.val);
+            return null;
         }
 
-        if (node.right != null && node.right.left == null && node.right.right == null) {
+        // Step3 - Traverse left and traverse Right
+        node.left = fetchLeaves(node.left, list);
+        node.right = fetchLeaves(node.right, list);
 
-
-            if (!set.contains(node.right.val)) {
-                System.out.println("Leaf: " + node.right.val);
-                list.add(node.right.val);
-                node.right = null;
-                isParent = true;
-            }
-
-        }
-
-        if ((node.left == null || node.right == null) && isParent) {
-            set.add(node.val);
-        }
-
+        return node;
     }
 }
+
+/**
+ Solution
+ 1. Unfortunately - this isnt my solution =(
+ 2. Solution was VERY Similar idea to mine but in the end, still couldnt solve it
+    > Still got a long way to go unfortunately
+
+ Notes
+ 1. Solution uses DFS 'PreOrder' Traversal
+ 2. The difference in my solution and this solution was to have a return type
+    > That made the difference in keeping track of the parent since we WANT the parent to be untouched if child is leaf
+ 3. Seriously, this question was easy and I need to get better faster =/
+    > Regardless, good job on the effort of constantly trying though ...Dont stop and dont give up
+
+
+ */
