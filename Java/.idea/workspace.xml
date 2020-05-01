@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FindLeavesOfBinaryTree/FindLeavesOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FindLeavesOfBinaryTree/FindLeavesOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +305,8 @@
       <workItem from="1587929117170" duration="2818000" />
       <workItem from="1587940807543" duration="13678000" />
       <workItem from="1588086102230" duration="8805000" />
-      <workItem from="1588166640803" duration="13293000" />
+      <workItem from="1588166640803" duration="16684000" />
+      <workItem from="1588283436098" duration="4968000" />
     </task>
     <servers />
   </component>
@@ -409,8 +411,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/FindLeavesOfBinaryTree/FindLeavesOfBinaryTree.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="644" />
+          <line>38</line>
+          <option name="timeStamp" value="659" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -418,5 +420,10 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="set.contains(node.left.val)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

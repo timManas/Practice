@@ -1,7 +1,9 @@
 package Trees.FindLeavesOfBinaryTree;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class FindLeavesOfBinaryTree {
 
@@ -23,53 +25,71 @@ public class FindLeavesOfBinaryTree {
     public static List<List<Integer>> findLeaves(TreeNode root) {
 
         List<List<Integer>> list = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
         while (root != null) {
             List<Integer> leafList = new ArrayList<>();
-            fetchLeaves(root, leafList);
 
-            if (leafList.contains(root.val)) {
+            fetchLeaves(root, leafList, set);
+
+            if (leafList.size() == 0) {
+                leafList.add(root.val);
                 root = null;
             }
 
             list.add(leafList);
+            set.clear();
         }
+
+
 
 
         return list;
     }
 
-    private static void fetchLeaves(TreeNode node, List<Integer>list) {
+    private static void fetchLeaves(TreeNode node, List<Integer> list, Set<Integer> set) {
 
         if (node == null)
             return;
 
-        if (node.left == null && node.right == null) {
-            list.add(node.val);
-            return;
-        }
 
-        if (node.left != null) {
+        fetchLeaves(node.left, list, set);
+        fetchLeaves(node.right, list, set);
 
-            // Check if grandchild is null
-            if (node.left.left == null && node.left.right == null) {
+//        if (node.left == null && node.right == null) {
+//            System.out.println("Leaf: " + node.val);
+//            set.add(node.val);
+//        }
+
+        boolean isParent = false;
+
+        if (node.left != null && node.left.left == null && node.left.right == null) {
+
+
+            if (!set.contains(node.left.val)) {
+                System.out.println("Leaf: " + node.left.val);
                 list.add(node.left.val);
                 node.left = null;
+                isParent = true;
             }
+
+
         }
 
-        if (node.right != null) {
+        if (node.right != null && node.right.left == null && node.right.right == null) {
 
-            // Check if grandchild is null
-            if (node.right.left == null && node.right.right == null) {
+
+            if (!set.contains(node.right.val)) {
+                System.out.println("Leaf: " + node.right.val);
                 list.add(node.right.val);
                 node.right = null;
+                isParent = true;
             }
+
         }
 
-        System.out.println(node.val);
-
-        fetchLeaves(node.left, list);
-        fetchLeaves(node.right, list);
+        if ((node.left == null || node.right == null) && isParent) {
+            set.add(node.val);
+        }
 
     }
 }
