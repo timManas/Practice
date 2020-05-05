@@ -77,4 +77,11 @@ public class BoundedBlockingQueue {
     > When queue is full, we block thread and add thread to full waiting list
     Why ??? So the order gets preserved of who gets to enqueue/dequeue when they are blocked
 
+
+ Couple Notes
+ - Why do we need to use a while loop over lock.await() operation ?
+    > Basically, you would need to use a guarded block
+ https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html
+
+
  */
