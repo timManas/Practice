@@ -19,6 +19,17 @@ public class QueensAttackKings {
         List<List<Integer>> list = new ArrayList<>();
 
         // Sort Queen
+        // This is how we fucking Sort a two dimensional Array
+        // First, sort by Column
+        // Second, Sort by Row
+        Arrays.sort(queens, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return Integer.compare(o1[1], o2[1]);
+            }
+        });
+
+        // Sort Queen
         Arrays.sort(queens, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
@@ -26,6 +37,49 @@ public class QueensAttackKings {
             }
         });
 
+        findQueenX(list, queens, king);
+        findQueenY(list, queens, king);
+        findQueenI(list, queens, king);
+        findQueenD(list, queens, king);
+
+
         return list;
+    }
+
+
+    private static void findQueenX(List<List<Integer>> list, int[][] queens, int[] king) {
+        int start = king[0];
+        int end = 8;
+
+
+        for (int i = start; i <= end; i++) {
+            if (queens[king[0]][i] == king[0]) {
+                List<Integer> tempList = new ArrayList<>();
+                tempList.add(i);
+                tempList.add(king[1]);
+                list.add(tempList);
+                break;
+            }
+        }
+
+        end = 0;
+        for (int i = start; i >= end; i--) {
+            if (queens[i][king[1]] == king[0]) {
+                List<Integer> tempList = new ArrayList<>();
+                tempList.add(i);
+                tempList.add(king[1]);
+                list.add(tempList);
+                break;
+            }
+        }
+    }
+
+    private static void findQueenY(List<List<Integer>> list, int[][] queens, int[] king) {
+    }
+
+    private static void findQueenI(List<List<Integer>> list, int[][] queens, int[] king) {
+    }
+
+    private static void findQueenD(List<List<Integer>> list, int[][] queens, int[] king) {
     }
 }

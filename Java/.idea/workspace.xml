@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +313,7 @@
       <workItem from="1588521147280" duration="300000" />
       <workItem from="1588565627048" duration="575000" />
       <workItem from="1588599205203" duration="5995000" />
-      <workItem from="1588715429192" duration="2159000" />
+      <workItem from="1588715429192" duration="4282000" />
     </task>
     <servers />
   </component>
@@ -432,8 +433,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java</url>
-          <line>28</line>
+          <line>45</line>
           <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="670" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
