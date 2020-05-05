@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/BoundedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/BoundedBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/DesignBoundedBlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/DesignBoundedBlockQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +66,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLeavesOfBinaryTree">
+  <component name="RunManager" selected="Application.DesignBoundedBlockQueue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignBoundedBlockQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.DesignBoundedBlockQueue.DesignBoundedBlockQueue" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queues.DesignBoundedBlockQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,20 +122,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.KthLexiographicalStringOfHappyStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumLevelSumOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MaximumLevelSumOfBinaryTree.MaximumLevelSumOfBinaryTree" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.MaximumLevelSumOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignBoundedBlockQueue" />
         <item itemvalue="Application.FindLeavesOfBinaryTree" />
         <item itemvalue="Application.KthLexiographicalStringOfHappyStrings" />
         <item itemvalue="Application.SortIntegersByPowerValue" />
         <item itemvalue="Application.FindKLengthSubsStringNoRepeatingChar" />
-        <item itemvalue="Application.MaximumLevelSumOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +312,8 @@
       <workItem from="1588340928533" duration="501000" />
       <workItem from="1588433696638" duration="677000" />
       <workItem from="1588521147280" duration="300000" />
+      <workItem from="1588565627048" duration="575000" />
+      <workItem from="1588599205203" duration="4460000" />
     </task>
     <servers />
   </component>
@@ -416,6 +420,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/FindLeavesOfBinaryTree/FindLeavesOfBinaryTree.java</url>
           <line>39</line>
           <option name="timeStamp" value="660" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/BoundedBlockingQueue.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Queues/DesignBoundedBlockQueue/BoundedBlockingQueue.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="667" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
