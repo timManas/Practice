@@ -28,15 +28,18 @@ public class QueensAttackKings {
 
     public static List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
 
+        // Step1 - Create return variable
         List<List<Integer>> list = new ArrayList<>();
-        Set<String> set = new LinkedHashSet<>();
 
+        // Step2 - Create set and populate values from queen to set in String format
+        Set<String> set = new LinkedHashSet<>();
         populateSet(queens, set);
 
-        findQueenX(list, queens, king, set);
-        findQueenY(list, queens, king, set);
-        findQueenI(list, queens, king, set);
-        findQueenD(list, queens, king, set);
+        // Step3 - Traverse
+        findQueenX(list, queens, king, set);        // Traverse X Axis (Column)
+        findQueenY(list, queens, king, set);        // Traverse Y Axis (Rows)
+        findQueenI(list, queens, king, set);        // Traverse Increasing Diagonal
+        findQueenD(list, queens, king, set);        // Traverse Decreasing Diagonal
 
 
         return list;
@@ -51,6 +54,7 @@ public class QueensAttackKings {
 
     private static void findQueenX(List<List<Integer>> list, int[][] queens, int[] king, Set<String> set) {
 
+        // Step1 - Traverse Positive X Axis from King (Going Right of Matrix)
         for (int x = king[1]; x <= MAXX - 1; x++) {
             System.out.println("King: " + king[0] + "  " + x);
             String kingIndex = String.valueOf(king[0]) + x;
@@ -65,6 +69,7 @@ public class QueensAttackKings {
 
         System.out.println();
 
+        // Step2 - Traverse Negative X Axis from King  (Going Left of Matrix)
         for (int x = king[1]; x >=0; x--) {
             System.out.println("King: " + king[0] + "  " + x);
             String kingIndex = String.valueOf(king[0]) + x;
@@ -83,6 +88,7 @@ public class QueensAttackKings {
 
         System.out.println();
 
+        // Step3 - Traverse Positive Y Axis from king (Going Down Matrix)
         for (int y = king[0]; y <= MAXY - 1; y++) {
             System.out.println("King: " + y + "  " + king[1]);
             String kingIndex = y + String.valueOf(king[1]);
@@ -97,6 +103,7 @@ public class QueensAttackKings {
 
         System.out.println();
 
+        // Step4 - Traverse Negative Y Axis from King (Going up on Matrix)
         for (int y = king[0]; y >= 0; y--) {
             System.out.println("King: " + y + "  " + king[1]);
             String kingIndex = y + String.valueOf(king[1]);
@@ -112,6 +119,7 @@ public class QueensAttackKings {
 
     private static void findQueenI(List<List<Integer>> list, int[][] queens, int[] king, Set<String> set) {
 
+        // Step5 - Traverse Diagonal  Increase UP ... note: This leads to Upper right
         System.out.println("==== Increase ");
         int x = king[0];
         int y = king[1];
@@ -129,6 +137,7 @@ public class QueensAttackKings {
             }
         }
 
+        // Step6 - Traverse  Digaonal Increase DOWN ... note: This leads to Bottom Left
         System.out.println();
         x = king[0];
         y = king[1];
@@ -150,6 +159,7 @@ public class QueensAttackKings {
 
     private static void findQueenD(List<List<Integer>> list, int[][] queens, int[] king, Set<String> set) {
 
+        // Step7 - Traverse Diagonal Decrease DOWN  ...Note this leads to the Bottom Right
         System.out.println("==== Decrease");
         int x = king[0];
         int y = king[1];
@@ -167,6 +177,7 @@ public class QueensAttackKings {
             }
         }
 
+        // Step8 - Traverse Diagonal Decrease UP ... Note: this leads to Upper Left
         System.out.println();
         x = king[0];
         y = king[1];
@@ -185,3 +196,16 @@ public class QueensAttackKings {
         }
     }
 }
+
+/**
+ Solution
+ - Holeeee shit, NOT an Medium Question at all. Took 2 days of coding
+ - Strategy is simple
+    1. Create a Set which stores the index in String format
+    2. Traverse X,Y Axis & Increasing Diagonal and Decreasing Diagonal
+    3. If index is in set, we add to list
+    4. Return list
+
+ - The hardest part was figuring how the fuck the index can traverse the matrix
+
+ */
