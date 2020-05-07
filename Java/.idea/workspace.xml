@@ -314,7 +314,7 @@
       <workItem from="1588565627048" duration="575000" />
       <workItem from="1588599205203" duration="5995000" />
       <workItem from="1588715429192" duration="5252000" />
-      <workItem from="1588776072100" duration="4593000" />
+      <workItem from="1588776072100" duration="9754000" />
     </task>
     <servers />
   </component>
@@ -434,18 +434,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="668" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="676" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="678" />
+          <line>117</line>
+          <option name="timeStamp" value="686" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
