@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/QueensAttackKings/QueensAttackKings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.DistributeCoinsInBinaryTree" />
       <recent name="Trees.FindLeavesOfBinaryTree" />
       <recent name="Trees.KthLexiographicalStringOfHappyStrings" />
       <recent name="Trees.PathZigZagLabelledBinaryTree" />
       <recent name="Trees.MaximumLevelSumOfBinaryTree" />
-      <recent name="Trees.DeleteLeavesWithGivenValue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
@@ -313,7 +314,10 @@
       <workItem from="1588565627048" duration="575000" />
       <workItem from="1588599205203" duration="5995000" />
       <workItem from="1588715429192" duration="5252000" />
-      <workItem from="1588776072100" duration="10477000" />
+      <workItem from="1588776072100" duration="11307000" />
+      <workItem from="1588861714130" duration="154000" />
+      <workItem from="1588953509363" duration="474000" />
+      <workItem from="1589142816531" duration="737000" />
     </task>
     <servers />
   </component>
