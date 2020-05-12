@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree/DistributeCoinsBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree/DistributeCoinsBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
       <recent name="Trees.MaximumLevelSumOfBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
@@ -65,9 +65,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DistributeCoinsBinaryTree">
+  <component name="RunManager" selected="Application.CountingBits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CountingBits.CountingBits" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.CountingBits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,20 +121,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.FindLeavesOfBinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthLexiographicalStringOfHappyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.KthLexiographicalStringOfHappyStrings.KthLexiographicalStringOfHappyStrings" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.KthLexiographicalStringOfHappyStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.DistributeCoinsBinaryTree" />
         <item itemvalue="Application.QueensAttackKings" />
         <item itemvalue="Application.DesignBoundedBlockQueue" />
         <item itemvalue="Application.FindLeavesOfBinaryTree" />
-        <item itemvalue="Application.KthLexiographicalStringOfHappyStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +317,9 @@
       <workItem from="1588776072100" duration="11307000" />
       <workItem from="1588861714130" duration="154000" />
       <workItem from="1588953509363" duration="474000" />
-      <workItem from="1589142816531" duration="2695000" />
+      <workItem from="1589142816531" duration="3406000" />
+      <workItem from="1589154815244" duration="164000" />
+      <workItem from="1589203010396" duration="2846000" />
     </task>
     <servers />
   </component>
@@ -445,6 +447,16 @@
           <line>39</line>
           <option name="timeStamp" value="689" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CountingBits/CountingBits.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CountingBits/CountingBits.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="694" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -458,6 +470,7 @@
         <watch expression="queens[i]" language="JAVA" />
         <watch expression="String.valueOf(king[0] + i)" language="JAVA" />
         <watch expression="numMoves" language="JAVA" />
+        <watch expression="test.replace(&quot;0&quot;, &quot;&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
