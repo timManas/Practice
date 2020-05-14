@@ -21,7 +21,7 @@ class FizzBuzz {
 
             // Step4 - Check if conditions match
             if (currentNum % 3 == 0 && currentNum % 5 != 0) {
-                
+
                 printFizz.run();
                 currentNum++;
 

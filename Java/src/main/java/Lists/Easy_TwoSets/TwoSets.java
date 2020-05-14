@@ -1,16 +1,22 @@
 package Lists.Easy_TwoSets;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSets {
 
     public static void main(String [] args) {
 //        int [] nums = {15, 7, 2, 11};
 //        int [] nums = {2,5,5,11};
-//        int [] nums = {0,4,3,0};
-//        int [] nums = {3,3};
-        int [] nums = {-3,4,3,90};
+        int [] nums = {1,0,3,0};
         int target = 0;
+
+//        int [] nums = {2,7,11,15};
+//        int target = 9;
+
+//        int [] nums = {-3,4,3,90};
+//        int target = 0;
 
         int [] sum = twoSum(nums, target);
         Arrays.sort(sum);
@@ -49,6 +55,7 @@ public class TwoSets {
         }
         return null;
     }
+
 
 
 
