@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/TwoSumBST/TwoSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/TwoSumBST/TwoSumBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSumBST">
+  <component name="RunManager" selected="Application.IteratorForCombination">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,13 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueensAttackKings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.QueensAttackKings.QueensAttackKings" />
+    <configuration name="IteratorForCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.IteratorForCombination.IteratorForCombination" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.QueensAttackKings.*" />
+          <option name="PATTERN" value="Strings.IteratorForCombination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorForCombination" />
         <item itemvalue="Application.TwoSumBST" />
         <item itemvalue="Application.TwoSets" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.DistributeCoinsBinaryTree" />
-        <item itemvalue="Application.QueensAttackKings" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +321,8 @@
       <workItem from="1589154815244" duration="164000" />
       <workItem from="1589203010396" duration="4105000" />
       <workItem from="1589321821958" duration="1976000" />
-      <workItem from="1589406287095" duration="5842000" />
+      <workItem from="1589406287095" duration="6497000" />
+      <workItem from="1589464133566" duration="3472000" />
     </task>
     <servers />
   </component>
@@ -468,12 +468,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="set.contains(node.left.val)" language="JAVA" />
-        <watch expression="queens[0][0]" language="JAVA" />
-        <watch expression="queens[i]" language="JAVA" />
-        <watch expression="String.valueOf(king[0] + i)" language="JAVA" />
-        <watch expression="numMoves" language="JAVA" />
-        <watch expression="test.replace(&quot;0&quot;, &quot;&quot;)" language="JAVA" />
+        <watch expression="indexList" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
