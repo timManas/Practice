@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sorting/PancakeSorting/PancakeSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorting/PancakeSorting/PancakeSorting.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -323,7 +324,7 @@
       <workItem from="1589321821958" duration="1976000" />
       <workItem from="1589406287095" duration="6497000" />
       <workItem from="1589464133566" duration="10938000" />
-      <workItem from="1589549456852" duration="1133000" />
+      <workItem from="1589549456852" duration="5234000" />
     </task>
     <servers />
   </component>
@@ -466,6 +467,16 @@
           <line>35</line>
           <option name="timeStamp" value="722" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sorting/PancakeSorting/PancakeSorting.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="728" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sorting/PancakeSorting/PancakeSorting.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -476,6 +487,7 @@
       <configuration name="Application">
         <watch expression="indexList" language="JAVA" />
         <watch expression="characters.length()" language="JAVA" />
+        <watch expression="Alist.indexOf(largestVal)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
