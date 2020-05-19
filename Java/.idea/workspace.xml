@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/LowestCommonAncestorDeepestLeaves/LowestCommonAncestorDeepestLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/LowestCommonAncestorDeepestLeaves/LowestCommonAncestorDeepestLeaves.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -326,7 +325,8 @@
       <workItem from="1589464133566" duration="10938000" />
       <workItem from="1589549456852" duration="5745000" />
       <workItem from="1589639571378" duration="6469000" />
-      <workItem from="1589839640374" duration="7165000" />
+      <workItem from="1589839640374" duration="7820000" />
+      <workItem from="1589899437639" duration="1264000" />
     </task>
     <servers />
   </component>
