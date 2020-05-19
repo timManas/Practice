@@ -72,7 +72,8 @@ public class LowestCommonAncestorDeepestLeaves {
  Notes:
  - Not my solution =(
  - Very very tricky though
- - This is DFS BUT ...this is not pre, in or post order travreal
+ - This is DFS BUT ...this is NOT pre, in or post order travreal
+    >  NOT your traditional DFS
  - Find the Height is using POST Order
 
  Solution
@@ -86,5 +87,7 @@ public class LowestCommonAncestorDeepestLeaves {
  1. Find the height for both left and right
  2. Traverse larger values between left and right
  3. If left == right, then this is the lca
+    > Remember at the root node, both left and right should be the same
+    > But the leaf should be one of the LAST Steps, hence we should pass the parents first
  4. Otherwise, keep going until we reach the end
  */
