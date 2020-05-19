@@ -22,61 +22,69 @@ public class LowestCommonAncestorDeepestLeaves {
         treeNode2.left = treeNode4;
         treeNode2.right = treeNode5;
 
-        treeNode3.left = treeNode6;
-        treeNode3.right = treeNode7;
+//        treeNode3.left = treeNode6;
+//        treeNode3.right = treeNode7;
 
         TreeNode deepestLeavesNode = lcaDeepestLeaves(treeNode1);
         System.out.println("LCA of DeepestLeaves: " + deepestLeavesNode.val);
 
     }
 
-    public static TreeNode lcaDeepestLeaves(TreeNode root) {
-        lcaNode = root;
-        int count = 0;
-        AtomicInteger deepestNode = new AtomicInteger(0);
-        traverseTree(root, count, deepestNode);
-
-        return lcaNode;
+    private static TreeNode lcaDeepestLeaves(TreeNode node) {
+        return customTreeTraversal(node);
     }
 
-    private static int traverseTree(TreeNode node, int count, AtomicInteger deepestNode) {
+    private static TreeNode customTreeTraversal(TreeNode node) {
 
+        // Step1 - Check if node is null
         if (node == null)
-            return count;
+            return null;
 
-        int leftCount = traverseTree(node.left, count + 1, deepestNode);
-        int rightCount = traverseTree(node.right, count + 1, deepestNode);
+        // Step2 - Find height for left and Right
+        int leftHeight = findHeight(node.left, 0);
+        int rightHeight = findHeight(node.right, 0);
 
-        if (count  > deepestNode.get()) {
+        // Step3 - return node which had bigger height
+        // If leftHeight == rightHeight, node IS the common ancestor
+        if (leftHeight > rightHeight)
+            return customTreeTraversal(node.left);
+        else if (leftHeight < rightHeight)
+            return customTreeTraversal(node.right);
 
-            if (node.left == null && node.right == null) {  // Leaf
-                System.out.println("Leaf Hit: " + node.val);
-
-
-            } else if (node.left != null && node.right == null) {   // Parent: Left Null
-                if (node.left.left == null && node.left.right == null) // Left Child better be a leaf
-                    setDeepestParentNode(node.left, count, deepestNode);
-
-            } else if (node.left == null && node.right != null) {   // Parent: Right Null
-                if (node.right.left == null && node.right.right == null)   // Right Child better be a leaf
-                    setDeepestParentNode(node.right, count, deepestNode);
-
-
-            } else if (node.left != null && node.right != null) {   // Parent
-                if (node.left.left == null && node.left.right == null && node.right.left == null && node.right.right == null)
-                    setDeepestParentNode(node, count, deepestNode);
-
-            }
-        }
-
-
-        return Math.max(leftCount, rightCount);
+        return node;        // At this point leftHeight == rightHeight
     }
 
-    private static void setDeepestParentNode(TreeNode node, int count, AtomicInteger deepestNode) {
-        lcaNode = node;
-        deepestNode.set(count);
-        System.out.println("DeepParentNode: " + lcaNode.val + "     DeepNodeLevel: " + deepestNode.get());
-    }
+    // Fetch the height from node to the most bottom leaf
+    // Uses post Order traversal
+    private static int findHeight(TreeNode node, int level) {
+        if (node == null)
+            return level;
 
+        int leftHeight = findHeight(node.left, level + 1);
+        int rightHeight = findHeight(node.right, level + 1);
+
+        return Math.max(leftHeight, rightHeight);
+    }
 }
+
+
+/**
+ Notes:
+ - Not my solution =(
+ - Very very tricky though
+ - This is DFS BUT ...this is not pre, in or post order travreal
+ - Find the Height is using POST Order
+
+ Solution
+ - Basically we traverse LEVEL BY LEVEL
+ - Traverse the child node which has the LARGER Height
+ - At the very bottom of the leaf node ...
+    > The leaf NODE lefthHeight and rightHeight SHOULD Be the same
+    > Hence for [1,2,3,4] we return 4
+
+ Steps
+ 1. Find the height for both left and right
+ 2. Traverse larger values between left and right
+ 3. If left == right, then this is the lca
+ 4. Otherwise, keep going until we reach the end
+ */
