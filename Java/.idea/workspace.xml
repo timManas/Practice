@@ -327,7 +327,7 @@
       <workItem from="1589549456852" duration="5745000" />
       <workItem from="1589639571378" duration="6469000" />
       <workItem from="1589839640374" duration="7820000" />
-      <workItem from="1589899437639" duration="3140000" />
+      <workItem from="1589899437639" duration="7191000" />
     </task>
     <servers />
   </component>
@@ -487,8 +487,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/IntervalListIntersections/IntervalListIntersections.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="745" />
+          <line>72</line>
+          <option name="timeStamp" value="755" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -501,6 +501,7 @@
         <watch expression="indexList" language="JAVA" />
         <watch expression="characters.length()" language="JAVA" />
         <watch expression="Alist.indexOf(largestVal)" language="JAVA" />
+        <watch expression="list.get(listIndex).get(list.s)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
