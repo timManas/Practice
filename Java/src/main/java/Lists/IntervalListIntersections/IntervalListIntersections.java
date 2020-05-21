@@ -6,11 +6,11 @@ public class IntervalListIntersections {
 
     public static void main(String [] args) {
 
-//        int [][] A = {{0,2},{5,10},{13,23},{24,25}};
-//        int [][] B = {{1,5},{8,12},{15,24},{25,26}};
+        int [][] A = {{0,2},{5,10},{13,23},{24,25}};
+        int [][] B = {{1,5},{8,12},{15,24},{25,26}};
 
-        int [][] A = {};
-        int [][] B = {};
+//        int [][] A = {};
+//        int [][] B = {};
 
         int [][] intersection = intervalIntersection(A, B);
         for (int i=0; i < intersection.length; i++) {
@@ -24,7 +24,7 @@ public class IntervalListIntersections {
 
     public static int[][] intervalIntersection(int[][] A, int[][] B) {
         // Step1 - Create output variable
-        List<List<Integer>> list = new ArrayList<>();
+        List<int[]> list = new ArrayList<>();
 
         // Step2 - Check if both A & B sizes are bigger than 0. Otherwise no match
         if (A.length == 0 || B.length == 0)
@@ -33,7 +33,8 @@ public class IntervalListIntersections {
         // Step3 - Traverse both A & B
         int indexA = 0;
         int indexB = 0;
-        ArrayList<Integer> intervalList = null;
+
+        int [] intervalList;
         while (indexA < A.length && indexB < B.length) {
 
             // Step3a - Fetch intersection
@@ -41,7 +42,7 @@ public class IntervalListIntersections {
 
             // Step3b - Add to main list
             System.out.println("List[" + indexA + "][" + indexB + "]: " + list);
-            if (intervalList.size() > 0)
+            if (intervalList.length > 0)
                 list.add(intervalList);
 
             // Step3c - Update Index
@@ -64,54 +65,61 @@ public class IntervalListIntersections {
         return convertList2Arr(list);
     }
 
+
+
+    // Fetches the intersection between two arrays
+    // We create a set to fetch all valid interval values
+    // 'start' index should the smallest value in set
+    // 'end' index should be largest value in set
+    private static int[] fetchIntersection(int[] A, int[] B) {
+        int [] arr = new int[2];
+
+        // Checks if valid
+        // We have only 4 comparison since we compare the values of A and B to each other
+        TreeSet<Integer> set = new TreeSet<>();
+        if (A[0] <= B[0] && B[0] <= A[1])   // Check: A[0] <= B[0] <= A[1]
+            set.add(B[0]);
+        if (A[0] <= B[1] && B[1] <= A[1])   // Check: A[0] <= B[1] <= A[1]
+            set.add(B[1]);
+        if (B[0] <= A[0] && A[0] <= B[1])   // Check: B[0] <= A[0] <= B[1]
+            set.add(A[0]);
+        if (B[0] <= A[1] && A[1] <= B[1])   // Check: B[0] <= A[1] <= B[1]
+            set.add(A[1]);
+
+        // If no value in set, we return an empty array
+        if (set.size() == 0)
+            return new int[0];
+
+        arr[0] = set.first();       // Start Index .. should be smallest valid value
+        arr[1] = set.last();        // End Index   .. should be largest valid value
+        return arr;
+    }
+
+
     // Converts two dimensional list to two dimensional Array
-    private static int[][] convertList2Arr(List<List<Integer>> list) {
-        int [][] array = new int[list.size()][list.get(0).size()];
+    private static int[][] convertList2Arr(List<int[]> list) {
+        int [][] array = new int[list.size()][list.get(0).length];
 
         int listIndex = 0;
         for (int i=0; i < list.size() && listIndex < list.size(); i++) {
 
-            while (list.get(listIndex).size() == 0)
+            while(list.get(listIndex).length == 0 )
                 ++listIndex;
 
-            int [] tempArr = new int[2];
-            tempArr[0] = list.get(listIndex).get(0);
-            tempArr[1] = list.get(listIndex).get(list.get(listIndex).size() - 1);
-            array[i] = tempArr;
-
-            listIndex++;
+            array[i] = list.get(i);
         }
-
 
         return array;
     }
 
-    // Fetches the intersection between two arrays
-    private static ArrayList<Integer> fetchIntersection(int[] A, int[] B) {
-        ArrayList<Integer> list;
-        Set<Integer> setA = new TreeSet<>();
-        Set<Integer> setB = new TreeSet<>();
 
-        // Convert to Sets
-        for (int i = A[0]; i <= A[1]; i++) {
-            setA.add(i);
-        }
-        for (int i = B[0]; i <= B[1]; i++) {
-            setB.add(i);
-        }
-
-        // Finds the intersection
-        setA.retainAll(setB);
-
-        list = new ArrayList<>(setA);
-        return list;
-    }
 }
 
 
 /**
  Note
  - This code only passes 76/86 Test cases
+ - Update - COde fully passed 100%
 
 
  Solution

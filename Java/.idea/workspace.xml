@@ -327,7 +327,7 @@
       <workItem from="1589549456852" duration="5745000" />
       <workItem from="1589639571378" duration="6469000" />
       <workItem from="1589839640374" duration="7820000" />
-      <workItem from="1589899437639" duration="7861000" />
+      <workItem from="1589899437639" duration="10117000" />
     </task>
     <servers />
   </component>
@@ -487,8 +487,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/IntervalListIntersections/IntervalListIntersections.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="755" />
+          <line>44</line>
+          <option name="timeStamp" value="757" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
