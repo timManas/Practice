@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ReduceArrSizeByHalf/ReduceArrSizeByHalf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ReduceArrSizeByHalf/ReduceArrSizeByHalf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.CountGoodNodesInBinaryTree" />
       <recent name="Trees.DeepestNodeAndReturnForest" />
       <recent name="Trees.LowestCommonAncestorDeepestLeaves" />
       <recent name="Trees.TwoSumBST" />
       <recent name="Trees.DistributeCoinsInBinaryTree" />
-      <recent name="Trees.FindLeavesOfBinaryTree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -66,9 +65,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReduceArrSizeByHalf">
+  <component name="RunManager" selected="Application.CountGoodNodesInBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.CountGoodNodesInBinaryTree.CountGoodNodesInBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.CountGoodNodesInBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,20 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.PancakeSorting.Solution" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.PancakeSorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountGoodNodesInBinaryTree" />
         <item itemvalue="Application.ReduceArrSizeByHalf" />
         <item itemvalue="Application.DeepestNodeAndReturnForest" />
         <item itemvalue="Application.IntervalListIntersections" />
         <item itemvalue="Application.LowestCommonAncestorDeepestLeaves" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +328,9 @@
       <workItem from="1589839640374" duration="7820000" />
       <workItem from="1589899437639" duration="10664000" />
       <workItem from="1590092001225" duration="3984000" />
-      <workItem from="1590285740854" duration="2360000" />
+      <workItem from="1590285740854" duration="3356000" />
+      <workItem from="1590408933173" duration="489000" />
+      <workItem from="1590442887072" duration="975000" />
     </task>
     <servers />
   </component>
