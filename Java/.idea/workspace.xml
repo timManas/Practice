@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ReduceArrSizeByHalf/ReduceArrSizeByHalf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ReduceArrSizeByHalf/ReduceArrSizeByHalf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeepestNodeAndReturnForest">
+  <component name="RunManager" selected="Application.ReduceArrSizeByHalf">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -100,20 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorForCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.IteratorForCombination.IteratorForCombination" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.IteratorForCombination.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LowestCommonAncestorDeepestLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.LowestCommonAncestorDeepestLeaves.LowestCommonAncestorDeepestLeaves" />
       <module name="Java" />
@@ -121,6 +108,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.LowestCommonAncestorDeepestLeaves.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReduceArrSizeByHalf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ReduceArrSizeByHalf.ReduceArrSizeByHalf" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.ReduceArrSizeByHalf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReduceArrSizeByHalf" />
         <item itemvalue="Application.DeepestNodeAndReturnForest" />
         <item itemvalue="Application.IntervalListIntersections" />
         <item itemvalue="Application.LowestCommonAncestorDeepestLeaves" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.IteratorForCombination" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +328,8 @@
       <workItem from="1589639571378" duration="6469000" />
       <workItem from="1589839640374" duration="7820000" />
       <workItem from="1589899437639" duration="10664000" />
-      <workItem from="1590092001225" duration="3821000" />
+      <workItem from="1590092001225" duration="3984000" />
+      <workItem from="1590285740854" duration="2360000" />
     </task>
     <servers />
   </component>
@@ -494,6 +496,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/DeepestNodeAndReturnForest/DeepestNodeAndReturnForest.java</url>
           <line>56</line>
           <option name="timeStamp" value="769" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReduceArrSizeByHalf/ReduceArrSizeByHalf.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="770" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
