@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/CountGoodNodesInBinaryTree/CountGoodNodesInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/CountGoodNodesInBinaryTree/CountGoodNodesInBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +331,7 @@
       <workItem from="1590092001225" duration="3984000" />
       <workItem from="1590285740854" duration="3356000" />
       <workItem from="1590408933173" duration="489000" />
-      <workItem from="1590442887072" duration="975000" />
+      <workItem from="1590442887072" duration="2588000" />
     </task>
     <servers />
   </component>
