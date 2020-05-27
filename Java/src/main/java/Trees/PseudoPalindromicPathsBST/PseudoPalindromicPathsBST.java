@@ -95,22 +95,25 @@ public class PseudoPalindromicPathsBST {
  - Wow was this tricky
  - The idea is that we keep track of all the values we pass through from root to leaf using a list
  - The same list, we check if is palindromic
- - Notice the list is UNTOUCHED but we create a COPY of the list ('tempList') and use that to determine if it is palindromic
-
+ - YOOOO !!!!! Notice the list is UNTOUCHED but we create a COPY of the list ('tempList') and use that to determine if it is palindromic
+    Why ? Because we want to keep the main list to keep track of the all the values we passed through
+        - And to remove as needed
 
  Steps
- 1. Traverse through list using DFS using DFS  to add elements to list
+ 1. Traverse through list using DFS to add elements to list
  2. Once we get a leaf, we check if the values in the list are palindromic
     > If so, we increment
+ 3. At the end, we remove the current node from list
 
  How do you know if a list is a Palindrome ?
  - Good question
  - Basically We know that if a Palindromic has either 0 or 1 characters
  Ex. aba ... Removing 'a' we get b which is of length = 1
  abba ... Removing 'a' and 'b' pairs we get a length = 0
+ abcba ... Removing 'a' and 'b' pairs we get a length = 1 ... 'c' is still there since it has NO pairs
  - We REMOVE ALL Pairs...
  - THerefore, we KNOW if the length of list is 0 or 1, then it is palindromic, Otherwise it is NOT
- 
+
 
 
  */
