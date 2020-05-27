@@ -80,6 +80,9 @@ public class PseudoPalindromicPathsBST {
             if (tempList.get(i) == tempList.get(i + 1)) {
                 tempList.remove(i);
                 tempList.remove(i);
+
+                // We DO NOT app modify i since, we should still be in the current position if
+                // i & i+1 are the same
             } else
                 ++i;
         }

@@ -43,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.FlipEquivalentBST" />
       <recent name="Trees.PseudoPalindromicPathsBST" />
       <recent name="Trees.CountGoodNodesInBinaryTree" />
       <recent name="Trees.DeepestNodeAndReturnForest" />
       <recent name="Trees.LowestCommonAncestorDeepestLeaves" />
-      <recent name="Trees.TwoSumBST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -333,6 +333,7 @@
       <workItem from="1590408933173" duration="489000" />
       <workItem from="1590442887072" duration="10184000" />
       <workItem from="1590532598836" duration="234000" />
+      <workItem from="1590587693725" duration="843000" />
     </task>
     <servers />
   </component>
