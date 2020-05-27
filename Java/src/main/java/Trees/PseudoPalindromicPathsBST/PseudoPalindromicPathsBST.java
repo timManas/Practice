@@ -1,9 +1,7 @@
 package Trees.PseudoPalindromicPathsBST;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class PseudoPalindromicPathsBST {
@@ -31,89 +29,88 @@ public class PseudoPalindromicPathsBST {
         // Step1 - Create variable to return
         AtomicInteger numPaths = new AtomicInteger(0);
 
-        // Step2 - Create map to store values
-        Map<Integer, Integer> map = new LinkedHashMap<>();
+        // Step2 - Create list to store values seen from root to leaf
+        List<Integer> list = new ArrayList<>();
 
         // Step3 - Traverse Tree
-        traverseTree(root, map, numPaths);
+        traverseTree(root, list, numPaths);
 
         return numPaths.get();
     }
 
-    private static void traverseTree(TreeNode node, Map<Integer, Integer> map, AtomicInteger numPaths) {
+    private static void traverseTree(TreeNode node, List<Integer> list, AtomicInteger numPaths) {
 
+        // Step1 - Check if node null ...return if so
         if (node == null)
             return;
 
-        System.out.println("CurrentNode: " + node.val);
 
-        // Update the map
-        int value = 1;
-        if (map.containsKey(node.val))
-            value = map.get(node.val) + 1;
-        map.put(node.val, value);
+        // Step2 - Add Node to list
+        // We need this to keep track of all the node values we went through
+        list.add(node.val);
+        System.out.println("CurrentNode: " + node.val + "   List: " + list);
 
-        traverseTree(node.left, map, numPaths);
-        traverseTree(node.right, map, numPaths);
+        // Step3 - Traverse Left and Right Node
+        traverseTree(node.left, list, numPaths);
+        traverseTree(node.right, list, numPaths);
 
-        // Check if Leaf
-        if (node.left == null && node.right == null) {
-            System.out.println(map);
-            if (isPalindromic(map))
-                numPaths.getAndIncrement();
-        }
+        // Step4 - Check if node is a leaf and palindrome
+        if (node.left == null && node.right == null && isPalindrome(list))
+            numPaths.getAndIncrement();
 
-        // Remove Element
-        if (map.containsKey(node.val)) {
-            if (map.get(node.val) == 1) {
-                map.remove(node.val);
-            } else {
-                map.put(node.val, map.get(node.val) - 1);
-            }
-        }
+        // Step5 - Remove current Node from List
+        if (list.size() > 0 )
+            list.remove(list.size() - 1);
+
+
     }
 
-    private static boolean isPalindromic(Map<Integer, Integer> map) {
-        ArrayList<Integer> list = getPalindromicRatio(map);
+    // Checks if the value in list is Palindromic
+    private static boolean isPalindrome(List<Integer> list) {
 
-        for (Map.Entry<Integer, Integer> mapEntry : map.entrySet()) {
-            int numOccurence = mapEntry.getValue();
+        // Step1 - Create tempList, Sort and Reverse
+        List<Integer> tempList = new ArrayList<>(list);
+        Collections.sort(tempList);
+        Collections.reverse(tempList);
 
-            if (!list.contains(numOccurence))
-                return false;
+        // Step2 - Remove ALL PAIRS  in the tempList
+        int i = 0;
+        while ( i < tempList.size() - 1) {
 
-            list.remove(list.indexOf(numOccurence));
+            if (tempList.get(i) == tempList.get(i + 1)) {
+                tempList.remove(i);
+                tempList.remove(i);
+            } else
+                ++i;
         }
 
-
-        return true;
+        // Step3 - We know if it is Palindromic is Length of tempList is either 1 or 0
+        return tempList.size() <= 1;
     }
-
-    private static ArrayList<Integer> getPalindromicRatio(Map<Integer, Integer> map) {
-        int total = 0;
-        for (int i : map.values())
-            total += i;
-
-        int maxCap = total / map.size();
-
-        int [] arr = new int[map.size()];
-        int index = 0;
-        int balance = 0;
-        while (total > 0) {
-            total = total - maxCap;
-            arr[index] = total;
-            index++;
-            if (index >= arr.length)
-                index = 0;
-        }
-
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i : arr)
-            list.add(i);
-
-        System.out.println("ListRatio: " + list);
-
-        return list;
-    }
-
 }
+
+
+/**
+ Note
+ - Wow was this tricky
+ - The idea is that we keep track of all the values we pass through from root to leaf using a list
+ - The same list, we check if is palindromic
+ - Notice the list is UNTOUCHED but we create a COPY of the list ('tempList') and use that to determine if it is palindromic
+
+
+ Steps
+ 1. Traverse through list using DFS using DFS  to add elements to list
+ 2. Once we get a leaf, we check if the values in the list are palindromic
+    > If so, we increment
+
+ How do you know if a list is a Palindrome ?
+ - Good question
+ - Basically We know that if a Palindromic has either 0 or 1 characters
+ Ex. aba ... Removing 'a' we get b which is of length = 1
+ abba ... Removing 'a' and 'b' pairs we get a length = 0
+ - We REMOVE ALL Pairs...
+ - THerefore, we KNOW if the length of list is 0 or 1, then it is palindromic, Otherwise it is NOT
+ 
+
+
+ */
