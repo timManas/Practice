@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/PseudoPalindromicPathsBST/PseudoPalindromicPathsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/PseudoPalindromicPathsBST/PseudoPalindromicPathsBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FlipEquivalentBST/FlipEquivalentBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FlipEquivalentBST/FlipEquivalentBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PseudoPalindromicPathsBST">
+  <component name="RunManager" selected="Application.FlipEquivalentBST">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntervalListIntersections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.IntervalListIntersections.IntervalListIntersections" />
+    <configuration name="FlipEquivalentBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.FlipEquivalentBST.FlipEquivalentBST" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.IntervalListIntersections.*" />
+          <option name="PATTERN" value="Trees.FlipEquivalentBST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipEquivalentBST" />
         <item itemvalue="Application.PseudoPalindromicPathsBST" />
         <item itemvalue="Application.CountGoodNodesInBinaryTree" />
         <item itemvalue="Application.ReduceArrSizeByHalf" />
         <item itemvalue="Application.DeepestNodeAndReturnForest" />
-        <item itemvalue="Application.IntervalListIntersections" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +333,8 @@
       <workItem from="1590408933173" duration="489000" />
       <workItem from="1590442887072" duration="10184000" />
       <workItem from="1590532598836" duration="234000" />
-      <workItem from="1590587693725" duration="843000" />
+      <workItem from="1590587693725" duration="1495000" />
+      <workItem from="1590674044640" duration="1131000" />
     </task>
     <servers />
   </component>
