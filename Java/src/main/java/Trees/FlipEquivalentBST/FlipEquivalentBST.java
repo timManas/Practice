@@ -44,19 +44,28 @@ public class FlipEquivalentBST {
 
     public static boolean flipEquiv(TreeNode rootA, TreeNode rootB) {
 
+        // Step1 - Make sure that rootA && rootB exists
+        if (rootA == null && rootB == null)                     // if both null, return true
+            return true;
+        else if (rootA != null && rootB == null)
+            return false;
+        else if (rootA == null && rootB != null)
+            return false;
+
+
+        // Step2 - Create Queues for BFS Traversal
         Queue<TreeNode> mainQueueA = new LinkedList<>();
         Queue<TreeNode> tempQueueA = new LinkedList<>();
-
         Queue<TreeNode> mainQueueB = new LinkedList<>();
         Queue<TreeNode> tempQueueB = new LinkedList<>();
 
+        // Step3 - Add first nodes to the queues
         mainQueueA.add(rootA);
         mainQueueB.add(rootB);
 
-        // Create Map
-        Map<Integer, List<Integer>> mapA = new TreeMap<>();
-        Map<Integer, List<Integer>> mapB = new TreeMap<>();
-
+        // Step4 - Traverse both trees at the same time while keep track of their temporary queues
+        // Why do we need tempQueues ? Because for every level we want to keep track of all the children
+        // The tempQueues are emptied and placed into the mainQueue
         while (!mainQueueA.isEmpty() || !mainQueueB.isEmpty() || !tempQueueA.isEmpty() || !tempQueueB.isEmpty()) {
 
             while (!mainQueueA.isEmpty() || !mainQueueB.isEmpty()) {
@@ -64,50 +73,122 @@ public class FlipEquivalentBST {
                 TreeNode nodeB = mainQueueB.remove();
                 System.out.println("NodeA: " + nodeA.val + "        NodeB: " + nodeB.val);
 
-
-                // Add to respective  list
-                if (nodeA.left != null) {
+                // Step5 - Add to respective  list
+                if (nodeA.left != null)
                     tempQueueA.add(nodeA.left);
 
-                }
-
-                if (nodeA.right != null) {
+                if (nodeA.right != null)
                     tempQueueA.add(nodeA.right);
 
-                }
-
-                if (nodeB.left != null) {
+                if (nodeB.left != null)
                     tempQueueB.add(nodeB.left);
 
-                }
-
-                if (nodeB.right != null) {
+                if (nodeB.right != null)
                     tempQueueB.add(nodeB.right);
-
-                }
             }
 
-            // Compare
-            if (isMatch(tempQueueA, tempQueueB))
-                return false;
-
-
-            // Move TempQueue to mainQueue
+            // Step6 Move TempQueue to mainQueue
             mainQueueA.addAll(tempQueueA);
             mainQueueB.addAll(tempQueueB);
 
+            // Step7 - Compare both tempQueues
+            // Here we compare the nodes and its childNodes
+            if (!isMatch(tempQueueA, tempQueueB))
+                return false;
+
+            //Step8 - Clear the tempQueue incase we missed anything
             tempQueueA.clear();
             tempQueueB.clear();
+        }
+
+        // Step9 - If we reach the bottom and still no issues, everything is a match
+        return true;
+    }
 
 
+    // Checks if two Queues are a match
+    // How ? We use a list to keep track of the order  and use a set to do a comparison
+    private static boolean isMatch(Queue<TreeNode> tempQueueA, Queue<TreeNode> tempQueueB) {
 
+        // Step1 - Initialize list
+        List<TreeNode> listA = new ArrayList<>();
+        List<TreeNode> listB = new ArrayList<>();
+
+        // Step2 - Populate List
+        while(!tempQueueA.isEmpty()) {
+            listA.add(tempQueueA.remove());
+        }
+        while (!tempQueueB.isEmpty()) {
+            listB.add(tempQueueB.remove());
+        }
+
+        // Step3 - Sort List
+        sortByNodeVal(listA);
+        sortByNodeVal(listB);
+
+        // Step4 - Check size of list match
+        if (listA.size() != listB.size())
+            return false;
+
+        // Step5 - Traverse both list
+        // If matched, both list should have the EXACT same val, left & right child nodes
+        // We use a SET to do comparison if all three match using "containsAll"
+        for (int i=0; i < listA.size(); i++) {
+            TreeNode nodeA = listA.get(i);
+            TreeNode nodeB = listB.get(i);
+
+            TreeSet<Integer> setA = new TreeSet();
+            TreeSet<Integer> setB = new TreeSet();
+
+            setA.add(nodeA.val);
+            if (nodeA.left != null)
+                setA.add(nodeA.left.val);
+            if (nodeA.right != null)
+                setA.add(nodeA.right.val);
+
+            setB.add(nodeB.val);
+            if (nodeB.left != null)
+                setB.add(nodeB.left.val);
+            if (nodeB.right != null)
+                setB.add(nodeB.right.val);
+
+            if (!setA.containsAll(setB))
+                return false;
         }
 
         return true;
     }
 
-    private static boolean isMatch(Queue<TreeNode> tempQueueA, Queue<TreeNode> tempQueueB) {
-        tempQueueA
+    private static void sortByNodeVal(List<TreeNode> list) {
+        Collections.sort(list, new Comparator<TreeNode>() {
+            @Override
+            public int compare(TreeNode o1, TreeNode o2) {
+                return ((Comparable)o1.val).compareTo(o2.val);
+            }
+        });
     }
 
 }
+
+/**
+ Notes
+ - Longest fucker everrr. Took 3 days to write
+ - Solution is simple atually
+ - Just use BFS to traverse both trees
+    > While traversing we check each nodes value, left and right child nodes  and compare it to the other tree
+ - Watch out for the two while loops.
+    > First while loop only serves as a wrapper
+    > The second while loop iterates through each node at each level
+    > Once the iteration is done, we place all the values from the tempQueue to the mainQueue
+
+ Solution
+ 1. Create 4 Queues
+    > Two MainQueues
+    > Two TempQueues
+ 2. We use the tempQueues to keep track of each child  for EVERY level
+ 3. Once we finish each level, we compare the queues to each other
+ 4. If there is a mismatch, we return false.
+ 5. Repeat until all 4 Queues are empty
+
+
+ */
