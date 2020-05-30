@@ -1,7 +1,6 @@
 package Trees.FlipEquivalentBST;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class FlipEquivalentBST {
 
@@ -54,30 +53,61 @@ public class FlipEquivalentBST {
         mainQueueA.add(rootA);
         mainQueueB.add(rootB);
 
-        while (!mainQueueA.isEmpty() && !mainQueueB.isEmpty() ) {
+        // Create Map
+        Map<Integer, List<Integer>> mapA = new TreeMap<>();
+        Map<Integer, List<Integer>> mapB = new TreeMap<>();
 
-            TreeNode nodeA = mainQueueA.remove();
-            TreeNode nodeB = mainQueueB.remove();
+        while (!mainQueueA.isEmpty() || !mainQueueB.isEmpty() || !tempQueueA.isEmpty() || !tempQueueB.isEmpty()) {
 
-            System.out.println("NodeA: " + nodeA.val + "        NodeB: " + nodeB.val);
+            while (!mainQueueA.isEmpty() || !mainQueueB.isEmpty()) {
+                TreeNode nodeA = mainQueueA.remove();
+                TreeNode nodeB = mainQueueB.remove();
+                System.out.println("NodeA: " + nodeA.val + "        NodeB: " + nodeB.val);
 
 
-            if (nodeA.left != null)
-                mainQueueA.add(nodeA.left);
+                // Add to respective  list
+                if (nodeA.left != null) {
+                    tempQueueA.add(nodeA.left);
 
-            if (nodeA.right != null)
-                mainQueueA.add(nodeA.right);
+                }
 
-            if (nodeB.left != null)
-                mainQueueB.add(nodeB.left);
+                if (nodeA.right != null) {
+                    tempQueueA.add(nodeA.right);
 
-            if (nodeB.right != null)
-                mainQueueB.add(nodeB.right);
+                }
+
+                if (nodeB.left != null) {
+                    tempQueueB.add(nodeB.left);
+
+                }
+
+                if (nodeB.right != null) {
+                    tempQueueB.add(nodeB.right);
+
+                }
+            }
+
+            // Compare
+            if (isMatch(tempQueueA, tempQueueB))
+                return false;
+
+
+            // Move TempQueue to mainQueue
+            mainQueueA.addAll(tempQueueA);
+            mainQueueB.addAll(tempQueueB);
+
+            tempQueueA.clear();
+            tempQueueB.clear();
+
 
 
         }
 
         return true;
+    }
+
+    private static boolean isMatch(Queue<TreeNode> tempQueueA, Queue<TreeNode> tempQueueB) {
+        tempQueueA
     }
 
 }

@@ -334,7 +334,8 @@
       <workItem from="1590442887072" duration="10184000" />
       <workItem from="1590532598836" duration="234000" />
       <workItem from="1590587693725" duration="1495000" />
-      <workItem from="1590674044640" duration="1131000" />
+      <workItem from="1590674044640" duration="5729000" />
+      <workItem from="1590760771048" duration="2645000" />
     </task>
     <servers />
   </component>
@@ -513,13 +514,5 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="indexList" language="JAVA" />
-        <watch expression="characters.length()" language="JAVA" />
-        <watch expression="Alist.indexOf(largestVal)" language="JAVA" />
-        <watch expression="list.get(listIndex).get(list.s)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
