@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/FlipEquivalentBST/FlipEquivalentBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/FlipEquivalentBST/FlipEquivalentBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.ConstructBTFromPreAndPostOrder" />
       <recent name="Trees.FlipEquivalentBST" />
       <recent name="Trees.PseudoPalindromicPathsBST" />
       <recent name="Trees.CountGoodNodesInBinaryTree" />
       <recent name="Trees.DeepestNodeAndReturnForest" />
-      <recent name="Trees.LowestCommonAncestorDeepestLeaves" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -335,7 +334,9 @@
       <workItem from="1590532598836" duration="234000" />
       <workItem from="1590587693725" duration="1495000" />
       <workItem from="1590674044640" duration="5729000" />
-      <workItem from="1590760771048" duration="7186000" />
+      <workItem from="1590760771048" duration="7819000" />
+      <workItem from="1590851780965" duration="421000" />
+      <workItem from="1590937426706" duration="1830000" />
     </task>
     <servers />
   </component>
