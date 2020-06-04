@@ -339,7 +339,7 @@
       <workItem from="1590851780965" duration="421000" />
       <workItem from="1590937426706" duration="1911000" />
       <workItem from="1591018113610" duration="162000" />
-      <workItem from="1591138373772" duration="614000" />
+      <workItem from="1591138373772" duration="5223000" />
     </task>
     <servers />
   </component>
@@ -519,23 +519,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="775" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="776" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="777" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="778" />
+          <line>32</line>
+          <option name="timeStamp" value="789" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -543,5 +528,13 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="pre.subList(1, L + 1)" language="JAVA" />
+        <watch expression="post.subList(0, L)" language="JAVA" />
+        <watch expression="pre.subList(L + 1, pre.size())" language="JAVA" />
+        <watch expression="post.subList(L, post.size() - 1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
