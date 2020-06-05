@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/MinimumCostTreeFromLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/MinimumCostTreeFromLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/TreeNode.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstructBTFromPreAndPostOrder">
+  <component name="RunManager" selected="Application.MinimumCostTreeFromLeaves">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -114,13 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoPalindromicPathsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PseudoPalindromicPathsBST.PseudoPalindromicPathsBST" />
+    <configuration name="MinimumCostTreeFromLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MinimumCostTreeFromLeaves.MinimumCostTreeFromLeaves" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.PseudoPalindromicPathsBST.*" />
+          <option name="PATTERN" value="Trees.MinimumCostTreeFromLeaves.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceArrSizeByHalf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ReduceArrSizeByHalf.ReduceArrSizeByHalf" />
+    <configuration name="PseudoPalindromicPathsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.PseudoPalindromicPathsBST.PseudoPalindromicPathsBST" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.ReduceArrSizeByHalf.*" />
+          <option name="PATTERN" value="Trees.PseudoPalindromicPathsBST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumCostTreeFromLeaves" />
         <item itemvalue="Application.ConstructBTFromPreAndPostOrder" />
         <item itemvalue="Application.FlipEquivalentBST" />
         <item itemvalue="Application.PseudoPalindromicPathsBST" />
         <item itemvalue="Application.CountGoodNodesInBinaryTree" />
-        <item itemvalue="Application.ReduceArrSizeByHalf" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +341,7 @@
       <workItem from="1590937426706" duration="1911000" />
       <workItem from="1591018113610" duration="162000" />
       <workItem from="1591138373772" duration="5776000" />
-      <workItem from="1591288613605" duration="2717000" />
+      <workItem from="1591288613605" duration="5834000" />
     </task>
     <servers />
   </component>
@@ -522,6 +524,11 @@
           <line>32</line>
           <option name="timeStamp" value="789" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/MinimumCostTreeFromLeaves.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="793" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -530,10 +537,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="pre.subList(1, L + 1)" language="JAVA" />
-        <watch expression="post.subList(0, L)" language="JAVA" />
-        <watch expression="pre.subList(L + 1, pre.size())" language="JAVA" />
-        <watch expression="post.subList(L, post.size() - 1)" language="JAVA" />
+        <watch expression="list.subList(0, (list.size() / 2))" language="JAVA" />
+        <watch expression="list.subList((list.size() / 2), list.size())" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
