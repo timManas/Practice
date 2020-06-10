@@ -1,4 +1,4 @@
-package Trees.MergeTwoBinaryTree;
+package Trees.XMergeTwoBinaryTree;
 
 public class MergeTwoBinaryTree {
 

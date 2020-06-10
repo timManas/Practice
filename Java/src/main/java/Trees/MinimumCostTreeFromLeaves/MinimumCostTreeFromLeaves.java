@@ -7,8 +7,10 @@ import java.util.List;
 public class MinimumCostTreeFromLeaves {
 
     public static void main(String [] args) {
-//        int [] arr = {6,2,4,9};
-        int [] arr = {1,2,3,4};
+//        int [] arr = {6,2,4};
+//        int [] arr = {4,11};
+//        int [] arr = {1,2,3,4,5};
+        int [] arr = {15,13,5,3,15};
         System.out.println("Minimum Cost Tree: " +  mctFromLeafValues(arr));
     }
 
@@ -25,11 +27,44 @@ public class MinimumCostTreeFromLeaves {
         for (int i : arr)
             list.add(i);
 
-        System.out.println("Max: " + createTree(list, nodeList));
+        if (list.size() % 2 == 0) {
+            createTree(list, nodeList);
+            System.out.println("Even # List: " + nodeList);
+            costList.add(total(nodeList));
+        } else {
+
+            // Forward
+            int left = createTree(list.subList(0, list.size()- 1), nodeList);
+            int right = list.get(list.size() - 1);
+            nodeList.add(left * right);
+            int total = total(nodeList);
+            costList.add(total);
+            System.out.println("Odd # - Forward List: " + nodeList + "      Total: " + total);
+
+            // Clear NodeList
+            nodeList.clear();
+
+            // Backward
+            Collections.reverse(list);
+            left = list.get(list.size() - 1);
+            right = createTree(list.subList(0, list.size()- 1), nodeList);
+            nodeList.add(left * right);
+            total = total(nodeList);
+            costList.add(total);
+            System.out.println("Odd # - Backward List: " + nodeList +  "    Total: " + total);
+        }
 
         // Sort to get the smallest cost
         Collections.sort(costList);
-        return 0;
+        return costList.get(0);
+    }
+
+    private static Integer total(List<Integer> nodeList) {
+        int total = 0;
+        for (int i : nodeList)
+            total += i;
+
+        return total;
     }
 
     private static int createTree(List<Integer> list, List<Integer> nodeList) {
@@ -50,3 +85,6 @@ public class MinimumCostTreeFromLeaves {
     }
 
 }
+
+
+// solution: dp[i, j] = dp[i, k] + dp[k + 1, j] + max(A[i, k]) * max(A[k + 1, j])
