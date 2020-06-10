@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/MergeTwoBinaryTree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/MergeTwoBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/MergeTwoBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MergeTwoBinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/MinimumCostTreeFromLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MinimumCostTreeFromLeaves/MinimumCostTreeFromLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumCostTreeFromLeaves">
+  <component name="RunManager" selected="Application.EarliestMomentEveryoneBecameFriends">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -90,13 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountGoodNodesInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.CountGoodNodesInBinaryTree.CountGoodNodesInBinaryTree" />
+    <configuration name="EarliestMomentEveryoneBecameFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.EarliestMomentEveryoneBecameFriends.EarliestMomentEveryoneBecameFriends" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.CountGoodNodesInBinaryTree.*" />
+          <option name="PATTERN" value="Lists.EarliestMomentEveryoneBecameFriends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EarliestMomentEveryoneBecameFriends" />
         <item itemvalue="Application.MinimumCostTreeFromLeaves" />
         <item itemvalue="Application.ConstructBTFromPreAndPostOrder" />
         <item itemvalue="Application.FlipEquivalentBST" />
         <item itemvalue="Application.PseudoPalindromicPathsBST" />
-        <item itemvalue="Application.CountGoodNodesInBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +342,7 @@
       <workItem from="1591138373772" duration="5776000" />
       <workItem from="1591288613605" duration="7994000" />
       <workItem from="1591587572263" duration="1125000" />
-      <workItem from="1591628758132" duration="1782000" />
+      <workItem from="1591628758132" duration="8172000" />
     </task>
     <servers />
   </component>
@@ -533,6 +530,21 @@
           <line>57</line>
           <option name="timeStamp" value="793" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="800" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="801" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -541,8 +553,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="list.subList(0, (list.size() / 2))" language="JAVA" />
-        <watch expression="list.subList((list.size() / 2), list.size())" language="JAVA" />
+        <watch expression="positionList.get(idB)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
