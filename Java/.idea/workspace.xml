@@ -343,6 +343,7 @@
       <workItem from="1591288613605" duration="7994000" />
       <workItem from="1591587572263" duration="1125000" />
       <workItem from="1591628758132" duration="8172000" />
+      <workItem from="1591883215650" duration="5513000" />
     </task>
     <servers />
   </component>
@@ -532,18 +533,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="799" />
+          <line>133</line>
+          <option name="timeStamp" value="805" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="800" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="801" />
+          <line>118</line>
+          <option name="timeStamp" value="807" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -554,6 +550,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="positionList.get(idB)" language="JAVA" />
+        <watch expression="logs[i]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
