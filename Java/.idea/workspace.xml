@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Lists/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/EarliestMomentEveryoneBecameFriends/EarliestMomentEveryoneBecameFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping/Decrypt String from Alphabet to Integer Mapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping/DecryptStringFromAlphabetToIntMapping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Lists/RunningSum1dArray/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -343,7 +348,10 @@
       <workItem from="1591288613605" duration="7994000" />
       <workItem from="1591587572263" duration="1125000" />
       <workItem from="1591628758132" duration="8172000" />
-      <workItem from="1591883215650" duration="5513000" />
+      <workItem from="1591883215650" duration="5994000" />
+      <workItem from="1592070671374" duration="381000" />
+      <workItem from="1592171655610" duration="511000" />
+      <workItem from="1593647666954" duration="494000" />
     </task>
     <servers />
   </component>

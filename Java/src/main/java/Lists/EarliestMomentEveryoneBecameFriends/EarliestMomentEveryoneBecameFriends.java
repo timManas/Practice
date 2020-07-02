@@ -139,9 +139,11 @@ public class EarliestMomentEveryoneBecameFriends {
  Note
  - Had a fancy solution but it was buggy. KISS (Keep it simple stupid)
  - Use a Union-Find Algorithm
+ - We have to SORT the input array, otherwise we wont know the true time everyone MET each other
 
  Solution
  - Used a union find algorithm
+
  0. Create list of Sets
  1. Find both Sets
  2. "Unite" (aka Union) the two sets if they are different
