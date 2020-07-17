@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
+    <SUITE FILE_PATH="coverage/Python$HowManyNumbersAreSmallerThanCurrent.coverage" NAME="HowManyNumbersAreSmallerThanCurrent Coverage Results" MODIFIED="1594952026141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
@@ -44,53 +45,50 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Decrypt String from Alphabet to Integer Mapping" value="1" />
+          <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
           <entry key="JewelsAndStones" value="1" />
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
           <entry key="RunningSum1dArray" value="1" />
           <entry key="ShuffleTheArray" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3780" />
+          <entry key="py" value="4495" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3780" />
+          <entry key="Python" value="4495" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <marker date="1594249497607" expanded="true" signature="42:474" ph="..." />
-                <marker date="1594249497607" expanded="true" signature="472:474" ph="..." />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -124,6 +122,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero/NumberStepsReduceNumToZero.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones" />
         <option value="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent" />
+        <option value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py" />
       </list>
     </option>
   </component>
@@ -171,15 +171,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="JewelsAndStones" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="HowManyNumbersAreSmallerThanCurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +205,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.JewelsAndStones">
+  <component name="RunManager" selected="Python.HowManyNumbersAreSmallerThanCurrent">
+    <configuration name="HowManyNumbersAreSmallerThanCurrent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="JewelsAndStones" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,28 +294,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveVowelsFromString" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString/RemoveVowelsFromString.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ShuffleTheArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,19 +317,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RemoveVowelsFromString" />
       <item itemvalue="Python.ShuffleTheArray" />
       <item itemvalue="Python.KidWithGreatestNumCandies" />
       <item itemvalue="Python.NumberStepsReduceNumToZero" />
       <item itemvalue="Python.JewelsAndStones" />
+      <item itemvalue="Python.HowManyNumbersAreSmallerThanCurrent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HowManyNumbersAreSmallerThanCurrent" />
         <item itemvalue="Python.JewelsAndStones" />
         <item itemvalue="Python.NumberStepsReduceNumToZero" />
         <item itemvalue="Python.KidWithGreatestNumCandies" />
         <item itemvalue="Python.ShuffleTheArray" />
-        <item itemvalue="Python.RemoveVowelsFromString" />
       </list>
     </recent_temporary>
   </component>
@@ -489,6 +489,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1594249710867" expanded="true" signature="42:629" ph="..." />
+            <marker date="1594249710867" expanded="true" signature="627:629" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -496,14 +507,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1594249497607" expanded="true" signature="42:474" ph="..." />
-            <marker date="1594249497607" expanded="true" signature="472:474" ph="..." />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
