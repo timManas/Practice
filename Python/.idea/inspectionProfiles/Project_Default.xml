@@ -6,6 +6,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="project.src.Lists.RunningSum1dArray.RunningSum1dArray.*" />
+          <option value="project.src.Strings.ShuffleString.ShuffleString.List" />
         </list>
       </option>
     </inspection_tool>

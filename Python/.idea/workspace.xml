@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="" />
+    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ShuffleString/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$HowManyNumbersAreSmallerThanCurrent.coverage" NAME="HowManyNumbersAreSmallerThanCurrent Coverage Results" MODIFIED="1595381133352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
+    <SUITE FILE_PATH="coverage/Python$ShuffleString.coverage" NAME="ShuffleString Coverage Results" MODIFIED="1595975363843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShuffleString" />
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
     <SUITE FILE_PATH="coverage/Python$KidWithGreatestNumCandies.coverage" NAME="KidWithGreatestNumCandies Coverage Results" MODIFIED="1594158986141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies" />
     <SUITE FILE_PATH="coverage/Python$RemoveVowelsFromString.coverage" NAME="RemoveVowelsFromString Coverage Results" MODIFIED="1593701129014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
@@ -27,8 +34,9 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -39,7 +47,7 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,35 +61,59 @@
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
           <entry key="RunningSum1dArray" value="1" />
+          <entry key="ShuffleString" value="1" />
           <entry key="ShuffleTheArray" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
           <entry key="SubtractProductAndSumInteger" value="1" />
-          <entry key="py" value="15" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="15" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="10359" />
+          <entry key="py" value="11243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="10359" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="11243" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+              <folding>
+                <marker date="1595975441573" expanded="true" signature="69:750" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,6 +154,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder/CreateTargetArrayInGivenOrder.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString" />
         <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString" />
+        <option value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py" />
       </list>
     </option>
   </component>
@@ -183,15 +217,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleRowKeyboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="SplitStringInBalancedString" type="462c0819:PsiDirectoryNode" />
+              <item name="ShuffleString" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SplitStringInBalancedString">
+  <component name="RunManager" selected="Python.ShuffleString">
     <configuration name="CreateTargetArrayInGivenOrder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,6 +281,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShuffleString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/ShuffleString" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,42 +355,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SubtractProductAndSumInteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.SubtractProductAndSumInteger" />
       <item itemvalue="Python.DecompressRunLengthEncodedList" />
       <item itemvalue="Python.SingleRowKeyboard" />
       <item itemvalue="Python.CreateTargetArrayInGivenOrder" />
       <item itemvalue="Python.SplitStringInBalancedString" />
+      <item itemvalue="Python.ShuffleString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShuffleString" />
         <item itemvalue="Python.SplitStringInBalancedString" />
         <item itemvalue="Python.CreateTargetArrayInGivenOrder" />
         <item itemvalue="Python.SingleRowKeyboard" />
         <item itemvalue="Python.DecompressRunLengthEncodedList" />
-        <item itemvalue="Python.SubtractProductAndSumInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +389,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1656017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,7 +409,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.42385516" />
-      <window_info anchor="right" id="Run" order="6" weight="0.41799787" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.41799787" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,10 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <marker date="1595802398573" expanded="true" signature="79:221" ph="..." />
-            <marker date="1595802398573" expanded="true" signature="79:1466" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,6 +661,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <marker date="1595975441573" expanded="true" signature="69:750" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
