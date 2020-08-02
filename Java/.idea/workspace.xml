@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +344,7 @@
       <workItem from="1592070671374" duration="381000" />
       <workItem from="1592171655610" duration="511000" />
       <workItem from="1593647666954" duration="494000" />
-      <workItem from="1595801536752" duration="1111000" />
+      <workItem from="1595801536752" duration="1803000" />
     </task>
     <servers />
   </component>
@@ -547,7 +544,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/FindAllLonelyNodes/FindAllLonelyNodes.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="808" />
         </line-breakpoint>
       </breakpoints>
