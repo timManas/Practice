@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindAnagrams/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +31,7 @@
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$DecompressRunLengthEncodedList.coverage" NAME="DecompressRunLengthEncodedList Coverage Results" MODIFIED="1595456619594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList" />
+    <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596556953116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="588843123">
@@ -67,56 +67,57 @@
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RangeSumBST" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
+          <entry key="ReverseAnImage" value="1" />
           <entry key="RunningSum1dArray" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="ShuffleTheArray" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
           <entry key="SubtractProductAndSumInteger" value="1" />
-          <entry key="py" value="23" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="23" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="13832" />
+          <entry key="py" value="14666" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="13832" />
+          <entry key="Python" value="14666" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="495">
+              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+              <folding>
+                <marker date="1596557078491" expanded="true" signature="62:109" ph="..." />
+                <marker date="1596557078491" expanded="true" signature="413:509" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding>
-                <marker date="1596555009534" expanded="true" signature="60:69" ph="..." />
-                <marker date="1596555009534" expanded="true" signature="266:369" ph="..." />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -170,6 +171,8 @@
         <option value="$PROJECT_DIR$/project/src/Trees/RangSumBST/RangeSumBST.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage" />
+        <option value="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" />
       </list>
     </option>
   </component>
@@ -216,15 +219,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="FindAnagrams" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="ReverseAnImage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindAnagrams">
+  <component name="RunManager" selected="Python.ReverseAnImage">
     <configuration name="FindAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,6 +320,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ReverseAnImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ShuffleString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,42 +364,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SplitStringInBalancedString" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.SplitStringInBalancedString" />
       <item itemvalue="Python.ShuffleString" />
       <item itemvalue="Python.FindNumbersWithEvenDigits" />
       <item itemvalue="Python.RangeSumBST" />
       <item itemvalue="Python.FindAnagrams" />
+      <item itemvalue="Python.ReverseAnImage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReverseAnImage" />
         <item itemvalue="Python.FindAnagrams" />
         <item itemvalue="Python.RangeSumBST" />
         <item itemvalue="Python.FindNumbersWithEvenDigits" />
         <item itemvalue="Python.ShuffleString" />
-        <item itemvalue="Python.SplitStringInBalancedString" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +418,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.3457189" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.35945073" />
+      <window_info anchor="right" id="Run" order="6" weight="0.35945073" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +469,11 @@
           <url>file://$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams.py</url>
           <line>6</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -769,6 +777,24 @@
           <folding>
             <marker date="1596555009534" expanded="true" signature="60:69" ph="..." />
             <marker date="1596555009534" expanded="true" signature="266:369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+          <folding>
+            <marker date="1596557078491" expanded="true" signature="62:109" ph="..." />
+            <marker date="1596557078491" expanded="true" signature="413:509" ph="..." />
           </folding>
         </state>
       </provider>
