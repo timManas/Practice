@@ -12,6 +12,10 @@ class Solution(object):
         self.invertImage(A)
         print("InvertA: ", A, "\n")
 
+        # BonusStep - Combine Both together
+        self.flipAndReverse(A)
+        print("Flip N Reversed: ", A)
+
         return A
 
 
@@ -33,6 +37,16 @@ class Solution(object):
                     subArray[i] = 0
         return A
 
+    def flipAndReverse(self, A):
+        for subArray in A:
+            for i in range(subArray.__len__()):
+                if subArray[i] == 0:
+                    subArray[i] = 1
+                else:
+                    subArray[i] = 0
+            subArray.reverse()
+
+        return A
 
 
 def main():

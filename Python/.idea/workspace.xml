@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$DecompressRunLengthEncodedList.coverage" NAME="DecompressRunLengthEncodedList Coverage Results" MODIFIED="1595456619594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList" />
-    <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596556953116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
+    <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="588843123">
@@ -87,13 +84,13 @@
         <counts>
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="14666" />
+          <entry key="py" value="14834" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="14666" />
+          <entry key="Python" value="14834" />
         </counts>
       </usages-collector>
     </session>
@@ -103,11 +100,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="256">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
-                <marker date="1596557078491" expanded="true" signature="62:109" ph="..." />
-                <marker date="1596557078491" expanded="true" signature="413:509" ph="..." />
+                <marker date="1596557349377" expanded="true" signature="62:109" ph="..." />
+                <marker date="1596557349377" expanded="true" signature="527:623" ph="..." />
               </folding>
             </state>
           </provider>
@@ -418,7 +415,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.3457189" />
-      <window_info anchor="right" id="Run" order="6" weight="0.35945073" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.35945073" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +469,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py</url>
-          <line>29</line>
+          <line>33</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -790,11 +787,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/ReverseAnImage/ReverseAnImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+        <state relative-caret-position="256">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <marker date="1596557078491" expanded="true" signature="62:109" ph="..." />
-            <marker date="1596557078491" expanded="true" signature="413:509" ph="..." />
+            <marker date="1596557349377" expanded="true" signature="62:109" ph="..." />
+            <marker date="1596557349377" expanded="true" signature="527:623" ph="..." />
           </folding>
         </state>
       </provider>
