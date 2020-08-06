@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +29,7 @@
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
     <SUITE FILE_PATH="coverage/Python$SubtractProductAndSumInteger.coverage" NAME="SubtractProductAndSumInteger Coverage Results" MODIFIED="1595381195491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
     <SUITE FILE_PATH="coverage/Python$HighFive.coverage" NAME="HighFive Coverage Results" MODIFIED="1596751297233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HighFive" />
+    <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
@@ -67,6 +71,7 @@
           <entry key="FindNumbersWithEvenDigits" value="1" />
           <entry key="HighFive" value="1" />
           <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
+          <entry key="IntersectionOfThreeArrays" value="1" />
           <entry key="JewelsAndStones" value="1" />
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="NumberStepsReduceNumToZero" value="1" />
@@ -80,13 +85,13 @@
           <entry key="SplitStringInBalancedString" value="1" />
           <entry key="SubtractProductAndSumInteger" value="1" />
           <entry key="ToLowerCase" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="27" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -94,13 +99,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="17070" />
+          <entry key="py" value="17673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="17070" />
+          <entry key="Python" value="17673" />
         </counts>
       </usages-collector>
     </session>
@@ -108,22 +113,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="11" />
+            <state relative-caret-position="540">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
               <folding>
-                <marker date="1596753319816" expanded="true" signature="629:632" ph="..." />
-                <marker date="1596753319816" expanded="true" signature="662:765" ph="..." />
+                <marker date="1596755512620" expanded="true" signature="540:675" ph="..." />
               </folding>
             </state>
           </provider>
@@ -194,6 +198,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/HighFive/HighFive.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase" />
         <option value="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays" />
+        <option value="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py" />
       </list>
     </option>
   </component>
@@ -240,15 +246,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="ToLowerCase" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="IntersectionOfThreeArrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ToLowerCase">
+  <component name="RunManager" selected="Python.IntersectionOfThreeArrays">
     <configuration name="ConvertBinaryNodeToInt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,28 +304,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindAnagrams" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindAnagrams/FindAnagrams.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="HighFive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -334,6 +318,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/HighFive/HighFive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IntersectionOfThreeArrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,19 +393,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindAnagrams" />
       <item itemvalue="Python.ReverseAnImage" />
       <item itemvalue="Python.ConvertBinaryNodeToInt" />
       <item itemvalue="Python.HighFive" />
       <item itemvalue="Python.ToLowerCase" />
+      <item itemvalue="Python.IntersectionOfThreeArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IntersectionOfThreeArrays" />
         <item itemvalue="Python.ToLowerCase" />
         <item itemvalue="Python.HighFive" />
         <item itemvalue="Python.ConvertBinaryNodeToInt" />
         <item itemvalue="Python.ReverseAnImage" />
-        <item itemvalue="Python.FindAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -502,6 +508,11 @@
           <line>8</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -523,6 +534,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>letter.isupper()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>output[i] = indexB</expression-string>
         <language-id>Python</language-id>
@@ -863,11 +879,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="11" />
+        <state relative-caret-position="675">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <marker date="1596753319816" expanded="true" signature="629:632" ph="..." />
-            <marker date="1596753319816" expanded="true" signature="662:765" ph="..." />
+            <marker date="1596753346649" expanded="true" signature="627:630" ph="..." />
+            <marker date="1596753346649" expanded="true" signature="660:763" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays/IntersectionOfThreeArrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <marker date="1596755512620" expanded="true" signature="540:675" ph="..." />
           </folding>
         </state>
       </provider>
