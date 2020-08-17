@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Python$RemoveVowelsFromString.coverage" NAME="RemoveVowelsFromString Coverage Results" MODIFIED="1593701129014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
     <SUITE FILE_PATH="coverage/Python$JewelsAndStones.coverage" NAME="JewelsAndStones Coverage Results" MODIFIED="1594249578034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/JewelsAndStones" />
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
+    <SUITE FILE_PATH="coverage/Python$CountNegativeNumInMatrix.coverage" NAME="CountNegativeNumInMatrix Coverage Results" MODIFIED="1597700858734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix" />
     <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
@@ -47,12 +50,12 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -68,13 +71,14 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ArmStrongNumber" value="1" />
           <entry key="ConvertBinaryNodeToInt" value="1" />
+          <entry key="CountNegativeNumInMatrix" value="1" />
           <entry key="CreateTargetArrayInGivenOrder" value="1" />
           <entry key="DecompressRunLengthEncodedList" value="1" />
           <entry key="Decrypt String from Alphabet to Integer Mapping" value="1" />
@@ -102,13 +106,13 @@
           <entry key="SubtractProductAndSumInteger" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="36" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -116,13 +120,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="25014" />
+          <entry key="py" value="25382" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="25014" />
+          <entry key="Python" value="25382" />
         </counts>
       </usages-collector>
     </session>
@@ -130,22 +134,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="450">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="101" column="79" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
-              <folding>
-                <marker date="1597624536310" expanded="true" signature="0:2" ph="..." />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -173,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies/KidWithGreatestNumCandies" />
-        <option value="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies/KidWithGreatestNumCandies.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero/NumberStepsReduceNumToZero" />
         <option value="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero/NumberStepsReduceNumToZero.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones" />
@@ -224,6 +223,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords" />
         <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix" />
+        <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
       </list>
     </option>
   </component>
@@ -247,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,21 +272,20 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="DecryptStringFromAlphabetToInteger" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="CountNegativeNumInMatrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +306,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DecryptStringFromAlphabetToInteger">
+  <component name="RunManager" selected="Python.CountNegativeNumInMatrix">
+    <configuration name="CountNegativeNumInMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DecryptStringFromAlphabetToInteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -372,28 +395,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RemoveOuterMostParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="UniqueMorseCodeWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -417,19 +418,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RemoveOuterMostParanthesis" />
       <item itemvalue="Python.Maximum69Number" />
       <item itemvalue="Python.DestinationCity" />
       <item itemvalue="Python.UniqueMorseCodeWords" />
       <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
+      <item itemvalue="Python.CountNegativeNumInMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CountNegativeNumInMatrix" />
         <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
         <item itemvalue="Python.UniqueMorseCodeWords" />
         <item itemvalue="Python.DestinationCity" />
         <item itemvalue="Python.Maximum69Number" />
-        <item itemvalue="Python.RemoveOuterMostParanthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +451,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13205537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14749734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -622,20 +623,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero/NumberStepsReduceNumToZero">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero/NumberStepsReduceNumToZero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -975,11 +962,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="101" column="79" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
+        <state relative-caret-position="790">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <marker date="1597624536310" expanded="true" signature="0:2" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
