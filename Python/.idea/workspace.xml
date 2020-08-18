@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
+    <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597787451961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
     <SUITE FILE_PATH="coverage/Python$FindAnagrams.coverage" NAME="FindAnagrams Coverage Results" MODIFIED="1596554886307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindAnagrams" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
@@ -32,7 +34,7 @@
     <SUITE FILE_PATH="coverage/Python$HowManyNumbersAreSmallerThanCurrent.coverage" NAME="HowManyNumbersAreSmallerThanCurrent Coverage Results" MODIFIED="1595381133352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
     <SUITE FILE_PATH="coverage/Python$Maximum69Number.coverage" NAME="Maximum69Number Coverage Results" MODIFIED="1597182485570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Maximum69Number" />
     <SUITE FILE_PATH="coverage/Python$NumStudentsDoingHomework.coverage" NAME="NumStudentsDoingHomework Coverage Results" MODIFIED="1597095645801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework" />
-    <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597702422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
+    <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
     <SUITE FILE_PATH="coverage/Python$ShuffleString.coverage" NAME="ShuffleString Coverage Results" MODIFIED="1596059715796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShuffleString" />
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
@@ -86,6 +88,8 @@
           <entry key="FindAnagrams" value="1" />
           <entry key="FindNUniqueIntegersSumToZero" value="1" />
           <entry key="FindNumbersWithEvenDigits" value="1" />
+          <entry key="FlippingAnImage" value="1" />
+          <entry key="GenerateStringWithCharactersThatHaveOddCounts" value="1" />
           <entry key="HighFive" value="1" />
           <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
           <entry key="IntersectionOfThreeArrays" value="1" />
@@ -107,13 +111,13 @@
           <entry key="SubtractProductAndSumInteger" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="38" />
+          <entry key="py" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="38" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -121,13 +125,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="25972" />
+          <entry key="py" value="27656" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="25972" />
+          <entry key="Python" value="27656" />
         </counts>
       </usages-collector>
     </session>
@@ -135,19 +139,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="865">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1597787712693" expanded="true" signature="995:1133" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,10 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones" />
-        <option value="$PROJECT_DIR$/project/src/Strings/JewelsAndStones/JewelsAndStones.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent" />
-        <option value="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py" />
         <option value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger" />
         <option value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList" />
@@ -226,6 +230,10 @@
         <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage" />
+        <option value="$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts" />
+        <option value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" />
       </list>
     </option>
   </component>
@@ -273,15 +281,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="FindNUniqueIntegersSumToZero" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="GenerateStringWithCharactersThatHaveOddCounts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindNUniqueIntegersSumToZero">
+  <component name="RunManager" selected="Python.GenerateStringWithCharactersThatHaveOddCounts">
     <configuration name="CountNegativeNumInMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,28 +360,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DestinationCity" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/DestinationCity/DestinationCity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="FindNUniqueIntegersSumToZero" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,6 +374,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GenerateStringWithCharactersThatHaveOddCounts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,19 +427,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DestinationCity" />
       <item itemvalue="Python.UniqueMorseCodeWords" />
       <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
       <item itemvalue="Python.CountNegativeNumInMatrix" />
       <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
+      <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
         <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
         <item itemvalue="Python.CountNegativeNumInMatrix" />
         <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
         <item itemvalue="Python.UniqueMorseCodeWords" />
-        <item itemvalue="Python.DestinationCity" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +480,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.3887114" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.4259851" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36421725" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,6 +567,11 @@
           <line>38</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -624,34 +637,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent/HowManyNumbersAreSmallerThanCurrent">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -980,8 +965,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="495">
+          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1597787712693" expanded="true" signature="995:1133" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
