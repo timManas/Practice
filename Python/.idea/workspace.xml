@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
-    <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597787451961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
+    <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
+    <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
     <SUITE FILE_PATH="coverage/Python$FindAnagrams.coverage" NAME="FindAnagrams Coverage Results" MODIFIED="1596554886307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindAnagrams" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
@@ -52,11 +53,11 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -73,7 +74,7 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,6 +103,7 @@
           <entry key="RangeSumBST" value="1" />
           <entry key="RemoveOuterMostParanthesis" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
+          <entry key="ReplaceElementsWithGreatestElement" value="1" />
           <entry key="ReverseAnImage" value="1" />
           <entry key="RunningSum1dArray" value="1" />
           <entry key="ShuffleString" value="1" />
@@ -111,13 +113,13 @@
           <entry key="SubtractProductAndSumInteger" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="40" />
+          <entry key="py" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="40" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -125,13 +127,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="27656" />
+          <entry key="py" value="28000" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="27656" />
+          <entry key="Python" value="28000" />
         </counts>
       </usages-collector>
     </session>
@@ -139,23 +141,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1597787712693" expanded="true" signature="995:1133" ph="..." />
-              </folding>
+            <state>
+              <caret selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -176,6 +174,9 @@
     <replaceStrings>
       <replace>studentGradeMap</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/project/src/Lists</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -183,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger" />
-        <option value="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger/SubtractProductAndSumInteger.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList" />
         <option value="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard/SingleRowKeyboard" />
@@ -234,6 +233,8 @@
         <option value="$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts" />
         <option value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement" />
+        <option value="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py" />
       </list>
     </option>
   </component>
@@ -281,15 +282,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="GenerateStringWithCharactersThatHaveOddCounts" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="ReplaceElementsWithGreatestElement" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GenerateStringWithCharactersThatHaveOddCounts">
+  <component name="RunManager" selected="Python.ReplaceElementsWithGreatestElement">
     <configuration name="CountNegativeNumInMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,7 +405,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UniqueMorseCodeWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ReplaceElementsWithGreatestElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,12 +413,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -427,19 +428,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.UniqueMorseCodeWords" />
       <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
       <item itemvalue="Python.CountNegativeNumInMatrix" />
       <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
       <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
+      <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
         <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
         <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
         <item itemvalue="Python.CountNegativeNumInMatrix" />
         <item itemvalue="Python.DecryptStringFromAlphabetToInteger" />
-        <item itemvalue="Python.UniqueMorseCodeWords" />
       </list>
     </recent_temporary>
   </component>
@@ -460,8 +461,8 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14749734" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -637,20 +638,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList/DecompressRunLengthEncodedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard/SingleRowKeyboard">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -970,20 +957,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage" />
+    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -993,12 +968,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state>
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1597787712693" expanded="true" signature="995:1133" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
