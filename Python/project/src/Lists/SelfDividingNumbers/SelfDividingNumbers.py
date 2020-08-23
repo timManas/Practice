@@ -42,3 +42,15 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+'''
+Notes
+- Easy but tediious
+
+Solution
+1. Traverse from left to right 
+2. Convert each number to list of individual list
+3. Traverse inidiviual digit list and check if self divising
+
+'''
