@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +40,7 @@
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
     <SUITE FILE_PATH="coverage/Python$ShuffleString.coverage" NAME="ShuffleString Coverage Results" MODIFIED="1596059715796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShuffleString" />
+    <SUITE FILE_PATH="coverage/Python$SelfDividingNumbers.coverage" NAME="SelfDividingNumbers Coverage Results" MODIFIED="1598195735087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers" />
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
     <SUITE FILE_PATH="coverage/Python$MaximumProductOfTwoElements.coverage" NAME="MaximumProductOfTwoElements Coverage Results" MODIFIED="1597096400617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements" />
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
@@ -55,7 +56,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
@@ -63,6 +64,7 @@
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="2" />
@@ -77,7 +79,7 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,6 +111,7 @@
           <entry key="ReplaceElementsWithGreatestElement" value="1" />
           <entry key="ReverseAnImage" value="1" />
           <entry key="RunningSum1dArray" value="1" />
+          <entry key="SelfDividingNumbers" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="ShuffleTheArray" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
@@ -118,13 +121,13 @@
           <entry key="SumOfDigitsMinNumber" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="43" />
+          <entry key="py" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="Python" value="43" />
+          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -132,13 +135,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="29305" />
+          <entry key="py" value="30130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="29305" />
+          <entry key="Python" value="30130" />
         </counts>
       </usages-collector>
     </session>
@@ -146,19 +149,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <marker date="1598195735078" expanded="true" signature="614:728" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder/CreateTargetArrayInGivenOrder" />
-        <option value="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder/CreateTargetArrayInGivenOrder.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString" />
         <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString" />
@@ -240,6 +244,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParity/SortArrayByParity.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber" />
         <option value="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" />
       </list>
     </option>
   </component>
@@ -250,10 +256,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1291" />
-    <option name="y" value="44" />
-    <option name="width" value="1858" />
-    <option name="height" value="1031" />
+    <option name="y" value="303" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -263,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,13 +300,12 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="SumOfDigitsMinNumber" type="462c0819:PsiDirectoryNode" />
+              <item name="SelfDividingNumbers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,29 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SumOfDigitsMinNumber">
-    <configuration name="FindNUniqueIntegersSumToZero" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SelfDividingNumbers">
     <configuration name="GenerateStringWithCharactersThatHaveOddCounts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,6 +363,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement/ReplaceElementsWithGreatestElement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SelfDividingNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,19 +438,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
       <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
       <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
       <item itemvalue="Python.SortArrayByParity" />
       <item itemvalue="Python.SumOfDigitsMinNumber" />
+      <item itemvalue="Python.SelfDividingNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SelfDividingNumbers" />
         <item itemvalue="Python.SumOfDigitsMinNumber" />
         <item itemvalue="Python.SortArrayByParity" />
         <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
         <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
-        <item itemvalue="Python.FindNUniqueIntegersSumToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -463,10 +468,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.14270501" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2197092" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,8 +490,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.3887114" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.23961662" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.3885299" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.3634895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,6 +583,11 @@
           <line>38</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -587,9 +597,29 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression=" 0 in elementList" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>0 in elementList</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>if 0 in elementList:</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>if 0 in elementList</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>number.</expression-string>
         <language-id>Python</language-id>
@@ -625,38 +655,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>nums[nums.__len__() - 1] -1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>letter.isupper()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>output[i] = indexB</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -978,9 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="17" />
-          <folding>
-            <marker date="1598045472792" expanded="true" signature="463:564" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,8 +991,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1598195735078" expanded="true" signature="614:728" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
