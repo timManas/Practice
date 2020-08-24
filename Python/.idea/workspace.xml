@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +51,21 @@
     <SUITE FILE_PATH="coverage/Python$ArmStrongNumber.coverage" NAME="ArmStrongNumber Coverage Results" MODIFIED="1597001626709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ArmStrongNumber" />
     <SUITE FILE_PATH="coverage/Python$DecompressRunLengthEncodedList.coverage" NAME="DecompressRunLengthEncodedList Coverage Results" MODIFIED="1595456619594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
+    <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598305898924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$RemoveOuterMostParanthesis.coverage" NAME="RemoveOuterMostParanthesis Coverage Results" MODIFIED="1597097760973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -76,7 +82,7 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,6 +106,7 @@
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="Maximum69Number" value="1" />
           <entry key="MaximumProductOfTwoElements" value="1" />
+          <entry key="MergeTwoBinaryTrees" value="1" />
           <entry key="NumStudentsDoingHomework" value="1" />
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RangeSumBST" value="1" />
@@ -118,13 +125,13 @@
           <entry key="SumOfDigitsMinNumber" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="44" />
+          <entry key="py" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="44" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -132,36 +139,45 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="30713" />
+          <entry key="py" value="31125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="30713" />
+          <entry key="Python" value="31125" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <marker date="1598306013814" expanded="true" signature="478:584" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/TreeNodeObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-              <folding>
-                <marker date="1598196016334" expanded="true" signature="1017:1131" ph="..." />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -192,9 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString" />
-        <option value="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString/SplitStringInBalancedString.py" />
-        <option value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString" />
         <option value="$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py" />
         <option value="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits/FindNumbersWithEvenDigits.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/RangSumBST/RangeSumBST" />
@@ -243,6 +256,9 @@
         <option value="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber/SumOfDigitsMinNumber.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers" />
         <option value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/TreeNodeObject.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py" />
       </list>
     </option>
   </component>
@@ -253,7 +269,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="303" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -289,15 +305,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="SelfDividingNumbers" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeTwoBinaryTrees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,8 +339,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SelfDividingNumbers">
-    <configuration name="GenerateStringWithCharactersThatHaveOddCounts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MergeTwoBinaryTrees">
+    <configuration name="MergeTwoBinaryTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,12 +348,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,19 +451,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
       <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
       <item itemvalue="Python.SortArrayByParity" />
       <item itemvalue="Python.SumOfDigitsMinNumber" />
       <item itemvalue="Python.SelfDividingNumbers" />
+      <item itemvalue="Python.MergeTwoBinaryTrees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MergeTwoBinaryTrees" />
         <item itemvalue="Python.SelfDividingNumbers" />
         <item itemvalue="Python.SumOfDigitsMinNumber" />
         <item itemvalue="Python.SortArrayByParity" />
         <item itemvalue="Python.ReplaceElementsWithGreatestElement" />
-        <item itemvalue="Python.GenerateStringWithCharactersThatHaveOddCounts" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +484,7 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2197092" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2584814" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,7 +504,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.3885299" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.3634895" />
+      <window_info anchor="right" id="Run" order="6" weight="0.3634895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,6 +601,11 @@
           <line>18</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -655,23 +676,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="97" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/ShuffleString/ShuffleString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits/FindNumbersWithEvenDigits">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits/FindNumbersWithEvenDigits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1002,10 +1006,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+        <state relative-caret-position="218">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1598196016334" expanded="true" signature="1017:1131" ph="..." />
+            <marker date="1598306013814" expanded="true" signature="478:584" ph="..." />
           </folding>
         </state>
       </provider>

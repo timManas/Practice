@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: treenode
+Version: 0.1.5
+Summary: Class with unified tree and node behavior. Each node has custom data as attributes.
+Home-page: http://github.com/kobejohn/simpletree
+Author: KobeJohn
+Author-email: niericentral@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
