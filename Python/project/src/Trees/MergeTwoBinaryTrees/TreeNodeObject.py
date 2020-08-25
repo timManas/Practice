@@ -3,4 +3,3 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
-        print("Finished Creating")
