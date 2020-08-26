@@ -33,38 +33,34 @@ class Solution(object):
             node2Left = node2.left.val if node2 != None and node2.left != None else 0
             node2Right = node2.right.val if node2 != None and node2.right != None else 0
 
+            if node1 == None and node2 == None:
+                continue
+
             if queueMain.__len__() > 0:
                 nodeMain = queueMain.popleft()
             else:
                 nodeMain = TreeNode()
                 mergedTree = nodeMain
 
-
-
             print("Node1: ", node1, "    Node2: ", node2)
 
-
             # Create child Nodes
-            if (node1Left + node2Left) > 0:
+            if (node1 != None and node1.left != None ) or (node2 != None and node2.left != None):
                 nodeMain.left = TreeNode(node1Left + node2Left)
                 queueMain.append(nodeMain.left)
 
-            if (node1Right + node2Right) > 0:
+            if (node1 != None and node1.right != None ) or (node2 != None and node2.right != None):
                 nodeMain.right = TreeNode(node1Right + node2Right)
                 queueMain.append(nodeMain.right)
 
             # Add Children to Node
             if node1 != None:
-                if node1.left != None:
-                    queue1.append(node1.left)
-                if node1.right != None:
-                    queue1.append(node1.right)
+                queue1.append(node1.left)
+                queue1.append(node1.right)
 
             if node2 != None:
-                if node2.left != None:
-                    queue2.append(node2.left)
-                if node2.right != None:
-                    queue2.append(node2.right)
+                queue2.append(node2.left)
+                queue2.append(node2.right)
 
             print("QueMain: ", nodeMain.val, "\n")
 
@@ -75,28 +71,66 @@ class Solution(object):
 
 
 def main():
+    # Ex1
+    t11 = TreeNode(1)
+    t12 = TreeNode(3)
+    t13 = TreeNode(2)
+    t14 = TreeNode(5)
+
+    t11.left = t12
+    t11.right = t13
+    t12.left = t14
+
+    t21 = TreeNode(2)
+    t22 = TreeNode(1)
+    t23 = TreeNode(3)
+    t24 = TreeNode(4)
+    t25 = TreeNode(7)
+
+    t21.left = t22
+    t21.right = t23
+    t22.right = t24
+    t23.right = t25
+
+    # # Ex2
+    # t11 = TreeNode()
+    # t21 = TreeNode()
+
+    # # Ex3
     # t11 = TreeNode(1)
-    # t12 = TreeNode(3)
-    # t13 = TreeNode(2)
-    # t14 = TreeNode(5)
+    # t12 = TreeNode(2)
+    # t13 = TreeNode(3)
+    #
+    # t11.left = t12
+    # t12.left = t13
+    #
+    # t21 = TreeNode(1)
+    # t22 = TreeNode(2)
+    # t23 = TreeNode(3)
+    #
+    # t21.right = t22
+    # t22.right = t23
+
+    # Ex1
+    # t11 = TreeNode(3)
+    # t12 = TreeNode(4)
+    # t13 = TreeNode(5)
+    # t14 = TreeNode(1)
+    # t15 = TreeNode(2)
+    # t16 = TreeNode(0)
     #
     # t11.left = t12
     # t11.right = t13
     # t12.left = t14
+    # t12.right = t15
+    # t14.left = t16
     #
-    # t21 = TreeNode(2)
+    # t21 = TreeNode(4)
     # t22 = TreeNode(1)
-    # t23 = TreeNode(3)
-    # t24 = TreeNode(4)
-    # t25 = TreeNode(7)
+    # t23 = TreeNode(2)
     #
     # t21.left = t22
     # t21.right = t23
-    # t22.right = t24
-    # t23.right = t25
-
-    t11 = TreeNode()
-    t21 = TreeNode()
 
 
 
