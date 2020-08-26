@@ -4,69 +4,25 @@ from collections import deque
 class Solution(object):
     def mergeTrees(self, treeNode1, treeNode2):
 
+        # Step1 - Check if node1 and node exits. Return nothing if true
         if treeNode1 == None and treeNode2 == None:
-            return
-        elif treeNode1 == None and treeNode2 != None:
-            mergedTree = TreeNode(treeNode2.val)
-        elif treeNode1 != None and treeNode2 == None:
-            mergedTree = TreeNode(treeNode1.val)
-        else:
-            mergedTree = TreeNode(treeNode1.val + treeNode2.val)
+            return None
+
+        # Step2 - Return the non-null node
+        if treeNode1 == None:
+            return treeNode2
+
+        if treeNode2 == None:
+            return treeNode1
+
+        # Step3 - Combine both Array and add their respective values
+        # Note: We traverse using preOrder traversal
+        treeNode1.val += treeNode2.val
+        treeNode1.left = self.mergeTrees(treeNode1.left, treeNode2.left)
+        treeNode1.right = self.mergeTrees(treeNode1.right, treeNode2.right)
 
 
-        # Create Queues for Tree
-        queue1 = deque()
-        queue2 = deque()
-        queueMain = deque()
-
-        queue1.append(treeNode1)
-        queue2.append(treeNode2)
-        queueMain.append(mergedTree)
-
-        while queue1.__len__() > 0 or queue2.__len__() > 0:
-
-            node1 = queue1.popleft() if queue1.__len__() > 0 else None
-            node1Left = node1.left.val if node1 != None and node1.left != None else 0
-            node1Right = node1.right.val if node1 != None and node1.right != None else 0
-
-            node2 = queue2.popleft() if queue2.__len__() > 0 else None
-            node2Left = node2.left.val if node2 != None and node2.left != None else 0
-            node2Right = node2.right.val if node2 != None and node2.right != None else 0
-
-            if node1 == None and node2 == None:
-                continue
-
-            if queueMain.__len__() > 0:
-                nodeMain = queueMain.popleft()
-            else:
-                nodeMain = TreeNode()
-                mergedTree = nodeMain
-
-            print("Node1: ", node1, "    Node2: ", node2)
-
-            # Create child Nodes
-            if (node1 != None and node1.left != None ) or (node2 != None and node2.left != None):
-                nodeMain.left = TreeNode(node1Left + node2Left)
-                queueMain.append(nodeMain.left)
-
-            if (node1 != None and node1.right != None ) or (node2 != None and node2.right != None):
-                nodeMain.right = TreeNode(node1Right + node2Right)
-                queueMain.append(nodeMain.right)
-
-            # Add Children to Node
-            if node1 != None:
-                queue1.append(node1.left)
-                queue1.append(node1.right)
-
-            if node2 != None:
-                queue2.append(node2.left)
-                queue2.append(node2.right)
-
-            print("QueMain: ", nodeMain.val, "\n")
-
-        print("Output: ", mergedTree)
-
-        return mergedTree
+        return treeNode1
 
 
 
@@ -133,7 +89,6 @@ def main():
     # t21.right = t23
 
 
-
     solution = Solution()
     output = solution.mergeTrees(t11, t21)
     print("MergedTrees: ", output.val)
@@ -141,3 +96,18 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+Notes
+- This is not fucking easy
+- Solution is super elegenat though
+- User recursion to solve
+
+
+Solution 
+1. Traverse using PreOrder Traversal
+2. Fetch a non null node
+3. Add their respective values
+4. Do the same for their child Nodes
+
+'''

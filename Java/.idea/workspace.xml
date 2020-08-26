@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/MergeTwoBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/MergeTwoBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAllLonelyNodes">
+  <component name="RunManager" selected="Application.MergeTwoBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -115,13 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlipEquivalentBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.FlipEquivalentBST.FlipEquivalentBST" />
+    <configuration name="MergeTwoBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.XMergeTwoBinaryTree.MergeTwoBinaryTree" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.FlipEquivalentBST.*" />
+          <option name="PATTERN" value="Trees.XMergeTwoBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoBinaryTree" />
         <item itemvalue="Application.FindAllLonelyNodes" />
         <item itemvalue="Application.EarliestMomentEveryoneBecameFriends" />
         <item itemvalue="Application.MinimumCostTreeFromLeaves" />
         <item itemvalue="Application.ConstructBTFromPreAndPostOrder" />
-        <item itemvalue="Application.FlipEquivalentBST" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +356,7 @@
       <workItem from="1596901764845" duration="130000" />
       <workItem from="1597001071937" duration="238000" />
       <workItem from="1597081384718" duration="107000" />
+      <workItem from="1598480632635" duration="709000" />
     </task>
     <servers />
   </component>
@@ -557,6 +558,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/FindAllLonelyNodes/FindAllLonelyNodes.java</url>
           <line>35</line>
           <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/XMergeTwoBinaryTree/MergeTwoBinaryTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="810" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -32,6 +32,9 @@ public class MergeTwoBinaryTree {
 
     public static TreeNode mergeTrees(TreeNode node1, TreeNode node2) {
 
+        if (node1 == null && node2 == null)
+            return null;
+
         // Step1 - Check for null values
         //Check if node1 is null
         if (node1 == null)
