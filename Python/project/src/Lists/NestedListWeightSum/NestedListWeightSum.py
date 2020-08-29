@@ -1,4 +1,4 @@
-import NestedInteger from NestedInteger.py      # This import is NOT required since the class itself is undefined
+# import NestedInteger from NestedInteger.py      # This import is NOT required since the class itself is undefined
 
 
 
