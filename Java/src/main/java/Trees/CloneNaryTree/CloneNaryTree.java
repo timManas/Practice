@@ -1,6 +1,9 @@
 package Trees.CloneNaryTree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class CloneNaryTree {
 
@@ -30,9 +33,66 @@ public class CloneNaryTree {
     }
 
     public static Node cloneTree(Node node) {
+
+        // Step1 - Return nothing if node is null
+        if (node == null)
+            return null;
+
+        // Step2 - Create a new node
         Node root = new Node(node.val);
 
+        // Step3 - Create Queues for traversal
+        Queue<Node> mainQueue = new LinkedList<>();
+        Queue<Node> clonedQueue = new LinkedList<>();
+        mainQueue.add(node);
+        clonedQueue.add(root);
+
+        // Step4 - Traverse Tree
+        traverseTree(mainQueue, clonedQueue);
         return root;
     }
 
+    private static void traverseTree(Queue<Node> mainQueue, Queue<Node> clonedQueue) {
+
+        // Use Breath first Traversal
+        while (!mainQueue.isEmpty() && !clonedQueue.isEmpty()) {
+
+            // Step1 - Fetch current nodes in the Queues
+            Node currentNode = mainQueue.remove();
+            Node clonedCurrentNode = clonedQueue.remove();
+
+            // Step2 - Find the children
+            List<Node> childNodeList = currentNode.children;
+            List<Node> clonedChildNodeList = new ArrayList<>();
+
+            // Step3 - Create clonedNode for each child Node in the original
+            for (Node childNode : childNodeList) {
+                Node clonedChildNode = new Node(childNode.val);
+
+                // Step4 - Add to Queues
+                mainQueue.add(childNode);
+                clonedQueue.add(clonedChildNode);
+
+                // Step5 - Add to ArrayLis
+                clonedChildNodeList.add(clonedChildNode);
+            }
+            // Step5 - Add to list ... Need this so curent Node knows all the children
+            clonedCurrentNode.children = clonedChildNodeList;
+        }
+    }
 }
+
+/**
+ Notes
+ - Not as difficult as it seems but just tedious
+ - Uses breadth first traversal
+
+ Solution
+ 1. Use two queues to traverse from top to bottom
+ 2. For each node, find the child Nodes
+ 3. For each childNode, create a new one and add it to cloned ArrayList
+ 4. Continue until both Queues are empty
+
+
+
+ */
