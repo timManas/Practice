@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/SearchInBST/TreeNodeObject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/SearchInBST/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
@@ -164,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="415">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
               </folding>
@@ -514,7 +508,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.35516506" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36155483" />
+      <window_info anchor="right" id="Run" order="6" weight="0.36155483" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1070,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="415">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
             <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
           </folding>
