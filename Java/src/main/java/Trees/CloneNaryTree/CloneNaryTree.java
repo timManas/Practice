@@ -53,7 +53,6 @@ public class CloneNaryTree {
     }
 
     private static void traverseTree(Queue<Node> mainQueue, Queue<Node> clonedQueue) {
-
         // Use Breath first Traversal
         while (!mainQueue.isEmpty() && !clonedQueue.isEmpty()) {
 
@@ -92,7 +91,4 @@ public class CloneNaryTree {
  2. For each node, find the child Nodes
  3. For each childNode, create a new one and add it to cloned ArrayList
  4. Continue until both Queues are empty
-
-
-
  */

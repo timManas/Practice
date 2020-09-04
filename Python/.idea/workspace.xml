@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="" />
+    <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/DIStringMatch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Trees/CloneNaryTree/CloneNaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Trees/CloneNaryTree/CloneNaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,7 @@
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
     <SUITE FILE_PATH="coverage/Python$CountNegativeNumInMatrix.coverage" NAME="CountNegativeNumInMatrix Coverage Results" MODIFIED="1597700858734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix" />
     <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
+    <SUITE FILE_PATH="coverage/Python$DIStringMatch.coverage" NAME="DIStringMatch Coverage Results" MODIFIED="1599181906445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DIStringMatch" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$DestinationCity.coverage" NAME="DestinationCity Coverage Results" MODIFIED="1597356322746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
@@ -55,7 +63,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
@@ -79,9 +87,9 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -90,6 +98,7 @@
           <entry key="ConvertBinaryNodeToInt" value="1" />
           <entry key="CountNegativeNumInMatrix" value="1" />
           <entry key="CreateTargetArrayInGivenOrder" value="1" />
+          <entry key="DIStringMatch" value="1" />
           <entry key="DecompressRunLengthEncodedList" value="1" />
           <entry key="Decrypt String from Alphabet to Integer Mapping" value="1" />
           <entry key="DestinationCity" value="1" />
@@ -128,13 +137,13 @@
           <entry key="SumOfDigitsMinNumber" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="54" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="54" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -142,45 +151,33 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="37628" />
+          <entry key="py" value="38027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="37628" />
+          <entry key="Python" value="38027" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/TreeNodeObject.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="133" selection-start-line="19" selection-start-column="133" selection-end-line="19" selection-end-column="133" />
+            <state>
+              <caret selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -211,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt/ConvertBinaryNodeToInt.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/HighFive/HighFive" />
         <option value="$PROJECT_DIR$/project/src/Lists/HighFive/HighFive.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase" />
         <option value="$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase.py" />
@@ -262,6 +257,8 @@
         <option value="$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST" />
         <option value="$PROJECT_DIR$/project/src/Trees/SearchInBST/TreeNodeObject.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch" />
+        <option value="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py" />
       </list>
     </option>
   </component>
@@ -285,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,21 +306,20 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchInBST" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="DIStringMatch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +340,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SearchInBST">
+  <component name="RunManager" selected="Python.DIStringMatch">
+    <configuration name="DIStringMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/DIStringMatch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MergeTwoBinaryTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -432,42 +451,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SelfDividingNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SelfDividingNumbers/SelfDividingNumbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.SelfDividingNumbers" />
       <item itemvalue="Python.MergeTwoBinaryTrees" />
       <item itemvalue="Python.N-RepeatedElements" />
       <item itemvalue="Python.RobotRetrunToOrigin" />
       <item itemvalue="Python.SearchInBST" />
+      <item itemvalue="Python.DIStringMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DIStringMatch" />
         <item itemvalue="Python.SearchInBST" />
         <item itemvalue="Python.RobotRetrunToOrigin" />
         <item itemvalue="Python.N-RepeatedElements" />
         <item itemvalue="Python.MergeTwoBinaryTrees" />
-        <item itemvalue="Python.SelfDividingNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +485,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.21565495" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.21991481" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,7 +505,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.35516506" />
-      <window_info anchor="right" id="Run" order="6" weight="0.36155483" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36155483" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,20 +714,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/HighFive/HighFive">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/HighFive/HighFive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/ToLowerCase/ToLowerCase">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1048,10 +1031,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST">
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="133" selection-start-line="19" selection-start-column="133" selection-end-line="19" selection-end-column="133" />
+        <state relative-caret-position="415">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,13 +1048,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="133" selection-start-line="19" selection-start-column="133" selection-end-line="19" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
