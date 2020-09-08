@@ -21,7 +21,6 @@ class Solution(object):
         # Step2 - Check if childREN Exists
         childList = node.children
         if childList is None:
-            print("CurrentNode.Val: ", node.val)
             output.append(node.val)
             return
 
