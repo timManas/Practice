@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/TreeNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
     <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
+    <SUITE FILE_PATH="coverage/Python$SquaresOfSortedArray.coverage" NAME="SquaresOfSortedArray Coverage Results" MODIFIED="1599689476538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
     <SUITE FILE_PATH="coverage/Python$FindAnagrams.coverage" NAME="FindAnagrams Coverage Results" MODIFIED="1596554886307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindAnagrams" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
     <SUITE FILE_PATH="coverage/Python$KidWithGreatestNumCandies.coverage" NAME="KidWithGreatestNumCandies Coverage Results" MODIFIED="1594158986141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies" />
@@ -138,17 +136,18 @@
           <entry key="SingleRowKeyboard" value="1" />
           <entry key="SortArrayByParity" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
+          <entry key="SquaresOfSortedArray" value="1" />
           <entry key="SubtractProductAndSumInteger" value="1" />
           <entry key="SumOfDigitsMinNumber" value="1" />
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="py" value="63" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="63" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -156,13 +155,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="40344" />
+          <entry key="py" value="40629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="40344" />
+          <entry key="Python" value="40629" />
         </counts>
       </usages-collector>
     </session>
@@ -170,30 +169,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/TreeNode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -222,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/ArmStrongNumber/ArmStrongNumber" />
         <option value="$PROJECT_DIR$/project/src/Math/ArmStrongNumber/ArmStrongNumber.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework/NumStudentsDoingHomework" />
         <option value="$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework/NumStudentsDoingHomework.py" />
@@ -273,6 +254,7 @@
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal" />
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal" />
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" />
       </list>
     </option>
   </component>
@@ -283,10 +265,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1301" />
-    <option name="y" value="32" />
-    <option name="width" value="1872" />
-    <option name="height" value="1036" />
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -320,7 +302,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="SquaresOfSortedArray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -328,15 +318,6 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="NaryPostOrderTraversal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="NaryPreOrderTraversal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NaryPreOrderTraversal">
+  <component name="RunManager" selected="Python.SquaresOfSortedArray">
     <configuration name="DIStringMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -434,28 +415,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RobotRetrunToOrigin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin/RobotRetrunToOrigin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SearchInBST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -478,20 +437,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SquaresOfSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.RobotRetrunToOrigin" />
       <item itemvalue="Python.SearchInBST" />
       <item itemvalue="Python.DIStringMatch" />
       <item itemvalue="Python.NaryPostOrderTraversal" />
       <item itemvalue="Python.NaryPreOrderTraversal" />
+      <item itemvalue="Python.SquaresOfSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SquaresOfSortedArray" />
         <item itemvalue="Python.NaryPreOrderTraversal" />
         <item itemvalue="Python.NaryPostOrderTraversal" />
         <item itemvalue="Python.DIStringMatch" />
         <item itemvalue="Python.SearchInBST" />
-        <item itemvalue="Python.RobotRetrunToOrigin" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +493,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.1485623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.1485623" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,7 +513,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.40894568" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36155483" />
+      <window_info anchor="right" id="Run" order="6" weight="0.54846525" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,20 +715,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework/NumStudentsDoingHomework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework/NumStudentsDoingHomework">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements/MaximumProductOfTwoElements">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1076,10 +1043,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
