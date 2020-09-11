@@ -39,25 +39,35 @@ public class MergeKSortedList {
     }
 
     public static ListNode mergeKLists(ListNode[] lists) {
-        ListNode root = null;
 
+        // Step1 - Create Root node to return. Also create currentNode to keep track of current
+        ListNode root = null;
+        ListNode currentNode = null;
+
+        // Step2 - Traverse all ListNode and find min value
         while (!traversedAllList(lists)) {
+
+            // Step2b - Fetch Smallest Node
             ListNode minNode = fetchSmallestNode(lists);
 
+            // Step3 - Add smallestNode to currentNode
             if (root == null) {
                 root = minNode;
+                currentNode = root;
             } else {
-                root.next = minNode;
+                currentNode.next = minNode;
+                currentNode = currentNode.next;
             }
 
             System.out.println("MinNode: " + minNode.val);
-            root = minNode;
-            root.next = null;
         }
 
         return root;
     }
 
+    // Check if each ListNode in the list have been traversed
+    // Return False if havent
+    // Return True is all listNode is null
     private static boolean traversedAllList(ListNode[] lists) {
         for (int i=0; i < lists.length; i++) {
             if (lists[i] != null)
@@ -66,16 +76,27 @@ public class MergeKSortedList {
         return true;
     }
 
+    // Fetch the smallestNode
     private static ListNode fetchSmallestNode(ListNode[] lists) {
-        int minNodeIndex = 0;
+        int minNodeIndex = -1;
+
+        // Step1 - Traverse each ListNode in the list and check for smallest value
         for (int i=0; i < lists.length; i++) {
+
+            // If current ListNode is null, means we reached the end of the list
+            if (lists[i] == null)
+                continue;
+            else if (lists[i] != null && minNodeIndex == -1)    // Find the first NON null value in the list and assign it to minNodeIndex
+                minNodeIndex = i;
+
+            // Check if the current node is smaller than the minNodeIndex
             if (lists[minNodeIndex].val > lists[i].val)
                 minNodeIndex = i;
         }
 
-        // Fetch Node
+        // Fetch Node and update its pointer to the next one
         ListNode minNode = lists[minNodeIndex];
-        lists[minNodeIndex] = lists[minNodeIndex].next;
+        lists[minNodeIndex] = minNode.next != null ? lists[minNodeIndex].next : null;
 
 
         return minNode;
@@ -83,3 +104,16 @@ public class MergeKSortedList {
 
 
 }
+
+
+/**
+ Notes
+ - Abit tricky but too bad
+
+ Solution
+ - Traverse the list in parallel
+ - Compare each pointer in the ListNode array and find the smallest
+ - Add the smallest to the root
+
+
+ */
