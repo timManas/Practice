@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedList">
+  <component name="RunManager" selected="Application.RemoveOuterMostParanthesis">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -77,20 +79,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.CloneNaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EarliestMomentEveryoneBecameFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.EarliestMomentEveryoneBecameFriends.EarliestMomentEveryoneBecameFriends" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.EarliestMomentEveryoneBecameFriends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveOuterMostParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RemoveOuterMostParanthesis.RemoveOuterMostParanthesis" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.RemoveOuterMostParanthesis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveOuterMostParanthesis" />
         <item itemvalue="Application.MergeKSortedList" />
         <item itemvalue="Application.CloneNaryTree" />
         <item itemvalue="Application.MergeTwoBinaryTree" />
         <item itemvalue="Application.FindAllLonelyNodes" />
-        <item itemvalue="Application.EarliestMomentEveryoneBecameFriends" />
       </list>
     </recent_temporary>
   </component>
@@ -359,6 +361,7 @@
       <workItem from="1599003352691" duration="2980000" />
       <workItem from="1599691199785" duration="555000" />
       <workItem from="1599755253067" duration="5103000" />
+      <workItem from="1599886931317" duration="1313000" />
     </task>
     <servers />
   </component>
@@ -590,6 +593,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MergeKSortedList/MergeKSortedList.java</url>
           <line>61</line>
           <option name="timeStamp" value="824" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="825" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
