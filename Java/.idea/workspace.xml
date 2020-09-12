@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +363,8 @@
       <workItem from="1599003352691" duration="2980000" />
       <workItem from="1599691199785" duration="555000" />
       <workItem from="1599755253067" duration="5103000" />
-      <workItem from="1599886931317" duration="1313000" />
+      <workItem from="1599886931317" duration="1801000" />
+      <workItem from="1599920269174" duration="1449000" />
     </task>
     <servers />
   </component>
@@ -594,11 +597,6 @@
           <line>61</line>
           <option name="timeStamp" value="824" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="825" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -607,10 +605,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="positionList.get(idB)" language="JAVA" />
-        <watch expression="logs[i]" language="JAVA" />
-        <watch expression="lists[minNodeIndex].next" language="JAVA" />
-        <watch expression="root.next" language="JAVA" />
+        <watch expression="input.substring(startIndex, i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
