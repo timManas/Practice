@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     <SUITE FILE_PATH="coverage/Python$HighFive.coverage" NAME="HighFive Coverage Results" MODIFIED="1596751297233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HighFive" />
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
     <SUITE FILE_PATH="coverage/Python$ArmStrongNumber.coverage" NAME="ArmStrongNumber Coverage Results" MODIFIED="1597001626709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ArmStrongNumber" />
+    <SUITE FILE_PATH="coverage/Python$RemoveOuterParanthesis.coverage" NAME="RemoveOuterParanthesis Coverage Results" MODIFIED="1599925577896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis" />
     <SUITE FILE_PATH="coverage/Python$DecompressRunLengthEncodedList.coverage" NAME="DecompressRunLengthEncodedList Coverage Results" MODIFIED="1595456619594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList" />
     <SUITE FILE_PATH="coverage/Python$RobotRetrunToOrigin.coverage" NAME="RobotRetrunToOrigin Coverage Results" MODIFIED="1598810643294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
@@ -89,10 +90,10 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -126,6 +127,7 @@
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RangeSumBST" value="1" />
           <entry key="RemoveOuterMostParanthesis" value="1" />
+          <entry key="RemoveOuterParanthesis" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
           <entry key="ReplaceElementsWithGreatestElement" value="1" />
           <entry key="ReverseAnImage" value="1" />
@@ -144,13 +146,13 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="65" />
+          <entry key="py" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="65" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -158,35 +160,35 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="41892" />
+          <entry key="py" value="42803" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="41892" />
+          <entry key="Python" value="42803" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="555">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <marker date="1599868749357" expanded="true" signature="713:831" ph="..." />
+                <marker date="1599925726249" expanded="true" signature="1310:1475" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements/MaximumProductOfTwoElements" />
-        <option value="$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements/MaximumProductOfTwoElements.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.py" />
         <option value="$PROJECT_DIR$/project/src/Math/Maximum69Number/Maximum69Number" />
@@ -269,6 +269,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences" />
         <option value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis" />
+        <option value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py" />
       </list>
     </option>
   </component>
@@ -292,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,28 +318,20 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="UniqueNumOccurences" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="RemoveOuterParanthesis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,29 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UniqueNumOccurences">
-    <configuration name="DIStringMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/DIStringMatch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.RemoveOuterParanthesis">
     <configuration name="NaryPostOrderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -421,6 +394,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemoveOuterParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,19 +469,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DIStringMatch" />
       <item itemvalue="Python.NaryPostOrderTraversal" />
       <item itemvalue="Python.NaryPreOrderTraversal" />
       <item itemvalue="Python.SquaresOfSortedArray" />
       <item itemvalue="Python.UniqueNumOccurences" />
+      <item itemvalue="Python.RemoveOuterParanthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RemoveOuterParanthesis" />
         <item itemvalue="Python.UniqueNumOccurences" />
         <item itemvalue="Python.SquaresOfSortedArray" />
         <item itemvalue="Python.NaryPreOrderTraversal" />
         <item itemvalue="Python.NaryPostOrderTraversal" />
-        <item itemvalue="Python.DIStringMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +502,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.15282215" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.1544196" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,8 +521,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.40894568" />
-      <window_info anchor="right" id="Run" order="6" weight="0.5484558" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.4978701" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.47390842" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,6 +664,16 @@
           <line>19</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -681,6 +686,31 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>output</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output.join(innerBracket)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>primDecom[1:primDecom.__len__() - 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>primDecom[1:primDecom.__len__()]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>primDecom[1:primDecom.__len__() + 1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>node2.right != None</expression-string>
         <language-id>Python</language-id>
@@ -706,36 +736,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>node2</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nodeMain</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node1.left != None</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>0 in elementList</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis.py" />
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis/RemoveOuterMostParanthesis" />
     <entry file="file://$PROJECT_DIR$/project/src/Math/Maximum69Number/Maximum69Number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1064,20 +1067,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <marker date="1599868749357" expanded="true" signature="713:831" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1599925726249" expanded="true" signature="1310:1475" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
