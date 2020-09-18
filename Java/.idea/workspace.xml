@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IncreasingOrderSearchTree">
+  <component name="RunManager" selected="Application.LuckyNumInMatrix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,13 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MergeKSortedList.MergeKSortedList" />
+    <configuration name="LuckyNumInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.LuckyNumInMatrix.LuckyNumInMatrix" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MergeKSortedList.*" />
+          <option name="PATTERN" value="Math.LuckyNumInMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.XMergeTwoBinaryTree.MergeTwoBinaryTree" />
+    <configuration name="MergeKSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MergeKSortedList.MergeKSortedList" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.XMergeTwoBinaryTree.*" />
+          <option name="PATTERN" value="Lists.MergeKSortedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LuckyNumInMatrix" />
         <item itemvalue="Application.IncreasingOrderSearchTree" />
         <item itemvalue="Application.RemoveOuterMostParanthesis" />
         <item itemvalue="Application.MergeKSortedList" />
         <item itemvalue="Application.CloneNaryTree" />
-        <item itemvalue="Application.MergeTwoBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +364,7 @@
       <workItem from="1599886931317" duration="1801000" />
       <workItem from="1599920269174" duration="1697000" />
       <workItem from="1599925635961" duration="311000" />
-      <workItem from="1600371727264" duration="5308000" />
+      <workItem from="1600371727264" duration="8498000" />
     </task>
     <servers />
   </component>
@@ -607,6 +606,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/IncreasingOrderSearchTree/IncreasingOrderSearchTree.java</url>
           <line>40</line>
           <option name="timeStamp" value="835" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/LuckyNumInMatrix/LuckyNumInMatrix.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="837" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
