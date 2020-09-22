@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,6 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
     <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
+    <SUITE FILE_PATH="coverage/Python$SortArrayByParityII.coverage" NAME="SortArrayByParityII Coverage Results" MODIFIED="1600733543161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII" />
     <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
     <SUITE FILE_PATH="coverage/Python$UniqueNumOccurences.coverage" NAME="UniqueNumOccurences Coverage Results" MODIFIED="1599868593557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
@@ -69,7 +70,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="52" />
+          <entry key="project.closed" value="54" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
@@ -80,10 +81,10 @@
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.24" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
@@ -97,7 +98,7 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.opened" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,7 +144,8 @@
           <entry key="ShuffleString" value="1" />
           <entry key="ShuffleTheArray" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
-          <entry key="SortArrayByParity" value="1" />
+          <entry key="SortArrayByParity" value="2" />
+          <entry key="SortArrayByParityII" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
           <entry key="SquaresOfSortedArray" value="1" />
           <entry key="SubtractProductAndSumInteger" value="1" />
@@ -152,13 +154,13 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="70" />
+          <entry key="py" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="70" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -166,13 +168,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="45234" />
+          <entry key="py" value="46309" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="45234" />
+          <entry key="Python" value="46309" />
         </counts>
       </usages-collector>
     </session>
@@ -180,19 +182,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="112" selection-start-line="5" selection-start-column="112" selection-end-line="5" selection-end-column="112" />
+            <state relative-caret-position="285">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="690">
+              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -223,8 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/DestinationCity/DestinationCity" />
-        <option value="$PROJECT_DIR$/project/src/Lists/DestinationCity/DestinationCity.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords" />
         <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" />
@@ -274,6 +274,8 @@
         <option value="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII" />
         <option value="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
       </list>
     </option>
   </component>
@@ -283,11 +285,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="y" value="57" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -321,15 +323,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="ReverseWordsInStringIII" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="SortArrayByParityII" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReverseWordsInStringIII">
+  <component name="RunManager" selected="Python.SortArrayByParityII">
     <configuration name="RemoveOuterParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,7 +408,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SquaresOfSortedArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SortArrayByParityII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,12 +416,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,19 +475,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SquaresOfSortedArray" />
       <item itemvalue="Python.UniqueNumOccurences" />
       <item itemvalue="Python.RemoveOuterParanthesis" />
       <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
       <item itemvalue="Python.ReverseWordsInStringIII" />
+      <item itemvalue="Python.SortArrayByParityII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SortArrayByParityII" />
         <item itemvalue="Python.ReverseWordsInStringIII" />
         <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
         <item itemvalue="Python.RemoveOuterParanthesis" />
         <item itemvalue="Python.UniqueNumOccurences" />
-        <item itemvalue="Python.SquaresOfSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +508,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16027689" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16506922" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -683,6 +685,11 @@
           <line>11</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -695,6 +702,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>evenArr.remove(4)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>evenArr.remove(5)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>evenArr.remove(7)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>evenArr.remove(num)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>output</expression-string>
         <language-id>Python</language-id>
@@ -725,46 +752,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>node1.right != None</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node1.right != None or node2.right != None</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node1 != None or node2 != None</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mergedTree</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <marker date="1597624536310" expanded="true" signature="0:2" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -823,13 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParity/SortArrayByParity">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1095,8 +1078,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParity/SortArrayByParity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
         </state>
       </provider>
     </entry>
