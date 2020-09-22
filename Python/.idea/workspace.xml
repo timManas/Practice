@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +53,7 @@
     <SUITE FILE_PATH="coverage/Python$JewelsAndStones.coverage" NAME="JewelsAndStones Coverage Results" MODIFIED="1594249578034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/JewelsAndStones" />
     <SUITE FILE_PATH="coverage/Python$NaryPostOrderTraversal.coverage" NAME="NaryPostOrderTraversal Coverage Results" MODIFIED="1599526785789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal" />
     <SUITE FILE_PATH="coverage/Python$CountNegativeNumInMatrix.coverage" NAME="CountNegativeNumInMatrix Coverage Results" MODIFIED="1597700858734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix" />
+    <SUITE FILE_PATH="coverage/Python$AvgSalaryExclMinAndMaxSalary.coverage" NAME="AvgSalaryExclMinAndMaxSalary Coverage Results" MODIFIED="1600811670199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$DestinationCity.coverage" NAME="DestinationCity Coverage Results" MODIFIED="1597356322746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
@@ -69,7 +72,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
+          <entry key="project.closed" value="55" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
@@ -84,7 +87,7 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="4" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -97,12 +100,13 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.opened" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ArmStrongNumber" value="1" />
+          <entry key="AvgSalaryExclMinAndMaxSalary" value="1" />
           <entry key="ConvertBinaryNodeToInt" value="1" />
           <entry key="CountNegativeNumInMatrix" value="1" />
           <entry key="CreateTargetArrayInGivenOrder" value="1" />
@@ -154,13 +158,13 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="72" />
+          <entry key="py" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="53" />
-          <entry key="Python" value="72" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -168,13 +172,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="47601" />
+          <entry key="py" value="48138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="47601" />
+          <entry key="Python" value="48138" />
         </counts>
       </usages-collector>
     </session>
@@ -182,22 +186,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="375">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-              <folding>
-                <marker date="1600735959361" expanded="true" signature="1148:1262" ph="..." />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -229,8 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" />
-        <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix" />
         <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" />
@@ -280,6 +279,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" />
+        <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
       </list>
     </option>
   </component>
@@ -290,10 +291,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="y" value="57" />
-    <option name="width" value="1920" />
-    <option name="height" value="987" />
+    <option name="x" value="1344" />
+    <option name="y" value="69" />
+    <option name="width" value="1739" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,20 +327,21 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="RemoveAllAdjacentDuplicatesInString" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="AvgSalaryExclMinAndMaxSalary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +368,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RemoveAllAdjacentDuplicatesInString">
+  <component name="RunManager" selected="Python.AvgSalaryExclMinAndMaxSalary">
+    <configuration name="AvgSalaryExclMinAndMaxSalary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RemoveAllAdjacentDuplicatesInString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -382,28 +405,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RemoveOuterParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -479,19 +480,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RemoveOuterParanthesis" />
       <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
       <item itemvalue="Python.ReverseWordsInStringIII" />
       <item itemvalue="Python.SortArrayByParityII" />
       <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
+      <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
         <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
         <item itemvalue="Python.SortArrayByParityII" />
         <item itemvalue="Python.ReverseWordsInStringIII" />
         <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
-        <item itemvalue="Python.RemoveOuterParanthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +513,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16506922" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16080937" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,6 +705,11 @@
           <line>13</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -774,20 +780,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="62" column="52" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage" />
     <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
@@ -1118,11 +1110,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding>
-            <marker date="1600735959361" expanded="true" signature="1148:1262" ph="..." />
-          </folding>
+        <state relative-caret-position="610">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
