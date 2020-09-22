@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +63,7 @@
     <SUITE FILE_PATH="coverage/Python$RemoveOuterParanthesis.coverage" NAME="RemoveOuterParanthesis Coverage Results" MODIFIED="1599925577896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis" />
     <SUITE FILE_PATH="coverage/Python$DecompressRunLengthEncodedList.coverage" NAME="DecompressRunLengthEncodedList Coverage Results" MODIFIED="1595456619594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DecompressRunLengthEncodedList" />
     <SUITE FILE_PATH="coverage/Python$RemoveOuterMostParanthesis.coverage" NAME="RemoveOuterMostParanthesis Coverage Results" MODIFIED="1597097760973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis" />
+    <SUITE FILE_PATH="coverage/Python$RemoveAllAdjacentDuplicatesInString.coverage" NAME="RemoveAllAdjacentDuplicatesInString Coverage Results" MODIFIED="1600735743015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="588843123">
@@ -131,6 +130,7 @@
           <entry key="NumStudentsDoingHomework" value="1" />
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RangeSumBST" value="1" />
+          <entry key="RemoveAllAdjacentDuplicatesInString" value="1" />
           <entry key="RemoveOuterMostParanthesis" value="1" />
           <entry key="RemoveOuterParanthesis" value="1" />
           <entry key="RemoveVowelsFromString" value="1" />
@@ -154,13 +154,13 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="71" />
+          <entry key="py" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Python" value="71" />
+          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="Python" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -168,13 +168,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="46309" />
+          <entry key="py" value="47601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="46309" />
+          <entry key="Python" value="47601" />
         </counts>
       </usages-collector>
     </session>
@@ -182,19 +182,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="840">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+              <folding>
+                <marker date="1600735959361" expanded="true" signature="1148:1262" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,6 +214,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>outputList</find>
+      <find>join</find>
     </findStrings>
     <replaceStrings>
       <replace>studentGradeMap</replace>
@@ -225,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords" />
-        <option value="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords/UniqueMorseCodeWords.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger/DecryptStringFromAlphabetToInteger.py" />
         <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix" />
         <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
@@ -276,6 +278,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" />
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" />
+        <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
       </list>
     </option>
   </component>
@@ -323,15 +327,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="SortArrayByParityII" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="RemoveAllAdjacentDuplicatesInString" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,7 +367,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SortArrayByParityII">
+  <component name="RunManager" selected="Python.RemoveAllAdjacentDuplicatesInString">
+    <configuration name="RemoveAllAdjacentDuplicatesInString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RemoveOuterParanthesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -452,42 +478,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UniqueNumOccurences" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.UniqueNumOccurences" />
       <item itemvalue="Python.RemoveOuterParanthesis" />
       <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
       <item itemvalue="Python.ReverseWordsInStringIII" />
       <item itemvalue="Python.SortArrayByParityII" />
+      <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
         <item itemvalue="Python.SortArrayByParityII" />
         <item itemvalue="Python.ReverseWordsInStringIII" />
         <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
         <item itemvalue="Python.RemoveOuterParanthesis" />
-        <item itemvalue="Python.UniqueNumOccurences" />
       </list>
     </recent_temporary>
   </component>
@@ -690,6 +694,16 @@
           <line>27</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -699,9 +713,19 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="removedAdjDup[::-1]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>removedAdjDup[::-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>evenArr.remove(4)</expression-string>
         <language-id>Python</language-id>
@@ -747,28 +771,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>node2.right != None</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1099,8 +1104,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+          <folding>
+            <marker date="1600735959361" expanded="true" signature="1148:1262" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
