@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +47,7 @@
     <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598481958756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$N_RepeatedElements.coverage" NAME="N-RepeatedElements Coverage Results" MODIFIED="1598670476158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
+    <SUITE FILE_PATH="coverage/Python$KWeakestRowsInMatrix.coverage" NAME="KWeakestRowsInMatrix Coverage Results" MODIFIED="1600990413381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix" />
     <SUITE FILE_PATH="coverage/Python$SquaresOfSortedArray.coverage" NAME="SquaresOfSortedArray Coverage Results" MODIFIED="1599689476538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
     <SUITE FILE_PATH="coverage/Python$FindAnagrams.coverage" NAME="FindAnagrams Coverage Results" MODIFIED="1596554886307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindAnagrams" />
     <SUITE FILE_PATH="coverage/Python$JewelsAndStones.coverage" NAME="JewelsAndStones Coverage Results" MODIFIED="1594249578034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/JewelsAndStones" />
@@ -72,7 +72,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="55" />
+          <entry key="project.closed" value="56" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
@@ -100,7 +100,8 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,6 +124,7 @@
           <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
           <entry key="IntersectionOfThreeArrays" value="1" />
           <entry key="JewelsAndStones" value="1" />
+          <entry key="KWeakestRowsInMatrix" value="1" />
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="Maximum69Number" value="1" />
           <entry key="MaximumProductOfTwoElements" value="1" />
@@ -158,13 +160,13 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="73" />
+          <entry key="py" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="54" />
-          <entry key="Python" value="73" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Python" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -172,33 +174,33 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="48138" />
+          <entry key="py" value="49105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="48138" />
+          <entry key="Python" value="49105" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="607">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state>
+              <caret selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -230,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix/CountNegativeNumInMatrix.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero/FindNUniqueIntegersSumToZero.py" />
         <option value="$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage" />
         <option value="$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
@@ -281,6 +281,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
         <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" />
         <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix" />
+        <option value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py" />
       </list>
     </option>
   </component>
@@ -291,10 +293,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1344" />
-    <option name="y" value="69" />
-    <option name="width" value="1739" />
-    <option name="height" value="979" />
+    <option name="x" value="1351" />
+    <option name="y" value="68" />
+    <option name="width" value="1759" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -335,7 +337,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Math" type="462c0819:PsiDirectoryNode" />
-              <item name="AvgSalaryExclMinAndMaxSalary" type="462c0819:PsiDirectoryNode" />
+              <item name="KWeakestRowsInMatrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AvgSalaryExclMinAndMaxSalary">
+  <component name="RunManager" selected="Python.KWeakestRowsInMatrix">
     <configuration name="AvgSalaryExclMinAndMaxSalary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,6 +385,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KWeakestRowsInMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,42 +481,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SumRoot2LeafBinaryNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
       <item itemvalue="Python.ReverseWordsInStringIII" />
       <item itemvalue="Python.SortArrayByParityII" />
       <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
       <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
+      <item itemvalue="Python.KWeakestRowsInMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KWeakestRowsInMatrix" />
         <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
         <item itemvalue="Python.RemoveAllAdjacentDuplicatesInString" />
         <item itemvalue="Python.SortArrayByParityII" />
         <item itemvalue="Python.ReverseWordsInStringIII" />
-        <item itemvalue="Python.SumRoot2LeafBinaryNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +515,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16080937" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.14110756" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,8 +534,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.4978701" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.43503729" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.428115" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.4345048" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,6 +712,11 @@
           <line>8</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -722,11 +729,49 @@
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="removedAdjDup[::-1]" language="Python" />
+        <watch expression="mat[i]" language="Python" />
+        <watch expression="mat[0][1]" language="Python" />
+        <watch expression="mat[0][0][4]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>mat[0][0][4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[0][1][5]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[0][1][3]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[0][1][4]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[0][1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[0][0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mat[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>removedAdjDup[::-1]</expression-string>
         <language-id>Python</language-id>
@@ -742,46 +787,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>evenArr.remove(7)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>evenArr.remove(num)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>output</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>output.join(innerBracket)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>primDecom[1:primDecom.__len__() - 1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>primDecom[1:primDecom.__len__()]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>primDecom[1:primDecom.__len__() + 1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage" />
-    <entry file="file://$PROJECT_DIR$/project/src/Math/FlippingAnImage/FlippingAnImage.py" />
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts/GenerateStringWithCharactersThatHaveOddCounts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1124,8 +1132,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
