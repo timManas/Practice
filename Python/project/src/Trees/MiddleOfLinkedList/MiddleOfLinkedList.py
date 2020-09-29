@@ -3,16 +3,20 @@ from ListNodeObject import ListNode
 class Solution(object):
     def middleNode(self, node):
 
-        currentNode = node
-        pointerDouble = node.next.next
-        while currentNode != None and pointerDouble != None:
-            print("Current Node:", currentNode.val, "  pointerDouble: ", pointerDouble.val)
-            pointerDouble = pointerDouble.next.next
-            currentNode = currentNode.next
+        # Step1 - Create SlowPointer and FastPointer
+        currentPointer = node
+        fastPointer = node
 
-        print("Current Node: ", currentNode.val)
+        # Step2 - Traverse LinkedList using fastPointer
+        while fastPointer != None and fastPointer.next != None:
+            print("Current Node:", currentPointer.val, "  pointerDouble: ", fastPointer.val)
+
+            # Step3 - Update pointers
+            fastPointer = fastPointer.next.next         # Move pointer by two
+            currentPointer = currentPointer.next        # Move pointer by one
 
 
+        return currentPointer
 
 
 
@@ -29,11 +33,25 @@ def main():
     node2.next = node3
     node3.next = node4
     node4.next = node5
-    # node5.next = node6
+    node5.next = node6
 
     solution = Solution()
     output = solution.middleNode(node1)
-    print("Middle Node: ", output)
+    print("Middle Node: ", output.val)
 
 if __name__ == '__main__':
     main()
+
+'''
+Notes
+- A bit tricky. Still needed some help
+
+Solution
+1. Create two pointers. Slow and fast pointer
+- Slow pointer will only traverse the list by one
+- Fast pointer will only traverse the list by two
+
+2. Stop the loop until the fastpointer is null or fastpointer.next is null
+3. Return currentPointer
+
+'''
