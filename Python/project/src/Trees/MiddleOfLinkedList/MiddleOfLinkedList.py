@@ -33,7 +33,7 @@ def main():
     node2.next = node3
     node3.next = node4
     node4.next = node5
-    node5.next = node6
+    # node5.next = node6
 
     solution = Solution()
     output = solution.middleNode(node1)
