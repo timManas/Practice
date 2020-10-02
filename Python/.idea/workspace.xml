@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +29,7 @@
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$ReverseWordsInStringIII.coverage" NAME="ReverseWordsInStringIII Coverage Results" MODIFIED="1600630760935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII" />
     <SUITE FILE_PATH="coverage/Python$SortArrayByParity.coverage" NAME="SortArrayByParity Coverage Results" MODIFIED="1598046882701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParity" />
+    <SUITE FILE_PATH="coverage/Python$FindCommonCharacters.coverage" NAME="FindCommonCharacters Coverage Results" MODIFIED="1601596371487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters" />
     <SUITE FILE_PATH="coverage/Python$HowManyNumbersAreSmallerThanCurrent.coverage" NAME="HowManyNumbersAreSmallerThanCurrent Coverage Results" MODIFIED="1595381133352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
     <SUITE FILE_PATH="coverage/Python$Maximum69Number.coverage" NAME="Maximum69Number Coverage Results" MODIFIED="1597182485570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Maximum69Number" />
     <SUITE FILE_PATH="coverage/Python$NumStudentsDoingHomework.coverage" NAME="NumStudentsDoingHomework Coverage Results" MODIFIED="1597095645801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework" />
@@ -184,13 +182,13 @@
           <entry key="HighFive" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="53129" />
+          <entry key="py" value="54744" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="53129" />
+          <entry key="Python" value="54744" />
         </counts>
       </usages-collector>
     </session>
@@ -209,8 +207,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="865">
+              <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -384,8 +382,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RelativeSortArray">
-    <configuration name="AvgSalaryExclMinAndMaxSalary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FindCommonCharacters">
+    <configuration name="FindCommonCharacters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,12 +391,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -496,19 +494,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
       <item itemvalue="Python.KWeakestRowsInMatrix" />
       <item itemvalue="Python.MaxDepthNaryTree" />
       <item itemvalue="Python.MiddleOfLinkedList" />
       <item itemvalue="Python.RelativeSortArray" />
+      <item itemvalue="Python.FindCommonCharacters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindCommonCharacters" />
         <item itemvalue="Python.RelativeSortArray" />
         <item itemvalue="Python.MiddleOfLinkedList" />
         <item itemvalue="Python.MaxDepthNaryTree" />
         <item itemvalue="Python.KWeakestRowsInMatrix" />
-        <item itemvalue="Python.AvgSalaryExclMinAndMaxSalary" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +527,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16347177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16347177" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -548,8 +546,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.42810985" />
-      <window_info anchor="right" id="Run" order="6" weight="0.34930778" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.42758253" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.34930778" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,6 +739,16 @@
           <line>11</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -756,11 +764,22 @@
         <watch expression="mat[i]" language="Python" />
         <watch expression="mat[0][1]" language="Python" />
         <watch expression="mat[0][0][4]" language="Python" />
+        <watch expression="newDict." language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>newDict.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newDict.items()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mat[0][0][4]</expression-string>
         <language-id>Python</language-id>
@@ -798,16 +817,6 @@
       </expression>
       <expression>
         <expression-string>removedAdjDup[::-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>evenArr.remove(4)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>evenArr.remove(5)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1159,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="865">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
         </state>
       </provider>
     </entry>
