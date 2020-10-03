@@ -74,8 +74,12 @@ Notes
 - Stuck at 40/43
 
 Solution
-1. Populate the dictionary with num of occurences
-2. Sort Dictionary by Value
+1. Create dictionary with num of occureences for each number
+2. Create two list and two pointers.
+- Traverse the valueList, for each index we decrement the value by 1. 
+- If we reach zero, we update the keyPointer to the next one
+3. Find the subList from KeyPointer to End. 
+4. Return the size of the subList
 
 
 '''
