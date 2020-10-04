@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +62,11 @@
     <SUITE FILE_PATH="coverage/Python$DestinationCity.coverage" NAME="DestinationCity Coverage Results" MODIFIED="1597356322746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
     <SUITE FILE_PATH="coverage/Python$UniqueMorseCodeWords.coverage" NAME="UniqueMorseCodeWords Coverage Results" MODIFIED="1597356996295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
+    <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1601848426230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     <SUITE FILE_PATH="coverage/Python$SumOfDigitsMinNumber.coverage" NAME="SumOfDigitsMinNumber Coverage Results" MODIFIED="1598046988587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber" />
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
-    <SUITE FILE_PATH="coverage/Python$GroupsOfSpecialEquivalentStrings.coverage" NAME="GroupsOfSpecialEquivalentStrings Coverage Results" MODIFIED="1601847237060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings" />
+    <SUITE FILE_PATH="coverage/Python$GroupsOfSpecialEquivalentStrings.coverage" NAME="GroupsOfSpecialEquivalentStrings Coverage Results" MODIFIED="1601848409865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings" />
     <SUITE FILE_PATH="coverage/Python$RelativeSortArray.coverage" NAME="RelativeSortArray Coverage Results" MODIFIED="1601505761659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RelativeSortArray" />
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
     <SUITE FILE_PATH="coverage/Python$SubtractProductAndSumInteger.coverage" NAME="SubtractProductAndSumInteger Coverage Results" MODIFIED="1595381195491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
@@ -173,13 +176,14 @@
           <entry key="ToLowerCase" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
-          <entry key="py" value="91" />
+          <entry key="UnivalueBinaryTree" value="1" />
+          <entry key="py" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="62" />
-          <entry key="Python" value="91" />
+          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -188,13 +192,13 @@
           <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="59096" />
+          <entry key="py" value="60332" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="59096" />
+          <entry key="Python" value="60332" />
         </counts>
       </usages-collector>
     </session>
@@ -202,17 +206,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="850">
+              <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="63" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
+              <folding>
+                <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -242,8 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/NestedListWeightSum/NestedInteger.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/NestedListWeightSum/NestedListWeightSum.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements/N-RepeatedElements" />
         <option value="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements/N-RepeatedElements.py" />
         <option value="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin/RobotRetrunToOrigin" />
@@ -293,6 +316,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals" />
         <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" />
+        <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -339,15 +364,23 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="GroupsOfSpecialEquivalentStrings" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="SumRoot2LeafBinaryNumbers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="UnivalueBinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,13 +396,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
       <recent name="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GroupsOfSpecialEquivalentStrings">
+  <component name="RunManager" selected="Python.UnivalueBinaryTree">
     <configuration name="FindCommonCharacters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -451,28 +485,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MiddleOfLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/MiddleOfLinkedList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="RelativeSortArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,20 +507,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="UnivalueBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.MiddleOfLinkedList" />
       <item itemvalue="Python.RelativeSortArray" />
       <item itemvalue="Python.FindCommonCharacters" />
       <item itemvalue="Python.LeastNumUniqueIntegersAfterKRemovals" />
       <item itemvalue="Python.GroupsOfSpecialEquivalentStrings" />
+      <item itemvalue="Python.UnivalueBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.UnivalueBinaryTree" />
         <item itemvalue="Python.GroupsOfSpecialEquivalentStrings" />
         <item itemvalue="Python.LeastNumUniqueIntegersAfterKRemovals" />
         <item itemvalue="Python.FindCommonCharacters" />
         <item itemvalue="Python.RelativeSortArray" />
-        <item itemvalue="Python.MiddleOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -852,27 +886,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin/RobotRetrunToOrigin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="163" selection-start-line="17" selection-start-column="163" selection-end-line="17" selection-end-column="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="133" selection-start-line="19" selection-start-column="133" selection-end-line="19" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -973,16 +986,6 @@
           <caret line="25" selection-start-line="25" selection-end-line="34" selection-end-column="17" />
           <folding>
             <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1188,13 +1191,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="63" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
+          <folding>
+            <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
         </state>
       </provider>
     </entry>
