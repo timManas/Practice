@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
     <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598481958756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$N_RepeatedElements.coverage" NAME="N-RepeatedElements Coverage Results" MODIFIED="1598670476158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements" />
+    <SUITE FILE_PATH="coverage/Python$FindWordsThatCanBeFormedByChar.coverage" NAME="FindWordsThatCanBeFormedByChar Coverage Results" MODIFIED="1602026487717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
     <SUITE FILE_PATH="coverage/Python$KWeakestRowsInMatrix.coverage" NAME="KWeakestRowsInMatrix Coverage Results" MODIFIED="1601342913307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix" />
     <SUITE FILE_PATH="coverage/Python$SquaresOfSortedArray.coverage" NAME="SquaresOfSortedArray Coverage Results" MODIFIED="1599689476538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
@@ -62,7 +63,7 @@
     <SUITE FILE_PATH="coverage/Python$DestinationCity.coverage" NAME="DestinationCity Coverage Results" MODIFIED="1597356322746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
     <SUITE FILE_PATH="coverage/Python$UniqueMorseCodeWords.coverage" NAME="UniqueMorseCodeWords Coverage Results" MODIFIED="1597356996295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
-    <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1601848426230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
+    <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1602025809171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     <SUITE FILE_PATH="coverage/Python$SumOfDigitsMinNumber.coverage" NAME="SumOfDigitsMinNumber Coverage Results" MODIFIED="1598046988587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber" />
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
@@ -79,7 +80,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="63" />
+          <entry key="project.closed" value="64" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="6" />
@@ -90,7 +91,7 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -110,7 +111,7 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,6 +129,7 @@
           <entry key="FindCommonCharacters" value="1" />
           <entry key="FindNUniqueIntegersSumToZero" value="1" />
           <entry key="FindNumbersWithEvenDigits" value="1" />
+          <entry key="FindWordsThatCanBeFormedByChar" value="1" />
           <entry key="FlippingAnImage" value="1" />
           <entry key="GenerateStringWithCharactersThatHaveOddCounts" value="1" />
           <entry key="GroupsOfSpecialEquivalentStrings" value="1" />
@@ -177,13 +179,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="94" />
+          <entry key="py" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="63" />
-          <entry key="Python" value="94" />
+          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="Python" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -192,13 +194,13 @@
           <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="py" value="60332" />
+          <entry key="py" value="61670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="60332" />
+          <entry key="Python" value="61670" />
         </counts>
       </usages-collector>
     </session>
@@ -206,38 +208,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="390">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+            <state relative-caret-position="865">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="63" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
-              <folding>
-                <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -267,8 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements/N-RepeatedElements" />
-        <option value="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements/N-RepeatedElements.py" />
         <option value="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin/RobotRetrunToOrigin" />
         <option value="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin/RobotRetrunToOrigin.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST" />
@@ -318,6 +301,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" />
         <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar" />
+        <option value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py" />
       </list>
     </option>
   </component>
@@ -327,11 +312,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1335" />
+    <option name="y" value="55" />
+    <option name="width" value="1759" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -364,23 +349,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="SumRoot2LeafBinaryNumbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="UnivalueBinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="FindWordsThatCanBeFormedByChar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UnivalueBinaryTree">
+  <component name="RunManager" selected="Python.FindWordsThatCanBeFormedByChar">
     <configuration name="FindCommonCharacters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -433,6 +410,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FindWordsThatCanBeFormedByChar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -485,28 +484,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RelativeSortArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/RelativeSortArray" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="UnivalueBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -530,19 +507,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RelativeSortArray" />
       <item itemvalue="Python.FindCommonCharacters" />
       <item itemvalue="Python.LeastNumUniqueIntegersAfterKRemovals" />
       <item itemvalue="Python.GroupsOfSpecialEquivalentStrings" />
       <item itemvalue="Python.UnivalueBinaryTree" />
+      <item itemvalue="Python.FindWordsThatCanBeFormedByChar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindWordsThatCanBeFormedByChar" />
         <item itemvalue="Python.UnivalueBinaryTree" />
         <item itemvalue="Python.GroupsOfSpecialEquivalentStrings" />
         <item itemvalue="Python.LeastNumUniqueIntegersAfterKRemovals" />
         <item itemvalue="Python.FindCommonCharacters" />
-        <item itemvalue="Python.RelativeSortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -560,10 +537,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.157082" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -810,6 +787,16 @@
           <line>29</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -886,20 +873,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/DIStringMatch/DIStringMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1201,9 +1174,6 @@
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1213,18 +1183,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="63" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
           <folding>
             <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="62" column="78" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+        <state relative-caret-position="325">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
         </state>
       </provider>
     </entry>
