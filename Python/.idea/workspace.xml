@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/LargestUniqueNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
     <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598481958756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$ShortestDistanceToCharacter.coverage" NAME="ShortestDistanceToCharacter Coverage Results" MODIFIED="1602115132556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter" />
+    <SUITE FILE_PATH="coverage/Python$AvailableCapturesForRook.coverage" NAME="AvailableCapturesForRook Coverage Results" MODIFIED="1602287710698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook" />
     <SUITE FILE_PATH="coverage/Python$N_RepeatedElements.coverage" NAME="N-RepeatedElements Coverage Results" MODIFIED="1598670476158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements" />
     <SUITE FILE_PATH="coverage/Python$FindWordsThatCanBeFormedByChar.coverage" NAME="FindWordsThatCanBeFormedByChar Coverage Results" MODIFIED="1602026487717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
@@ -122,6 +122,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ArmStrongNumber" value="1" />
+          <entry key="AvailableCapturesForRook" value="1" />
           <entry key="AvgSalaryExclMinAndMaxSalary" value="1" />
           <entry key="ConvertBinaryNodeToInt" value="1" />
           <entry key="CountNegativeNumInMatrix" value="1" />
@@ -187,13 +188,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="99" />
+          <entry key="py" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="99" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Python" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -203,24 +204,33 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="65933" />
+          <entry key="py" value="67551" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="65933" />
+          <entry key="Python" value="67551" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/LargestUniqueNumber.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -254,8 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/TreeNode.py" />
-        <option value="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPostOrderTraversal/NaryPostOrderTraversal" />
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal" />
         <option value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py" />
@@ -305,6 +313,8 @@
         <option value="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum" />
         <option value="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/LargestUniqueNumber.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook" />
+        <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py" />
       </list>
     </option>
   </component>
@@ -351,15 +361,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="LargestUniqueNumber" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="AvailableCapturesForRook" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,7 +407,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LargestUniqueNumber">
+  <component name="RunManager" selected="Python.AvailableCapturesForRook">
+    <configuration name="AvailableCapturesForRook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FibonacciNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -412,28 +444,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FindWordsThatCanBeFormedByChar" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -509,19 +519,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindWordsThatCanBeFormedByChar" />
       <item itemvalue="Python.UniqueEmailAddress" />
       <item itemvalue="Python.ShortestDistanceToCharacter" />
       <item itemvalue="Python.FibonacciNum" />
       <item itemvalue="Python.LargestUniqueNumber" />
+      <item itemvalue="Python.AvailableCapturesForRook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AvailableCapturesForRook" />
         <item itemvalue="Python.LargestUniqueNumber" />
         <item itemvalue="Python.FibonacciNum" />
         <item itemvalue="Python.ShortestDistanceToCharacter" />
         <item itemvalue="Python.UniqueEmailAddress" />
-        <item itemvalue="Python.FindWordsThatCanBeFormedByChar" />
       </list>
     </recent_temporary>
   </component>
@@ -834,6 +844,11 @@
           <line>15</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -845,18 +860,22 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="removedAdjDup[::-1]" language="Python" />
-        <watch expression="mat[i]" language="Python" />
-        <watch expression="mat[0][1]" language="Python" />
-        <watch expression="mat[0][0][4]" language="Python" />
-        <watch expression="newDict." language="Python" />
-        <watch expression="list(dictionary)" language="Python" />
-        <watch expression="outputList" language="Python" />
+        <watch expression="board[rookPosition[0]][rookPosition[1]]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>board[rookPosition[0]][rookPosition[1]]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>range(board[rookPosition[0]][rookPosition[1]], 0, -1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>outputList</expression-string>
         <language-id>Python</language-id>
@@ -897,33 +916,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>mat[0][1][3]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mat[0][1][4]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1251,8 +1246,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/LargestUniqueNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="760">
           <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
         </state>
       </provider>
     </entry>
