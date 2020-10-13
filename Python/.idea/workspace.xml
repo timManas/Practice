@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,7 @@
     <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
     <SUITE FILE_PATH="coverage/Python$UniqueNumOccurences.coverage" NAME="UniqueNumOccurences Coverage Results" MODIFIED="1599868593557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
-    <SUITE FILE_PATH="coverage/Python$MinimumAbsoluteDifference.coverage" NAME="MinimumAbsoluteDifference Coverage Results" MODIFIED="1602534495971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
+    <SUITE FILE_PATH="coverage/Python$MinimumAbsoluteDifference.coverage" NAME="MinimumAbsoluteDifference Coverage Results" MODIFIED="1602628430179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
     <SUITE FILE_PATH="coverage/Python$KidWithGreatestNumCandies.coverage" NAME="KidWithGreatestNumCandies Coverage Results" MODIFIED="1594158986141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies" />
     <SUITE FILE_PATH="coverage/Python$RemoveVowelsFromString.coverage" NAME="RemoveVowelsFromString Coverage Results" MODIFIED="1593701129014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
@@ -31,6 +32,7 @@
     <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
     <SUITE FILE_PATH="coverage/Python$DIStringMatch.coverage" NAME="DIStringMatch Coverage Results" MODIFIED="1599523697604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DIStringMatch" />
     <SUITE FILE_PATH="coverage/Python$SumRoot2LeafBinaryNumbers.coverage" NAME="SumRoot2LeafBinaryNumbers Coverage Results" MODIFIED="1600490851933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
+    <SUITE FILE_PATH="coverage/Python$MaxDepthOfBinaryTree.coverage" NAME="MaxDepthOfBinaryTree Coverage Results" MODIFIED="1602628441577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$ReverseWordsInStringIII.coverage" NAME="ReverseWordsInStringIII Coverage Results" MODIFIED="1600630760935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII" />
@@ -86,14 +88,14 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="68" />
+          <entry key="project.closed" value="69" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
@@ -117,7 +119,7 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="70" />
+          <entry key="project.opened" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -149,6 +151,7 @@
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
           <entry key="MaxDepthNaryTree" value="1" />
+          <entry key="MaxDepthOfBinaryTree" value="1" />
           <entry key="Maximum69Number" value="1" />
           <entry key="MaximumProductOfTwoElements" value="1" />
           <entry key="MergeTwoBinaryTrees" value="1" />
@@ -190,13 +193,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="101" />
+          <entry key="py" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="101" />
+          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="Python" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -206,13 +209,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="68849" />
+          <entry key="py" value="70355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="68849" />
+          <entry key="Python" value="70355" />
         </counts>
       </usages-collector>
     </session>
@@ -220,22 +223,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="265">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <marker date="1602534843482" expanded="true" signature="76:148" ph="..." />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -269,9 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal/NaryPreOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray" />
-        <option value="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray/SquaresOfSortedArray.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences" />
         <option value="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences/UniqueNumOccurences.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis" />
@@ -320,6 +338,9 @@
         <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference" />
         <option value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -330,10 +351,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
+    <option name="x" value="1282" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1896" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -367,15 +388,23 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="MinimumAbsoluteDifference" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxDepthOfBinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxDepthOfNaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,14 +419,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
       <recent name="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MinimumAbsoluteDifference">
+  <component name="RunManager" selected="Python.MaxDepthOfBinaryTree">
     <configuration name="AvailableCapturesForRook" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -479,6 +509,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MaxDepthOfBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MinimumAbsoluteDifference" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -501,42 +553,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ShortestDistanceToCharacter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter/ShortestDistanceToCharacter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.ShortestDistanceToCharacter" />
       <item itemvalue="Python.FibonacciNum" />
       <item itemvalue="Python.LargestUniqueNumber" />
       <item itemvalue="Python.AvailableCapturesForRook" />
       <item itemvalue="Python.MinimumAbsoluteDifference" />
+      <item itemvalue="Python.MaxDepthOfBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MaxDepthOfBinaryTree" />
         <item itemvalue="Python.MinimumAbsoluteDifference" />
         <item itemvalue="Python.AvailableCapturesForRook" />
         <item itemvalue="Python.LargestUniqueNumber" />
         <item itemvalue="Python.FibonacciNum" />
-        <item itemvalue="Python.ShortestDistanceToCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +587,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16347177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.16613418" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -577,7 +607,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.42758253" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.34930778" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.24334398" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,26 +959,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveOuterParanthesis/RemoveOuterParanthesis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SearchInBST/SearchInBST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" selection-start-line="25" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <marker date="1598921167923" expanded="true" signature="428:434" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1040,13 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1270,10 +1273,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
+        <state relative-caret-position="480">
           <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
           <folding>
             <marker date="1602534843482" expanded="true" signature="76:148" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
