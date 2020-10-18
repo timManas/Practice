@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/GoatLatin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +58,7 @@
     <SUITE FILE_PATH="coverage/Python$AvailableCapturesForRook.coverage" NAME="AvailableCapturesForRook Coverage Results" MODIFIED="1602287710698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook" />
     <SUITE FILE_PATH="coverage/Python$N_RepeatedElements.coverage" NAME="N-RepeatedElements Coverage Results" MODIFIED="1598670476158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/N-RepeatedElements" />
     <SUITE FILE_PATH="coverage/Python$FindWordsThatCanBeFormedByChar.coverage" NAME="FindWordsThatCanBeFormedByChar Coverage Results" MODIFIED="1602026487717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar" />
-    <SUITE FILE_PATH="coverage/Python$GoatLatin.coverage" NAME="GoatLatin Coverage Results" MODIFIED="1602991686473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GoatLatin" />
+    <SUITE FILE_PATH="coverage/Python$GoatLatin.coverage" NAME="GoatLatin Coverage Results" MODIFIED="1603064306817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GoatLatin" />
     <SUITE FILE_PATH="coverage/Python$SingleRowKeyboard.coverage" NAME="SingleRowKeyboard Coverage Results" MODIFIED="1595458998539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SingleRowKeyboard" />
     <SUITE FILE_PATH="coverage/Python$KWeakestRowsInMatrix.coverage" NAME="KWeakestRowsInMatrix Coverage Results" MODIFIED="1601342913307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix" />
     <SUITE FILE_PATH="coverage/Python$SquaresOfSortedArray.coverage" NAME="SquaresOfSortedArray Coverage Results" MODIFIED="1599689476538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SquaresOfSortedArray" />
@@ -72,6 +72,7 @@
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
     <SUITE FILE_PATH="coverage/Python$UniqueMorseCodeWords.coverage" NAME="UniqueMorseCodeWords Coverage Results" MODIFIED="1597356996295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
     <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1602025809171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
+    <SUITE FILE_PATH="coverage/Python$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1603064333277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
     <SUITE FILE_PATH="coverage/Python$SumOfDigitsMinNumber.coverage" NAME="SumOfDigitsMinNumber Coverage Results" MODIFIED="1598046988587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber" />
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
@@ -90,7 +91,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="72" />
+          <entry key="project.closed" value="73" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
@@ -116,12 +117,12 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -184,6 +185,7 @@
           <entry key="ShortestDistanceToCharacter" value="1" />
           <entry key="ShuffleString" value="1" />
           <entry key="ShuffleTheArray" value="1" />
+          <entry key="SingleNumber" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
           <entry key="SortArrayByParity" value="2" />
           <entry key="SortArrayByParityII" value="1" />
@@ -198,13 +200,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="107" />
+          <entry key="py" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="107" />
+          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="Python" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -214,36 +216,33 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="73877" />
+          <entry key="py" value="74579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="73877" />
+          <entry key="Python" value="74579" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="615">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-              <folding>
-                <marker date="1602991858060" expanded="true" signature="1496:1597" ph="..." />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -277,8 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII" />
-        <option value="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII/ReverseWordsInStringIII.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" />
         <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" />
@@ -328,6 +325,8 @@
         <option value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin" />
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" />
       </list>
     </option>
   </component>
@@ -337,10 +336,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1289" />
+    <option name="y" value="27" />
+    <option name="width" value="1890" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -373,15 +373,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="GoatLatin" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleNumber" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GoatLatin">
+  <component name="RunManager" selected="Python.SingleNumber">
     <configuration name="GoatLatin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -487,7 +487,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MinimumAbsoluteDifference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SingleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -495,12 +495,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -532,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.MinimumAbsoluteDifference" />
       <item itemvalue="Python.MaxDepthOfBinaryTree" />
       <item itemvalue="Python.ThreeConsecutiveOdds" />
       <item itemvalue="Python.IslandPerimeter" />
       <item itemvalue="Python.GoatLatin" />
+      <item itemvalue="Python.SingleNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SingleNumber" />
         <item itemvalue="Python.GoatLatin" />
         <item itemvalue="Python.IslandPerimeter" />
         <item itemvalue="Python.ThreeConsecutiveOdds" />
         <item itemvalue="Python.MaxDepthOfBinaryTree" />
-        <item itemvalue="Python.MinimumAbsoluteDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -562,10 +562,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.2609047" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2603834" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -585,7 +585,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.4806139" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.48465267" />
+      <window_info anchor="right" id="Run" order="6" weight="0.48455805" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,20 +959,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1295,6 +1281,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <marker date="1602991862544" expanded="true" signature="1496:1597" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1302,13 +1298,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding>
-            <marker date="1602991858060" expanded="true" signature="1496:1597" ph="..." />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
         </state>
       </provider>
     </entry>
