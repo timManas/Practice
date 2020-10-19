@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/SingleNumber/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +25,7 @@
     <SUITE FILE_PATH="coverage/Python$SortArrayByParityII.coverage" NAME="SortArrayByParityII Coverage Results" MODIFIED="1600733543161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII" />
     <SUITE FILE_PATH="coverage/Python$LeastNumUniqueIntegersAfterKRemovals.coverage" NAME="LeastNumUniqueIntegersAfterKRemovals Coverage Results" MODIFIED="1601605729945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals" />
     <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
+    <SUITE FILE_PATH="coverage/Python$FixedPoint.coverage" NAME="FixedPoint Coverage Results" MODIFIED="1603065391140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FixedPoint" />
     <SUITE FILE_PATH="coverage/Python$UniqueNumOccurences.coverage" NAME="UniqueNumOccurences Coverage Results" MODIFIED="1599868593557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/UniqueNumOccurences" />
     <SUITE FILE_PATH="coverage/Python$ConvertBinaryNodeToInt.coverage" NAME="ConvertBinaryNodeToInt Coverage Results" MODIFIED="1596685807733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/LinkedList/ConvertBinaryNodeToInt" />
     <SUITE FILE_PATH="coverage/Python$MinimumAbsoluteDifference.coverage" NAME="MinimumAbsoluteDifference Coverage Results" MODIFIED="1602628430179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
@@ -40,6 +45,7 @@
     <SUITE FILE_PATH="coverage/Python$ThreeConsecutiveOdds.coverage" NAME="ThreeConsecutiveOdds Coverage Results" MODIFIED="1602716929909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds" />
     <SUITE FILE_PATH="coverage/Python$HowManyNumbersAreSmallerThanCurrent.coverage" NAME="HowManyNumbersAreSmallerThanCurrent Coverage Results" MODIFIED="1595381133352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HowManyNumbersAreSmallerThanCurrent" />
     <SUITE FILE_PATH="coverage/Python$Maximum69Number.coverage" NAME="Maximum69Number Coverage Results" MODIFIED="1597182485570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Maximum69Number" />
+    <SUITE FILE_PATH="coverage/Python$InvertBinaryTree.coverage" NAME="InvertBinaryTree Coverage Results" MODIFIED="1603065505212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
     <SUITE FILE_PATH="coverage/Python$NumStudentsDoingHomework.coverage" NAME="NumStudentsDoingHomework Coverage Results" MODIFIED="1597095645801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumStudentsDoingHomework" />
     <SUITE FILE_PATH="coverage/Python$SearchInBST.coverage" NAME="SearchInBST Coverage Results" MODIFIED="1598920949401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/SearchInBST" />
     <SUITE FILE_PATH="coverage/Python$IslandPerimeter.coverage" NAME="IslandPerimeter Coverage Results" MODIFIED="1602888073952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/IslandPerimeter" />
@@ -72,7 +78,7 @@
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
     <SUITE FILE_PATH="coverage/Python$UniqueMorseCodeWords.coverage" NAME="UniqueMorseCodeWords Coverage Results" MODIFIED="1597356996295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
     <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1602025809171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
-    <SUITE FILE_PATH="coverage/Python$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1603064333277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
+    <SUITE FILE_PATH="coverage/Python$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1603064818317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
     <SUITE FILE_PATH="coverage/Python$SumOfDigitsMinNumber.coverage" NAME="SumOfDigitsMinNumber Coverage Results" MODIFIED="1598046988587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber" />
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
@@ -143,6 +149,7 @@
           <entry key="FindNUniqueIntegersSumToZero" value="1" />
           <entry key="FindNumbersWithEvenDigits" value="1" />
           <entry key="FindWordsThatCanBeFormedByChar" value="1" />
+          <entry key="FixedPoint" value="1" />
           <entry key="FlippingAnImage" value="1" />
           <entry key="GenerateStringWithCharactersThatHaveOddCounts" value="1" />
           <entry key="GoatLatin" value="1" />
@@ -150,6 +157,7 @@
           <entry key="HighFive" value="1" />
           <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
           <entry key="IntersectionOfThreeArrays" value="1" />
+          <entry key="InvertBinaryTree" value="1" />
           <entry key="IslandPerimeter" value="1" />
           <entry key="JewelsAndStones" value="1" />
           <entry key="KWeakestRowsInMatrix" value="1" />
@@ -200,13 +208,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="108" />
+          <entry key="py" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="74" />
-          <entry key="Python" value="108" />
+          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="Python" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -216,35 +224,43 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="74579" />
+          <entry key="py" value="75799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="74579" />
+          <entry key="Python" value="75799" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+              <folding>
+                <marker date="1603065725392" expanded="true" signature="831:938" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -276,10 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII" />
-        <option value="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII/SortArrayByParityII.py" />
-        <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString" />
-        <option value="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString/RemoveAllAdjacentDuplicatesInString.py" />
         <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" />
         <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
         <option value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix" />
@@ -327,6 +339,10 @@
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber" />
         <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint" />
+        <option value="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree" />
+        <option value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -373,15 +389,23 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleNumber" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="InvertBinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxDepthOfBinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,15 +421,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
-      <recent name="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,7 +444,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SingleNumber">
+  <component name="RunManager" selected="Python.InvertBinaryTree">
+    <configuration name="FixedPoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FixedPoint" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GoatLatin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -435,6 +481,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="InvertBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -465,28 +533,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MaxDepthOfBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SingleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -509,42 +555,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ThreeConsecutiveOdds" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds/ThreeConsecutiveOdds.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.MaxDepthOfBinaryTree" />
-      <item itemvalue="Python.ThreeConsecutiveOdds" />
       <item itemvalue="Python.IslandPerimeter" />
       <item itemvalue="Python.GoatLatin" />
       <item itemvalue="Python.SingleNumber" />
+      <item itemvalue="Python.FixedPoint" />
+      <item itemvalue="Python.InvertBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.InvertBinaryTree" />
+        <item itemvalue="Python.FixedPoint" />
         <item itemvalue="Python.SingleNumber" />
         <item itemvalue="Python.GoatLatin" />
         <item itemvalue="Python.IslandPerimeter" />
-        <item itemvalue="Python.ThreeConsecutiveOdds" />
-        <item itemvalue="Python.MaxDepthOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -584,8 +608,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.4806139" />
-      <window_info anchor="right" id="Run" order="6" weight="0.48455805" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.4802982" />
+      <window_info anchor="right" id="Run" order="6" weight="0.36102235" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -887,6 +911,11 @@
           <line>24</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -959,37 +988,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1232,13 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1298,6 +1289,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1305,10 +1303,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="420">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="50" selection-start-line="50" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <marker date="1603065725392" expanded="true" signature="831:938" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
