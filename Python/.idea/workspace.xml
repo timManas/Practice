@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/FixedPoint/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,6 +50,7 @@
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
     <SUITE FILE_PATH="coverage/Python$NaryPreOrderTraversal.coverage" NAME="NaryPreOrderTraversal Coverage Results" MODIFIED="1599604183983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal" />
     <SUITE FILE_PATH="coverage/Python$MaximumProductOfTwoElements.coverage" NAME="MaximumProductOfTwoElements Coverage Results" MODIFIED="1597096400617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements" />
+    <SUITE FILE_PATH="coverage/Python$ToeplitzMatrix.coverage" NAME="ToeplitzMatrix Coverage Results" MODIFIED="1603147931940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix" />
     <SUITE FILE_PATH="coverage/Python$HighFive.coverage" NAME="HighFive Coverage Results" MODIFIED="1596751297233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HighFive" />
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
     <SUITE FILE_PATH="coverage/Python$ArmStrongNumber.coverage" NAME="ArmStrongNumber Coverage Results" MODIFIED="1597001626709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ArmStrongNumber" />
@@ -204,17 +201,18 @@
           <entry key="SumRoot2LeafBinaryNumbers" value="1" />
           <entry key="ThreeConsecutiveOdds" value="1" />
           <entry key="ToLowerCase" value="1" />
+          <entry key="ToeplitzMatrix" value="1" />
           <entry key="UniqueEmailAddress" value="1" />
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="112" />
+          <entry key="py" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="76" />
-          <entry key="Python" value="112" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -224,13 +222,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="75799" />
+          <entry key="py" value="77025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="75799" />
+          <entry key="Python" value="77025" />
         </counts>
       </usages-collector>
     </session>
@@ -238,29 +236,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding>
-                <marker date="1603065725392" expanded="true" signature="831:938" ph="..." />
-              </folding>
+            <state relative-caret-position="865">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -292,8 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary" />
-        <option value="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary/AvgSalaryExclMinAndMaxSalary.py" />
         <option value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix" />
         <option value="$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree" />
@@ -343,6 +331,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree" />
         <option value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix" />
+        <option value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py" />
       </list>
     </option>
   </component>
@@ -353,10 +343,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1289" />
-    <option name="y" value="27" />
-    <option name="width" value="1890" />
-    <option name="height" value="1044" />
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -389,23 +379,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="InvertBinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxDepthOfBinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="ToeplitzMatrix" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.InvertBinaryTree">
+  <component name="RunManager" selected="Python.ToeplitzMatrix">
     <configuration name="FixedPoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -511,28 +493,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IslandPerimeter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SingleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -555,20 +515,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ToeplitzMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.IslandPerimeter" />
       <item itemvalue="Python.GoatLatin" />
       <item itemvalue="Python.SingleNumber" />
       <item itemvalue="Python.FixedPoint" />
       <item itemvalue="Python.InvertBinaryTree" />
+      <item itemvalue="Python.ToeplitzMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ToeplitzMatrix" />
         <item itemvalue="Python.InvertBinaryTree" />
         <item itemvalue="Python.FixedPoint" />
         <item itemvalue="Python.SingleNumber" />
         <item itemvalue="Python.GoatLatin" />
-        <item itemvalue="Python.IslandPerimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -609,7 +591,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.4802982" />
-      <window_info anchor="right" id="Run" order="6" weight="0.36102235" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36102235" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -988,20 +970,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/KWeakestRowsInMatrix/KWeakestRowsInMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees/MergeTwoBinaryTrees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1331,16 +1299,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="760">
           <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding>
             <marker date="1603065725392" expanded="true" signature="831:938" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
         </state>
       </provider>
     </entry>
