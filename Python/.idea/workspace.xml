@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KeyboardRow/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$MaxDepthNaryTree.coverage" NAME="MaxDepthNaryTree Coverage Results" MODIFIED="1601345220084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
     <SUITE FILE_PATH="coverage/Python$FibonacciNum.coverage" NAME="FibonacciNum Coverage Results" MODIFIED="1602196102631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FibonacciNum" />
+    <SUITE FILE_PATH="coverage/Python$KeyboardRow.coverage" NAME="KeyboardRow Coverage Results" MODIFIED="1603233006930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/KeyboardRow" />
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
     <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
     <SUITE FILE_PATH="coverage/Python$SortArrayByParityII.coverage" NAME="SortArrayByParityII Coverage Results" MODIFIED="1600733543161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII" />
@@ -94,7 +96,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="73" />
+          <entry key="project.closed" value="74" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
@@ -122,10 +124,10 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="75" />
+          <entry key="project.opened" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,6 +161,7 @@
           <entry key="IslandPerimeter" value="1" />
           <entry key="JewelsAndStones" value="1" />
           <entry key="KWeakestRowsInMatrix" value="1" />
+          <entry key="KeyboardRow" value="1" />
           <entry key="KidWithGreatestNumCandies" value="1" />
           <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
           <entry key="MaxDepthNaryTree" value="1" />
@@ -207,13 +210,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="114" />
+          <entry key="py" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="78" />
-          <entry key="Python" value="114" />
+          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="Python" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -223,36 +226,33 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="77412" />
+          <entry key="py" value="79196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="77412" />
+          <entry key="Python" value="79196" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" />
-              <folding>
-                <marker date="1603149244577" expanded="true" signature="624:764" ph="..." />
-              </folding>
+            <state relative-caret-position="865">
+              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -286,8 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree" />
-        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/TreeNodeObject.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/MiddleOfLinkedList/MiddleOfLinkedList.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/MiddleOfLinkedList" />
@@ -337,6 +335,8 @@
         <option value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence" />
         <option value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py" />
+        <option value="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow" />
+        <option value="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py" />
       </list>
     </option>
   </component>
@@ -383,15 +383,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="CheckIfWordIsPrefixInAnyWordInSentence" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
+              <item name="KeyboardRow" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CheckIfWordIsPrefixInAnyWordInSentence">
+  <component name="RunManager" selected="Python.KeyboardRow">
     <configuration name="CheckIfWordIsPrefixInAnyWordInSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -497,7 +497,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SingleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KeyboardRow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -505,12 +505,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/KeyboardRow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -542,19 +542,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SingleNumber" />
       <item itemvalue="Python.FixedPoint" />
       <item itemvalue="Python.InvertBinaryTree" />
       <item itemvalue="Python.ToeplitzMatrix" />
       <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
+      <item itemvalue="Python.KeyboardRow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KeyboardRow" />
         <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
         <item itemvalue="Python.ToeplitzMatrix" />
         <item itemvalue="Python.InvertBinaryTree" />
         <item itemvalue="Python.FixedPoint" />
-        <item itemvalue="Python.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +575,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2603834" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -902,6 +902,11 @@
           <line>44</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -974,16 +979,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/ListNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ReverseLinkedListII">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/MiddleOfLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1322,11 +1317,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
-          <folding>
-            <marker date="1603149244577" expanded="true" signature="624:764" ph="..." />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
         </state>
       </provider>
     </entry>
