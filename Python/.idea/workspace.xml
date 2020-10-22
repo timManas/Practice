@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/v.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Python$KeyboardRow.coverage" NAME="KeyboardRow Coverage Results" MODIFIED="1603233006930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/KeyboardRow" />
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
     <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
+    <SUITE FILE_PATH="coverage/Python$InOrderSuccessor.coverage" NAME="InOrderSuccessor Coverage Results" MODIFIED="1603330378862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
     <SUITE FILE_PATH="coverage/Python$SortArrayByParityII.coverage" NAME="SortArrayByParityII Coverage Results" MODIFIED="1600733543161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParityII" />
     <SUITE FILE_PATH="coverage/Python$LeastNumUniqueIntegersAfterKRemovals.coverage" NAME="LeastNumUniqueIntegersAfterKRemovals Coverage Results" MODIFIED="1601605729945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals" />
     <SUITE FILE_PATH="coverage/Python$GenerateStringWithCharactersThatHaveOddCounts.coverage" NAME="GenerateStringWithCharactersThatHaveOddCounts Coverage Results" MODIFIED="1597961849238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GenerateStringWithCharactersThatHaveOddCounts" />
@@ -51,6 +55,7 @@
     <SUITE FILE_PATH="coverage/Python$NumberStepsReduceNumToZero.coverage" NAME="NumberStepsReduceNumToZero Coverage Results" MODIFIED="1594249136944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/NumberStepsReduceNumToZero" />
     <SUITE FILE_PATH="coverage/Python$NaryPreOrderTraversal.coverage" NAME="NaryPreOrderTraversal Coverage Results" MODIFIED="1599604183983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/NaryPreOrderTraversal" />
     <SUITE FILE_PATH="coverage/Python$MaximumProductOfTwoElements.coverage" NAME="MaximumProductOfTwoElements Coverage Results" MODIFIED="1597096400617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/MaximumProductOfTwoElements" />
+    <SUITE FILE_PATH="coverage/Python$ConsecutiveNumberSum.coverage" NAME="ConsecutiveNumberSum Coverage Results" MODIFIED="1603324012244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum" />
     <SUITE FILE_PATH="coverage/Python$ToeplitzMatrix.coverage" NAME="ToeplitzMatrix Coverage Results" MODIFIED="1603148494026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix" />
     <SUITE FILE_PATH="coverage/Python$HighFive.coverage" NAME="HighFive Coverage Results" MODIFIED="1596751297233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/HighFive" />
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
@@ -157,6 +162,7 @@
           <entry key="GroupsOfSpecialEquivalentStrings" value="1" />
           <entry key="HighFive" value="1" />
           <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
+          <entry key="InOrderSuccessor" value="1" />
           <entry key="IntersectionOfThreeArrays" value="1" />
           <entry key="InvertBinaryTree" value="1" />
           <entry key="IslandPerimeter" value="1" />
@@ -211,13 +217,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="116" />
+          <entry key="py" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="80" />
-          <entry key="Python" value="116" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="Python" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -227,13 +233,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="79383" />
+          <entry key="py" value="81074" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="79383" />
+          <entry key="Python" value="81074" />
         </counts>
       </usages-collector>
     </session>
@@ -241,19 +247,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="345">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="865">
+              <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -287,9 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/MiddleOfLinkedList" />
-        <option value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/ListNodeObject.py" />
-        <option value="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList/MiddleOfLinkedList.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ListNodeObject.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ReverseLinkedListII" />
         <option value="$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ReverseLinkedListII.py" />
@@ -338,6 +350,9 @@
         <option value="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py" />
         <option value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum" />
         <option value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/v.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor" />
+        <option value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py" />
       </list>
     </option>
   </component>
@@ -384,15 +399,23 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
-              <item name="ConsecutiveNumberSum" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="InOrderSuccessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="InvertBinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,15 +431,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
       <recent name="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
-      <recent name="$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KeyboardRow">
+  <component name="RunManager" selected="Python.InOrderSuccessor">
     <configuration name="CheckIfWordIsPrefixInAnyWordInSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -454,7 +477,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FixedPoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,12 +485,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FixedPoint" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -476,7 +499,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="InvertBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="InOrderSuccessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,12 +507,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -543,19 +566,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FixedPoint" />
-      <item itemvalue="Python.InvertBinaryTree" />
       <item itemvalue="Python.ToeplitzMatrix" />
       <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
       <item itemvalue="Python.KeyboardRow" />
+      <item itemvalue="Python.ConsecutiveNumberSum" />
+      <item itemvalue="Python.InOrderSuccessor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.InOrderSuccessor" />
+        <item itemvalue="Python.ConsecutiveNumberSum" />
         <item itemvalue="Python.KeyboardRow" />
         <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
         <item itemvalue="Python.ToeplitzMatrix" />
-        <item itemvalue="Python.InvertBinaryTree" />
-        <item itemvalue="Python.FixedPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +599,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2630458" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2630458" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,8 +618,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.4802982" />
-      <window_info anchor="right" id="Run" order="6" visible="true" weight="0.36102235" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.32960597" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36102235" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,6 +931,26 @@
           <line>39</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -922,11 +965,22 @@
         <watch expression="grid.__len__()" language="Python" />
         <watch expression="word[1:]" language="Python" />
         <watch expression="word[0]" language="Python" />
+        <watch expression="valList.index(5)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>target.val</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>valList.index(5)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>word[0]</expression-string>
         <language-id>Python</language-id>
@@ -967,47 +1021,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>range(board[rookPosition[0]][rookPosition[1]], 0, -1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>outputList</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ListNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
@@ -1268,16 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-          <folding>
-            <marker date="1603065725392" expanded="true" signature="831:938" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1332,8 +1338,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
         </state>
       </provider>
     </entry>

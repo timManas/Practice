@@ -1,9 +1,20 @@
+import math
+
 class Solution(object):
     def consecutiveNumbersSum(self, N):
-        counter = 0
-                
+        counter = 1
+        numberSet = set()
 
-        return counter
+        while counter < N:
+            mid = math.floor(N / counter)
+            total = self.calculateTotal(mid - counter, mid + counter)
+
+
+
+
+            counter += 1
+
+        return numberSet.__len__() - 1
 
 
 def main():
@@ -11,6 +22,7 @@ def main():
     solution = Solution()
 
     for num in input:
+        print("Current: ", num)
         output = solution.consecutiveNumbersSum(num)
         print("Number of Consecutive Num Sum: ", output)
 
