@@ -1,10 +1,7 @@
 package Math.MaximumProd3Numbers;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class MaximumProduct3Nums {
 
@@ -18,77 +15,38 @@ public class MaximumProduct3Nums {
 
     public static int maximumProduct(int[] nums) {
 
-
         int max = 1;
-        int remaining = 3;
-        int leftIndex = 0;
-        int rightIndex = nums.length - 1;
 
-        List<Integer> posStack = new ArrayList<>();
-        List<Integer> negStack = new ArrayList<>();
+        // Step1 - Sort Array
+        Arrays.sort(nums);
 
-        for (int num : nums)
-            if (num >= 0)
-                posStack.add(num);
-            else
-                negStack.add(num);
-        Collections.sort(posStack);
-        Collections.sort(negStack);
-
-
-
-        while (remaining != 0) {
-
-            int leftNum = Math.abs(list.get(leftIndex));
-            int rightNum = Math.abs(list.get(rightIndex));
-
-            if (leftNum == 0) {
-                leftIndex += 1;
-                Math.abs(list.get(leftIndex));
-            } else if (rightNum == 0) {
-                rightIndex -= 1;
-                Math.abs(list.get(rightIndex));
-            }
-
-            if (max < 0) {
-                max *= list.get(leftIndex);
-                leftIndex += 1;
-            } else if (leftIndex == rightIndex) {
-                max *= list.get(rightIndex);
-                break;
-
-            } else if (leftNum < rightNum) {
-                max *= list.get(rightIndex);
-                rightIndex -= 1;
-
-            } else if (leftNum > rightNum) {
-                max *= list.get(leftIndex);
-                leftIndex += 1;
-            } else if (leftNum == rightNum) {
-                max += list.get(rightIndex);
-                rightIndex -= 1;
-            }
-
-            remaining -= 1;
+        // Step2 - Just add all values if nums size is 3 or less
+        if (nums.length <= 3) {
+            for (int num : nums)
+                max *= num;
+            return max;
         }
 
-        return max;
+        // Step3 - Calculate the product of left and right
+        int leftProd = nums[0] * nums[1] * nums[nums.length - 1];
+        int rightProd = nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3];
+        
+        return Math.max(leftProd, rightProd);
     }
 
-//    public static int maximumProduct(int[] nums) {
-//        ArrayList<Integer> list = new ArrayList<Integer>();
-//        for (int i : nums)
-//            list.add(i);
-//
-//        Collections.sort(list);
-//        Collections.reverse(list);
-//
-//        BigInteger bigInteger = BigInteger.valueOf(list.get(0));
-//        for (int i=1; i < 3; i++) {
-//            BigInteger currentInteger = BigInteger.valueOf(list.get(i));
-//            bigInteger = bigInteger.multiply(currentInteger);
-//        }
-//
-//        return Integer.valueOf(bigInteger.toString());
-//    }
+
 }
+
+/**
+ Notes
+ - NOT EASY AT ALLL .... Still couldnt figure it out
+ - The values to calculate we very specific.
+ > To find the smallest you need  to find the:
+    2 Smallest Num & 3 Largest Num      ... why 2 ? Because they add up to be positive
+
+ Solution
+ 1. Sort the array
+ 2. Return the Bigger of the two:
+    nums[0] * nums[1] * nums[nums.length - 1]   vs. nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3];
+
+ */
