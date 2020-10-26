@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="75" />
+          <entry key="project.closed" value="76" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="7" />
@@ -143,6 +143,7 @@
           <entry key="DIStringMatch" value="1" />
           <entry key="DecompressRunLengthEncodedList" value="1" />
           <entry key="Decrypt String from Alphabet to Integer Mapping" value="1" />
+          <entry key="DesignHitCounter" value="1" />
           <entry key="DestinationCity" value="1" />
           <entry key="FibonacciNum" value="1" />
           <entry key="FindAnagrams" value="1" />
@@ -213,13 +214,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="123" />
+          <entry key="py" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="82" />
-          <entry key="Python" value="123" />
+          <entry key="PLAIN_TEXT" value="83" />
+          <entry key="Python" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -229,38 +230,19 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="82670" />
+          <entry key="py" value="82708" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="82670" />
+          <entry key="Python" value="82708" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -289,8 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/ReverseLinkedListII/ReverseLinkedListII.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray" />
         <option value="$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" />
@@ -340,6 +320,8 @@
         <option value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain" />
         <option value="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py" />
+        <option value="$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter" />
+        <option value="$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py" />
       </list>
     </option>
   </component>
@@ -381,21 +363,6 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
-              <item name="LongestStringChain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -576,9 +543,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2006" y="23" width="1194" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.21422222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.21354167" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -587,7 +553,7 @@
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32908705" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -598,7 +564,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.4418403" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.4496528" />
+      <window_info anchor="right" id="Run" order="6" weight="0.4496528" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,20 +977,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1347,6 +1299,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1354,10 +1313,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
         </state>
       </provider>
     </entry>
