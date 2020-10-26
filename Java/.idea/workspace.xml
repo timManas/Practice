@@ -4,6 +4,7 @@
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Math/MaximumProd3Numbers/MaximumProduct3Nums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MaximumProd3Numbers/MaximumProduct3Nums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -371,7 +372,7 @@
       <workItem from="1600642058834" duration="521000" />
       <workItem from="1600701333672" duration="445000" />
       <workItem from="1600789046530" duration="520000" />
-      <workItem from="1603410288164" duration="4777000" />
+      <workItem from="1603410288164" duration="5622000" />
     </task>
     <servers />
   </component>

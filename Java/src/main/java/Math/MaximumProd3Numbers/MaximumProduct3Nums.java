@@ -30,7 +30,7 @@ public class MaximumProduct3Nums {
         // Step3 - Calculate the product of left and right
         int leftProd = nums[0] * nums[1] * nums[nums.length - 1];
         int rightProd = nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3];
-        
+
         return Math.max(leftProd, rightProd);
     }
 
@@ -48,5 +48,12 @@ public class MaximumProduct3Nums {
  1. Sort the array
  2. Return the Bigger of the two:
     nums[0] * nums[1] * nums[nums.length - 1]   vs. nums[nums.length - 1] * nums[nums.length - 2] * nums[nums.length - 3];
+
+
+ TIP:
+ - I did figure out how to calculate the Max Prod of 4,5,6, ...etc nums
+ Ex: Find max of 4 Nums
+ - Find the larger of:
+ nums[0] * nums[1] * nums[n-1] * nums[n-2]      Vs.  nums[n-1] * nums[n-1] * nums[n-3] * nums[n-4]
 
  */
