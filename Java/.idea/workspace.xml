@@ -372,7 +372,8 @@
       <workItem from="1600701333672" duration="445000" />
       <workItem from="1600789046530" duration="520000" />
       <workItem from="1603410288164" duration="5622000" />
-      <workItem from="1603730446689" duration="4888000" />
+      <workItem from="1603730446689" duration="8251000" />
+      <workItem from="1603754116123" duration="4219000" />
     </task>
     <servers />
   </component>
@@ -622,12 +623,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/ConsutrctBTFromPreorderAndInOrderTraversal/ConsutrctBTFromPreorderAndInOrderTraversal.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="838" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConsutrctBTFromPreorderAndInOrderTraversal/ConsutrctBTFromPreorderAndInOrderTraversal.java</url>
-          <line>12</line>
+          <line>15</line>
           <option name="timeStamp" value="839" />
         </line-breakpoint>
       </breakpoints>
@@ -638,7 +634,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="input.substring(startIndex, i)" language="JAVA" />
+        <watch expression="preList.subList(1, preList.size() - L)" language="JAVA" />
+        <watch expression="preList.subList(preList.size() - L, preList.size())" language="JAVA" />
+        <watch expression="inList.subList(0, inRootIndex)" language="JAVA" />
+        <watch expression="inList.subList(inRootIndex + 1, inList.size())" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
