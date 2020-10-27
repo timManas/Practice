@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrder/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,6 +91,7 @@
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
     <SUITE FILE_PATH="coverage/Python$UniqueEmailAddress.coverage" NAME="UniqueEmailAddress Coverage Results" MODIFIED="1602028772475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueEmailAddress" />
     <SUITE FILE_PATH="coverage/Python$GroupsOfSpecialEquivalentStrings.coverage" NAME="GroupsOfSpecialEquivalentStrings Coverage Results" MODIFIED="1601848409865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings" />
+    <SUITE FILE_PATH="coverage/Python$SlidingWindowMaximum.coverage" NAME="SlidingWindowMaximum Coverage Results" MODIFIED="1603825027784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
     <SUITE FILE_PATH="coverage/Python$RelativeSortArray.coverage" NAME="RelativeSortArray Coverage Results" MODIFIED="1601505761659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RelativeSortArray" />
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
     <SUITE FILE_PATH="coverage/Python$SubtractProductAndSumInteger.coverage" NAME="SubtractProductAndSumInteger Coverage Results" MODIFIED="1595381195491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
@@ -120,14 +129,14 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -200,6 +209,7 @@
           <entry key="ShuffleTheArray" value="1" />
           <entry key="SingleNumber" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
+          <entry key="SlidingWindowMaximum" value="1" />
           <entry key="SortArrayByParity" value="2" />
           <entry key="SortArrayByParityII" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
@@ -214,13 +224,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="124" />
+          <entry key="py" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="83" />
-          <entry key="Python" value="124" />
+          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="Python" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -230,19 +240,38 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="82708" />
+          <entry key="py" value="83509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="82708" />
+          <entry key="Python" value="83509" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -271,8 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/RelativeSortArray/RelativeSortArray.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals" />
         <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals.py" />
@@ -322,6 +349,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py" />
         <option value="$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter" />
         <option value="$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum" />
+        <option value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" />
       </list>
     </option>
   </component>
@@ -332,9 +361,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2006" />
+    <option name="x" value="1839" />
     <option name="y" value="23" />
-    <option name="width" value="1194" />
+    <option name="width" value="1361" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -363,6 +392,13 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,29 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LongestStringChain">
-    <configuration name="CheckIfWordIsPrefixInAnyWordInSentence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.SlidingWindowMaximum">
     <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -511,20 +525,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
       <item itemvalue="Python.KeyboardRow" />
       <item itemvalue="Python.ConsecutiveNumberSum" />
       <item itemvalue="Python.InOrderSuccessor" />
       <item itemvalue="Python.LongestStringChain" />
+      <item itemvalue="Python.SlidingWindowMaximum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SlidingWindowMaximum" />
         <item itemvalue="Python.LongestStringChain" />
         <item itemvalue="Python.InOrderSuccessor" />
         <item itemvalue="Python.ConsecutiveNumberSum" />
         <item itemvalue="Python.KeyboardRow" />
-        <item itemvalue="Python.CheckIfWordIsPrefixInAnyWordInSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -542,9 +578,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2006" y="23" width="1194" height="1057" extended-state="0" />
+    <frame x="1839" y="23" width="1361" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.21354167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.18684603" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -563,8 +600,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.4418403" />
-      <window_info anchor="right" id="Run" order="6" weight="0.4496528" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.44124338" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.44882485" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,6 +943,11 @@
           <line>31</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -977,16 +1019,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -1313,17 +1345,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py" />
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter" />
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="615">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter">
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+        <state relative-caret-position="720">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>

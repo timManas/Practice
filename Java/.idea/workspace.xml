@@ -4,6 +4,9 @@
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/TreeNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -374,7 +377,7 @@
       <workItem from="1603410288164" duration="5622000" />
       <workItem from="1603730446689" duration="8251000" />
       <workItem from="1603754116123" duration="7748000" />
-      <workItem from="1603810067658" duration="861000" />
+      <workItem from="1603810067658" duration="1435000" />
     </task>
     <servers />
   </component>
@@ -553,7 +556,7 @@
           <option name="timeStamp" value="772" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder.java</url>
           <line>32</line>
           <option name="timeStamp" value="789" />
         </line-breakpoint>

@@ -1,7 +1,6 @@
-package Trees.ConstructBTFromPreAndPostOrder;
+package Trees.ConstructBTFromPreAndPostOrderTraversal;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ConstructBTFromPreAndPostOrder {

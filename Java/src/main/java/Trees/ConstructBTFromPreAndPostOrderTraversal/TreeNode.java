@@ -1,4 +1,4 @@
-package Trees.ConstructBTFromPreAndPostOrder;
+package Trees.ConstructBTFromPreAndPostOrderTraversal;
 
 public class TreeNode {
     int val;
