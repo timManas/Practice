@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConsutrctBTFromPreorderAndInOrderTraversal/ConsutrctBTFromPreorderAndInOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConsutrctBTFromPreorderAndInOrderTraversal/ConsutrctBTFromPreorderAndInOrderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
       <recent name="Trees.IncreasingOrderSearchTree" />
       <recent name="Trees.CloneNaryTree" />
       <recent name="Trees.FindAllLonelyNodes" />
-      <recent name="Trees.MinimumCostTreeFromLeaves" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -66,9 +65,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsutrctBTFromPreorderAndInOrderTraversal">
+  <component name="RunManager" selected="Application.ConstructBTFromInOrderAndPostOrderTraversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructBTFromInOrderAndPostOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.ConstructBTFromInOrderAndPostOrderTraversal.ConstructBTFromInOrderAndPostOrderTraversal" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.ConstructBTFromInOrderAndPostOrderTraversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,20 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOuterMostParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RemoveOuterMostParanthesis.RemoveOuterMostParanthesis" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.RemoveOuterMostParanthesis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBTFromInOrderAndPostOrderTraversal" />
         <item itemvalue="Application.ConsutrctBTFromPreorderAndInOrderTraversal" />
         <item itemvalue="Application.MaximumProduct3Nums" />
         <item itemvalue="Application.LuckyNumInMatrix" />
         <item itemvalue="Application.IncreasingOrderSearchTree" />
-        <item itemvalue="Application.RemoveOuterMostParanthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +372,7 @@
       <workItem from="1600789046530" duration="520000" />
       <workItem from="1603410288164" duration="5622000" />
       <workItem from="1603730446689" duration="8251000" />
-      <workItem from="1603754116123" duration="4219000" />
+      <workItem from="1603754116123" duration="6594000" />
     </task>
     <servers />
   </component>
@@ -626,6 +625,11 @@
           <line>15</line>
           <option name="timeStamp" value="839" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -634,10 +638,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="preList.subList(1, preList.size() - L)" language="JAVA" />
-        <watch expression="preList.subList(preList.size() - L, preList.size())" language="JAVA" />
         <watch expression="inList.subList(0, inRootIndex)" language="JAVA" />
         <watch expression="inList.subList(inRootIndex + 1, inList.size())" language="JAVA" />
+        <watch expression="postList.subList(0, lengthOfLeftSubTreeInOrderList)" language="JAVA" />
+        <watch expression="postList.subList(inRootIndex, postList.size() - 1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
