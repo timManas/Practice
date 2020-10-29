@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +30,7 @@
     <SUITE FILE_PATH="coverage/Python$MinimumAbsoluteDifference.coverage" NAME="MinimumAbsoluteDifference Coverage Results" MODIFIED="1602628430179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
     <SUITE FILE_PATH="coverage/Python$KidWithGreatestNumCandies.coverage" NAME="KidWithGreatestNumCandies Coverage Results" MODIFIED="1594158986141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies" />
     <SUITE FILE_PATH="coverage/Python$RemoveVowelsFromString.coverage" NAME="RemoveVowelsFromString Coverage Results" MODIFIED="1593701129014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
+    <SUITE FILE_PATH="coverage/Python$FindPivotIndex.coverage" NAME="FindPivotIndex Coverage Results" MODIFIED="1603942448970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindPivotIndex" />
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
     <SUITE FILE_PATH="coverage/Python$MiddleOfLinkedList.coverage" NAME="MiddleOfLinkedList Coverage Results" MODIFIED="1601417938497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList" />
     <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
@@ -83,7 +88,7 @@
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
     <SUITE FILE_PATH="coverage/Python$UniqueEmailAddress.coverage" NAME="UniqueEmailAddress Coverage Results" MODIFIED="1602028772475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueEmailAddress" />
     <SUITE FILE_PATH="coverage/Python$GroupsOfSpecialEquivalentStrings.coverage" NAME="GroupsOfSpecialEquivalentStrings Coverage Results" MODIFIED="1601848409865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings" />
-    <SUITE FILE_PATH="coverage/Python$SlidingWindowMaximum.coverage" NAME="SlidingWindowMaximum Coverage Results" MODIFIED="1603834903307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
+    <SUITE FILE_PATH="coverage/Python$SlidingWindowMaximum.coverage" NAME="SlidingWindowMaximum Coverage Results" MODIFIED="1603836220257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
     <SUITE FILE_PATH="coverage/Python$RelativeSortArray.coverage" NAME="RelativeSortArray Coverage Results" MODIFIED="1601505761659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RelativeSortArray" />
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
     <SUITE FILE_PATH="coverage/Python$SubtractProductAndSumInteger.coverage" NAME="SubtractProductAndSumInteger Coverage Results" MODIFIED="1595381195491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
@@ -151,6 +156,7 @@
           <entry key="FindCommonCharacters" value="1" />
           <entry key="FindNUniqueIntegersSumToZero" value="1" />
           <entry key="FindNumbersWithEvenDigits" value="1" />
+          <entry key="FindPivotIndex" value="1" />
           <entry key="FindWordsThatCanBeFormedByChar" value="1" />
           <entry key="FixedPoint" value="1" />
           <entry key="FlippingAnImage" value="1" />
@@ -216,13 +222,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="125" />
+          <entry key="py" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="84" />
-          <entry key="Python" value="125" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -232,13 +238,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="83917" />
+          <entry key="py" value="84665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="83917" />
+          <entry key="Python" value="84665" />
         </counts>
       </usages-collector>
     </session>
@@ -246,22 +252,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -295,8 +298,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters/FindCommonCharacters.py" />
-        <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals" />
         <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" />
@@ -346,6 +347,8 @@
         <option value="$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum" />
         <option value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" />
+        <option value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex" />
+        <option value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" />
       </list>
     </option>
   </component>
@@ -395,6 +398,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="FindPivotIndex" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -431,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SlidingWindowMaximum">
+  <component name="RunManager" selected="Python.FindPivotIndex">
     <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -454,6 +465,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="FindPivotIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="InOrderSuccessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -468,28 +501,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="KeyboardRow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/KeyboardRow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/KeyboardRow/KeyboardRow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -543,19 +554,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.KeyboardRow" />
       <item itemvalue="Python.ConsecutiveNumberSum" />
       <item itemvalue="Python.InOrderSuccessor" />
       <item itemvalue="Python.LongestStringChain" />
       <item itemvalue="Python.SlidingWindowMaximum" />
+      <item itemvalue="Python.FindPivotIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindPivotIndex" />
         <item itemvalue="Python.SlidingWindowMaximum" />
         <item itemvalue="Python.LongestStringChain" />
         <item itemvalue="Python.InOrderSuccessor" />
         <item itemvalue="Python.ConsecutiveNumberSum" />
-        <item itemvalue="Python.KeyboardRow" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +587,7 @@
     <frame x="1862" y="23" width="1338" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.18684603" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.18672839" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,8 +606,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.44058642" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.45679012" />
+      <window_info anchor="right" id="Debug" order="5" weight="0.3279321" />
+      <window_info anchor="right" id="Run" order="6" weight="0.45679012" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -940,13 +951,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="189" />
+          <line>36</line>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="190" />
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1019,19 +1055,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/SumRoot2LeafBinaryNumbers/SumRoot2LeafBinaryNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" selection-start-line="53" selection-start-column="3" selection-end-line="63" />
-          <folding>
-            <marker date="1600491140302" expanded="true" signature="467:1149" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1356,11 +1379,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
