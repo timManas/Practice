@@ -1,42 +1,37 @@
 class Solution(object):
     def pivotIndex(self, nums):
 
+        # Step1 - Create Sum variables
         totalSum = 0
-
         leftSum = 0
         rightSum = 0
 
-        leftIndex = 0
-        rightIndex = nums.__len__() - 1
 
-        if nums.__len__() <= 2:
-            return -1
-
-        # Find the total
+        # Step2 - Find the total
         # Need this to calculate the Right Sum
-        i = 0
-        while i < nums.__len__():
-            totalSum += nums[i]
-            i += 1
+        index = 0
+        while index < nums.__len__():
+            totalSum += nums[index]
+            index += 1
 
-        while leftIndex < rightIndex:
-            left = nums[leftIndex]
-            leftSum += left
+        # Step3 - Traverse the nums array from left to right
+        index = 0
+        while index < nums.__len__():
 
-            right = nums[rightIndex]
-            rightSum += right
+            # Calculate the Right Sum
+            rightSum = totalSum - nums[index]
 
+            # Step4 - Check if the left and Right Sum are equal
+            if leftSum == rightSum:
+                return index
+            else:
+
+                # Step5 - Update the leftSum and Decrement the totalSum
+                leftSum += nums[index]
+                totalSum -= nums[index]
+
+            index += 1
             print("Left Sum: ", leftSum, "      Right Sum: ", rightSum)
-
-            if leftSum == (totalSum - rightSum):
-                return leftIndex + 1
-
-
-            leftIndex += 1
-            rightIndex -= 1
-
-
-
 
         return -1
 
@@ -51,3 +46,18 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+Notes
+- This was HARD af
+- The trick is the rightSum = totalSum - nums[i]
+- We can compare of left Sum == RightSum 
+
+Solution
+1. Find the total Sum
+2. Traverse nums array from left to Right
+3. Calculate the left and Right Sum:
+    - For each elememnt, we update the leftSum and totalSum
+    
+
+'''

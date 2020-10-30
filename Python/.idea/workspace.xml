@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Python$MinimumAbsoluteDifference.coverage" NAME="MinimumAbsoluteDifference Coverage Results" MODIFIED="1602628430179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference" />
     <SUITE FILE_PATH="coverage/Python$KidWithGreatestNumCandies.coverage" NAME="KidWithGreatestNumCandies Coverage Results" MODIFIED="1594158986141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/KidWithGreatestNumCandies" />
     <SUITE FILE_PATH="coverage/Python$RemoveVowelsFromString.coverage" NAME="RemoveVowelsFromString Coverage Results" MODIFIED="1593701129014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Stacks/RemoveVowelsFromString" />
-    <SUITE FILE_PATH="coverage/Python$FindPivotIndex.coverage" NAME="FindPivotIndex Coverage Results" MODIFIED="1604016052249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindPivotIndex" />
+    <SUITE FILE_PATH="coverage/Python$FindPivotIndex.coverage" NAME="FindPivotIndex Coverage Results" MODIFIED="1604017217407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindPivotIndex" />
     <SUITE FILE_PATH="coverage/Python$RunningSum1dArray.coverage" NAME="RunningSum1dArray Coverage Results" MODIFIED="1593658052676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RunningSum1dArray" />
     <SUITE FILE_PATH="coverage/Python$MiddleOfLinkedList.coverage" NAME="MiddleOfLinkedList Coverage Results" MODIFIED="1601417938497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MiddleOfLinkedList" />
     <SUITE FILE_PATH="coverage/Python$IntersectionOfThreeArrays.coverage" NAME="IntersectionOfThreeArrays Coverage Results" MODIFIED="1596755414235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/IntersectionOfThreeArrays" />
@@ -235,13 +234,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="84993" />
+          <entry key="py" value="85805" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="84993" />
+          <entry key="Python" value="85805" />
         </counts>
       </usages-collector>
     </session>
@@ -260,8 +259,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state relative-caret-position="775">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -603,8 +602,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Debug" order="5" weight="0.40817901" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.45679012" />
+      <window_info active="true" anchor="right" id="Debug" order="5" visible="true" weight="0.40817901" />
+      <window_info anchor="right" id="Run" order="6" weight="0.45679012" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,13 +952,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="199" />
+          <line>25</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="200" />
+          <line>30</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="210" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1370,8 +1374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state relative-caret-position="775">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
         </state>
       </provider>
     </entry>
