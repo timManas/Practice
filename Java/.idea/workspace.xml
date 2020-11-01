@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/ConstructBTFromPreAndPostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/ConstructBTFromPreAndPostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrder/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromPreAndPostOrderTraversal/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.SerializeAndDeserializeBinaryTree" />
       <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
       <recent name="Trees.IncreasingOrderSearchTree" />
       <recent name="Trees.CloneNaryTree" />
-      <recent name="Trees.FindAllLonelyNodes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -69,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstructBTFromInOrderAndPostOrderTraversal">
+  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -104,20 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreasingOrderSearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.IncreasingOrderSearchTree.IncreasingOrderSearchTree" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.IncreasingOrderSearchTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LuckyNumInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.LuckyNumInMatrix.LuckyNumInMatrix" />
       <module name="Java" />
@@ -139,6 +122,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.MaximumProd3Numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializeAndDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.SerializeAndDeserializeBinaryTree.SerializeAndDeserializeBinaryTree" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.SerializeAndDeserializeBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
         <item itemvalue="Application.ConstructBTFromInOrderAndPostOrderTraversal" />
         <item itemvalue="Application.ConsutrctBTFromPreorderAndInOrderTraversal" />
         <item itemvalue="Application.MaximumProduct3Nums" />
         <item itemvalue="Application.LuckyNumInMatrix" />
-        <item itemvalue="Application.IncreasingOrderSearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -378,6 +375,7 @@
       <workItem from="1603730446689" duration="8251000" />
       <workItem from="1603754116123" duration="7748000" />
       <workItem from="1603810067658" duration="1435000" />
+      <workItem from="1604267862399" duration="971000" />
     </task>
     <servers />
   </component>
