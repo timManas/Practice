@@ -4,7 +4,6 @@
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SerializeAndDeserializeBinaryTree/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SerializeAndDeserializeBinaryTree/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -377,7 +376,7 @@
       <workItem from="1603754116123" duration="7748000" />
       <workItem from="1603810067658" duration="1435000" />
       <workItem from="1604267862399" duration="2415000" />
-      <workItem from="1604357550019" duration="4774000" />
+      <workItem from="1604357550019" duration="6067000" />
     </task>
     <servers />
   </component>
@@ -639,6 +638,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/ConstructBTFromInOrderAndPostOrderTraversal/ConstructBTFromInOrderAndPostOrderTraversal.java</url>
           <line>54</line>
           <option name="timeStamp" value="843" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SerializeAndDeserializeBinaryTree/Codec.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="844" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
