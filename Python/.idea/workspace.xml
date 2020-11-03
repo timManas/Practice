@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +40,7 @@
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$ReverseWordsInStringIII.coverage" NAME="ReverseWordsInStringIII Coverage Results" MODIFIED="1600630760935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII" />
+    <SUITE FILE_PATH="coverage/Python$NumberOfIslands.coverage" NAME="NumberOfIslands Coverage Results" MODIFIED="1604370514181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/NumberOfIslands" />
     <SUITE FILE_PATH="coverage/Python$SortArrayByParity.coverage" NAME="SortArrayByParity Coverage Results" MODIFIED="1598046882701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParity" />
     <SUITE FILE_PATH="coverage/Python$FindCommonCharacters.coverage" NAME="FindCommonCharacters Coverage Results" MODIFIED="1601601024629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters" />
     <SUITE FILE_PATH="coverage/Python$ThreeConsecutiveOdds.coverage" NAME="ThreeConsecutiveOdds Coverage Results" MODIFIED="1602716929909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds" />
@@ -115,7 +120,7 @@
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="4" />
-          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
@@ -129,7 +134,7 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="82" />
+          <entry key="project.opened" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -164,7 +169,7 @@
           <entry key="InOrderSuccessor" value="1" />
           <entry key="IntersectionOfThreeArrays" value="1" />
           <entry key="InvertBinaryTree" value="1" />
-          <entry key="IslandPerimeter" value="1" />
+          <entry key="IslandPerimeter" value="2" />
           <entry key="JewelsAndStones" value="1" />
           <entry key="KWeakestRowsInMatrix" value="1" />
           <entry key="KeyboardRow" value="1" />
@@ -183,6 +188,7 @@
           <entry key="NaryPreOrderTraversal" value="1" />
           <entry key="NestedListWeightSum" value="1" />
           <entry key="NumStudentsDoingHomework" value="1" />
+          <entry key="NumberOfIslands" value="1" />
           <entry key="NumberStepsReduceNumToZero" value="1" />
           <entry key="RangeSumBST" value="1" />
           <entry key="RelativeSortArray" value="1" />
@@ -218,13 +224,13 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="126" />
+          <entry key="py" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="85" />
-          <entry key="Python" value="126" />
+          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="Python" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -234,38 +240,55 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="85805" />
+          <entry key="py" value="85941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="85805" />
+          <entry key="Python" value="85941" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -294,8 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Lists/LeastNumUniqueIntegersAfterKRemovals/LeastNumUniqueIntegersAfterKRemovals.py" />
-        <option value="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings/GroupsOfSpecialEquivalentStrings.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree" />
         <option value="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar" />
@@ -345,6 +366,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py" />
+        <option value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands" />
+        <option value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" />
       </list>
     </option>
   </component>
@@ -354,10 +377,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -367,6 +391,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,21 +415,28 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="FindPivotIndex" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
+              <item name="IslandPerimeter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Misc" type="462c0819:PsiDirectoryNode" />
+              <item name="NumberOfIslands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,29 +469,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindPivotIndex">
-    <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.NumberOfIslands">
     <configuration name="FindPivotIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -526,6 +536,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="NumberOfIslands" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -549,19 +581,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ConsecutiveNumberSum" />
       <item itemvalue="Python.InOrderSuccessor" />
       <item itemvalue="Python.LongestStringChain" />
       <item itemvalue="Python.SlidingWindowMaximum" />
       <item itemvalue="Python.FindPivotIndex" />
+      <item itemvalue="Python.NumberOfIslands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NumberOfIslands" />
         <item itemvalue="Python.FindPivotIndex" />
         <item itemvalue="Python.SlidingWindowMaximum" />
         <item itemvalue="Python.LongestStringChain" />
         <item itemvalue="Python.InOrderSuccessor" />
-        <item itemvalue="Python.ConsecutiveNumberSum" />
       </list>
     </recent_temporary>
   </component>
@@ -579,10 +611,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="1920" y="23" width="1280" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.19135803" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.19063005" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -602,7 +634,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.4273021" />
-      <window_info anchor="right" id="Run" order="6" weight="0.45679012" />
+      <window_info anchor="right" id="Run" order="6" weight="0.45638126" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1035,20 +1067,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/FindWordsThatCanBeFormedByChar/FindWordsThatCanBeFormedByChar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1168,20 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1374,7 +1378,35 @@
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
