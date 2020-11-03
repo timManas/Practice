@@ -98,7 +98,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="80" />
+          <entry key="project.closed" value="81" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="8" />
@@ -259,8 +259,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -1373,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FindPivotIndex/FindPivotIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>

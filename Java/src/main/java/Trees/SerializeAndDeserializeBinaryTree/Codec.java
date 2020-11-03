@@ -1,5 +1,7 @@
 package Trees.SerializeAndDeserializeBinaryTree;
 
+import java.util.Stack;
+
 public class Codec {
     // Encodes a tree to a single string.
     public String serialize(TreeNode node) {
@@ -24,6 +26,46 @@ public class Codec {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        return null;
+
+        String[] letters = data.split(",");
+        TreeNode root = null;
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode currentNode = null;
+        TreeNode newNode = null;
+
+        for (int i=0; i<letters.length; i++) {
+            System.out.println("Letter: " + letters[i]);
+
+            // Create Node
+            if (letters[i].equalsIgnoreCase("X")) {
+
+            } else {
+                newNode = new TreeNode(Integer.valueOf(letters[i]));
+            }
+
+            // Fetch current Node
+            if (stack.isEmpty()) {
+                stack.add(newNode);
+
+                continue;
+            } else {
+
+            }
+
+
+
+            currentNode = stack.pop();
+            System.out.println("Current Node: " + currentNode.val);
+
+            
+            // Add Node to current Node
+
+            // If Left and Right are still Empty, add to stack
+            // Else remove from stack
+            System.out.println();
+        }
+
+        return root;
     }
 }
