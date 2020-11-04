@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
     <SUITE FILE_PATH="coverage/Python$SplitStringInBalancedString.coverage" NAME="SplitStringInBalancedString Coverage Results" MODIFIED="1595802103820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/SplitStringInBalancedString" />
     <SUITE FILE_PATH="coverage/Python$ShuffleTheArray.coverage" NAME="ShuffleTheArray Coverage Results" MODIFIED="1594074980672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ShuffleTheArray" />
     <SUITE FILE_PATH="coverage/Python$ReverseWordsInStringIII.coverage" NAME="ReverseWordsInStringIII Coverage Results" MODIFIED="1600630760935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ReverseWordsInStringIII" />
-    <SUITE FILE_PATH="coverage/Python$NumberOfIslands.coverage" NAME="NumberOfIslands Coverage Results" MODIFIED="1604370514181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/NumberOfIslands" />
+    <SUITE FILE_PATH="coverage/Python$NumberOfIslands.coverage" NAME="NumberOfIslands Coverage Results" MODIFIED="1604448428707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/NumberOfIslands" />
     <SUITE FILE_PATH="coverage/Python$SortArrayByParity.coverage" NAME="SortArrayByParity Coverage Results" MODIFIED="1598046882701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SortArrayByParity" />
     <SUITE FILE_PATH="coverage/Python$FindCommonCharacters.coverage" NAME="FindCommonCharacters Coverage Results" MODIFIED="1601601024629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindCommonCharacters" />
     <SUITE FILE_PATH="coverage/Python$ThreeConsecutiveOdds.coverage" NAME="ThreeConsecutiveOdds Coverage Results" MODIFIED="1602716929909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds" />
@@ -103,7 +100,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="81" />
+          <entry key="project.closed" value="82" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="8" />
@@ -130,11 +127,11 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="83" />
+          <entry key="project.opened" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -240,55 +237,38 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="85941" />
+          <entry key="py" value="87609" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="85941" />
+          <entry key="Python" value="87609" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -996,6 +976,21 @@
           <line>33</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1007,13 +1002,40 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="word[0:i]" language="Python" />
-        <watch expression="word[i:word.__len__()]" language="Python" />
+        <watch expression="grid[row][col]" language="Python" />
+        <watch expression="row" language="Python" />
+        <watch expression="col" language="Python" />
+        <watch expression="grid[row][col] == &quot;0&quot;" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>grid[row][col] == &quot;0&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[row][col] == '0'</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>col</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[row][col]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>word[i:word.__len__()]</expression-string>
         <language-id>Python</language-id>
@@ -1031,36 +1053,6 @@
       </expression>
       <expression>
         <expression-string>valList.index(5)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>word[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>word[1:]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>grid.__len__()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>grid.__len__</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>grid[row][col-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>grid[row+1][col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1398,15 +1390,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="100">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
         </state>
       </provider>
     </entry>
