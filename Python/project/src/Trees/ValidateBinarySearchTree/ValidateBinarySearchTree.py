@@ -2,23 +2,32 @@ from TreeNodeObject import TreeNode
 
 class Solution(object):
     def isValidBST(self, node):
-        return self.traverseTree(node)
+        nodeList = []
+        return self.traverseTree(node, nodeList)
 
-    def traverseTree(self, node):
+    # Check Left -> Middle > Right
+    def traverseTree(self, node, nodeList):
 
+        # Step1 - Check if node is null
         if node == None:
             return True
 
+        # Step2 - Traverse Left Subtree
+        left = self.traverseTree(node.left, nodeList)
+
+        # Step3 - Check if Current Node is GREATER than the last node in the list
         print("CurrentNode: ", node.val)
-        self.traverseTree(node.left)
-        self.traverseTree(node.right)
+        if nodeList.__len__() > 0 and nodeList[nodeList.__len__() - 1] >= node.val:
+                return False
+        nodeList.append(node.val)
 
-        if node.left != None and node.left.val >= node.val:
-            return False
-        if node.right != None and node.right.val <= node.val:
-            return False
+        # Step4 - Traverse Right SubTree
+        right = self.traverseTree(node.right, nodeList)
 
-        return True
+        # Step5 - Return results of both left and Right
+        # We use "AND" because we need both left to be smaller and right to be larger
+        # We return false otherwise
+        return (left and right)
 
 
 def main():
@@ -49,8 +58,6 @@ def main():
     t3.left = t4
     t3.right = t5
 
-
-
     solution = Solution()
     output = solution.isValidBST(t1)
     print("Is Valid BST: ", output)
@@ -58,4 +65,24 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+
+
+'''
+Notes
+- Not that difficult but involves some thinking
+- Basically  the trick is, all the nodes on the left subtree have to be smaller the current Node
+    > While all the nodes on the Right subtree have to the bigger than the current Node
+- In order to solve this, we need to use InOrder Traversal
+
+Solution
+0. Create a list to store all node values
+1. Traverse Tree  in the following order:
+    - Left
+    - Middle
+    - Right
+2. In the Middle, we check if the current Node is GREATER than the last Node 
+3. Return the result of the left and right child
+
+
+
+'''
