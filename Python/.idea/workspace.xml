@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/TreeNodeObject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +91,7 @@
     <SUITE FILE_PATH="coverage/Python$UniqueEmailAddress.coverage" NAME="UniqueEmailAddress Coverage Results" MODIFIED="1602028772475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueEmailAddress" />
     <SUITE FILE_PATH="coverage/Python$GroupsOfSpecialEquivalentStrings.coverage" NAME="GroupsOfSpecialEquivalentStrings Coverage Results" MODIFIED="1601848409865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupsOfSpecialEquivalentStrings" />
     <SUITE FILE_PATH="coverage/Python$SlidingWindowMaximum.coverage" NAME="SlidingWindowMaximum Coverage Results" MODIFIED="1603836220257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
+    <SUITE FILE_PATH="coverage/Python$ValidateBinarySearchTree.coverage" NAME="ValidateBinarySearchTree Coverage Results" MODIFIED="1604927141122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree" />
     <SUITE FILE_PATH="coverage/Python$RelativeSortArray.coverage" NAME="RelativeSortArray Coverage Results" MODIFIED="1601505761659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/RelativeSortArray" />
     <SUITE FILE_PATH="coverage/Python$CreateTargetArrayInGivenOrder.coverage" NAME="CreateTargetArrayInGivenOrder Coverage Results" MODIFIED="1595539728827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
     <SUITE FILE_PATH="coverage/Python$SubtractProductAndSumInteger.coverage" NAME="SubtractProductAndSumInteger Coverage Results" MODIFIED="1595381195491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/SubtractProductAndSumInteger" />
@@ -228,13 +229,14 @@
           <entry key="UniqueMorseCodeWords" value="1" />
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="py" value="137" />
+          <entry key="ValidateBinarySearchTree" value="1" />
+          <entry key="py" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="137" />
+          <entry key="PLAIN_TEXT" value="91" />
+          <entry key="Python" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -244,13 +246,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="88755" />
+          <entry key="py" value="89288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="88755" />
+          <entry key="Python" value="89288" />
         </counts>
       </usages-collector>
     </session>
@@ -258,21 +260,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="405">
+              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="465">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/TreeNodeObject.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -304,8 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter/ShortestDistanceToCharacter.py" />
-        <option value="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum" />
         <option value="$PROJECT_DIR$/project/src/Math/FibonacciNum/FibonacciNum.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/LargestUniqueNumber/LargestUniqueNumber.py" />
         <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook" />
@@ -355,6 +360,8 @@
         <option value="$PROJECT_DIR$/project/src/LinkedList/MiddleOfLinkedList/MiddleOfLinkedList.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt" />
         <option value="$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt.py" />
+        <option value="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree" />
+        <option value="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree.py" />
       </list>
     </option>
   </component>
@@ -401,15 +408,23 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="HowManyApplesInBskt" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="UnivalueBinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
+              <item name="ValidateBinarySearchTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,15 +440,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
       <recent name="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
-      <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HowManyApplesInBskt">
+  <component name="RunManager" selected="Python.ValidateBinarySearchTree">
     <configuration name="FindPivotIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -537,7 +552,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ValidateBinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -545,12 +560,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -560,19 +575,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.SlidingWindowMaximum" />
       <item itemvalue="Python.FindPivotIndex" />
       <item itemvalue="Python.NumberOfIslands" />
       <item itemvalue="Python.ProductOfArrayExceptSelf" />
       <item itemvalue="Python.HowManyApplesInBskt" />
+      <item itemvalue="Python.ValidateBinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ValidateBinarySearchTree" />
         <item itemvalue="Python.HowManyApplesInBskt" />
         <item itemvalue="Python.ProductOfArrayExceptSelf" />
         <item itemvalue="Python.NumberOfIslands" />
         <item itemvalue="Python.FindPivotIndex" />
-        <item itemvalue="Python.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +628,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.4273021" />
-      <window_info anchor="right" id="Run" order="6" weight="0.45638126" />
+      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.3974152" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1063,37 +1078,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding>
-            <marker date="1602534843482" expanded="true" signature="76:148" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree/MaxDepthNaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -1382,6 +1366,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1389,10 +1380,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/HowManyApplesInBskt/HowManyApplesInBskt.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree/UnivalueBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/TreeNodeObject.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree/ValidateBinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
