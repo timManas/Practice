@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Misc/KnightDialer/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,6 +84,7 @@
     <SUITE FILE_PATH="coverage/Python$UniqueMorseCodeWords.coverage" NAME="UniqueMorseCodeWords Coverage Results" MODIFIED="1597356996295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/UniqueMorseCodeWords" />
     <SUITE FILE_PATH="coverage/Python$UnivalueBinaryTree.coverage" NAME="UnivalueBinaryTree Coverage Results" MODIFIED="1602025809171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     <SUITE FILE_PATH="coverage/Python$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1603064818317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SingleNumber" />
+    <SUITE FILE_PATH="coverage/Python$KnightDialer.coverage" NAME="KnightDialer Coverage Results" MODIFIED="1605041229859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/KnightDialer" />
     <SUITE FILE_PATH="coverage/Python$SumOfDigitsMinNumber.coverage" NAME="SumOfDigitsMinNumber Coverage Results" MODIFIED="1598046988587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/SumOfDigitsMinNumber" />
     <SUITE FILE_PATH="coverage/Python$FindNUniqueIntegersSumToZero.coverage" NAME="FindNUniqueIntegersSumToZero Coverage Results" MODIFIED="1597786269245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/FindNUniqueIntegersSumToZero" />
     <SUITE FILE_PATH="coverage/Python$FindNumbersWithEvenDigits.coverage" NAME="FindNumbersWithEvenDigits Coverage Results" MODIFIED="1596059946605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FindNumbersWithEvenDigits" />
@@ -105,7 +106,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="85" />
+          <entry key="project.closed" value="86" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="8" />
@@ -134,9 +135,9 @@
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="10" />
+          <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="88" />
+          <entry key="project.opened" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -178,6 +179,7 @@
           <entry key="KWeakestRowsInMatrix" value="1" />
           <entry key="KeyboardRow" value="1" />
           <entry key="KidWithGreatestNumCandies" value="1" />
+          <entry key="KnightDialer" value="1" />
           <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
           <entry key="LongestStringChain" value="1" />
           <entry key="MaxDepthNaryTree" value="1" />
@@ -230,13 +232,13 @@
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
           <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="143" />
+          <entry key="py" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="143" />
+          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Python" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -246,13 +248,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="92476" />
+          <entry key="py" value="93276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="92476" />
+          <entry key="Python" value="93276" />
         </counts>
       </usages-collector>
     </session>
@@ -260,19 +262,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="607">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="333">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -306,8 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook" />
-        <option value="$PROJECT_DIR$/project/src/Math/AvailableCapturesForRook/AvailableCapturesForRook.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference" />
         <option value="$PROJECT_DIR$/project/src/Lists/MinimumAbsoluteDifference/MinimumAbsoluteDifference.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree" />
@@ -357,6 +357,8 @@
         <option value="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.py" />
         <option value="$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses" />
         <option value="$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses.py" />
+        <option value="$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer" />
+        <option value="$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py" />
       </list>
     </option>
   </component>
@@ -366,11 +368,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="1057" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -380,6 +381,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,13 +413,12 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Misc" type="462c0819:PsiDirectoryNode" />
-              <item name="DifferentWaysToAddParantheses" type="462c0819:PsiDirectoryNode" />
+              <item name="KnightDialer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ProductOfArrayExceptSelf">
+  <component name="RunManager" selected="Python.KnightDialer">
     <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,7 +496,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NumberOfIslands" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KnightDialer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,12 +504,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Misc/KnightDialer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/NumberOfIslands/NumberOfIslands.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -562,19 +563,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.NumberOfIslands" />
       <item itemvalue="Python.ProductOfArrayExceptSelf" />
       <item itemvalue="Python.HowManyApplesInBskt" />
       <item itemvalue="Python.ValidateBinarySearchTree" />
       <item itemvalue="Python.ConsecutiveNumberSum" />
+      <item itemvalue="Python.KnightDialer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KnightDialer" />
         <item itemvalue="Python.ProductOfArrayExceptSelf" />
         <item itemvalue="Python.ConsecutiveNumberSum" />
         <item itemvalue="Python.ValidateBinarySearchTree" />
         <item itemvalue="Python.HowManyApplesInBskt" />
-        <item itemvalue="Python.NumberOfIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -592,10 +593,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1280" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.23909532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.23909532" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -615,7 +616,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.42487884" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.3602585" />
+      <window_info anchor="right" id="Run" order="6" weight="0.3602585" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -997,6 +998,11 @@
           <line>53</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1071,23 +1077,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds/ThreeConsecutiveOdds">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <marker date="1602991862544" expanded="true" signature="1496:1597" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1376,14 +1365,28 @@
     <entry file="file://$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Misc/DifferentWaysToAddParantheses/DifferentWaysToAddParantheses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/KnightDialer/KnightDialer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
