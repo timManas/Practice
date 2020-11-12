@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/KnightDialer" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/KnightDialer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/KnightDialer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/KnightDialer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
+  <component name="RunManager" selected="Application.KnightsDialer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -100,13 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuckyNumInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.LuckyNumInMatrix.LuckyNumInMatrix" />
+    <configuration name="KnightsDialer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.KnightsDialer.KnightsDialer" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.LuckyNumInMatrix.*" />
+          <option name="PATTERN" value="Graphs.KnightsDialer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnightsDialer" />
         <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
         <item itemvalue="Application.ConstructBTFromInOrderAndPostOrderTraversal" />
         <item itemvalue="Application.ConsutrctBTFromPreorderAndInOrderTraversal" />
         <item itemvalue="Application.MaximumProduct3Nums" />
-        <item itemvalue="Application.LuckyNumInMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -376,6 +380,7 @@
       <workItem from="1603810067658" duration="1435000" />
       <workItem from="1604267862399" duration="2415000" />
       <workItem from="1604357550019" duration="6312000" />
+      <workItem from="1605196224787" duration="2760000" />
     </task>
     <servers />
   </component>
@@ -642,6 +647,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/SerializeAndDeserializeBinaryTree/Codec.java</url>
           <line>45</line>
           <option name="timeStamp" value="844" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="845" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

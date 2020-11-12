@@ -1,5 +1,36 @@
 class Solution(object):
-    def knightDialer(self, input):
+
+    def knightDialer(self, n):
+        M = []
+        s = 0
+        for i in range(4):
+            for j in range(3):
+                s = (s + self.paths(M, i, j, n))
+
+    def paths(self, M, i, j, n):
+
+        if i < 0 or j < 0 or i >= 4 or j >= 3 or (i == 3 and j != 1):
+            return 0
+
+        if n == 1:
+            return 1
+
+        if M[n][i][j] > 0:
+            return M[n][i][j]
+
+        M[n][i][j] = (self.paths(M, i - 1, j - 2, n - 1) % max +
+                        self.paths(M, i - 2, j - 1, n - 1) % max +
+                        self.paths(M, i - 2, j + 1, n - 1) % max +
+                        self.paths(M, i - 1, j + 2, n - 1) % max +
+                        self.paths(M, i + 1, j + 2, n - 1) % max +
+                        self.paths(M, i + 2, j + 1, n - 1) % max +
+                        self.paths(M, i + 2, j - 1, n - 1) % max +
+                        self.paths(M, i + 1, j - 2, n - 1) % max)
+
+        return M[n][i][j]
+
+
+    def knightDialer_NaiveSolution(self, input):
         numberSet = set()
 
         grid = [['1','2','3'],
@@ -25,18 +56,16 @@ class Solution(object):
             return current
 
         if row < 0 or col < 0:
-            return None
+            return current
         if row > 3 or col > 2:
-            return None
+            return current
 
 
         traversedNum = grid[row][col]
         if traversedNum == '*' or traversedNum == '!':
             return current
 
-
         current = "".join([current, traversedNum])
-        print("Position: ", traversedNum, "     Current: ", current)
 
 
         # Find the total phone #'s
@@ -49,8 +78,8 @@ class Solution(object):
         leftUp = self.traverseGrid(grid, row - 1, col - 2, current, input, numberSet)
         upLeft = self.traverseGrid(grid, row - 2, col - 1, current, input, numberSet)
 
-
         if current.__len__() == input:
+            print("Position: ", traversedNum, "     Current: ", current)
             numberSet.add(upRight)
             numberSet.add(rightUp)
             numberSet.add(rightDown)
@@ -61,15 +90,16 @@ class Solution(object):
             numberSet.add(upLeft)
 
 
+
 def main():
-    inputList = [1,2,3,4,3131]
+    inputList = [1,2,3,4,10]
     solution = Solution()
 
     # for i in inputList:
     #     output = solution.knightDialer(i)
     #     print("Output: ", output, "\n")
 
-    print("Output: ", solution.knightDialer(4))
+    print("Output: ", solution.knightDialer(3131))
 
 if __name__ == '__main__':
     main()
