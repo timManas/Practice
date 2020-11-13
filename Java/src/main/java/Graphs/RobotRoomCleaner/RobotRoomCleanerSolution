@@ -1,0 +1,46 @@
+Concepts to use
+
+Let's use here two programming concepts.
+
+The first one is called constrained programming.
+
+That basically means to put restrictions after each robot move. Robot moves, and the cell is marked as visited.
+That propagates constraints and helps to reduce the number of combinations to consider.
+
+The second one called backtracking.
+Let's imagine that after several moves the robot is surrounded by the visited cells.
+But several steps before there was a cell which proposed an alternative path to go.
+That path wasn't used and hence the room is not yet cleaned up. What to do? To backtrack.
+That means to come back to that cell, and to explore the alternative path.
+
+
+Intuition
+
+This solution is based on the same idea as maze solving algorithm called right-hand rule.
+Go forward, cleaning and marking all the cells on the way as visited.
+At the obstacle turn right, again go forward, etc.
+Always turn right at the obstacles and then go forward.
+Consider already visited cells as virtual obstacles.
+
+What do do if after the right turn there is an obstacle just in front ?
+Turn right again.
+
+How to explore the alternative paths from the cell ?
+Go back to that cell and then turn right from your last explored direction.
+
+When to stop ?
+Stop when you explored all possible paths, i.e. all 4 directions (up, right, down, and left) for each visited cell.
+
+Algorithm
+Time to write down the algorithm for the backtrack function backtrack(cell = (0, 0), direction = 0).
+1. Mark the cell as visited and clean it up.
+2. Explore 4 directions : up, right, down, and left (the order is important since the idea is always to turn right) :
+
+2a.Check the next cell in the chosen direction :
+    - If it's not visited yet and there is no obtacles :
+    - Move forward.
+    - Explore next cells backtrack(new_cell, new_direction).
+    - Backtrack, i.e. go back to the previous cell.
+
+2b.Turn right because now there is an obstacle (or a virtual obstacle) just in front.
+
