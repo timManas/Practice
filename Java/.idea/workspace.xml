@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/KnightDialer" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/KnightDialer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/KnightDialer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/KnightDialer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Misc/KnightDialer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Misc/X::KnightDialer/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -380,7 +376,9 @@
       <workItem from="1603810067658" duration="1435000" />
       <workItem from="1604267862399" duration="2415000" />
       <workItem from="1604357550019" duration="6312000" />
-      <workItem from="1605196224787" duration="2760000" />
+      <workItem from="1605196224787" duration="3763000" />
+      <workItem from="1605201596482" duration="105000" />
+      <workItem from="1605210173581" duration="868000" />
     </task>
     <servers />
   </component>
