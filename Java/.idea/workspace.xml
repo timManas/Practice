@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/RobotRoomCleaner/RobotRoomCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/RobotRoomCleaner/RobotRoomCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/PalindromicSubString" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/PalindromicSubString" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/PalindromicSubString.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/PalindromicSubString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -381,6 +384,7 @@
       <workItem from="1605201596482" duration="105000" />
       <workItem from="1605210173581" duration="5788000" />
       <workItem from="1605475596545" duration="1092000" />
+      <workItem from="1605489438974" duration="226000" />
     </task>
     <servers />
   </component>
