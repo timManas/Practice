@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Graphs/KnightsDialer/KnightsDialer" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Graphs/xKnightsDialer/KnightsDialer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Graphs/KnightsDialer/KnightsDialer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Graphs/xKnightsDialer/KnightsDialer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/src/main/java/Graphs/KnightsDialer/SolutionNotes" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/src/main/java/Graphs/xKnightsDialer/SolutionNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/PalindromicSubString/PalindromicSubString" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/PalindromicSubString/PalindromicSubString.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Strings/PalindromicSubString/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Strings/LongestStringChain/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,12 +111,12 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="91" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="2" />
@@ -132,14 +135,14 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="91" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -220,6 +223,7 @@
           <entry key="SingleNumber" value="1" />
           <entry key="SingleRowKeyboard" value="1" />
           <entry key="SlidingWindowMaximum" value="1" />
+          <entry key="Solution" value="2" />
           <entry key="SortArrayByParity" value="2" />
           <entry key="SortArrayByParityII" value="1" />
           <entry key="SplitStringInBalancedString" value="1" />
@@ -235,13 +239,13 @@
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
           <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="146" />
+          <entry key="py" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="146" />
+          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="Python" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -263,29 +267,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="55" column="91" selection-start-line="55" selection-start-column="91" selection-end-line="55" selection-end-column="91" />
-              <folding>
-                <marker date="1605655954474" expanded="true" signature="830:839" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -314,7 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/TreeNodeObject.py" />
         <option value="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py" />
         <option value="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds/ThreeConsecutiveOdds" />
         <option value="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds/ThreeConsecutiveOdds.py" />
@@ -365,6 +346,7 @@
         <option value="$PROJECT_DIR$/project/src/Strings/PalindromicSubString/PalindromicSubString" />
         <option value="$PROJECT_DIR$/project/src/Strings/PalindromicSubString/PalindromicSubString.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/Solution" />
       </list>
     </option>
   </component>
@@ -375,10 +357,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="x" value="1240" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="1057" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -388,7 +370,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,10 +388,18 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,15 +409,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/src/Trees" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/src/Trees/ValidateBinarySearchTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
       <recent name="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree" />
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString" />
+      <recent name="$PROJECT_DIR$/project/src/Trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -585,14 +575,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1280" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="1240" y="23" width="1280" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.24313408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25121164" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
@@ -946,7 +935,7 @@
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py</url>
+          <url>file://$PROJECT_DIR$/project/src/Strings/xLongestStringChain/LongestStringChain.py</url>
           <line>31</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
@@ -1084,13 +1073,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/FixedPoint/FixedPoint">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1202,20 +1184,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Strings/LongestStringChain/LongestStringChain">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/xLongestStringChain/LongestStringChain" />
     <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter.py" />
     <entry file="file://$PROJECT_DIR$/project/src/Misc/DesignHitCounter/DesignHitCounter" />
     <entry file="file://$PROJECT_DIR$/project/src/Lists/SlidingWindowMaximum/SlidingWindowMaximum">
@@ -1376,18 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Misc/X::KnightDialer/KnightDialer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1605195897159" expanded="true" signature="55:984" ph="..." />
-            <marker date="1605195897159" expanded="true" signature="1028:1037" ph="..." />
-            <marker date="1605195897159" expanded="true" signature="3129:3134" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1395,12 +1352,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/Solution" />
     <entry file="file://$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/PalindromicSubString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="55" column="91" selection-start-line="55" selection-start-column="91" selection-end-line="55" selection-end-column="91" />
+        <state relative-caret-position="235">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
           <folding>
             <marker date="1605655954474" expanded="true" signature="830:839" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/xLongestStringChain/LongestStringChain.py" />
+    <entry file="file://$PROJECT_DIR$/project/src/Misc/X::KnightDialer/KnightDialer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1605195897159" expanded="true" signature="55:984" ph="..." />
+            <marker date="1605195897159" expanded="true" signature="1028:1037" ph="..." />
+            <marker date="1605195897159" expanded="true" signature="3129:3134" ph="..." />
           </folding>
         </state>
       </provider>

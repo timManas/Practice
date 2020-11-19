@@ -1,4 +1,4 @@
-package Graphs.KnightsDialer;
+package Graphs.xKnightsDialer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,9 +19,9 @@ public class KnightsDialer {
         long result = 0;
 
         // Step1 - Traverse input grid one by one
-        for (int row=0; row<4; row++) {
-            for (int col=0; col<3; col++) {
-                result = (result + findPaths(row,col,n)) % max;
+        for (int row=0; row < 4; row++) {
+            for (int col=0; col < 3; col++) {
+                result = (result + findPaths(row, col, n)) % max;
             }
         }
         return (int) result;
@@ -29,11 +29,11 @@ public class KnightsDialer {
 
     private static long findPaths(int row, int col, int n) {
 
-        // Step1 - Check if over the boundary
+        // Step1 - Base Case: Check if over the boundary
         if (row < 0 || row >= 4 || col < 0 || col >= 3 || (row == 3 && col != 1))
             return 0;
 
-        // Step2 - Return if size is 1
+        // Step2 - Base Case: Return if size is 1
         if (n == 1)
             return 1;
 
@@ -52,7 +52,6 @@ public class KnightsDialer {
                 findPaths(row + 2, col + 1, n - 1) % max +              // jump to f
                 findPaths(row + 2, col - 1, n - 1) % max +              // jump to g
                 findPaths(row + 1, col - 2, n - 1) % max;               // jump to h
-
 
         // Step5 - Add to pathCount
         pathCount.put(key,totalPath);

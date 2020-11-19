@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/KnightsDialer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/KnightsDialer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/SolutionNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/SolutionNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/PalindromicSubString" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/PalindromicSubString" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/PalindromicSubString.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/PalindromicSubString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/PalindromicSubString/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/project/src/Strings/xPalindromicSubString/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/LongestStringChain" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/LongestStringChain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,12 +108,12 @@
       </method>
     </configuration>
     <configuration name="KnightsDialer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.KnightsDialer.KnightsDialer" />
+      <option name="MAIN_CLASS_NAME" value="Graphs.xKnightsDialer.KnightsDialer" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.KnightsDialer.*" />
+          <option name="PATTERN" value="Graphs.xKnightsDialer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,6 +388,8 @@
       <workItem from="1605210173581" duration="5788000" />
       <workItem from="1605475596545" duration="1092000" />
       <workItem from="1605489438974" duration="226000" />
+      <workItem from="1605656341000" duration="1707000" />
+      <workItem from="1605794762771" duration="8000" />
     </task>
     <servers />
   </component>
@@ -653,7 +658,7 @@
           <option name="timeStamp" value="844" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/KnightsDialer.java</url>
           <line>26</line>
           <option name="timeStamp" value="845" />
         </line-breakpoint>
