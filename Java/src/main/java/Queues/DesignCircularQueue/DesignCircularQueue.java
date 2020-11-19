@@ -20,7 +20,7 @@ public class DesignCircularQueue {
 /**
  Notes
  - Pretty straight forward, not too crazy
- 
+
  Solution
  - Just create a LinkList data structure and populate them
 
