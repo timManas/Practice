@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/KnightsDialer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/KnightsDialer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/KnightsDialer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/KnightsDialer/SolutionNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/xKnightsDialer/SolutionNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/LongestStringChain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/LongestStringChain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/project/src/Strings/LongestStringChain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queues/DesignCircularQueue/DesignCircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queues/DesignCircularQueue/DesignCircularQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KnightsDialer">
+  <component name="RunManager" selected="Application.DesignCircularQueue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -107,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsDialer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.xKnightsDialer.KnightsDialer" />
+    <configuration name="DesignCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.DesignCircularQueue.DesignCircularQueue" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.xKnightsDialer.*" />
+          <option name="PATTERN" value="Queues.DesignCircularQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumProduct3Nums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.MaximumProd3Numbers.MaximumProduct3Nums" />
+    <configuration name="KnightsDialer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.xKnightsDialer.KnightsDialer" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.MaximumProd3Numbers.*" />
+          <option name="PATTERN" value="Graphs.xKnightsDialer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignCircularQueue" />
         <item itemvalue="Application.KnightsDialer" />
         <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
         <item itemvalue="Application.ConstructBTFromInOrderAndPostOrderTraversal" />
         <item itemvalue="Application.ConsutrctBTFromPreorderAndInOrderTraversal" />
-        <item itemvalue="Application.MaximumProduct3Nums" />
       </list>
     </recent_temporary>
   </component>
@@ -390,6 +384,7 @@
       <workItem from="1605489438974" duration="226000" />
       <workItem from="1605656341000" duration="1707000" />
       <workItem from="1605794762771" duration="8000" />
+      <workItem from="1605812842108" duration="2201000" />
     </task>
     <servers />
   </component>
@@ -662,19 +657,16 @@
           <line>26</line>
           <option name="timeStamp" value="845" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Queues/DesignCircularQueue/MyCircularQueue.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="inList.subList(0, inRootIndex)" language="JAVA" />
-        <watch expression="inList.subList(inRootIndex + 1, inList.size())" language="JAVA" />
-        <watch expression="postList.subList(0, lengthOfLeftSubTreeInOrderList)" language="JAVA" />
-        <watch expression="postList.subList(inRootIndex, postList.size() - 1)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
