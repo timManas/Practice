@@ -66,23 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInString">
+  <component name="RunManager" selected="Application.MaximalSquare">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructBTFromInOrderAndPostOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.ConstructBTFromInOrderAndPostOrderTraversal.ConstructBTFromInOrderAndPostOrderTraversal" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.ConstructBTFromInOrderAndPostOrderTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +94,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graphs.xKnightsDialer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MaximalSquare.MaximalSquare" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.MaximalSquare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximalSquare" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.DesignCircularQueue" />
         <item itemvalue="Application.KnightsDialer" />
         <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-        <item itemvalue="Application.ConstructBTFromInOrderAndPostOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +385,9 @@
       <workItem from="1605656341000" duration="1707000" />
       <workItem from="1605794762771" duration="8000" />
       <workItem from="1605812842108" duration="4748000" />
-      <workItem from="1605894669808" duration="600000" />
+      <workItem from="1605894669808" duration="761000" />
+      <workItem from="1605990703444" duration="498000" />
+      <workItem from="1606242520161" duration="1622000" />
     </task>
     <servers />
   </component>
