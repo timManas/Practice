@@ -4,7 +4,6 @@
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,12 +102,12 @@
       </method>
     </configuration>
     <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.MaximalSquare.MaximalSquare" />
+      <option name="MAIN_CLASS_NAME" value="Math.xMaximalSquare.MaximalSquare" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.MaximalSquare.*" />
+          <option name="PATTERN" value="Math.xMaximalSquare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,7 +388,7 @@
       <workItem from="1605894669808" duration="761000" />
       <workItem from="1605990703444" duration="498000" />
       <workItem from="1606242520161" duration="2356000" />
-      <workItem from="1606327185811" duration="5059000" />
+      <workItem from="1606327185811" duration="6536000" />
     </task>
     <servers />
   </component>
@@ -674,8 +673,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="852" />
+          <line>42</line>
+          <option name="timeStamp" value="853" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
