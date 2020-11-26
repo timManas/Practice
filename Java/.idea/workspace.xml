@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -388,7 +388,8 @@
       <workItem from="1605894669808" duration="761000" />
       <workItem from="1605990703444" duration="498000" />
       <workItem from="1606242520161" duration="2356000" />
-      <workItem from="1606327185811" duration="6536000" />
+      <workItem from="1606327185811" duration="6600000" />
+      <workItem from="1606405020470" duration="627000" />
     </task>
     <servers />
   </component>
@@ -672,7 +673,7 @@
           <option name="timeStamp" value="847" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Math/xMaximalSquare/MaximalSquare.java</url>
           <line>42</line>
           <option name="timeStamp" value="853" />
         </line-breakpoint>

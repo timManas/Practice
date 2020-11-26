@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -59,6 +62,7 @@
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
     <SUITE FILE_PATH="coverage/Python$ArmStrongNumber.coverage" NAME="ArmStrongNumber Coverage Results" MODIFIED="1597001626709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ArmStrongNumber" />
     <SUITE FILE_PATH="coverage/Python$RobotRetrunToOrigin.coverage" NAME="RobotRetrunToOrigin Coverage Results" MODIFIED="1598810643294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin" />
+    <SUITE FILE_PATH="coverage/Python$Search2DMatrixII.coverage" NAME="Search2DMatrixII Coverage Results" MODIFIED="1606430084584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Search2DMatrixII" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
     <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598481958756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$ShortestDistanceToCharacter.coverage" NAME="ShortestDistanceToCharacter Coverage Results" MODIFIED="1602115132556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter" />
@@ -106,7 +110,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="94" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="9" />
@@ -119,6 +123,7 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
@@ -135,9 +140,9 @@
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="11" />
+          <entry key="project.open.time.8" value="12" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="96" />
+          <entry key="project.opened" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -211,6 +216,7 @@
           <entry key="ReverseWordsInStringIII" value="1" />
           <entry key="RobotRetrunToOrigin" value="1" />
           <entry key="RunningSum1dArray" value="1" />
+          <entry key="Search2DMatrixII" value="1" />
           <entry key="SearchInBST" value="1" />
           <entry key="SelfDividingNumbers" value="1" />
           <entry key="ShortestDistanceToCharacter" value="1" />
@@ -235,13 +241,13 @@
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
           <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="150" />
+          <entry key="py" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="97" />
-          <entry key="Python" value="150" />
+          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="Python" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -251,19 +257,38 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="96410" />
+          <entry key="py" value="96736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="96410" />
+          <entry key="Python" value="96736" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -292,8 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Math/ThreeConsecutiveOdds/ThreeConsecutiveOdds.py" />
-        <option value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter" />
         <option value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin" />
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" />
@@ -343,6 +366,8 @@
         <option value="$PROJECT_DIR$/project/src/Strings/xPalindromicSubString/Solution" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindDuplicateNumber/FindDuplicateNumber" />
         <option value="$PROJECT_DIR$/project/src/Lists/FindDuplicateNumber/FindDuplicateNumber.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII" />
+        <option value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" />
       </list>
     </option>
   </component>
@@ -365,7 +390,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,27 +413,21 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-              <item name="FindDuplicateNumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="Search2DMatrixII" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,29 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FindDuplicateNumber">
-    <configuration name="ConsecutiveNumberSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ConsecutiveNumberSum/ConsecutiveNumberSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Search2DMatrixII">
     <configuration name="FindDuplicateNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -555,20 +551,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Search2DMatrixII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.ProductOfArrayExceptSelf" />
-      <item itemvalue="Python.ConsecutiveNumberSum" />
       <item itemvalue="Python.KnightDialer" />
       <item itemvalue="Python.PalindromicSubString" />
       <item itemvalue="Python.FindDuplicateNumber" />
+      <item itemvalue="Python.Search2DMatrixII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Search2DMatrixII" />
         <item itemvalue="Python.FindDuplicateNumber" />
         <item itemvalue="Python.PalindromicSubString" />
         <item itemvalue="Python.KnightDialer" />
         <item itemvalue="Python.ProductOfArrayExceptSelf" />
-        <item itemvalue="Python.ConsecutiveNumberSum" />
       </list>
     </recent_temporary>
   </component>
@@ -586,9 +604,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.26332796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2714055" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1010,6 +1029,11 @@
           <line>33</line>
           <option name="timeStamp" value="250" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1084,20 +1108,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/MaxDepthOfBinaryTree/MaxDepthOfBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="50" selection-start-line="50" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1384,6 +1394,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
