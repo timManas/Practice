@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -387,7 +388,8 @@
       <workItem from="1605812842108" duration="4748000" />
       <workItem from="1605894669808" duration="761000" />
       <workItem from="1605990703444" duration="498000" />
-      <workItem from="1606242520161" duration="1622000" />
+      <workItem from="1606242520161" duration="2356000" />
+      <workItem from="1606327185811" duration="5059000" />
     </task>
     <servers />
   </component>
@@ -670,11 +672,23 @@
           <line>24</line>
           <option name="timeStamp" value="847" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/MaximalSquare/MaximalSquare.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="852" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Integer.valueOf(matrix[row][col])" language="JAVA" />
+        <watch expression="matrix[row][col]" language="JAVA" />
+        <watch expression="Character.getNumericValue(matrix[row][col]);" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
