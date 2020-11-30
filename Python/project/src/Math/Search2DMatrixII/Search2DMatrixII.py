@@ -85,7 +85,7 @@ Solution
 - If middle < target, we search Right Part of List
 - If middle == target, we return True  
 
-3. Spatial Reduction
+3. Search Space Reduction
 - Start from the bottom Left of the input array
 - Use a while loop to traverse
 - If current == target, return true

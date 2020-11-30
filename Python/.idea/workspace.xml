@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,12 +110,12 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="95" />
+          <entry key="project.closed" value="97" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="9" />
           <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="2" />
@@ -135,14 +139,15 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="12" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="98" />
+          <entry key="project.opened" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="3Sum" value="1" />
           <entry key="ArmStrongNumber" value="1" />
           <entry key="AvailableCapturesForRook" value="1" />
           <entry key="AvgSalaryExclMinAndMaxSalary" value="1" />
@@ -237,13 +242,13 @@
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
           <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="152" />
+          <entry key="py" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="98" />
-          <entry key="Python" value="152" />
+          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="Python" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -253,38 +258,33 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="98169" />
+          <entry key="py" value="98663" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="98169" />
+          <entry key="Python" value="98663" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py">
+        <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <marker date="1606433019604" expanded="true" signature="102:499" ph="..." />
-                <marker date="1606433019604" expanded="true" signature="576:1341" ph="..." />
-                <marker date="1606433019604" expanded="true" signature="881:890" ph="..." />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -318,8 +318,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Misc/IslandPerimeter/IslandPerimeter.py" />
-        <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin" />
         <option value="$PROJECT_DIR$/project/src/Strings/GoatLatin/GoatLatin.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber" />
         <option value="$PROJECT_DIR$/project/src/Lists/SingleNumber/SingleNumber.py" />
@@ -369,6 +367,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/FindDuplicateNumber/FindDuplicateNumber.py" />
         <option value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII" />
         <option value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" />
+        <option value="$PROJECT_DIR$/project/src/Math/3Sum/3Sum" />
+        <option value="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" />
       </list>
     </option>
   </component>
@@ -381,8 +381,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1853" />
-    <option name="height" value="1028" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -423,7 +423,7 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Math" type="462c0819:PsiDirectoryNode" />
-              <item name="Search2DMatrixII" type="462c0819:PsiDirectoryNode" />
+              <item name="3Sum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -609,7 +609,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.17891374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -629,7 +629,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Debug" order="5" weight="0.48935038" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.41799787" />
+      <window_info anchor="right" id="Run" order="6" weight="0.41799787" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1111,16 +1111,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1400,6 +1390,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <marker date="1606433244242" expanded="true" signature="102:499" ph="..." />
+            <marker date="1606433244242" expanded="true" signature="576:1341" ph="..." />
+            <marker date="1606433244242" expanded="true" signature="881:890" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1407,15 +1409,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py">
+    <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <marker date="1606433019604" expanded="true" signature="102:499" ph="..." />
-            <marker date="1606433019604" expanded="true" signature="576:1341" ph="..." />
-            <marker date="1606433019604" expanded="true" signature="881:890" ph="..." />
-          </folding>
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
