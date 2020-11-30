@@ -77,6 +77,7 @@ if __name__ == '__main__':
 '''
 Notes
 - RunTime is 0(n^2) at best
+- The trick is set to one element to i (index) and use 2 pointers to calculate the total  (Total of 3 pointers: i, low, high)
 
 Solution
 1. Sort the input Array
