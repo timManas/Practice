@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Math/3Sum/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +58,7 @@
     <SUITE FILE_PATH="coverage/Python$RangeSumBST.coverage" NAME="RangeSumBST Coverage Results" MODIFIED="1596408189430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/RangSumBST" />
     <SUITE FILE_PATH="coverage/Python$ArmStrongNumber.coverage" NAME="ArmStrongNumber Coverage Results" MODIFIED="1597001626709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ArmStrongNumber" />
     <SUITE FILE_PATH="coverage/Python$RobotRetrunToOrigin.coverage" NAME="RobotRetrunToOrigin Coverage Results" MODIFIED="1598810643294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/RobotRetrunToOrigin" />
-    <SUITE FILE_PATH="coverage/Python$Search2DMatrixII.coverage" NAME="Search2DMatrixII Coverage Results" MODIFIED="1606433019621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Search2DMatrixII" />
+    <SUITE FILE_PATH="coverage/Python$Search2DMatrixII.coverage" NAME="Search2DMatrixII Coverage Results" MODIFIED="1606698974250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/Search2DMatrixII" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToInteger.coverage" NAME="DecryptStringFromAlphabetToInteger Coverage Results" MODIFIED="1597624244564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToInteger" />
     <SUITE FILE_PATH="coverage/Python$MergeTwoBinaryTrees.coverage" NAME="MergeTwoBinaryTrees Coverage Results" MODIFIED="1598481958756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MergeTwoBinaryTrees" />
     <SUITE FILE_PATH="coverage/Python$ShortestDistanceToCharacter.coverage" NAME="ShortestDistanceToCharacter Coverage Results" MODIFIED="1602115132556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ShortestDistanceToCharacter" />
@@ -80,6 +76,7 @@
     <SUITE FILE_PATH="coverage/Python$CheckIfWordIsPrefixInAnyWordInSentence.coverage" NAME="CheckIfWordIsPrefixInAnyWordInSentence Coverage Results" MODIFIED="1603149244592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence" />
     <SUITE FILE_PATH="coverage/Python$CountNegativeNumInMatrix.coverage" NAME="CountNegativeNumInMatrix Coverage Results" MODIFIED="1597700858734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/CountNegativeNumInMatrix" />
     <SUITE FILE_PATH="coverage/Python$AvgSalaryExclMinAndMaxSalary.coverage" NAME="AvgSalaryExclMinAndMaxSalary Coverage Results" MODIFIED="1600811670199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/AvgSalaryExclMinAndMaxSalary" />
+    <SUITE FILE_PATH="coverage/Python$3Sum.coverage" NAME="3Sum Coverage Results" MODIFIED="1606703603388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/3Sum" />
     <SUITE FILE_PATH="coverage/Python$DecryptStringFromAlphabetToIntMapping.coverage" NAME="DecryptStringFromAlphabetToIntMapping Coverage Results" MODIFIED="1583883452348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/DecryptStringFromAlphabetToIntegerMapping" />
     <SUITE FILE_PATH="coverage/Python$DestinationCity.coverage" NAME="DestinationCity Coverage Results" MODIFIED="1597356322746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/DestinationCity" />
     <SUITE FILE_PATH="coverage/Python$ReverseAnImage.coverage" NAME="ReverseAnImage Coverage Results" MODIFIED="1596557349385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ReverseAnImage" />
@@ -258,13 +255,13 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="98663" />
+          <entry key="py" value="100244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="98663" />
+          <entry key="Python" value="100244" />
         </counts>
       </usages-collector>
     </session>
@@ -283,8 +280,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="700">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -464,7 +461,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Search2DMatrixII">
+  <component name="RunManager" selected="Python.3Sum">
+    <configuration name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/3Sum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FindDuplicateNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -531,28 +550,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf/ProductOfArrayExceptSelf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Search2DMatrixII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -576,19 +573,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ProductOfArrayExceptSelf" />
       <item itemvalue="Python.KnightDialer" />
       <item itemvalue="Python.PalindromicSubString" />
       <item itemvalue="Python.FindDuplicateNumber" />
       <item itemvalue="Python.Search2DMatrixII" />
+      <item itemvalue="Python.3Sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3Sum" />
         <item itemvalue="Python.Search2DMatrixII" />
         <item itemvalue="Python.FindDuplicateNumber" />
         <item itemvalue="Python.PalindromicSubString" />
         <item itemvalue="Python.KnightDialer" />
-        <item itemvalue="Python.ProductOfArrayExceptSelf" />
       </list>
     </recent_temporary>
   </component>
@@ -609,7 +606,7 @@
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.18051118" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1041,6 +1038,11 @@
           <line>37</line>
           <option name="timeStamp" value="254" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1418,8 +1420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="700">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
