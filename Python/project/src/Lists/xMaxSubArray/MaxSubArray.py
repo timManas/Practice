@@ -11,7 +11,7 @@ class Solution(object):
         while i < nums.__len__():
 
             # Step2 - Calculate the currentMax & GlobalMax
-            currentMax = max(currentMax + nums[i], nums[i])     # We are comparing:  (currentMax + current Element) Vs. (CurrentElement)
+            currentMax = max(currentMax + nums[i], nums[i])     # We are comparing: (currentMax + current Element) Vs. (CurrentElement)
             globalMax = max(currentMax, globalMax)
 
             print("Current: ", nums[i], "   CurrentMax: ", currentMax, "    GlobalMax: ", globalMax)
