@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,7 @@
     <SUITE FILE_PATH="coverage/Python$MaxDepthNaryTree.coverage" NAME="MaxDepthNaryTree Coverage Results" MODIFIED="1601345220084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/MaxDepthOfNaryTree" />
     <SUITE FILE_PATH="coverage/Python$FibonacciNum.coverage" NAME="FibonacciNum Coverage Results" MODIFIED="1602196102631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/FibonacciNum" />
     <SUITE FILE_PATH="coverage/Python$KeyboardRow.coverage" NAME="KeyboardRow Coverage Results" MODIFIED="1603233006930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Misc/KeyboardRow" />
+    <SUITE FILE_PATH="coverage/Python$GroupAnagrams.coverage" NAME="GroupAnagrams Coverage Results" MODIFIED="1607125946631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/GroupAnagrams" />
     <SUITE FILE_PATH="coverage/Python$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1596753315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/ToLowerCase" />
     <SUITE FILE_PATH="coverage/Python$ReplaceElementsWithGreatestElement.coverage" NAME="ReplaceElementsWithGreatestElement Coverage Results" MODIFIED="1597962127463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Lists/ReplaceElementsWithGreatestElement" />
     <SUITE FILE_PATH="coverage/Python$InOrderSuccessor.coverage" NAME="InOrderSuccessor Coverage Results" MODIFIED="1603330378862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Trees/InOrderSuccessor" />
@@ -114,7 +113,7 @@
     <session id="588843123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="101" />
+          <entry key="project.closed" value="102" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="10" />
@@ -178,6 +177,7 @@
           <entry key="FlippingAnImage" value="1" />
           <entry key="GenerateStringWithCharactersThatHaveOddCounts" value="1" />
           <entry key="GoatLatin" value="1" />
+          <entry key="GroupAnagrams" value="1" />
           <entry key="GroupsOfSpecialEquivalentStrings" value="1" />
           <entry key="HighFive" value="1" />
           <entry key="HowManyApplesInBskt" value="1" />
@@ -248,13 +248,13 @@
           <entry key="UniqueNumOccurences" value="1" />
           <entry key="UnivalueBinaryTree" value="1" />
           <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="157" />
+          <entry key="py" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="102" />
-          <entry key="Python" value="157" />
+          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="Python" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -264,24 +264,33 @@
           <entry key="ShuffleString" value="1" />
           <entry key="SplitStringInBalancedString" value="4" />
           <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="103375" />
+          <entry key="py" value="103855" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="103375" />
+          <entry key="Python" value="103855" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -315,8 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/src/Trees/InvertBinaryTree/InvertBinaryTree.py" />
-        <option value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix" />
         <option value="$PROJECT_DIR$/project/src/Math/ToeplitzMatrix/ToeplitzMatrix.py" />
         <option value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence" />
         <option value="$PROJECT_DIR$/project/src/Strings/CheckIfWordIsPrefixInAnyWordInSentence/CheckIfWordIsPrefixInAnyWordInSentence.py" />
@@ -366,6 +373,8 @@
         <option value="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray" />
         <option value="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py" />
         <option value="$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py" />
+        <option value="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams" />
+        <option value="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py" />
       </list>
     </option>
   </component>
@@ -413,7 +422,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupAnagrams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MaxLengthOfRepeatedSubArray">
+  <component name="RunManager" selected="Python.GroupAnagrams">
     <configuration name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -476,7 +493,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FindDuplicateNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GroupAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,12 +501,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindDuplicateNumber" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/GroupAnagrams" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindDuplicateNumber/FindDuplicateNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -565,19 +582,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FindDuplicateNumber" />
       <item itemvalue="Python.Search2DMatrixII" />
       <item itemvalue="Python.3Sum" />
       <item itemvalue="Python.MaxSubArray" />
       <item itemvalue="Python.MaxLengthOfRepeatedSubArray" />
+      <item itemvalue="Python.GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GroupAnagrams" />
         <item itemvalue="Python.MaxLengthOfRepeatedSubArray" />
         <item itemvalue="Python.MaxSubArray" />
         <item itemvalue="Python.3Sum" />
         <item itemvalue="Python.Search2DMatrixII" />
-        <item itemvalue="Python.FindDuplicateNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +615,7 @@
     <frame x="1920" y="23" width="1280" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" weight="0.3723748" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.22778675" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.14749734" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1045,6 +1062,11 @@
           <line>13</line>
           <option name="timeStamp" value="263" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1117,16 +1139,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/v.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/TreeNodeObject.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Trees/InOrderSuccessor/InOrderSuccessor">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1424,8 +1436,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/src/Lists/xMaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
