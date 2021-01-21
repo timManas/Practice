@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Strings/DiffWays2AddParanthesis/DiffWays2AddParanthesis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Strings/DiffWays2AddParanthesis/DiffWays2AddParanthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Strings/DiffWays2AddParanthesis/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximalSquare">
+  <component name="RunManager" selected="Application.TransposeMatrix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -129,13 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeAndDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SerializeAndDeserializeBinaryTree.SerializeAndDeserializeBinaryTree" />
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.TransposeMatrix.TransposeMatrix" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.SerializeAndDeserializeBinaryTree.*" />
+          <option name="PATTERN" value="Math.TransposeMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransposeMatrix" />
         <item itemvalue="Application.MaximalSquare" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.DesignCircularQueue" />
         <item itemvalue="Application.KnightsDialer" />
-        <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -390,6 +393,7 @@
       <workItem from="1606242520161" duration="2356000" />
       <workItem from="1606327185811" duration="6600000" />
       <workItem from="1606405020470" duration="627000" />
+      <workItem from="1611197864411" duration="927000" />
     </task>
     <servers />
   </component>
