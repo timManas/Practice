@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graphs/RobotRoomCleaner/RobotRoomCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graphs/RobotRoomCleaner/RobotRoomCleaner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/IntersectionOfArraysII/IntersectionOfArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/IntersectionOfArraysII/IntersectionOfArraysII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MajorityElement/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/SortIntegersByPowerValue/SortIntegersByPowerValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/SortIntegersByPowerValue/SortIntegersByPowerValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/InverstBinaryTreee/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/InverstBinaryTreee/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/RangeSumBst/RangeSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/RangeSumBst/RangeSumBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +336,7 @@
       <workItem from="1606327185811" duration="6600000" />
       <workItem from="1606405020470" duration="627000" />
       <workItem from="1611197864411" duration="927000" />
-      <workItem from="1621565185708" duration="3417000" />
+      <workItem from="1621565185708" duration="4935000" />
     </task>
     <servers />
   </component>
@@ -631,13 +625,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="854" />
+          <line>41</line>
+          <option name="timeStamp" value="862" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="857" />
+          <line>57</line>
+          <option name="timeStamp" value="863" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="864" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="865" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
