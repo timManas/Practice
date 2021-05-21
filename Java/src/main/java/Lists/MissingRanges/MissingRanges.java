@@ -1,6 +1,7 @@
 package Lists.MissingRanges;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MissingRanges {
@@ -29,14 +30,19 @@ public class MissingRanges {
         System.out.println("Missing Ranges: " + missingRanges);
     }
 
-    public static List<String> findMissingRanges(int[] nums, int lower, int upper) {
+    public static List<String> findMissingRanges(int [] nums, int lower, int upper) {
         List<String> output = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        for (int i : nums)
+            list.add(i);
 
         int missingStart = Integer.MIN_VALUE;
         int missingEnd = Integer.MIN_VALUE;
+
         for (int current=lower; current <= upper; current++) {
-            int indexInNums = findElementExists(nums, current, 0, nums.length - 1);
-            if (indexInNums != -1) {
+
+            boolean ifExists = list.contains(current);
+            if (ifExists) {
                 System.out.println("MATCH FOUND: current: " + current + "   Start: " + missingStart + "     End: " + missingEnd);
                 if (getStartEnd(missingStart, missingEnd) != null) {
                     output.add(getStartEnd(missingStart, missingEnd));
@@ -81,22 +87,6 @@ public class MissingRanges {
         return (missingStart + "->" + missingEnd);
     }
 
-    public static int findElementExists(int [] nums, int element, int startIndex, int endIndex) {
 
-        int middle = (startIndex + endIndex) / 2;
-
-        if (startIndex > endIndex)
-            return -1;
-
-        if (element == nums[middle]) {
-            return middle;
-        } else if (element < nums[middle]) {
-            return findElementExists(nums, element, startIndex, middle - 1);
-        } else if (element > nums[middle]) {
-            return findElementExists(nums, element, middle + 1,  endIndex);
-        }
-
-        return  -1;
-    }
 
 }

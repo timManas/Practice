@@ -91,17 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -336,7 +325,8 @@
       <workItem from="1606327185811" duration="6600000" />
       <workItem from="1606405020470" duration="627000" />
       <workItem from="1611197864411" duration="927000" />
-      <workItem from="1621565185708" duration="4935000" />
+      <workItem from="1621565185708" duration="5607000" />
+      <workItem from="1621599933208" duration="1002000" />
     </task>
     <servers />
   </component>
@@ -625,23 +615,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="862" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>57</line>
+          <line>63</line>
           <option name="timeStamp" value="863" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>67</line>
+          <line>73</line>
           <option name="timeStamp" value="864" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
-          <line>74</line>
+          <line>80</line>
           <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingRanges/MissingRanges.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="866" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
