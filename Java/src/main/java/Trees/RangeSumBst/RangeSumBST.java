@@ -1,6 +1,5 @@
 package Trees.RangeSumBst;
 
-import com.sun.org.apache.regexp.internal.RE;
 
 public class RangeSumBST {
     static int total = 0;

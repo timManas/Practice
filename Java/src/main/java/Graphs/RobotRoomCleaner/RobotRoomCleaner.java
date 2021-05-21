@@ -1,6 +1,5 @@
 package Graphs.RobotRoomCleaner;
 
-import javafx.util.Pair;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,7 +7,7 @@ import java.util.Set;
 public class RobotRoomCleaner {
     // Directions                    Up    Right Down  Left
     private int [][] directions = {{-1,0},{0,1},{1,0},{0,-1}};      // Traverse Up, Right, Down, Left
-    private Set<Pair<Integer,Integer>> visited = new HashSet<>();
+//    private Set<Pair<Integer,Integer>> visited = new HashSet<>();
     private Robot robot;
 
     public void cleanRoom(Robot robot) {
@@ -18,7 +17,7 @@ public class RobotRoomCleaner {
 
     private void backtrack(int row, int col, int direction) {
         // Step1 - Add to Set
-        visited.add(new Pair<>(row, col));
+//        visited.add(new Pair<>(row, col));
         robot.clean();
 
         // Step2 - Traverse Up, Right, Down, Left ... in that order
@@ -31,10 +30,10 @@ public class RobotRoomCleaner {
             int newCol = col + directions[newDirection][1];
 
             // Step3 - Move robot to the next Unvisited Node
-            if (!visited.contains(new Pair<>(newRow, newCol)) && robot.move()) {
-                backtrack(newRow, newCol, newDirection);
-                goBack();
-            }
+//            if (!visited.contains(new Pair<>(newRow, newCol)) && robot.move()) {
+//                backtrack(newRow, newCol, newDirection);
+//                goBack();
+//            }
 
             // Step4 - Always turn to the Right Next. Always ClockWise
             robot.turnRight();

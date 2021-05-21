@@ -1,7 +1,5 @@
 package Lists.IntersectionOfArraysII;
 
-import sun.lwawt.macosx.CSystemTray;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;

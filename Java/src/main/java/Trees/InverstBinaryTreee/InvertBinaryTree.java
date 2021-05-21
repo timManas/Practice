@@ -1,7 +1,5 @@
 package Trees.InverstBinaryTreee;
 
-import apple.laf.JRSUIUtils;
-
 public class InvertBinaryTree {
 
     public static void main(String [] args) {

@@ -1,7 +1,5 @@
 package Trees.MinimumDepthOfBinaryTree;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 public class MinimumDepthOfBinaryTree {
 
     public static void main(String [] args) {
