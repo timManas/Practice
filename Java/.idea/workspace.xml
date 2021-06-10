@@ -69,20 +69,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoalParser">
+  <component name="RunManager" selected="Application.CountItemsMatchingaRule">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfWordsEqualsSummationOfTwoWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfWordsEqualsSummationOfTwoWords.CheckIfWordsEqualsSummationOfTwoWords" />
+    <configuration name="CountItemsMatchingaRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountItemsMatchingaRule.CountItemsMatchingaRule" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.CheckIfWordsEqualsSummationOfTwoWords.*" />
+          <option name="PATTERN" value="Lists.CountItemsMatchingaRule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountItemsMatchingaRule" />
         <item itemvalue="Application.GoalParser" />
         <item itemvalue="Application.DesignParkingSystem" />
         <item itemvalue="Application.GoodNumberOfPairs" />
         <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.CheckIfWordsEqualsSummationOfTwoWords" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +428,7 @@
       <workItem from="1623101567450" duration="3416000" />
       <workItem from="1623166088078" duration="33000" />
       <workItem from="1623275845921" duration="911000" />
-      <workItem from="1623334461845" duration="2331000" />
+      <workItem from="1623334461845" duration="4447000" />
     </task>
     <servers />
   </component>
