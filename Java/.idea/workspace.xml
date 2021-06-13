@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfTwoStringArraysareEquivalent">
+  <component name="RunManager" selected="Application.SortingtheSentence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,20 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignParkingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.DesignParkingSystem.DesignParkingSystem" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.DesignParkingSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GoalParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.GoalParser.GoalParser" />
       <module name="Java" />
@@ -153,6 +139,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingtheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.SortingtheSentence.SortingtheSentence" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.SortingtheSentence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingtheSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
         <item itemvalue="Application.CheckIfSentencePangram" />
         <item itemvalue="Application.CountItemsMatchingaRule" />
         <item itemvalue="Application.GoalParser" />
-        <item itemvalue="Application.DesignParkingSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +430,7 @@
       <workItem from="1623275845921" duration="911000" />
       <workItem from="1623334461845" duration="6525000" />
       <workItem from="1623511791817" duration="544000" />
-      <workItem from="1623620000199" duration="372000" />
+      <workItem from="1623620000199" duration="2109000" />
     </task>
     <servers />
   </component>
@@ -742,6 +742,11 @@
           <line>25</line>
           <option name="timeStamp" value="874" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SortingtheSentence/SortingtheSentence.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -750,10 +755,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Integer.valueOf(matrix[row][col])" language="JAVA" />
-        <watch expression="matrix[row][col]" language="JAVA" />
-        <watch expression="Character.getNumericValue(matrix[row][col]);" language="JAVA" />
-        <watch expression="firstWord.length()" language="JAVA" />
+        <watch expression="sentence" language="JAVA" />
+        <watch expression="word.substring(0, word.length() - 1)" language="JAVA" />
+        <watch expression="word.charAt(word.length() - 1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
