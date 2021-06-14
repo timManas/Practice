@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingtheSentence">
+  <component name="RunManager" selected="Application.SumofAllOddLengthSubarrays">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,20 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoalParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.GoalParser.GoalParser" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.GoalParser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -160,21 +146,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumofAllOddLengthSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SumofAllOddLengthSubarrays.SumofAllOddLengthSubarrays" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SumofAllOddLengthSubarrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumofAllOddLengthSubarrays" />
         <item itemvalue="Application.SortingtheSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
         <item itemvalue="Application.CheckIfSentencePangram" />
         <item itemvalue="Application.CountItemsMatchingaRule" />
-        <item itemvalue="Application.GoalParser" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +428,8 @@
       <workItem from="1623275845921" duration="911000" />
       <workItem from="1623334461845" duration="6525000" />
       <workItem from="1623511791817" duration="544000" />
-      <workItem from="1623620000199" duration="2109000" />
+      <workItem from="1623620000199" duration="2737000" />
+      <workItem from="1623680247791" duration="4580000" />
     </task>
     <servers />
   </component>
