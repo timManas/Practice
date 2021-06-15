@@ -30,6 +30,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -69,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TruncateSentence">
+  <component name="RunManager" selected="Application.MaximumNestingDepthParentheses">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -83,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CounttheNumberofConsistentStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumNestingDepthParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MaximumNestingDepthParentheses.MaximumNestingDepthParentheses" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.MaximumNestingDepthParentheses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,20 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.ReplaceAllDigitswithCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortingtheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SortingtheSentence.SortingtheSentence" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.SortingtheSentence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumNestingDepthParentheses" />
         <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.ReplaceAllDigitswithCharacters" />
         <item itemvalue="Application.CounttheNumberofConsistentStrings" />
         <item itemvalue="Application.SumofAllOddLengthSubarrays" />
-        <item itemvalue="Application.SortingtheSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +440,7 @@
       <workItem from="1623511791817" duration="544000" />
       <workItem from="1623620000199" duration="2737000" />
       <workItem from="1623680247791" duration="7832000" />
-      <workItem from="1623767635566" duration="1864000" />
+      <workItem from="1623767635566" duration="3188000" />
     </task>
     <servers />
   </component>
@@ -753,6 +761,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ReplaceAllDigitswithCharacters/ReplaceAllDigitswithCharacters.java</url>
           <line>25</line>
           <option name="timeStamp" value="877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/TruncateSentence/TruncateSentence.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="880" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
