@@ -69,23 +69,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounttheNumberofConsistentStrings">
+  <component name="RunManager" selected="Application.ReplaceAllDigitswithCharacters">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfSentencePangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfSentencePangram.CheckIfSentencePangram" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfSentencePangram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +118,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReplaceAllDigitswithCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReplaceAllDigitswithCharacters.ReplaceAllDigitswithCharacters" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ReplaceAllDigitswithCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortingtheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.SortingtheSentence.SortingtheSentence" />
       <module name="Java" />
@@ -166,13 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceAllDigitswithCharacters" />
         <item itemvalue="Application.CounttheNumberofConsistentStrings" />
         <item itemvalue="Application.SumofAllOddLengthSubarrays" />
         <item itemvalue="Application.SortingtheSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
-        <item itemvalue="Application.CheckIfSentencePangram" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +431,8 @@
       <workItem from="1623334461845" duration="6525000" />
       <workItem from="1623511791817" duration="544000" />
       <workItem from="1623620000199" duration="2737000" />
-      <workItem from="1623680247791" duration="7681000" />
+      <workItem from="1623680247791" duration="7832000" />
+      <workItem from="1623767635566" duration="1092000" />
     </task>
     <servers />
   </component>
@@ -745,6 +748,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/SortingtheSentence/SortingtheSentence.java</url>
           <line>17</line>
           <option name="timeStamp" value="876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReplaceAllDigitswithCharacters/ReplaceAllDigitswithCharacters.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="877" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
