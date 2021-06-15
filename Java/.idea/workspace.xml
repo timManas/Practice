@@ -69,23 +69,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceAllDigitswithCharacters">
+  <component name="RunManager" selected="Application.TruncateSentence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfTwoStringArraysareEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfTwoStringArraysareEquivalent.CheckIfTwoStringArraysareEquivalent" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfTwoStringArraysareEquivalent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.TruncateSentence.TruncateSentence" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.TruncateSentence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.ReplaceAllDigitswithCharacters" />
         <item itemvalue="Application.CounttheNumberofConsistentStrings" />
         <item itemvalue="Application.SumofAllOddLengthSubarrays" />
         <item itemvalue="Application.SortingtheSentence" />
-        <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +432,7 @@
       <workItem from="1623511791817" duration="544000" />
       <workItem from="1623620000199" duration="2737000" />
       <workItem from="1623680247791" duration="7832000" />
-      <workItem from="1623767635566" duration="1092000" />
+      <workItem from="1623767635566" duration="1864000" />
     </task>
     <servers />
   </component>
