@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumNestingDepthParentheses">
+  <component name="RunManager" selected="Application.DetermineifStringHalvesAreAlike">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CounttheNumberofConsistentStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetermineifStringHalvesAreAlike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.DetermineifStringHalvesAreAlike.DetermineifStringHalvesAreAlike" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.DetermineifStringHalvesAreAlike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,20 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumofAllOddLengthSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SumofAllOddLengthSubarrays.SumofAllOddLengthSubarrays" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SumofAllOddLengthSubarrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.TruncateSentence.TruncateSentence" />
       <module name="Java" />
@@ -174,15 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetermineifStringHalvesAreAlike" />
         <item itemvalue="Application.MaximumNestingDepthParentheses" />
         <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.ReplaceAllDigitswithCharacters" />
         <item itemvalue="Application.CounttheNumberofConsistentStrings" />
-        <item itemvalue="Application.SumofAllOddLengthSubarrays" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +438,9 @@
       <workItem from="1623511791817" duration="544000" />
       <workItem from="1623620000199" duration="2737000" />
       <workItem from="1623680247791" duration="7832000" />
-      <workItem from="1623767635566" duration="3188000" />
+      <workItem from="1623767635566" duration="4203000" />
+      <workItem from="1623802887011" duration="271000" />
+      <workItem from="1623850622653" duration="2204000" />
     </task>
     <servers />
   </component>
@@ -766,6 +766,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/TruncateSentence/TruncateSentence.java</url>
           <line>28</line>
           <option name="timeStamp" value="880" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/DetermineifStringHalvesAreAlike/DetermineifStringHalvesAreAlike.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="881" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
