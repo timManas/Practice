@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindHighestAltitude">
+  <component name="RunManager" selected="Application.NumRectanglesFormLargestSquare">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -140,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceAllDigitswithCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReplaceAllDigitswithCharacters.ReplaceAllDigitswithCharacters" />
+    <configuration name="NumRectanglesFormLargestSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.NumRectanglesFormLargestSquare.NumRectanglesFormLargestSquare" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReplaceAllDigitswithCharacters.*" />
+          <option name="PATTERN" value="Lists.NumRectanglesFormLargestSquare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumRectanglesFormLargestSquare" />
         <item itemvalue="Application.FindHighestAltitude" />
         <item itemvalue="Application.DetermineifStringHalvesAreAlike" />
         <item itemvalue="Application.MaximumNestingDepthParentheses" />
         <item itemvalue="Application.TruncateSentence" />
-        <item itemvalue="Application.ReplaceAllDigitswithCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +443,7 @@
       <workItem from="1623850622653" duration="2775000" />
       <workItem from="1623864275708" duration="132000" />
       <workItem from="1623892204636" duration="159000" />
-      <workItem from="1623963357364" duration="1462000" />
+      <workItem from="1623963357364" duration="4240000" />
     </task>
     <servers />
   </component>
@@ -774,6 +774,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/DetermineifStringHalvesAreAlike/DetermineifStringHalvesAreAlike.java</url>
           <line>45</line>
           <option name="timeStamp" value="881" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/NumRectanglesFormLargestSquare/NumRectanglesFormLargestSquare.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="885" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
