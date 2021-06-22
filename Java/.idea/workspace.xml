@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumRectanglesFormLargestSquare">
+  <component name="RunManager" selected="Application.MatrixDiagonalSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNestingDepthParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MaximumNestingDepthParentheses.MaximumNestingDepthParentheses" />
+    <configuration name="MatrixDiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MatrixDiagonalSum.MatrixDiagonalSum" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.MaximumNestingDepthParentheses.*" />
+          <option name="PATTERN" value="Math.MatrixDiagonalSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.TruncateSentence.TruncateSentence" />
+    <configuration name="RemoveDuplicateLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RemoveDuplicateLetters.RemoveDuplicateLetters" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.TruncateSentence.*" />
+          <option name="PATTERN" value="Strings.RemoveDuplicateLetters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixDiagonalSum" />
+        <item itemvalue="Application.RemoveDuplicateLetters" />
         <item itemvalue="Application.NumRectanglesFormLargestSquare" />
         <item itemvalue="Application.FindHighestAltitude" />
         <item itemvalue="Application.DetermineifStringHalvesAreAlike" />
-        <item itemvalue="Application.MaximumNestingDepthParentheses" />
-        <item itemvalue="Application.TruncateSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +443,9 @@
       <workItem from="1623850622653" duration="2775000" />
       <workItem from="1623864275708" duration="132000" />
       <workItem from="1623892204636" duration="159000" />
-      <workItem from="1623963357364" duration="4240000" />
+      <workItem from="1623963357364" duration="6072000" />
+      <workItem from="1624117095920" duration="447000" />
+      <workItem from="1624326503806" duration="1430000" />
     </task>
     <servers />
   </component>
@@ -777,8 +779,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/NumRectanglesFormLargestSquare/NumRectanglesFormLargestSquare.java</url>
-          <line>26</line>
+          <line>25</line>
           <option name="timeStamp" value="885" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixDiagonalSum/MatrixDiagonalSum.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="888" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
