@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DetermineColorOfChessBoard">
+  <component name="RunManager" selected="Application.SumDigitsinBaseK">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -140,20 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumRectanglesFormLargestSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.NumRectanglesFormLargestSquare.NumRectanglesFormLargestSquare" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.NumRectanglesFormLargestSquare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveDuplicateLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.RemoveDuplicateLetters.RemoveDuplicateLetters" />
       <module name="Java" />
@@ -168,19 +154,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumDigitsinBaseK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.SumDigitsinBaseK.SumDigitsinBaseK" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.SumDigitsinBaseK.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumDigitsinBaseK" />
         <item itemvalue="Application.DetermineColorOfChessBoard" />
         <item itemvalue="Application.MinOperationsMakeArrayIncreasing" />
         <item itemvalue="Application.MatrixDiagonalSum" />
         <item itemvalue="Application.RemoveDuplicateLetters" />
-        <item itemvalue="Application.NumRectanglesFormLargestSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +449,8 @@
       <workItem from="1624117095920" duration="447000" />
       <workItem from="1624326503806" duration="1591000" />
       <workItem from="1624397615496" duration="1764000" />
-      <workItem from="1624405750838" duration="585000" />
+      <workItem from="1624405750838" duration="1340000" />
+      <workItem from="1624453922080" duration="999000" />
     </task>
     <servers />
   </component>
@@ -788,6 +791,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/MatrixDiagonalSum/MatrixDiagonalSum.java</url>
           <line>39</line>
           <option name="timeStamp" value="888" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SumDigitsinBaseK/SumDigitsinBaseK.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="889" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
