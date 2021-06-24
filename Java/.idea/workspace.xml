@@ -77,23 +77,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeStringAlternatively">
+  <component name="RunManager" selected="Application.MovingAveragefromDataStream">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DetermineColorOfChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.DetermineColorOfChessBoard.DetermineColorOfChessBoard" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.DetermineColorOfChessBoard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +119,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovingAveragefromDataStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MovingAveragefromDataStream.MovingAveragefromDataStream" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.MovingAveragefromDataStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovingAveragefromDataStream" />
         <item itemvalue="Application.MergeStringAlternatively" />
         <item itemvalue="Application.SumOfUniqueElements" />
         <item itemvalue="Application.FinalPricesWithSpecialDiscount" />
         <item itemvalue="Application.SumDigitsinBaseK" />
-        <item itemvalue="Application.DetermineColorOfChessBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +449,9 @@
       <workItem from="1624397615496" duration="1764000" />
       <workItem from="1624405750838" duration="1340000" />
       <workItem from="1624453922080" duration="2661000" />
-      <workItem from="1624493976145" duration="3030000" />
+      <workItem from="1624493976145" duration="3587000" />
+      <workItem from="1624545593955" duration="106000" />
+      <workItem from="1624552601823" duration="1710000" />
     </task>
     <servers />
   </component>
@@ -800,6 +802,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SumOfUniqueElements/SumOfUniqueElements.java</url>
           <line>38</line>
           <option name="timeStamp" value="893" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MovingAveragefromDataStream/MovingAverage.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="897" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MovingAveragefromDataStream/MovingAverage.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="898" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
