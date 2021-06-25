@@ -77,7 +77,7 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteNNodesAfterMNodesLinkedList">
+  <component name="RunManager" selected="Application.FindCentreOfStarGraph">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LinkedList.DeleteNNodesAfterMNodesLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindCentreOfStarGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.FindCentreOfStarGraph.FindCentreOfStarGraph" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.FindCentreOfStarGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,33 +168,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfUniqueElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SumOfUniqueElements.SumOfUniqueElements" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SumOfUniqueElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindCentreOfStarGraph" />
         <item itemvalue="Application.DeleteNNodesAfterMNodesLinkedList" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.MovingAveragefromDataStream" />
         <item itemvalue="Application.MergeStringAlternatively" />
-        <item itemvalue="Application.SumOfUniqueElements" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +453,8 @@
       <workItem from="1624453922080" duration="2661000" />
       <workItem from="1624493976145" duration="3587000" />
       <workItem from="1624545593955" duration="106000" />
-      <workItem from="1624552601823" duration="10385000" />
+      <workItem from="1624552601823" duration="10871000" />
+      <workItem from="1624626220537" duration="920000" />
     </task>
     <servers />
   </component>
@@ -822,6 +825,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/DeleteNNodesAfterMNodesLinkedList/DeleteNNodesAfterMNodesLinkedList.java</url>
           <line>76</line>
           <option name="timeStamp" value="903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graphs/FindCentreOfStarGraph/FindCentreOfStarGraph.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="904" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
