@@ -65,32 +65,32 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Trees.SerializeAndDeserializeBinaryTree" />
-      <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
-      <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
-      <recent name="Trees.IncreasingOrderSearchTree" />
-      <recent name="Trees.CloneNaryTree" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
+      <recent name="Trees.SerializeAndDeserializeBinaryTree" />
+      <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
+      <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
+      <recent name="Trees.IncreasingOrderSearchTree" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.HammingDistance">
+  <component name="RunManager" selected="Application.DeleteNNodesAfterMNodesLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalPricesWithSpecialDiscount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FinalPricesWithSpecialDiscount.FinalPricesWithSpecialDiscount" />
+    <configuration name="DeleteNNodesAfterMNodesLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DeleteNNodesAfterMNodesLinkedList.DeleteNNodesAfterMNodesLinkedList" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.FinalPricesWithSpecialDiscount.*" />
+          <option name="PATTERN" value="LinkedList.DeleteNNodesAfterMNodesLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNNodesAfterMNodesLinkedList" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.MovingAveragefromDataStream" />
         <item itemvalue="Application.MergeStringAlternatively" />
         <item itemvalue="Application.SumOfUniqueElements" />
-        <item itemvalue="Application.FinalPricesWithSpecialDiscount" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +451,7 @@
       <workItem from="1624453922080" duration="2661000" />
       <workItem from="1624493976145" duration="3587000" />
       <workItem from="1624545593955" duration="106000" />
-      <workItem from="1624552601823" duration="2859000" />
+      <workItem from="1624552601823" duration="10385000" />
     </task>
     <servers />
   </component>
@@ -818,6 +818,11 @@
           <line>5</line>
           <option name="timeStamp" value="899" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/DeleteNNodesAfterMNodesLinkedList/DeleteNNodesAfterMNodesLinkedList.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -829,6 +834,7 @@
         <watch expression="sentence" language="JAVA" />
         <watch expression="word.substring(0, word.length() - 1)" language="JAVA" />
         <watch expression="word.charAt(word.length() - 1)" language="JAVA" />
+        <watch expression="lastNodeBeforeDeletion" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
