@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MaxUnitOnTruck/MaxUnitOnTruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MaxUnitOnTruck/MaxUnitOnTruck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -453,7 +454,7 @@
       <workItem from="1624545593955" duration="106000" />
       <workItem from="1624552601823" duration="10871000" />
       <workItem from="1624626220537" duration="2903000" />
-      <workItem from="1624720244322" duration="3676000" />
+      <workItem from="1624720244322" duration="4669000" />
     </task>
     <servers />
   </component>
@@ -837,7 +838,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxUnitOnTruck/MaxUnitOnTruck.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="916" />
         </line-breakpoint>
       </breakpoints>
