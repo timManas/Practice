@@ -77,23 +77,9 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MakeTwoArraysEqualByReversingsSubArray">
+  <component name="RunManager" selected="Application.PeakIndexInMountainArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindCentreOfStarGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.FindCentreOfStarGraph.FindCentreOfStarGraph" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.FindCentreOfStarGraph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PeakIndexInMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.PeakIndexInMountainArray.PeakIndexInMountainArray" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.PeakIndexInMountainArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PeakIndexInMountainArray" />
         <item itemvalue="Application.MakeTwoArraysEqualByReversingsSubArray" />
         <item itemvalue="Application.MaxUnitOnTruck" />
         <item itemvalue="Application.HeightChecker" />
         <item itemvalue="Application.LoggerRateLimiter" />
-        <item itemvalue="Application.FindCentreOfStarGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +453,7 @@
       <workItem from="1624545593955" duration="106000" />
       <workItem from="1624552601823" duration="10871000" />
       <workItem from="1624626220537" duration="2903000" />
-      <workItem from="1624720244322" duration="5420000" />
+      <workItem from="1624720244322" duration="6580000" />
     </task>
     <servers />
   </component>
