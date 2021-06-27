@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +77,20 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumCostMoveChipsSamePosition">
+  <component name="RunManager" selected="Application.DeleteColumnsMakeSorted">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.HeightChecker.HeightChecker" />
+    <configuration name="DeleteColumnsMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.DeleteColumnsMakeSorted.DeleteColumnsMakeSorted" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.HeightChecker.*" />
+          <option name="PATTERN" value="Lists.DeleteColumnsMakeSorted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,15 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteColumnsMakeSorted" />
         <item itemvalue="Application.MinimumCostMoveChipsSamePosition" />
         <item itemvalue="Application.PeakIndexInMountainArray" />
         <item itemvalue="Application.MakeTwoArraysEqualByReversingsSubArray" />
         <item itemvalue="Application.MaxUnitOnTruck" />
-        <item itemvalue="Application.HeightChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +454,8 @@
       <workItem from="1624552601823" duration="10871000" />
       <workItem from="1624626220537" duration="2903000" />
       <workItem from="1624720244322" duration="7152000" />
-      <workItem from="1624753660625" duration="5085000" />
+      <workItem from="1624753660625" duration="5778000" />
+      <workItem from="1624808891762" duration="1283000" />
     </task>
     <servers />
   </component>
@@ -842,6 +841,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxUnitOnTruck/MaxUnitOnTruck.java</url>
           <line>50</line>
           <option name="timeStamp" value="916" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/DeleteColumnsMakeSorted/DeleteColumnsMakeSorted.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="917" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
