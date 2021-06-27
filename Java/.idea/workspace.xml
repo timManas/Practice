@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +456,7 @@
       <workItem from="1624552601823" duration="10871000" />
       <workItem from="1624626220537" duration="2903000" />
       <workItem from="1624720244322" duration="7152000" />
-      <workItem from="1624753660625" duration="4475000" />
+      <workItem from="1624753660625" duration="5085000" />
     </task>
     <servers />
   </component>
@@ -842,16 +842,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxUnitOnTruck/MaxUnitOnTruck.java</url>
           <line>50</line>
           <option name="timeStamp" value="916" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="917" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinimumCostMoveChipsSamePosition/MinimumCostMoveChipsSamePosition.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="923" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

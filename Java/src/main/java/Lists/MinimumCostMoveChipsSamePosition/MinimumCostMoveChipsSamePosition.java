@@ -13,6 +13,26 @@ public class MinimumCostMoveChipsSamePosition {
 
     public static int minCostToMoveChips(int[] position) {
 
+
+//        // Solution 1 - Out of memory exception but it works ONLY for small size inputs
+//       int solution = solution1(position);
+
+        // Solution2 - Count on odds and even #.
+        // return the min value of odd and even
+        int odd = 0;
+        int even = 0;
+        for (int i : position) {
+            if (i % 2 == 0)
+                even++;
+            else
+                odd++;
+        }
+
+        return Math.min(odd, even);
+    }
+
+    private static int solution1(int[] position) {
+
         int minCost = 0;
 
         if (position.length <= 1)
@@ -55,3 +75,23 @@ public class MinimumCostMoveChipsSamePosition {
         return minCost;
     }
 }
+
+
+/**
+ Notes
+ - Tricky little bastard
+
+ Original solution
+ Note for this solution - Only works for small arrays
+ 1. Create an array and populate with 0's
+ 2. Populate array with input array values by tallying all similar elements
+ 3. Traverse through array and move over +2 (since cost is 0) until we reach the end
+ 4. Fetch the min of the last and second last
+
+ Trick Solution
+ - Values dont matter, only matters if its odd or even
+ - Create counter for odd and even #
+ - Fetch min of odd vs even
+
+
+ */
