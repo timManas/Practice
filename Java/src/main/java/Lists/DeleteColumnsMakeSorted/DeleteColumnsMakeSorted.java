@@ -28,7 +28,6 @@ public class DeleteColumnsMakeSorted {
             }
         }
 
-
         return minDeletetionSize;
     }
 }

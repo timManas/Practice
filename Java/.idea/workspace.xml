@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/DeleteColumnsMakeSorted/DeleteColumnsMakeSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/DeleteColumnsMakeSorted/DeleteColumnsMakeSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteColumnsMakeSorted">
+  <component name="RunManager" selected="Application.SortIntegersByNum1Bits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -105,20 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MakeTwoArraysEqualByReversingsSubArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxUnitOnTruck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MaxUnitOnTruck.MaxUnitOnTruck" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MaxUnitOnTruck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +155,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortIntegersByNum1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SortIntegersByNum1Bits.SortIntegersByNum1Bits" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SortIntegersByNum1Bits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortIntegersByNum1Bits" />
         <item itemvalue="Application.DeleteColumnsMakeSorted" />
         <item itemvalue="Application.MinimumCostMoveChipsSamePosition" />
         <item itemvalue="Application.PeakIndexInMountainArray" />
         <item itemvalue="Application.MakeTwoArraysEqualByReversingsSubArray" />
-        <item itemvalue="Application.MaxUnitOnTruck" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +458,8 @@
       <workItem from="1624626220537" duration="2903000" />
       <workItem from="1624720244322" duration="7152000" />
       <workItem from="1624753660625" duration="5778000" />
-      <workItem from="1624808891762" duration="1283000" />
+      <workItem from="1624808891762" duration="1586000" />
+      <workItem from="1624903737068" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -846,6 +850,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DeleteColumnsMakeSorted/DeleteColumnsMakeSorted.java</url>
           <line>19</line>
           <option name="timeStamp" value="917" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortIntegersByNum1Bits/SortIntegersByNum1Bits.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="918" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortIntegersByNum1Bits/SortIntegersByNum1Bits.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="922" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
