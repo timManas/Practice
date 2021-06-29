@@ -77,7 +77,7 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanMakeArithemticProgressionFromSequence">
+  <component name="RunManager" selected="Application.SubstringsSizeThreeDistinctChar">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -126,20 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumCostMoveChipsSamePosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinimumCostMoveChipsSamePosition.MinimumCostMoveChipsSamePosition" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MinimumCostMoveChipsSamePosition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -168,19 +154,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubstringsSizeThreeDistinctChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SubstringsSizeThreeDistinctChar.SubstringsSizeThreeDistinctChar" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SubstringsSizeThreeDistinctChar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubstringsSizeThreeDistinctChar" />
         <item itemvalue="Application.CanMakeArithemticProgressionFromSequence" />
         <item itemvalue="Application.BuildArrayWithStackOperations" />
         <item itemvalue="Application.SortIntegersByNum1Bits" />
         <item itemvalue="Application.DeleteColumnsMakeSorted" />
-        <item itemvalue="Application.MinimumCostMoveChipsSamePosition" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +459,8 @@
       <workItem from="1624753660625" duration="5778000" />
       <workItem from="1624808891762" duration="1586000" />
       <workItem from="1624903737068" duration="1364000" />
-      <workItem from="1624917296731" duration="1916000" />
+      <workItem from="1624917296731" duration="2451000" />
+      <workItem from="1625006050174" duration="1646000" />
     </task>
     <servers />
   </component>
@@ -869,6 +872,16 @@
           <line>17</line>
           <option name="timeStamp" value="927" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SubstringsSizeThreeDistinctChar/SubstringsSizeThreeDistinctChar.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="928" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SubstringsSizeThreeDistinctChar/SubstringsSizeThreeDistinctChar.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="929" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -877,11 +890,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="map.get(keyList.size()-1) &lt; map.get(keyList.size()-2)" language="JAVA" />
-        <watch expression="keyList.size()" language="JAVA" />
-        <watch expression="keyList.size()-2" language="JAVA" />
-        <watch expression="keyList.size()" language="JAVA" />
-        <watch expression="keyList.size()-1" language="JAVA" />
+        <watch expression="word.substring(i, i+3)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
