@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BalancedBinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BalancedBinaryTree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +71,30 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BinaryTreeInOrderTraversal" />
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
       <recent name="Trees.SerializeAndDeserializeBinaryTree" />
       <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
-      <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortArrayByIncreasingFreq">
+  <component name="RunManager" selected="Application.BinaryTreeInOrderTraversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeInOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInOrderTraversal.BinaryTreeInOrderTraversal" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.BinaryTreeInOrderTraversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,20 +148,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.SortArrayByIncreasingFreq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortIntegersByNum1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SortIntegersByNum1Bits.SortIntegersByNum1Bits" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SortIntegersByNum1Bits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeInOrderTraversal" />
         <item itemvalue="Application.SortArrayByIncreasingFreq" />
         <item itemvalue="Application.SubstringsSizeThreeDistinctChar" />
         <item itemvalue="Application.CanMakeArithemticProgressionFromSequence" />
         <item itemvalue="Application.BuildArrayWithStackOperations" />
-        <item itemvalue="Application.SortIntegersByNum1Bits" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +461,10 @@
       <workItem from="1624808891762" duration="1586000" />
       <workItem from="1624903737068" duration="1364000" />
       <workItem from="1624917296731" duration="2451000" />
-      <workItem from="1625006050174" duration="4824000" />
+      <workItem from="1625006050174" duration="5243000" />
+      <workItem from="1625014430171" duration="94000" />
+      <workItem from="1625095212596" duration="197000" />
+      <workItem from="1625095885195" duration="310000" />
     </task>
     <servers />
   </component>
@@ -884,22 +888,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
-          <line>72</line>
+          <line>64</line>
           <option name="timeStamp" value="930" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
-          <line>49</line>
+          <line>47</line>
           <option name="timeStamp" value="933" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="934" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
-          <line>62</line>
+          <line>56</line>
           <option name="timeStamp" value="935" />
         </line-breakpoint>
       </breakpoints>
