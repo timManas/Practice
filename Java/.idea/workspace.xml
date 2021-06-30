@@ -77,7 +77,7 @@
       <recent name="Trees.IncreasingOrderSearchTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubstringsSizeThreeDistinctChar">
+  <component name="RunManager" selected="Application.SortArrayByIncreasingFreq">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,20 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteColumnsMakeSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.DeleteColumnsMakeSorted.DeleteColumnsMakeSorted" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.DeleteColumnsMakeSorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -133,6 +119,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortArrayByIncreasingFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SortArrayByIncreasingFreq.SortArrayByIncreasingFreq" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SortArrayByIncreasingFreq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortArrayByIncreasingFreq" />
         <item itemvalue="Application.SubstringsSizeThreeDistinctChar" />
         <item itemvalue="Application.CanMakeArithemticProgressionFromSequence" />
         <item itemvalue="Application.BuildArrayWithStackOperations" />
         <item itemvalue="Application.SortIntegersByNum1Bits" />
-        <item itemvalue="Application.DeleteColumnsMakeSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +460,7 @@
       <workItem from="1624808891762" duration="1586000" />
       <workItem from="1624903737068" duration="1364000" />
       <workItem from="1624917296731" duration="2451000" />
-      <workItem from="1625006050174" duration="1646000" />
+      <workItem from="1625006050174" duration="4824000" />
     </task>
     <servers />
   </component>
@@ -874,13 +874,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SubstringsSizeThreeDistinctChar/SubstringsSizeThreeDistinctChar.java</url>
-          <line>43</line>
+          <line>46</line>
           <option name="timeStamp" value="928" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SubstringsSizeThreeDistinctChar/SubstringsSizeThreeDistinctChar.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="929" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="930" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="933" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="934" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortArrayByIncreasingFreq/SortArrayByIncreasingFreq.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="935" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
