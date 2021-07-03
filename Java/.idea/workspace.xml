@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/FindNearestPointSameXYCoordinate/FindNearestPointSameXYCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/FindNearestPointSameXYCoordinate/FindNearestPointSameXYCoordinate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindNearestPointSameXYCoordinate">
+  <component name="RunManager" selected="Application.MinValueToGetPositiveStepByStep">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,20 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CanMakeArithemticProgressionFromSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CanMakeArithemticProgressionFromSequence.CanMakeArithemticProgressionFromSequence" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.CanMakeArithemticProgressionFromSequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindNearestPointSameXYCoordinate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.FindNearestPointSameXYCoordinate.FindNearestPointSameXYCoordinate" />
       <module name="Java" />
@@ -120,6 +105,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.FindNearestPointSameXYCoordinate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinValueToGetPositiveStepByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MinValueToGetPositiveStepByStep.MinValueToGetPositiveStepByStep" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.MinValueToGetPositiveStepByStep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinValueToGetPositiveStepByStep" />
         <item itemvalue="Application.FindNearestPointSameXYCoordinate" />
         <item itemvalue="Application.BinaryTreeInOrderTraversal" />
         <item itemvalue="Application.SortArrayByIncreasingFreq" />
         <item itemvalue="Application.SubstringsSizeThreeDistinctChar" />
-        <item itemvalue="Application.CanMakeArithemticProgressionFromSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +464,7 @@
       <workItem from="1625095885195" duration="432000" />
       <workItem from="1625178125965" duration="658000" />
       <workItem from="1625231076306" duration="103000" />
-      <workItem from="1625275419264" duration="1872000" />
+      <workItem from="1625275419264" duration="3726000" />
     </task>
     <servers />
   </component>
@@ -906,6 +905,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/FindNearestPointSameXYCoordinate/FindNearestPointSameXYCoordinate.java</url>
           <line>52</line>
           <option name="timeStamp" value="937" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/MinValueToGetPositiveStepByStep/MinValueToGetPositiveStepByStep.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/MinValueToGetPositiveStepByStep/MinValueToGetPositiveStepByStep.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="940" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
