@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinValueToGetPositiveStepByStep">
+  <component name="RunManager" selected="Application.NumberComplement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -140,13 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArrayByIncreasingFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SortArrayByIncreasingFreq.SortArrayByIncreasingFreq" />
+    <configuration name="NumberComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.NumberComplement.NumberComplement" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.SortArrayByIncreasingFreq.*" />
+          <option name="PATTERN" value="Math.NumberComplement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringsSizeThreeDistinctChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SubstringsSizeThreeDistinctChar.SubstringsSizeThreeDistinctChar" />
+    <configuration name="SortArrayByIncreasingFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SortArrayByIncreasingFreq.SortArrayByIncreasingFreq" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.SubstringsSizeThreeDistinctChar.*" />
+          <option name="PATTERN" value="Lists.SortArrayByIncreasingFreq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberComplement" />
         <item itemvalue="Application.MinValueToGetPositiveStepByStep" />
         <item itemvalue="Application.FindNearestPointSameXYCoordinate" />
         <item itemvalue="Application.BinaryTreeInOrderTraversal" />
         <item itemvalue="Application.SortArrayByIncreasingFreq" />
-        <item itemvalue="Application.SubstringsSizeThreeDistinctChar" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +464,10 @@
       <workItem from="1625095885195" duration="432000" />
       <workItem from="1625178125965" duration="658000" />
       <workItem from="1625231076306" duration="103000" />
-      <workItem from="1625275419264" duration="3726000" />
+      <workItem from="1625275419264" duration="4603000" />
+      <workItem from="1625324894108" duration="252000" />
+      <workItem from="1625362093669" duration="160000" />
+      <workItem from="1625417154989" duration="546000" />
     </task>
     <servers />
   </component>
@@ -908,12 +911,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/MinValueToGetPositiveStepByStep/MinValueToGetPositiveStepByStep.java</url>
-          <line>19</line>
+          <line>25</line>
           <option name="timeStamp" value="939" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/MinValueToGetPositiveStepByStep/MinValueToGetPositiveStepByStep.java</url>
-          <line>27</line>
+          <line>33</line>
           <option name="timeStamp" value="940" />
         </line-breakpoint>
       </breakpoints>
