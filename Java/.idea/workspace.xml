@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,20 +77,20 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumberSetBitsBinaryRepr">
+  <component name="RunManager" selected="Application.CountLargestGroup">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeInOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeInOrderTraversal.BinaryTreeInOrderTraversal" />
+    <configuration name="CountLargestGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CountLargestGroup.CountLargestGroup" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.BinaryTreeInOrderTraversal.*" />
+          <option name="PATTERN" value="Math.CountLargestGroup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,15 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountLargestGroup" />
         <item itemvalue="Application.PrimeNumberSetBitsBinaryRepr" />
         <item itemvalue="Application.NumberComplement" />
         <item itemvalue="Application.MinValueToGetPositiveStepByStep" />
         <item itemvalue="Application.FindNearestPointSameXYCoordinate" />
-        <item itemvalue="Application.BinaryTreeInOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +468,8 @@
       <workItem from="1625324894108" duration="252000" />
       <workItem from="1625362093669" duration="160000" />
       <workItem from="1625417154989" duration="1352000" />
-      <workItem from="1625446149650" duration="1858000" />
+      <workItem from="1625446149650" duration="2614000" />
+      <workItem from="1625490490852" duration="1326000" />
     </task>
     <servers />
   </component>
@@ -930,8 +928,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/PrimeNumberSetBitsBinaryRepr/PrimeNumberSetBitsBinaryRepr.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="951" />
+          <line>26</line>
+          <option name="timeStamp" value="952" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
