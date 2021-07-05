@@ -1,5 +1,7 @@
 package Math.NumberComplement;
 
+import com.sun.tools.javac.util.StringUtils;
+
 public class NumberComplement {
 
     public static void main (String [] args) {
@@ -22,7 +24,6 @@ public class NumberComplement {
 
         // Step3 - Convert binary to Int
         int complement = Integer.parseInt(sb.toString(), 2);
-
 
         return complement;
     }
