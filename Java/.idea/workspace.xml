@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountLargestGroup">
+  <component name="RunManager" selected="Application.ReformatPhoneNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,20 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.CountLargestGroup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindNearestPointSameXYCoordinate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.FindNearestPointSameXYCoordinate.FindNearestPointSameXYCoordinate" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.FindNearestPointSameXYCoordinate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,6 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReformatPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReformatPhoneNumber.ReformatPhoneNumber" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ReformatPhoneNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReformatPhoneNumber" />
         <item itemvalue="Application.CountLargestGroup" />
         <item itemvalue="Application.PrimeNumberSetBitsBinaryRepr" />
         <item itemvalue="Application.NumberComplement" />
         <item itemvalue="Application.MinValueToGetPositiveStepByStep" />
-        <item itemvalue="Application.FindNearestPointSameXYCoordinate" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +469,9 @@
       <workItem from="1625362093669" duration="160000" />
       <workItem from="1625417154989" duration="1352000" />
       <workItem from="1625446149650" duration="2614000" />
-      <workItem from="1625490490852" duration="1326000" />
+      <workItem from="1625490490852" duration="2175000" />
+      <workItem from="1625539047374" duration="461000" />
+      <workItem from="1625576454764" duration="4301000" />
     </task>
     <servers />
   </component>
@@ -931,6 +933,16 @@
           <line>26</line>
           <option name="timeStamp" value="952" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="958" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -939,8 +951,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="word.substring(i, i+3)" language="JAVA" />
-        <watch expression="Integer.parseInt(sb.toString())" language="JAVA" />
+        <watch expression="number.replace(&quot; &quot;, &quot;&quot;)" language="JAVA" />
+        <watch expression="number.replace(&quot;_&quot;, &quot;&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
