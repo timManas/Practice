@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +472,7 @@
       <workItem from="1625446149650" duration="2614000" />
       <workItem from="1625490490852" duration="2175000" />
       <workItem from="1625539047374" duration="461000" />
-      <workItem from="1625576454764" duration="4301000" />
+      <workItem from="1625576454764" duration="6826000" />
     </task>
     <servers />
   </component>
@@ -935,13 +936,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
-          <line>12</line>
+          <line>46</line>
           <option name="timeStamp" value="953" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
-          <line>23</line>
+          <line>56</line>
           <option name="timeStamp" value="958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="961" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReformatPhoneNumber/ReformatPhoneNumber.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="962" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -953,6 +964,8 @@
       <configuration name="Application">
         <watch expression="number.replace(&quot; &quot;, &quot;&quot;)" language="JAVA" />
         <watch expression="number.replace(&quot;_&quot;, &quot;&quot;)" language="JAVA" />
+        <watch expression="unFormattedNum.charAt(i+2)" language="JAVA" />
+        <watch expression="unFormattedNum.charAt(i+4)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
