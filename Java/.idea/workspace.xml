@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SignOfProductOfArray">
+  <component name="RunManager" selected="Application.MeanOfArrayAfterRemovingElements">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.CountLargestGroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeanOfArrayAfterRemovingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MeanOfArrayAfterRemovingElements.MeanOfArrayAfterRemovingElements" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MeanOfArrayAfterRemovingElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,20 +133,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.OccurencesAfterBigram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumberSetBitsBinaryRepr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PrimeNumberSetBitsBinaryRepr.PrimeNumberSetBitsBinaryRepr" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.PrimeNumberSetBitsBinaryRepr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
         <item itemvalue="Application.SignOfProductOfArray" />
         <item itemvalue="Application.OccurencesAfterBigram" />
         <item itemvalue="Application.ReformatPhoneNumber" />
         <item itemvalue="Application.CountLargestGroup" />
-        <item itemvalue="Application.PrimeNumberSetBitsBinaryRepr" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +474,7 @@
       <workItem from="1625490490852" duration="2175000" />
       <workItem from="1625539047374" duration="461000" />
       <workItem from="1625576454764" duration="8581000" />
-      <workItem from="1625699693777" duration="330000" />
+      <workItem from="1625699693777" duration="1879000" />
     </task>
     <servers />
   </component>
@@ -950,6 +950,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/OccurencesAfterBigram/OccurencesAfterBigram.java</url>
           <line>31</line>
           <option name="timeStamp" value="963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MeanOfArrayAfterRemovingElements/MeanOfArrayAfterRemovingElements.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="964" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
