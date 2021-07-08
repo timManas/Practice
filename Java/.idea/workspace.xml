@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -473,7 +474,7 @@
       <workItem from="1625539047374" duration="461000" />
       <workItem from="1625576454764" duration="8581000" />
       <workItem from="1625699693777" duration="4092000" />
-      <workItem from="1625782226906" duration="1883000" />
+      <workItem from="1625782226906" duration="2345000" />
     </task>
     <servers />
   </component>
@@ -962,8 +963,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java</url>
-          <line>45</line>
+          <line>52</line>
           <option name="timeStamp" value="966" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="969" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="970" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="972" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
