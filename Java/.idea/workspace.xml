@@ -77,23 +77,9 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MeanOfArrayAfterRemovingElements">
+  <component name="RunManager" selected="Application.UncommonWordsFromTwoSentences">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountLargestGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CountLargestGroup.CountLargestGroup" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.CountLargestGroup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,6 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UncommonWordsFromTwoSentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.UncommonWordsFromTwoSentences.UncommonWordsFromTwoSentences" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.UncommonWordsFromTwoSentences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UncommonWordsFromTwoSentences" />
         <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
         <item itemvalue="Application.SignOfProductOfArray" />
         <item itemvalue="Application.OccurencesAfterBigram" />
         <item itemvalue="Application.ReformatPhoneNumber" />
-        <item itemvalue="Application.CountLargestGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +474,7 @@
       <workItem from="1625490490852" duration="2175000" />
       <workItem from="1625539047374" duration="461000" />
       <workItem from="1625576454764" duration="8581000" />
-      <workItem from="1625699693777" duration="1879000" />
+      <workItem from="1625699693777" duration="3580000" />
     </task>
     <servers />
   </component>
@@ -953,8 +953,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MeanOfArrayAfterRemovingElements/MeanOfArrayAfterRemovingElements.java</url>
-          <line>31</line>
+          <line>29</line>
           <option name="timeStamp" value="964" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/UncommonWordsFromTwoSentences/UncommonWordsFromTwoSentences.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="965" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
