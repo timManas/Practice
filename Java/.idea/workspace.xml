@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxAscSubArraySum">
+  <component name="RunManager" selected="Application.SpecialPositionsInBinaryMatrix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -127,20 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurencesAfterBigram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.OccurencesAfterBigram.OccurencesAfterBigram" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.OccurencesAfterBigram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SignOfProductOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.SignOfProductOfArray.SignOfProductOfArray" />
       <module name="Java" />
@@ -148,6 +133,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.SignOfProductOfArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialPositionsInBinaryMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.SpecialPositionsInBinaryMatrix.SpecialPositionsInBinaryMatrix" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.SpecialPositionsInBinaryMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,17 +170,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpecialPositionsInBinaryMatrix" />
         <item itemvalue="Application.MaxAscSubArraySum" />
         <item itemvalue="Application.UncommonWordsFromTwoSentences" />
         <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
         <item itemvalue="Application.SignOfProductOfArray" />
-        <item itemvalue="Application.OccurencesAfterBigram" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +462,11 @@
       <workItem from="1625539047374" duration="461000" />
       <workItem from="1625576454764" duration="8581000" />
       <workItem from="1625699693777" duration="4092000" />
-      <workItem from="1625782226906" duration="2345000" />
+      <workItem from="1625782226906" duration="2905000" />
+      <workItem from="1625804926420" duration="179000" />
+      <workItem from="1625848761008" duration="138000" />
+      <workItem from="1625869505129" duration="3338000" />
+      <workItem from="1625888909132" duration="115000" />
     </task>
     <servers />
   </component>
@@ -980,6 +972,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxAscSubArraySum/MaxAscSubArraySum.java</url>
           <line>34</line>
           <option name="timeStamp" value="972" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="974" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="975" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="976" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
