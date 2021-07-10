@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -208,6 +220,9 @@
         <item itemvalue="Application.SignOfProductOfArray" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SliceToolwindowSettings">
+    <option name="autoScroll" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -467,6 +482,7 @@
       <workItem from="1625848761008" duration="138000" />
       <workItem from="1625869505129" duration="3338000" />
       <workItem from="1625888909132" duration="115000" />
+      <workItem from="1625933899893" duration="5162000" />
     </task>
     <servers />
   </component>
@@ -975,18 +991,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="974" />
+          <line>121</line>
+          <option name="timeStamp" value="981" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="975" />
+          <line>109</line>
+          <option name="timeStamp" value="987" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="976" />
+          <line>48</line>
+          <option name="timeStamp" value="994" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
