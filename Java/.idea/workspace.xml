@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrawlerLogFile">
+  <component name="RunManager" selected="Application.StringMatchingInArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -154,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncommonWordsFromTwoSentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.UncommonWordsFromTwoSentences.UncommonWordsFromTwoSentences" />
+    <configuration name="StringMatchingInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.StringMatchingInArray.StringMatchingInArray" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.UncommonWordsFromTwoSentences.*" />
+          <option name="PATTERN" value="Strings.StringMatchingInArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringMatchingInArray" />
         <item itemvalue="Application.CrawlerLogFile" />
         <item itemvalue="Application.CalculateMoneyInLeetCodeBank" />
         <item itemvalue="Application.SpecialPositionsInBinaryMatrix" />
         <item itemvalue="Application.MaxAscSubArraySum" />
-        <item itemvalue="Application.UncommonWordsFromTwoSentences" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +484,7 @@
       <workItem from="1625869505129" duration="3338000" />
       <workItem from="1625888909132" duration="115000" />
       <workItem from="1625933899893" duration="5870000" />
-      <workItem from="1625966675622" duration="2128000" />
+      <workItem from="1625966675622" duration="4460000" />
     </task>
     <servers />
   </component>
@@ -1005,6 +1005,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/CalculateMoneyInLeetCodeBank/CalculateMoneyInLeetCodeBank.java</url>
           <line>20</line>
           <option name="timeStamp" value="1000" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/StringMatchingInArray/StringMatchingInArray.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1004" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
