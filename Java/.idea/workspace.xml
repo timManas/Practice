@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculateMoneyInLeetCodeBank">
+  <component name="RunManager" selected="Application.CrawlerLogFile">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -98,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAscSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MaxAscSubArraySum.MaxAscSubArraySum" />
+    <configuration name="CrawlerLogFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CrawlerLogFile.CrawlerLogFile" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MaxAscSubArraySum.*" />
+          <option name="PATTERN" value="Misc.CrawlerLogFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeanOfArrayAfterRemovingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MeanOfArrayAfterRemovingElements.MeanOfArrayAfterRemovingElements" />
+    <configuration name="MaxAscSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MaxAscSubArraySum.MaxAscSubArraySum" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MeanOfArrayAfterRemovingElements.*" />
+          <option name="PATTERN" value="Lists.MaxAscSubArraySum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrawlerLogFile" />
         <item itemvalue="Application.CalculateMoneyInLeetCodeBank" />
         <item itemvalue="Application.SpecialPositionsInBinaryMatrix" />
         <item itemvalue="Application.MaxAscSubArraySum" />
         <item itemvalue="Application.UncommonWordsFromTwoSentences" />
-        <item itemvalue="Application.MeanOfArrayAfterRemovingElements" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +484,7 @@
       <workItem from="1625869505129" duration="3338000" />
       <workItem from="1625888909132" duration="115000" />
       <workItem from="1625933899893" duration="5870000" />
-      <workItem from="1625966675622" duration="619000" />
+      <workItem from="1625966675622" duration="2128000" />
     </task>
     <servers />
   </component>
@@ -995,6 +995,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/SpecialPositionsInBinaryMatrix/SpecialPositionsInBinaryMatrix.java</url>
           <line>48</line>
           <option name="timeStamp" value="994" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CalculateMoneyInLeetCodeBank/CalculateMoneyInLeetCodeBank.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="995" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CalculateMoneyInLeetCodeBank/CalculateMoneyInLeetCodeBank.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1000" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
