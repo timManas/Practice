@@ -77,23 +77,9 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LastStoneWeight">
+  <component name="RunManager" selected="Application.ReshapeMatrix">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistributeCandiesToPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.DistributeCandiesToPeople.DistributeCandiesToPeople" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.DistributeCandiesToPeople.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +133,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.PalindromePermutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReshapeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ReshapeMatrix.ReshapeMatrix" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.ReshapeMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReshapeMatrix" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.ShortestWordDistance" />
         <item itemvalue="Application.FindLuckyNumberInInteger" />
         <item itemvalue="Application.PalindromePermutation" />
-        <item itemvalue="Application.DistributeCandiesToPeople" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +484,7 @@
       <workItem from="1625933899893" duration="5870000" />
       <workItem from="1625966675622" duration="11515000" />
       <workItem from="1626047633829" duration="114000" />
-      <workItem from="1626129536675" duration="794000" />
+      <workItem from="1626129536675" duration="2719000" />
     </task>
     <servers />
   </component>
@@ -1026,6 +1026,21 @@
           <line>26</line>
           <option name="timeStamp" value="1017" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReshapeMatrix/ReshapeMatrix.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1018" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReshapeMatrix/ReshapeMatrix.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1019" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/ReshapeMatrix/ReshapeMatrix.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="1020" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1038,6 +1053,11 @@
         <watch expression="number.replace(&quot;_&quot;, &quot;&quot;)" language="JAVA" />
         <watch expression="unFormattedNum.charAt(i+2)" language="JAVA" />
         <watch expression="unFormattedNum.charAt(i+4)" language="JAVA" />
+        <watch expression="list.remove(list.size() - 1)" language="JAVA" />
+        <watch expression="list" language="JAVA" />
+        <watch expression="list" language="JAVA" />
+        <watch expression="list" language="JAVA" />
+        <watch expression="mat[0][1]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
