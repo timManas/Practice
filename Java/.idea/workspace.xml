@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestWordDistance">
+  <component name="RunManager" selected="Application.LastStoneWeight">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -105,6 +105,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.FindLuckyNumberInInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.LastStoneWeight.LastStoneWeight" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.LastStoneWeight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,35 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMatchingInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.StringMatchingInArray.StringMatchingInArray" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.StringMatchingInArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.ShortestWordDistance" />
         <item itemvalue="Application.FindLuckyNumberInInteger" />
         <item itemvalue="Application.PalindromePermutation" />
         <item itemvalue="Application.DistributeCandiesToPeople" />
-        <item itemvalue="Application.StringMatchingInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +482,9 @@
       <workItem from="1625869505129" duration="3338000" />
       <workItem from="1625888909132" duration="115000" />
       <workItem from="1625933899893" duration="5870000" />
-      <workItem from="1625966675622" duration="10765000" />
+      <workItem from="1625966675622" duration="11515000" />
+      <workItem from="1626047633829" duration="114000" />
+      <workItem from="1626129536675" duration="794000" />
     </task>
     <servers />
   </component>
@@ -1020,6 +1020,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ShortestWordDistance/ShortestWordDistance.java</url>
           <line>49</line>
           <option name="timeStamp" value="1016" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/LastStoneWeight/LastStoneWeight.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1017" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
