@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReshapeMatrix">
+  <component name="RunManager" selected="Application.Shift2DGrid">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -126,20 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.PalindromePermutation.PalindromePermutation" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.PalindromePermutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReshapeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.ReshapeMatrix.ReshapeMatrix" />
       <module name="Java" />
@@ -147,6 +134,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.ReshapeMatrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shift2DGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Shift2DGrid.Shift2DGrid" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.Shift2DGrid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shift2DGrid" />
         <item itemvalue="Application.ReshapeMatrix" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.ShortestWordDistance" />
         <item itemvalue="Application.FindLuckyNumberInInteger" />
-        <item itemvalue="Application.PalindromePermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +485,9 @@
       <workItem from="1625933899893" duration="5870000" />
       <workItem from="1625966675622" duration="11515000" />
       <workItem from="1626047633829" duration="114000" />
-      <workItem from="1626129536675" duration="2719000" />
+      <workItem from="1626129536675" duration="2885000" />
+      <workItem from="1626150173244" duration="652000" />
+      <workItem from="1626182661925" duration="5711000" />
     </task>
     <servers />
   </component>
@@ -1041,6 +1044,11 @@
           <line>57</line>
           <option name="timeStamp" value="1020" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1034" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1049,15 +1057,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="number.replace(&quot; &quot;, &quot;&quot;)" language="JAVA" />
-        <watch expression="number.replace(&quot;_&quot;, &quot;&quot;)" language="JAVA" />
-        <watch expression="unFormattedNum.charAt(i+2)" language="JAVA" />
-        <watch expression="unFormattedNum.charAt(i+4)" language="JAVA" />
-        <watch expression="list.remove(list.size() - 1)" language="JAVA" />
-        <watch expression="list" language="JAVA" />
-        <watch expression="list" language="JAVA" />
-        <watch expression="list" language="JAVA" />
-        <watch expression="mat[0][1]" language="JAVA" />
+        <watch expression="grid[i][j]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
