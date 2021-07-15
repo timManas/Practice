@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -487,7 +489,8 @@
       <workItem from="1626047633829" duration="114000" />
       <workItem from="1626129536675" duration="2885000" />
       <workItem from="1626150173244" duration="652000" />
-      <workItem from="1626182661925" duration="5711000" />
+      <workItem from="1626182661925" duration="6301000" />
+      <workItem from="1626270104204" duration="5283000" />
     </task>
     <servers />
   </component>
@@ -1046,8 +1049,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
-          <line>49</line>
+          <line>86</line>
           <option name="timeStamp" value="1034" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1042" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1058,6 +1066,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="grid[i][j]" language="JAVA" />
+        <watch expression="grid[i+1][0]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
