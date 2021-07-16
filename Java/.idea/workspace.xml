@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,20 +77,20 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Shift2DGrid">
+  <component name="RunManager" selected="Application.CountSquareSumTriples">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLuckyNumberInInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FindLuckyNumberInInteger.FindLuckyNumberInInteger" />
+    <configuration name="CountSquareSumTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CountSquareSumTriples.CountSquareSumTriples" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.FindLuckyNumberInInteger.*" />
+          <option name="PATTERN" value="Math.CountSquareSumTriples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,15 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSquareSumTriples" />
         <item itemvalue="Application.Shift2DGrid" />
         <item itemvalue="Application.ReshapeMatrix" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.ShortestWordDistance" />
-        <item itemvalue="Application.FindLuckyNumberInInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +487,8 @@
       <workItem from="1626129536675" duration="2885000" />
       <workItem from="1626150173244" duration="652000" />
       <workItem from="1626182661925" duration="6301000" />
-      <workItem from="1626270104204" duration="5283000" />
+      <workItem from="1626270104204" duration="5984000" />
+      <workItem from="1626354258421" duration="1600000" />
     </task>
     <servers />
   </component>
@@ -1056,6 +1054,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
           <line>58</line>
           <option name="timeStamp" value="1042" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1043" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1044" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
