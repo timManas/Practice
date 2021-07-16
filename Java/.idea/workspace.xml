@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -488,7 +489,7 @@
       <workItem from="1626150173244" duration="652000" />
       <workItem from="1626182661925" duration="6301000" />
       <workItem from="1626270104204" duration="5984000" />
-      <workItem from="1626354258421" duration="1600000" />
+      <workItem from="1626354258421" duration="3969000" />
     </task>
     <servers />
   </component>
@@ -1054,16 +1055,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
           <line>58</line>
           <option name="timeStamp" value="1042" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1043" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1044" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

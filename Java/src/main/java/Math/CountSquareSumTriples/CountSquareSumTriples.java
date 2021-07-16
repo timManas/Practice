@@ -1,7 +1,9 @@
 package Math.CountSquareSumTriples;
 
+import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.List;
 
 public class CountSquareSumTriples {
     public static void main(String [] args) {
@@ -12,34 +14,35 @@ public class CountSquareSumTriples {
 
     public static int countTriples(int n) {
         int count = 0;
-        int current = 1;
 
-        int sum = 0;
-        Deque<Integer> queue = new LinkedList<>();
-        while(current <= n) {
-            // Remove the first Element
-            if (queue.size() >= 3) {
-                int last = queue.removeFirst();
-                sum -= last*last;
+        // Step1 - Create list of all squares from 0 to n+1
+        List<Integer> list = new ArrayList<>();
+        for (int i=0; i <= n; i++) {
+            list.add(i*i);
+        }
+
+        // Step2 - Create two pointers which point to the a b
+        // The check if c exists
+        for (int i=1; i<list.size();i++) {
+            for (int j=i+1; j<list.size(); j++) {
+                int a = list.get(i);
+                int b = list.get(j);
+
+                System.out.println("a: " + a + "    b: " + b);
+                int c = a + b;
+
+                // Step3 - Check if list contains c
+                if (list.contains(c))
+                    count+= 2;
             }
-
-            queue.addLast(current);
-
-            if (sum == (current * current)) {
-                count += 2;
-                System.out.println("SquareTripple Found: " + queue);
-            }
-
-            sum += (current * current);
-
-
-
-
-            System.out.println("Current: " + current + "    sum: " + sum + "   Queue: " + queue);
-
-            current++;
         }
 
         return count;
     }
 }
+
+/**
+ Notes
+ - This is the ugliest solution ever but it works
+
+ */
