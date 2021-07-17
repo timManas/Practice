@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,7 +493,7 @@
       <workItem from="1626440775460" duration="109000" />
       <workItem from="1626486320198" duration="133000" />
       <workItem from="1626495180430" duration="107000" />
-      <workItem from="1626530277267" duration="6265000" />
+      <workItem from="1626530277267" duration="10545000" />
     </task>
     <servers />
   </component>
@@ -1058,6 +1059,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/Shift2DGrid/Shift2DGrid.java</url>
           <line>58</line>
           <option name="timeStamp" value="1042" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1058" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1060" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1061" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1062" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1066" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
