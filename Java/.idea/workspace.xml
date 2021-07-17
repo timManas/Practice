@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/CountSquareSumTriples/CountSquareSumTriples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountSquareSumTriples">
+  <component name="RunManager" selected="Application.LargestSubArrayK">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -92,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.CountSquareSumTriples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestSubArrayK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.LargestSubArrayK.LargestSubArrayK" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.LargestSubArrayK.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,20 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestWordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ShortestWordDistance.ShortestWordDistance" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.ShortestWordDistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubArrayK" />
         <item itemvalue="Application.CountSquareSumTriples" />
         <item itemvalue="Application.Shift2DGrid" />
         <item itemvalue="Application.ReshapeMatrix" />
         <item itemvalue="Application.LastStoneWeight" />
-        <item itemvalue="Application.ShortestWordDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +488,11 @@
       <workItem from="1626150173244" duration="652000" />
       <workItem from="1626182661925" duration="6301000" />
       <workItem from="1626270104204" duration="5984000" />
-      <workItem from="1626354258421" duration="3969000" />
+      <workItem from="1626354258421" duration="5208000" />
+      <workItem from="1626440775460" duration="109000" />
+      <workItem from="1626486320198" duration="133000" />
+      <workItem from="1626495180430" duration="107000" />
+      <workItem from="1626530277267" duration="2013000" />
     </task>
     <servers />
   </component>
