@@ -175,17 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -493,7 +482,8 @@
       <workItem from="1626440775460" duration="109000" />
       <workItem from="1626486320198" duration="133000" />
       <workItem from="1626495180430" duration="107000" />
-      <workItem from="1626530277267" duration="10545000" />
+      <workItem from="1626530277267" duration="12111000" />
+      <workItem from="1626560395896" duration="1046000" />
     </task>
     <servers />
   </component>
@@ -1062,28 +1052,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1058" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
-          <line>31</line>
+          <line>66</line>
           <option name="timeStamp" value="1060" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
-          <line>36</line>
+          <line>71</line>
           <option name="timeStamp" value="1061" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
-          <line>38</line>
+          <line>73</line>
           <option name="timeStamp" value="1062" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
-          <line>29</line>
+          <line>64</line>
           <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1068" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1069" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
