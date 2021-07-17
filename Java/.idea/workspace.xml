@@ -77,9 +77,23 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestSubArrayK">
+  <component name="RunManager" selected="Application.CountBinaryStrings">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountBinaryStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountBinaryStrings.CountBinaryStrings" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.CountBinaryStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,20 +119,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.LargestSubArrayK.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.LastStoneWeight.LastStoneWeight" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.LastStoneWeight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountBinaryStrings" />
         <item itemvalue="Application.LargestSubArrayK" />
         <item itemvalue="Application.CountSquareSumTriples" />
         <item itemvalue="Application.Shift2DGrid" />
         <item itemvalue="Application.ReshapeMatrix" />
-        <item itemvalue="Application.LastStoneWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +492,7 @@
       <workItem from="1626440775460" duration="109000" />
       <workItem from="1626486320198" duration="133000" />
       <workItem from="1626495180430" duration="107000" />
-      <workItem from="1626530277267" duration="2013000" />
+      <workItem from="1626530277267" duration="6265000" />
     </task>
     <servers />
   </component>
