@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,7 +495,7 @@
       <workItem from="1626495180430" duration="107000" />
       <workItem from="1626530277267" duration="12111000" />
       <workItem from="1626560395896" duration="1771000" />
-      <workItem from="1626630522002" duration="2123000" />
+      <workItem from="1626630522002" duration="4459000" />
     </task>
     <servers />
   </component>
@@ -1095,6 +1096,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CountBinaryStrings/CountBinaryStrings.java</url>
           <line>30</line>
           <option name="timeStamp" value="1069" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1072" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
