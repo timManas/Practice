@@ -22,7 +22,6 @@ public class SpecialArrayXElementsGreaterThanEqualX {
         // Every step, we compare with each value of nums
         outLoop:
         while (x > 0) {
-
             innerLoop:
             for (int i=0; i<nums.length;i++) {
 

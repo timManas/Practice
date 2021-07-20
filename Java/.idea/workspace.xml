@@ -175,17 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -495,7 +484,10 @@
       <workItem from="1626495180430" duration="107000" />
       <workItem from="1626530277267" duration="12111000" />
       <workItem from="1626560395896" duration="1771000" />
-      <workItem from="1626630522002" duration="4459000" />
+      <workItem from="1626630522002" duration="5665000" />
+      <workItem from="1626667986605" duration="229000" />
+      <workItem from="1626703546757" duration="286000" />
+      <workItem from="1626750479600" duration="755000" />
     </task>
     <servers />
   </component>
@@ -1099,7 +1091,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="1072" />
         </line-breakpoint>
       </breakpoints>
