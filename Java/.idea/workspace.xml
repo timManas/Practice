@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SpecialArrayXElementsGreaterThanEqualX/SpecialArrayXElementsGreaterThanEqualX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpecialArrayXElementsGreaterThanEqualX">
+  <component name="RunManager" selected="Application.LongestNiceSubString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -127,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
+    <configuration name="LongestNiceSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongestNiceSubString.LongestNiceSubString" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="PATTERN" value="Strings.LongestNiceSubString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shift2DGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Shift2DGrid.Shift2DGrid" />
+    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.Shift2DGrid.*" />
+          <option name="PATTERN" value="Lists.MissingRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,6 +171,19 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestNiceSubString" />
         <item itemvalue="Application.SpecialArrayXElementsGreaterThanEqualX" />
         <item itemvalue="Application.CountBinaryStrings" />
         <item itemvalue="Application.LargestSubArrayK" />
         <item itemvalue="Application.CountSquareSumTriples" />
-        <item itemvalue="Application.Shift2DGrid" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +500,8 @@
       <workItem from="1626630522002" duration="5665000" />
       <workItem from="1626667986605" duration="229000" />
       <workItem from="1626703546757" duration="286000" />
-      <workItem from="1626750479600" duration="755000" />
+      <workItem from="1626750479600" duration="3127000" />
+      <workItem from="1626796066141" duration="5693000" />
     </task>
     <servers />
   </component>
@@ -1094,6 +1108,16 @@
           <line>29</line>
           <option name="timeStamp" value="1072" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1082" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="1083" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1104,6 +1128,7 @@
       <configuration name="Application">
         <watch expression="grid[i][j]" language="JAVA" />
         <watch expression="grid[i+1][0]" language="JAVA" />
+        <watch expression="lowerSet.removeAll(upperSet)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
