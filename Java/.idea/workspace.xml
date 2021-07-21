@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +78,23 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestNiceSubString">
+  <component name="RunManager" selected="Application.BinaryGap">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.BinaryGap.BinaryGap" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.BinaryGap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,20 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CountBinaryStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountSquareSumTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CountSquareSumTriples.CountSquareSumTriples" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.CountSquareSumTriples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.LongestNiceSubString" />
         <item itemvalue="Application.SpecialArrayXElementsGreaterThanEqualX" />
         <item itemvalue="Application.CountBinaryStrings" />
         <item itemvalue="Application.LargestSubArrayK" />
-        <item itemvalue="Application.CountSquareSumTriples" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +499,8 @@
       <workItem from="1626667986605" duration="229000" />
       <workItem from="1626703546757" duration="286000" />
       <workItem from="1626750479600" duration="3127000" />
-      <workItem from="1626796066141" duration="5693000" />
+      <workItem from="1626796066141" duration="6736000" />
+      <workItem from="1626879523079" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -1115,8 +1114,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString.java</url>
-          <line>81</line>
+          <line>85</line>
           <option name="timeStamp" value="1083" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/BinaryGap/BinaryGap.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1084" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/BinaryGap/BinaryGap.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1085" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/BinaryGap/BinaryGap.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1086" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
