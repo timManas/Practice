@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongestNiceSubString/LongestNiceSubString" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryGap">
+  <component name="RunManager" selected="Application.ComplementBase10Int">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountBinaryStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CountBinaryStrings.CountBinaryStrings" />
+    <configuration name="ComplementBase10Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.ComplementBase10Int.ComplementBase10Int" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.CountBinaryStrings.*" />
+          <option name="PATTERN" value="Math.ComplementBase10Int.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSubArrayK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.LargestSubArrayK.LargestSubArrayK" />
+    <configuration name="CountBinaryStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountBinaryStrings.CountBinaryStrings" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.LargestSubArrayK.*" />
+          <option name="PATTERN" value="Lists.CountBinaryStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComplementBase10Int" />
         <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.LongestNiceSubString" />
         <item itemvalue="Application.SpecialArrayXElementsGreaterThanEqualX" />
         <item itemvalue="Application.CountBinaryStrings" />
-        <item itemvalue="Application.LargestSubArrayK" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +499,7 @@
       <workItem from="1626703546757" duration="286000" />
       <workItem from="1626750479600" duration="3127000" />
       <workItem from="1626796066141" duration="6736000" />
-      <workItem from="1626879523079" duration="1288000" />
+      <workItem from="1626879523079" duration="2046000" />
     </task>
     <servers />
   </component>
