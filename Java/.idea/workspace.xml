@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/IndexPairsOfStrings/IndexPairsOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/IndexPairsOfStrings/IndexPairsOfStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsecutiveCharacters">
+  <component name="RunManager" selected="Application.IndexPairsOfStrings">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -126,6 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexPairsOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.IndexPairsOfStrings.IndexPairsOfStrings" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.IndexPairsOfStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestNiceSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.LongestNiceSubString.LongestNiceSubString" />
       <module name="Java" />
@@ -147,20 +162,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecialArrayXElementsGreaterThanEqualX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SpecialArrayXElementsGreaterThanEqualX.SpecialArrayXElementsGreaterThanEqualX" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SpecialArrayXElementsGreaterThanEqualX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IndexPairsOfStrings" />
         <item itemvalue="Application.ConsecutiveCharacters" />
         <item itemvalue="Application.ComplementBase10Int" />
         <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.LongestNiceSubString" />
-        <item itemvalue="Application.SpecialArrayXElementsGreaterThanEqualX" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +504,7 @@
       <workItem from="1626917896566" duration="2014000" />
       <workItem from="1626959143067" duration="439000" />
       <workItem from="1627010472193" duration="113000" />
-      <workItem from="1627045878835" duration="235000" />
+      <workItem from="1627045878835" duration="3694000" />
     </task>
     <servers />
   </component>
@@ -1134,6 +1135,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/BinaryGap/BinaryGap.java</url>
           <line>43</line>
           <option name="timeStamp" value="1086" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/IndexPairsOfStrings/IndexPairsOfStrings.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1089" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
