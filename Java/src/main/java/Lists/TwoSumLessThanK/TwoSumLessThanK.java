@@ -1,8 +1,6 @@
 package Lists.TwoSumLessThanK;
 
-import java.util.Arrays;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class TwoSumLessThanK {
     public static void main(String [] args) {
@@ -16,23 +14,48 @@ public class TwoSumLessThanK {
     }
 
     public static int twoSumLessThanK(int[] nums, int k) {
-        int sum = 0;
         Set<Integer> set = new TreeSet<>();
 
         // Sort the arrays
         Arrays.sort(nums);
 
-        for (int i=0; i < nums.length; i++) {
+        for (int i=0; i < nums.length - 1; i++) {
             int current = nums[i];
 
             if (current >= k)
                 break;
-            
 
+            int findLastElementIndex = findElementIndex(nums, k - current, i+1, nums.length - 1);
+            if (findLastElementIndex == -1)
+                continue;
 
+            set.add(current + findLastElementIndex);
         }
 
+        System.out.println("Set:" + set);
 
-        return sum;
+        // Return the last element;
+        List<Integer> list = new ArrayList<>(set);
+        return list.get(list.size()-1);
+    }
+
+    private static int findElementIndex(int[] nums, int target, int start, int end) {
+
+        int result = -1;
+
+        if (start >= end)
+            return start-1;
+
+        int midIndex = (start + end) / 2;
+
+        if (target == nums[midIndex]) {
+            result = midIndex - 1;
+        } else if (target < nums[midIndex]) {
+            result = findElementIndex(nums, target, start, midIndex-1);
+        } else if (target > nums[midIndex]) {
+            result = findElementIndex(nums, target, midIndex + 1, end);
+        }
+
+        return result;
     }
 }
