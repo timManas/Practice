@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSumLessThanK">
+  <component name="RunManager" selected="Application.SumEvenNumAfterQueries">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,20 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CheckIfAll1sAreKlength.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplementBase10Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.ComplementBase10Int.ComplementBase10Int" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.ComplementBase10Int.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,6 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumEvenNumAfterQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SumEvenNumAfterQueries.SumEvenNumAfterQueries" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SumEvenNumAfterQueries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSumLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.TwoSumLessThanK.TwoSumLessThanK" />
       <module name="Java" />
@@ -174,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumEvenNumAfterQueries" />
         <item itemvalue="Application.TwoSumLessThanK" />
         <item itemvalue="Application.CheckIfAll1sAreKlength" />
         <item itemvalue="Application.IndexPairsOfStrings" />
         <item itemvalue="Application.ConsecutiveCharacters" />
-        <item itemvalue="Application.ComplementBase10Int" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +512,8 @@
       <workItem from="1627182075765" duration="787000" />
       <workItem from="1627226371250" duration="2898000" />
       <workItem from="1627337836525" duration="2341000" />
-      <workItem from="1627441390424" duration="227000" />
+      <workItem from="1627441390424" duration="1159000" />
+      <workItem from="1627508826359" duration="3867000" />
     </task>
     <servers />
   </component>
@@ -1155,6 +1159,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/TwoSumLessThanK/TwoSumLessThanK.java</url>
           <line>45</line>
           <option name="timeStamp" value="1111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SumEvenNumAfterQueries/SumEvenNumAfterQueries.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1118" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
