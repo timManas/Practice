@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/EmployeeImportance/EmployeeImportance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/EmployeeImportance/EmployeeImportance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefuseTheBomb">
+  <component name="RunManager" selected="Application.EmployeeImportance">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexPairsOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.IndexPairsOfStrings.IndexPairsOfStrings" />
+    <configuration name="EmployeeImportance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.EmployeeImportance.EmployeeImportance" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.IndexPairsOfStrings.*" />
+          <option name="PATTERN" value="Trees.EmployeeImportance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -201,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeImportance" />
         <item itemvalue="Application.DefuseTheBomb" />
         <item itemvalue="Application.SumEvenNumAfterQueries" />
         <item itemvalue="Application.TwoSumLessThanK" />
         <item itemvalue="Application.CheckIfAll1sAreKlength" />
-        <item itemvalue="Application.IndexPairsOfStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +524,13 @@
       <workItem from="1627915298281" duration="138000" />
       <workItem from="1627951375974" duration="121000" />
       <workItem from="1627995795575" duration="98000" />
-      <workItem from="1628021355648" duration="531000" />
+      <workItem from="1628021355648" duration="783000" />
+      <workItem from="1628046737961" duration="1018000" />
+      <workItem from="1628089111868" duration="583000" />
+      <workItem from="1628131407071" duration="511000" />
+      <workItem from="1628174740161" duration="1042000" />
+      <workItem from="1628180845366" duration="499000" />
+      <workItem from="1628193400521" duration="1318000" />
     </task>
     <servers />
   </component>

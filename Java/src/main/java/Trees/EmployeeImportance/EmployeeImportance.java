@@ -2,6 +2,8 @@ package Trees.EmployeeImportance;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class EmployeeImportance {
     public static void main(String [] args) {
@@ -36,7 +38,24 @@ public class EmployeeImportance {
 
     public static int getImportance(List<Employee> employees, int id) {
         int importance = 0;
+        Map<Integer, Employee> employeeMap = new TreeMap<>();
+        Map<Integer, List<Integer>> subOrdinateMap = new TreeMap();
 
+        // Creaete Map which stores Employee Data
+
+        for (Employee employee : employees) {
+            int employeeId = employee.id;
+            List<Integer> list = employee.subordinates;
+            employeeMap.put(employeeId, employee);
+            subOrdinateMap.put(employeeId, list);
+        }
+
+        // Calculate the importance
+        importance += employeeMap.get(id).importance;
+        List<Integer> subOrdinateList = subOrdinateMap.get(id);
+        for (int subOrdinate : subOrdinateList) {
+            importance += employeeMap.get(subOrdinate).importance;
+        }
         return importance;
     }
 }
