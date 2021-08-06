@@ -37,12 +37,16 @@ public class EmployeeImportance {
     }
 
     public static int getImportance(List<Employee> employees, int id) {
+
+        // Step1 - iniitliaze output variable
         int importance = 0;
+
+        // Step2 - Create employeeMap to store employees
+        // Create subOrdinateMap to store list of subordinates
         Map<Integer, Employee> employeeMap = new TreeMap<>();
         Map<Integer, List<Integer>> subOrdinateMap = new TreeMap();
 
-        // Creaete Map which stores Employee Data
-
+        // Step3 - Create Map which stores Employee Data
         for (Employee employee : employees) {
             int employeeId = employee.id;
             List<Integer> list = employee.subordinates;
@@ -50,12 +54,31 @@ public class EmployeeImportance {
             subOrdinateMap.put(employeeId, list);
         }
 
-        // Calculate the importance
-        importance += employeeMap.get(id).importance;
+        // Step4 - Calculate the importance
+        importance += calculateImportance(employeeMap, subOrdinateMap, id);
+
+
+        return importance;
+    }
+
+    private static int calculateImportance(Map<Integer, Employee> employeeMap, Map<Integer, List<Integer>> subOrdinateMap, int id) {
+
+        // Step1 - Calculate current employee importance
+        int importance = employeeMap.get(id).importance;
+
+        // Step2 - Fetch list of subordinates
         List<Integer> subOrdinateList = subOrdinateMap.get(id);
-        for (int subOrdinate : subOrdinateList) {
-            importance += employeeMap.get(subOrdinate).importance;
+
+        // Check if list is null or 0, return importance
+        if (subOrdinateList == null || subOrdinateList.size() == 0) {
+            return importance;
         }
+
+        // Step3 - Use recursion to calculate the importance of the subordinates
+        for (int subOrdinate : subOrdinateList) {
+            importance += calculateImportance(employeeMap, subOrdinateMap, subOrdinate);
+        }
+
         return importance;
     }
 }
