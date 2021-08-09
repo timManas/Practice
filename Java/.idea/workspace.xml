@@ -77,9 +77,23 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaterBottles">
+  <component name="RunManager" selected="Application.BinaryNumbersAlternatingBits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryNumbersAlternatingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.BinaryNumbersAlternatingBits.BinaryNumbersAlternatingBits" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.BinaryNumbersAlternatingBits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,20 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumEvenNumAfterQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SumEvenNumAfterQueries.SumEvenNumAfterQueries" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SumEvenNumAfterQueries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WaterBottles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.WaterBottles.WaterBottles" />
       <module name="Java" />
@@ -174,15 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryNumbersAlternatingBits" />
         <item itemvalue="Application.WaterBottles" />
         <item itemvalue="Application.ReformatDate" />
         <item itemvalue="Application.EmployeeImportance" />
         <item itemvalue="Application.DefuseTheBomb" />
-        <item itemvalue="Application.SumEvenNumAfterQueries" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +534,8 @@
       <workItem from="1628255188067" duration="598000" />
       <workItem from="1628268951890" duration="454000" />
       <workItem from="1628346162154" duration="1845000" />
-      <workItem from="1628467991839" duration="2198000" />
+      <workItem from="1628467991839" duration="3022000" />
+      <workItem from="1628531461174" duration="692000" />
     </task>
     <servers />
   </component>
@@ -1210,8 +1209,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/WaterBottles/WaterBottles.java</url>
-          <line>27</line>
+          <line>36</line>
           <option name="timeStamp" value="1122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/WaterBottles/WaterBottles.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1124" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
