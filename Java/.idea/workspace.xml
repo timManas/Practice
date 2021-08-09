@@ -77,7 +77,7 @@
       <recent name="Trees.ConsutrctBTFromPreorderAndInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryNumbersAlternatingBits">
+  <component name="RunManager" selected="Application.MinDistanceToTargetElement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -98,20 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefuseTheBomb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.DefuseTheBomb.DefuseTheBomb" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.DefuseTheBomb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmployeeImportance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.EmployeeImportance.EmployeeImportance" />
       <module name="Java" />
@@ -119,6 +105,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Trees.EmployeeImportance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinDistanceToTargetElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinDistanceToTargetElement.MinDistanceToTargetElement" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MinDistanceToTargetElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinDistanceToTargetElement" />
         <item itemvalue="Application.BinaryNumbersAlternatingBits" />
         <item itemvalue="Application.WaterBottles" />
         <item itemvalue="Application.ReformatDate" />
         <item itemvalue="Application.EmployeeImportance" />
-        <item itemvalue="Application.DefuseTheBomb" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +535,7 @@
       <workItem from="1628268951890" duration="454000" />
       <workItem from="1628346162154" duration="1845000" />
       <workItem from="1628467991839" duration="3022000" />
-      <workItem from="1628531461174" duration="692000" />
+      <workItem from="1628531461174" duration="2993000" />
     </task>
     <servers />
   </component>
@@ -1216,6 +1216,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/WaterBottles/WaterBottles.java</url>
           <line>33</line>
           <option name="timeStamp" value="1124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinDistanceToTargetElement/MinDistanceToTargetElement.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinDistanceToTargetElement/MinDistanceToTargetElement.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1127" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
