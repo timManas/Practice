@@ -70,14 +70,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
       <recent name="Trees.PostOrderTraversal" />
       <recent name="Trees.BinaryTreeInOrderTraversal" />
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
       <recent name="Trees.SerializeAndDeserializeBinaryTree" />
-      <recent name="Trees.ConstructBTFromInOrderAndPostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ElementAppearing25Per">
+  <component name="RunManager" selected="Application.ReverseOnlyLetters">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -154,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaterBottles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.WaterBottles.WaterBottles" />
+    <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseOnlyLetters.ReverseOnlyLetters" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.WaterBottles.*" />
+          <option name="PATTERN" value="Strings.ReverseOnlyLetters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseOnlyLetters" />
         <item itemvalue="Application.ElementAppearing25Per" />
         <item itemvalue="Application.PostOrderTraversal" />
         <item itemvalue="Application.MinDistanceToTargetElement" />
         <item itemvalue="Application.BinaryNumbersAlternatingBits" />
-        <item itemvalue="Application.WaterBottles" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +538,18 @@
       <workItem from="1628531461174" duration="3612000" />
       <workItem from="1628549918875" duration="493000" />
       <workItem from="1628570301309" duration="477000" />
-      <workItem from="1628601531836" duration="1797000" />
+      <workItem from="1628601531836" duration="1912000" />
+      <workItem from="1628652877622" duration="526000" />
+      <workItem from="1628687769730" duration="1055000" />
+      <workItem from="1628737144669" duration="561000" />
+      <workItem from="1628774114861" duration="449000" />
+      <workItem from="1628824139857" duration="484000" />
+      <workItem from="1628860502166" duration="562000" />
+      <workItem from="1628863607222" duration="558000" />
+      <workItem from="1628874821909" duration="465000" />
+      <workItem from="1628889551810" duration="148000" />
+      <workItem from="1628900481147" duration="142000" />
+      <workItem from="1629254456994" duration="1976000" />
     </task>
     <servers />
   </component>
@@ -1229,6 +1240,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinDistanceToTargetElement/MinDistanceToTargetElement.java</url>
           <line>44</line>
           <option name="timeStamp" value="1127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReverseOnlyLetters/ReverseOnlyLetters.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReverseOnlyLetters/ReverseOnlyLetters.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1133" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
