@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/LargestPerimeterTriangle/LargestPerimeterTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/LargestPerimeterTriangle/LargestPerimeterTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="Trees.SerializeAndDeserializeBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestPerimeterTriangle">
+  <component name="RunManager" selected="Application.LongerContinguousSegementsofOnesZeroes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDistanceToTargetElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinDistanceToTargetElement.MinDistanceToTargetElement" />
+    <configuration name="LongerContinguousSegementsofOnesZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongerContinguousSegementsofOnesZeroes.LongerContinguousSegementsofOnesZeroes" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MinDistanceToTargetElement.*" />
+          <option name="PATTERN" value="Strings.LongerContinguousSegementsofOnesZeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
         <item itemvalue="Application.ReverseOnlyLetters" />
         <item itemvalue="Application.ElementAppearing25Per" />
         <item itemvalue="Application.PostOrderTraversal" />
-        <item itemvalue="Application.MinDistanceToTargetElement" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +552,7 @@
       <workItem from="1629254456994" duration="2510000" />
       <workItem from="1629291601492" duration="558000" />
       <workItem from="1629338801186" duration="1509000" />
-      <workItem from="1629379511922" duration="1123000" />
+      <workItem from="1629379511922" duration="3647000" />
     </task>
     <servers />
   </component>
@@ -1259,6 +1258,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/LargestPerimeterTriangle/LargestPerimeterTriangle.java</url>
           <line>16</line>
           <option name="timeStamp" value="1134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1152" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
