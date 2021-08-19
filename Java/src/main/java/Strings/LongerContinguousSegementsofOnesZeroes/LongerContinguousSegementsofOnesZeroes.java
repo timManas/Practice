@@ -12,7 +12,7 @@ public class LongerContinguousSegementsofOnesZeroes {
 
         if (input.equalsIgnoreCase("1"))
             return true;
-        if (input.equalsIgnoreCase("0"))
+        if (input.equalsIgnoreCase("0") || input.equalsIgnoreCase("10") || input.equalsIgnoreCase("01"))
             return false;
 
         int longestOneLen = 0;
