@@ -77,9 +77,23 @@
       <recent name="Trees.SerializeAndDeserializeBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongerContinguousSegementsofOnesZeroes">
+  <component name="RunManager" selected="Application.AddDigits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.AddDigits.AddDigits" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.AddDigits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,20 +147,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PostOrderTraversal.PostOrderTraversal" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.PostOrderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
         <item itemvalue="Application.ReverseOnlyLetters" />
         <item itemvalue="Application.ElementAppearing25Per" />
-        <item itemvalue="Application.PostOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +552,9 @@
       <workItem from="1629254456994" duration="2510000" />
       <workItem from="1629291601492" duration="558000" />
       <workItem from="1629338801186" duration="1509000" />
-      <workItem from="1629379511922" duration="3647000" />
+      <workItem from="1629379511922" duration="4466000" />
+      <workItem from="1629432234389" duration="538000" />
+      <workItem from="1629464007440" duration="801000" />
     </task>
     <servers />
   </component>
@@ -1261,7 +1263,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/LongerContinguousSegementsofOnesZeroes/LongerContinguousSegementsofOnesZeroes.java</url>
-          <line>54</line>
+          <line>49</line>
           <option name="timeStamp" value="1140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
