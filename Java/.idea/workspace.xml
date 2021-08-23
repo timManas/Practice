@@ -77,7 +77,7 @@
       <recent name="Trees.SerializeAndDeserializeBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddDigits">
+  <component name="RunManager" selected="Application.RedistributeCharToMakeStringEqual">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,20 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.AddDigits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementAppearing25Per" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ElementAppearing25Per.ElementAppearing25Per" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.ElementAppearing25Per.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,6 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedistributeCharToMakeStringEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RedistributeCharToMakeStringEqual.RedistributeCharToMakeStringEqual" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.RedistributeCharToMakeStringEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.ReverseOnlyLetters.ReverseOnlyLetters" />
       <module name="Java" />
@@ -170,17 +170,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
         <item itemvalue="Application.ReverseOnlyLetters" />
-        <item itemvalue="Application.ElementAppearing25Per" />
       </list>
     </recent_temporary>
   </component>
@@ -554,7 +543,10 @@
       <workItem from="1629338801186" duration="1509000" />
       <workItem from="1629379511922" duration="4466000" />
       <workItem from="1629432234389" duration="538000" />
-      <workItem from="1629464007440" duration="801000" />
+      <workItem from="1629464007440" duration="2425000" />
+      <workItem from="1629518430719" duration="497000" />
+      <workItem from="1629562358607" duration="342000" />
+      <workItem from="1629605592694" duration="440000" />
     </task>
     <servers />
   </component>
