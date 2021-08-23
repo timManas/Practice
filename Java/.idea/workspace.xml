@@ -77,7 +77,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RedistributeCharToMakeStringEqual">
+  <component name="RunManager" selected="Application.CountElements">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.AddDigits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountElements.CountElements" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.CountElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,20 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseOnlyLetters.ReverseOnlyLetters" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.ReverseOnlyLetters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
-        <item itemvalue="Application.ReverseOnlyLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +559,7 @@
       <workItem from="1629562358607" duration="342000" />
       <workItem from="1629605592694" duration="440000" />
       <workItem from="1629667876907" duration="730000" />
-      <workItem from="1629733188232" duration="1130000" />
+      <workItem from="1629733188232" duration="2380000" />
     </task>
     <servers />
   </component>
@@ -1296,6 +1296,11 @@
           <line>33</line>
           <option name="timeStamp" value="1153" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CountElements/CountElements.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1154" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1308,6 +1313,7 @@
         <watch expression="grid[i+1][0]" language="JAVA" />
         <watch expression="lowerSet.removeAll(upperSet)" language="JAVA" />
         <watch expression="mapEntry.getValue() % words.length" language="JAVA" />
+        <watch expression="list.contains(i+1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
