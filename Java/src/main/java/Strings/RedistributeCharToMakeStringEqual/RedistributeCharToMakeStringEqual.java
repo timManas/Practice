@@ -11,13 +11,13 @@ public class RedistributeCharToMakeStringEqual {
 
     }
 
-    // The trick is to check if each letter appears words.length times
+    // The trick is to check if each letter appears atleast word.length times. Use modulus to make sure there are no remainders
     public static boolean makeEqual(String[] words) {
 
         if (words.length == 1)
             return true;
 
-        // Create map to store the letter occurence
+        // Step1 - Create map to store the letter occurence
         Map<Character, Integer> map = new LinkedHashMap<>();
         for (String word : words) {
             for (int i=0; i<word.length(); i++) {
@@ -30,9 +30,9 @@ public class RedistributeCharToMakeStringEqual {
             }
         }
 
-        // Check if every letter has the same amount
+        // Step2 - Check if every letter is divisbile by the number of input words present. If not, return false
         for (Map.Entry<Character, Integer> mapEntry : map.entrySet()) {
-            if (mapEntry.getValue() != map.size())
+            if (mapEntry.getValue() % words.length != 0)
                 return false;
         }
 
