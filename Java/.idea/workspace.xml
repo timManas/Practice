@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RedistributeCharToMakeStringEqual/RedistributeCharToMakeStringEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RedistributeCharToMakeStringEqual/RedistributeCharToMakeStringEqual.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +70,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BinaryTreePreOrderTraversal" />
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
       <recent name="Trees.PostOrderTraversal" />
       <recent name="Trees.BinaryTreeInOrderTraversal" />
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
-      <recent name="Trees.SerializeAndDeserializeBinaryTree" />
     </key>
   </component>
   <component name="RunManager" selected="Application.RedistributeCharToMakeStringEqual">
@@ -560,7 +559,7 @@
       <workItem from="1629562358607" duration="342000" />
       <workItem from="1629605592694" duration="440000" />
       <workItem from="1629667876907" duration="730000" />
-      <workItem from="1629733188232" duration="864000" />
+      <workItem from="1629733188232" duration="1130000" />
     </task>
     <servers />
   </component>
