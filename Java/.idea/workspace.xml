@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountElements">
+  <component name="RunManager" selected="Application.MinChangesAlternatingBinaryString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,20 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPerimeterTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.LargestPerimeterTriangle.LargestPerimeterTriangle" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.LargestPerimeterTriangle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LongerContinguousSegementsofOnesZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.LongerContinguousSegementsofOnesZeroes.LongerContinguousSegementsofOnesZeroes" />
       <module name="Java" />
@@ -133,6 +120,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.LongerContinguousSegementsofOnesZeroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinChangesAlternatingBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinChangesAlternatingBinaryString.MinChangesAlternatingBinaryString" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MinChangesAlternatingBinaryString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -201,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinChangesAlternatingBinaryString" />
         <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
-        <item itemvalue="Application.LargestPerimeterTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +563,8 @@
       <workItem from="1629733188232" duration="3053000" />
       <workItem from="1629778952493" duration="462000" />
       <workItem from="1629811311642" duration="540000" />
-      <workItem from="1629842611334" duration="845000" />
+      <workItem from="1629842611334" duration="1473000" />
+      <workItem from="1629857524869" duration="1577000" />
     </task>
     <servers />
   </component>
@@ -1293,6 +1306,11 @@
           <line>27</line>
           <option name="timeStamp" value="1154" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1155" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1306,6 +1324,7 @@
         <watch expression="lowerSet.removeAll(upperSet)" language="JAVA" />
         <watch expression="mapEntry.getValue() % words.length" language="JAVA" />
         <watch expression="list.contains(i+1)" language="JAVA" />
+        <watch expression="string.charAt(i+1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
