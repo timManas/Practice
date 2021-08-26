@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinChangesAlternatingBinaryString">
+  <component name="RunManager" selected="Application.LargestSubStringBetweenTwoCharacters">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongerContinguousSegementsofOnesZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LongerContinguousSegementsofOnesZeroes.LongerContinguousSegementsofOnesZeroes" />
+    <configuration name="LargestSubStringBetweenTwoCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LargestSubStringBetweenTwoCharacters.LargestSubStringBetweenTwoCharacters" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.LongerContinguousSegementsofOnesZeroes.*" />
+          <option name="PATTERN" value="Strings.LargestSubStringBetweenTwoCharacters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
         <item itemvalue="Application.MinChangesAlternatingBinaryString" />
         <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
         <item itemvalue="Application.AddDigits" />
-        <item itemvalue="Application.LongerContinguousSegementsofOnesZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +563,9 @@
       <workItem from="1629778952493" duration="462000" />
       <workItem from="1629811311642" duration="540000" />
       <workItem from="1629842611334" duration="1473000" />
-      <workItem from="1629857524869" duration="1577000" />
+      <workItem from="1629857524869" duration="2469000" />
+      <workItem from="1629897156966" duration="434000" />
+      <workItem from="1629945826574" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -1310,6 +1311,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinChangesAlternatingBinaryString/MinChangesAlternatingBinaryString.java</url>
           <line>29</line>
           <option name="timeStamp" value="1155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LargestSubStringBetweenTwoCharacters/LargestSubStringBetweenTwoCharacters.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1156" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
