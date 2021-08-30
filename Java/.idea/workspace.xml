@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,23 +78,9 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestSubStringBetweenTwoCharacters">
+  <component name="RunManager" selected="Application.PascalsTriangle">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.AddDigits.AddDigits" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.AddDigits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,6 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.PascalsTriangle.PascalsTriangle" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.PascalsTriangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedistributeCharToMakeStringEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.RedistributeCharToMakeStringEqual.RedistributeCharToMakeStringEqual" />
       <module name="Java" />
@@ -170,6 +171,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
         <item itemvalue="Application.MinChangesAlternatingBinaryString" />
         <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
-        <item itemvalue="Application.AddDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +567,16 @@
       <workItem from="1629857524869" duration="2469000" />
       <workItem from="1629897156966" duration="434000" />
       <workItem from="1629945826574" duration="2113000" />
-      <workItem from="1630017173761" duration="131000" />
+      <workItem from="1630017173761" duration="687000" />
+      <workItem from="1630034827218" duration="517000" />
+      <workItem from="1630071174909" duration="744000" />
+      <workItem from="1630119818664" duration="110000" />
+      <workItem from="1630162460165" duration="98000" />
+      <workItem from="1630199756281" duration="138000" />
+      <workItem from="1630210981035" duration="111000" />
+      <workItem from="1630253491143" duration="154000" />
+      <workItem from="1630268822036" duration="102000" />
+      <workItem from="1630333896437" duration="1109000" />
     </task>
     <servers />
   </component>
@@ -1307,6 +1328,26 @@
           <line>30</line>
           <option name="timeStamp" value="1156" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1161" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1321,6 +1362,8 @@
         <watch expression="mapEntry.getValue() % words.length" language="JAVA" />
         <watch expression="list.contains(i+1)" language="JAVA" />
         <watch expression="string.charAt(i+1)" language="JAVA" />
+        <watch expression="output.get(i-1)" language="JAVA" />
+        <watch expression="output.get(i-1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
