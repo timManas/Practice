@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangle">
+  <component name="RunManager" selected="Application.FindTheDifference">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -92,6 +91,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CountElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FindTheDifference.FindTheDifference" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.FindTheDifference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,20 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedistributeCharToMakeStringEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RedistributeCharToMakeStringEqual.RedistributeCharToMakeStringEqual" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.RedistributeCharToMakeStringEqual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -213,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheDifference" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
         <item itemvalue="Application.MinChangesAlternatingBinaryString" />
         <item itemvalue="Application.CountElements" />
-        <item itemvalue="Application.RedistributeCharToMakeStringEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +575,10 @@
       <workItem from="1630210981035" duration="111000" />
       <workItem from="1630253491143" duration="154000" />
       <workItem from="1630268822036" duration="102000" />
-      <workItem from="1630333896437" duration="1109000" />
+      <workItem from="1630333896437" duration="2205000" />
+      <workItem from="1630383184887" duration="478000" />
+      <workItem from="1630419558003" duration="813000" />
+      <workItem from="1630502913394" duration="980000" />
     </task>
     <servers />
   </component>
