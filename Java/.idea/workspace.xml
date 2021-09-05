@@ -77,23 +77,9 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheDifference">
+  <component name="RunManager" selected="Application.MonotonicArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CountElements.CountElements" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.CountElements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +133,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonotonicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MonotonicArray.MonotonicArray" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MonotonicArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MonotonicArray" />
         <item itemvalue="Application.FindTheDifference" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
         <item itemvalue="Application.MinChangesAlternatingBinaryString" />
-        <item itemvalue="Application.CountElements" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +578,13 @@
       <workItem from="1630333896437" duration="2205000" />
       <workItem from="1630383184887" duration="478000" />
       <workItem from="1630419558003" duration="813000" />
-      <workItem from="1630502913394" duration="980000" />
+      <workItem from="1630502913394" duration="1882000" />
+      <workItem from="1630549176370" duration="489000" />
+      <workItem from="1630597581152" duration="560000" />
+      <workItem from="1630686315176" duration="457000" />
+      <workItem from="1630766050120" duration="187000" />
+      <workItem from="1630799193532" duration="628000" />
+      <workItem from="1630817510589" duration="292000" />
     </task>
     <servers />
   </component>
@@ -1349,6 +1355,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/PascalsTriangle/PascalsTriangle.java</url>
           <line>42</line>
           <option name="timeStamp" value="1161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindTheDifference/FindTheDifference.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1162" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
