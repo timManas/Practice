@@ -9,9 +9,19 @@ public class MonotonicArray {
 
     public static boolean isMonotonic(int[] nums) {
 
+        // Step1 - Check if increasing or decreasing
+        boolean isIncreasing = nums[0] < nums[nums.length-1];
+
+        // Step2 - Traverse through array
         for (int i=0; i < nums.length - 1; i++) {
-            if (nums[i] > nums[i+1])
-                return false;
+            if (isIncreasing) {
+                if (nums[i] > nums[i+1])
+                    return false;
+            } else {
+                if (nums[i] < nums[i+1])
+                    return false;
+            }
+
         }
 
         return true;
