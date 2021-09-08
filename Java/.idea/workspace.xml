@@ -77,7 +77,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MonotonicArray">
+  <component name="RunManager" selected="Application.MaximumPopulationYear">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinChangesAlternatingBinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinChangesAlternatingBinaryString.MinChangesAlternatingBinaryString" />
+    <configuration name="MaximumPopulationYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MaximumPopulationYear.MaximumPopulationYear" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MinChangesAlternatingBinaryString.*" />
+          <option name="PATTERN" value="Misc.MaximumPopulationYear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,13 +174,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumPopulationYear" />
         <item itemvalue="Application.MonotonicArray" />
         <item itemvalue="Application.FindTheDifference" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
-        <item itemvalue="Application.MinChangesAlternatingBinaryString" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +589,8 @@
       <workItem from="1630817510589" duration="1532000" />
       <workItem from="1630887461239" duration="568000" />
       <workItem from="1630944459234" duration="482000" />
-      <workItem from="1630968534384" duration="466000" />
+      <workItem from="1630968534384" duration="2487000" />
+      <workItem from="1631065872185" duration="3330000" />
     </task>
     <servers />
   </component>
@@ -1364,23 +1367,21 @@
           <line>23</line>
           <option name="timeStamp" value="1162" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1164" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="grid[i][j]" language="JAVA" />
-        <watch expression="grid[i+1][0]" language="JAVA" />
-        <watch expression="lowerSet.removeAll(upperSet)" language="JAVA" />
-        <watch expression="mapEntry.getValue() % words.length" language="JAVA" />
-        <watch expression="list.contains(i+1)" language="JAVA" />
-        <watch expression="string.charAt(i+1)" language="JAVA" />
-        <watch expression="output.get(i-1)" language="JAVA" />
-        <watch expression="output.get(i-1)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
