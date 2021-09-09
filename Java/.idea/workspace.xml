@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,19 +171,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -590,7 +578,9 @@
       <workItem from="1630887461239" duration="568000" />
       <workItem from="1630944459234" duration="482000" />
       <workItem from="1630968534384" duration="2487000" />
-      <workItem from="1631065872185" duration="3330000" />
+      <workItem from="1631065872185" duration="4541000" />
+      <workItem from="1631113307114" duration="685000" />
+      <workItem from="1631151812203" duration="1984000" />
     </task>
     <servers />
   </component>
@@ -1369,13 +1359,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="1163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="1164" />
+          <line>42</line>
+          <option name="timeStamp" value="1168" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
