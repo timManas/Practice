@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/MaximumPopulationYear/MaximumPopulationYear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumPopulationYear">
+  <component name="RunManager" selected="Application.MaximumScoreAfterSplittingString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,20 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSubStringBetweenTwoCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LargestSubStringBetweenTwoCharacters.LargestSubStringBetweenTwoCharacters" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.LargestSubStringBetweenTwoCharacters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaximumPopulationYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.MaximumPopulationYear.MaximumPopulationYear" />
       <module name="Java" />
@@ -120,6 +105,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.MaximumPopulationYear.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumScoreAfterSplittingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MaximumScoreAfterSplittingString.MaximumScoreAfterSplittingString" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.MaximumScoreAfterSplittingString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -202,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumScoreAfterSplittingString" />
         <item itemvalue="Application.MaximumPopulationYear" />
         <item itemvalue="Application.MonotonicArray" />
         <item itemvalue="Application.FindTheDifference" />
         <item itemvalue="Application.PascalsTriangle" />
-        <item itemvalue="Application.LargestSubStringBetweenTwoCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +590,9 @@
       <workItem from="1630968534384" duration="2487000" />
       <workItem from="1631065872185" duration="4541000" />
       <workItem from="1631113307114" duration="685000" />
-      <workItem from="1631151812203" duration="1984000" />
+      <workItem from="1631151812203" duration="2482000" />
+      <workItem from="1631193158280" duration="580000" />
+      <workItem from="1631243873525" duration="1391000" />
     </task>
     <servers />
   </component>
