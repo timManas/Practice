@@ -70,11 +70,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.TwoSumIVInputIsBST" />
       <recent name="Trees.BinaryTreePreOrderTraversal" />
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
       <recent name="Trees.PostOrderTraversal" />
       <recent name="Trees.BinaryTreeInOrderTraversal" />
-      <recent name="LinkedList.DeleteNNodesAfterMNodesLinkedList" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MaximumScoreAfterSplittingString">
@@ -592,7 +592,10 @@
       <workItem from="1631113307114" duration="685000" />
       <workItem from="1631151812203" duration="2482000" />
       <workItem from="1631193158280" duration="580000" />
-      <workItem from="1631243873525" duration="1391000" />
+      <workItem from="1631243873525" duration="2011000" />
+      <workItem from="1631287081908" duration="454000" />
+      <workItem from="1631329657591" duration="679000" />
+      <workItem from="1631369934404" duration="1414000" />
     </task>
     <servers />
   </component>
