@@ -25,11 +25,39 @@ public class TwoSumIVInputIsBST {
         System.out.println("Found Target ? " + findTarget(treeNode1, target));
     }
 
-    public static boolean findTarget(TreeNode root, int k) {
+    public static boolean findTarget(TreeNode root, int target) {
 
         // Traverse InOrder
-
+        TreeNode node = root;
+        traverseNode(root, root, target);
 
         return false;
+    }
+
+    private static void traverseNode(TreeNode root, TreeNode node, int target) {
+
+        if (node == null)
+            return;
+
+        System.out.println("Current Node: " + node.val);
+        findNumber(root, target);
+        traverseNode(root, node.left, target);
+        traverseNode(root, node.right, target);
+    }
+
+    private static void findNumber(TreeNode node, int target) {
+        if (node == null)
+            return;
+
+
+        if (node.val == target) {
+            System.out.println("Number Found: " + node.val);
+            return;
+        }
+
+        findTarget(node.left, target);
+        findTarget(node.right, target);
+
+
     }
 }
