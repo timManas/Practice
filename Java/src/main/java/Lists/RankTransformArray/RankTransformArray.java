@@ -27,17 +27,19 @@ public class RankTransformArray {
     }
 
     public static int[] arrayRankTransform(int[] arr) {
+
+        // Step1 - Create output
         int [] output = new int [arr.length];
 
-        // Create set and sort using treeset
+        // Step2 - Create set and sort using treeset
         Set<Integer> set = new TreeSet<>();
         for (int i=0; i < arr.length; i++)
             set.add(arr[i]);
 
-        // Create output Array
+        // Step3 - Create output Array
         List<Integer> list = new ArrayList<>(set);
         for (int i=0; i < arr.length; i++) {
-            output[i] = list.indexOf(arr[i]) + 1;
+            output[i] = Collections.binarySearch(list, arr[i]) + 1;
         }
         return output;
     }
