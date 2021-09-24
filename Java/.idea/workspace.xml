@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/RankTransformArray/RankTransformArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/RankTransformArray/RankTransformArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,20 +77,20 @@
       <recent name="Trees.BinaryTreeInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RankTransformArray">
+  <component name="RunManager" selected="Application.LargestOddNumInString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumPopulationYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MaximumPopulationYear.MaximumPopulationYear" />
+    <configuration name="LargestOddNumInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.LargestOddNumInString.LargestOddNumInString" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.MaximumPopulationYear.*" />
+          <option name="PATTERN" value="Lists.LargestOddNumInString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -202,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestOddNumInString" />
         <item itemvalue="Application.RankTransformArray" />
         <item itemvalue="Application.NthTribonacciNumber" />
         <item itemvalue="Application.TwoSumIVInputIsBST" />
         <item itemvalue="Application.MaximumScoreAfterSplittingString" />
-        <item itemvalue="Application.MaximumPopulationYear" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +609,8 @@
       <workItem from="1632166425150" duration="147000" />
       <workItem from="1632174019242" duration="1812000" />
       <workItem from="1632364712573" duration="1783000" />
-      <workItem from="1632402474810" duration="685000" />
+      <workItem from="1632402474810" duration="1319000" />
+      <workItem from="1632491235021" duration="3050000" />
     </task>
     <servers />
   </component>
@@ -1398,8 +1409,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/RankTransformArray/RankTransformArray.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="1177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1179" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1410,6 +1431,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="list.indexOf(arr[i])" language="JAVA" />
+        <watch expression="left % 3" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
