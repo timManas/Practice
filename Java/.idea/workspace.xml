@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -610,7 +613,8 @@
       <workItem from="1632174019242" duration="1812000" />
       <workItem from="1632364712573" duration="1783000" />
       <workItem from="1632402474810" duration="1319000" />
-      <workItem from="1632491235021" duration="3050000" />
+      <workItem from="1632491235021" duration="3771000" />
+      <workItem from="1633490403076" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -1414,13 +1418,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java</url>
-          <line>31</line>
+          <line>42</line>
           <option name="timeStamp" value="1178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1179" />
+          <line>35</line>
+          <option name="timeStamp" value="1180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1181" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1432,6 +1441,8 @@
       <configuration name="Application">
         <watch expression="list.indexOf(arr[i])" language="JAVA" />
         <watch expression="left % 3" language="JAVA" />
+        <watch expression="239537672423884969653287101" language="JAVA" />
+        <watch expression="239537672423884969653287101" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
