@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LargestOddNumInString/LargestOddNumInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ExcelSheetColumnNum/ExcelSheetColumnNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ExcelSheetColumnNum/ExcelSheetColumnNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -614,7 +615,8 @@
       <workItem from="1632402474810" duration="1319000" />
       <workItem from="1632491235021" duration="3771000" />
       <workItem from="1633490403076" duration="2510000" />
-      <workItem from="1634001298164" duration="2728000" />
+      <workItem from="1634001298164" duration="5050000" />
+      <workItem from="1634089392453" duration="1689000" />
     </task>
     <servers />
   </component>
@@ -1428,13 +1430,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ExcelSheetColumnNum/ExcelSheetColumnNum.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="1184" />
+          <line>12</line>
+          <option name="timeStamp" value="1185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ExcelSheetColumnNum/ExcelSheetColumnNum.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1185" />
+          <line>54</line>
+          <option name="timeStamp" value="1187" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

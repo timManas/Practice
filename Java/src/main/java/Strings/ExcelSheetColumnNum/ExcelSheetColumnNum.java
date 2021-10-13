@@ -6,7 +6,9 @@ import java.util.Map;
 public class ExcelSheetColumnNum {
 
     public static void main(String [] args) {
-        String [] input = { "AB", "ZY", "FXSHRXW"};
+        // ABC=731
+        // AAA=703
+        String [] input = { "ABC", "FXSHRXW", "AB", "ZY"};
         for (String i : input)
             System.out.println("Title To Number: " + titleToNumber(i));
 
@@ -42,19 +44,18 @@ public class ExcelSheetColumnNum {
         map.put('Z', 26);
 
         int num = 0;
-        int power = 1;
-        for (int i=columnTitle.length()-1; i >= 0; i--) {
+
+        // Step1 - Traverse string from left to right
+        for (int i=0; i < columnTitle.length(); i++) {
             char letter = columnTitle.charAt(i);
             int numericValue = map.get(letter);
 
+            // Find num using formula
+            // Formula: ABC = A(1X26X26) + B(2X26) + C(3) = 731
+            num += numericValue * Math.pow(26, (columnTitle.length() - 1) - i);
 
-            if (columnTitle.length() != 1 && i == columnTitle.length() - 1) {
-                num += (numericValue * power);
-            } else {
-                num += (numericValue * 26);
-            }
 
-            power *= 10;
+            System.out.println("letter: " + letter + "  num: " + num);
         }
 
         return num;
