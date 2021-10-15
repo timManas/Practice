@@ -12,14 +12,17 @@ public class ConvertIntegersToSumOfTwoNonZero {
     public static int[] getNoZeroIntegers(int num) {
         int [] output = new int[2];
 
+        int prevX = 0;
+        int prevY = 0;
         for (int i=num; i > (num / 2); i--) {
 
 
-            int x = i-1;
-            int y = i-x;
-            System.out.println("i: " + i + "    x: " + x + "    y: " + y);
+            int x = prevX == 0 ? i-1 : i-1;
+            int y = prevY == 0 ? 1 : prevY+1;
+            System.out.println("i: " + i + "   x: " + x + "   y: " + y);
 
-
+            prevX = x;
+            prevY = y;
 
         }
 

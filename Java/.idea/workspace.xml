@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/ConvertIntegersToSumOfTwoNonZero/ConvertIntegersToSumOfTwoNonZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/ConvertIntegersToSumOfTwoNonZero/ConvertIntegersToSumOfTwoNonZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,17 +171,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -614,7 +604,8 @@
       <workItem from="1633490403076" duration="2510000" />
       <workItem from="1634001298164" duration="5050000" />
       <workItem from="1634089392453" duration="2640000" />
-      <workItem from="1634174423297" duration="758000" />
+      <workItem from="1634174423297" duration="1531000" />
+      <workItem from="1634266135098" duration="427000" />
     </task>
     <servers />
   </component>
