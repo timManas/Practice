@@ -16,10 +16,17 @@ public class ConvertIntegersToSumOfTwoNonZero {
         int prevY = 0;
         for (int i=num; i > (num / 2); i--) {
 
-
             int x = prevX == 0 ? i-1 : i-1;
             int y = prevY == 0 ? 1 : prevY+1;
-            System.out.println("i: " + i + "   x: " + x + "   y: " + y);
+
+            System.out.println("i: " + i + "  x: " + x + "  y: " + y);
+
+            // Check if x or y contains 0
+            if (!String.valueOf(x).contains("0") && !String.valueOf(y).contains("0")) {
+                output[0] = x;
+                output[1] = y;
+                break;
+            }
 
             prevX = x;
             prevY = y;
