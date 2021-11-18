@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/CountSpecialQuadruplets/CountSpecialQuadruplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/CountSpecialQuadruplets/CountSpecialQuadruplets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="Trees.BinaryTreeInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MeetingRooms">
+  <component name="RunManager" selected="Application.CountSpecialQuadruplets">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -92,6 +93,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CheckNumIsMajority.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSpecialQuadruplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountSpecialQuadruplets.CountSpecialQuadruplets" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.CountSpecialQuadruplets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,20 +149,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Num1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Num1Bits.Num1Bits" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.Num1Bits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSpecialQuadruplets" />
         <item itemvalue="Application.MeetingRooms" />
         <item itemvalue="Application.ReformatStrings" />
         <item itemvalue="Application.FloodFill" />
         <item itemvalue="Application.CheckNumIsMajority" />
-        <item itemvalue="Application.Num1Bits" />
       </list>
     </recent_temporary>
   </component>
@@ -625,7 +626,9 @@
       <workItem from="1635996510967" duration="2322000" />
       <workItem from="1636432412989" duration="721000" />
       <workItem from="1636517120214" duration="2254000" />
-      <workItem from="1636605527644" duration="161000" />
+      <workItem from="1636605527644" duration="1091000" />
+      <workItem from="1636861309911" duration="1252000" />
+      <workItem from="1637205299633" duration="1311000" />
     </task>
     <servers />
   </component>
