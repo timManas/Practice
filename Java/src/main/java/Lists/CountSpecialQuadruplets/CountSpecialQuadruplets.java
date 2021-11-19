@@ -12,26 +12,17 @@ public class CountSpecialQuadruplets {
     public static int countQuadruplets(int[] nums) {
         int count = 0;
 
+        // Step1 - Check the size of the input array
         if (nums.length <= 3)
             return count;
 
-
+        // Step2 - Traverse the array one by one
         for (int x=0; x < nums.length; x++) {
             for (int y= x+1; y < nums.length; y++) {
-
-//                if (nums[x] >= nums[y])
-//                    break;
-
                 for (int z=y+1; z < nums.length; z++) {
+                    for (int target=z+1; target < nums.length; target++) {
 
-//                    if (nums[y] >= nums[z])
-//                        break;
-
-                    for (int target=x+1; target < nums.length; target++) {
-//
-//                        if (nums[z] >= nums[target])
-//                            break;
-
+                        // Step3 - Check if elements equal to the target. Increase count
                         if (nums[x] + nums[y] + nums[z] == nums[target]) {
                             System.out.println("x: " + nums[x] + "  y: " + nums[y] + "  z: " + nums[z] + "  targer: " + nums[target]);
 
