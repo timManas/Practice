@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/CountSpecialQuadruplets/CountSpecialQuadruplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/CountSpecialQuadruplets/CountSpecialQuadruplets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +78,9 @@
       <recent name="Trees.BinaryTreeInOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountSpecialQuadruplets">
+  <component name="RunManager" selected="Application.ThreeDivisors">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckNumIsMajority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CheckNumIsMajority.CheckNumIsMajority" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.CheckNumIsMajority.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,21 +155,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.ThreeDivisors.ThreeDivisors" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.ThreeDivisors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeDivisors" />
         <item itemvalue="Application.CountSpecialQuadruplets" />
         <item itemvalue="Application.MeetingRooms" />
         <item itemvalue="Application.ReformatStrings" />
         <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.CheckNumIsMajority" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +628,8 @@
       <workItem from="1636605527644" duration="1091000" />
       <workItem from="1636861309911" duration="1252000" />
       <workItem from="1637205299633" duration="3220000" />
-      <workItem from="1637299274040" duration="2421000" />
+      <workItem from="1637299274040" duration="3018000" />
+      <workItem from="1637464285073" duration="1193000" />
     </task>
     <servers />
   </component>
@@ -1493,6 +1491,11 @@
           <line>43</line>
           <option name="timeStamp" value="1195" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/ThreeDivisors/ThreeDivisors.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1197" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1502,6 +1505,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="Math.pow(26, columnTitle.length() - i)" language="JAVA" />
+        <watch expression="n % rightElement" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
