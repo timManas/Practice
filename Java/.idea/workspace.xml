@@ -176,17 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -632,7 +621,8 @@
       <workItem from="1637299274040" duration="3018000" />
       <workItem from="1637464285073" duration="1675000" />
       <workItem from="1637534373093" duration="935000" />
-      <workItem from="1637624872962" duration="1687000" />
+      <workItem from="1637624872962" duration="2487000" />
+      <workItem from="1637638359462" duration="1521000" />
     </task>
     <servers />
   </component>
@@ -1501,13 +1491,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1198" />
+          <line>15</line>
+          <option name="timeStamp" value="1209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
           <line>29</line>
-          <option name="timeStamp" value="1203" />
+          <option name="timeStamp" value="1214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1217" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
