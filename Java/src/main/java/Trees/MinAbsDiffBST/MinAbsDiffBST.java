@@ -1,5 +1,8 @@
 package Trees.MinAbsDiffBST;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MinAbsDiffBST {
     public static void main(String [] args) {
         TreeNode node1 = new TreeNode(4);
@@ -29,10 +32,34 @@ public class MinAbsDiffBST {
     }
 
     public static int getMinimumDifference(TreeNode node) {
-        MinDiff min = new MinDiff(Integer.MAX_VALUE);
-        getMinimumDifference(node, min);
+        MinDiff min = new MinDiff(Integer.MAX_VALUE);   // Set the minValue
+        List<Integer> list = new ArrayList<>();         // Create list to store values in ascending order
+        traverseTree(node, min, list);                  // Traverse Tree
 
+        System.out.println("List: " + list);
         return min.getMin();
+    }
+
+    // Traverse InOrder
+    public static void traverseTree(TreeNode node, MinDiff min, List<Integer> list) {
+
+        // Step1 - Check if node exist
+        if (node == null)
+            return ;
+
+        // Step2 - Traverse Left
+        traverseTree(node.left, min, list);
+
+        // Step3 - Check for min Value
+        System.out.println("Node: " + node.val);
+        if (!list.isEmpty() && Math.abs(node.val - list.get(list.size()-1)) < min.getMin()) {
+            min.setMin(Math.abs(node.val - list.get(list.size()-1)));
+        }
+        // Step4 - Add current node value to list
+        list.add(node.val);
+
+        // Step5 - Traverse Right
+        traverseTree(node.right, min, list);
     }
 
     public static class MinDiff {
@@ -51,30 +78,7 @@ public class MinAbsDiffBST {
         }
     }
 
-    public static void getMinimumDifference(TreeNode node, MinDiff min) {
-
-        if (node == null)
-            return ;
-
-        System.out.println("Node: " + node.val);
-        // Node vs Left
-        if (node.left != null && min.getMin() > Math.abs(node.val - node.left.val)){
-            min.setMin(Math.abs(node.val - node.left.val));
-        }
-        // Node vs Right
-        if (node.right != null && min.getMin() > Math.abs(node.val - node.right.val)) {
-            min.setMin(Math.abs(node.val - node.right.val));
-        }
-
-        // Left vs Right
-        if (node.left != null && node.right != null && min.getMin() > Math.abs(node.left.val - node.right.val)) {
-            min.setMin(Math.abs(node.left.val - node.right.val));
-        }
 
 
-        getMinimumDifference(node.left, min);
-        getMinimumDifference(node.right, min);
 
-
-    }
 }
