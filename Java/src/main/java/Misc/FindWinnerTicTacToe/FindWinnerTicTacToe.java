@@ -1,9 +1,6 @@
 package Misc.FindWinnerTicTacToe;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class FindWinnerTicTacToe {
     public static void main(String [] args) {
@@ -35,6 +32,10 @@ public class FindWinnerTicTacToe {
             else
                 listB.add(tempList);
         }
+
+        Collections.sort(listA, (list1, list2) -> list1.get(0).compareTo(list2.get(0)));
+        Collections.sort(listB, (list1, list2) -> list1.get(0).compareTo(list2.get(0)));
+
         System.out.println("A: " + listA);
         System.out.println("B: " + listB);
 
@@ -57,24 +58,36 @@ public class FindWinnerTicTacToe {
 
     private static String checkMoves(List<List<Integer>> list, String player) {
 
-
         // Check Row
-        Set<Integer> setRow = new TreeSet<>();
+        Map<Integer,Integer> rowMap = new LinkedHashMap<>();
         for (int x=0; x < list.size(); x++) {
             System.out.println("Row:" + list.get(x).get(0));
-            setRow.add(list.get(x).get(0));
+            if (rowMap.containsKey(list.get(x).get(0)))
+                rowMap.put(list.get(x).get(0), rowMap.get(x) + 1);
+            else
+                rowMap.put(list.get(x).get(0), 1);
+
         }
-        if (setRow.size() >= 3)
-            return player;
+        for (Map.Entry<Integer, Integer> mapEntry : rowMap.entrySet()) {
+            if (mapEntry.getKey() == 3)
+                return player;
+        }
 
         // Check Column
-        Set<Integer> setCol = new TreeSet<>();
+        Map<Integer,Integer> colMap = new LinkedHashMap<>();
         for (int y=0; y < list.size(); y++) {
             System.out.println("Column: " + list.get(y).get(1));
-            setCol.add(list.get(y).get(1));
+            if (rowMap.containsKey(list.get(y).get(1)))
+                rowMap.put(list.get(y).get(1), rowMap.get(y) + 1);
+            else
+                rowMap.put(list.get(y).get(1), 1);
         }
-        if (setRow.size() >= 3)
-            return player;
+
+        for (Map.Entry<Integer, Integer> mapEntry : colMap.entrySet()) {
+            if (mapEntry.getKey() == 3)
+                return player;
+        }
+
 
         // Check Diagonal TopLeft-BottomRight
         Set<Integer> setD_TLBR = new TreeSet<>();
