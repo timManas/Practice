@@ -21,20 +21,50 @@ public class FindWinnerTicTacToe {
 
     public static String tictactoe(int[][] moves) {
         // Seperate into two A and B
-        List<int []> listA = new ArrayList<>();
-        List<int []> listB = new ArrayList<>();
+        List<List> listA = new ArrayList<>();
+        List<List> listB = new ArrayList<>();
 
         for (int i=0; i < moves.length; i++) {
+            List<Integer> tempList = new ArrayList<>();
+            tempList.add(moves[i][0]);
+            tempList.add(moves[i][1]);
             if (i % 2 == 0)
-                listA.add(moves[i]);
+                listA.add(tempList);
             else
-                listB.add(moves[i]);
+                listB.add(tempList);
         }
         System.out.println("A: " + listA);
         System.out.println("B: " + listB);
 
-        // Calculate
+
+
+        String movesA = checkMoves(listA);
+        String movesB = checkMoves(listB);
+
+        // Check Row
+        for (int i=0; i)
+
+        // Check Column
 
         return "";
+    }
+
+    private static String checkMoves(List<List> list) {
+
+        // Check Row
+        for (int x=0; x < list.size(); x++) {
+            for (int y=0; y < list.get(x).size(); y++) {
+
+            }
+        }
+
+        // Check Column
+        for (int y=0; y < list)
+
+        // Check Diagonal TopLeft-BottomRight
+
+        // Check Diagonal BottomLeft-TopRight
+
+        return "Pending";
     }
 }

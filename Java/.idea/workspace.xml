@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/FindWinnerTicTacToe/FindWinnerTicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/FindWinnerTicTacToe/FindWinnerTicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -639,7 +627,9 @@
       <workItem from="1637880191227" duration="5968000" />
       <workItem from="1638150644694" duration="2777000" />
       <workItem from="1638226804131" duration="3136000" />
-      <workItem from="1638278572918" duration="1055000" />
+      <workItem from="1638278572918" duration="2173000" />
+      <workItem from="1638327842773" duration="450000" />
+      <workItem from="1638411428721" duration="682000" />
     </task>
     <servers />
   </component>
