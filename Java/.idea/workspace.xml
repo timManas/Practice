@@ -78,7 +78,7 @@
       <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMaxDifference">
+  <component name="RunManager" selected="Application.PathCrossing">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -155,13 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.ThreeDivisors.ThreeDivisors" />
+    <configuration name="PathCrossing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.PathCrossing.PathCrossing" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.ThreeDivisors.*" />
+          <option name="PATTERN" value="Misc.PathCrossing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathCrossing" />
         <item itemvalue="Application.FindMaxDifference" />
         <item itemvalue="Application.FindWinnerTicTacToe" />
         <item itemvalue="Application.MinAbsDiffBST" />
         <item itemvalue="Application.MinCostClimbStairs" />
-        <item itemvalue="Application.ThreeDivisors" />
       </list>
     </recent_temporary>
   </component>
@@ -641,7 +643,8 @@
       <workItem from="1638327842773" duration="450000" />
       <workItem from="1638411428721" duration="4197000" />
       <workItem from="1638450236011" duration="3929000" />
-      <workItem from="1638536636688" duration="1187000" />
+      <workItem from="1638536636688" duration="2544000" />
+      <workItem from="1638639242626" duration="1604000" />
     </task>
     <servers />
   </component>
@@ -1547,6 +1550,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/FindWinnerTicTacToe/FindWinnerTicTacToe.java</url>
           <line>60</line>
           <option name="timeStamp" value="1234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/PathCrossing/PathCrossing.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1235" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
