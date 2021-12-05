@@ -175,19 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -644,7 +631,8 @@
       <workItem from="1638411428721" duration="4197000" />
       <workItem from="1638450236011" duration="3929000" />
       <workItem from="1638536636688" duration="2544000" />
-      <workItem from="1638639242626" duration="1604000" />
+      <workItem from="1638639242626" duration="2118000" />
+      <workItem from="1638715092596" duration="872000" />
     </task>
     <servers />
   </component>
