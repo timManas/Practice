@@ -647,7 +647,7 @@
       <workItem from="1638536636688" duration="2544000" />
       <workItem from="1638639242626" duration="2118000" />
       <workItem from="1638715092596" duration="2120000" />
-      <workItem from="1638795721004" duration="531000" />
+      <workItem from="1638795721004" duration="2316000" />
     </task>
     <servers />
   </component>
@@ -1561,8 +1561,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/Concatenation/Concatenation.java</url>
-          <line>37</line>
+          <line>35</line>
           <option name="timeStamp" value="1236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/Concatenation/Concatenation.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1237" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
