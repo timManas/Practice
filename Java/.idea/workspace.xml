@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/Concatenation/Concatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/Concatenation/Concatenation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +79,23 @@
       <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathCrossing">
+  <component name="RunManager" selected="Application.Concatenation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Concatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Concatenation.Concatenation" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.Concatenation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,20 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MinCostClimbStairs.MinCostClimbStairs" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.MinCostClimbStairs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -175,6 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -202,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Concatenation" />
         <item itemvalue="Application.PathCrossing" />
         <item itemvalue="Application.FindMaxDifference" />
         <item itemvalue="Application.FindWinnerTicTacToe" />
         <item itemvalue="Application.MinAbsDiffBST" />
-        <item itemvalue="Application.MinCostClimbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +646,8 @@
       <workItem from="1638450236011" duration="3929000" />
       <workItem from="1638536636688" duration="2544000" />
       <workItem from="1638639242626" duration="2118000" />
-      <workItem from="1638715092596" duration="872000" />
+      <workItem from="1638715092596" duration="2120000" />
+      <workItem from="1638795721004" duration="531000" />
     </task>
     <servers />
   </component>
@@ -1543,6 +1558,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/PathCrossing/PathCrossing.java</url>
           <line>42</line>
           <option name="timeStamp" value="1235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/Concatenation/Concatenation.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1236" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
