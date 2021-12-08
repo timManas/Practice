@@ -1,13 +1,15 @@
 package Lists.DegreeOfArray;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class DegreeOfArray {
     public static void main(String [] args) {
         int [][] input = {{1,2,2,3,1}, {1,2,2,3,1,4,2}};
         for (int [] i : input)
-            System.out.println("Shortest subArray: " + findShortestSubArray(i));
+            System.out.println("Shortest subArray: " + findShortestSubArray(i) + "\n");
     }
 
     public static int findShortestSubArray(int[] nums) {
@@ -21,18 +23,66 @@ public class DegreeOfArray {
                 map.put(i, 1);
         }
         // Find largest occurence
-        int largestElement = 0;
+        List<Integer> largestElementList = new ArrayList<>();
         int largestOccurence = 0;
         for (Map.Entry<Integer, Integer> mapEntry : map.entrySet()) {
+
             if (mapEntry.getValue() > largestOccurence) {
-                largestElement = mapEntry.getKey();
                 largestOccurence = mapEntry.getValue();
+                largestElementList.clear();
+                largestElementList.add(mapEntry.getKey());
+
+            } else if (mapEntry.getValue() == largestOccurence) {
+                largestElementList.add(mapEntry.getKey());
             }
         }
 
-        System.out.println("Largest Element: " + largestElement + "    Count: " + largestOccurence);
+        System.out.println("Largest Element: " + largestElementList + "    Count: " + largestOccurence);
+        int minSubArrayLength = Integer.MAX_VALUE;
+        // Find the largest SubArray Length
+        List<Integer> subList = new ArrayList<>();
+        for (int i=0; i < largestElementList.size(); i++) {
+            int target = largestElementList.get(i);
+
+            System.out.println("Looking for Element: " + target);
+
+            outLoop:
+            for (int start=0; start < nums.length; start++) {
+                subList.clear();
+                int count = 0;
+
+                System.out.println("Start: " + nums[start]);
+                subList.add(nums[start]);
+                if (nums[start] == target)
+                    ++count;
+
+                if (count == largestOccurence) {
+                    System.out.println("SubList: " + subList + " | Count: " + count);
+                    minSubArrayLength = Math.min(minSubArrayLength, subList.size());
+                    break;
+                }
+
+                inLoop:
+                for (int end=start + 1; end < nums.length; end++) {
+                    System.out.println("End: " + nums[end]);
+
+                    subList.add(nums[end]);
+                    if (nums[end] == target)
+                        ++count;
+
+                    if (count == largestOccurence) {
+                        System.out.println("SubList: " + subList + " | Count: " + count);
+                        minSubArrayLength = Math.min(minSubArrayLength, subList.size());
+                        break inLoop;
+                    }
 
 
-        return 0;
+                }
+            }
+        }
+
+
+
+        return minSubArrayLength;
     }
 }

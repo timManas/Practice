@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,17 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -645,7 +635,8 @@
       <workItem from="1638639242626" duration="2118000" />
       <workItem from="1638715092596" duration="2120000" />
       <workItem from="1638795721004" duration="3128000" />
-      <workItem from="1638881863946" duration="1073000" />
+      <workItem from="1638881863946" duration="1834000" />
+      <workItem from="1638968535623" duration="3397000" />
     </task>
     <servers />
   </component>
@@ -1569,8 +1560,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1238" />
+          <line>46</line>
+          <option name="timeStamp" value="1241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1243" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
