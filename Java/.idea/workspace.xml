@@ -176,6 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -636,7 +647,8 @@
       <workItem from="1638715092596" duration="2120000" />
       <workItem from="1638795721004" duration="3128000" />
       <workItem from="1638881863946" duration="1834000" />
-      <workItem from="1638968535623" duration="3397000" />
+      <workItem from="1638968535623" duration="3961000" />
+      <workItem from="1639056842295" duration="1677000" />
     </task>
     <servers />
   </component>
@@ -1560,13 +1572,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
-          <line>46</line>
+          <line>38</line>
           <option name="timeStamp" value="1241" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="1243" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
