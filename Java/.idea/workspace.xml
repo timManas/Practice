@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DegreeOfArray">
+  <component name="RunManager" selected="Application.KthMissingNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -128,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindWinnerTicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.FindWinnerTicTacToe.FindWinnerTicTacToe" />
+    <configuration name="KthMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.KthMissingNumber.KthMissingNumber" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.FindWinnerTicTacToe.*" />
+          <option name="PATTERN" value="Lists.KthMissingNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthMissingNumber" />
         <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.Concatenation" />
         <item itemvalue="Application.PathCrossing" />
         <item itemvalue="Application.FindMaxDifference" />
-        <item itemvalue="Application.FindWinnerTicTacToe" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +649,8 @@
       <workItem from="1638795721004" duration="3128000" />
       <workItem from="1638881863946" duration="1834000" />
       <workItem from="1638968535623" duration="3961000" />
-      <workItem from="1639056842295" duration="3319000" />
+      <workItem from="1639056842295" duration="3479000" />
+      <workItem from="1639144009689" duration="1157000" />
     </task>
     <servers />
   </component>
