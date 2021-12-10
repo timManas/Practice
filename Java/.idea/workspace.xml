@@ -648,7 +648,7 @@
       <workItem from="1638795721004" duration="3128000" />
       <workItem from="1638881863946" duration="1834000" />
       <workItem from="1638968535623" duration="3961000" />
-      <workItem from="1639056842295" duration="1677000" />
+      <workItem from="1639056842295" duration="3319000" />
     </task>
     <servers />
   </component>
@@ -1572,7 +1572,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
-          <line>38</line>
+          <line>56</line>
           <option name="timeStamp" value="1241" />
         </line-breakpoint>
       </breakpoints>
