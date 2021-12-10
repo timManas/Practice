@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/KthMissingNumber/KthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/KthMissingNumber/KthMissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -650,7 +651,7 @@
       <workItem from="1638881863946" duration="1834000" />
       <workItem from="1638968535623" duration="3961000" />
       <workItem from="1639056842295" duration="3479000" />
-      <workItem from="1639144009689" duration="1157000" />
+      <workItem from="1639144009689" duration="3065000" />
     </task>
     <servers />
   </component>
