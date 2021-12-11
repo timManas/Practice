@@ -28,26 +28,31 @@ public class KthMissingNumber {
 
     public static  int findKthPositive(int[] arr, int k) {
 
-
-
+        // Step1 - Create index which track 1. arrayIndex 2. currentNumber 3. counter for missing numbers 4. kthElement
         int arrIndex = 0;
         int currentNumber = 1;
         int countMissNumber = 0;
         int kthElement = 0;
+
+        // Step2 - Traverse while loop until we reach k  number of missing numbers
         while (countMissNumber < k) {
 
+            // Step3 - Continue if currentNumber is part of the array
             if (arrIndex <= arr.length - 1 && currentNumber == arr[arrIndex]) {
                 ++arrIndex;
                 ++currentNumber;
                 continue;
             }
 
+            // Step4 - Set the kth Element if not part of the number
             System.out.print(currentNumber + ",");
+            kthElement = currentNumber;
+
+            // Step5 - Increase counters
             ++currentNumber;
             ++countMissNumber;
-            kthElement = currentNumber;
         }
-        System.out.print(currentNumber + ",");
+
 
         return kthElement;
     }
