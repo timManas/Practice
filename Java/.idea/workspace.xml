@@ -176,15 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -651,7 +649,8 @@
       <workItem from="1638881863946" duration="1834000" />
       <workItem from="1638968535623" duration="3961000" />
       <workItem from="1639056842295" duration="3479000" />
-      <workItem from="1639144009689" duration="3065000" />
+      <workItem from="1639144009689" duration="3239000" />
+      <workItem from="1639190826544" duration="2270000" />
     </task>
     <servers />
   </component>
@@ -1577,6 +1576,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DegreeOfArray/DegreeOfArray.java</url>
           <line>56</line>
           <option name="timeStamp" value="1241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/KthMissingNumber/KthMissingNumber.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1243" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
