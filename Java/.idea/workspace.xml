@@ -78,7 +78,7 @@
       <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RansomNote">
+  <component name="RunManager" selected="Application.RelativeRank">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,20 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathCrossing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.PathCrossing.PathCrossing" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.PathCrossing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.RansomNote.RansomNote" />
       <module name="Java" />
@@ -169,19 +155,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RelativeRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.RelativeRank.RelativeRank" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.RelativeRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RelativeRank" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.KthMissingNumber" />
         <item itemvalue="Application.DegreeOfArray" />
         <item itemvalue="Application.Concatenation" />
-        <item itemvalue="Application.PathCrossing" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +653,8 @@
       <workItem from="1639144009689" duration="3239000" />
       <workItem from="1639190826544" duration="2369000" />
       <workItem from="1639243875950" duration="1136000" />
-      <workItem from="1639279097172" duration="1422000" />
+      <workItem from="1639279097172" duration="2277000" />
+      <workItem from="1639348262597" duration="1057000" />
     </task>
     <servers />
   </component>
@@ -1585,13 +1588,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/RansomNote/RansomNote.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="1248" />
+          <line>17</line>
+          <option name="timeStamp" value="1249" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/RansomNote/RansomNote.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1249" />
+          <line>54</line>
+          <option name="timeStamp" value="1251" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
