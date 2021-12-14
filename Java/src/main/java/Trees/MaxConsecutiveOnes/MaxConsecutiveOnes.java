@@ -9,22 +9,26 @@ public class MaxConsecutiveOnes {
 
     public static int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
-        for (int i=0; i < nums.length; i++) {
-            int left = -1;
-            int right = -1;
 
-            int leftIndex = (2*i) + 1;
-            int rightIndex = (2*i) + 2;
-
-
-            if (leftIndex < nums.length)
-                left = nums[leftIndex];
-            if (rightIndex < nums.length)
-                right = nums[rightIndex];
-
-            System.out.println("i: " + i + "    current: " + nums[i] + "    left: " + left + "    right: " + right);
-        }
+        int consecutiveOnes = 0;
+        traverseArray(nums, 0);
 
         return max;
+    }
+
+    private static void traverseArray(int[] nums, int index) {
+
+        if (index >= nums.length)
+            return;
+
+        int leftIndex = (2*index) + 1;
+        int rightIndex = (2*index) + 2;
+
+
+        traverseArray(nums, leftIndex);
+        System.out.println("Current: " + nums[index]);
+        traverseArray(nums, rightIndex);
+
+
     }
 }
