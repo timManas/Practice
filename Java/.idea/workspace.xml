@@ -176,6 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -644,7 +655,8 @@
       <workItem from="1639279097172" duration="2277000" />
       <workItem from="1639348262597" duration="1528000" />
       <workItem from="1639404391002" duration="1864000" />
-      <workItem from="1639454700929" duration="608000" />
+      <workItem from="1639454700929" duration="762000" />
+      <workItem from="1639488481739" duration="2248000" />
     </task>
     <servers />
   </component>
@@ -1588,8 +1600,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
-          <line>39</line>
+          <line>24</line>
           <option name="timeStamp" value="1252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1257" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
