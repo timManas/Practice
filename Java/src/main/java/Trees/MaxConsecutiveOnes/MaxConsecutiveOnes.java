@@ -11,44 +11,38 @@ public class MaxConsecutiveOnes {
     }
 
     public static int findMaxConsecutiveOnes(int[] nums) {
-        Map<String, Integer> map = new LinkedHashMap<>();
-        map.put("max", 0);
-        map.put("consecutive", 0);
-        map.put("prevElement", -1);
-        traverseArray(nums, 0, map);
 
-        return map.get("max");
-    }
+        // Step1 - Create variable for maxLength and currentLength
+        int maxLength = 0;
+        int currentLength = 0;
+        int prev = -1;
 
-    private static void traverseArray(int[] nums, int index, Map<String, Integer> map) {
+        // Step2 - Traverse array front to back
+        for (int i=0; i < nums.length; i++) {
+            int current = nums[i];
 
-        if (index >= nums.length)
-            return;
+            // Step3 - Check if 1 or 0
+            if (nums[i] == 1) {
 
-        int leftIndex = (2*index) + 1;
-        int rightIndex = (2*index) + 2;
-
-        System.out.println("Current: " + nums[index]);
-
-        if (nums[index] == 1) {
-
-            if (map.get("prevElement") == 1) {
-                map.put("consecutive", map.get("consecutive") + 1);
-            } else {
-                map.put("consecutive", 1);
-            }
-        } else {
-            if (map.get("prevElement") == 1) {
-                if (map.get("max") < map.get("consecutive")) {
-                    map.put("max", map.get("consecutive"));
-                    map.put("consecutive", 0);      // Reset
+                // Check if prev and current are both 1's
+                if (prev == current) {
+                    ++currentLength;
+                } else {
+                    currentLength = 1;
                 }
+            } else {
+                // Reset counters
+                maxLength =  maxLength < currentLength ? currentLength : maxLength;
+                currentLength = 0;
             }
+
+            prev = current;
         }
-        map.put("prevElement", nums[index]);
 
-        traverseArray(nums, leftIndex, map);
-        traverseArray(nums, rightIndex, map);
+        maxLength =  maxLength < currentLength ? currentLength : maxLength;
 
+
+        return maxLength;
     }
+
 }

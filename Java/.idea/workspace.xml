@@ -656,7 +656,7 @@
       <workItem from="1639348262597" duration="1528000" />
       <workItem from="1639404391002" duration="1864000" />
       <workItem from="1639454700929" duration="762000" />
-      <workItem from="1639488481739" duration="2248000" />
+      <workItem from="1639488481739" duration="5833000" />
     </task>
     <servers />
   </component>
@@ -1600,18 +1600,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="1252" />
+          <line>27</line>
+          <option name="timeStamp" value="1260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="1255" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="1257" />
+          <line>34</line>
+          <option name="timeStamp" value="1261" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1625,6 +1620,7 @@
         <watch expression="value" language="JAVA" />
         <watch expression="2 != 2" language="JAVA" />
         <watch expression="2 == 2" language="JAVA" />
+        <watch expression="nums[index]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
