@@ -23,7 +23,31 @@ public class DetermineMatrixObtainedByRotation {
         if (matMap.size() != targetMap.size() || matMap.get(0) != targetMap.get(0) || matMap.get(1) != targetMap.get(1))
             return false;
 
+        // Rotate and Compare to target array
+        for (int i=0; i < 4; i++) {
+            if (!isMatch(mat, target))
+                return false;
 
+            rotateMatrix(mat);
+        }
+
+
+        return true;
+    }
+
+
+    private static void rotateMatrix(int[][] mat) {
+
+    }
+
+
+    private static boolean isMatch(int[][] mat, int[][] target) {
+        for (int i=0; i<mat.length; i++) {
+            for (int j=0; j<target.length; j++) {
+                if (mat[i][j] != target[i][j])
+                    return false;
+            }
+        }
 
         return true;
     }
