@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +78,20 @@
       <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.DetermineMatrixObtainedByRotation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DegreeOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.DegreeOfArray.DegreeOfArray" />
+    <configuration name="DetermineMatrixObtainedByRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.DetermineMatrixObtainedByRotation.DetermineMatrixObtainedByRotation" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.DegreeOfArray.*" />
+          <option name="PATTERN" value="Lists.DetermineMatrixObtainedByRotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetermineMatrixObtainedByRotation" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.RelativeRank" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.KthMissingNumber" />
-        <item itemvalue="Application.DegreeOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +655,9 @@
       <workItem from="1639348262597" duration="1528000" />
       <workItem from="1639404391002" duration="1864000" />
       <workItem from="1639454700929" duration="762000" />
-      <workItem from="1639488481739" duration="5833000" />
+      <workItem from="1639488481739" duration="5860000" />
+      <workItem from="1639572317292" duration="183000" />
+      <workItem from="1639572537090" duration="1113000" />
     </task>
     <servers />
   </component>
