@@ -24,27 +24,33 @@ public class DetermineMatrixObtainedByRotation {
 
     public static boolean findRotation(int[][] mat, int[][] target) {
 
-        // Check if there is the same amount of 1's
+        System.out.println("Original");
+        printMatrix(mat);
+
+        // Step1 - Check if there is the same amount of 1's
         Map<Integer, Integer> matMap = populateMap(mat);
         Map<Integer, Integer> targetMap = populateMap(target);
-
         if (matMap.size() != targetMap.size() || matMap.get(0) != targetMap.get(0) || matMap.get(1) != targetMap.get(1))
             return false;
 
-        // Rotate and Compare to target array
+        // Step2 - Rotate and Compare to target array
+        // Rotate up to 4 times
         for (int i=0; i < 4; i++) {
-
+            System.out.println("----Rotation #" + (i + 1));
             rotateMatrix(mat);
-            if (!isMatch(mat, target))
-                return false;
+
+            // Step3 - Check if match occurs
+            if (isMatch(mat, target))
+                return true;
 
         }
 
 
-        return true;
+        return false;
     }
 
     // Rotate Matrix in place
+    // Rotate in a circular fasion (clockwise)
     private static void rotateMatrix(int[][] mat) {
         // Store element in List
         List<Integer> list = new ArrayList<>();
@@ -58,8 +64,9 @@ public class DetermineMatrixObtainedByRotation {
 
     }
 
-
+    // Rotate starting from 0,0  in the direction of clock wise
     private static void retrieveList(int[][] mat, int i, List<Integer> list) {
+        System.out.println("\nRetrive List");
         // X: 0->N
         for (int col=i; col < mat[i].length - i; col++) {
             System.out.print(mat[i][col] + ",");
@@ -90,7 +97,9 @@ public class DetermineMatrixObtainedByRotation {
         System.out.println("List: " + list);
     }
 
+    // Populate the same matrix with the values from the list
     private static void populateList(int[][] mat, int i, List<Integer> list) {
+        System.out.println("\nPopulate List");
         int index = 0;
 
         // Y: 0->N
