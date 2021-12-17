@@ -35,10 +35,8 @@ public class DetermineMatrixObtainedByRotation {
         for (int i=0; i < 4; i++) {
 
             rotateMatrix(mat);
-
             if (!isMatch(mat, target))
                 return false;
-
 
         }
 
@@ -53,34 +51,85 @@ public class DetermineMatrixObtainedByRotation {
 
         // Start from 0,0
         for (int i=0; i < mat.length / 2; i++) {
-
-            // X: 0 - N
-            for (int col=i; col < mat[i].length - i; col++) {
-                System.out.print(mat[i][col] + ",");
-            }
-            System.out.println();
-
-            // Y: 0 - N
-            for (int row=i; row < mat.length - i; row++) {
-                System.out.print(mat[row][mat.length - 1 - i] + ",");
-            }
-            System.out.println();
-
-            // X: N-0
-            for(int col=mat[i].length - 1 - i; col >= i; col--) {
-                System.out.print(mat[mat.length - 1 - i][col] + ",");
-            }
-            System.out.println();
-
-            for (int row=mat.length - 1 - i; row >= i; row--) {
-                System.out.print(mat[row][i] + ",");
-            }
-            System.out.println();
-
-
-
+            retrieveList(mat, i, list);
+            System.out.println("\nRotating clockwise");
+            populateList(mat, i, list);
         }
 
+    }
+
+
+    private static void retrieveList(int[][] mat, int i, List<Integer> list) {
+        // X: 0->N
+        for (int col=i; col < mat[i].length - i; col++) {
+            System.out.print(mat[i][col] + ",");
+            list.add(mat[i][col]);
+        }
+        System.out.println();
+
+        // Y: 0->N
+        for (int row=i; row < mat.length - i; row++) {
+            System.out.print(mat[row][mat.length - 1 - i] + ",");
+            list.add(mat[row][mat.length - 1 - i]);
+        }
+        System.out.println();
+
+        // X: N->0
+        for(int col=mat[i].length - 1 - i; col >= i; col--) {
+            System.out.print(mat[mat.length - 1 - i][col] + ",");
+            list.add(mat[mat.length - 1 - i][col]);
+        }
+        System.out.println();
+
+        // Y: N->0
+        for (int row=mat.length - 1 - i; row >= i; row--) {
+            System.out.print(mat[row][i] + ",");
+            list.add(mat[row][i]);
+        }
+        System.out.println();
+        System.out.println("List: " + list);
+    }
+
+    private static void populateList(int[][] mat, int i, List<Integer> list) {
+        int index = 0;
+
+        // Y: 0->N
+        for (int row=i; row < mat.length - i; row++) {
+            mat[row][mat.length - 1 - i] = list.get(index);
+            ++index;
+        }
+
+        // X: N->0
+        for(int col=mat[i].length - 1 - i; col >= i; col--) {
+            mat[mat.length - 1 - i][col] = list.get(index);
+            ++index;
+        }
+
+        // Y: N->0
+        for (int row=mat.length - 1 - i; row >= i; row--) {
+            mat[row][i] = list.get(index);
+            ++index;
+        }
+
+        // X: 0->N
+        for (int col=i; col < mat[i].length - i; col++) {
+            mat[i][col] = list.get(index);
+            ++index;
+        }
+
+        printMatrix(mat);
+
+        list.clear();
+    }
+
+    private static void printMatrix(int[][] mat) {
+        System.out.println("Displaying Matrix");
+        for (int i=0; i < mat.length; i++) {
+            for (int j=0; j < mat[i].length; j++) {
+                System.out.print(mat[i][j] + ",");
+            }
+            System.out.println();
+        }
     }
 
 
@@ -109,4 +158,6 @@ public class DetermineMatrixObtainedByRotation {
 
         return matMap;
     }
+
+
 }
