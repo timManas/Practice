@@ -10,6 +10,11 @@ public class SumOfLeftLeaves {
         TreeNode node3 = new TreeNode(20);
         TreeNode node4 = new TreeNode(15);
         TreeNode node5 = new TreeNode(7);
+        
+        node1.left = node2;
+        node1.right = node3;
+        node3.left = node4;
+        node3.right = node5;
 
         System.out.println("Sum Left Leaves: " + sumOfLeftLeaves(node1));
     }
@@ -27,10 +32,16 @@ public class SumOfLeftLeaves {
         if (node == null)
             return;
 
+        if (node.left != null && node.left.left == null && node.left.right == null) {
+            map.put("sum", map.get("sum") + 1);
+        }
+
         traverseTree(node.left, map);
         traverseTree(node.right, map);
 
-        if (node.left == null )
+        System.out.println("Current: " + node.val);
+
+
 
     }
 }
