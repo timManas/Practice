@@ -662,7 +662,7 @@
       <workItem from="1639660194028" duration="3456000" />
       <workItem from="1639719964809" duration="2688000" />
       <workItem from="1639786353024" duration="491000" />
-      <workItem from="1639871862164" duration="622000" />
+      <workItem from="1639871862164" duration="1513000" />
     </task>
     <servers />
   </component>
@@ -1620,14 +1620,5 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="magazineMap.get(letter)" language="JAVA" />
-        <watch expression="value" language="JAVA" />
-        <watch expression="2 != 2" language="JAVA" />
-        <watch expression="2 == 2" language="JAVA" />
-        <watch expression="nums[index]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

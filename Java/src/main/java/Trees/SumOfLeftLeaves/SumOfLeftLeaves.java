@@ -29,19 +29,20 @@ public class SumOfLeftLeaves {
 
     private static void traverseTree(TreeNode node, Map<String, Integer> map) {
 
+        // Step1 - Check if node is null
         if (node == null)
             return;
 
+        // Step2 - Check if node left child is a leaf
         if (node.left != null && node.left.left == null && node.left.right == null) {
-            map.put("sum", map.get("sum") + 1);
+            map.put("sum", map.get("sum") + node.left.val);
         }
-
-        traverseTree(node.left, map);
-        traverseTree(node.right, map);
 
         System.out.println("Current: " + node.val);
 
-
+        // Step3 - Traverse tree using preOrder traversal
+        traverseTree(node.left, map);
+        traverseTree(node.right, map);
 
     }
 }
