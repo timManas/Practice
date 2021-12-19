@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/DetermineMatrixObtainedByRotation/DetermineMatrixObtainedByRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/DetermineMatrixObtainedByRotation/DetermineMatrixObtainedByRotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +71,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.SumOfLeftLeaves" />
       <recent name="Trees.MinAbsDiffBST" />
       <recent name="Trees.TwoSumIVInputIsBST" />
       <recent name="Trees.BinaryTreePreOrderTraversal" />
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
-      <recent name="Trees.PostOrderTraversal" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DetermineMatrixObtainedByRotation">
@@ -172,17 +171,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -660,7 +648,9 @@
       <workItem from="1639572317292" duration="183000" />
       <workItem from="1639572537090" duration="2294000" />
       <workItem from="1639660194028" duration="3456000" />
-      <workItem from="1639719964809" duration="2617000" />
+      <workItem from="1639719964809" duration="2688000" />
+      <workItem from="1639786353024" duration="491000" />
+      <workItem from="1639871862164" duration="320000" />
     </task>
     <servers />
   </component>
