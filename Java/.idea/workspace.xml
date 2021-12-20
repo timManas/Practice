@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/SumOfLeftLeaves/SumOfLeftLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/SumOfLeftLeaves/SumOfLeftLeaves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,17 +171,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -662,7 +650,8 @@
       <workItem from="1639660194028" duration="3456000" />
       <workItem from="1639719964809" duration="2688000" />
       <workItem from="1639786353024" duration="491000" />
-      <workItem from="1639871862164" duration="1513000" />
+      <workItem from="1639871862164" duration="2272000" />
+      <workItem from="1639972839304" duration="156000" />
     </task>
     <servers />
   </component>
@@ -1613,6 +1602,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Trees/MaxConsecutiveOnes/MaxConsecutiveOnes.java</url>
           <line>34</line>
           <option name="timeStamp" value="1261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/SumOfLeftLeaves/SumOfLeftLeaves.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1263" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
