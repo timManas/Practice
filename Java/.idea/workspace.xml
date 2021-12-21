@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DetectCapital">
+  <component name="RunManager" selected="Application.DistanceBetweenBusStops">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -128,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MaxConsecutiveOnes.MaxConsecutiveOnes" />
+    <configuration name="DistanceBetweenBusStops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.DistanceBetweenBusStops.DistanceBetweenBusStops" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.MaxConsecutiveOnes.*" />
+          <option name="PATTERN" value="Misc.DistanceBetweenBusStops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistanceBetweenBusStops" />
         <item itemvalue="Application.DetectCapital" />
         <item itemvalue="Application.CheckIfStringIsPrefixArray" />
         <item itemvalue="Application.SumOfLeftLeaves" />
         <item itemvalue="Application.DetermineMatrixObtainedByRotation" />
-        <item itemvalue="Application.MaxConsecutiveOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +665,8 @@
       <workItem from="1639786353024" duration="491000" />
       <workItem from="1639871862164" duration="2272000" />
       <workItem from="1639972839304" duration="2099000" />
-      <workItem from="1640014551577" duration="1819000" />
+      <workItem from="1640014551577" duration="2624000" />
+      <workItem from="1640052952070" duration="659000" />
     </task>
     <servers />
   </component>
@@ -1628,17 +1630,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1269" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1270" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="1272" />
         </line-breakpoint>
       </breakpoints>
