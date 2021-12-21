@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -666,7 +667,7 @@
       <workItem from="1639871862164" duration="2272000" />
       <workItem from="1639972839304" duration="2099000" />
       <workItem from="1640014551577" duration="2624000" />
-      <workItem from="1640052952070" duration="659000" />
+      <workItem from="1640052952070" duration="1276000" />
     </task>
     <servers />
   </component>
@@ -1632,6 +1633,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/DetectCapital/DetectCapital.java</url>
           <line>28</line>
           <option name="timeStamp" value="1272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1274" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

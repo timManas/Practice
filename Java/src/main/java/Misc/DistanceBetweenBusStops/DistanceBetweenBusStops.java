@@ -2,10 +2,10 @@ package Misc.DistanceBetweenBusStops;
 
 public class DistanceBetweenBusStops {
     public static void main(String [] args) {
-//       int [] distance = {1,2,3,4};
-//       int start = 0;
-//       int destination = 1;
-//       System.out.println("Distance Between Bus Stops: " + distanceBetweenBusStops(distance, start, destination) + "\n");
+       int [] distance = {1,2,3,4};
+       int start = 0;
+       int destination = 1;
+       System.out.println("Distance Between Bus Stops: " + distanceBetweenBusStops(distance, start, destination) + "\n");
 
         int [] distance1 = {7,10,1,12,11,14,5,0};
         int start1 = 7;
@@ -15,9 +15,12 @@ public class DistanceBetweenBusStops {
     }
 
     public static int distanceBetweenBusStops(int[] distance, int start, int destination) {
+
+        // Step1 - Create variables to track distance moving forward and backwards
         int forwardDistance = 0;
         int backwardDistance = 0;
 
+        // Step2 - Traverse Forward
         int i = start;
         while ( i != destination) {
             int current = distance[i];
@@ -25,12 +28,14 @@ public class DistanceBetweenBusStops {
             forwardDistance += current;
 
             ++i;
+            if (i >= distance.length)
+                i = 0;
         }
         System.out.println("forwardDistance: " + forwardDistance + "\n");
 
+        // Step3 - Traverse Backward
         int x = start;
         while ( x != destination) {
-
             --x;
             if (x < 0)
                 x = distance.length - 1;
@@ -43,9 +48,7 @@ public class DistanceBetweenBusStops {
         }
         System.out.println("backwardDistance: " + backwardDistance);
 
-
-
-
+        // Step4 - Find the min
         return Math.min(forwardDistance, backwardDistance);
     }
 }
