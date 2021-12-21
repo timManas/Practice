@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DistanceBetweenBusStops">
+  <component name="RunManager" selected="Application.CountOddNumbersIntervalRange">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -100,13 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.DetectCapital.DetectCapital" />
+    <configuration name="CountOddNumbersIntervalRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountOddNumbersIntervalRange.CountOddNumbersIntervalRange" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.DetectCapital.*" />
+          <option name="PATTERN" value="Lists.CountOddNumbersIntervalRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetermineMatrixObtainedByRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.DetermineMatrixObtainedByRotation.DetermineMatrixObtainedByRotation" />
+    <configuration name="DetectCapital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.DetectCapital.DetectCapital" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.DetermineMatrixObtainedByRotation.*" />
+          <option name="PATTERN" value="Strings.DetectCapital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountOddNumbersIntervalRange" />
         <item itemvalue="Application.DistanceBetweenBusStops" />
         <item itemvalue="Application.DetectCapital" />
         <item itemvalue="Application.CheckIfStringIsPrefixArray" />
         <item itemvalue="Application.SumOfLeftLeaves" />
-        <item itemvalue="Application.DetermineMatrixObtainedByRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -667,7 +664,8 @@
       <workItem from="1639871862164" duration="2272000" />
       <workItem from="1639972839304" duration="2099000" />
       <workItem from="1640014551577" duration="2624000" />
-      <workItem from="1640052952070" duration="1276000" />
+      <workItem from="1640052952070" duration="1895000" />
+      <workItem from="1640095573618" duration="741000" />
     </task>
     <servers />
   </component>
