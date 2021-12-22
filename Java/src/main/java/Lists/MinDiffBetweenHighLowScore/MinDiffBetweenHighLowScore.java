@@ -1,6 +1,9 @@
 package Lists.MinDiffBetweenHighLowScore;
 
 import java.util.Arrays;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class MinDiffBetweenHighLowScore {
     public static void main(String [] args) {
@@ -23,23 +26,45 @@ public class MinDiffBetweenHighLowScore {
     }
 
     public static int minimumDifference(int[] nums, int k) {
+        // Step0 - If k=1, then just return 0
         if (k == 1)
             return 0;
 
-        // Sort Min Diff
+        // Step1 - Sort nums array in ascending order
         Arrays.sort(nums);
         for (int i=0; i < nums.length; i++)
             System.out.print(nums[i] +",");
         System.out.println();
 
-        int min = Integer.MAX_VALUE;
-        for (int i=0; i < nums.length - 1; i++) {
+        // Step2 - Create Deqeue to keep track of high and low
+        Deque<Integer> queue = new LinkedList<>();
+        int low = 0;
+        int high = 0;
+        int minDiff = Integer.MAX_VALUE;
+
+        // Step4 - Traverse the nums and populate the queue
+        for (int i=0; i < nums.length; i++) {
             int current = nums[i];
-            int next = nums[i+1];
-            min = min > Math.abs(next - current) ? Math.abs(next - current) : min;
-            System.out.println("nums[i]:" + nums[i] + "     Min: " + min);
+
+            if (queue.size() < k){
+                queue.addLast(current);
+            } else if (queue.size() >= k) {
+                // Get rid of the bottom element
+                queue.pop();
+
+                // Update Queue
+                queue.addLast(current);
+            }
+
+            // Check 4b- Check if the queue size == k, then update the minDiff
+            if (queue.size() == k) {
+                low = queue.getFirst();
+                high = current;
+                minDiff = minDiff > Math.abs(high - low) ? Math.abs(high - low) : minDiff;
+            }
+            System.out.println("nums[i]:" + nums[i] + "     queue: " + queue + "");
         }
 
-        return min;
+        return minDiff;
     }
 }
