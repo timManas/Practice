@@ -672,7 +672,7 @@
       <workItem from="1640137185396" duration="1814000" />
       <workItem from="1640183654373" duration="1988000" />
       <workItem from="1640239825848" duration="1193000" />
-      <workItem from="1640278065044" duration="942000" />
+      <workItem from="1640278065044" duration="1543000" />
     </task>
     <servers />
   </component>
@@ -1643,6 +1643,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/DistanceBetweenBusStops/DistanceBetweenBusStops.java</url>
           <line>30</line>
           <option name="timeStamp" value="1274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/Find3DigitNumber/Find3DigitNumber.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1275" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
