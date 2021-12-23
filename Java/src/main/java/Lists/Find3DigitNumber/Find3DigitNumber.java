@@ -1,9 +1,7 @@
 package Lists.Find3DigitNumber;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Find3DigitNumber {
     public static void main(String [] args) {
@@ -17,14 +15,33 @@ public class Find3DigitNumber {
 
 
     public static int[] findEvenNumbers(int[] digits) {
-        List<Integer> list = new ArrayList<>();
+        Set<Integer> set = new TreeSet<>();
 
         // Sort digits
         Arrays.sort(digits);
         printArray(digits);
 
+        StringBuilder sb = new StringBuilder();
+        int start = digits[0] == 0 ? 1 : 0;
+
+        for (int i=start; i < digits.length; i++) {
+            for (int j=0; j < digits.length; j++) {
+                for (int k=0; k < digits.length; k++) {
+
+                    if (digits[i] == digits[j] || digits[i] == digits[k] || digits[j] == digits[k])
+                        continue;
+
+                    int number = 100 * digits[i] + 10 * digits[j] + digits[k];
+                    if (number % 2 == 0)
+                        set.add(number);
+                    System.out.println(number);
+                }
+            }
+        }
+
 
         // Convert to array and return
+        List<Integer> list = new ArrayList<>(set);
         int [] output = new int[list.size()];
         for (int i=0; i<list.size(); i++){
             output[i] = list.get(i);
@@ -33,8 +50,9 @@ public class Find3DigitNumber {
     }
 
     private static void printArray(int[] output) {
-        System.out.println("\nPrint rArray-----");
+        System.out.println("\nPrint Array-----");
         for (int i : output)
             System.out.print(i + ",");
+        System.out.println();
     }
 }
