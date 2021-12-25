@@ -12,8 +12,6 @@ public class Find3DigitNumber {
         }
     }
 
-
-
     public static int[] findEvenNumbers(int[] digits) {
         // Step1 - Create set to store unique numbers
         Set<Integer> set = new TreeSet<>();
@@ -46,7 +44,6 @@ public class Find3DigitNumber {
                 }
             }
         }
-
 
         // Step4 - Convert to array and return
         List<Integer> list = new ArrayList<>(set);
