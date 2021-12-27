@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -673,7 +661,8 @@
       <workItem from="1640239825848" duration="1193000" />
       <workItem from="1640278065044" duration="2568000" />
       <workItem from="1640471285369" duration="2424000" />
-      <workItem from="1640558724255" duration="1678000" />
+      <workItem from="1640558724255" duration="2678000" />
+      <workItem from="1640621062227" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -1649,6 +1638,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/Find3DigitNumber/Find3DigitNumber.java</url>
           <line>33</line>
           <option name="timeStamp" value="1275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1276" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
