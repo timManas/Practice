@@ -78,23 +78,9 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RangeSumQueryImmutable">
+  <component name="RunManager" selected="Application.MinIndexSumTwoLists">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountOddNumbersIntervalRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CountOddNumbersIntervalRange.CountOddNumbersIntervalRange" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.CountOddNumbersIntervalRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MinDiffBetweenHighLowScore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinIndexSumTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinIndexSumTwoLists.MinIndexSumTwoLists" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MinIndexSumTwoLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinIndexSumTwoLists" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
         <item itemvalue="Application.PerformStringShifts" />
         <item itemvalue="Application.Find3DigitNumber" />
         <item itemvalue="Application.MinDiffBetweenHighLowScore" />
-        <item itemvalue="Application.CountOddNumbersIntervalRange" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +673,7 @@
       <workItem from="1640239825848" duration="1193000" />
       <workItem from="1640278065044" duration="2568000" />
       <workItem from="1640471285369" duration="2424000" />
-      <workItem from="1640558724255" duration="398000" />
+      <workItem from="1640558724255" duration="1678000" />
     </task>
     <servers />
   </component>
