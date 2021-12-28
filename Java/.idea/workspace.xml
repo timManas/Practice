@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinIndexSumTwoLists">
+  <component name="RunManager" selected="Application.MinMovesConvertString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -100,20 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDiffBetweenHighLowScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinDiffBetweenHighLowScore.MinDiffBetweenHighLowScore" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MinDiffBetweenHighLowScore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinIndexSumTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MinIndexSumTwoLists.MinIndexSumTwoLists" />
       <module name="Java" />
@@ -121,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MinIndexSumTwoLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinMovesConvertString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MinMovesConvertString.MinMovesConvertString" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.MinMovesConvertString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +175,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -203,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMovesConvertString" />
         <item itemvalue="Application.MinIndexSumTwoLists" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
         <item itemvalue="Application.PerformStringShifts" />
         <item itemvalue="Application.Find3DigitNumber" />
-        <item itemvalue="Application.MinDiffBetweenHighLowScore" />
       </list>
     </recent_temporary>
   </component>
@@ -662,7 +674,8 @@
       <workItem from="1640278065044" duration="2568000" />
       <workItem from="1640471285369" duration="2424000" />
       <workItem from="1640558724255" duration="2678000" />
-      <workItem from="1640621062227" duration="1069000" />
+      <workItem from="1640621062227" duration="2379000" />
+      <workItem from="1640708474918" duration="1366000" />
     </task>
     <servers />
   </component>
@@ -1641,8 +1654,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java</url>
-          <line>44</line>
+          <line>47</line>
           <option name="timeStamp" value="1276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1278" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1650,5 +1668,10 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="s.substring(i, end)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
