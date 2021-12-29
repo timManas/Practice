@@ -2,7 +2,7 @@ package Strings.MinMovesConvertString;
 
 public class MinMovesConvertString {
     public static void main(String [] args) {
-        String [] input = {"XXOX", "OOOO", "OXOX","1234567890", "XXX"};
+        String [] input = {"XXXOOXXX","XXOX", "OOOO", "OXOX","1234567890", "XXX"};
         for (String i : input)
             System.out.println("Min Moves: " + minimumMoves(i) + "\n");
 
@@ -10,26 +10,31 @@ public class MinMovesConvertString {
     }
 
     public static int minimumMoves(String s) {
-        int minForward = 0;
-        for (int i=0; i < s.length(); i+=3) {
-            int end = s.length() < i+3 ? s.length() : i+3;
-            String subString = s.substring(i, end);
-            System.out.println("Forward SubString:" + subString);
+        // Step1 - Create output variable
+        int min = 0;
+        int start=0;
 
-            if (subString.contains("X"))
-                ++minForward;
+        // Step2 - Traverse the String
+        while ( start < s.length()) {
+
+            // Step3 - Create SubString
+            int end = s.length() < start+3 ? s.length() : start+3;
+            String subString = s.substring(start, end);
+            System.out.println("SubString:" + subString);
+
+            // Step4 - Check if SubString contains X. If so, set start at the first X position
+            if (subString.contains("X")) {
+                start += subString.indexOf("X");
+                end = s.length() < start + 3 ? s.length() : start + 3;
+
+                subString = s.substring(start, end);
+                System.out.println("Moved SubString:" + subString);
+                ++min;
+            }
+            // Step5 - Update start to move by 3
+            start += 3;
         }
 
-        int minBackward = 0;
-        for (int i=s.length(); i>0; i-=3) {
-            int start = 0 > i-3 ? 0 : i-3;
-            String subString = s.substring(start, i);
-            System.out.println("Backward SubString:" + subString);
-
-            if (subString.contains("X"))
-                ++minBackward;
-        }
-
-        return Math.min(minForward, minBackward);
+        return min;
     }
 }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -675,7 +663,9 @@
       <workItem from="1640471285369" duration="2424000" />
       <workItem from="1640558724255" duration="2678000" />
       <workItem from="1640621062227" duration="2379000" />
-      <workItem from="1640708474918" duration="1366000" />
+      <workItem from="1640708474918" duration="2409000" />
+      <workItem from="1640726524414" duration="3406000" />
+      <workItem from="1640810616583" duration="456000" />
     </task>
     <servers />
   </component>
@@ -1659,8 +1649,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1278" />
+          <line>21</line>
+          <option name="timeStamp" value="1281" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1670,7 +1660,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s.substring(i, end)" language="JAVA" />
+        <watch expression="s.substring(start, i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
