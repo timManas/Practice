@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +78,20 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinMovesConvertString">
+  <component name="RunManager" selected="Application.LongestHarmoniousSubsequence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find3DigitNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.Find3DigitNumber.Find3DigitNumber" />
+    <configuration name="LongestHarmoniousSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.LongestHarmoniousSubsequence.LongestHarmoniousSubsequence" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.Find3DigitNumber.*" />
+          <option name="PATTERN" value="Lists.LongestHarmoniousSubsequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -203,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestHarmoniousSubsequence" />
         <item itemvalue="Application.MinMovesConvertString" />
         <item itemvalue="Application.MinIndexSumTwoLists" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
         <item itemvalue="Application.PerformStringShifts" />
-        <item itemvalue="Application.Find3DigitNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -665,7 +675,9 @@
       <workItem from="1640621062227" duration="2379000" />
       <workItem from="1640708474918" duration="2409000" />
       <workItem from="1640726524414" duration="3406000" />
-      <workItem from="1640810616583" duration="456000" />
+      <workItem from="1640810616583" duration="1533000" />
+      <workItem from="1640824169638" duration="25000" />
+      <workItem from="1640905247247" duration="313000" />
     </task>
     <servers />
   </component>
@@ -1649,7 +1661,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/MinMovesConvertString/MinMovesConvertString.java</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="1281" />
         </line-breakpoint>
       </breakpoints>
