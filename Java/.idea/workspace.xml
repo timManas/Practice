@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -677,7 +679,7 @@
       <workItem from="1640726524414" duration="3406000" />
       <workItem from="1640810616583" duration="1533000" />
       <workItem from="1640824169638" duration="25000" />
-      <workItem from="1640905247247" duration="313000" />
+      <workItem from="1640905247247" duration="1041000" />
     </task>
     <servers />
   </component>

@@ -11,9 +11,11 @@ public class LongestHarmoniousSubsequence {
     }
 
     public static int findLHS(int[] nums) {
-        List<Integer> subSeqList = new ArrayList<>();
-        Map<Integer, Integer> map = new TreeMap<>();
+        // Step1 - Create output var
+        int LHS = 0;
 
+        // Step2 - Create Map to count number of occurence of each number
+        Map<Integer, Integer> map = new TreeMap<>();
         for (int i=0; i<nums.length;i++) {
             if (map.containsKey(nums[i])) {
                 map.put(nums[i], map.get(nums[i]) + 1);
@@ -23,10 +25,19 @@ public class LongestHarmoniousSubsequence {
         }
         System.out.println("Map: " + map);
 
+        // Step3 - Find the keys which have difference of 1, check if LHS needs to be updated
+        List<Integer> setList = new ArrayList<>(map.keySet());
+        for (int i=1; i<setList.size(); i++) {
+            int prev = setList.get(i-1);
+            int current = setList.get(i);
 
+            if (Math.abs(current - prev) == 1) {
+                int total = map.get(prev) + map.get(current);
+                LHS = total > LHS ? total : LHS;
+            }
+        }
 
-
-        return subSeqList.size();
+        return LHS;
     }
 
 }
