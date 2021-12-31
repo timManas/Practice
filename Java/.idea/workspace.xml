@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +78,23 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestHarmoniousSubsequence">
+  <component name="RunManager" selected="Application.KthLargestElementInStream">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KthLargestElementInStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.KthLargestElementInStream.KthLargestElementInStream" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.KthLargestElementInStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,20 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformStringShifts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.PerformStringShifts.PerformStringShifts" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.PerformStringShifts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RangeSumQueryImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.RangeSumQueryImmutable.RangeSumQueryImmutable" />
       <module name="Java" />
@@ -177,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthLargestElementInStream" />
         <item itemvalue="Application.LongestHarmoniousSubsequence" />
         <item itemvalue="Application.MinMovesConvertString" />
         <item itemvalue="Application.MinIndexSumTwoLists" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
-        <item itemvalue="Application.PerformStringShifts" />
       </list>
     </recent_temporary>
   </component>
@@ -679,7 +679,8 @@
       <workItem from="1640726524414" duration="3406000" />
       <workItem from="1640810616583" duration="1533000" />
       <workItem from="1640824169638" duration="25000" />
-      <workItem from="1640905247247" duration="1041000" />
+      <workItem from="1640905247247" duration="1850000" />
+      <workItem from="1640991799919" duration="1824000" />
     </task>
     <servers />
   </component>
@@ -1666,6 +1667,11 @@
           <line>25</line>
           <option name="timeStamp" value="1281" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/LongestHarmoniousSubsequence/LongestHarmoniousSubsequence.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1282" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1675,6 +1681,8 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="s.substring(start, i)" language="JAVA" />
+        <watch expression="map.get(prev)" language="JAVA" />
+        <watch expression="map.get(current)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
