@@ -33,7 +33,7 @@ public class KthLargestElementInStream {
         }
 
         public int add(int val) {
-
+            return 0;
         }
     }
 
