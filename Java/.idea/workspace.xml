@@ -176,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -684,7 +671,9 @@
       <workItem from="1640991799919" duration="2413000" />
       <workItem from="1641015901972" duration="552000" />
       <workItem from="1641056662772" duration="2060000" />
-      <workItem from="1641167049083" duration="364000" />
+      <workItem from="1641167049083" duration="3806000" />
+      <workItem from="1641227694559" duration="1763000" />
+      <workItem from="1641251842198" duration="1733000" />
     </task>
     <servers />
   </component>
@@ -1676,18 +1665,26 @@
           <line>34</line>
           <option name="timeStamp" value="1282" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/LemonadeChange/LemonadeChange.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/LemonadeChange/LemonadeChange.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/LemonadeChange/LemonadeChange.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1294" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="s.substring(start, i)" language="JAVA" />
-        <watch expression="map.get(prev)" language="JAVA" />
-        <watch expression="map.get(current)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
