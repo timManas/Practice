@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/VerifyingAlienDictionary/VerifyingAlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/VerifyingAlienDictionary/VerifyingAlienDictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LemonadeChange">
+  <component name="RunManager" selected="Application.VerifyingAlienDictionary">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -127,20 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinIndexSumTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinIndexSumTwoLists.MinIndexSumTwoLists" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MinIndexSumTwoLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinMovesConvertString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.MinMovesConvertString.MinMovesConvertString" />
       <module name="Java" />
@@ -169,8 +156,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyingAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.VerifyingAlienDictionary.VerifyingAlienDictionary" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.VerifyingAlienDictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerifyingAlienDictionary" />
         <item itemvalue="Application.LemonadeChange" />
         <item itemvalue="Application.KthLargestElementInStream" />
         <item itemvalue="Application.LongestHarmoniousSubsequence" />
         <item itemvalue="Application.MinMovesConvertString" />
-        <item itemvalue="Application.MinIndexSumTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -673,7 +685,7 @@
       <workItem from="1641167049083" duration="3806000" />
       <workItem from="1641227694559" duration="1763000" />
       <workItem from="1641251842198" duration="5843000" />
-      <workItem from="1641336299504" duration="206000" />
+      <workItem from="1641336299504" duration="4965000" />
     </task>
     <servers />
   </component>
@@ -1680,6 +1692,21 @@
           <line>48</line>
           <option name="timeStamp" value="1301" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/VerifyingAlienDictionary/VerifyingAlienDictionary.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/VerifyingAlienDictionary/VerifyingAlienDictionary.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/VerifyingAlienDictionary/VerifyingAlienDictionary.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1309" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1690,6 +1717,8 @@
       <configuration name="Application">
         <watch expression="bills[x]" language="JAVA" />
         <watch expression="billList.get(x)" language="JAVA" />
+        <watch expression="map.get(current.charAt(index)" language="JAVA" />
+        <watch expression="map.get(next.charAt(index))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
