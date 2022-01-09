@@ -21,44 +21,51 @@ public class GreatestCommonDivisorStrings {
         String str9 = "ABABABAB";
         String str10 = "ABAB";
         System.out.println("GCD Strings: " + gcdOfStrings(str9, str10) + "\n");
+
+        String str11 = "TAUXXTAUXXTAUXXTAUXXTAUXX";
+        String str12 = "TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX";
+        System.out.println("GCD Strings: " + gcdOfStrings(str11, str12) + "\n");
     }
 
     public static String gcdOfStrings(String str1, String str2) {
         String gcd = "";
+
+        // Step1 - Find ShortString First
         String longStr = str1.length() <= str2.length() ? str2 : str1;
         String shortStr = str1.length() <= str2.length() ? str1 : str2;
 
-        int divider = longStr.length() - 1;
-        while (divider >= 0 ) {
-            String subStr = longStr.substring(0, divider + 1);
+        // Step2 - Traverse from Length to 0 of the ShortStr. Why ? We use the shortStr to check if it appears in the long str and divides evenly
+        for (int i=shortStr.length() - 1;  i >= 0; i--) {
+            // Step3 - Find the substring from shortStr
+            String subStr = shortStr.substring(0, i + 1);
+            String[] splitSubStr = shortStr.split(subStr, -1);
 
-            String[] split = longStr.split(subStr, -1);
-            System.out.println("#Occurences: " + (split.length - 1));
-
-            // Check if every element in Split is empty (i.e divides evenly with no remainders)
+            // Step4 - Check if SubString appears evenly in ShortString (i.e divides evenly with no remainders)
             boolean isBlank = true;
-            innerLoop:
-            for (String s : split) {
+            for (String s : splitSubStr) {
                 if (!s.equalsIgnoreCase("")) {
                     isBlank = false;
-                    break innerLoop;
+                    break;
                 }
-                isBlank = true;
             }
 
-            if (isBlank && shortStr.indexOf(subStr) != -1) {
+            // Step5 - Check if subStr also appears evenly in LongString
+            if (isBlank && longStr.indexOf(subStr) != -1) {
                 System.out.println("SubString Found: " + subStr);
 
-                String [] splitShort = shortStr.split(subStr, -1);
-                for (String str : splitShort) {
+                String [] splitLongStr = longStr.split(subStr, -1);
+                for (String str : splitLongStr) {
                     if (!str.equalsIgnoreCase("")) {
-                        return "";
+                        isBlank = false;
+                        break;
                     }
                 }
 
-                return subStr;
+                // This returns the biggest first
+                if (isBlank)
+                    return subStr;
             }
-            --divider;
+
         }
 
         return gcd;

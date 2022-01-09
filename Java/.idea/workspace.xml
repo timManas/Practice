@@ -678,7 +678,9 @@
       <workItem from="1641424840255" duration="3851000" />
       <workItem from="1641510491194" duration="2205000" />
       <workItem from="1641519388924" duration="2343000" />
-      <workItem from="1641532875773" duration="2632000" />
+      <workItem from="1641532875773" duration="2732000" />
+      <workItem from="1641653334754" duration="544000" />
+      <workItem from="1641679064596" duration="3106000" />
     </task>
     <servers />
   </component>
@@ -1712,18 +1714,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/GreatestCommonDivisorStrings/GreatestCommonDivisorStrings.java</url>
-          <line>58</line>
+          <line>65</line>
           <option name="timeStamp" value="1314" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/GreatestCommonDivisorStrings/GreatestCommonDivisorStrings.java</url>
-          <line>48</line>
+          <line>52</line>
           <option name="timeStamp" value="1315" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/GreatestCommonDivisorStrings/GreatestCommonDivisorStrings.java</url>
-          <line>54</line>
+          <line>59</line>
           <option name="timeStamp" value="1319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/GreatestCommonDivisorStrings/GreatestCommonDivisorStrings.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1320" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
