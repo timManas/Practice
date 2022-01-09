@@ -24,15 +24,17 @@ public class MaxSumArrayAfterKNegotiations {
         Arrays.sort(nums);
         for (int i : nums) max += i;
         System.out.println("Max: " + max );
-
         printArray(nums);
 
-
-
         for (;k > 0; k--) {
-            nums[0] = -1 * nums[0];
+            int current = nums[0];
+            int newElement = -1 * nums[0];
+            max -= current;
+            max += newElement;
+            nums[0] = newElement;
             Arrays.sort(nums);
             printArray(nums);
+            System.out.println("New Max: " + max);
         }
 
 
