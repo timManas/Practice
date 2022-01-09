@@ -20,23 +20,27 @@ public class MaxSumArrayAfterKNegotiations {
     public static int largestSumAfterKNegations(int[] nums, int k) {
         int max = 0;
 
-        // Sort the Array & Find the base Sum
+        // Step1 - Sort the Array & Find the base Sum
         Arrays.sort(nums);
         for (int i : nums) max += i;
         System.out.println("Max: " + max );
         printArray(nums);
 
+        // Step2 - Change only the lowestElement
         for (;k > 0; k--) {
             int current = nums[0];
             int newElement = -1 * nums[0];
+
+            // Step3 - Modify the max and lowestElement by -1
             max -= current;
             max += newElement;
             nums[0] = newElement;
+
+            // Step4 - Sort out array again
             Arrays.sort(nums);
             printArray(nums);
             System.out.println("New Max: " + max);
         }
-
 
         return max;
     }
