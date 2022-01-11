@@ -58,8 +58,10 @@ public class CheckIfStringDecomposable {
             System.out.println("SubString: " + sb.toString());
         }
 
+        // Step5 - Check the last subSet
         sb.append(nextChar);
         System.out.println("Final SubString: " + sb.toString());
+
         if (sb.length() == 1) {
             return false;
         } else if (sb.length() == 2) {
