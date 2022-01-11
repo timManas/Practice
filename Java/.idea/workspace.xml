@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfStringDecomposable/CheckIfStringDecomposable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfStringDecomposable/CheckIfStringDecomposable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -693,7 +694,7 @@
       <workItem from="1641679064596" duration="3656000" />
       <workItem from="1641742673620" duration="2746000" />
       <workItem from="1641773896096" duration="6720000" />
-      <workItem from="1641856396856" duration="2940000" />
+      <workItem from="1641856396856" duration="4358000" />
     </task>
     <servers />
   </component>
@@ -1749,6 +1750,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/AddTwoStrings/AddTwoString.java</url>
           <line>70</line>
           <option name="timeStamp" value="1322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/CheckIfStringDecomposable/CheckIfStringDecomposable.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="1324" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
