@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/CheckIfEveryRowColumnContainsAllNums/CheckIfEveryRowColumnContainsAllNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/CheckIfEveryRowColumnContainsAllNums/CheckIfEveryRowColumnContainsAllNums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfEveryRowColumnContainsAllNums">
+  <component name="RunManager" selected="Application.MissingNumArithmeticProgression">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -128,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumArrayAfterKNegotiations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MaxSumArrayAfterKNegotiations.MaxSumArrayAfterKNegotiations" />
+    <configuration name="MissingNumArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MissingNumArithmeticProgression.MissingNumArithmeticProgression" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MaxSumArrayAfterKNegotiations.*" />
+          <option name="PATTERN" value="Lists.MissingNumArithmeticProgression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumArithmeticProgression" />
         <item itemvalue="Application.CheckIfEveryRowColumnContainsAllNums" />
         <item itemvalue="Application.PositionsLargeGroups" />
         <item itemvalue="Application.CheckIfStringDecomposable" />
         <item itemvalue="Application.AddTwoString" />
-        <item itemvalue="Application.MaxSumArrayAfterKNegotiations" />
       </list>
     </recent_temporary>
   </component>
@@ -696,7 +697,8 @@
       <workItem from="1641773896096" duration="6720000" />
       <workItem from="1641856396856" duration="6392000" />
       <workItem from="1641946398065" duration="4632000" />
-      <workItem from="1642034033585" duration="2149000" />
+      <workItem from="1642034033585" duration="3060000" />
+      <workItem from="1642113323884" duration="1491000" />
     </task>
     <servers />
   </component>
@@ -1777,6 +1779,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/PositionsLargeGroups/PositionsLargeGroups.java</url>
           <line>43</line>
           <option name="timeStamp" value="1333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingNumArithmeticProgression/MissingNumArithmeticProgression.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1334" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
