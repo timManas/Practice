@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/CheckIfEveryRowColumnContainsAllNums/CheckIfEveryRowColumnContainsAllNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/CheckIfEveryRowColumnContainsAllNums/CheckIfEveryRowColumnContainsAllNums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -695,7 +696,7 @@
       <workItem from="1641773896096" duration="6720000" />
       <workItem from="1641856396856" duration="6392000" />
       <workItem from="1641946398065" duration="4632000" />
-      <workItem from="1642034033585" duration="341000" />
+      <workItem from="1642034033585" duration="2149000" />
     </task>
     <servers />
   </component>
