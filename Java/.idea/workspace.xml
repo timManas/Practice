@@ -78,23 +78,9 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MissingNumArithmeticProgression">
+  <component name="RunManager" selected="Application.DuplicateZeroes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.AddTwoStrings.AddTwoString" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.AddTwoStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CheckIfStringDecomposable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.DuplicateZeroes.DuplicateZeroes" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.DuplicateZeroes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateZeroes" />
         <item itemvalue="Application.MissingNumArithmeticProgression" />
         <item itemvalue="Application.CheckIfEveryRowColumnContainsAllNums" />
         <item itemvalue="Application.PositionsLargeGroups" />
         <item itemvalue="Application.CheckIfStringDecomposable" />
-        <item itemvalue="Application.AddTwoString" />
       </list>
     </recent_temporary>
   </component>
@@ -698,7 +696,9 @@
       <workItem from="1641856396856" duration="6392000" />
       <workItem from="1641946398065" duration="4632000" />
       <workItem from="1642034033585" duration="3060000" />
-      <workItem from="1642113323884" duration="1491000" />
+      <workItem from="1642113323884" duration="2269000" />
+      <workItem from="1642126743164" duration="11000" />
+      <workItem from="1642155994492" duration="1525000" />
     </task>
     <servers />
   </component>
@@ -1782,8 +1782,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MissingNumArithmeticProgression/MissingNumArithmeticProgression.java</url>
-          <line>37</line>
+          <line>39</line>
           <option name="timeStamp" value="1334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/DuplicateZeroes/DuplicateZeroes.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1335" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
