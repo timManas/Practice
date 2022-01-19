@@ -703,7 +703,7 @@
       <workItem from="1642386117272" duration="1004000" />
       <workItem from="1642476672181" duration="2612000" />
       <workItem from="1642546953629" duration="750000" />
-      <workItem from="1642556094017" duration="415000" />
+      <workItem from="1642556094017" duration="1024000" />
     </task>
     <servers />
   </component>
@@ -1802,7 +1802,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfIntegersInRange/CheckIfIntegersInRange.java</url>
-          <line>34</line>
+          <line>49</line>
           <option name="timeStamp" value="1339" />
         </line-breakpoint>
       </breakpoints>

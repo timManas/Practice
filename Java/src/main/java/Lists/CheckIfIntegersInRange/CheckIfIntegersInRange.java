@@ -1,5 +1,8 @@
 package Lists.CheckIfIntegersInRange;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class CheckIfIntegersInRange {
     public static void main(String [] args) {
         int [][] range = {{1,2}, {3,4}, {5,6}};
@@ -24,14 +27,26 @@ public class CheckIfIntegersInRange {
     public static  boolean isCovered(int[][] ranges, int left, int right) {
         int current = left;
         int index = 0;
+
+        // Step1 - Sort InputArrays
+        Arrays.sort(ranges, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return Integer.compare(o1[0], o2[0]);
+            }
+        });
+
+        // Step2 - Start from left and traverse until we reach right
         while (current <= right) {
             System.out.println("Current: " + current);
 
+            // Step3 - Return false when we ran out of intervals to check
             if (index > ranges.length - 1)
                 return false;
 
             int [] range = ranges[index];
 
+            // Increment the current if we found #. Increment index if we did not
             if (range[0] <= current && current <= range[1] ) {
                 System.out.println("Current Found range: " + range[0] + "," + range[1]);
                 ++current;
