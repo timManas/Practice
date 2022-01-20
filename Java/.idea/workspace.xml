@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/CheckIfIntegersInRange/CheckIfIntegersInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/CheckIfIntegersInRange/CheckIfIntegersInRange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +78,23 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfIntegersInRange">
+  <component name="RunManager" selected="Application.AssignCookies">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignCookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.AssignCookies.AssignCookies" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.AssignCookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,33 +169,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionsLargeGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.PositionsLargeGroups.PositionsLargeGroups" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.PositionsLargeGroups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssignCookies" />
         <item itemvalue="Application.CheckIfIntegersInRange" />
         <item itemvalue="Application.DuplicateZeroes" />
         <item itemvalue="Application.MissingNumArithmeticProgression" />
         <item itemvalue="Application.CheckIfEveryRowColumnContainsAllNums" />
-        <item itemvalue="Application.PositionsLargeGroups" />
       </list>
     </recent_temporary>
   </component>
@@ -703,7 +704,8 @@
       <workItem from="1642386117272" duration="1004000" />
       <workItem from="1642476672181" duration="2612000" />
       <workItem from="1642546953629" duration="750000" />
-      <workItem from="1642556094017" duration="1024000" />
+      <workItem from="1642556094017" duration="1997000" />
+      <workItem from="1642631913453" duration="1801000" />
     </task>
     <servers />
   </component>
