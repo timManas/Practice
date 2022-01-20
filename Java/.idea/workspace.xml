@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/AssignCookies/AssignCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/AssignCookies/AssignCookies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,15 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -705,7 +704,9 @@
       <workItem from="1642476672181" duration="2612000" />
       <workItem from="1642546953629" duration="750000" />
       <workItem from="1642556094017" duration="1997000" />
-      <workItem from="1642631913453" duration="1801000" />
+      <workItem from="1642631913453" duration="3607000" />
+      <workItem from="1642647993796" duration="683000" />
+      <workItem from="1642720052152" duration="752000" />
     </task>
     <servers />
   </component>

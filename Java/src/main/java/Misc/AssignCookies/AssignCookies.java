@@ -19,25 +19,33 @@ public class AssignCookies {
     }
 
     public static int findContentChildren(int[] g, int[] s) {
+        int numContent = 0;
 
+        // Step1 - Check if the lengths are proper. Return zero otherwise
         if (s.length == 0 || g.length == 0)
             return 0;
 
-        int numContent = 0;
-        // Sort Arrays
+        // Step2 - Sort Arrays
         Arrays.sort(g);
         Arrays.sort(s);
 
-        int x = 0;
-        for (int i=0; i < g.length; i++) {
-            int current = g[i];
-            if (x > s.length - 1)
-                x = 0;
+        // Step3 - Traverse arrays in decreasing order
+        int gIndex = g.length - 1;
+        int sIndex = s.length - 1;
+        while (sIndex >= 0 && gIndex >=0) {
+            int currentS = s[sIndex];
+            int currentG = g[gIndex];
+            System.out.println("currentS: " + currentS + "      currentG: " + currentG);
 
-            if (current <= s[x]) {
+            // Step4 - Check if s[i] is greater  than g[i]
+            // If g is bigger, we decrease g to see if now mathces with s
+            if (currentS >= currentG) {
                 ++numContent;
+                --gIndex;
+                --sIndex;
+            } else {
+                --gIndex;
             }
-            ++x;
         }
 
         return numContent;
