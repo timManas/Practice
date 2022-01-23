@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -708,7 +709,7 @@
       <workItem from="1642631913453" duration="3607000" />
       <workItem from="1642647993796" duration="683000" />
       <workItem from="1642720052152" duration="1757000" />
-      <workItem from="1642913235108" duration="1738000" />
+      <workItem from="1642913235108" duration="4318000" />
     </task>
     <servers />
   </component>
@@ -1809,6 +1810,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfIntegersInRange/CheckIfIntegersInRange.java</url>
           <line>49</line>
           <option name="timeStamp" value="1339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1342" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

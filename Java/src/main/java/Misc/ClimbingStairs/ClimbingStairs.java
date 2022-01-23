@@ -7,15 +7,7 @@ public class ClimbingStairs {
             System.out.println("ClimbStairs: " + climbStairs(i));
     }
 
-    static class Node {
-        int value;
-        public Node subtractOne;
-        public Node subtractTwo;
 
-        public Node(int value) {
-            this.value = value;
-        }
-    }
 
     public static int climbStairs(int n) {
         int numUnique = 0;
@@ -33,22 +25,25 @@ public class ClimbingStairs {
 
     private static void traverseTree(Node node) {
 
-        if (node == null)
+        if (node == null) {
             return;
+        }
 
         System.out.println(node.value);
         traverseTree(node.subtractOne);
-        traverseTree(node.subtractOne);
+        traverseTree(node.subtractTwo);
     }
 
     private static void createTree(Node node) {
 
-        if (node == null)
+        if (node == null) {
             return;
+        }
+
         int current = node.value;
         System.out.println("Current: " + current);
 
-        Node nodeSubTractOne = current - 1 >= 0 ? new Node(current - 1) : null ;
+        Node nodeSubTractOne = current - 1 >= 0 ? new Node(current - 1) : null;
         Node nodeSubTractTwo = current - 2 >= 0 ? new Node (current - 2) : null;
 
         node.subtractOne = nodeSubTractOne;
