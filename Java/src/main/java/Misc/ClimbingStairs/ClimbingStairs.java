@@ -1,10 +1,14 @@
 package Misc.ClimbingStairs;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class ClimbingStairs {
     public static void main(String [] args) {
         int [] input = {5, 2, 3};
         for (int i : input)
-            System.out.println("ClimbStairs: " + climbStairs(i));
+            System.out.println("ClimbStairs: " + climbStairs(i) + "\n");
     }
 
 
@@ -18,20 +22,52 @@ public class ClimbingStairs {
 
         // Traverse Tree
         System.out.println("\nTraversing Tree");
-        traverseTree(root);
+        List<String> list = new ArrayList<>();
+        Stack<Integer> stack = new Stack();
+        traverseTree(root, list, stack);
+
+        System.out.println("List: " + list);
+        numUnique = list.size();
 
         return numUnique;
     }
 
-    private static void traverseTree(Node node) {
+
+    static class Node {
+        int value;
+        Node subtractOne;
+        Node subtractTwo;
+
+        public Node(int value) {
+            this.value = value;
+        }
+    }
+
+
+    private static void traverseTree(Node node, List<String> list, Stack<Integer> stack) {
 
         if (node == null) {
             return;
         }
 
-        System.out.println(node.value);
-        traverseTree(node.subtractOne);
-        traverseTree(node.subtractTwo);
+        // Add current to stack
+        stack.push(node.value);
+        System.out.println(stack.toString());
+
+        if (node.value == 0)
+            list.add(stack.toString());
+
+        // Traverse Left Node
+        traverseTree(node.subtractOne, list, stack);
+        // Pop only if child left Node is not null
+        if (node.subtractOne != null)
+            stack.pop();
+
+        // Traverse Right Node
+        traverseTree(node.subtractTwo, list, stack);
+        // Pop only if child right Node is not null
+        if (node.subtractTwo != null)
+            stack.pop();
     }
 
     private static void createTree(Node node) {
