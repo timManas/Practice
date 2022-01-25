@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClimbingStairs">
+  <component name="RunManager" selected="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -142,20 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingNumArithmeticProgression.MissingNumArithmeticProgression" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MissingNumArithmeticProgression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -163,6 +148,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplaceAllSToAvoidConsecutiveRepeatingChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReplaceAllSToAvoidConsecutiveRepeatingChars.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ReplaceAllSToAvoidConsecutiveRepeatingChars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.AssignCookies" />
         <item itemvalue="Application.CheckIfIntegersInRange" />
         <item itemvalue="Application.DuplicateZeroes" />
-        <item itemvalue="Application.MissingNumArithmeticProgression" />
       </list>
     </recent_temporary>
   </component>
@@ -711,7 +710,7 @@
       <workItem from="1642720052152" duration="1757000" />
       <workItem from="1642913235108" duration="5047000" />
       <workItem from="1642977782912" duration="3744000" />
-      <workItem from="1643064140190" duration="4526000" />
+      <workItem from="1643064140190" duration="6915000" />
     </task>
     <servers />
   </component>
@@ -1827,6 +1826,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ClimbingStairs/ClimbingStairs.java</url>
           <line>29</line>
           <option name="timeStamp" value="1343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ReplaceAllSToAvoidConsecutiveRepeatingChars/ReplaceAllSToAvoidConsecutiveRepeatingChars.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="1345" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
