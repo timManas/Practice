@@ -78,9 +78,23 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars">
+  <component name="RunManager" selected="Application.ArrayTransformation">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ArrayTransformation.ArrayTransformation" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.ArrayTransformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,20 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.DuplicateZeroes.DuplicateZeroes" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.DuplicateZeroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayTransformation" />
         <item itemvalue="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.AssignCookies" />
         <item itemvalue="Application.CheckIfIntegersInRange" />
-        <item itemvalue="Application.DuplicateZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -710,7 +708,8 @@
       <workItem from="1642720052152" duration="1757000" />
       <workItem from="1642913235108" duration="5047000" />
       <workItem from="1642977782912" duration="3744000" />
-      <workItem from="1643064140190" duration="6915000" />
+      <workItem from="1643064140190" duration="7391000" />
+      <workItem from="1643152403695" duration="2084000" />
     </task>
     <servers />
   </component>
