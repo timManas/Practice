@@ -78,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsSubSequence">
+  <component name="RunManager" selected="Application.FindTheTownJudge">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,20 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ClimbingStairs.ClimbingStairs" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.ClimbingStairs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindIfPathExistsInGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.FindIfPathExistsInGraph.FindIfPathExistsInGraph" />
       <module name="Java" />
@@ -120,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graphs.FindIfPathExistsInGraph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheTownJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FindTheTownJudge.FindTheTownJudge" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.FindTheTownJudge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheTownJudge" />
         <item itemvalue="Application.IsSubSequence" />
         <item itemvalue="Application.FindIfPathExistsInGraph" />
         <item itemvalue="Application.ArrayTransformation" />
         <item itemvalue="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
-        <item itemvalue="Application.ClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -713,7 +715,8 @@
       <workItem from="1643237877532" duration="2909000" />
       <workItem from="1643252596624" duration="2652000" />
       <workItem from="1643324195393" duration="5368000" />
-      <workItem from="1643381633822" duration="870000" />
+      <workItem from="1643381633822" duration="1474000" />
+      <workItem from="1643405539403" duration="892000" />
     </task>
     <servers />
   </component>
