@@ -20,19 +20,28 @@ public class FindIfPathExistsInGraph {
     public static boolean validPath(int n, int[][] edges, int source, int destination) {
 
         // Create map to store the relationships of each node
-        Map<Integer, List<Integer>> map = new TreeMap<>();
+        Map<Integer, Set<Integer>> map = new TreeMap<>();
+
         for (int i=0; i<edges.length;i++) {
             int node = edges[i][0];
             int neighbour = edges[i][1];
 
-            List<Integer> tempList = new ArrayList<>();
+            Set<Integer> set1 = new TreeSet<>();
             if (map.containsKey(node)) {
-                tempList = map.get(node);
-                tempList.add(neighbour);
+                set1 = map.get(node);
+                set1.add(neighbour);
             }
+            set1.add(neighbour);
+            map.put(node,set1);
 
-            tempList.add(node);
-            map.put(node,tempList);
+            Set<Integer> set2 = new TreeSet<>();
+            if (map.containsKey(neighbour)) {
+                set2 = map.get(neighbour);
+                set2.add(node);
+            }
+            set2.add(node);
+            map.put(neighbour, set2);
+
         }
         System.out.println("Map: " + map);
 
@@ -45,8 +54,17 @@ public class FindIfPathExistsInGraph {
         return true;
     }
 
-    private static void traverseGraph(Map<Integer, List<Integer>> map, Set<Integer> set, Stack<Integer> stack, int current, int destination) {
-        List<Integer> neighbourList = map.get(current);
+    private static void traverseGraph(Map<Integer, Set<Integer>> map, Set<Integer> set, Stack<Integer> stack, int current, int destination) {
+        List<Integer> neighbourList = new ArrayList<>(map.get(current));
+        for (int i=0; i<neighbourList.size();i++) {
+            int neighbour = neighbourList.get(i);
+            if (set.contains(neighbour))
+                continue;
+
+            System.out.println("Current: " + current + "    Neighbour: " + neighbour);
+            set.add(neighbour);
+            traverseGraph(map, set, stack, neighbour, destination);
+        }
     }
 
 }

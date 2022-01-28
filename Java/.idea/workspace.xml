@@ -176,13 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -712,7 +714,8 @@
       <workItem from="1643064140190" duration="7391000" />
       <workItem from="1643152403695" duration="2636000" />
       <workItem from="1643237877532" duration="2909000" />
-      <workItem from="1643252596624" duration="1687000" />
+      <workItem from="1643252596624" duration="2652000" />
+      <workItem from="1643324195393" duration="3601000" />
     </task>
     <servers />
   </component>
@@ -1834,6 +1837,11 @@
           <line>42</line>
           <option name="timeStamp" value="1345" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Graphs/FindIfPathExistsInGraph/FindIfPathExistsInGraph.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1346" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1843,6 +1851,9 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="Math.sqrt(8)" language="JAVA" />
+        <watch expression="map.get(node)" language="JAVA" />
+        <watch expression="map.get(0)" language="JAVA" />
+        <watch expression="map.get(1)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
