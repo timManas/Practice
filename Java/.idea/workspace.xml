@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/FindTheTownJudge/FindTheTownJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/FindTheTownJudge/FindTheTownJudge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -716,7 +704,9 @@
       <workItem from="1643252596624" duration="2652000" />
       <workItem from="1643324195393" duration="5368000" />
       <workItem from="1643381633822" duration="1474000" />
-      <workItem from="1643405539403" duration="892000" />
+      <workItem from="1643405539403" duration="1930000" />
+      <workItem from="1643424999327" duration="529000" />
+      <workItem from="1643466564814" duration="1750000" />
     </task>
     <servers />
   </component>

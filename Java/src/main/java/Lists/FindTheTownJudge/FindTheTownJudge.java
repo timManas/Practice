@@ -46,15 +46,10 @@ public class FindTheTownJudge {
         System.out.println("Map: " + map);
         System.out.println("Set: " + set);
 
-        Set<Integer> trustingPeopleSet = map.keySet();
-        // Find the Union
-        set.removeAll(trustingPeopleSet);
+        Set<Map.Entry<Integer, List<Integer>>> mapEntry = map.entrySet();
+        for (int i=0; i< mapEntry.size(); i++) {
 
-        System.out.println("Judge: " + set);
-        if (set.isEmpty())
-            return -1;
-
-        List<Integer> judgeList = new ArrayList<>(set);
+        }
 
         return judgeList.get(0);
     }
