@@ -22,6 +22,16 @@ public class FindTheTownJudge {
     }
 
     public static int findJudge(int n, int[][] trust) {
+
+        if (trust.length == 0) {
+            if (n == 1)
+                return 1;
+            else
+                return -1;
+        }
+
+
+
         // Create Map to store who trusted persons
         // Create Set to store list persons
         Map<Integer, List<Integer>> map = new TreeMap<>();
@@ -46,11 +56,21 @@ public class FindTheTownJudge {
         System.out.println("Map: " + map);
         System.out.println("Set: " + set);
 
-        Set<Map.Entry<Integer, List<Integer>>> mapEntry = map.entrySet();
-        for (int i=0; i< mapEntry.size(); i++) {
+        List<Integer> judgeList = null;
+        List<Integer> list = new ArrayList<>(map.keySet());
+        for (int i=0; i< list.size(); i++) {
+            List<Integer> currentList = map.get(list.get(i));
+
+            if (judgeList == null) {
+                judgeList = currentList;
+                continue;
+            }
+
+            judgeList.retainAll(currentList);
+            System.out.println("judgeList:" + judgeList);
 
         }
 
-        return judgeList.get(0);
+        return judgeList.size() > 0 ? judgeList.get(0) : -1;
     }
 }
