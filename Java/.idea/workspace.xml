@@ -78,7 +78,7 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindTheTownJudge">
+  <component name="RunManager" selected="Application.SecondLargestDigitInString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -155,13 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceAllSToAvoidConsecutiveRepeatingChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReplaceAllSToAvoidConsecutiveRepeatingChars.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
+    <configuration name="SecondLargestDigitInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.SecondLargestDigitInString.SecondLargestDigitInString" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReplaceAllSToAvoidConsecutiveRepeatingChars.*" />
+          <option name="PATTERN" value="Strings.SecondLargestDigitInString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLargestDigitInString" />
         <item itemvalue="Application.FindTheTownJudge" />
         <item itemvalue="Application.IsSubSequence" />
         <item itemvalue="Application.FindIfPathExistsInGraph" />
         <item itemvalue="Application.ArrayTransformation" />
-        <item itemvalue="Application.ReplaceAllSToAvoidConsecutiveRepeatingChars" />
       </list>
     </recent_temporary>
   </component>
@@ -717,7 +719,8 @@
       <workItem from="1643405539403" duration="1930000" />
       <workItem from="1643424999327" duration="529000" />
       <workItem from="1643466564814" duration="3098000" />
-      <workItem from="1643496884645" duration="545000" />
+      <workItem from="1643496884645" duration="1732000" />
+      <workItem from="1643518940000" duration="1289000" />
     </task>
     <servers />
   </component>
