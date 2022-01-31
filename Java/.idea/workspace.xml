@@ -78,23 +78,9 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondLargestDigitInString">
+  <component name="RunManager" selected="Application.GuessNumHigherOrLower">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ArrayTransformation.ArrayTransformation" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.ArrayTransformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.FindTheTownJudge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessNumHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.GuessNumHigherOrLower.GuessNumHigherOrLower" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.GuessNumHigherOrLower.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessNumHigherOrLower" />
         <item itemvalue="Application.SecondLargestDigitInString" />
         <item itemvalue="Application.FindTheTownJudge" />
         <item itemvalue="Application.IsSubSequence" />
         <item itemvalue="Application.FindIfPathExistsInGraph" />
-        <item itemvalue="Application.ArrayTransformation" />
       </list>
     </recent_temporary>
   </component>
@@ -720,7 +718,8 @@
       <workItem from="1643424999327" duration="529000" />
       <workItem from="1643466564814" duration="3098000" />
       <workItem from="1643496884645" duration="1732000" />
-      <workItem from="1643518940000" duration="1289000" />
+      <workItem from="1643518940000" duration="2059000" />
+      <workItem from="1643641687467" duration="2501000" />
     </task>
     <servers />
   </component>
