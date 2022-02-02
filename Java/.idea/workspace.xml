@@ -176,13 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -720,7 +722,8 @@
       <workItem from="1643466564814" duration="3098000" />
       <workItem from="1643496884645" duration="1732000" />
       <workItem from="1643518940000" duration="2059000" />
-      <workItem from="1643641687467" duration="4453000" />
+      <workItem from="1643641687467" duration="4816000" />
+      <workItem from="1643757576741" duration="2615000" />
     </task>
     <servers />
   </component>
@@ -1849,18 +1852,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="1353" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>41</line>
+          <line>59</line>
           <option name="timeStamp" value="1355" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>38</line>
+          <line>55</line>
           <option name="timeStamp" value="1356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1361" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
