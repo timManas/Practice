@@ -38,8 +38,11 @@ public class GuessNumHigherOrLower {
 
     public static int guessNumber(int n, int p) {
 
+        // Step1 - Check if n is the actual value being guessed. Saves you alot of trouble
+        if (guess(n,p) == 0)
+            return n;
 
-
+        // Step2 - Create indexes to track start, mid, end
         int guessResult = -1;
         int pick = 0;
         int start = 1;
@@ -47,10 +50,10 @@ public class GuessNumHigherOrLower {
         int mid = (start + end) / 2;
         mid = mid < 0 ? (start / 2) + (end / 2) : mid;
 
+        // Step3 - Use Binary Search to traverse to guessed number
         while (guessResult != 0 && start <= end  && mid >= 0 ) {
             guessResult = guess(mid, p);
             System.out.println("mid: " + mid + "    guessResult: " + guessResult);
-
 
             if (guessResult == -1) {        // p < mid
                 end = mid;
