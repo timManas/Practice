@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +78,20 @@
       <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessNumHigherOrLower">
+  <component name="RunManager" selected="Application.ContinousIncrSubSeq">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindIfPathExistsInGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.FindIfPathExistsInGraph.FindIfPathExistsInGraph" />
+    <configuration name="ContinousIncrSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ContinousIncrSubSeq.ContinousIncrSubSeq" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.FindIfPathExistsInGraph.*" />
+          <option name="PATTERN" value="Lists.ContinousIncrSubSeq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContinousIncrSubSeq" />
         <item itemvalue="Application.GuessNumHigherOrLower" />
         <item itemvalue="Application.SecondLargestDigitInString" />
         <item itemvalue="Application.FindTheTownJudge" />
         <item itemvalue="Application.IsSubSequence" />
-        <item itemvalue="Application.FindIfPathExistsInGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +720,8 @@
       <workItem from="1643496884645" duration="1732000" />
       <workItem from="1643518940000" duration="2059000" />
       <workItem from="1643641687467" duration="4816000" />
-      <workItem from="1643757576741" duration="2615000" />
+      <workItem from="1643757576741" duration="3467000" />
+      <workItem from="1643851124341" duration="1253000" />
     </task>
     <servers />
   </component>
@@ -1852,27 +1850,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>59</line>
+          <line>62</line>
           <option name="timeStamp" value="1355" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>55</line>
+          <line>58</line>
           <option name="timeStamp" value="1356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>62</line>
+          <line>65</line>
           <option name="timeStamp" value="1359" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>68</line>
+          <line>71</line>
           <option name="timeStamp" value="1360" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
-          <line>49</line>
+          <line>53</line>
           <option name="timeStamp" value="1361" />
         </line-breakpoint>
       </breakpoints>
