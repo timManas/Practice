@@ -78,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindModeInBST">
+  <component name="RunManager" selected="Application.NumEquivalentDominoPairs">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,13 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargestDigitInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SecondLargestDigitInString.SecondLargestDigitInString" />
+    <configuration name="NumEquivalentDominoPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.NumEquivalentDominoPairs.NumEquivalentDominoPairs" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.SecondLargestDigitInString.*" />
+          <option name="PATTERN" value="Misc.NumEquivalentDominoPairs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumEquivalentDominoPairs" />
         <item itemvalue="Application.FindModeInBST" />
         <item itemvalue="Application.StudentAttendanceRecordsI" />
         <item itemvalue="Application.ContinousIncrSubSeq" />
         <item itemvalue="Application.GuessNumHigherOrLower" />
-        <item itemvalue="Application.SecondLargestDigitInString" />
       </list>
     </recent_temporary>
   </component>
@@ -723,7 +725,8 @@
       <workItem from="1643757576741" duration="3467000" />
       <workItem from="1643851124341" duration="2180000" />
       <workItem from="1643929369038" duration="1824000" />
-      <workItem from="1644024677567" duration="1331000" />
+      <workItem from="1644024677567" duration="1473000" />
+      <workItem from="1644039577080" duration="1336000" />
     </task>
     <servers />
   </component>
