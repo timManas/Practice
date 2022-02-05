@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,14 +71,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.FindModeInBST" />
       <recent name="Trees.SumOfLeftLeaves" />
       <recent name="Trees.MinAbsDiffBST" />
       <recent name="Trees.TwoSumIVInputIsBST" />
       <recent name="Trees.BinaryTreePreOrderTraversal" />
-      <recent name="Trees.MaxDiffBetweenNodeAndAncestor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentAttendanceRecordsI">
+  <component name="RunManager" selected="Application.FindModeInBST">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -97,13 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheTownJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FindTheTownJudge.FindTheTownJudge" />
+    <configuration name="FindModeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.FindModeInBST.FindModeInBST" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.FindTheTownJudge.*" />
+          <option name="PATTERN" value="Trees.FindModeInBST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindModeInBST" />
         <item itemvalue="Application.StudentAttendanceRecordsI" />
         <item itemvalue="Application.ContinousIncrSubSeq" />
         <item itemvalue="Application.GuessNumHigherOrLower" />
         <item itemvalue="Application.SecondLargestDigitInString" />
-        <item itemvalue="Application.FindTheTownJudge" />
       </list>
     </recent_temporary>
   </component>
@@ -722,7 +722,8 @@
       <workItem from="1643641687467" duration="4816000" />
       <workItem from="1643757576741" duration="3467000" />
       <workItem from="1643851124341" duration="2180000" />
-      <workItem from="1643929369038" duration="1287000" />
+      <workItem from="1643929369038" duration="1824000" />
+      <workItem from="1644024677567" duration="1331000" />
     </task>
     <servers />
   </component>
@@ -1873,6 +1874,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/GuessNumHigherOrLower/GuessNumHigherOrLower.java</url>
           <line>53</line>
           <option name="timeStamp" value="1361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/FindModeInBST/FindModeInBST.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1364" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
