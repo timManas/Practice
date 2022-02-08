@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/NumEquivalentDominoPairs/NumEquivalentDominoPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/NumEquivalentDominoPairs/NumEquivalentDominoPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumEquivalentDominoPairs">
+  <component name="RunManager" selected="Application.FindSmallestLetterGreaterThanTarget">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -114,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNumHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.GuessNumHigherOrLower.GuessNumHigherOrLower" />
+    <configuration name="FindSmallestLetterGreaterThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FindSmallestLetterGreaterThanTarget.FindSmallestLetterGreaterThanTarget" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.GuessNumHigherOrLower.*" />
+          <option name="PATTERN" value="Lists.FindSmallestLetterGreaterThanTarget.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindSmallestLetterGreaterThanTarget" />
         <item itemvalue="Application.NumEquivalentDominoPairs" />
         <item itemvalue="Application.FindModeInBST" />
         <item itemvalue="Application.StudentAttendanceRecordsI" />
         <item itemvalue="Application.ContinousIncrSubSeq" />
-        <item itemvalue="Application.GuessNumHigherOrLower" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +725,9 @@
       <workItem from="1643929369038" duration="1824000" />
       <workItem from="1644024677567" duration="1473000" />
       <workItem from="1644039577080" duration="2042000" />
-      <workItem from="1644124782740" duration="1255000" />
+      <workItem from="1644124782740" duration="1603000" />
+      <workItem from="1644177023185" duration="970000" />
+      <workItem from="1644277350393" duration="1875000" />
     </task>
     <servers />
   </component>
@@ -1885,7 +1886,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/NumEquivalentDominoPairs/NumEquivalentDominoPairs.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="1366" />
         </line-breakpoint>
       </breakpoints>
