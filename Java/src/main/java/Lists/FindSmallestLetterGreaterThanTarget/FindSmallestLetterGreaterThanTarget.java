@@ -26,7 +26,7 @@ public class FindSmallestLetterGreaterThanTarget {
             System.out.println(numCurrentLetter);
 
             // Step3 - Check the currentNode is greater than letter.
-            // Return letter if true, continue otherwise
+            // Return letter if true, continue otherwis
             if (numTarget < numCurrentLetter) {
                 letter = letters[i];
                 break;
