@@ -78,9 +78,23 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfusingNumber">
+  <component name="RunManager" selected="Application.CheckIfOneStringSwapCanMakeStringsEqual">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfOneStringSwapCanMakeStringsEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfOneStringSwapCanMakeStringsEqual.CheckIfOneStringSwapCanMakeStringsEqual" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.CheckIfOneStringSwapCanMakeStringsEqual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.ConfusingNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindModeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.FindModeInBST.FindModeInBST" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.FindModeInBST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfOneStringSwapCanMakeStringsEqual" />
         <item itemvalue="Application.ConfusingNumber" />
         <item itemvalue="Application.CheckifArraySortedAndRotated" />
         <item itemvalue="Application.FindSmallestLetterGreaterThanTarget" />
         <item itemvalue="Application.NumEquivalentDominoPairs" />
-        <item itemvalue="Application.FindModeInBST" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +734,8 @@
       <workItem from="1644378013353" duration="292000" />
       <workItem from="1644447052558" duration="2225000" />
       <workItem from="1644532790574" duration="1370000" />
-      <workItem from="1644616116046" duration="2937000" />
+      <workItem from="1644616116046" duration="3051000" />
+      <workItem from="1644678874061" duration="2312000" />
     </task>
     <servers />
   </component>
