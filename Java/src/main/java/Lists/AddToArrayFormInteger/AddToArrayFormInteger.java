@@ -17,13 +17,25 @@ public class AddToArrayFormInteger {
         int [] num2 = {2,1,5};
         int k2 = 806;
         System.out.println("Add to Array form: " + addToArrayForm(num2, k2));
+
+        int [] num3 = {9,9,9,9,9,9,9,9,9,9};
+        int k3 = 1;
+        System.out.println("Add to Array form: " + addToArrayForm(num3, k3));
     }
 
     public static List<Integer> addToArrayForm(int[] num, int k) {
         List<Integer> list = new ArrayList<>();
-        String intNum = Arrays.toString(num);
-        System.out.println(intNum);
 
+        // Convert num array to int
+        StringBuilder sb = new StringBuilder();
+        for (int i : num) sb.append(i);
+        int number = Integer.parseInt(sb.toString());
+        System.out.println(number);
+
+        String numString = String.valueOf(number + k);
+        for (int i=0; i < numString.length(); i++) {
+            list.add(Integer.valueOf(Character.getNumericValue(numString.charAt(i))));
+        }
 
         return list;
     }
