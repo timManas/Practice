@@ -176,13 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -737,7 +739,8 @@
       <workItem from="1644678874061" duration="2618000" />
       <workItem from="1644788540011" duration="2141000" />
       <workItem from="1644814671664" duration="588000" />
-      <workItem from="1644877786972" duration="2125000" />
+      <workItem from="1644877786972" duration="4030000" />
+      <workItem from="1644967324179" duration="345000" />
     </task>
     <servers />
   </component>
@@ -1908,6 +1911,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckifArraySortedAndRotated/CheckifArraySortedAndRotated.java</url>
           <line>37</line>
           <option name="timeStamp" value="1368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/AddToArrayFormInteger/AddToArrayFormInteger.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/AddToArrayFormInteger/AddToArrayFormInteger.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/AddToArrayFormInteger/AddToArrayFormInteger.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1373" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
