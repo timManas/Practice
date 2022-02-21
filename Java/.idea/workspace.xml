@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/PartionArraysThreeParts/PartionArraysThreeParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/PartionArraysThreeParts/PartionArraysThreeParts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartionArraysThreeParts">
+  <component name="RunManager" selected="Application.PowerOfTwo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -128,20 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfusingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ConfusingNumber.ConfusingNumber" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.ConfusingNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -170,8 +155,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.PowerOfTwo.PowerOfTwo" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.PowerOfTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.PartionArraysThreeParts" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.AddToArrayFormInteger" />
         <item itemvalue="Application.CheckIfOneStringSwapCanMakeStringsEqual" />
-        <item itemvalue="Application.ConfusingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -733,6 +745,7 @@
       <workItem from="1645197088522" duration="941000" />
       <workItem from="1645242635253" duration="1040000" />
       <workItem from="1645326072208" duration="7291000" />
+      <workItem from="1645400328670" duration="1847000" />
     </task>
     <servers />
   </component>
