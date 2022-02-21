@@ -78,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PowerOfTwo">
+  <component name="RunManager" selected="Application.SummaryRange">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -106,20 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.ArrangingCoins.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfOneStringSwapCanMakeStringsEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfOneStringSwapCanMakeStringsEqual.CheckIfOneStringSwapCanMakeStringsEqual" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfOneStringSwapCanMakeStringsEqual.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,21 +155,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SummaryRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SummaryRange.SummaryRange" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SummaryRange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SummaryRange" />
         <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.PartionArraysThreeParts" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.AddToArrayFormInteger" />
-        <item itemvalue="Application.CheckIfOneStringSwapCanMakeStringsEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -745,7 +743,8 @@
       <workItem from="1645197088522" duration="941000" />
       <workItem from="1645242635253" duration="1040000" />
       <workItem from="1645326072208" duration="7291000" />
-      <workItem from="1645400328670" duration="1847000" />
+      <workItem from="1645400328670" duration="2446000" />
+      <workItem from="1645476630574" duration="1712000" />
     </task>
     <servers />
   </component>
@@ -1931,6 +1930,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/AddToArrayFormInteger/AddToArrayFormInteger.java</url>
           <line>53</line>
           <option name="timeStamp" value="1373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SummaryRange/SummaryRange.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1375" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
