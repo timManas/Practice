@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SummaryRange/SummaryRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SummaryRange/SummaryRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MaxSubsequence/MaxSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MaxSubsequence/MaxSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,19 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -748,7 +735,8 @@
       <workItem from="1645326072208" duration="7291000" />
       <workItem from="1645400328670" duration="2446000" />
       <workItem from="1645476630574" duration="3013000" />
-      <workItem from="1645572227564" duration="2272000" />
+      <workItem from="1645572227564" duration="3601000" />
+      <workItem from="1645658975012" duration="1211000" />
     </task>
     <servers />
   </component>
@@ -1939,6 +1927,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SummaryRange/SummaryRange.java</url>
           <line>52</line>
           <option name="timeStamp" value="1375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxSubsequence/MaxSubsequence.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1377" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
