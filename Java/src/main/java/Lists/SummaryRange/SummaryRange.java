@@ -14,7 +14,7 @@ public class SummaryRange {
         // Step1 - Create output varaible
         List<String> output = new ArrayList<>();
 
-        // Step2 - Check if nums is not emptyu
+        // Step2 - Check if nums is not empty
         if (nums.length == 0)
             return output;
 
