@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="" />
+    <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,9 +78,23 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PowerOfFour">
+  <component name="RunManager" selected="Application.DetectPatternLengthMRepeatedKTimes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetectPatternLengthMRepeatedKTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.DetectPatternLengthMRepeatedKTimes.DetectPatternLengthMRepeatedKTimes" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.DetectPatternLengthMRepeatedKTimes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,20 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartionArraysThreeParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.PartionArraysThreeParts.PartionArraysThreeParts" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.PartionArraysThreeParts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectPatternLengthMRepeatedKTimes" />
         <item itemvalue="Application.PowerOfFour" />
         <item itemvalue="Application.MaxSubsequence" />
         <item itemvalue="Application.SummaryRange" />
         <item itemvalue="Application.PowerOfTwo" />
-        <item itemvalue="Application.PartionArraysThreeParts" />
       </list>
     </recent_temporary>
   </component>
@@ -744,7 +748,8 @@
       <workItem from="1645400328670" duration="2446000" />
       <workItem from="1645476630574" duration="3013000" />
       <workItem from="1645572227564" duration="3601000" />
-      <workItem from="1645658975012" duration="1524000" />
+      <workItem from="1645658975012" duration="1837000" />
+      <workItem from="1645753343470" duration="1352000" />
     </task>
     <servers />
   </component>
@@ -1940,6 +1945,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MaxSubsequence/MaxSubsequence.java</url>
           <line>49</line>
           <option name="timeStamp" value="1377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1379" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
