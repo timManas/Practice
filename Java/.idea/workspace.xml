@@ -176,6 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -738,7 +749,8 @@
       <workItem from="1645572227564" duration="3601000" />
       <workItem from="1645658975012" duration="1837000" />
       <workItem from="1645753343470" duration="2213000" />
-      <workItem from="1645848266664" duration="1355000" />
+      <workItem from="1645848266664" duration="2260000" />
+      <workItem from="1645888976512" duration="2280000" />
     </task>
     <servers />
   </component>
@@ -1937,13 +1949,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="1378" />
+          <line>87</line>
+          <option name="timeStamp" value="1384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="1379" />
+          <line>81</line>
+          <option name="timeStamp" value="1386" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
