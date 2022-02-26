@@ -23,38 +23,34 @@ public class DetectPatternLengthMRepeatedKTimes {
         int m3 = 2;
         int k3 = 2;
         System.out.println("Contains Pattern: " + containsPattern(arr3, m3, k3) + "\n");
+
+
+        //{1,2,1,2,1,3};
+        //{3,2,1,2,1,3};
+        //{1,2,1,2,5,3};
     }
 
     public static boolean containsPattern(int[] arr, int m, int k) {
-        Map<String, Integer> map = new TreeMap<>();
+        // Convert arr to list
+        List<Integer> list = new ArrayList<>();
+        for (int i : arr) list.add(i);
 
         Deque<Integer> queue = new LinkedList<>();
-        for (int i=0; i < arr.length; i++) {
-            int current = arr[i];
+        int start = 0;
+        int end = 0;
+
+        for (int i=0; i<arr.length; i++) {
+            int current = list.get(i);
+            System.out.println("current: " + current);
 
             if (queue.size() != m) {
-                queue.addFirst(current);
+                queue.addLast(current);
             } else {
-                System.out.println("removing: " + queue.removeLast());
-                queue.addFirst(current);
-            }
-            System.out.println("Queue: " + queue);
 
-            List<Integer> tempList = new ArrayList<>(queue);
-            String listString = tempList.toString();
-            if (map.containsKey(listString)) {
-                map.put(listString, map.get(listString) + 1);
-            } else {
-                map.put(listString, 1);
             }
         }
-        System.out.println("Map: " + map);
 
-        // Find if any one of the list has length k
-        for (Map.Entry<String, Integer> mapEntry: map.entrySet()) {
-            if (mapEntry.getValue() >= k)
-                return true;
-        }
+
 
         return false;
     }
