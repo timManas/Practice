@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,17 +171,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -750,7 +738,8 @@
       <workItem from="1645658975012" duration="1837000" />
       <workItem from="1645753343470" duration="2213000" />
       <workItem from="1645848266664" duration="2260000" />
-      <workItem from="1645888976512" duration="2280000" />
+      <workItem from="1645888976512" duration="2456000" />
+      <workItem from="1646021377309" duration="980000" />
     </task>
     <servers />
   </component>
@@ -1949,12 +1938,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
-          <line>87</line>
+          <line>84</line>
           <option name="timeStamp" value="1384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
-          <line>81</line>
+          <line>78</line>
           <option name="timeStamp" value="1386" />
         </line-breakpoint>
       </breakpoints>
