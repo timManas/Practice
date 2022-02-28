@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DetectPatternLengthMRepeatedKTimes">
+  <component name="RunManager" selected="Application.RepeatedSubStringPattern">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,13 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PowerOfTwo.PowerOfTwo" />
+    <configuration name="RepeatedSubStringPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RepeatedSubStringPattern.RepeatedSubStringPattern" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.PowerOfTwo.*" />
+          <option name="PATTERN" value="Strings.RepeatedSubStringPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,6 +172,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatedSubStringPattern" />
         <item itemvalue="Application.DetectPatternLengthMRepeatedKTimes" />
         <item itemvalue="Application.PowerOfFour" />
         <item itemvalue="Application.MaxSubsequence" />
         <item itemvalue="Application.SummaryRange" />
-        <item itemvalue="Application.PowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -739,7 +751,8 @@
       <workItem from="1645753343470" duration="2213000" />
       <workItem from="1645848266664" duration="2260000" />
       <workItem from="1645888976512" duration="2456000" />
-      <workItem from="1646021377309" duration="980000" />
+      <workItem from="1646021377309" duration="1908000" />
+      <workItem from="1646063236414" duration="751000" />
     </task>
     <servers />
   </component>
