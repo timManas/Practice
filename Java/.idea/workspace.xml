@@ -176,13 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -752,7 +754,8 @@
       <workItem from="1645848266664" duration="2260000" />
       <workItem from="1645888976512" duration="2456000" />
       <workItem from="1646021377309" duration="1908000" />
-      <workItem from="1646063236414" duration="751000" />
+      <workItem from="1646063236414" duration="1894000" />
+      <workItem from="1646175070768" duration="3018000" />
     </task>
     <servers />
   </component>
@@ -1958,6 +1961,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/DetectPatternLengthMRepeatedKTimes/DetectPatternLengthMRepeatedKTimes.java</url>
           <line>78</line>
           <option name="timeStamp" value="1386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1391" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
