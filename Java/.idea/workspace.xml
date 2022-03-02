@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RepeatedSubStringPattern/RepeatedSubStringPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RepeatedSubStringPattern">
+  <component name="RunManager" selected="Application.MaximumAvgSubArrayI">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -107,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MaxSubsequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumAvgSubArrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MaximumAvgSubArrayI.MaximumAvgSubArrayI" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MaximumAvgSubArrayI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,35 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummaryRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SummaryRange.SummaryRange" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.SummaryRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAvgSubArrayI" />
         <item itemvalue="Application.RepeatedSubStringPattern" />
         <item itemvalue="Application.DetectPatternLengthMRepeatedKTimes" />
         <item itemvalue="Application.PowerOfFour" />
         <item itemvalue="Application.MaxSubsequence" />
-        <item itemvalue="Application.SummaryRange" />
       </list>
     </recent_temporary>
   </component>
@@ -755,7 +741,8 @@
       <workItem from="1645888976512" duration="2456000" />
       <workItem from="1646021377309" duration="1908000" />
       <workItem from="1646063236414" duration="1894000" />
-      <workItem from="1646175070768" duration="3018000" />
+      <workItem from="1646175070768" duration="5492000" />
+      <workItem from="1646261161442" duration="1749000" />
     </task>
     <servers />
   </component>
@@ -1972,6 +1959,11 @@
           <line>23</line>
           <option name="timeStamp" value="1391" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/MaximumAvgSubArrayI/MaximumAvgSubArrayI.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1397" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -1980,11 +1972,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Math.sqrt(8)" language="JAVA" />
-        <watch expression="map.get(node)" language="JAVA" />
-        <watch expression="map.get(0)" language="JAVA" />
-        <watch expression="map.get(1)" language="JAVA" />
-        <watch expression="mapEntry.getValue() * mapEntry.getValue() - 1" language="JAVA" />
+        <watch expression="total/k" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
