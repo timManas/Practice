@@ -78,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PowerOfThree">
+  <component name="RunManager" selected="Application.RectangleOverlap">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -127,20 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PowerOfFour.PowerOfFour" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.PowerOfFour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PowerOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.PowerOfThree.PowerOfThree" />
       <module name="Java" />
@@ -148,6 +134,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.PowerOfThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.RectangleOverlap.RectangleOverlap" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.RectangleOverlap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleOverlap" />
         <item itemvalue="Application.PowerOfThree" />
         <item itemvalue="Application.MaximumAvgSubArrayI" />
         <item itemvalue="Application.RepeatedSubStringPattern" />
         <item itemvalue="Application.DetectPatternLengthMRepeatedKTimes" />
-        <item itemvalue="Application.PowerOfFour" />
       </list>
     </recent_temporary>
   </component>
@@ -754,7 +754,9 @@
       <workItem from="1646063236414" duration="1894000" />
       <workItem from="1646175070768" duration="5492000" />
       <workItem from="1646261161442" duration="2361000" />
-      <workItem from="1646354917756" duration="203000" />
+      <workItem from="1646354917756" duration="697000" />
+      <workItem from="1646403239430" duration="570000" />
+      <workItem from="1646442220761" duration="1620000" />
     </task>
     <servers />
   </component>
