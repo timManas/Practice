@@ -11,10 +11,14 @@ public class RectangleOverlap {
 //        int [] rect1a = {0,0,1,1};
 //        int [] rect2a = {1,0,2,1};
 //        System.out.println("IsOverlap: " + isRectangleOverlap(rect1a, rect2a) + "\n");
+//
+//        int [] rect1b = {2,17,6,20};
+//        int [] rect2b = {3,8,6,20};
+//        System.out.println("IsOverlap: " + isRectangleOverlap(rect1b, rect2b) + "\n");
 
-        int [] rect1b = {2,17,6,20};
-        int [] rect2b = {3,8,6,20};
-        System.out.println("IsOverlap: " + isRectangleOverlap(rect1b, rect2b) + "\n");
+        int [] rect1c = {7,8,13,15};
+        int [] rect2c = {10,8,12,20};
+        System.out.println("IsOverlap: " + isRectangleOverlap(rect1c, rect2c) + "\n");
     }
 
     public static boolean isRectangleOverlap(int[] rec1, int[] rec2) {
@@ -38,17 +42,20 @@ public class RectangleOverlap {
         System.out.println("Rec1 X: " + Arrays.toString(rec1RangeX) + "     Y: " + Arrays.toString(rec1RangeY));
         System.out.println("Rec1 X: " + Arrays.toString(rec2RangeX) + "     Y: " + Arrays.toString(rec2RangeY));
 
-        // Check the X Axis
-        if (rec1RangeX[0] < rec2RangeX[0] && rec2RangeX[0] < rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[0] && rec2RangeY[0] < rec1RangeY[1])
-            return true;
-        if (rec1RangeX[0] < rec2RangeX[1] && rec2RangeX[1] <= rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[1] && rec2RangeY[1] <= rec1RangeY[1])
-            return true;
+        // Find the points of intersection
 
-        // Check the Y Axis
-//        if (rec2RangeY[0] < rec2RangeY[0] && rec2RangeY[0] < rec2RangeY[1])
+
+//        // Check the X Axis
+//        if (rec1RangeX[0] < rec2RangeX[0] && rec2RangeX[0] < rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[0] && rec2RangeY[0] < rec1RangeY[1])
 //            return true;
-//        if (rec2RangeY[0] < rec2RangeY[1] && rec2RangeY[1] < rec2RangeY[1])
+//        if (rec1RangeX[0] < rec2RangeX[1] && rec2RangeX[1] <= rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[1] && rec2RangeY[1] <= rec1RangeY[1])
 //            return true;
+
+        for (int i=0; i < rec2Points.length; i++) {
+            if (rec1RangeX[0] < rec2Points[i][0] && rec2Points[i][0] <= rec1RangeX[1] &&
+                    rec1RangeY[0] < rec2Points[i][1] && rec2Points[i][1] <= rec1RangeY[1])
+                return true;
+        }
 
         return false;
     }
