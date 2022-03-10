@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/RectangleOverlap/RectangleOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/RectangleOverlap/RectangleOverlap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +171,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -749,7 +759,9 @@
       <workItem from="1646442220761" duration="1723000" />
       <workItem from="1646494169992" duration="3892000" />
       <workItem from="1646693768491" duration="4971000" />
-      <workItem from="1646780540862" duration="2138000" />
+      <workItem from="1646780540862" duration="2679000" />
+      <workItem from="1646836167753" duration="555000" />
+      <workItem from="1646879825499" duration="680000" />
     </task>
     <servers />
   </component>
