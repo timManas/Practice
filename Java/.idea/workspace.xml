@@ -176,6 +176,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -753,7 +764,7 @@
       <workItem from="1646836167753" duration="555000" />
       <workItem from="1646879825499" duration="2544000" />
       <workItem from="1646961428164" duration="1609000" />
-      <workItem from="1647050433834" duration="884000" />
+      <workItem from="1647050433834" duration="2625000" />
     </task>
     <servers />
   </component>
@@ -1979,6 +1990,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/RectangleOverlap/RectangleOverlap.java</url>
           <line>54</line>
           <option name="timeStamp" value="1403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SentenceSimilarity/SentenceSimilarity.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="1405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SentenceSimilarity/SentenceSimilarity.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="1406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/SentenceSimilarity/SentenceSimilarity.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="1407" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
