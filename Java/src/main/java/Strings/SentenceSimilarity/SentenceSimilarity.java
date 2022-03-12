@@ -16,9 +16,9 @@ public class SentenceSimilarity {
         String [] sentence1A = {"an","extraordinary","meal"};
         String [] sentence2A = {"one","good","dinner"};
         String [][] tempA = {{"great","good"}, {"drama","acting"}, {"skills","talent"}, {"extraordinary","good"},{"well","good"},
-                {"wonderful","good"},{"excellent","good"},{"fine","good"},{"nice","good"},{"any","one"},{"some","one"},{"unique","one"},
+        {"wonderful","good"},{"excellent","good"},{"fine","good"},{"nice","good"},{"any","one"},{"some","one"},{"unique","one"},
         {"the","one"},{"an","one"},{"single","one"},{"a","one"},{"truck","car"},{"wagon","car"},{"automobile","car"},{"auto","car"},
-        {"vehicle","car"},{"entertain","have"},{"drink","have"},{"eat","have"},{"take","have"},{"fruits","meal"},{"brunch","meal"},{"breakfast","meal"},
+        {"vehicle","car"},{"entertain","have"},{"drink","have"},{"eat","have"},{"take","have"},{"fruits","meal"},{"brunch","meal"}, {"breakfast","meal"},
         {"food","meal"},{"dinner","meal"},{"super","meal"},{"lunch","meal"},{"possess","own"},{"keep","own"},{"have","own"},
         {"extremely","very"},{"actually","very"},{"really","very"},{"super","very"}};
         List<List<String>> similarPairsA = convertTo2DList(tempA);
@@ -37,43 +37,46 @@ public class SentenceSimilarity {
         }
         return list;
     }
-    
+
 
     public static boolean areSentencesSimilar(String[] sentence1, String[] sentence2, List<List<String>> similarPairs) {
 
+        // If both are sentences are not the same size. Then they are not equal
+        if (sentence1.length != sentence2.length)
+            return false;
+
         // Create map to store the similar pairs
-        Map<String, String> map = new TreeMap<>();
+        Map<String, List<String>> map1 = new TreeMap<>();
+        Map<String, List<String>> map2 = new TreeMap<>();
         for (List<String> pairs : similarPairs) {
-            map.put(pairs.get(0), pairs.get(1));
-            map.put(pairs.get(1), pairs.get(0));
+            String key = pairs.get(0);
+            String value = pairs.get(1);
+
+            // Add to map1
+            List<String> temp1 = new ArrayList<>();
+            if (map1.containsKey(key)) {
+                temp1 = map1.get(key);
+
+            }
+            temp1.add(value);
+            map1.put(key, temp1);
+
+
+            // Add to map2
+            List<String> temp2 = new ArrayList<>();
+            if (map2.containsKey(value)) {
+                temp2 = map2.get(value);
+
+            }
+            temp2.add(key);
+            map2.put(value, temp2);
+
         }
-        System.out.println("Map: " + map);
-
-        StringBuilder sbSentence1 = new StringBuilder();
-        StringBuilder sbSentence2 = new StringBuilder();
-        StringBuilder sb1 = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder();
-
-        for (String word : sentence1) {
-            String converted = map.containsKey(word) ? map.get(word) : word;
-            sb1.append(converted);
-
-            sbSentence1.append(word);
-        }
-
-        for (String word : sentence2) {
-            String converted = map.containsKey(word) ? map.get(word) : word;
-            sb2.append(converted);
-
-            sbSentence2.append(word);
-        }
-
-        System.out.println("sbSentence1: " + sbSentence1);
-        System.out.println("sbSentence2: " + sbSentence2);
-        System.out.println("sb1: " + sb1);
-        System.out.println("sb2: " + sb2);
+        System.out.println("Map: " + map1);
+        System.out.println("Map: " + map2);
 
 
-        return sb1.toString().equals(sbSentence2.toString()) || sb2.toString().equals(sbSentence1.toString());
+
+        return true;
     }
 }
