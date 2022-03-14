@@ -78,23 +78,9 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPerfectSquare">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumAvgSubArrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MaximumAvgSubArrayI.MaximumAvgSubArrayI" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.MaximumAvgSubArrayI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,6 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SearchInsertPosition.SearchInsertPosition" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.SearchInsertPosition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SentenceSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.SentenceSimilarity.SentenceSimilarity" />
       <module name="Java" />
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.ValidPerfectSquare" />
         <item itemvalue="Application.SentenceSimilarity" />
         <item itemvalue="Application.RectangleOverlap" />
         <item itemvalue="Application.PowerOfThree" />
-        <item itemvalue="Application.MaximumAvgSubArrayI" />
       </list>
     </recent_temporary>
   </component>
@@ -766,7 +764,9 @@
       <workItem from="1646879825499" duration="2544000" />
       <workItem from="1646961428164" duration="1609000" />
       <workItem from="1647050433834" duration="3133000" />
-      <workItem from="1647137969924" duration="509000" />
+      <workItem from="1647137969924" duration="1039000" />
+      <workItem from="1647149035841" duration="526000" />
+      <workItem from="1647207102203" duration="1645000" />
     </task>
     <servers />
   </component>
