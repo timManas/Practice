@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SearchInsertPosition/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SearchInsertPosition/SearchInsertPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +78,23 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInsertPosition">
+  <component name="RunManager" selected="Application.CheckIfStraightLine">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfStraightLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.CheckIfStraightLine.CheckIfStraightLine" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.CheckIfStraightLine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,20 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowerOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PowerOfThree.PowerOfThree" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.PowerOfThree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -203,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfStraightLine" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.ValidPerfectSquare" />
         <item itemvalue="Application.SentenceSimilarity" />
         <item itemvalue="Application.RectangleOverlap" />
-        <item itemvalue="Application.PowerOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -759,7 +769,9 @@
       <workItem from="1647207102203" duration="2263000" />
       <workItem from="1647274703385" duration="1641000" />
       <workItem from="1647297018793" duration="580000" />
-      <workItem from="1647381755310" duration="2509000" />
+      <workItem from="1647381755310" duration="3360000" />
+      <workItem from="1647390706634" duration="1116000" />
+      <workItem from="1647473385504" duration="1405000" />
     </task>
     <servers />
   </component>
