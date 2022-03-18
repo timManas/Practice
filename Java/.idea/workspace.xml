@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/CheckIfStraightLine/CheckIfStraightLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/CheckIfStraightLine/CheckIfStraightLine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -771,7 +772,9 @@
       <workItem from="1647297018793" duration="580000" />
       <workItem from="1647381755310" duration="3360000" />
       <workItem from="1647390706634" duration="1116000" />
-      <workItem from="1647473385504" duration="1405000" />
+      <workItem from="1647473385504" duration="2588000" />
+      <workItem from="1647523650272" duration="476000" />
+      <workItem from="1647564829444" duration="3516000" />
     </task>
     <servers />
   </component>
