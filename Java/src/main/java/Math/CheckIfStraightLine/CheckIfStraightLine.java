@@ -18,43 +18,47 @@ public class CheckIfStraightLine {
     }
 
     public static boolean checkStraightLine(int[][] coordinates) {
+        // Step1 - Declare variables
+        double prevAngle = -1;       // This variable will keep track of the rate of increase from before
+        double adjacent = 0;
+        double opposite = 0;
+        double angle = 0;
 
-        double increase = -1;
-
+        // Step2 - Traverse each point from 0 to length-1
         for (int i=0; i < coordinates.length - 1; i++) {
             int [] current = coordinates[i];
             int [] next = coordinates[i+1];
             System.out.println("Current: " + current[0] + "," + current[1] + "        Next: " + next[0] + "," + next[1] );
 
-            double adjacent = Math.abs(next[0] - current[0]);
-            double opposite = Math.abs(next[1] - current[1]);
-            double angle = Math.atan(opposite / adjacent);
+            // Step3 - Find the Angle. Use SOH CAH TOA  to find the Angle. In this case we use TOA
+            adjacent = Math.abs(next[0] - current[0]);
+            opposite = Math.abs(next[1] - current[1]);
+            angle = Math.atan(opposite / adjacent);
 
             System.out.println("Opposite: " + opposite + "      Adjacent: " + adjacent  + "     angle: " + angle);
 
-
-            if (increase == -1)
-                increase = angle;
-            if (increase != angle)
+            // Step4 - Check if the angle matches previous angle. Angle should be same throughout
+            if (prevAngle == -1)
+                prevAngle = angle;
+            if (prevAngle != angle)
                 return false;
 
 
-            if (i + 1 == coordinates.length) {
+            // Step5 - Check the first and last Angle
+            if (i + 1 == coordinates.length - 1) {
                 adjacent = Math.abs(next[0] - coordinates[0][0]);
                 opposite = Math.abs(next[1] - coordinates[0][1]);
                 angle = Math.atan(opposite / adjacent);
 
                 System.out.println("Final Opposite: " + opposite + "      Adjacent: " + adjacent  + "     angle: " + angle);
 
-                if (increase == -1)
-                    increase = angle;
-                if (increase != angle)
+                if (prevAngle == -1)
+                    prevAngle = angle;
+                if (prevAngle != angle)
                     return false;
             }
 
         }
-
-
 
         return true;
     }

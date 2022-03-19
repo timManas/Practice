@@ -176,17 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -774,7 +763,9 @@
       <workItem from="1647390706634" duration="1116000" />
       <workItem from="1647473385504" duration="2588000" />
       <workItem from="1647523650272" duration="476000" />
-      <workItem from="1647564829444" duration="3516000" />
+      <workItem from="1647564829444" duration="4072000" />
+      <workItem from="1647614482383" duration="542000" />
+      <workItem from="1647652402710" duration="1390000" />
     </task>
     <servers />
   </component>
@@ -2025,6 +2016,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SearchInsertPosition/SearchInsertPosition.java</url>
           <line>47</line>
           <option name="timeStamp" value="1409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CheckIfStraightLine/CheckIfStraightLine.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1413" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
