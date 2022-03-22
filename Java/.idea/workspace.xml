@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SetMismatch/SetMismatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SetMismatch/SetMismatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -776,7 +777,9 @@
       <workItem from="1647564829444" duration="4072000" />
       <workItem from="1647614482383" duration="542000" />
       <workItem from="1647652402710" duration="1635000" />
-      <workItem from="1647745995708" duration="922000" />
+      <workItem from="1647745995708" duration="2079000" />
+      <workItem from="1647903227208" duration="2273000" />
+      <workItem from="1647911399034" duration="58000" />
     </task>
     <servers />
   </component>
@@ -2032,6 +2035,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/CheckIfStraightLine/CheckIfStraightLine.java</url>
           <line>47</line>
           <option name="timeStamp" value="1413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SetMismatch/SetMismatch.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1414" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

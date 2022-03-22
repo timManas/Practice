@@ -9,18 +9,26 @@ public class SetMismatch {
 
         int [] nums1 = {1,1};
         System.out.println("Find Error nums: " + Arrays.toString(findErrorNums(nums1)));
+
+        int [] nums2 = {2,2};
+        System.out.println("Find Error nums: " + Arrays.toString(findErrorNums(nums2)));
     }
 
     public static int[] findErrorNums(int[] nums) {
-        int prev = nums[0];
         int [] output = new int [2];
 
-        for (int i=1; i<nums.length; i++) {
+        int prev = 0;
+        for (int i=0; i<nums.length - 1; i++) {
             int current = nums[i];
+            int next = nums[i+1];
 
-            if (current == prev) {
+            if (current == next) {
                 output[0] = current;
-                output[1] = prev + 1;
+                if (prev + 1 == current) {
+                    output[1] = current + 1;;
+                } else {
+                    output[1] = prev + 1;
+                }
                 return output;
             }
 
