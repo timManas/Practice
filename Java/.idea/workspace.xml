@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfBinaryStringHasAtMostOneSegmentOfOnes/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfBinaryStringHasAtMostOneSegmentOfOnes/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -781,7 +782,7 @@
       <workItem from="1647745995708" duration="2079000" />
       <workItem from="1647903227208" duration="2273000" />
       <workItem from="1647911399034" duration="2619000" />
-      <workItem from="1647996285965" duration="546000" />
+      <workItem from="1647996285965" duration="1784000" />
     </task>
     <servers />
   </component>
@@ -2042,11 +2043,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/SetMismatch/SetMismatch.java</url>
           <line>49</line>
           <option name="timeStamp" value="1419" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/CheckIfBinaryStringHasAtMostOneSegmentOfOnes/CheckIfBinaryStringHasAtMostOneSegmentOfOnes.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1420" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
