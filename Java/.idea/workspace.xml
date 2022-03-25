@@ -78,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordPattern">
+  <component name="RunManager" selected="Application.MaximumRepeatingString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,13 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
+    <configuration name="MaximumRepeatingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MaximumRepeatingString.MaximumRepeatingString" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="PATTERN" value="Strings.MaximumRepeatingString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SearchInsertPosition.SearchInsertPosition" />
+    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.SearchInsertPosition.*" />
+          <option name="PATTERN" value="Lists.MissingRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumRepeatingString" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.CheckIfBinaryStringHasAtMostOneSegmentOfOnes" />
         <item itemvalue="Application.SetMismatch" />
         <item itemvalue="Application.CheckIfStraightLine" />
-        <item itemvalue="Application.SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -780,7 +782,8 @@
       <workItem from="1647903227208" duration="2273000" />
       <workItem from="1647911399034" duration="2619000" />
       <workItem from="1647996285965" duration="1902000" />
-      <workItem from="1648076770221" duration="1397000" />
+      <workItem from="1648076770221" duration="3006000" />
+      <workItem from="1648166006781" duration="486000" />
     </task>
     <servers />
   </component>
@@ -2044,12 +2047,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/WordPattern/WordPattern.java</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="1421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/WordPattern/WordPattern.java</url>
-          <line>41</line>
+          <line>44</line>
           <option name="timeStamp" value="1423" />
         </line-breakpoint>
       </breakpoints>
