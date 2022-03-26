@@ -78,7 +78,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumRepeatingString">
+  <component name="RunManager" selected="Application.ValidWordSquare">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -92,20 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CheckIfBinaryStringHasAtMostOneSegmentOfOnes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfStraightLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CheckIfStraightLine.CheckIfStraightLine" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.CheckIfStraightLine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,6 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidWordSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ValidWordSquare.ValidWordSquare" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ValidWordSquare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.WordPattern.WordPattern" />
       <module name="Java" />
@@ -175,15 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidWordSquare" />
         <item itemvalue="Application.MaximumRepeatingString" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.CheckIfBinaryStringHasAtMostOneSegmentOfOnes" />
         <item itemvalue="Application.SetMismatch" />
-        <item itemvalue="Application.CheckIfStraightLine" />
       </list>
     </recent_temporary>
   </component>
@@ -783,7 +781,9 @@
       <workItem from="1647911399034" duration="2619000" />
       <workItem from="1647996285965" duration="1902000" />
       <workItem from="1648076770221" duration="3006000" />
-      <workItem from="1648166006781" duration="486000" />
+      <workItem from="1648166006781" duration="1658000" />
+      <workItem from="1648214949247" duration="559000" />
+      <workItem from="1648253235922" duration="2369000" />
     </task>
     <servers />
   </component>
@@ -2054,6 +2054,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/WordPattern/WordPattern.java</url>
           <line>44</line>
           <option name="timeStamp" value="1423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1424" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
