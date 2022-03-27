@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,17 +172,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -783,7 +773,8 @@
       <workItem from="1648076770221" duration="3006000" />
       <workItem from="1648166006781" duration="1658000" />
       <workItem from="1648214949247" duration="559000" />
-      <workItem from="1648253235922" duration="2369000" />
+      <workItem from="1648253235922" duration="3899000" />
+      <workItem from="1648344107285" duration="6161000" />
     </task>
     <servers />
   </component>
@@ -2055,11 +2046,6 @@
           <line>44</line>
           <option name="timeStamp" value="1423" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1424" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -2068,8 +2054,13 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="total/k" language="JAVA" />
-        <watch expression="rec2RangeY[0] &lt; rec2RangeY[0]" language="JAVA" />
+        <watch expression="offset &lt; words.get(rowIndex).length()" language="JAVA" />
+        <watch expression="rowIndex &lt; words.get(rowIndex).length()" language="JAVA" />
+        <watch expression="words.get(rowIndex).length()" language="JAVA" />
+        <watch expression="offset &lt; words.get(offset).length()" language="JAVA" />
+        <watch expression="colIndex &lt; words.get(offset).length() " language="JAVA" />
+        <watch expression="words.get(offset).length() " language="JAVA" />
+        <watch expression="words.get(rowIndex)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
