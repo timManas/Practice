@@ -8,11 +8,13 @@ public class NumberOfSegmentsString {
     }
 
     public static int countSegments(String s) {
-
-        if (s.trim().equals(""))
-            return 0;
-
+        // Step1 - Split s into non space character
         String [] array = s.trim().split(" ");
-        return array.length;
+
+        // Step2 - Count # of non space characters
+        int countNonBlank = 0;
+        for (String i : array) countNonBlank = i.equalsIgnoreCase("") ? countNonBlank : countNonBlank + 1;
+
+        return countNonBlank;
     }
 }
