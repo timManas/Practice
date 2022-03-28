@@ -65,6 +65,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lists.TwoSumIIDataStructureDesign" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Strings/ReformatStrings" />
       <recent name="$PROJECT_DIR$/src/main/java/Trees/DistributeCoinsInBinaryTree" />
@@ -78,20 +81,20 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerfectNumber">
+  <component name="RunManager" selected="Application.TwoSumIIDataStructureDesign">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumRepeatingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MaximumRepeatingString.MaximumRepeatingString" />
+    <configuration name="LengthLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LengthLastWord.LengthLastWord" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.MaximumRepeatingString.*" />
+          <option name="PATTERN" value="Strings.LengthLastWord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidWordSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ValidWordSquare.ValidWordSquare" />
+    <configuration name="TwoSumIIDataStructureDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.TwoSumIIDataStructureDesign.TwoSumIIDataStructureDesign" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ValidWordSquare.*" />
+          <option name="PATTERN" value="Lists.TwoSumIIDataStructureDesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.WordPattern.WordPattern" />
+    <configuration name="ValidWordSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ValidWordSquare.ValidWordSquare" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.WordPattern.*" />
+          <option name="PATTERN" value="Strings.ValidWordSquare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSumIIDataStructureDesign" />
+        <item itemvalue="Application.LengthLastWord" />
         <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.NumberOfSegmentsString" />
         <item itemvalue="Application.ValidWordSquare" />
-        <item itemvalue="Application.MaximumRepeatingString" />
-        <item itemvalue="Application.WordPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -787,7 +790,7 @@
       <workItem from="1648344107285" duration="6682000" />
       <workItem from="1648393455486" duration="1596000" />
       <workItem from="1648428623234" duration="595000" />
-      <workItem from="1648480277138" duration="1330000" />
+      <workItem from="1648480277138" duration="3340000" />
     </task>
     <servers />
   </component>
@@ -2065,14 +2068,9 @@
           <option name="timeStamp" value="1424" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/PerfectNumber/PerfectNumber.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1425" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Math/PerfectNumber/PerfectNumber.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1426" />
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/TwoSumIIDataStructureDesign/TwoSum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1428" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
