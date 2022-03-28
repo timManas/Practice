@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/NumberOfSegmentsString/NumberOfSegmentsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/NumberOfSegmentsString/NumberOfSegmentsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,23 +78,9 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfSegmentsString">
+  <component name="RunManager" selected="Application.PerfectNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfBinaryStringHasAtMostOneSegmentOfOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfBinaryStringHasAtMostOneSegmentOfOnes.CheckIfBinaryStringHasAtMostOneSegmentOfOnes" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfBinaryStringHasAtMostOneSegmentOfOnes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +120,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.NumberOfSegmentsString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.PerfectNumber.PerfectNumber" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.PerfectNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.NumberOfSegmentsString" />
         <item itemvalue="Application.ValidWordSquare" />
         <item itemvalue="Application.MaximumRepeatingString" />
         <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.CheckIfBinaryStringHasAtMostOneSegmentOfOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -785,7 +785,9 @@
       <workItem from="1648214949247" duration="559000" />
       <workItem from="1648253235922" duration="3899000" />
       <workItem from="1648344107285" duration="6682000" />
-      <workItem from="1648393455486" duration="1503000" />
+      <workItem from="1648393455486" duration="1596000" />
+      <workItem from="1648428623234" duration="595000" />
+      <workItem from="1648480277138" duration="1330000" />
     </task>
     <servers />
   </component>
@@ -2059,8 +2061,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/NumberOfSegmentsString/NumberOfSegmentsString.java</url>
-          <line>14</line>
+          <line>11</line>
           <option name="timeStamp" value="1424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/PerfectNumber/PerfectNumber.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/PerfectNumber/PerfectNumber.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1426" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
