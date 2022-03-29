@@ -16,14 +16,20 @@ public class TwoSum {
     }
 
     public boolean find(int target) {
+
+        if (list.size() <= 1)
+            return false;
+
         for (int i=0; i < list.size(); i++) {
+            List<Integer> subList = list.subList(i + 1, list.size());
             int current = list.get(i);
             int difference = target - current;
-            if (current > target )
-                break;
 
-            if (list.contains(difference) && list.indexOf(difference) != i)
+            System.out.println("current: " + current + "    diff: " + difference + "    target: " + target + "      subList:" + subList);
+
+            if (subList.contains(difference))
                 return true;
+
 
 
         }

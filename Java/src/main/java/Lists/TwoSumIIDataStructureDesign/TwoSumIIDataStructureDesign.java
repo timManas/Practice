@@ -30,6 +30,7 @@ public class TwoSumIIDataStructureDesign {
         System.out.println(twoSum3.find(0));
         System.out.println(twoSum3.find(-1));
         System.out.println(twoSum3.find(1));
+
     }
 
 }
