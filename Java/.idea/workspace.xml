@@ -81,7 +81,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfNAndItsDoubleExists">
+  <component name="RunManager" selected="Application.LongPressedName">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -116,6 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongPressedName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LongPressedName.LongPressedName" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.LongPressedName.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -137,20 +151,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.NumDiffIntegerString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.PerfectNumber.PerfectNumber" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.PerfectNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongPressedName" />
         <item itemvalue="Application.CheckIfNAndItsDoubleExists" />
         <item itemvalue="Application.NumDiffIntegerString" />
         <item itemvalue="Application.TwoSumIIDataStructureDesign" />
         <item itemvalue="Application.LengthLastWord" />
-        <item itemvalue="Application.PerfectNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -793,7 +793,7 @@
       <workItem from="1648393455486" duration="1596000" />
       <workItem from="1648428623234" duration="595000" />
       <workItem from="1648480277138" duration="3811000" />
-      <workItem from="1648590401316" duration="6761000" />
+      <workItem from="1648590401316" duration="7909000" />
     </task>
     <servers />
   </component>
@@ -2087,22 +2087,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfNAndItsDoubleExists/CheckIfNAndItsDoubleExists.java</url>
-          <line>35</line>
+          <line>39</line>
           <option name="timeStamp" value="1431" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfNAndItsDoubleExists/CheckIfNAndItsDoubleExists.java</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="1432" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfNAndItsDoubleExists/CheckIfNAndItsDoubleExists.java</url>
-          <line>32</line>
+          <line>36</line>
           <option name="timeStamp" value="1433" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfNAndItsDoubleExists/CheckIfNAndItsDoubleExists.java</url>
-          <line>38</line>
+          <line>42</line>
           <option name="timeStamp" value="1434" />
         </line-breakpoint>
       </breakpoints>
