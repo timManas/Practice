@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LongPressedName/LongPressedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LongPressedName/LongPressedName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -793,7 +794,7 @@
       <workItem from="1648393455486" duration="1596000" />
       <workItem from="1648428623234" duration="595000" />
       <workItem from="1648480277138" duration="3811000" />
-      <workItem from="1648590401316" duration="7909000" />
+      <workItem from="1648590401316" duration="9317000" />
     </task>
     <servers />
   </component>
@@ -2104,6 +2105,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfNAndItsDoubleExists/CheckIfNAndItsDoubleExists.java</url>
           <line>42</line>
           <option name="timeStamp" value="1434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/LongPressedName/LongPressedName.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1435" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
