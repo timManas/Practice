@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/XDeckOfCards/XDeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/XDeckOfCards/XDeckOfCards.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -782,7 +783,8 @@
       <workItem from="1648480277138" duration="3811000" />
       <workItem from="1648590401316" duration="11104000" />
       <workItem from="1648650326071" duration="3719000" />
-      <workItem from="1648687752635" duration="2438000" />
+      <workItem from="1648687752635" duration="3066000" />
+      <workItem from="1648765121187" duration="4548000" />
     </task>
     <servers />
   </component>
@@ -2118,11 +2120,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/ValidMountainArray/ValidMountainArray.java</url>
           <line>51</line>
           <option name="timeStamp" value="1442" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/XDeckOfCards/XDeckOfCards.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1443" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
