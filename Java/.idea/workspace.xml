@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/XDeckOfCards/XDeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/XDeckOfCards/XDeckOfCards.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +81,23 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XDeckOfCards">
+  <component name="RunManager" selected="Application.CanPlaceFlowers">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CanPlaceFlowers.CanPlaceFlowers" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.CanPlaceFlowers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,20 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumDiffIntegerString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.NumDiffIntegerString.NumDiffIntegerString" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.NumDiffIntegerString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.ValidMountainArray.ValidMountainArray" />
       <module name="Java" />
@@ -179,6 +178,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -206,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.XDeckOfCards" />
         <item itemvalue="Application.ValidMountainArray" />
         <item itemvalue="Application.LongPressedName" />
         <item itemvalue="Application.CheckIfNAndItsDoubleExists" />
-        <item itemvalue="Application.NumDiffIntegerString" />
       </list>
     </recent_temporary>
   </component>
@@ -784,7 +794,7 @@
       <workItem from="1648590401316" duration="11104000" />
       <workItem from="1648650326071" duration="3719000" />
       <workItem from="1648687752635" duration="3066000" />
-      <workItem from="1648765121187" duration="4548000" />
+      <workItem from="1648765121187" duration="7278000" />
     </task>
     <servers />
   </component>
@@ -2120,6 +2130,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/ValidMountainArray/ValidMountainArray.java</url>
           <line>51</line>
           <option name="timeStamp" value="1442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1445" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
