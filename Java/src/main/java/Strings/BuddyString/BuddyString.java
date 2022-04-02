@@ -17,6 +17,9 @@ public class BuddyString {
         String s3 = "abcaa", goal3 = "abcbb";
         System.out.println("buddy string: " + buddyStrings(s3,goal3) + "\n");
 
+        String s4 = "abab", goal4 = "abab";
+        System.out.println("buddy string: " + buddyStrings(s4,goal4) + "\n");
+
     }
 
     public static boolean buddyStrings(String s, String goal) {
