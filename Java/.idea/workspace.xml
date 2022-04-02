@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,17 +175,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -794,7 +784,8 @@
       <workItem from="1648590401316" duration="11104000" />
       <workItem from="1648650326071" duration="3719000" />
       <workItem from="1648687752635" duration="3066000" />
-      <workItem from="1648765121187" duration="7278000" />
+      <workItem from="1648765121187" duration="7674000" />
+      <workItem from="1648861061762" duration="1895000" />
     </task>
     <servers />
   </component>
@@ -2133,13 +2124,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
-          <line>60</line>
+          <line>88</line>
           <option name="timeStamp" value="1444" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
-          <line>56</line>
+          <line>84</line>
           <option name="timeStamp" value="1445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="1446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/CanPlaceFlowers/CanPlaceFlowers.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1448" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
