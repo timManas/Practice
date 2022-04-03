@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ValidWordSquare/ValidWordSquare" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -798,7 +797,9 @@
       <workItem from="1648687752635" duration="3066000" />
       <workItem from="1648765121187" duration="7674000" />
       <workItem from="1648861061762" duration="4620000" />
-      <workItem from="1648912586619" duration="1763000" />
+      <workItem from="1648912586619" duration="3286000" />
+      <workItem from="1648941950268" duration="1115000" />
+      <workItem from="1649025328400" duration="2393000" />
     </task>
     <servers />
   </component>
@@ -2159,6 +2160,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
           <line>62</line>
           <option name="timeStamp" value="1449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="1450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="1451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1453" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
