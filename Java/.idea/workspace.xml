@@ -802,7 +802,7 @@
       <workItem from="1648912586619" duration="3286000" />
       <workItem from="1648941950268" duration="1115000" />
       <workItem from="1649025328400" duration="3796000" />
-      <workItem from="1649130415281" duration="337000" />
+      <workItem from="1649130415281" duration="1141000" />
     </task>
     <servers />
   </component>
@@ -2160,11 +2160,6 @@
           <option name="timeStamp" value="1448" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="1449" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/RemoveOneElementToMakeArrayStrictlyIncr/RemoveOneElementToMakeArrayStrictlyIncr.java</url>
           <line>48</line>
           <option name="timeStamp" value="1453" />
@@ -2179,17 +2174,21 @@
           <line>51</line>
           <option name="timeStamp" value="1455" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="1457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="1458" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="list.contains(difference)" language="JAVA" />
-        <watch expression="list.indexOf(current) != i" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

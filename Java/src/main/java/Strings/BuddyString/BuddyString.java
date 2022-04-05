@@ -28,6 +28,8 @@ public class BuddyString {
             return false;
 
         boolean isMixed = false;
+
+        // If s and goal are the same
         if (s.equalsIgnoreCase(goal)) {
             char prev = s.charAt(0);
             for (int i=1; i<s.length(); i++) {
@@ -41,6 +43,7 @@ public class BuddyString {
             return !isMixed;
         }
 
+        // If s and goal are different
         // Find if s and goal have the same subset of letters
         Map<Character, Integer> mapS = new TreeMap<>();
         Map<Character, Integer> mapG = new TreeMap<>();
