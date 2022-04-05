@@ -1,5 +1,7 @@
-package Strings.BuddyString;
+ package Strings.BuddyString;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -20,31 +22,17 @@ public class BuddyString {
         String s4 = "abab", goal4 = "abab";
         System.out.println("buddy string: " + buddyStrings(s4,goal4) + "\n");
 
+
     }
 
     public static boolean buddyStrings(String s, String goal) {
 
+        // Step1 - Check both s and goal have the same size
         if (s.length() != goal.length() || (s.length() == 1 && goal.length() == 1))
             return false;
 
-        boolean isMixed = false;
 
-        // If s and goal are the same
-        if (s.equalsIgnoreCase(goal)) {
-            char prev = s.charAt(0);
-            for (int i=1; i<s.length(); i++) {
-                if (prev != s.charAt(i)) {
-                    isMixed = true;
-                    break;
-                }
-
-            }
-
-            return !isMixed;
-        }
-
-        // If s and goal are different
-        // Find if s and goal have the same subset of letters
+        // Step2 - Find if s and goal have the same subset of letters
         Map<Character, Integer> mapS = new TreeMap<>();
         Map<Character, Integer> mapG = new TreeMap<>();
         for (int i=0; i<s.length(); i++) {
@@ -65,8 +53,21 @@ public class BuddyString {
         }
         if (!mapS.equals(mapG))
             return false;
+        System.out.println("mapS: " + mapS + "      mapG: " + mapG);
 
+        // Step3 - Check If s and goal are same
+        if (s.equalsIgnoreCase(goal)) {
+            // Check if there is more than one occurence. More than 1 means we can switch the same character
+            List<Integer> valuesList = new ArrayList<>(mapG.values());
+            for (int i : valuesList) {
+                if (i >= 2)
+                    return true;
+            }
 
+            return false;
+        }
+
+        // Step4 - If s and goal are different, then we find the # of differences
         int numDiff = 0;
         for (int i=0; i < s.length(); i++) {
             char currentS = s.charAt(i);

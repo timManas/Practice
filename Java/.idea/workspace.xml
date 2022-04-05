@@ -802,7 +802,7 @@
       <workItem from="1648912586619" duration="3286000" />
       <workItem from="1648941950268" duration="1115000" />
       <workItem from="1649025328400" duration="3796000" />
-      <workItem from="1649130415281" duration="1141000" />
+      <workItem from="1649130415281" duration="2080000" />
     </task>
     <servers />
   </component>
@@ -2176,13 +2176,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
-          <line>66</line>
+          <line>54</line>
           <option name="timeStamp" value="1457" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
-          <line>81</line>
+          <line>82</line>
           <option name="timeStamp" value="1458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="1463" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
