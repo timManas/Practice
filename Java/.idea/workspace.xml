@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuddyString">
+  <component name="RunManager" selected="Application.DotProductTwoSparseVectors">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -110,6 +109,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.CanPlaceFlowers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DotProductTwoSparseVectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.DotProductTwoSparseVectors.DotProductTwoSparseVectors" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.DotProductTwoSparseVectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,20 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.ValidMountainArray.ValidMountainArray" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.ValidMountainArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="XDeckOfCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.XDeckOfCards.XDeckOfCards" />
       <module name="Java" />
@@ -179,15 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DotProductTwoSparseVectors" />
         <item itemvalue="Application.BuddyString" />
         <item itemvalue="Application.RemoveOneElementToMakeArrayStrictlyIncr" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.XDeckOfCards" />
-        <item itemvalue="Application.ValidMountainArray" />
       </list>
     </recent_temporary>
   </component>
@@ -802,7 +799,8 @@
       <workItem from="1648912586619" duration="3286000" />
       <workItem from="1648941950268" duration="1115000" />
       <workItem from="1649025328400" duration="3796000" />
-      <workItem from="1649130415281" duration="2080000" />
+      <workItem from="1649130415281" duration="3248000" />
+      <workItem from="1649164783493" duration="2588000" />
     </task>
     <servers />
   </component>
