@@ -14,12 +14,20 @@ public class PartitionDeciBinary {
         StringBuilder base = new StringBuilder();
         for (int i=0; i<n.length(); i++) base.append('1');
 
-        // Create stringbuilder to store all the non zero values
+        // Create string builder to store all the non zero values
         StringBuilder sb = new StringBuilder(n);
 
         // Keep running the loop until we get to all 0000000000....
         while (base.indexOf("1") != -1) {
             System.out.println("sb: " + sb + "      base: " + base);
+
+            for (int i=0; i<sb.length();i++) {
+                int s = Integer.parseInt(String.valueOf(sb.charAt(i)));
+                int b = Integer.parseInt(String.valueOf(base.charAt(i)));
+                int diff = s - b;
+                System.out.println("s: " + s + "     b: " + b + "   diff: " + diff);
+            }
+
 
 
             counter++;
