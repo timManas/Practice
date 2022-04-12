@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Math/PartitionDeciBinary/PartitionDeciBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/PartitionDeciBinary/PartitionDeciBinary.java" afterDir="false" />
     </list>
@@ -146,9 +147,10 @@
       </method>
     </configuration>
     <configuration name="PartitionDeciBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Math.PartitionDeciBinary.PartitionDeciBinary" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="PracticeJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.PartitionDeciBinary.*" />
@@ -805,7 +807,12 @@
       <workItem from="1649245597100" duration="319000" />
       <workItem from="1649285983711" duration="1933000" />
       <workItem from="1649378704699" duration="1398000" />
-      <workItem from="1649419973748" duration="1405000" />
+      <workItem from="1649419973748" duration="2509000" />
+      <workItem from="1649514949727" duration="483000" />
+      <workItem from="1649547660532" duration="527000" />
+      <workItem from="1649561744196" duration="475000" />
+      <workItem from="1649598960055" duration="143000" />
+      <workItem from="1649726481870" duration="1409000" />
     </task>
     <servers />
   </component>
@@ -2196,6 +2203,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/BuddyString/BuddyString.java</url>
           <line>66</line>
           <option name="timeStamp" value="1463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/PartitionDeciBinary/PartitionDeciBinary.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/PartitionDeciBinary/PartitionDeciBinary.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1465" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
