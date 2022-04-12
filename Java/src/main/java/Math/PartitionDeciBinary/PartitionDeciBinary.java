@@ -2,8 +2,8 @@ package Math.PartitionDeciBinary;
 
 public class PartitionDeciBinary {
     public static void main (String [] args) {
-//        String [] input = {"32", "82734", "27346209830709182346"};
-        String [] input = {"32", "82734"};
+        String [] input = {"27346209830709182346"};
+//        String [] input = {"32", "82734"};
         for (String i : input)
             System.out.println("minPartition: " + minPartitions(i) + "\n");
     }
@@ -21,10 +21,12 @@ public class PartitionDeciBinary {
         StringBuilder deciBinary = new StringBuilder();
         for (int i=0; i < sb.length(); i++) {
             char letter = sb.charAt(i);
-            deciBinary.append('1');
+
             if (letter == '0') {
                 deciBinary.append('0');
                 nSize--;
+            } else {
+                deciBinary.append('1');
             }
         }
         System.out.println("deciBinary: " + deciBinary);
