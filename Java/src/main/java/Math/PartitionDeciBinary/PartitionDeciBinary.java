@@ -2,13 +2,25 @@ package Math.PartitionDeciBinary;
 
 public class PartitionDeciBinary {
     public static void main (String [] args) {
-        String [] input = {"27346209830709182346"};
-//        String [] input = {"32", "82734"};
+        String [] input = {"32", "82734","27346209830709182346"};
         for (String i : input)
             System.out.println("minPartition: " + minPartitions(i) + "\n");
     }
 
-    public static int minPartitions(String n) {
+    // TIP: We have to count the largest number in the input. You should see a pattern here
+    // Why ? Because that will be a maximum number of times we have to subtract until we get to zero
+    private static int minPartitions(String n) {
+
+        int largest = 0;
+        for (int i=0; i < n.length(); i++) {
+            largest = Integer.parseInt(String.valueOf(n.charAt(i))) > largest ? Integer.parseInt(String.valueOf(n.charAt(i))) : largest;
+        }
+
+        return largest;
+    }
+
+    // This only passes 91/97
+    public static int minPartitions_OLD(String n) {
 
         int nSize = n.length();
 
@@ -53,9 +65,6 @@ public class PartitionDeciBinary {
             System.out.println("sb: " + sb);
             counter++;
         }
-
-
-
 
         return counter;
     }
