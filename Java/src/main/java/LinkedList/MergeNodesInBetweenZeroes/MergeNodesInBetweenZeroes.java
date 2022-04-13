@@ -1,5 +1,8 @@
 package LinkedList.MergeNodesInBetweenZeroes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MergeNodesInBetweenZeroes {
     public static void main(String [] args) {
         ListNode node1 = new ListNode(0);
@@ -41,9 +44,47 @@ public class MergeNodesInBetweenZeroes {
     }
 
     private static void printNode(ListNode mergeNodes) {
+        while (mergeNodes != null) {
+            System.out.print(mergeNodes.val + ",");
+            mergeNodes = mergeNodes.next;
+        }
+        System.out.println("\n");
     }
 
     public static ListNode mergeNodes(ListNode head) {
 
+        // Step1 - Create output node to return. Current node to keep track of the current
+        ListNode output = null;
+        ListNode current = null;
+
+        int total = 0;
+
+        // Step1 - Traverse linkedlist
+        ListNode node = head.next;
+        while (node != null) {
+            System.out.println("Current: " + node.val);
+
+            // Step3 - if node == 0, then create a node with total inside of it. Reset values afterwards
+            if (node.val == 0) {
+                if (output == null) {
+                    output = new ListNode(total);
+                    current = output;
+                } else {
+                    ListNode next = new ListNode(total);
+                    current.next = next;
+                    current = next;
+                }
+                total = 0;
+
+            } else {
+                total += node.val;      // continue adding total
+            }
+            System.out.println("Total: " + total);
+
+            // Step4 - Increment to next
+            node = node.next;
+        }
+
+        return output;
     }
 }
