@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/MergeNodesInBetweenZeroes/MergeNodesInBetweenZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/MergeNodesInBetweenZeroes/MergeNodesInBetweenZeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,15 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -815,7 +812,8 @@
       <workItem from="1649561744196" duration="475000" />
       <workItem from="1649598960055" duration="143000" />
       <workItem from="1649726481870" duration="3365000" />
-      <workItem from="1649806487319" duration="3901000" />
+      <workItem from="1649806487319" duration="4006000" />
+      <workItem from="1649989517048" duration="745000" />
     </task>
     <servers />
   </component>
