@@ -1,6 +1,8 @@
 package Math.NumPointsInsideCircle;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class NumPointsInsideCircle {
 
@@ -15,6 +17,15 @@ public class NumPointsInsideCircle {
     }
 
     public static int[] countPoints(int[][] points, int[][] queries) {
+        List<Integer> list = new ArrayList<>();
 
+
+
+
+        // Create output Points
+        int [] output = new int[queries.length];
+        for (int i : list) output[i] = list.get(i);
+
+        return output;
     }
 }
