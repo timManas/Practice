@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/NumPointsInsideCircle/NumPointsInsideCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/NumPointsInsideCircle/NumPointsInsideCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,23 +82,9 @@
       <recent name="Trees.BinaryTreePreOrderTraversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumPointsInsideCircle">
+  <component name="RunManager" selected="Application.MinNumOperationsMoveBallsToEachBox">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DotProductTwoSparseVectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.DotProductTwoSparseVectors.DotProductTwoSparseVectors" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.DotProductTwoSparseVectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +96,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LinkedList.MergeNodesInBetweenZeroes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinNumOperationsMoveBallsToEachBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MinNumOperationsMoveBallsToEachBox.MinNumOperationsMoveBallsToEachBox" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.MinNumOperationsMoveBallsToEachBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinNumOperationsMoveBallsToEachBox" />
         <item itemvalue="Application.NumPointsInsideCircle" />
         <item itemvalue="Application.MergeNodesInBetweenZeroes" />
         <item itemvalue="Application.PartitionDeciBinary" />
         <item itemvalue="Application.MinimumProductSum" />
-        <item itemvalue="Application.DotProductTwoSparseVectors" />
       </list>
     </recent_temporary>
   </component>
@@ -816,7 +817,8 @@
       <workItem from="1649806487319" duration="4006000" />
       <workItem from="1649989517048" duration="1071000" />
       <workItem from="1650160463035" duration="1613000" />
-      <workItem from="1650288161246" duration="853000" />
+      <workItem from="1650288161246" duration="1655000" />
+      <workItem from="1650413056961" duration="1137000" />
     </task>
     <servers />
   </component>
@@ -2247,6 +2249,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/MergeNodesInBetweenZeroes/MergeNodesInBetweenZeroes.java</url>
           <line>72</line>
           <option name="timeStamp" value="1475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/NumPointsInsideCircle/NumPointsInsideCircle.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1476" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
