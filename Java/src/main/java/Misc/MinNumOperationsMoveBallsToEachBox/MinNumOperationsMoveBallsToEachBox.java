@@ -1,8 +1,6 @@
 package Misc.MinNumOperationsMoveBallsToEachBox;
 
-import java.util.Arrays;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class MinNumOperationsMoveBallsToEachBox {
     public static void main(String [] args) {
@@ -12,25 +10,29 @@ public class MinNumOperationsMoveBallsToEachBox {
     }
 
     public static int[] minOperations(String boxes) {
-        Set<Integer> set = new TreeSet<>();
         int [] output = new int[boxes.length()];
 
-        // Populate Set
-        int onesPositionTotal = 0;
+        // Step1 - Populate list
+        List<Integer> list = new ArrayList<>();
         for (int i=0; i<boxes.length();i++) {
             char character = boxes.charAt(i);
             if (character == '1') {
-                set.add(i);
-                onesPositionTotal += i;
+                list.add(i);
             }
         }
-        System.out.println("Set: " + set);
-        int numZeroes = boxes.length() - set.size();
+        System.out.println("list: " + list);
 
+        // Step2 - Traverse each query
         for (int i=0; i<boxes.length(); i++) {
-            int total = onesPositionTotal - (numZeroes * i);
+
+            // Step3 - Find the total by taking the Absolute value between i and list.get(x)
+            int total = 0;
+            for (int x=0; x<list.size(); x++) {
+                total += Math.abs(list.get(x) - i);
+            }
             System.out.println("Total: " + total);
 
+            // Add to output array
             output[i] = total;
         }
 
