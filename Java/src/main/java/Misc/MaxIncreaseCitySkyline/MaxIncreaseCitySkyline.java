@@ -7,6 +7,15 @@ public class MaxIncreaseCitySkyline {
     }
 
     public static int maxIncreaseKeepingSkyline(int[][] grid) {
+        int max = 0;
 
+        for (int row=0; row < grid.length; row++) {
+            for (int col=0; col < grid[row].length; col++) {
+                int current = grid[row][col];
+                System.out.println("Current: " + current);
+            }
+        }
+
+        return max;
     }
 }
