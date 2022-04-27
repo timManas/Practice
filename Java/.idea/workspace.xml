@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/MaximumBinaryTree/MaximumBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/MaximumBinaryTree/MaximumBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxIncreaseCitySkyline">
+  <component name="RunManager" selected="Application.MaximumBinaryTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -96,6 +97,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.MaxIncreaseCitySkyline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MaximumBinaryTree.MaximumBinaryTree" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.MaximumBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,34 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionDeciBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Math.PartitionDeciBinary.PartitionDeciBinary" />
-      <module name="PracticeJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.PartitionDeciBinary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumBinaryTree" />
         <item itemvalue="Application.MaxIncreaseCitySkyline" />
         <item itemvalue="Application.MinNumOperationsMoveBallsToEachBox" />
         <item itemvalue="Application.NumPointsInsideCircle" />
         <item itemvalue="Application.MergeNodesInBetweenZeroes" />
-        <item itemvalue="Application.PartitionDeciBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -822,7 +824,8 @@
       <workItem from="1650664740448" duration="1393000" />
       <workItem from="1650688426144" duration="2184000" />
       <workItem from="1650759428612" duration="13000" />
-      <workItem from="1651014749080" duration="798000" />
+      <workItem from="1651014749080" duration="1424000" />
+      <workItem from="1651097928551" duration="2619000" />
     </task>
     <servers />
   </component>
@@ -2258,6 +2261,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/NumPointsInsideCircle/NumPointsInsideCircle.java</url>
           <line>41</line>
           <option name="timeStamp" value="1476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Trees/MaximumBinaryTree/MaximumBinaryTree.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1477" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
