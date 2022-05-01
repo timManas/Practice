@@ -82,7 +82,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutionSuffixInstrGrid">
+  <component name="RunManager" selected="Application.PartitionArrayAccordingPivot">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -131,20 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinNumOperationsMoveBallsToEachBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MinNumOperationsMoveBallsToEachBox.MinNumOperationsMoveBallsToEachBox" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.MinNumOperationsMoveBallsToEachBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -173,21 +159,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PartitionArrayAccordingPivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.PartitionArrayAccordingPivot.PartitionArrayAccordingPivot" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.PartitionArrayAccordingPivot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionArrayAccordingPivot" />
         <item itemvalue="Application.ExecutionSuffixInstrGrid" />
         <item itemvalue="Application.NumLaserBeamsInBank" />
         <item itemvalue="Application.MaximumBinaryTree" />
         <item itemvalue="Application.MaxIncreaseCitySkyline" />
-        <item itemvalue="Application.MinNumOperationsMoveBallsToEachBox" />
       </list>
     </recent_temporary>
   </component>
@@ -827,7 +825,8 @@
       <workItem from="1651097928551" duration="3257000" />
       <workItem from="1651196616521" duration="1633000" />
       <workItem from="1651281687926" duration="910000" />
-      <workItem from="1651326772296" duration="1428000" />
+      <workItem from="1651326772296" duration="1637000" />
+      <workItem from="1651442674931" duration="844000" />
     </task>
     <servers />
   </component>
@@ -2281,27 +2280,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ExecutionSuffixInstrGrid/ExecutionSuffixInstrGrid.java</url>
-          <line>34</line>
+          <line>36</line>
           <option name="timeStamp" value="1485" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ExecutionSuffixInstrGrid/ExecutionSuffixInstrGrid.java</url>
-          <line>39</line>
+          <line>42</line>
           <option name="timeStamp" value="1486" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ExecutionSuffixInstrGrid/ExecutionSuffixInstrGrid.java</url>
-          <line>42</line>
+          <line>45</line>
           <option name="timeStamp" value="1487" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ExecutionSuffixInstrGrid/ExecutionSuffixInstrGrid.java</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="1488" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/ExecutionSuffixInstrGrid/ExecutionSuffixInstrGrid.java</url>
-          <line>48</line>
+          <line>51</line>
           <option name="timeStamp" value="1489" />
         </line-breakpoint>
       </breakpoints>
