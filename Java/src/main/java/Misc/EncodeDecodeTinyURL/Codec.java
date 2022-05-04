@@ -10,6 +10,7 @@ public class Codec {
     // Encodes a URL to a shortened URL.
     public String encode(String url) {
         String encodedString = Base64.getEncoder().encodeToString(url.getBytes());
+
         return encodedString;
     }
 
