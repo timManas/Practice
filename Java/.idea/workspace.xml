@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/MaxTwinSumLinkedList/MaxTwinSumLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/MaxTwinSumLinkedList/MaxTwinSumLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EncodeDecodeTinyURL">
+  <component name="RunManager" selected="Application.MaxTwinSumLinkedList">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,13 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.MaximumBinaryTree.MaximumBinaryTree" />
+    <configuration name="MaxTwinSumLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.MaxTwinSumLinkedList.MaxTwinSumLinkedList" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.MaximumBinaryTree.*" />
+          <option name="PATTERN" value="LinkedList.MaxTwinSumLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxTwinSumLinkedList" />
         <item itemvalue="Application.EncodeDecodeTinyURL" />
         <item itemvalue="Application.PartitionArrayAccordingPivot" />
         <item itemvalue="Application.ExecutionSuffixInstrGrid" />
         <item itemvalue="Application.NumLaserBeamsInBank" />
-        <item itemvalue="Application.MaximumBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -831,7 +833,8 @@
       <workItem from="1651532871318" duration="1852000" />
       <workItem from="1651623446489" duration="2738000" />
       <workItem from="1651634621354" duration="680000" />
-      <workItem from="1651701950792" duration="266000" />
+      <workItem from="1651701950792" duration="1559000" />
+      <workItem from="1651809022283" duration="232000" />
     </task>
     <servers />
   </component>
