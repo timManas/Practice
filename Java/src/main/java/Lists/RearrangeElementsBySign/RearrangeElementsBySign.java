@@ -1,6 +1,6 @@
 package Lists.RearrangeElementsBySign;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class RearrangeElementsBySign {
     public static void main(String [] args) {
@@ -13,6 +13,26 @@ public class RearrangeElementsBySign {
     public static int[] rearrangeArray(int[] nums) {
         int [] output = new int [nums.length];
 
+        // Step1 - Create Queue
+        Deque<Integer> positiveQ = new LinkedList<>();
+        Deque<Integer> negativeQ= new LinkedList<>();
+
+        // Step2 - Populate Queue
+        for (int i : nums) {
+            if (i > 0)
+                positiveQ.addFirst(i);
+            else
+                negativeQ.addFirst(i);
+        }
+
+        // Step3 - Populate the output array
+        for (int i=0; i < output.length; i++) {
+            if (i % 2 == 0) {
+                output[i] = positiveQ.removeLast();
+            } else {
+                output[i] = negativeQ.removeLast();
+            }
+        }
         return output;
     }
 }
