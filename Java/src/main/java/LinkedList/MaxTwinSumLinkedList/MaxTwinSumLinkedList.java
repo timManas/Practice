@@ -37,17 +37,14 @@ public class MaxTwinSumLinkedList {
             node = node.next;
         }
 
-
+        // Step2 - Find the largest twin sum
         int start = 0;
         int end = list.size() - 1;
         while (start < end) {
             sum = sum < (list.get(start) + list.get(end)) ? (list.get(start) + list.get(end)) : sum;
-
             start++;
             end--;
         }
-
-
 
         return sum;
     }
