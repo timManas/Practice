@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DesignExpressionTree/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DesignExpressionTree/TreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -825,7 +825,13 @@
       <workItem from="1652144604788" duration="1166000" />
       <workItem from="1652324710983" duration="1518000" />
       <workItem from="1652411781606" duration="1020000" />
-      <workItem from="1652498261866" duration="1630000" />
+      <workItem from="1652498261866" duration="1761000" />
+      <workItem from="1652667841944" duration="479000" />
+      <workItem from="1652731631613" duration="88000" />
+      <workItem from="1652735828541" duration="222000" />
+      <workItem from="1654308038701" duration="39000" />
+      <workItem from="1655773087711" duration="13000" />
+      <workItem from="1661824139632" duration="45000" />
     </task>
     <servers />
   </component>
