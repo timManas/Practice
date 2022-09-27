@@ -6,7 +6,7 @@ var licenseKeyFormatting = function (string, k) {
     let letter = string[i]
     if (letter === '-') continue
 
-    output += letter.toLowerCase()
+    output += letter.toUpperCase()
     console.log('Output: ' + output)
 
     counter++
