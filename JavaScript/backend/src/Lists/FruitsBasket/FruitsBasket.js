@@ -1,16 +1,16 @@
 var totalFruit = function (fruits) {
   let max = 0
   let set = new Set()
-  let numElements = 0
+
   for (let x = 0; x < fruits.length; x++) {
     set.clear()
+    let numElements = 0
 
     for (let y = x; y < fruits.length; y++) {
       console.log('starting: ' + fruits[x] + '    current: ' + fruits[y])
 
       let element = fruits[y]
       if (set.has(element)) {
-        numElements++
       } else {
         if (set.size == 2) {
           max = max < numElements ? numElements : max
@@ -19,10 +19,15 @@ var totalFruit = function (fruits) {
 
         set.add(element)
       }
+
+      numElements++
     }
+    max = max < numElements ? numElements : max
 
     console.log('max: ' + max + '\n')
   }
+
+  return max
 }
 
 let input = [
