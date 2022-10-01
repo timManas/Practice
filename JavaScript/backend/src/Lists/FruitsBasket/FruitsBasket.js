@@ -28,11 +28,11 @@ var totalFruit = function (fruits) {
       numElements++
     }
 
+    // Step6 - Calculate max
     max = max < numElements ? numElements : max
 
     // THIS IS THE MOST IMPORT PART !!
     // We stop the loop if this GREATER or EQUAL to the current size of the remaining array.
-    //
     if (max == fruits.length - x) return max
 
     console.log('max: ' + max + '\n')
