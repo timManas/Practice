@@ -1,60 +1,39 @@
-var reduceFruitsBasket = function (fruits) {
-  let arr = []
-  let prev = fruits[0]
-  let count = 0
-
-  for (let x = 0; x < fruits.length; x++) {
-    if (prev == fruits[x]) {
-      ++count
-      prev = fruits[x]
-
-      console.log('current: ' + fruits[x] + '   count: ' + count)
-
-      continue
-    }
-
-    arr.push(prev + ':' + count)
-    count = 1
-
-    console.log('current: ' + fruits[x] + '   count: ' + count)
-    prev = fruits[x]
-  }
-  arr.push(prev + ':' + count)
-
-  console.log('reduced Arr: ' + arr)
-  return arr
-}
-
 var totalFruit = function (fruits) {
   let max = 0
   let set = new Set()
 
-  // Reduce Fruits Basket to smaller Size
-  fruits = reduceFruitsBasket(fruits)
-
+  // Step1 - Loop starting 0 till last element
   for (let x = 0; x < fruits.length; x++) {
+    // Step2 - Initialize set the numElements counter
     set.clear()
     let numElements = 0
 
+    // Step3 - Loop from x till last element
     for (let y = x; y < fruits.length; y++) {
-      console.log('starting: ' + fruits[x] + '    current: ' + fruits[y])
+      let number = fruits[y]
 
-      let element = fruits[y]
-      if (set.has(element)) {
+      // Step4 - Check if Set contains #
+      if (set.has(number)) {
+        // Do nothing here
       } else {
         if (set.size == 2) {
           max = max < numElements ? numElements : max
           break
         }
 
-        set.add(element)
+        set.add(number)
       }
 
+      // Step5 - Increment # of elements found
       numElements++
-
-      if (y == fruits.length - 1) return numElements
     }
+
     max = max < numElements ? numElements : max
+
+    // THIS IS THE MOST IMPORT PART !!
+    // We stop the loop if this GREATER or EQUAL to the current size of the remaining array.
+    //
+    if (max == fruits.length - x) return max
 
     console.log('max: ' + max + '\n')
   }
@@ -66,9 +45,10 @@ let input = [
   [1, 2, 1],
   [0, 1, 2, 2],
   [1, 2, 3, 2, 2],
+  [1, 1],
 ]
 for (let i = 0; i < input.length; i++) {
   let arr = input[i]
   let output = totalFruit(arr)
-  console.log('output: ' + output + '\n')
+  console.log('------------- output: ' + output + '\n')
 }
