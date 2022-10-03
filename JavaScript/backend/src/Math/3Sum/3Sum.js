@@ -9,11 +9,6 @@ var threeSum = function (nums) {
   console.log('nums: ' + nums)
 
   for (let x = 0; x < nums.length - 2; x++) {
-    // We move on if this number has been encountered before
-    if (set.has(nums[x])) continue
-
-    set.add(nums[x])
-
     for (let y = x + 1; y < nums.length - 1; y++) {
       let remainder = -nums[x] - nums[y]
 
@@ -32,8 +27,11 @@ var threeSum = function (nums) {
             remainder
         )
         if (nums[z] == remainder) {
-          console.log('Found ----')
-          output.push([nums[x], nums[y], remainder])
+          console.log('Found ---- ')
+          let temp = nums[x] + '|' + nums[y] + '|' + remainder
+          if (!set.has(temp)) output.push([nums[x], nums[y], remainder])
+
+          set.add(temp)
         }
       }
     }
