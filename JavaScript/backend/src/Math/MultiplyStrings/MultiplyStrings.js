@@ -1,7 +1,7 @@
 var multiply = function (num1, num2) {
-  num1 = BigInt(num1 * 1)
-  num2 = BigInt(num2 * 1)
-  let total = BigInt(num1 * num2)
+  num1 = BigInt(num1)
+  num2 = BigInt(num2)
+  let total = num1 * num2
   return total.toString()
 }
 
