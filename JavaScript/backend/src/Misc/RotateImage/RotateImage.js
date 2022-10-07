@@ -1,9 +1,7 @@
-var rotate = function (matrix) {
+function listTraverese(matrix, buffer) {
   // Create output array
   let arr = []
 
-  // Find the boundaries
-  let buffer = 0
   let mid = matrix.length % 2 == 0 ? matrix.length / 2 : matrix.length / 2 + 1
 
   // Initialize the index
@@ -55,7 +53,15 @@ var rotate = function (matrix) {
     buffer++ // Increase Buffer Size
   }
 
-  console.log('matrix: ' + arr)
+  return arr
+}
+
+var rotate = function (matrix) {
+  // Find the boundaries
+  let buffer = 0
+  let list = listTraverese(matrix, buffer)
+  console.log('matrix: ' + list)
+
   return matrix
 }
 
