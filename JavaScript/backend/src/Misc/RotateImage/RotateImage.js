@@ -1,46 +1,61 @@
-let traverse = function (matrix, n) {
-  let arr = []
-}
-
 var rotate = function (matrix) {
-  // Create Loop start from outside working inside
+  // Create output array
+  let arr = []
 
+  // Find the boundaries
   let buffer = 0
   let mid = matrix.length % 2 == 0 ? matrix.length / 2 : matrix.length / 2 + 1
 
+  // Initialize the index
+  let topRowIndex = 0
+  let rightColIndex = matrix.length - 1
+  let bottomRowIndex = matrix.length - 1
+  let leftColIndex = 0
+
+  // Start from 0x0 then move to 1x1, 2x2 etc ...
   while (buffer <= mid) {
     // Top: Left to Right
-    let topRowIndex = 0
     for (let col = 0 + buffer; col < matrix.length - buffer; col++) {
-      console.log(matrix[topRowIndex][col])
+      let current = matrix[topRowIndex][col]
+      console.log(current)
+      arr.push(current)
     }
-    topRowIndex++
+    ++topRowIndex
+    arr.pop()
 
     // Right: Top to Bottom
-    let rightColIndex = matrix.length - 1
     for (let row = 0 + buffer; row < matrix.length - buffer; row++) {
-      console.log(matrix[row][rightColIndex])
+      let current = matrix[row][rightColIndex]
+      console.log(current)
+      arr.push(current)
     }
-    rightColIndex--
+    --rightColIndex
+    arr.pop()
 
     // Bottom: Right to Left
-    let bottomRowIndex = matrix.length - 1
     for (let col = matrix.length - 1 - buffer; col >= 0 + buffer; col--) {
-      console.log(matrix[bottomRowIndex][col])
+      let current = matrix[bottomRowIndex][col]
+      console.log(current)
+      arr.push(current)
     }
+    --bottomRowIndex
+    arr.pop()
 
     // Left: Bottom to Top
-    let leftColIndex = 0
     for (let row = matrix.length - 1 - buffer; row >= 0 + buffer; row--) {
-      console.log(matrix[row][leftColIndex])
+      let current = matrix[row][leftColIndex]
+      console.log(current)
+      arr.push(current)
     }
-    leftColIndex++
+    ++leftColIndex
+    arr.pop()
 
     console.log()
 
-    buffer++
+    buffer++ // Increase Buffer Size
   }
 
+  console.log('matrix: ' + arr)
   return matrix
 }
 
