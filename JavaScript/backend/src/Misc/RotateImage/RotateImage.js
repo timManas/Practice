@@ -1,4 +1,77 @@
-function listTraverese(matrix, buffer) {
+function traverseMatrix(
+  arr,
+  type,
+  matrix,
+  buffer,
+  topRowIndex,
+  rightColIndex,
+  bottomRowIndex,
+  leftColIndex
+) {
+  // Top: Left to Right
+  for (let col = 0 + buffer; col < matrix.length - buffer; col++) {
+    let current = matrix[topRowIndex][col]
+
+    if (type == 'GET') {
+      console.log(current)
+      arr.push(current)
+
+      if (col == matrix.length - 1 - buffer) {
+        arr.pop()
+      }
+    } else if (type == 'SET') {
+    }
+  }
+
+  // Right: Top to Bottom
+  for (let row = 0 + buffer; row < matrix.length - buffer; row++) {
+    if (type == 'GET') {
+      let current = matrix[row][rightColIndex]
+      console.log(current)
+      arr.push(current)
+
+      if (row == matrix.length - 1 - buffer) {
+        arr.pop()
+      }
+    } else if (type == 'SET') {
+    }
+  }
+
+  // Bottom: Right to Left
+  for (let col = matrix.length - 1 - buffer; col >= 0 + buffer; col--) {
+    if (type == 'GET') {
+      let current = matrix[bottomRowIndex][col]
+      console.log(current)
+      arr.push(current)
+
+      if (col == 0 + buffer) {
+        arr.pop()
+      }
+    } else if (type == 'SET') {
+    }
+  }
+
+  // Left: Bottom to Top
+  for (let row = matrix.length - 1 - buffer; row >= 0 + buffer; row--) {
+    if (type == 'GET') {
+      let current = matrix[row][leftColIndex]
+      console.log(current)
+      arr.push(current)
+
+      if (row == 0 + buffer) {
+        arr.pop()
+      }
+    } else if (type == 'SET') {
+    }
+  }
+
+  return arr
+}
+
+var rotate = function (matrix) {
+  // Find the boundaries
+  let buffer = 0
+
   // Create output array
   let arr = []
 
@@ -12,55 +85,27 @@ function listTraverese(matrix, buffer) {
 
   // Start from 0x0 then move to 1x1, 2x2 etc ...
   while (buffer <= mid) {
-    // Top: Left to Right
-    for (let col = 0 + buffer; col < matrix.length - buffer; col++) {
-      let current = matrix[topRowIndex][col]
-      console.log(current)
-      arr.push(current)
-    }
+    traverseMatrix(
+      arr,
+      'GET',
+      matrix,
+      buffer,
+      topRowIndex,
+      rightColIndex,
+      bottomRowIndex,
+      leftColIndex
+    )
+
+    console.log('fetch arr values: ' + arr)
+
+    // Update the index
     ++topRowIndex
-    arr.pop()
-
-    // Right: Top to Bottom
-    for (let row = 0 + buffer; row < matrix.length - buffer; row++) {
-      let current = matrix[row][rightColIndex]
-      console.log(current)
-      arr.push(current)
-    }
     --rightColIndex
-    arr.pop()
-
-    // Bottom: Right to Left
-    for (let col = matrix.length - 1 - buffer; col >= 0 + buffer; col--) {
-      let current = matrix[bottomRowIndex][col]
-      console.log(current)
-      arr.push(current)
-    }
     --bottomRowIndex
-    arr.pop()
-
-    // Left: Bottom to Top
-    for (let row = matrix.length - 1 - buffer; row >= 0 + buffer; row--) {
-      let current = matrix[row][leftColIndex]
-      console.log(current)
-      arr.push(current)
-    }
     ++leftColIndex
-    arr.pop()
-
-    console.log()
 
     buffer++ // Increase Buffer Size
   }
-
-  return arr
-}
-
-var rotate = function (matrix) {
-  // Find the boundaries
-  let buffer = 0
-  let list = listTraverese(matrix, buffer)
-  console.log('matrix: ' + list)
 
   return matrix
 }
