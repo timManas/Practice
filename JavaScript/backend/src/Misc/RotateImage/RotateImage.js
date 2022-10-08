@@ -10,10 +10,8 @@ function traverseMatrix(
 ) {
   // Top: Left to Right
   for (let col = 0 + buffer; col < matrix.length - buffer; col++) {
-    let current = matrix[topRowIndex][col]
-
     if (type == 'GET') {
-      console.log(current)
+      let current = matrix[topRowIndex][col]
       arr.push(current)
 
       if (col == matrix.length - 1 - buffer) {
@@ -27,7 +25,6 @@ function traverseMatrix(
   for (let row = 0 + buffer; row < matrix.length - buffer; row++) {
     if (type == 'GET') {
       let current = matrix[row][rightColIndex]
-      console.log(current)
       arr.push(current)
 
       if (row == matrix.length - 1 - buffer) {
@@ -41,7 +38,6 @@ function traverseMatrix(
   for (let col = matrix.length - 1 - buffer; col >= 0 + buffer; col--) {
     if (type == 'GET') {
       let current = matrix[bottomRowIndex][col]
-      console.log(current)
       arr.push(current)
 
       if (col == 0 + buffer) {
@@ -55,7 +51,6 @@ function traverseMatrix(
   for (let row = matrix.length - 1 - buffer; row >= 0 + buffer; row--) {
     if (type == 'GET') {
       let current = matrix[row][leftColIndex]
-      console.log(current)
       arr.push(current)
 
       if (row == 0 + buffer) {
@@ -96,7 +91,14 @@ var rotate = function (matrix) {
       leftColIndex
     )
 
-    console.log('fetch arr values: ' + arr)
+    // console.log('arr: ' + arr)
+
+    let beginning = arr.slice(0, arr.length - 1 - mid)
+    let end = arr.slice(arr.length - 1 - mid, arr.length)
+    // console.log('beginning: ' + beginning + '   end: ' + end)
+
+    arr = end.concat(beginning)
+    console.log('Shifted arr: ' + arr)
 
     // Update the index
     ++topRowIndex
@@ -115,7 +117,7 @@ let matrix = [
   [4, 5, 6],
   [7, 8, 9],
 ]
-console.log('Rotated: ' + rotate(matrix))
+console.log('Rotated: ' + rotate(matrix) + '\n')
 
 matrix = [
   [5, 1, 9, 11],
@@ -123,4 +125,4 @@ matrix = [
   [13, 3, 6, 7],
   [15, 14, 12, 16],
 ]
-console.log('Rotated: ' + rotate(matrix))
+console.log('Rotated: ' + rotate(matrix) + '\n')
