@@ -18,6 +18,8 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      console.log('Reversed Arr: ' + arr)
+      matrix[topRowIndex][col] = arr.pop()
     }
   }
 
@@ -31,6 +33,7 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      matrix[row][rightColIndex] = arr.pop()
     }
   }
 
@@ -44,6 +47,7 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      matrix[bottomRowIndex][col] = arr.pop()
     }
   }
 
@@ -57,6 +61,7 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      matrix[row][leftColIndex] = arr.pop()
     }
   }
 
@@ -91,14 +96,24 @@ var rotate = function (matrix) {
       leftColIndex
     )
 
-    // console.log('arr: ' + arr)
-
+    // Shift Array
     let beginning = arr.slice(0, arr.length - 1 - mid)
     let end = arr.slice(arr.length - 1 - mid, arr.length)
-    // console.log('beginning: ' + beginning + '   end: ' + end)
-
     arr = end.concat(beginning)
     console.log('Shifted arr: ' + arr)
+
+    // Repopulate the matrix
+    arr = arr.reverse()
+    traverseMatrix(
+      arr,
+      'SET',
+      matrix,
+      buffer,
+      topRowIndex,
+      rightColIndex,
+      bottomRowIndex,
+      leftColIndex
+    )
 
     // Update the index
     ++topRowIndex
