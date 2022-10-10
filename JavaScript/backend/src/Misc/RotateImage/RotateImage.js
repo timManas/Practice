@@ -18,7 +18,10 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
-      console.log('Reversed Arr: ' + arr)
+      if (col == matrix.length - 1 - buffer) {
+        continue
+      }
+
       matrix[topRowIndex][col] = arr.pop()
     }
   }
@@ -33,6 +36,10 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      if (row == matrix.length - 1 - buffer) {
+        continue
+      }
+
       matrix[row][rightColIndex] = arr.pop()
     }
   }
@@ -47,6 +54,10 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      if (col == 0 + buffer) {
+        continue
+      }
+
       matrix[bottomRowIndex][col] = arr.pop()
     }
   }
@@ -61,6 +72,10 @@ function traverseMatrix(
         arr.pop()
       }
     } else if (type == 'SET') {
+      if (row == 0 + buffer) {
+        continue
+      }
+
       matrix[row][leftColIndex] = arr.pop()
     }
   }
@@ -95,11 +110,13 @@ var rotate = function (matrix) {
       bottomRowIndex,
       leftColIndex
     )
+    console.log('arr: ' + arr)
 
     // Shift Array
     let beginning = arr.slice(0, arr.length - 1 - mid)
     let end = arr.slice(arr.length - 1 - mid, arr.length)
     arr = end.concat(beginning)
+    console.log('beginnging: ' + beginning + '    end: ' + end)
     console.log('Shifted arr: ' + arr)
 
     // Repopulate the matrix
