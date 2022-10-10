@@ -8,7 +8,7 @@ function traverseMatrix(
   bottomRowIndex,
   leftColIndex
 ) {
-  // Top: Left to Right
+  // Step1 - Top: Left to Right
   for (let col = 0 + buffer; col < matrix.length - buffer; col++) {
     if (type == 'GET') {
       let current = matrix[topRowIndex][col]
@@ -26,7 +26,7 @@ function traverseMatrix(
     }
   }
 
-  // Right: Top to Bottom
+  // Step2 - Right: Top to Bottom
   for (let row = 0 + buffer; row < matrix.length - buffer; row++) {
     if (type == 'GET') {
       let current = matrix[row][rightColIndex]
@@ -44,7 +44,7 @@ function traverseMatrix(
     }
   }
 
-  // Bottom: Right to Left
+  // Step3 - Bottom: Right to Left
   for (let col = matrix.length - 1 - buffer; col >= 0 + buffer; col--) {
     if (type == 'GET') {
       let current = matrix[bottomRowIndex][col]
@@ -62,7 +62,7 @@ function traverseMatrix(
     }
   }
 
-  // Left: Bottom to Top
+  // Step5 - Left: Bottom to Top
   for (let row = matrix.length - 1 - buffer; row >= 0 + buffer; row--) {
     if (type == 'GET') {
       let current = matrix[row][leftColIndex]
@@ -84,22 +84,23 @@ function traverseMatrix(
 }
 
 var rotate = function (matrix) {
-  // Find the boundaries
+  // Step 1 - Find the boundaries
   let buffer = 0
 
-  // Create output array
+  // Step2 - Create output array
   let arr = []
 
   let mid = matrix.length % 2 == 0 ? matrix.length / 2 : matrix.length / 2 + 1
 
-  // Initialize the index
+  // Step3 - Initialize the index
   let topRowIndex = 0
   let rightColIndex = matrix.length - 1
   let bottomRowIndex = matrix.length - 1
   let leftColIndex = 0
 
-  // Start from 0x0 then move to 1x1, 2x2 etc ...
+  // Step4 - Start from 0x0 then move to 1x1, 2x2 etc ...
   while (buffer <= mid) {
+    // Step5 - Find the outer values to be shifted
     traverseMatrix(
       arr,
       'GET',
@@ -112,14 +113,14 @@ var rotate = function (matrix) {
     )
     console.log('arr: ' + arr)
 
-    // Shift Array
-    let beginning = arr.slice(0, arr.length - 1 - mid)
-    let end = arr.slice(arr.length - 1 - mid, arr.length)
+    // Step6 - Shift Array
+    let beginning = arr.slice(0, arr.length - arr.length / 4)
+    let end = arr.slice(arr.length - arr.length / 4, arr.length)
     arr = end.concat(beginning)
     console.log('beginnging: ' + beginning + '    end: ' + end)
     console.log('Shifted arr: ' + arr)
 
-    // Repopulate the matrix
+    // Step7- Repopulate the matrix
     arr = arr.reverse()
     traverseMatrix(
       arr,
@@ -132,7 +133,7 @@ var rotate = function (matrix) {
       leftColIndex
     )
 
-    // Update the index
+    // Step8 - Update the index
     ++topRowIndex
     --rightColIndex
     --bottomRowIndex
