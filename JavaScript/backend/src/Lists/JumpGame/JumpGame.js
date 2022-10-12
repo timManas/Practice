@@ -7,13 +7,18 @@ var canJump = function (nums) {
   while (stack.length > 0) {
     let i = stack.pop()
 
+    console.log(
+      'current index: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
+    )
+
     if (i == nums.length - 1) {
       return true
     }
 
-    console.log(
-      'current index: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
-    )
+    // Check if value breaches the input array length
+    if (i + nums[i] >= nums.length - 1) {
+      return true
+    }
 
     // Fetch highest index
     let subArray = nums.slice(i + 1, i + 1 + nums[i])
@@ -40,6 +45,8 @@ var canJump = function (nums) {
 let input = [
   [2, 3, 1, 1, 4],
   [3, 2, 1, 0, 4],
+  [2, 0],
+  [1, 1, 2, 2, 0, 1, 1],
 ]
 for (let arr of input) {
   console.log('Able to reach end: ' + canJump(arr) + '\n')
