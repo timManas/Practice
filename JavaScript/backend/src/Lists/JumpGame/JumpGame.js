@@ -15,11 +15,22 @@ var canJump = function (nums) {
       'current index: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
     )
 
+    // Fetch highest index
     let subArray = nums.slice(i + 1, i + 1 + nums[i])
     subArray.sort()
-    console.log('SubArray:' + subArray)
+    let largestJump = subArray[subArray.length - 1]
+    console.log('SubArray:' + subArray + '  largestElement: ' + largestJump)
 
-    stack = stack.concat(subArray)
+    // Create indexSubArray
+    let indexSubArray = []
+    let x = 0
+    while (largestJump > 0) {
+      indexSubArray.push(i + largestJump)
+      largestJump--
+    }
+
+    // Add to stack
+    stack = stack.concat(indexSubArray)
     console.log('stack: ' + stack)
   }
 
