@@ -8,7 +8,7 @@ var canJump = function (nums) {
     let i = stack.pop()
 
     console.log(
-      'current index: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
+      'current i: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
     )
 
     if (i == nums.length - 1) {
@@ -33,10 +33,11 @@ var canJump = function (nums) {
       indexSubArray.push(i + largestJump)
       largestJump--
     }
+    console.log('indexSubArray to be Added: ' + indexSubArray)
 
     // Add to stack
     stack = stack.concat(indexSubArray)
-    console.log('stack: ' + stack)
+    console.log('stack: ' + stack + '\n')
   }
 
   return false
@@ -49,5 +50,7 @@ let input = [
   [1, 1, 2, 2, 0, 1, 1],
 ]
 for (let arr of input) {
-  console.log('Able to reach end: ' + canJump(arr) + '\n')
+  console.log(
+    '----------------------- Able to reach end: ' + canJump(arr) + '\n'
+  )
 }
