@@ -1,45 +1,43 @@
 var canJump = function (nums) {
   console.log('nums: ' + nums)
-  let stack = []
+
+  // Create Set to keep track of all index you already traversed
+  let set = new Set()
+
+  // Keep track of the number of times we travese
+  let count = 0
+
+  // Traverse from 0
   let i = 0
-  stack.push(i)
+  while (i >= 0 && count <= nums.length) {
+    // If we traversed this index already, we move onto the one below
+    if (set.has(i)) {
+      i--
+      continue
+    }
+    set.add(i)
 
-  while (stack.length > 0) {
-    let i = stack.pop()
-
-    console.log(
-      'current i: ' + i + '   value: ' + nums[i] + '      stack: ' + stack
-    )
-
-    if (i == nums.length - 1) {
+    // Check if the are at the last element or greater
+    if (i >= nums.length - 1) {
       return true
     }
 
-    // Check if value breaches the input array length
-    if (i + nums[i] >= nums.length - 1) {
-      return true
+    // Find the next index distance
+    let distance = nums[i]
+    console.log('current i: ' + i + '   distance: ' + distance + '')
+
+    // If we dont move, we go back one
+    if (distance == 0) {
+      i-- // Reduce i (move back to the previous)
+    } else {
+      i += distance
+      console.log('new i: ' + i)
     }
 
-    // Fetch highest index
-    let subArray = nums.slice(i + 1, i + 1 + nums[i])
-    subArray.sort()
-    let largestJump = subArray[subArray.length - 1]
-    console.log('SubArray:' + subArray + '  largestElement: ' + largestJump)
-
-    // Create indexSubArray
-    let indexSubArray = []
-    let x = 0
-    while (largestJump > 0) {
-      indexSubArray.push(i + largestJump)
-      largestJump--
-    }
-    console.log('indexSubArray to be Added: ' + indexSubArray)
-
-    // Add to stack
-    stack = stack.concat(indexSubArray)
-    console.log('stack: ' + stack + '\n')
+    count++
   }
 
+  // If we dont find anything, we return
   return false
 }
 
@@ -48,6 +46,9 @@ let input = [
   [3, 2, 1, 0, 4],
   [2, 0],
   [1, 1, 2, 2, 0, 1, 1],
+  [4, 0, 0, 0, 1, 1, 4, 4, 4, 0, 4, 0],
+  [1, 2, 3],
+  [3, 0, 8, 2, 0, 0, 1],
 ]
 for (let arr of input) {
   console.log(
