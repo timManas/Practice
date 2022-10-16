@@ -1,11 +1,22 @@
 var minWindow = function (s, t) {
+  // Check if s has enough letters to contain t
   if (s.length < t.length) return false
 
+  let array = t.split('')
+  let set = new Set(array)
+  console.log(set)
+
+  let queue = []
+
   // Traverse from 0 to end
+  for (let i = 0; i < s.length; i++) {
+    // Add each letter to Queue
+    queue.push(s[i])
 
-  // Add each letter to Queue
+    // If contains all values in t
+    // if ()
+  }
 
-  // If contains all values in t
   // Reduce to bare
   // check if Min
   // Let go of first element added one
