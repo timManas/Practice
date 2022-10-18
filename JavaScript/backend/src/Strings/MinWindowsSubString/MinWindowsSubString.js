@@ -2,19 +2,28 @@ var minWindow = function (s, t) {
   // Check if s has enough letters to contain t
   if (s.length < t.length) return false
 
-  let array = t.split('')
-  let set = new Set(array)
-  console.log(set)
+  let subArray = []
+  let originalArr = t.split('').sort()
+  let remainderArr = t.split('').sort()
+  console.log('RemainderArr: ' + remainderArr)
 
   let queue = []
 
+  let start = 0
+
   // Traverse from 0 to end
   for (let i = 0; i < s.length; i++) {
-    // Add each letter to Queue
-    queue.push(s[i])
+    let letter = s[i]
+    console.log('Current letter: ' + letter)
+
+    if (remainderArr.includes(letter)) {
+      remainderArr.splice(remainderArr.indexOf(letter), 1)
+    }
 
     // If contains all values in t
-    if (set.length == 0) {
+    if (remainderArr.length == 0) {
+      subArray.push(s.substring(start, i + 1))
+      console.log('subArray: ' + subArray)
     } else {
     }
   }
@@ -26,17 +35,20 @@ var minWindow = function (s, t) {
 
 let s = 'ADOBECODEBANC'
 let t = 'ABC'
-console.log('Min Window: ' + minWindow(s, t))
+console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 s = 'a'
 t = 'a'
-console.log('Min Window: ' + minWindow(s, t))
+console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 s = 'a'
 t = 'aa'
-console.log('Min Window: ' + minWindow(s, t))
+console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 s = 'ADOBCECODCEEEBANC'
 t = 'ABC'
-console.log('Min Window: ' + minWindow(s, t))
-console.log('Min Window: ' + minWindow(s, t))
+console.log('Min Window: ' + minWindow(s, t) + '\n')
+
+s = 'aaaa'
+t = 'aa'
+console.log('Min Window: ' + minWindow(s, t) + '\n')
