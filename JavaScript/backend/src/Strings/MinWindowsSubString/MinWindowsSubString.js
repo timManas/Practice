@@ -14,7 +14,9 @@ var minWindow = function (s, t) {
     queue.push(s[i])
 
     // If contains all values in t
-    // if ()
+    if (set.length == 0) {
+    } else {
+    }
   }
 
   // Reduce to bare
