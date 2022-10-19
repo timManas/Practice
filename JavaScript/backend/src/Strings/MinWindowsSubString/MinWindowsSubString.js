@@ -20,11 +20,19 @@ var minWindow = function (s, t) {
       remainderArr.splice(remainderArr.indexOf(letter), 1)
     }
 
+    if (remainderArr.length > 0) {
+      continue
+    }
+
     // If contains all values in t
-    if (remainderArr.length == 0) {
-      subArray.push(s.substring(start, i + 1))
-      console.log('subArray: ' + subArray)
-    } else {
+    subArray.push(s.substring(start, i + 1))
+
+    let firtstLetter = s[start]
+    start++
+    console.log('subArray: ' + subArray + '   firstElement: ' + firtstLetter)
+
+    if (originalArr.includes(firtstLetter)) {
+      remainderArr.push(firtstLetter)
     }
   }
 
