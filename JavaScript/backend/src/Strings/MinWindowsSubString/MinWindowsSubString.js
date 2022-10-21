@@ -1,6 +1,6 @@
 var minWindow = function (s, t) {
   // Check if s has enough letters to contain t
-  if (s.length < t.length) return false
+  if (s.length < t.length) return ''
 
   let sArr = s.split('')
 
@@ -42,7 +42,8 @@ var minWindow = function (s, t) {
       // console.log('temp: ' + temp)
       if (tArr.length == 0) {
         console.log('----temp: ' + temp.join(''))
-        subString.push(temp.join(''))
+        subString.push(reduce(temp, t))
+
         break
       }
 
@@ -65,7 +66,11 @@ var minWindow = function (s, t) {
       increment++
     }
   }
-  subString.sort()
+  subString.sort(function (a, b) {
+    // ASC  -> a.length - b.length
+    // DESC -> b.length - a.length
+    return a.length - b.length
+  })
   console.log('subStirng: ' + subString)
 
   return subString[0]
@@ -79,7 +84,8 @@ function reduce(word, t) {
   // Set up indexes
   let start = 0
   let end = temp.length - 1
-  while (start < end && end >= 0 && start < temp.length) {
+  let counter = 0
+  while (counter <= word.length / 2) {
     let left = temp[start]
     let right = temp[end]
     console.log('     reduced left: ' + left + '   right: ' + right)
@@ -88,16 +94,18 @@ function reduce(word, t) {
       break
     }
 
-    if (!tArr.includes(left)) {
+    if (!tArr.includes(left) && left != undefined) {
       temp.shift()
     }
 
-    if (!tArr.includes(right)) {
+    if (!tArr.includes(right) && right != undefined) {
       temp.pop()
     }
+
+    counter++
   }
 
-  console.log('Reduced: ' + temp.join(''))
+  console.log('     Reduced: ' + temp.join(''))
 
   return temp.join('')
 }
