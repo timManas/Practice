@@ -63,9 +63,14 @@ var minWindow = function (s, t) {
         break
       }
 
+      if (left == undefined && right == undefined) break
+
       increment++
     }
   }
+
+  if (subString.length == 0) return ''
+
   subString.sort(function (a, b) {
     // ASC  -> a.length - b.length
     // DESC -> b.length - a.length
@@ -82,12 +87,11 @@ function reduce(word, t) {
   console.log('     reduced word:' + word + '    tArr: ' + tArr)
 
   // Set up indexes
-  let start = 0
-  let end = temp.length - 1
+
   let counter = 0
   while (counter <= word.length / 2) {
-    let left = temp[start]
-    let right = temp[end]
+    let left = temp[0]
+    let right = temp[temp.length - 1]
     console.log('     reduced left: ' + left + '   right: ' + right)
 
     if (tArr.includes(left) && tArr.includes(right)) {
@@ -128,6 +132,19 @@ console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 s = 'aaaa'
 t = 'aa'
+console.log('Min Window: ' + minWindow(s, t) + '\n')
+
+s = 'a'
+t = 'b'
+console.log('Min Window: ' + minWindow(s, t) + '\n')
+
+s = 'babb'
+t = 'baba'
+console.log('Min Window: ' + minWindow(s, t) + '\n')
+
+s =
+  'cgklivwehljxrdzpfdqsapogwvjtvbzahjnsejwnuhmomlfsrvmrnczjzjevkdvroiluthhpqtffhlzyglrvorgnalk'
+t = 'mqfff'
 console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 /**
