@@ -28,7 +28,7 @@ var minWindow = function (s, t) {
       let left = sArr[current - increment]
       let right = sArr[current + increment]
 
-      console.log('left: ' + left + '   right: ' + right)
+      console.log('   left: ' + left + '   right: ' + right)
 
       // Check Left
       if (left != undefined) {
@@ -39,7 +39,7 @@ var minWindow = function (s, t) {
       }
 
       // Check if length breached
-      console.log('temp: ' + temp)
+      // console.log('temp: ' + temp)
       if (tArr.length == 0) {
         console.log('----temp: ' + temp.join(''))
         subString.push(temp.join(''))
@@ -57,7 +57,8 @@ var minWindow = function (s, t) {
       // Check if length breached
       if (tArr.length == 0) {
         console.log('----temp: ' + temp.join(''))
-        subString.push(temp.join(''))
+        subString.push(reduce(temp, t))
+
         break
       }
 
@@ -68,6 +69,37 @@ var minWindow = function (s, t) {
   console.log('subStirng: ' + subString)
 
   return subString[0]
+}
+
+function reduce(word, t) {
+  let temp = word
+  tArr = t.split('').sort()
+  console.log('     reduced word:' + word + '    tArr: ' + tArr)
+
+  // Set up indexes
+  let start = 0
+  let end = temp.length - 1
+  while (start < end && end >= 0 && start < temp.length) {
+    let left = temp[start]
+    let right = temp[end]
+    console.log('     reduced left: ' + left + '   right: ' + right)
+
+    if (tArr.includes(left) && tArr.includes(right)) {
+      break
+    }
+
+    if (!tArr.includes(left)) {
+      temp.shift()
+    }
+
+    if (!tArr.includes(right)) {
+      temp.pop()
+    }
+  }
+
+  console.log('Reduced: ' + temp.join(''))
+
+  return temp.join('')
 }
 
 let s = 'ADOBECODEBANC'
