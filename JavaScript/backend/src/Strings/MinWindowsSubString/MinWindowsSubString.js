@@ -3,7 +3,7 @@ var minWindow = function (s, t) {
   if (s.length < t.length) return ''
 
   let sArr = s.split('')
-  let subString = []
+  let minWord = ''
 
   for (let i = 0; i < sArr.length; i++) {
     tArr = t.split('').sort()
@@ -28,46 +28,44 @@ var minWindow = function (s, t) {
       // Remove from Array
       tArr.splice(tArr.indexOf(letter), 1)
 
+      // If target array is now empty, we check if this is the smallest Word
       if (tArr.length == 0) {
         let word = wordArr.join('')
-        subString.push(word)
-        console.log('word: ' + word + '   SubString: ' + subString)
+
+        if (minWord == '') {
+          minWord = word
+        } else {
+          minWord = word.length < minWord.length ? word : minWord
+        }
         break
       }
     }
   }
 
-  if (subString.length == 0) return ''
+  if (minWord.length == 0) return ''
 
-  subString.sort(function (a, b) {
-    // ASC  -> a.length - b.length
-    // DESC -> b.length - a.length
-    return a.length - b.length
-  })
-  console.log('subString: ' + subString)
-
-  return subString[0]
+  return minWord
 }
 
 let s = 'ADOBECODEBANC'
 let t = 'ABC'
 console.log('Min Window: ' + minWindow(s, t) + '\n')
 
-s = 'a'
-t = 'a'
-console.log('Min Window: ' + minWindow(s, t) + '\n')
+// s = 'a'
+// t = 'a'
+// console.log('Min Window: ' + minWindow(s, t) + '\n')
 
-s = 'a'
-t = 'aa'
-console.log('Min Window: ' + minWindow(s, t) + '\n')
+// s = 'a'
+// t = 'aa'
+// console.log('Min Window: ' + minWindow(s, t) + '\n')
 
-s = 'ADOBCECSODBACCWWWEECSEBANC'
-t = 'ABC'
-console.log('Min Window: ' + minWindow(s, t) + '\n')
+// s = 'ADOBCECSODBACCWWWEECSEBANC'
+// t = 'ABC'
+// console.log('Min Window: ' + minWindow(s, t) + '\n')
 
-s = 'aaaa'
-t = 'aa'
-console.log('Min Window: ' + minWindow(s, t) + '\n')
+// s = 'aaaa'
+// t = 'aa'
+// console.log('Min Window: ' + minWindow(s, t) + '\n')
 
 s = 'a'
 t = 'b'
