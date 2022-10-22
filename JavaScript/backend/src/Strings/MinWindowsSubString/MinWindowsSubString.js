@@ -3,69 +3,37 @@ var minWindow = function (s, t) {
   if (s.length < t.length) return ''
 
   let sArr = s.split('')
-
   let subString = []
 
   for (let i = 0; i < sArr.length; i++) {
     tArr = t.split('').sort()
-
-    let letter = s[i]
-    console.log('Current letter: ' + letter)
+    let wordArr = []
 
     // If letter is not a target, move on
-    if (!tArr.includes(letter)) {
+    if (!tArr.includes(sArr[i])) {
       continue
     }
 
-    // Set the indexes for left and right
-    let current = i
-    let increment = 1
-    tArr.splice(tArr.indexOf(letter), 1)
+    for (let end = i; end < sArr.length; end++) {
+      let letter = s[end]
+      console.log('Current letter: ' + letter)
 
-    // Create the temp Array
-    let temp = [letter]
-    while (true) {
-      let left = sArr[current - increment]
-      let right = sArr[current + increment]
+      wordArr.push(letter)
 
-      console.log('   left: ' + left + '   right: ' + right)
-
-      // Check Left
-      if (left != undefined) {
-        if (tArr.includes(left)) {
-          tArr.splice(tArr.indexOf(left), 1)
-        }
-        temp.unshift(left)
+      // If letter is not a target, move on
+      if (!tArr.includes(letter)) {
+        continue
       }
 
-      // Check if length breached
-      // console.log('temp: ' + temp)
-      if (tArr.length == 0) {
-        console.log('----temp: ' + temp.join(''))
-        subString.push(reduce(temp, t))
+      // Remove from Array
+      tArr.splice(tArr.indexOf(letter), 1)
 
+      if (tArr.length == 0) {
+        let word = wordArr.join('')
+        subString.push(word)
+        console.log('word: ' + word + '   SubString: ' + subString)
         break
       }
-
-      // Check Right
-      if (right != undefined) {
-        if (tArr.includes(right)) {
-          tArr.splice(tArr.indexOf(right), 1)
-        }
-        temp.push(right)
-      }
-
-      // Check if length breached
-      if (tArr.length == 0) {
-        console.log('----temp: ' + temp.join(''))
-        subString.push(reduce(temp, t))
-
-        break
-      }
-
-      if (left == undefined && right == undefined) break
-
-      increment++
     }
   }
 
@@ -76,42 +44,9 @@ var minWindow = function (s, t) {
     // DESC -> b.length - a.length
     return a.length - b.length
   })
-  console.log('subStirng: ' + subString)
+  console.log('subString: ' + subString)
 
   return subString[0]
-}
-
-function reduce(word, t) {
-  let temp = word
-  tArr = t.split('').sort()
-  console.log('     reduced word:' + word + '    tArr: ' + tArr)
-
-  // Set up indexes
-
-  let counter = 0
-  while (counter <= word.length / 2) {
-    let left = temp[0]
-    let right = temp[temp.length - 1]
-    console.log('     reduced left: ' + left + '   right: ' + right)
-
-    if (tArr.includes(left) && tArr.includes(right)) {
-      break
-    }
-
-    if (!tArr.includes(left) && left != undefined) {
-      temp.shift()
-    }
-
-    if (!tArr.includes(right) && right != undefined) {
-      temp.pop()
-    }
-
-    counter++
-  }
-
-  console.log('     Reduced: ' + temp.join(''))
-
-  return temp.join('')
 }
 
 let s = 'ADOBECODEBANC'
@@ -159,5 +94,7 @@ ADOBECODEBANC
 
 aaaa
 1111
+
+
 
  */
