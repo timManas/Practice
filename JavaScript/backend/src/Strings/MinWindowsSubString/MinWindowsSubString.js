@@ -1,13 +1,15 @@
 var minWindow = function (s, t) {
+  // if (s.startsWith('obzcopzocynyrsg')) return ''
+
   // Check if s has enough letters to contain t
   if (s.length < t.length) return ''
 
   let sArr = s.split('')
   let minWord = ''
+  let tArrOrg = t.split('').sort()
 
-  tArr = t.split('')
-  for (let i = 0; i <= sArr.length - tArr.length; i++) {
-    tArr = t.split('').sort()
+  for (let i = 0; i <= sArr.length - tArrOrg.length; i++) {
+    let tArr = Array.from(tArrOrg)
     let wordArr = []
 
     // If letter is not a target, move on
@@ -21,8 +23,13 @@ var minWindow = function (s, t) {
 
       wordArr.push(letter)
 
-      // If letter is not a target, move on
+      // If letter is not a target, move onq
       if (!tArr.includes(letter)) {
+        continue
+      }
+
+      // If the wordArr is longer than minWord, we continue
+      if (minWord.length < wordArr.length && minWord != '') {
         continue
       }
 
