@@ -8,6 +8,14 @@ var findMissingRanges = function (nums, lower, upper) {
     console.log(
       'current:' + current + '    next: ' + next + '      range: ' + range
     )
+
+    if (nums.includes(range)) {
+      continue
+    }
+
+    let key = current + 1 + '>' + (next - 1)
+    map.set(key, range)
+    console.log(map)
   }
 }
 
