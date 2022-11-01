@@ -1,14 +1,9 @@
 var findMissingRanges = function (nums, lower, upper) {
   let map = new Map()
 
-  for (let i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length - 1; i++) {
     let current = nums[i]
-
-    if (i == nums.length - 1 && current == upper) {
-      break
-    }
-
-    let next = i != nums.length - 1 ? nums[i + 1] : upper
+    let next = nums[i + 1]
     let range = next - current
     console.log(
       'current:' + current + '    next: ' + next + '      range: ' + range
@@ -18,10 +13,25 @@ var findMissingRanges = function (nums, lower, upper) {
       continue
     }
 
-    let key = current + 1 + '>' + (next - 1)
+    let key = current + 1 + '->' + (next - 1)
+    if (current + 1 == next - 1) key = (current + 1).toString()
+
     map.set(key, range)
     console.log(map)
   }
+
+  if (upper == nums[nums.length - 1]) {
+    return map.keys()
+  }
+
+  let current = nums[nums.length - 1]
+  let range = upper - current
+  let key = current + 1 + '>' + upper
+
+  map.set(key, range)
+  console.log(map)
+
+  return Array.from(map.keys())
 }
 
 let nums = [0, 1, 3, 50, 75]
