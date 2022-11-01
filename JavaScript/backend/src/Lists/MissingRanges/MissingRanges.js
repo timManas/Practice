@@ -1,9 +1,23 @@
 var findMissingRanges = function (nums, lower, upper) {
   let output = []
 
+  let current = lower
+  let next = nums[0]
+  let key = '->'
+
+  if (lower < nums[0]) {
+    // Add to output
+    key = current + '->' + (nums[0] - 1)
+
+    if (current == nums[0] - 1) key = '' + lower + ''
+    output.push(key)
+  }
+  console.log('output: ' + output)
+
   for (let i = 0; i < nums.length - 1; i++) {
-    let current = nums[i]
+    current = nums[i]
     let next = nums[i + 1]
+
     let range = next - current
     console.log(
       'current:' + current + '    next: ' + next + '      range: ' + range
@@ -13,7 +27,7 @@ var findMissingRanges = function (nums, lower, upper) {
       continue
     }
 
-    let key = current + 1 + '->' + (next - 1)
+    key = current + 1 + '->' + (next - 1)
     if (current + 1 == next - 1) key = (current + 1).toString()
 
     output.push(key)
@@ -24,8 +38,8 @@ var findMissingRanges = function (nums, lower, upper) {
     return output
   }
 
-  let current = nums[nums.length - 1] + 1
-  let key = current + '->' + upper
+  current = nums[nums.length - 1] + 1
+  key = current + '->' + upper
 
   if (nums.length == 0) {
     key = lower + '->' + upper
@@ -55,6 +69,20 @@ console.log(
 nums = []
 lower = 1
 upper = 1
+console.log(
+  'Smallest Range of Missing #: ' + findMissingRanges(nums, lower, upper) + '\n'
+)
+
+nums = [-1]
+lower = -2
+upper = -1
+console.log(
+  'Smallest Range of Missing #: ' + findMissingRanges(nums, lower, upper) + '\n'
+)
+
+nums = [-1]
+lower = -1
+upper = 0
 console.log(
   'Smallest Range of Missing #: ' + findMissingRanges(nums, lower, upper) + '\n'
 )
