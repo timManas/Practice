@@ -1,13 +1,26 @@
 var nextClosestTime = function (time) {
   // Get Digits & Sort
-  let digits = time.substring(0, 2) + '' + time.substring(3, 5)
-  digits = time.split('').sort()
-  console.log('digits: ' + time)
+  time = time.substring(0, 2) + '' + time.substring(3, 5)
+  time = time.split('')
+  let digits = time.slice().sort()
+
+  console.log('digits: ' + digits + '     time: ' + time)
 
   // Start from the Right moving up
+  let isSettled = false
   for (let i = time.length - 1; i >= 0; i--) {
     let current = time[i]
-    if (current == ':') continue
+    console.log('current: ' + current)
+
+    let indexNext =
+      digits.indexOf(current) == digits.length - 1
+        ? 0
+        : digits.indexOf(current) + 1
+    let next = digits[indexNext]
+
+    console.log('current: ' + current + '   next:' + next)
+
+    if (isSettled) break
   }
 }
 
