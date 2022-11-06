@@ -37,6 +37,21 @@ var nextClosestTime = function (time) {
     } else if (i == 3) {
       // Allowed values 0-5:0-9
       validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+      while (true) {
+        if (validValues.has(next)) {
+          time[i] = next
+          isSettled = true
+          break
+        }
+
+        indexNext =
+          digits.indexOf(current) == digits.length - 1
+            ? 0
+            : digits.indexOf(current) + 1
+        next = digits[indexNext]
+        console.log('next:' + next)
+      }
     }
 
     if (isSettled) break
