@@ -10,16 +10,21 @@ var nextClosestTime = function (time) {
 
   // Start from the Right moving up
   let isSettled = false
-  for (let i = time.length - 1; i >= 0; i--) {
+  loop: for (let i = time.length - 1; i >= 0; i--) {
     let current = time[i]
     console.log('current: ' + current)
+
+    let indexPrev = i == 0 ? null : i - 1
+    let prev = time[indexPrev]
 
     let indexNext =
       digits.indexOf(current) == digits.length - 1
         ? 0
         : digits.indexOf(current) + 1
     let next = digits[indexNext]
-    console.log('current: ' + current + '   next:' + next)
+    console.log(
+      'current: ' + current + '     prev: ' + prev + '   next:' + next
+    )
 
     if (i == 0) {
       // Allowed values 0,1,2
@@ -38,10 +43,12 @@ var nextClosestTime = function (time) {
       // Allowed values 0-5:0-9
       validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-      while (true) {
-        if (validValues.has(next)) {
+      let counter = 0
+      while (counter < 10) {
+        if (validValues.includes(next)) {
           time[i] = next
-          isSettled = true
+          console.log('------ Time:' + time)
+          if (counter == 1) isSettled = true
           break
         }
 
@@ -49,12 +56,14 @@ var nextClosestTime = function (time) {
           digits.indexOf(current) == digits.length - 1
             ? 0
             : digits.indexOf(current) + 1
-        next = digits[indexNext]
+        next = parseInt(digits[indexNext])
         console.log('next:' + next)
-      }
-    }
 
-    if (isSettled) break
+        ++counter
+      }
+
+      if (isSettled) break loop
+    }
   }
 }
 
