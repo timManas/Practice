@@ -38,17 +38,34 @@ var nextClosestTime = function (time) {
       }
     } else if (i == 2) {
       // Allowed values 0-6
-      validValues = [0, 1, 2, 3, 4, 5, 6]
+      validValues = [0, 1, 2, 3, 4, 5]
+
+      while (true) {
+        if (validValues.includes(next)) {
+          time[i] = next
+          console.log('------ Time:' + time)
+          if (indexNext > digits.indexOf(current)) isSettled = true // This needs to change
+          break
+        }
+
+        indexNext =
+          parseInt(digits.indexOf(current)) == digits.length - 1
+            ? 0
+            : indexNext + 1
+        next = parseInt(digits[indexNext])
+        console.log('next:' + next)
+      }
+
+      if (isSettled) break loop
     } else if (i == 3) {
       // Allowed values 0-5:0-9
       validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-      let counter = 0
-      while (counter < 10) {
+      while (true) {
         if (validValues.includes(next)) {
           time[i] = next
           console.log('------ Time:' + time)
-          if (counter == 1) isSettled = true
+          if (indexNext > digits.indexOf(current)) isSettled = true // This needs to change
           break
         }
 
@@ -58,8 +75,6 @@ var nextClosestTime = function (time) {
             : digits.indexOf(current) + 1
         next = parseInt(digits[indexNext])
         console.log('next:' + next)
-
-        ++counter
       }
 
       if (isSettled) break loop
