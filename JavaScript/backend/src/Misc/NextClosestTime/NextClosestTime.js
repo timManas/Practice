@@ -1,35 +1,41 @@
 var nextClosestTime = function (time) {
-  // Get Digits & Sort
+  // Step1 - Split Time and find Digits & Sort
   time = time.slice(0, 2) + time.slice(3, 5)
   time = time.split('')
   let digits = Array.from(new Set(time.slice().sort()))
   console.log('digits: ' + Array.from(digits) + '     time: ' + time)
 
+  // Step2 - Create valid values list.
+  // This will determine which values are allowed at each index
   let validValues = []
 
-  // Start from the Right moving up
-  let shouldUpdatePrev = false
+  // Step3 - Start from the Right moving up
+  let shouldUpdatePrev
   loop: for (let i = time.length - 1; i >= 0; i--) {
     shouldUpdatePrev = false
 
+    // Step4 - Find the current #
     let current = time[i]
     console.log('current: ' + current)
 
+    // Step4a - Find the Prev
     let indexPrev = i == 0 ? null : i - 1
     let prev = parseInt(time[indexPrev])
 
+    // Step3b - Find the Next
     let indexNext = digits.indexOf(current) + 1
     if (indexNext > digits.length - 1) {
       indexNext = 0
       shouldUpdatePrev = true
       console.log('index: 0')
     }
-
     let next = parseInt(digits[indexNext])
+
     console.log(
       'current: ' + current + '     prev: ' + prev + '   next:' + next
     )
 
+    // Step5 - At each index, update the values
     if (i == 0) {
       validValues = [0, 1, 2] // Allowed values 0,1,2
 
@@ -121,6 +127,7 @@ var nextClosestTime = function (time) {
     }
   }
 
+  // Step6 - Convert # to String
   let char = ''
   for (let i = 0; i < time.length; i++) {
     if (i == 2) char += ':'
