@@ -9,58 +9,115 @@ var nextClosestTime = function (time) {
   let validValues = []
 
   // Start from the Right moving up
-  let isSettled = true
+  let shouldUpdatePrev = false
   loop: for (let i = time.length - 1; i >= 0; i--) {
+    shouldUpdatePrev = false
+
     let current = time[i]
     console.log('current: ' + current)
 
     let indexPrev = i == 0 ? null : i - 1
     let prev = parseInt(time[indexPrev])
 
-    let indexNext =
-      digits.indexOf(current) == digits.length - 1
-        ? 0
-        : digits.indexOf(current) + 1
+    let indexNext = digits.indexOf(current) + 1
+    if (indexNext >= digits.length - 1) {
+      indexNext = 0
+      shouldUpdatePrev = true
+      console.log('index: 0')
+    }
+
     let next = parseInt(digits[indexNext])
     console.log(
       'current: ' + current + '     prev: ' + prev + '   next:' + next
     )
 
     if (i == 0) {
-      // Allowed values 0,1,2
-      validValues = [0, 1, 2]
-    } else if (i == 1) {
-      // Allowed values Digits 0-1:9  Digit 1:0-2   Digit 2-0:4
-      if (prev <= 1) {
-        validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-      } else if (prev == 2) {
-        validValues = [0, 1, 2, 3, 4]
-      }
-    } else if (i == 2) {
-      // Allowed values 0-6
-      validValues = [0, 1, 2, 3, 4, 5]
-
-      if (isSettled) break loop
-    } else if (i == 3) {
-      // Allowed values 0-5:0-9
-      validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-      let shouldUpdatePrev = false
+      validValues = [0, 1, 2] // Allowed values 0,1,2
 
       while (true) {
         if (validValues.includes(next)) {
           time[i] = next
-          console.log('------ Time:' + time)
+          console.log('------ Updated Time: ' + time)
           break
         }
 
+        // Update nextIndex
+        indexNext++
         if (indexNext == digits.length - 1) {
           indexNext = 0
           shouldUpdatePrev = true
-        } else {
-          ++indexNext
+          console.log('x - Rewind index back to 0')
+        }
+        next = parseInt(digits[indexNext])
+        console.log('next:' + next)
+      }
+
+      if (!shouldUpdatePrev) break loop
+    } else if (i == 1) {
+      // Allowed values Digits 0-1:9  Digit 1:0-2   Digit 2-0:4
+      validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      if (prev == 2) {
+        validValues = [0, 1, 2, 3, 4]
+      }
+
+      while (true) {
+        if (validValues.includes(next)) {
+          time[i] = next
+          console.log('------ Updated Time: ' + time)
+          break
         }
 
+        // Update nextIndex
+        indexNext++
+        if (indexNext == digits.length - 1) {
+          indexNext = 0
+          shouldUpdatePrev = true
+          console.log('x - Rewind index back to 0')
+        }
+        next = parseInt(digits[indexNext])
+        console.log('next:' + next)
+      }
+
+      if (!shouldUpdatePrev) break loop
+    } else if (i == 2) {
+      validValues = [0, 1, 2, 3, 4, 5] // Allowed values 0-6
+
+      while (true) {
+        if (validValues.includes(next)) {
+          time[i] = next
+          console.log('------ Updated Time: ' + time)
+          break
+        }
+
+        // Update nextIndex
+        indexNext++
+        if (indexNext == digits.length - 1) {
+          indexNext = 0
+          shouldUpdatePrev = true
+          console.log('x - Rewind index back to 0')
+        }
+        next = parseInt(digits[indexNext])
+        console.log('next:' + next)
+      }
+
+      if (!shouldUpdatePrev) break loop
+    } else if (i == 3) {
+      validValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] // Allowed values 0-5:0-9
+
+      while (true) {
+        if (validValues.includes(next)) {
+          time[i] = next
+          console.log('------ Updated Time: ' + time)
+          break
+        }
+
+        // Update nextIndex
+        indexNext++
+        if (indexNext == digits.length - 1) {
+          indexNext = 0
+          shouldUpdatePrev = true
+          console.log('x - Rewind index back to 0')
+        }
         next = parseInt(digits[indexNext])
         console.log('next:' + next)
       }
@@ -69,8 +126,8 @@ var nextClosestTime = function (time) {
     }
   }
 }
-// '19:34','23:59','19:59',
-let input = ['24:00', '23:59']
+// '19:34',
+let input = ['19:34', '23:59', '19:59', '24:00', '23:59']
 for (let i = 0; i < input.length; i++) {
   console.log('closestTime: ' + nextClosestTime(input[i]) + '\n')
 }
