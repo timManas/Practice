@@ -23,7 +23,17 @@ function isExpressive(sGroup, wordGroup) {
   if (sGroup.length != wordGroup.length) return isExpressive
 
   for (let i = 0; i < sGroup.length; i++) {
+    console.log('   sGroup: ' + sGroup[i] + '     wordGroup: ' + wordGroup[i])
     if (sGroup[i] == wordGroup[i]) continue // If both sides are the same we continue forward. Ex: h & h
+
+    if (sGroup[i][0] != wordGroup[i][0]) return false
+
+    if (sGroup.length < wordGroup.length) return false
+
+    let difference = parseInt(sGroup[i].length) - parseInt(wordGroup[i].length)
+    console.log('   diff: ' + difference)
+
+    if (difference <= 1) return false
   }
 
   return true
@@ -54,6 +64,28 @@ console.log('Expressive Word: ' + expressiveWords(s, words) + '\n')
 
 s = 'zzzzzyyyyy'
 words = ['zzyy', 'zy', 'zyy']
+console.log('Expressive Word: ' + expressiveWords(s, words) + '\n')
+
+s = 'heeellooo'
+words = ['axxxrrzzz']
+console.log('Expressive Word: ' + expressiveWords(s, words) + '\n')
+
+s = 'heeelllooo'
+words = ['hellllo']
+console.log('Expressive Word: ' + expressiveWords(s, words) + '\n')
+
+s = 'dddiiiinnssssssoooo'
+words = [
+  'dinnssoo',
+  'ddinso',
+  'ddiinnso',
+  'ddiinnssoo',
+  'ddiinso',
+  'dinsoo',
+  'ddiinsso',
+  'dinssoo',
+  'dinso',
+]
 console.log('Expressive Word: ' + expressiveWords(s, words) + '\n')
 
 /**
