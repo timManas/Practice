@@ -2,19 +2,31 @@ var expressiveWords = function (s, words) {
   console.log('s: ' + s + '       words: ' + words)
   let numWords = 0
 
-  for (let word in words) {
+  for (let word of words) {
     console.log('Word: ' + word)
 
-    // Split the word
-    let letterGroup = splitWord(s)
-    console.log('LetterGroup: ' + letterGroup)
+    // Split s & word
+    let sGroup = splitWord(s)
+    let wordGroup = splitWord(word)
+    console.log('   sGroup: ' + sGroup + '     wordGroup: ' + wordGroup)
 
-    // Split s
-
-    numWords++
+    if (isExpressive(sGroup, wordGroup)) numWords++
   }
 
   return numWords
+}
+
+function isExpressive(sGroup, wordGroup) {
+  let isExpressive = false
+
+  // Check grouping length
+  if (sGroup.length != wordGroup.length) return isExpressive
+
+  for (let i = 0; i < sGroup.length; i++) {
+    if (sGroup[i] == wordGroup[i]) continue // If both sides are the same we continue forward. Ex: h & h
+  }
+
+  return true
 }
 
 function splitWord(word) {
