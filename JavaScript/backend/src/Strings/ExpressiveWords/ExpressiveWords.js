@@ -10,7 +10,10 @@ var expressiveWords = function (s, words) {
     let wordGroup = splitWord(word)
     console.log('   sGroup: ' + sGroup + '     wordGroup: ' + wordGroup)
 
-    if (isExpressive(sGroup, wordGroup)) numWords++
+    if (isExpressive(sGroup, wordGroup)) {
+      console.log('   -- Adding: word')
+      numWords++
+    }
   }
 
   return numWords
