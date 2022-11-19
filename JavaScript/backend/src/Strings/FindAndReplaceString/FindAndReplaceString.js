@@ -1,33 +1,40 @@
 var findReplaceString = function (s, indices, sources, targets) {
+  console.log('s: ' + s)
   // Traverse the indices
+  let output = ''
   for (let i = 0; i < s.length; i++) {
-    let output = ''
-
     if (!indices.includes(i)) {
       output += s[i]
       console.log('     output: ' + output)
       continue
     }
 
-    let current = i
+    let indice = indices[indices.indexOf(i)]
 
     let subString = s.substring(
-      current,
-      current + sources[indices.indexOf(i)].length
+      indice,
+      indice + sources[indices.indexOf(i)].length
     )
     console.log(
       '   current: ' +
-        current +
+        indice +
         '   sources: ' +
-        sources[i] +
+        sources[indices.indexOf(i)] +
         '   target: ' +
-        targets[i] +
+        targets[indices.indexOf(i)] +
         '    subString: ' +
         subString
     )
 
+    if (subString == sources[indices.indexOf(i)]) {
+      output += targets[indices.indexOf(i)]
+    }
+
+    i = i + targets[indices.indexOf(i)].length
     console.log('     output: ' + output)
   }
+
+  return output
 }
 
 let s = 'abcd'
