@@ -39,7 +39,7 @@ var findReplaceString = function (s, indices, sources, targets) {
 // sources = ['ab', 'ec']
 // targets = ['eee', 'ffff']
 // console.log(
-//   'Replaced word: ' + findReplaceString(s, indices, sources, targets) + '\n'
+//   'Replaced word: ' + findReplaceS tring(s, indices, sources, targets) + '\n'
 // )
 
 let s =
