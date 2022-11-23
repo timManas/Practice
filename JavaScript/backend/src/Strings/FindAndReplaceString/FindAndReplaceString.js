@@ -6,25 +6,21 @@ var findReplaceString = function (s, indices, sources, targets) {
   for (let i = 0; i < s.length; i++) {
     if (!indices.includes(i)) continue
 
-    let subString = s.substring(
-      i,
-      i + sources[i].length > s.length
-        ? sources.length - 1
-        : i + sources[i].length
-    )
+    let subString = s.substring(i, i + sources[indices.indexOf(i)].length)
+
     console.log(
       '   current: ' +
         i +
         '   sources: ' +
-        sources[i] +
+        sources[indices.indexOf(i)] +
         '   target: ' +
-        targets[i] +
+        targets[indices.indexOf(i)] +
         '    subString: ' +
         subString
     )
 
-    if (subString == sources[i]) {
-      output = output.replace(subString, targets[i])
+    if (subString == sources[indices.indexOf(i)]) {
+      output = output.replace(subString, targets[indices.indexOf(i)])
     }
 
     console.log('     output: ' + output)
@@ -33,100 +29,107 @@ var findReplaceString = function (s, indices, sources, targets) {
   return output
 }
 
-// let s = 'abcd'
-// let indices = [0, 2]
-// let sources = ['a', 'cd']
-// let targets = ['eee', 'ffff']
-// console.log(
-//   'Replaced word: ' + findReplaceString(s, indices, sources, targets) + '\n'
-// )
-
-// s = 'abcd'
-// indices = [0, 2]
-// sources = ['ab', 'ec']
-// targets = ['eee', 'ffff']
-// console.log(
-//   'Replaced word: ' + findReplaceS tring(s, indices, sources, targets) + '\n'
-// )
-
-let s =
-  'ejvzndtzncrelhedwlwiqgdbdgctgubzczgtovufncicjlwsmfdcrqeaghuevyexqdhffikvecuazrelofjmyjjznnjdkimbklrh'
-let indices = [
-  25, 35, 60, 77, 69, 79, 15, 19, 58, 92, 27, 64, 4, 11, 51, 7, 72, 67, 30, 0,
-  74, 98, 17, 85, 48, 32, 38, 62, 43, 2, 9, 55, 87,
-]
-
-let sources = [
-  'gc',
-  'tov',
-  'vy',
-  're',
-  'ikv',
-  'lo',
-  'dw',
-  'iqgdbd',
-  'ue',
-  'kimbk',
-  'tgu',
-  'qd',
-  'ndt',
-  'elhe',
-  'crq',
-  'zn',
-  'ec',
-  'ff',
-  'bz',
-  'ej',
-  'ua',
-  'rh',
-  'lw',
-  'jj',
-  'mfd',
-  'cz',
-  'ufn',
-  'ex',
-  'cjl',
-  'vz',
-  'cr',
-  'agh',
-  'znnj',
-]
-
-let targets = [
-  'dxs',
-  'hn',
-  'vfc',
-  'wnr',
-  'tira',
-  'rko',
-  'oob',
-  'mlitiwj',
-  'zrj',
-  'onpp',
-  'ot',
-  'c',
-  'lm',
-  'hbsje',
-  'dgc',
-  'ruf',
-  'qi',
-  'h',
-  'vzn',
-  'ja',
-  'ow',
-  'te',
-  'km',
-  'imq',
-  'pia',
-  'ixp',
-  'xsod',
-  'm',
-  'eat',
-  'yf',
-  'lzu',
-  'dgy',
-  'dyrsc',
-]
+let s = 'abcd'
+let indices = [0, 2]
+let sources = ['a', 'cd']
+let targets = ['eee', 'ffff']
 console.log(
   'Replaced word: ' + findReplaceString(s, indices, sources, targets) + '\n'
 )
+
+s = 'abcd'
+indices = [0, 2]
+sources = ['ab', 'ec']
+targets = ['eee', 'ffff']
+console.log(
+  'Replaced word: ' + findReplaceString(s, indices, sources, targets) + '\n'
+)
+
+s =
+  'ehvfwtrvcodllgjctguxeicjoudmxbevzrvravkidnricwsbnxmxvdckzahmqzbrlqugtmjvoqbxarmlgjeqcorhnodvnoqfomdp'
+indices = [
+  1, 31, 44, 70, 23, 73, 76, 92, 90, 86, 42, 4, 50, 17, 53, 20, 55, 15, 38, 64,
+  25, 9, 7, 68, 60, 88, 96, 47, 57, 34, 81, 78, 28,
+]
+
+sources = [
+  'hvf',
+  'vzr',
+  'cw',
+  'jvo',
+  'jo',
+  'qb',
+  'ar',
+  'noqf',
+  'dv',
+  'rh',
+  'ri',
+  'wt',
+  'mx',
+  'gux',
+  'dc',
+  'eic',
+  'kz',
+  'ct',
+  'kidn',
+  'lq',
+  'ud',
+  'odll',
+  'vc',
+  'tm',
+  'qz',
+  'no',
+  'om',
+  'bn',
+  'ahm',
+  'vra',
+  'jeqco',
+  'ml',
+  'xb',
+]
+targets = [
+  'ajq',
+  'zb',
+  'r',
+  'fai',
+  'e',
+  'zs',
+  'io',
+  'snxd',
+  'nw',
+  'oi',
+  'ofb',
+  'quq',
+  'gj',
+  'nsys',
+  'dk',
+  'sf',
+  'muj',
+  'll',
+  'hqx',
+  'k',
+  'n',
+  'ptrya',
+  'f',
+  'qek',
+  'u',
+  'dhj',
+  'e',
+  'kr',
+  'waj',
+  'rvkr',
+  'roaoeq',
+  'mci',
+  'djw',
+]
+
+console.log(
+  'Replaced word: ' + findReplaceString(s, indices, sources, targets) + '\n'
+)
+
+/**
+Input    - "ehvfwtrvcodllgjctguxeicjoudmxbevzrvravkidnricwsbnxmxvdckzahmqzbrlqugtmjvoqbxarmlgjeqcorhnodvnoqf    om dp"
+Output   - "eajqquqrfptryagjllnsyssfenmdjwezbrvkrvhqxofbrskrxgjvdkmujwajubrkugqekfaizsxi e cigroaoeqoidhjnwsnxd om dp"
+Expected - "eajqquqrfptryagjllnsyssfenmdjwezbrvkrvhqxofbrskrxgjvdkmujwajubrkugqekfaizsxi omcigroaoeqoidhjnwsnxd e  dp"
+
+ */
