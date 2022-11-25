@@ -3,16 +3,19 @@ var findReplaceString = function (s, indices, sources, targets) {
   // Traverse the indices
   let output = ''
 
+  // Step1 - Traverse s, one character at a time
   for (let i = 0; i < s.length; i++) {
     console.log(
       '   current: ' + i + '   s[i]: ' + s[i] + '   output: ' + output
     )
 
+    // Step2 - Check if i is part of indices. We add
     if (!indices.includes(i)) {
       output += s[i]
       continue
     }
 
+    // Step3 - Find the substring of s
     let subString = s.substring(i, i + sources[indices.indexOf(i)].length)
 
     console.log(
@@ -24,12 +27,15 @@ var findReplaceString = function (s, indices, sources, targets) {
         subString
     )
 
+    // Step4 - Replace String
     if (subString == sources[indices.indexOf(i)]) {
-      // Replace source
       output = replaceString(output, subString, targets[indices.indexOf(i)])
-
-      // Update i
+    } else {
+      output += subString
     }
+
+    // Step5 - Update i to match substring...so we dont repeat characters
+    i += subString.length - 1
 
     console.log('     output: ' + output)
   }
