@@ -42,6 +42,7 @@ var maxDistToClosest = function (seats) {
   return max
 }
 
+// Get the index of only the 1s
 function fetchOnesArr(seats) {
   let output = []
 
