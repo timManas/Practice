@@ -4,22 +4,26 @@ var mergeKLists = function (lists) {
   let arrIndex = new Array(lists.length).fill(0) // Initialize to zeroes
   let numFinished = 0
 
-  while (numFinished < 50) {
-    let smallest = lists[0][arrIndex[0]]
+  while (true) {
+    let smallest = 500 // Random large #
     let smallestIndex = 0
 
     for (let i = 0; i < arrIndex.length; i++) {
+      if (arrIndex[i] >= lists[i].length) continue
+
       if (smallest > lists[i][arrIndex[i]]) {
         smallest = lists[i][arrIndex[i]]
         smallestIndex = i
       }
     }
 
+    if (smallest == 500) break
+
     merged.push(smallest)
+
     arrIndex[smallestIndex] = arrIndex[smallestIndex] + 1
 
     console.log('   merged: ' + merged)
-    numFinished++
   }
 
   return merged
