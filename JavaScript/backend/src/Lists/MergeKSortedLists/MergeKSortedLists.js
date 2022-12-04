@@ -1,23 +1,25 @@
 var mergeKLists = function (lists) {
+  console.log('list:' + lists)
   let merged = []
-  let arrIndex = new Array(list.length).fill(0) // Initialize to zeroes
+  let arrIndex = new Array(lists.length).fill(0) // Initialize to zeroes
+  let numFinished = 0
 
-  while ((arrIndex.) {
-    let val1 = i1 < arr1.length ? arr1[i1] : 105
-    let val2 = i2 < arr2.length ? arr2[i2] : 105
-    let val3 = i3 < arr3.length ? arr3[i3] : 105
+  while (numFinished < 50) {
+    let smallest = lists[0][arrIndex[0]]
+    let smallestIndex = 0
 
-    if (val1 <= val2 && val1 <= val3) {
-      merged.push(val1)
-      ++i1
-    } else if (val2 <= val1 && val1 <= val3) {
-      merged.push(val2)
-      ++i2
-    } else if (val3 <= val1 && val1 <= val2) {
-      merged.push(val3)
-      ++i3
+    for (let i = 0; i < arrIndex.length; i++) {
+      if (smallest > lists[i][arrIndex[i]]) {
+        smallest = lists[i][arrIndex[i]]
+        smallestIndex = i
+      }
     }
+
+    merged.push(smallest)
+    arrIndex[smallestIndex] = arrIndex[smallestIndex] + 1
+
     console.log('   merged: ' + merged)
+    numFinished++
   }
 
   return merged
