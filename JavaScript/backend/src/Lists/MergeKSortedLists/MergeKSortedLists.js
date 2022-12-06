@@ -1,8 +1,15 @@
+function ListNode(val, next) {
+  this.val = val === undefined ? 0 : val
+  this.next = next === undefined ? null : next
+}
+
 var mergeKLists = function (lists) {
   console.log('list:' + lists)
-  let merged = []
+  let mergedArr = []
+  let merged = new ListNode()
   let arrIndex = new Array(lists.length).fill(0) // Initialize to zeroes
-  let numFinished = 0
+  let current = merged
+  let newNode = undefined
 
   while (true) {
     let smallest = 500 // Random large #
@@ -19,14 +26,19 @@ var mergeKLists = function (lists) {
 
     if (smallest == 500) break
 
-    merged.push(smallest)
+    mergedArr.push(smallest)
+    console.log('   smallest:' + smallest)
+
+    newNode = new ListNode(smallest, undefined)
+    current.next = newNode
+    current = newNode
 
     arrIndex[smallestIndex] = arrIndex[smallestIndex] + 1
 
-    console.log('   merged: ' + merged)
+    console.log(merged)
   }
 
-  return merged
+  return mergedArr
 }
 
 let lists = [
