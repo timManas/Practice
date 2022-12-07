@@ -16,6 +16,14 @@ var mergeKLists = function (lists) {
     let smallestIndex = 0
 
     for (let i = 0; i < arrIndex.length; i++) {
+      if (
+        (lists.length == 0) |
+        (lists[i].length == null) |
+        (lists[i].length == 0)
+      ) {
+        continue
+      }
+
       if (arrIndex[i] >= lists[i].length) continue
 
       if (smallest > lists[i][arrIndex[i]]) {
@@ -35,21 +43,29 @@ var mergeKLists = function (lists) {
 
     arrIndex[smallestIndex] = arrIndex[smallestIndex] + 1
 
-    console.log(merged)
+    printList(merged)
   }
 
-  return mergedArr
+  return merged
 }
 
-let lists = [
-  [1, 4, 5],
-  [1, 3, 4],
-  [2, 6],
-]
-console.log('Merged List: ' + mergeKLists(lists))
+function printList(mergedArr) {
+  console.log('   Printing: ')
+  while (mergedArr.next != null) {
+    console.log(mergedArr.val + ',')
+    mergedArr = mergedArr.next
+  }
+}
 
-lists = []
-console.log('Merged List: ' + mergeKLists(lists))
+// let lists = [
+//   [1, 4, 5],
+//   [1, 3, 4],
+//   [2, 6],
+// ]
+// console.log('Merged List: ' + mergeKLists(lists))
+
+// lists = []
+// console.log('Merged List: ' + mergeKLists(lists))
 
 lists = [[]]
 console.log('Merged List: ' + mergeKLists(lists))
