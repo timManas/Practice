@@ -5,7 +5,6 @@ function ListNode(val, next) {
 
 var mergeKLists = function (lists) {
   console.log('list:' + lists)
-  let mergedArr = []
   let merged = new ListNode()
   let arrIndex = new Array(lists.length).fill(0) // Initialize to zeroes
   let current = merged
@@ -34,7 +33,6 @@ var mergeKLists = function (lists) {
 
     if (smallest == 500) break
 
-    mergedArr.push(smallest)
     console.log('   smallest:' + smallest)
 
     newNode = new ListNode(smallest, undefined)
