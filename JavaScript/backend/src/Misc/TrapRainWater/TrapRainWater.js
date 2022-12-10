@@ -1,5 +1,19 @@
 var trap = function (height) {
   console.log('height: ' + height)
+
+  for (let i = 1; i < height.length - 1; i++) {
+    let current = height[i]
+    let prevLeftIndex = i
+    let prevRightIndex = i
+    let leftIndex = i - 1
+    let rightIndex = i + 1
+    console.log('current: ' + current)
+
+    while (
+      height[prevLeftIndex] < height[leftIndex] &&
+      height[prevRightIndex] < height[rightIndex]
+    ) {}
+  }
 }
 
 let input = [
