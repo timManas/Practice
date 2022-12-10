@@ -1,6 +1,8 @@
 var trap = function (height) {
   console.log('height: ' + height)
+  let numWater = 0
 
+  // Traverse from left to right
   for (let i = 1; i < height.length - 1; i++) {
     let current = height[i]
     let prevLeftIndex = i
@@ -9,11 +11,33 @@ var trap = function (height) {
     let rightIndex = i + 1
     console.log('current: ' + current)
 
+    // Traverse from center outwards
     while (
       height[prevLeftIndex] < height[leftIndex] &&
       height[prevRightIndex] < height[rightIndex]
-    ) {}
+    ) {
+      console.log(
+        '   left: ' +
+          height[leftIndex] +
+          ' prevLeft: ' +
+          height[prevLeftIndex] +
+          '   current: ' +
+          height[i] +
+          '  prevRight: ' +
+          height[prevRightIndex] +
+          '   right: ' +
+          height[rightIndex]
+      )
+
+      // Update the indexes
+      prevLeftIndex = leftIndex
+      prevRightIndex = rightIndex
+      leftIndex = --leftIndex
+      rightIndex = ++rightIndex
+    }
   }
+
+  return numWater
 }
 
 let input = [
