@@ -9,6 +9,7 @@ var trap = function (height) {
     let prevRightIndex = i
     let leftIndex = i - 1
     let rightIndex = i + 1
+    let isBottom = false
     console.log('current: ' + current)
 
     // Traverse from center outwards
@@ -30,13 +31,28 @@ var trap = function (height) {
       )
 
       let min = Math.min(height[leftIndex], height[rightIndex])
-      
 
       // Update the indexes
       prevLeftIndex = leftIndex
       prevRightIndex = rightIndex
       leftIndex = --leftIndex
       rightIndex = ++rightIndex
+      isBottom = true
+    }
+
+    if (isBottom) {
+      console.log(
+        '   HighestPoint left: ' +
+          height[leftIndex] +
+          ' prevLeft: ' +
+          height[prevLeftIndex] +
+          '   current: ' +
+          height[i] +
+          '  prevRight: ' +
+          height[prevRightIndex] +
+          '   right: ' +
+          height[rightIndex]
+      )
     }
   }
 
