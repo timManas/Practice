@@ -29,6 +29,9 @@ var trap = function (height) {
           height[rightIndex]
       )
 
+      let min = Math.min(height[leftIndex], height[rightIndex])
+      
+
       // Update the indexes
       prevLeftIndex = leftIndex
       prevRightIndex = rightIndex
