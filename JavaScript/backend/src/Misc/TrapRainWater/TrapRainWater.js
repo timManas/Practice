@@ -39,25 +39,38 @@ var trap = function (height) {
     }
 
     if (isBottom) {
+      ++leftIndex
+      --rightIndex
       // Find min
-      let min = Math.min(height[leftIndex + 1], height[rightIndex - 1])
+      let min = Math.min(height[leftIndex], height[rightIndex])
 
       // Calculate range
-      let range = rightIndex - 1 - (leftIndex + 1)
+      let range = rightIndex - leftIndex
       console.log(
         '   min: ' +
           min +
           '    range: ' +
           range +
           '  leftIndex: ' +
-          (leftIndex + 1) +
+          leftIndex +
           '    rightIndex: ' +
-          (rightIndex - 1)
+          rightIndex
       )
 
-      // Find the difference between the min and each of the loweest value and add
+      // Find the difference between the min and each of the lowest value and add
       while (leftIndex <= rightIndex) {
-        numWater += min - height[leftIndex]
+        let diff = min - height[leftIndex]
+
+        if (diff <= 0) {
+          leftIndex++
+          continue
+        }
+
+        console.log(
+          '   height[leftIndex]: ' + height[leftIndex] + '  diff: ' + diff
+        )
+
+        numWater += diff
         leftIndex++
       }
       console.log('   numWater: ' + numWater)
