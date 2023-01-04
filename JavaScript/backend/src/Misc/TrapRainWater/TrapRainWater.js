@@ -2,6 +2,34 @@ var trap = function (height) {
   console.log('height: ' + height)
   let numWater = 0
 
+  // Step1 - Traverse from left to Right
+  for (let i = 1; i < height.length - 1; i++) {
+    let current = height[i]
+
+    for (let x = i + 1; x < height.length; x++) {
+      let next = height[x]
+
+      console.log('current: ' + current + '   next: ' + next)
+    }
+
+    console.log('---')
+  }
+
+  return numWater
+}
+
+let input = [
+  [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1],
+  [4, 2, 0, 3, 2, 5],
+]
+for (let i of input) {
+  console.log('trap: ' + trap(i) + '\n')
+}
+
+var trap_OLD = function (height) {
+  console.log('height: ' + height)
+  let numWater = 0
+
   // Traverse from left to right
   for (let i = 1; i < height.length - 1; i++) {
     let current = height[i]
@@ -78,12 +106,4 @@ var trap = function (height) {
   }
 
   return numWater
-}
-
-let input = [
-  [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1],
-  [4, 2, 0, 3, 2, 5],
-]
-for (let i of input) {
-  console.log('trap: ' + trap(i) + '\n')
 }
