@@ -10,9 +10,21 @@ var trap = function (height) {
 
     nextLoop: for (let x = i + 1; x < height.length; x++) {
       let next = height[x]
-      console.log('current: ' + current + '   next: ' + next)
+      console.log(
+        'i:' + i + ' current: ' + current + '      x:' + x + '  next: ' + next
+      )
 
       if (current <= next) {
+        let min = Math.min(current, next)
+        while (i < x) {
+          let diff = min - height[i]
+          numWater += diff > 0 ? diff : 0
+          console.log('   diff: ' + diff + '    numWater: ' + numWater)
+          i++
+        }
+
+        i = x - 1
+
         break nextLoop
       }
     }
@@ -26,6 +38,7 @@ var trap = function (height) {
 let input = [
   [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1],
   [4, 2, 0, 3, 2, 5],
+  [4, 2, 3],
 ]
 for (let i of input) {
   console.log('trap: ' + trap(i) + '\n')
