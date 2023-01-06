@@ -3,13 +3,18 @@ var trap = function (height) {
   let numWater = 0
 
   // Step1 - Traverse from left to Right
-  for (let i = 1; i < height.length - 1; i++) {
+  currentLoop: for (let i = 0; i < height.length - 1; i++) {
     let current = height[i]
 
-    for (let x = i + 1; x < height.length; x++) {
-      let next = height[x]
+    if (current == 0) continue
 
+    nextLoop: for (let x = i + 1; x < height.length; x++) {
+      let next = height[x]
       console.log('current: ' + current + '   next: ' + next)
+
+      if (current <= next) {
+        break nextLoop
+      }
     }
 
     console.log('---')
