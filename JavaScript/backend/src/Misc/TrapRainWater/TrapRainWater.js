@@ -8,11 +8,14 @@ var trap = function (height) {
 
     if (current == 0) continue
 
+    let list = []
     nextLoop: for (let x = i + 1; x < height.length; x++) {
       let next = height[x]
       console.log(
         'i:' + i + ' current: ' + current + '      x:' + x + '  next: ' + next
       )
+
+      list.push(next)
 
       if (current <= next) {
         let min = Math.min(current, next)
@@ -27,6 +30,13 @@ var trap = function (height) {
 
         break nextLoop
       }
+
+      // If x is at last element
+      if (x == height.length - 1) {
+        // Find the largestElement
+        let secondLargest = Math.max(...list)
+        console.log('secondLargest: ' + secondLargest + '   list: ' + list)
+      }
     }
 
     console.log('---')
@@ -39,6 +49,7 @@ let input = [
   [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1],
   [4, 2, 0, 3, 2, 5],
   [4, 2, 3],
+  [3, 2, 4],
 ]
 for (let i of input) {
   console.log('trap: ' + trap(i) + '\n')
