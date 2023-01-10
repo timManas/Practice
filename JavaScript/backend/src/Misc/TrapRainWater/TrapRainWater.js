@@ -1,3 +1,5 @@
+// Unfortunately this remains unsolved for now
+
 var trap = function (height) {
   console.log('height: ' + height)
   let numWater = 0
