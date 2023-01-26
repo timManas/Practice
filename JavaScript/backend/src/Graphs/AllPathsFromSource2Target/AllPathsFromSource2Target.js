@@ -4,7 +4,17 @@
  */
 var allPathsSourceTarget = function (graph) {
   // Use DFS to start from 0 to n
+  let output = []
+
+  for (let i = 0; i < graph[0].length; i++) {
+    let stack = []
+    output = traverseGraph(graph[0][i], graph.length - 1, [], graph, [])
+  }
+
+  return output
 }
+
+function traverseGraph(start, end, stack, graph, output) {}
 
 let graph = [[1, 2], [3], [3], []]
 console.log('Paths: ' + allPathsSourceTarget(graph))
