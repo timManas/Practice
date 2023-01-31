@@ -14,7 +14,15 @@ var allPathsSourceTarget = function (graph) {
   return output
 }
 
-function traverseGraph(start, end, stack, graph, output) {}
+function traverseGraph(current, end, stack, graph, output) {
+  console.log('Current: ' + current)
+
+  if (current == end) {
+    // Backtrack
+    console.log('End')
+  } else {
+  }
+}
 
 let graph = [[1, 2], [3], [3], []]
 console.log('Paths: ' + allPathsSourceTarget(graph))
