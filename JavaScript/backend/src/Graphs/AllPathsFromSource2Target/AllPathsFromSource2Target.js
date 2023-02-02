@@ -6,21 +6,22 @@ var allPathsSourceTarget = function (graph) {
   // Use DFS to start from 0 to n
   let output = []
 
-  for (let i = 0; i < graph[0].length; i++) {
-    let stack = []
-    output = traverseGraph(graph[0][i], graph.length - 1, [], graph, [])
-  }
+  let stack = []
+  traverseGraph(0, graph.length - 1, [], graph)
 
   return output
 }
 
-function traverseGraph(current, end, stack, graph, output) {
+function traverseGraph(current, end, stack, graph) {
   console.log('Current: ' + current)
+
+  // Put values into stack
 
   if (current == end) {
     // Backtrack
-    console.log('End')
+    console.log('End ----')
   } else {
+    stack.push(graph[current])
   }
 }
 
