@@ -7,7 +7,8 @@ var allPathsSourceTarget = function (graph) {
   let output = []
 
   let stack = []
-  traverseGraph(0, graph.length - 1, [], graph)
+  stack.push(graph[0])
+  traverseGraph(0, graph.length - 1, stack, graph)
 
   return output
 }
@@ -16,6 +17,8 @@ function traverseGraph(current, end, stack, graph) {
   console.log('Current: ' + current)
 
   // Put values into stack
+  let nodes = graph[current]
+  stack.push[nodes]
 
   if (current == end) {
     // Backtrack
