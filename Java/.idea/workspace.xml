@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/DesignExpressionTree/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/DesignExpressionTree/TreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,20 +83,20 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueEmailAddress">
+  <component name="RunManager" selected="Application.MinSumFourDigitNumAfterSplit">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncodeDecodeTinyURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.EncodeDecodeTinyURL.EncodeDecodeTinyURL" />
+    <configuration name="FindMaxAchievableNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.FindMaxAchievableNum.FindMaxAchievableNum" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.EncodeDecodeTinyURL.*" />
+          <option name="PATTERN" value="Math.FindMaxAchievableNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
-      <module name="Java" />
+    <configuration name="MinSumFourDigitNumAfterSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MinSumFourDigitNumAfterSplit.MinSumFourDigitNumAfterSplit" />
+      <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="PATTERN" value="Math.MinSumFourDigitNumAfterSplit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionArrayAccordingPivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.PartitionArrayAccordingPivot.PartitionArrayAccordingPivot" />
-      <module name="PracticeJava" />
+    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.PartitionArrayAccordingPivot.*" />
+          <option name="PATTERN" value="Lists.MissingRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinSumFourDigitNumAfterSplit" />
+        <item itemvalue="Application.FindMaxAchievableNum" />
         <item itemvalue="Application.UniqueEmailAddress" />
         <item itemvalue="Application.RearrangeElementsBySign" />
         <item itemvalue="Application.MaxTwinSumLinkedList" />
-        <item itemvalue="Application.EncodeDecodeTinyURL" />
-        <item itemvalue="Application.PartitionArrayAccordingPivot" />
       </list>
     </recent_temporary>
   </component>
@@ -845,6 +845,8 @@
       <workItem from="1655773087711" duration="13000" />
       <workItem from="1661824139632" duration="45000" />
       <workItem from="1664033728072" duration="1210000" />
+      <workItem from="1669869247101" duration="589000" />
+      <workItem from="1691108780553" duration="2447000" />
     </task>
     <servers />
   </component>
