@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfTwoStringArraysareEquivalent/CheckIfTwoStringArraysareEquivalent" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfTwoStringArraysareEquivalent/CheckIfTwoStringArraysareEquivalent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfTwoStringArraysareEquivalent/CheckIfTwoStringArraysareEquivalent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfTwoStringArraysareEquivalent/CheckIfTwoStringArraysareEquivalent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +85,23 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinSumFourDigitNumAfterSplit">
+  <component name="RunManager" selected="Application.CheckIfTwoStringArraysareEquivalent">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfTwoStringArraysareEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfTwoStringArraysareEquivalent.CheckIfTwoStringArraysareEquivalent" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.CheckIfTwoStringArraysareEquivalent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,20 +113,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.FindMaxAchievableNum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxTwinSumLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.MaxTwinSumLinkedList.MaxTwinSumLinkedList" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.MaxTwinSumLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +182,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
         <item itemvalue="Application.MinSumFourDigitNumAfterSplit" />
         <item itemvalue="Application.FindMaxAchievableNum" />
         <item itemvalue="Application.UniqueEmailAddress" />
         <item itemvalue="Application.RearrangeElementsBySign" />
-        <item itemvalue="Application.MaxTwinSumLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -846,7 +850,8 @@
       <workItem from="1661824139632" duration="45000" />
       <workItem from="1664033728072" duration="1210000" />
       <workItem from="1669869247101" duration="589000" />
-      <workItem from="1691108780553" duration="2447000" />
+      <workItem from="1691108780553" duration="2647000" />
+      <workItem from="1691200500285" duration="2822000" />
     </task>
     <servers />
   </component>
@@ -2328,6 +2333,11 @@
           <line>28</line>
           <option name="timeStamp" value="1490" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/CheckIfTwoStringArraysareEquivalent/CheckIfTwoStringArraysareEquivalent.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1492" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -2337,6 +2347,8 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="Integer.parseInt(String.valueOf(n.charAt(i)))" language="JAVA" />
+        <watch expression="keyList1.add('x')" language="JAVA" />
+        <watch expression="Math.abs(map1.get(letter) - map2.get(letter))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
