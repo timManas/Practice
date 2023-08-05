@@ -40,14 +40,14 @@ public class CheckIfTwoStringArraysareEquivalent {
         for (char letter : set) {
 
             // Check if difference letters on both
-            if (!map1.containsKey(letter) || !map2.containsKey(letter))
-                continue;
+            int numOccr1 = map1.containsKey(letter) ? map1.get(letter) : 0;
+            int numOccr2 = map2.containsKey(letter) ? map2.get(letter) : 0;
 
-            if (Math.abs(map1.get(letter) - map2.get(letter)) <= 3)
-                return true;
+            if (Math.abs(numOccr1 - numOccr2) > 3)
+                return false;
         }
 
-        return false;
+        return true;
     }
 
     public static LinkedHashMap<Character, Integer> getMap(String word) {
