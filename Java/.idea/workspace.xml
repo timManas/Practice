@@ -83,7 +83,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindClosetNumToZero">
+  <component name="RunManager" selected="Application.MostFreqEvenElement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -132,20 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxAchievableNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.FindMaxAchievableNum.FindMaxAchievableNum" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.FindMaxAchievableNum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinSumFourDigitNumAfterSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.MinSumFourDigitNumAfterSplit.MinSumFourDigitNumAfterSplit" />
       <module name="PracticeJava" />
@@ -174,21 +160,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MostFreqEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MostFreqEvenElement.MostFreqEvenElement" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.MostFreqEvenElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostFreqEvenElement" />
         <item itemvalue="Application.FindClosetNumToZero" />
         <item itemvalue="Application.CountVowelsSubStr" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
         <item itemvalue="Application.MinSumFourDigitNumAfterSplit" />
-        <item itemvalue="Application.FindMaxAchievableNum" />
       </list>
     </recent_temporary>
   </component>
@@ -851,7 +849,8 @@
       <workItem from="1691108780553" duration="2647000" />
       <workItem from="1691200500285" duration="3706000" />
       <workItem from="1691460428058" duration="2067000" />
-      <workItem from="1691542279692" duration="1627000" />
+      <workItem from="1691542279692" duration="1726000" />
+      <workItem from="1691619734476" duration="2024000" />
     </task>
     <servers />
   </component>
