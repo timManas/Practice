@@ -83,7 +83,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountVowelsSubStr">
+  <component name="RunManager" selected="Application.FindClosetNumToZero">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -111,6 +111,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CountVowelsSubStr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindClosetNumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FindClosetNumToZero.FindClosetNumToZero" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.FindClosetNumToZero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,33 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueEmailAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.UniqueEmailAddress.UniqueEmailAddress" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.UniqueEmailAddress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindClosetNumToZero" />
         <item itemvalue="Application.CountVowelsSubStr" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
         <item itemvalue="Application.MinSumFourDigitNumAfterSplit" />
         <item itemvalue="Application.FindMaxAchievableNum" />
-        <item itemvalue="Application.UniqueEmailAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -848,7 +850,8 @@
       <workItem from="1669869247101" duration="589000" />
       <workItem from="1691108780553" duration="2647000" />
       <workItem from="1691200500285" duration="3706000" />
-      <workItem from="1691460428058" duration="2034000" />
+      <workItem from="1691460428058" duration="2067000" />
+      <workItem from="1691542279692" duration="1627000" />
     </task>
     <servers />
   </component>
