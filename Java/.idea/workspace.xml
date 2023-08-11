@@ -83,7 +83,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MostFreqEvenElement">
+  <component name="RunManager" selected="Application.UglyNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -132,20 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSumFourDigitNumAfterSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.MinSumFourDigitNumAfterSplit.MinSumFourDigitNumAfterSplit" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.MinSumFourDigitNumAfterSplit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -174,19 +160,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.UglyNumber.UglyNumber" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.UglyNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UglyNumber" />
         <item itemvalue="Application.MostFreqEvenElement" />
         <item itemvalue="Application.FindClosetNumToZero" />
         <item itemvalue="Application.CountVowelsSubStr" />
         <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
-        <item itemvalue="Application.MinSumFourDigitNumAfterSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -850,7 +852,8 @@
       <workItem from="1691200500285" duration="3706000" />
       <workItem from="1691460428058" duration="2067000" />
       <workItem from="1691542279692" duration="1726000" />
-      <workItem from="1691619734476" duration="2024000" />
+      <workItem from="1691619734476" duration="2065000" />
+      <workItem from="1691715905556" duration="1805000" />
     </task>
     <servers />
   </component>
