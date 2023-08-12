@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/UglyNumber/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/UglyNumber/UglyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,23 +83,9 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UglyNumber">
+  <component name="RunManager" selected="Application.FindLongestBalancedSubStrBinString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIfTwoStringArraysareEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfTwoStringArraysareEquivalent.CheckIfTwoStringArraysareEquivalent" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfTwoStringArraysareEquivalent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +111,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.FindClosetNumToZero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindLongestBalancedSubStrBinString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FindLongestBalancedSubStrBinString.FindLongestBalancedSubStrBinString" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.FindLongestBalancedSubStrBinString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLongestBalancedSubStrBinString" />
         <item itemvalue="Application.UglyNumber" />
         <item itemvalue="Application.MostFreqEvenElement" />
         <item itemvalue="Application.FindClosetNumToZero" />
         <item itemvalue="Application.CountVowelsSubStr" />
-        <item itemvalue="Application.CheckIfTwoStringArraysareEquivalent" />
       </list>
     </recent_temporary>
   </component>
@@ -854,7 +853,9 @@
       <workItem from="1691619734476" duration="2065000" />
       <workItem from="1691715905556" duration="3479000" />
       <workItem from="1691760329587" duration="473000" />
-      <workItem from="1691802892079" duration="978000" />
+      <workItem from="1691802892079" duration="1053000" />
+      <workItem from="1691852846221" duration="636000" />
+      <workItem from="1691876698725" duration="2075000" />
     </task>
     <servers />
   </component>
@@ -2360,6 +2361,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/CountVowelsSubStr/CountVowelsSubStr.java</url>
           <line>46</line>
           <option name="timeStamp" value="1498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/FindLongestBalancedSubStrBinString/FindLongestBalancedSubStrBinString.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1500" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
