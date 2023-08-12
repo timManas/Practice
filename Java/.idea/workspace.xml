@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/UglyNumber/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/UglyNumber/UglyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,15 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -853,7 +852,9 @@
       <workItem from="1691460428058" duration="2067000" />
       <workItem from="1691542279692" duration="1726000" />
       <workItem from="1691619734476" duration="2065000" />
-      <workItem from="1691715905556" duration="1805000" />
+      <workItem from="1691715905556" duration="3479000" />
+      <workItem from="1691760329587" duration="473000" />
+      <workItem from="1691802892079" duration="978000" />
     </task>
     <servers />
   </component>
