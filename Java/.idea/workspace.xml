@@ -83,20 +83,20 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindLongestBalancedSubStrBinString">
+  <component name="RunManager" selected="Application.FinDiffTwoArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountVowelsSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CountVowelsSubStr.CountVowelsSubStr" />
+    <configuration name="FinDiffTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FinDiffTwoArray.FinDiffTwoArray" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.CountVowelsSubStr.*" />
+          <option name="PATTERN" value="Lists.FinDiffTwoArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinDiffTwoArray" />
         <item itemvalue="Application.FindLongestBalancedSubStrBinString" />
         <item itemvalue="Application.UglyNumber" />
         <item itemvalue="Application.MostFreqEvenElement" />
         <item itemvalue="Application.FindClosetNumToZero" />
-        <item itemvalue="Application.CountVowelsSubStr" />
       </list>
     </recent_temporary>
   </component>
@@ -855,7 +857,8 @@
       <workItem from="1691760329587" duration="473000" />
       <workItem from="1691802892079" duration="1053000" />
       <workItem from="1691852846221" duration="636000" />
-      <workItem from="1691876698725" duration="2075000" />
+      <workItem from="1691876698725" duration="2145000" />
+      <workItem from="1691938233752" duration="1103000" />
     </task>
     <servers />
   </component>
@@ -2364,7 +2367,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Strings/FindLongestBalancedSubStrBinString/FindLongestBalancedSubStrBinString.java</url>
-          <line>50</line>
+          <line>51</line>
           <option name="timeStamp" value="1500" />
         </line-breakpoint>
       </breakpoints>
