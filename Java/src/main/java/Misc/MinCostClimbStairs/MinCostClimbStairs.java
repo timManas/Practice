@@ -1,5 +1,10 @@
 package Misc.MinCostClimbStairs;
 
+import java.util.Deque;
+import java.util.Queue;
+import java.util.Stack;
+
+
 public class MinCostClimbStairs {
 
     public static void main(String [] args) {
@@ -12,62 +17,36 @@ public class MinCostClimbStairs {
     }
 
     public static int minCostClimbingStairs(int[] cost) {
-        int minCostDown = Math.min(costClimbStairsDown(cost, cost.length - 1), costClimbStairsDown(cost, cost.length - 2));
-        int minCostUp = Math.min(costClimbStairsUp(cost, 0), costClimbStairsUp(cost, 1));
-        return Math.min(minCostUp, minCostDown);
+        int minCost = 0;
+        Stack<Integer> stack = new Stack<>();
+
+        System.out.println("traverse 0th");
+        stack.push(0);
+        int stairs0 = traverseStairs(cost,stack);
+
+        System.out.println("traverse 1th");
+        stack.push(1);
+        int stairs1 = traverseStairs(cost,stack);
+
+        return Math.min(stairs0, stairs1);
     }
 
-    private static int costClimbStairsUp(int[] cost, int i) {
-        int minCost = cost[i];
-        int current;
-        int n1;
-        int n2;
+    public static int traverseStairs(int [] cost, Stack<Integer> stack) {
+        int index = stack.pop();
+        int current = cost[index];
+        System.out.println("index: " + index + "    current: " + current);
 
-        while (i < cost.length - 2) {
-            current = cost[i];
-            n1 = cost[i + 1];
-            n2 = cost[i + 2];
-            System.out.println("Current: " + current + "    n1:" + n1 + "      n2: " + n2);
-
-            if (n1 < n2) {
-                i = i + 1;
-            } else {
-                i = i + 2;
-            }
-            minCost += cost[i];
-            System.out.println("minCost: " + minCost);
-
+        if (index == cost.length - 1 || index == cost.length - 2) {
+            return current;
         }
-        System.out.println("Current: " + cost[i] +"\n");
 
-        return minCost;
+        stack.push(index+1);
+        int traverse1 = traverseStairs(cost, stack);
 
-    }
+        stack.push(index+2);
+        int traverse2 = traverseStairs(cost, stack);
 
-
-    public static int costClimbStairsDown(int [] cost, int i) {
-        int minCost = cost[i];
-        int current;
-        int n1;
-        int n2;
-
-        while (i >= 2) {
-            current = i < cost.length ? cost[i] : 0;
-            n1 = cost[i-1];
-            n2 = cost[i-2];
-            System.out.println("Current: " + current + "    n1:" + n1 + "      n2: " + n2);
-
-            if (n1 < n2) {
-                i = i-1;
-            } else {
-                i = i-2;
-            }
-            minCost += cost[i];
-            System.out.println("minCost: " + minCost);
-        }
-        System.out.println("Current: " + cost[i] +"\n");
-
-        return minCost;
+        return Math.min(traverse1, traverse2);
     }
 
 }

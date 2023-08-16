@@ -181,6 +181,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -849,7 +860,8 @@
       <workItem from="1691938233752" duration="1169000" />
       <workItem from="1692016296737" duration="5433000" />
       <workItem from="1692067467422" duration="449000" />
-      <workItem from="1692150233030" duration="1104000" />
+      <workItem from="1692150233030" duration="1785000" />
+      <workItem from="1692187772154" duration="2211000" />
     </task>
     <servers />
   </component>
@@ -2330,21 +2342,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/FindLongestBalancedSubStrBinString/FindLongestBalancedSubStrBinString.java</url>
           <line>51</line>
           <option name="timeStamp" value="1500" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1502" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1503" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1504" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
