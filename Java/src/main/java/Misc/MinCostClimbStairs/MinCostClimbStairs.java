@@ -46,7 +46,7 @@ public class MinCostClimbStairs {
         stack.push(index+2);
         int traverse2 = traverseStairs(cost, stack);
 
-        return Math.min(traverse1, traverse2);
+        return current + Math.min(traverse1, traverse2);
     }
 
 }

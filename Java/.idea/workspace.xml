@@ -7,7 +7,6 @@
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/backend/src/Strings/MaxNumOfWordsFound/MaxNumOfWordsFound.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,17 +176,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -861,7 +849,8 @@
       <workItem from="1692016296737" duration="5433000" />
       <workItem from="1692067467422" duration="449000" />
       <workItem from="1692150233030" duration="1785000" />
-      <workItem from="1692187772154" duration="2211000" />
+      <workItem from="1692187772154" duration="3109000" />
+      <workItem from="1692317383360" duration="29000" />
     </task>
     <servers />
   </component>
