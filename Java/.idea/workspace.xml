@@ -863,7 +863,7 @@
       <workItem from="1692187772154" duration="3109000" />
       <workItem from="1692317383360" duration="2124000" />
       <workItem from="1692364824589" duration="517000" />
-      <workItem from="1692407606837" duration="3067000" />
+      <workItem from="1692407606837" duration="4770000" />
     </task>
     <servers />
   </component>
@@ -2347,8 +2347,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
-          <line>47</line>
+          <line>61</line>
           <option name="timeStamp" value="1502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1505" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2358,10 +2373,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="set" language="JAVA" />
-        <watch expression="start" language="JAVA" />
-        <watch expression="current" language="JAVA" />
-        <watch expression="sb" language="JAVA" />
+        <watch expression="cost[i]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
