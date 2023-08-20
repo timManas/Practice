@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/MinCostClimbStairs/MinCostClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinCostClimbStairs">
+  <component name="RunManager" selected="Application.TrappingRainWater">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -146,13 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostFreqEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.MostFreqEvenElement.MostFreqEvenElement" />
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.TrappingRainWater.TrappingRainWater" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.MostFreqEvenElement.*" />
+          <option name="PATTERN" value="Misc.TrappingRainWater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.MinCostClimbStairs" />
         <item itemvalue="Application.FinDiffTwoArray" />
         <item itemvalue="Application.FindLongestBalancedSubStrBinString" />
         <item itemvalue="Application.UglyNumber" />
-        <item itemvalue="Application.MostFreqEvenElement" />
       </list>
     </recent_temporary>
   </component>
@@ -865,7 +866,8 @@
       <workItem from="1692364824589" duration="517000" />
       <workItem from="1692407606837" duration="5977000" />
       <workItem from="1692455257169" duration="691000" />
-      <workItem from="1692493357141" duration="1016000" />
+      <workItem from="1692493357141" duration="1808000" />
+      <workItem from="1692541164426" duration="1134000" />
     </task>
     <servers />
   </component>
