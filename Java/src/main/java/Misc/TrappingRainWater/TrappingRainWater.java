@@ -7,21 +7,30 @@ public class TrappingRainWater {
     }
 
     public static int trap(int[] height) {
-        int trap = 0;
+        int total = 0;
+        int [] dp = new int[height.length];
 
         for (int current=0; current<height.length-1; current++) {
             System.out.println("current: "+ height[current]);
-            for (int next=current+1; next < height.length; next++) {
-                    System.out.println("    next: " + height[next]);
 
-                    if (height[current] <= height[next]) {
-                        current = next-1;
-                        break;
-                    }
+            int trap = 0;
+            for (int next=current+1; next < height.length; next++) {
+                System.out.println("    next: " + height[next]);
+
+                if (height[current] <= height[next]) {
+                    current = next-1;
+                    dp[next-1] = next-1;
+                    total += trap;
+                    System.out.println("        trap: " + trap + "      total: " + total);
+                    break;
+                }
+
+                trap += height[current] - height[next];
+
 
             }
         }
 
-        return trap;
+        return total;
     }
 }
