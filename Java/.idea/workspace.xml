@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/GetMaxGenerated/GetMaxGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/GetMaxGenerated/GetMaxGenerated.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -870,7 +871,7 @@
       <workItem from="1692541164426" duration="2674000" />
       <workItem from="1692563687997" duration="409000" />
       <workItem from="1692623231393" duration="2177000" />
-      <workItem from="1692746378842" duration="898000" />
+      <workItem from="1692746378842" duration="2943000" />
     </task>
     <servers />
   </component>
@@ -2352,6 +2353,11 @@
           <line>51</line>
           <option name="timeStamp" value="1500" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/GetMaxGenerated/GetMaxGenerated.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1501" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -2360,7 +2366,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="cost[i]" language="JAVA" />
+        <watch expression="nums[i]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
