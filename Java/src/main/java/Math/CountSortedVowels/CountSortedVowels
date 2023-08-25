@@ -92,7 +92,7 @@ aaa,aae,aai,aao,aau
 
 
 
-d[3] = a(15-5(0)=15) + e(15-5(1)=10) + i(15-5-4=6) + o(15-5-4-3=3) + o(15-5-4-3-2=1) = 35
+d[3] = a(15) + e(a-5=10) + i(e-4=6) + o(i-3=3) + o(o-2=1) = 35
 
 n=4
 
@@ -109,42 +109,39 @@ aaaa,aaae,aaai,aaao,aaau
           aaii,aaio,aaiu
                aaoo,aaou
                     aauu
-
      aeee,aeei,aeeo,aeeu
           aeii,aeio,aeiu
                aeoo,aeou
                     aeuu
-
           aiii,aiio,aiiu
                aioo,aiou
                     aiuu
-
               aooo, aoou
                     aouu
-
                     auuu
 
      eeee,eeei,eeeo,eeeu
           eeii,eeio,eeiu
                eeoo,eeou
                     eeuu
-
           eiii,eiio,eiiu
                eiio,eiiu
                     eiuu
-
                eooo,eoou
                     eouu
-
                     euuu
 
           iiii,iiio,iiiu
                iioo,iiou
                     iiuu
-
                iooo,ioou
                     iouu
-
                     iuuu
 
-d[4] =
+               oooo,ooou
+                    oouu
+                    ouuu
+
+                    uuuu
+
+d[4] = a(35) + e(a-15=20) + i(e-10=10) + o(i-6=4) + u(o-3=1)
