@@ -872,7 +872,9 @@
       <workItem from="1692623231393" duration="2177000" />
       <workItem from="1692746378842" duration="5625000" />
       <workItem from="1692839434920" duration="3153000" />
-      <workItem from="1692920490900" duration="4653000" />
+      <workItem from="1692920490900" duration="5139000" />
+      <workItem from="1692969476112" duration="537000" />
+      <workItem from="1693014399992" duration="3559000" />
     </task>
     <servers />
   </component>
@@ -2358,6 +2360,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/GetMaxGenerated/GetMaxGenerated.java</url>
           <line>27</line>
           <option name="timeStamp" value="1501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Math/CountSortedVowels/CountSortedVowels.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1506" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
