@@ -82,7 +82,7 @@
       <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangleII">
+  <component name="RunManager" selected="Application.CountSqSubMatrAllOnes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -103,13 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxGenerated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.GetMaxGenerated.GetMaxGenerated" />
+    <configuration name="CountSqSubMatrAllOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.CountSqSubMatrAllOnes.CountSqSubMatrAllOnes" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.GetMaxGenerated.*" />
+          <option name="PATTERN" value="Misc.CountSqSubMatrAllOnes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCostClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MinCostClimbStairs.MinCostClimbStairs" />
+    <configuration name="GetMaxGenerated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.GetMaxGenerated.GetMaxGenerated" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.MinCostClimbStairs.*" />
+          <option name="PATTERN" value="Math.GetMaxGenerated.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,15 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSqSubMatrAllOnes" />
         <item itemvalue="Application.PascalTriangleII" />
         <item itemvalue="Application.CountSortedVowels" />
         <item itemvalue="Application.GetMaxGenerated" />
         <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.MinCostClimbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -875,7 +873,8 @@
       <workItem from="1692920490900" duration="5139000" />
       <workItem from="1692969476112" duration="537000" />
       <workItem from="1693014399992" duration="4161000" />
-      <workItem from="1693098102467" duration="1057000" />
+      <workItem from="1693098102467" duration="1645000" />
+      <workItem from="1693185550965" duration="773000" />
     </task>
     <servers />
   </component>
