@@ -25,6 +25,13 @@ public class CountSqSubMatrAllOnes {
                             {0,1,1,1}};
         System.out.println("countSquares: " + countSquares(matrix2)+ "\n");
 
+        int [][] matrix3 = {{0,1,0,1,1,0,1,1},
+                            {1,0,1,1,1,1,1,1},
+                            {1,1,1,1,1,1,1,1},
+                            {1,0,0,1,1,1,1,1},
+                            {0,1,1,1,1,1,1,1}};
+        System.out.println("countSquares: " + countSquares(matrix3)+ "\n");
+
 
     }
 
