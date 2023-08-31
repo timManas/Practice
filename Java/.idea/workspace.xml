@@ -180,17 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -877,7 +866,9 @@
       <workItem from="1693098102467" duration="1645000" />
       <workItem from="1693185550965" duration="1507000" />
       <workItem from="1693273068588" duration="652000" />
-      <workItem from="1693349418052" duration="2569000" />
+      <workItem from="1693349418052" duration="4929000" />
+      <workItem from="1693402028283" duration="585000" />
+      <workItem from="1693445853882" duration="1714000" />
     </task>
     <servers />
   </component>
@@ -2368,11 +2359,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Math/CountSortedVowels/CountSortedVowels.java</url>
           <line>44</line>
           <option name="timeStamp" value="1506" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="1508" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
