@@ -84,9 +84,16 @@ public class CountSqSubMatrAllOnes {
                         i++;
                     }
 
-                    area++;
-                }
+                    if (map.containsKey(area + 1))
+                        map.put(area + 1, map.get(area + 1) + 1);
+                    else
+                        map.put(area + 1, 1);
 
+
+                    area++;
+
+                }
+                System.out.println("\nMap: " + map);
 
 
             }

@@ -869,7 +869,7 @@
       <workItem from="1693349418052" duration="4929000" />
       <workItem from="1693402028283" duration="585000" />
       <workItem from="1693445853882" duration="2256000" />
-      <workItem from="1693488311569" duration="5070000" />
+      <workItem from="1693488311569" duration="6016000" />
     </task>
     <servers />
   </component>
@@ -2363,7 +2363,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java</url>
-          <line>86</line>
+          <line>92</line>
           <option name="timeStamp" value="1507" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2373,13 +2373,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="1514" />
+          <line>58</line>
+          <option name="timeStamp" value="1516" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1515" />
+          <line>86</line>
+          <option name="timeStamp" value="1517" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2390,6 +2390,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="nums[i]" language="JAVA" />
+        <watch expression="matrix[endRow][endCol]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
