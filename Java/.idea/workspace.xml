@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +75,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.AllPossibleBinaryTrees" />
       <recent name="Trees.MaximumBinaryTree" />
       <recent name="Trees.FindModeInBST" />
       <recent name="Trees.SumOfLeftLeaves" />
       <recent name="Trees.MinAbsDiffBST" />
-      <recent name="Trees.TwoSumIVInputIsBST" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CountSqSubMatrAllOnes">
@@ -870,7 +869,9 @@
       <workItem from="1693402028283" duration="585000" />
       <workItem from="1693445853882" duration="2256000" />
       <workItem from="1693488311569" duration="6055000" />
-      <workItem from="1693616923129" duration="1684000" />
+      <workItem from="1693616923129" duration="2204000" />
+      <workItem from="1693678507388" duration="770000" />
+      <workItem from="1693698125496" duration="110000" />
     </task>
     <servers />
   </component>
