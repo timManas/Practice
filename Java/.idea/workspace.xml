@@ -83,7 +83,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountSqSubMatrAllOnes">
+  <component name="RunManager" selected="Application.MaxNumWordsCanType">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -132,6 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxNumWordsCanType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.MaxNumWordsCanType.MaxNumWordsCanType" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.MaxNumWordsCanType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
       <module name="Java" />
@@ -160,22 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.TrappingRainWater.TrappingRainWater" />
-      <module name="PracticeJava" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.TrappingRainWater.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxNumWordsCanType" />
         <item itemvalue="Application.CountSqSubMatrAllOnes" />
         <item itemvalue="Application.PascalTriangleII" />
         <item itemvalue="Application.CountSortedVowels" />
         <item itemvalue="Application.GetMaxGenerated" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -876,7 +887,8 @@
       <workItem from="1693747036792" duration="494000" />
       <workItem from="1693786322753" duration="500000" />
       <workItem from="1693839779801" duration="572000" />
-      <workItem from="1693871359228" duration="765000" />
+      <workItem from="1693871359228" duration="1073000" />
+      <workItem from="1693952731190" duration="3262000" />
     </task>
     <servers />
   </component>
