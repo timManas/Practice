@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/AllPossibleBinaryTrees/AllPossibleBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/AllPossibleBinaryTrees/AllPossibleBinaryTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxNumWordsCanType">
+  <component name="RunManager" selected="Application.DeleteCharFancyString">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,13 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxGenerated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.GetMaxGenerated.GetMaxGenerated" />
+    <configuration name="DeleteCharFancyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.DeleteCharFancyString.DeleteCharFancyString" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.GetMaxGenerated.*" />
+          <option name="PATTERN" value="Strings.DeleteCharFancyString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteCharFancyString" />
         <item itemvalue="Application.MaxNumWordsCanType" />
         <item itemvalue="Application.CountSqSubMatrAllOnes" />
         <item itemvalue="Application.PascalTriangleII" />
         <item itemvalue="Application.CountSortedVowels" />
-        <item itemvalue="Application.GetMaxGenerated" />
       </list>
     </recent_temporary>
   </component>
@@ -888,7 +887,9 @@
       <workItem from="1693786322753" duration="500000" />
       <workItem from="1693839779801" duration="572000" />
       <workItem from="1693871359228" duration="1073000" />
-      <workItem from="1693952731190" duration="3262000" />
+      <workItem from="1693952731190" duration="3948000" />
+      <workItem from="1694006921860" duration="500000" />
+      <workItem from="1694057105651" duration="943000" />
     </task>
     <servers />
   </component>
@@ -2399,6 +2400,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/CountSqSubMatrAllOnes/CountSqSubMatrAllOnes.java</url>
           <line>112</line>
           <option name="timeStamp" value="1517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/DeleteCharFancyString/DeleteCharFancyString.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1518" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
