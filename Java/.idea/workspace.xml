@@ -82,20 +82,20 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteCharFancyString">
+  <component name="RunManager" selected="Application.CheckIfArrConsecutive">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSortedVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CountSortedVowels.CountSortedVowels" />
+    <configuration name="CheckIfArrConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CheckIfArrConsecutive.CheckIfArrConsecutive" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.CountSortedVowels.*" />
+          <option name="PATTERN" value="Lists.CheckIfArrConsecutive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfArrConsecutive" />
         <item itemvalue="Application.DeleteCharFancyString" />
         <item itemvalue="Application.MaxNumWordsCanType" />
         <item itemvalue="Application.CountSqSubMatrAllOnes" />
         <item itemvalue="Application.PascalTriangleII" />
-        <item itemvalue="Application.CountSortedVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -889,7 +889,9 @@
       <workItem from="1693871359228" duration="1073000" />
       <workItem from="1693952731190" duration="3948000" />
       <workItem from="1694006921860" duration="500000" />
-      <workItem from="1694057105651" duration="943000" />
+      <workItem from="1694057105651" duration="1425000" />
+      <workItem from="1694122493808" duration="417000" />
+      <workItem from="1694138319355" duration="1881000" />
     </task>
     <servers />
   </component>
@@ -2405,6 +2407,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/DeleteCharFancyString/DeleteCharFancyString.java</url>
           <line>24</line>
           <option name="timeStamp" value="1518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/CheckIfArrConsecutive/CheckIfArrConsecutive.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1519" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
