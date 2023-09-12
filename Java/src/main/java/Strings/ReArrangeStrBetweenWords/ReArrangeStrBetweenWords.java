@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ReArrangeStrBetweenWords {
     public static void main(String [] args) {
-        String [] input = {"  this   is  a sentence ", " practice   makes   perfect"};
+        String [] input = {"  this   is  a sentence ", " practice   makes   perfect", "   hello"};
         for (String i : input)
             System.out.println("reorder: " + reorderSpaces(i) + "\n");
     }
@@ -21,20 +21,47 @@ public class ReArrangeStrBetweenWords {
         int numSpaces = 0;
         for (char i : text.toCharArray()) if (i == ' ') numSpaces++;
 
+        if (numSpaces == 0) return text;
+
 
         int spaceArea = wordList.size() - 1;
 
-        int minNumSpaces = 0;
-        int remainder = 0;
-        if (numSpaces % spaceArea == 0) {
-            minNumSpaces = numSpaces / spaceArea;
+        if (spaceArea == 0) {
+            sb.append(text.replaceAll(" ", ""));
 
-        } else {
+            for (int j=numSpaces; j>0;j--) {
+                sb.append(" ");
+            }
 
-
-
+            return sb.toString();
         }
 
+        int minNumSpaces = 0;
+        int remainder = 0;
+        if (numSpaces % spaceArea != 0) {
+            remainder = numSpaces % spaceArea;
+        }
+        minNumSpaces = numSpaces / spaceArea;
+
+        // Create String
+        for (int i=0; i<wordList.size(); i++) {
+            String word = wordList.get(i);
+            sb.append(word);
+
+            if (i == wordList.size() - 1) {
+
+                if (remainder != 0) {
+                    for (int j=remainder; j>0;j--) {
+                        sb.append(" ");
+                    }
+                }
+                break;
+            }
+
+            for (int j=minNumSpaces; j>0;j--) {
+                sb.append(" ");
+            }
+        }
 
 
 
