@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ReArrangeStrBetweenWords/ReArrangeStrBetweenWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ReArrangeStrBetweenWords/ReArrangeStrBetweenWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReArrangeStrBetweenWords">
+  <component name="RunManager" selected="Application.CommonWordsWithOneOccurence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -104,13 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSqSubMatrAllOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.CountSqSubMatrAllOnes.CountSqSubMatrAllOnes" />
+    <configuration name="CommonWordsWithOneOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CommonWordsWithOneOccurence.CommonWordsWithOneOccurence" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.CountSqSubMatrAllOnes.*" />
+          <option name="PATTERN" value="Strings.CommonWordsWithOneOccurence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonWordsWithOneOccurence" />
         <item itemvalue="Application.ReArrangeStrBetweenWords" />
         <item itemvalue="Application.CheckIfArrConsecutive" />
         <item itemvalue="Application.DeleteCharFancyString" />
         <item itemvalue="Application.MaxNumWordsCanType" />
-        <item itemvalue="Application.CountSqSubMatrAllOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -900,7 +901,8 @@
       <workItem from="1694304184706" duration="518000" />
       <workItem from="1694369294257" duration="272000" />
       <workItem from="1694466810229" duration="403000" />
-      <workItem from="1694487857398" duration="1594000" />
+      <workItem from="1694487857398" duration="1707000" />
+      <workItem from="1694570523018" duration="926000" />
     </task>
     <servers />
   </component>
