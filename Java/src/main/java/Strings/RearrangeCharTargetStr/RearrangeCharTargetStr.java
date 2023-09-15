@@ -17,6 +17,32 @@ public class RearrangeCharTargetStr {
         Map<Character, Integer> stringMap = new TreeMap<>();
         Map<Character, Integer> targetMap = new TreeMap<>();
 
+        for (int i=0; i<target.length();i++) {
+            char letter = target.charAt(i);
+
+            if (targetMap.containsKey(letter))
+                targetMap.put(letter, targetMap.get(letter) + 1);
+             else
+                targetMap.put(letter, 1);
+        }
+        System.out.println("TargetMap: " + targetMap);
+
+        for (int i=0; i<s.length();i++) {
+            char letter = s.charAt(i);
+
+            if (!targetMap.containsKey(letter))
+                continue;
+
+            if (stringMap.containsKey(letter))
+                stringMap.put(letter, stringMap.get(letter));
+            else
+                stringMap.put(letter, 1);
+        }
+        System.out.println("String map: " + stringMap);
+
+
+
+
 
 
         return count;
