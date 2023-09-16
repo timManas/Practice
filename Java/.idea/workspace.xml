@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/RearrangeCharTargetStr/RearrangeCharTargetStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/RearrangeCharTargetStr/RearrangeCharTargetStr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +82,23 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RearrangeCharTargetStr">
+  <component name="RunManager" selected="Application.BestPokerHand">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestPokerHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.BestPokerHand.BestPokerHand" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.BestPokerHand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,20 +124,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CommonWordsWithOneOccurence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteCharFancyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.DeleteCharFancyString.DeleteCharFancyString" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.DeleteCharFancyString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,15 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.RearrangeCharTargetStr" />
         <item itemvalue="Application.CommonWordsWithOneOccurence" />
         <item itemvalue="Application.ReArrangeStrBetweenWords" />
         <item itemvalue="Application.CheckIfArrConsecutive" />
-        <item itemvalue="Application.DeleteCharFancyString" />
       </list>
     </recent_temporary>
   </component>
@@ -909,6 +906,8 @@
       <workItem from="1694723018838" duration="600000" />
       <workItem from="1694750793989" duration="1335000" />
       <workItem from="1694782562394" duration="3584000" />
+      <workItem from="1694822736795" duration="599000" />
+      <workItem from="1694894090705" duration="3110000" />
     </task>
     <servers />
   </component>
