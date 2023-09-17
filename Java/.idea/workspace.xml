@@ -82,7 +82,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestPokerHand">
+  <component name="RunManager" selected="Application.CircularSentence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -103,13 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfArrConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.CheckIfArrConsecutive.CheckIfArrConsecutive" />
+    <configuration name="CircularSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CircularSentence" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.CheckIfArrConsecutive.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,13 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularSentence" />
         <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.RearrangeCharTargetStr" />
         <item itemvalue="Application.CommonWordsWithOneOccurence" />
         <item itemvalue="Application.ReArrangeStrBetweenWords" />
-        <item itemvalue="Application.CheckIfArrConsecutive" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +909,8 @@
       <workItem from="1694750793989" duration="1335000" />
       <workItem from="1694782562394" duration="3584000" />
       <workItem from="1694822736795" duration="599000" />
-      <workItem from="1694894090705" duration="3110000" />
+      <workItem from="1694894090705" duration="3181000" />
+      <workItem from="1694925482649" duration="620000" />
     </task>
     <servers />
   </component>
