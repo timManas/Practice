@@ -82,7 +82,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircularSentence">
+  <component name="RunManager" selected="Application.CountPairsLessThanTarget">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -131,13 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
-      <module name="Java" />
+    <configuration name="CountPairsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountPairsLessThanTarget.CountPairsLessThanTarget" />
+      <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="PATTERN" value="Lists.CountPairsLessThanTarget.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,13 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReArrangeStrBetweenWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReArrangeStrBetweenWords.ReArrangeStrBetweenWords" />
-      <module name="PracticeJava" />
+    <configuration name="MissingRanges" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MissingRanges.MissingRanges" />
+      <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReArrangeStrBetweenWords.*" />
+          <option name="PATTERN" value="Lists.MissingRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,15 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPairsLessThanTarget" />
         <item itemvalue="Application.CircularSentence" />
         <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.RearrangeCharTargetStr" />
         <item itemvalue="Application.CommonWordsWithOneOccurence" />
-        <item itemvalue="Application.ReArrangeStrBetweenWords" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +908,10 @@
       <workItem from="1694782562394" duration="3584000" />
       <workItem from="1694822736795" duration="599000" />
       <workItem from="1694894090705" duration="3181000" />
-      <workItem from="1694925482649" duration="620000" />
+      <workItem from="1694925482649" duration="1768000" />
+      <workItem from="1694962541293" duration="254000" />
+      <workItem from="1694994588292" duration="496000" />
+      <workItem from="1695031912251" duration="895000" />
     </task>
     <servers />
   </component>
