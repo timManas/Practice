@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinRightShiftToSoryArray/MinRightShiftToSoryArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinRightShiftToSoryArray/MinRightShiftToSoryArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountPairsLessThanTarget">
+  <component name="RunManager" selected="Application.MinRightShiftToSoryArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -117,20 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonWordsWithOneOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CommonWordsWithOneOccurence.CommonWordsWithOneOccurence" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CommonWordsWithOneOccurence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CountPairsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.CountPairsLessThanTarget.CountPairsLessThanTarget" />
       <module name="PracticeJava" />
@@ -138,6 +125,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CountPairsLessThanTarget.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinRightShiftToSoryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinRightShiftToSoryArray.MinRightShiftToSoryArray" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MinRightShiftToSoryArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinRightShiftToSoryArray" />
         <item itemvalue="Application.CountPairsLessThanTarget" />
         <item itemvalue="Application.CircularSentence" />
         <item itemvalue="Application.BestPokerHand" />
         <item itemvalue="Application.RearrangeCharTargetStr" />
-        <item itemvalue="Application.CommonWordsWithOneOccurence" />
       </list>
     </recent_temporary>
   </component>
@@ -914,7 +915,7 @@
       <workItem from="1694962541293" duration="254000" />
       <workItem from="1694994588292" duration="496000" />
       <workItem from="1695031912251" duration="1016000" />
-      <workItem from="1695094917923" duration="403000" />
+      <workItem from="1695094917923" duration="1961000" />
     </task>
     <servers />
   </component>
