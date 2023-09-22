@@ -7,6 +7,7 @@ var lengthOfLongestSubstringTwoDistinct = function (s) {
   let map = new Map()
 
   let start = 0
+<<<<<<< Updated upstream
   let end = start
   while (end < s.length) {
     console.log('start: ' + s[start])
@@ -20,6 +21,12 @@ var lengthOfLongestSubstringTwoDistinct = function (s) {
       count = map.get(letterEnd) + 1
     }
     map.set(letterEnd, count)
+=======
+  while (start < s.length - 1) {
+    let end = 0
+    while (end < s.length) {
+      console.log('start: ' + start + '   end: ' + end)
+>>>>>>> Stashed changes
 
     // Add to set
     if (map.size == 2) {
@@ -61,9 +68,29 @@ for (let i of input) {
 }
 
 /**
+<<<<<<< Updated upstream
 
 1. 
 
+=======
+eceba
+ece - 
+ceba 
+
+ccaabbb
+cc - 
+caa -
+abb -
+bb -
+b
+
+
+aaabcxxxxxcbmmm
+abcxx - 
+xx -
+xxx -> xx
+xxcbmm - 
+>>>>>>> Stashed changes
 
 eceba
 ece - 
