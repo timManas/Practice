@@ -2,38 +2,35 @@
  * @param {string} val
  * @return {Object}
  */
-// var expect = function (val) {
-//   const obj = {
-//     val: val,
-//     toBe: (params) => {
-//       console.log('params: ' + params)
-//     },
-//     notToBe: (params) => {
-//       console.log('params : ' + params)
-//     },
-//   }
-//   return obj
-// }
 
 var expect = function (val) {
-  const obj = {
-    val: val,
-    toBe: toBeFunc,
-    notToBe: notToBeFunc,
-  }
-  return obj
+  this.val = val
+  this.toBe = toBeFunc
+  this.notToBe = notToBeFunc
+  return this
 }
 
 const toBeFunc = function (params) {
-  console.log('params: ' + params)
-  return this
+  console.log('toBeFunc params: ' + params + '  val: ' + this.val)
+
+  if (this.val === params) {
+    return true
+  }
+
+  throw new Error('Not Equal')
 }
 
 const notToBeFunc = function (params) {
-  console.log('params: ' + params)
-  return this
+  console.log('notToBeFunc params: ' + params + '  val: ' + this.val)
+
+  if (this.val !== params) {
+    return true
+  }
+
+  throw new Error('Equal')
 }
 
 // console.log(expect(5))
 console.log(expect(5).toBe(5)) // true
-// console.log(expect(5).notToBe(6)) // throws "Equal"
+console.log(expect(5).toBe(null)) // throws "Equal"
+console.log(expect(5).notToBe(null)) // throws "Equal"
