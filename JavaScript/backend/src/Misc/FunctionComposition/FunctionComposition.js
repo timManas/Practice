@@ -3,9 +3,15 @@
  * @return {Function}
  */
 var compose = function (functions) {
-  return function (x) {
-    console.log(x)
+  for (let arg = 0; arg < functions.length; arg++) {
+    let func = functions[arg]
+    console.log(func)
+
+    let xx = func()
+    console.log(xx)
   }
+
+  return function (x) {}
 }
 
 const fn = compose([(x) => x + 1, (x) => 2 * x])
