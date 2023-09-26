@@ -9,7 +9,7 @@ var compose = function (functions) {
     }
   }
 
-  return function (x) {
+  const innerFunc = function (x) {
     var current = x
     for (var i = functions.length - 1; i >= 0; i--) {
       current = functions[i](current)
@@ -17,6 +17,8 @@ var compose = function (functions) {
 
     return current
   }
+
+  return innerFunc
 }
 
 const fn = compose([(x) => x + 1, (x) => 2 * x])
