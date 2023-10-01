@@ -3,7 +3,17 @@
  * @param {Function} fn
  * @return {number[]}
  */
-var filter = function (arr, fn) {}
+var filter = function (arr, fn) {
+  let output = []
+
+  for (let i = 0; i < arr.length; i++) {
+    if (fn(arr[i])) {
+      output.push(arr[i])
+    }
+  }
+
+  return output
+}
 
 let arr = [0, 10, 20, 30]
 fn = function greaterThan10(n) {
