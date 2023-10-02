@@ -15,6 +15,24 @@ var chunk = function (arr, size) {
     return output
   }
 
+  // Start from left to right, create a new array after after limit is reached
+  let temp = []
+  for (let i = 0; i < arr.length; i++) {
+    temp.push(arr[i])
+
+    // Check the size
+    if (temp.length == size) {
+      output.push(temp)
+      temp = []
+      continue
+    }
+  }
+
+  // Check if there is still left over array
+  if (temp.length > 0) {
+    output.push(temp)
+  }
+
   return output
 }
 
