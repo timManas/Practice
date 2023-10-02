@@ -22,12 +22,15 @@ ArrayWrapper.prototype.valueOf = function () {
 }
 
 ArrayWrapper.prototype.toString = function () {
+  // console.log('arr: ' + this.arr) -> anything there is '+' ... it calls the valueof
+
   // Why doesent this work ?
   //   return this.arr  -> I think its because this.arr still calls upon valueOf property ...
 
-  // But '[' + this.arr.join(',') + ']' returns a string instead and does not invoke valueOf
+  // But '[' + String(this.arr) + ']'  returns a string instead and does not invoke valueOf
+  // return this.arr
 
-  return '[' + this.arr.join(',') + ']'
+  return '[' + String(this.arr) + ']'
 }
 
 const obj1 = new ArrayWrapper([1, 2])
@@ -36,7 +39,7 @@ const obj2 = new ArrayWrapper([3, 4])
 console.log('obj1: ' + obj1)
 console.log('obj2: ' + obj2 + '\n')
 
-// console.log(obj1 + obj2) // 10
+console.log(obj1 + obj2) // 10
 console.log(String(obj1)) // "[1,2]"
 console.log(String(obj2)) // "[3,4]"
 
