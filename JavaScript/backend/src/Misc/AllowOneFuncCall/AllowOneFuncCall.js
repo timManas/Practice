@@ -4,9 +4,8 @@
  */
 var once = function (fn) {
   return function (...args) {
-    const sum = args.reduce((accumulator, currentValue) => {
-      return accumulator + currentValue
-    }, 0)
+    let sum = fn(...args)
+    return sum
   }
 }
 
