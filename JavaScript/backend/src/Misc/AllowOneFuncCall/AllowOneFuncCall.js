@@ -3,8 +3,15 @@
  * @return {Function}
  */
 var once = function (fn) {
+  let once = false
   return function (...args) {
+    if (once) {
+      return undefined
+    }
+
     let sum = fn(...args)
+    once = true
+
     return sum
   }
 }
