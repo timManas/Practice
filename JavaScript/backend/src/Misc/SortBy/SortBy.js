@@ -3,7 +3,14 @@
  * @param {Function} fn
  * @return {Array}
  */
-var sortBy = function (arr, fn) {}
+var sortBy = function (arr, fn) {
+  let output = []
+  for (let i = 0; i < arr.length; i++) {
+    output.push(fn(arr[i]))
+  }
+
+  return output
+}
 
 let arr = [5, 4, 1, 2, 3]
 let fn = (x) => x
