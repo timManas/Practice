@@ -4,19 +4,19 @@
  * @return {Array}
  */
 var sortBy = function (arr, fn) {
-  let output = []
-  for (let i = 0; i < arr.length; i++) {
-    output.push(fn(arr[i]))
-  }
+  arr.sort((a, b) => fn(a) - fn(b))
+  console.log('Array: ' + arr)
 
-  return output
+  return arr
 }
 
 let arr = [5, 4, 1, 2, 3]
 let fn = (x) => x
+console.log('sortby: ' + sortBy(arr, fn) + '\n')
 
 arr = [{ x: 1 }, { x: 0 }, { x: -1 }]
 fn = (d) => d.x
+console.log('sortby: ' + sortBy(arr, fn) + '\n')
 
 arr = [
   [3, 4],
@@ -24,3 +24,4 @@ arr = [
   [10, 1],
 ]
 fn = (x) => x[1]
+console.log('sortby: ' + sortBy(arr, fn) + '\n')
