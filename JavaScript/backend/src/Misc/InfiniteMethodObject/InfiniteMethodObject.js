@@ -1,7 +1,17 @@
 /**
  * @return {Object}
  */
-var createInfiniteObject = function () {}
+var createInfiniteObject = function (args) {
+  let object = {} // This is made up
+  let handler = {
+    get: (target, property) => {
+      return () => property
+    },
+  }
+
+  let proxy = new Proxy(object, handler)
+  return proxy
+}
 
 const obj = createInfiniteObject()
-obj['abc123']() // "abc123"
+console.log('name: ' + obj['abc123']()) // "abc123"
