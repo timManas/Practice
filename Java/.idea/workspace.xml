@@ -82,7 +82,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinRightShiftToSoryArray">
+  <component name="RunManager" selected="Application.CountCompleteTreeNodes">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -110,6 +110,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.CountCompleteTreeNodes.CountCompleteTreeNodes" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.CountCompleteTreeNodes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,22 +173,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeCharTargetStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.RearrangeCharTargetStr.RearrangeCharTargetStr" />
-      <module name="PracticeJava" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.RearrangeCharTargetStr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountCompleteTreeNodes" />
         <item itemvalue="Application.MinRightShiftToSoryArray" />
         <item itemvalue="Application.CountPairsLessThanTarget" />
         <item itemvalue="Application.CircularSentence" />
         <item itemvalue="Application.BestPokerHand" />
-        <item itemvalue="Application.RearrangeCharTargetStr" />
       </list>
     </recent_temporary>
   </component>
@@ -832,82 +843,8 @@
       <workItem from="1654308038701" duration="39000" />
       <workItem from="1655773087711" duration="13000" />
       <workItem from="1661824139632" duration="45000" />
-<<<<<<< Updated upstream
-      <workItem from="1664033728072" duration="1210000" />
-      <workItem from="1669869247101" duration="589000" />
-      <workItem from="1691108780553" duration="2647000" />
-      <workItem from="1691200500285" duration="3706000" />
-      <workItem from="1691460428058" duration="2067000" />
-      <workItem from="1691542279692" duration="1726000" />
-      <workItem from="1691619734476" duration="2065000" />
-      <workItem from="1691715905556" duration="3479000" />
-      <workItem from="1691760329587" duration="473000" />
-      <workItem from="1691802892079" duration="1053000" />
-      <workItem from="1691852846221" duration="636000" />
-      <workItem from="1691876698725" duration="2145000" />
-      <workItem from="1691938233752" duration="1169000" />
-      <workItem from="1692016296737" duration="5433000" />
-      <workItem from="1692067467422" duration="449000" />
-      <workItem from="1692150233030" duration="1785000" />
-      <workItem from="1692187772154" duration="3109000" />
-      <workItem from="1692317383360" duration="2124000" />
-      <workItem from="1692364824589" duration="517000" />
-      <workItem from="1692407606837" duration="5977000" />
-      <workItem from="1692455257169" duration="691000" />
-      <workItem from="1692493357141" duration="1808000" />
-      <workItem from="1692541164426" duration="2674000" />
-      <workItem from="1692563687997" duration="409000" />
-      <workItem from="1692623231393" duration="2177000" />
-      <workItem from="1692746378842" duration="5625000" />
-      <workItem from="1692839434920" duration="3153000" />
-      <workItem from="1692920490900" duration="5139000" />
-      <workItem from="1692969476112" duration="537000" />
-      <workItem from="1693014399992" duration="4161000" />
-      <workItem from="1693098102467" duration="1645000" />
-      <workItem from="1693185550965" duration="1507000" />
-      <workItem from="1693273068588" duration="652000" />
-      <workItem from="1693349418052" duration="4929000" />
-      <workItem from="1693402028283" duration="585000" />
-      <workItem from="1693445853882" duration="2256000" />
-      <workItem from="1693488311569" duration="6055000" />
-      <workItem from="1693616923129" duration="2204000" />
-      <workItem from="1693678507388" duration="770000" />
-      <workItem from="1693698125496" duration="1035000" />
-      <workItem from="1693747036792" duration="494000" />
-      <workItem from="1693786322753" duration="500000" />
-      <workItem from="1693839779801" duration="572000" />
-      <workItem from="1693871359228" duration="1073000" />
-      <workItem from="1693952731190" duration="3948000" />
-      <workItem from="1694006921860" duration="500000" />
-      <workItem from="1694057105651" duration="1425000" />
-      <workItem from="1694122493808" duration="417000" />
-      <workItem from="1694138319355" duration="2531000" />
-      <workItem from="1694177840043" duration="443000" />
-      <workItem from="1694222357390" duration="745000" />
-      <workItem from="1694262384623" duration="492000" />
-      <workItem from="1694283608029" duration="3997000" />
-      <workItem from="1694304184706" duration="518000" />
-      <workItem from="1694369294257" duration="272000" />
-      <workItem from="1694466810229" duration="403000" />
-      <workItem from="1694487857398" duration="1707000" />
-      <workItem from="1694570523018" duration="1477000" />
-      <workItem from="1694607453021" duration="481000" />
-      <workItem from="1694698528916" duration="778000" />
-      <workItem from="1694723018838" duration="600000" />
-      <workItem from="1694750793989" duration="1335000" />
-      <workItem from="1694782562394" duration="3584000" />
-      <workItem from="1694822736795" duration="599000" />
-      <workItem from="1694894090705" duration="3181000" />
-      <workItem from="1694925482649" duration="1768000" />
-      <workItem from="1694962541293" duration="254000" />
-      <workItem from="1694994588292" duration="496000" />
-      <workItem from="1695031912251" duration="1016000" />
-      <workItem from="1695094917923" duration="1999000" />
-      <workItem from="1695161349657" duration="631000" />
-=======
       <workItem from="1664033728072" duration="1746000" />
       <workItem from="1664225288800" duration="69000" />
->>>>>>> Stashed changes
     </task>
     <servers />
   </component>
