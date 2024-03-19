@@ -83,23 +83,9 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidWordAbbreviation">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CircularSentence" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +139,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.RemoveElement.RemoveElement" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.RemoveElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.ValidWordAbbreviation" />
         <item itemvalue="Application.CountCompleteTreeNodes" />
         <item itemvalue="Application.MinRightShiftToSoryArray" />
         <item itemvalue="Application.CountPairsLessThanTarget" />
-        <item itemvalue="Application.CircularSentence" />
       </list>
     </recent_temporary>
   </component>
@@ -847,7 +847,14 @@
       <workItem from="1664033728072" duration="1746000" />
       <workItem from="1664225288800" duration="69000" />
       <workItem from="1710204030875" duration="532000" />
-      <workItem from="1710454053137" duration="4807000" />
+      <workItem from="1710454053137" duration="8841000" />
+      <workItem from="1710512336298" duration="474000" />
+      <workItem from="1710552681943" duration="514000" />
+      <workItem from="1710601408643" duration="527000" />
+      <workItem from="1710630320745" duration="498000" />
+      <workItem from="1710718670887" duration="486000" />
+      <workItem from="1710772698735" duration="478000" />
+      <workItem from="1710815456310" duration="1595000" />
     </task>
     <servers />
   </component>
