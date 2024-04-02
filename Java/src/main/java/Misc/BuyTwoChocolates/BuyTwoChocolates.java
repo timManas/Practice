@@ -37,13 +37,14 @@ public class BuyTwoChocolates {
                 int next = prices[j];
                 System.out.println("    next: " + next);
 
-                if (next == remainder) {
-                    maximum = maximum < money - (next + current) ? money - (next + current) : maximum;
+                 if (next > remainder)
                     break;
-                } else if (next > remainder) {
-                    break;
-                }
-            }
+
+
+                 maximum = maximum < money - (next + current) ? money - (next + current) : maximum;
+                 System.out.println("       maximum: " + maximum);
+
+             }
 
         }
 
