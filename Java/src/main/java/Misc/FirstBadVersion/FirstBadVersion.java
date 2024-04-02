@@ -9,7 +9,7 @@ public class FirstBadVersion {
 
     }
 
-    public int firstBadVersion(int n) {
+    public static int firstBadVersion(int n) {
 
        if (n == 1) return n;
 
