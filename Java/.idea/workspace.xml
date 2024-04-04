@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/RemoveElement/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/RemoveElement/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinCommonValue">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -180,15 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,10 +219,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.MinCommonValue" />
         <item itemvalue="Application.BuyTwoChocolates" />
         <item itemvalue="Application.MinimumChangeMakeAlternatingBinaryStr" />
-        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.ValidWordAbbreviation" />
       </list>
     </recent_temporary>
@@ -859,7 +858,8 @@
       <workItem from="1710815456310" duration="3776000" />
       <workItem from="1710954880699" duration="4415000" />
       <workItem from="1712018946733" duration="2893000" />
-      <workItem from="1712199686417" duration="711000" />
+      <workItem from="1712199686417" duration="822000" />
+      <workItem from="1712272466366" duration="2241000" />
     </task>
     <servers />
   </component>
@@ -2395,6 +2395,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidWordAbbreviation/ValidWordAbbreviation.java</url>
           <line>47</line>
           <option name="timeStamp" value="1524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/RemoveElement/RemoveElement.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1526" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
