@@ -43,14 +43,7 @@ public class RectangleOverlap {
         System.out.println("Rec1 X: " + Arrays.toString(rec2RangeX) + "     Y: " + Arrays.toString(rec2RangeY));
 
         // Find the points of intersection
-
-
-//        // Check the X Axis
-//        if (rec1RangeX[0] < rec2RangeX[0] && rec2RangeX[0] < rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[0] && rec2RangeY[0] < rec1RangeY[1])
-//            return true;
-//        if (rec1RangeX[0] < rec2RangeX[1] && rec2RangeX[1] <= rec1RangeX[1] && rec1RangeY[0] < rec2RangeY[1] && rec2RangeY[1] <= rec1RangeY[1])
-//            return true;
-
+        
         for (int i=0; i < rec2Points.length; i++) {
             if (rec1RangeX[0] < rec2Points[i][0] && rec2Points[i][0] <= rec1RangeX[1] &&
                     rec1RangeY[0] < rec2Points[i][1] && rec2Points[i][1] <= rec1RangeY[1])
