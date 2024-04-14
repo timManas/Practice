@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/RectangleOverlap/RectangleOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/RectangleOverlap/RectangleOverlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreeVerticalOrderTraversal/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreeVerticalOrderTraversal/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +77,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BinaryTreeVerticalOrderTraversal" />
       <recent name="Trees.AllPossibleBinaryTrees" />
       <recent name="Trees.MaximumBinaryTree" />
       <recent name="Trees.FindModeInBST" />
       <recent name="Trees.SumOfLeftLeaves" />
-      <recent name="Trees.MinAbsDiffBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RectangleOverlap">
+  <component name="RunManager" selected="Application.CountElementsWithMaxFreq">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -105,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCommonValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.MinCommonValue.MinCommonValue" />
+    <configuration name="CountElementsWithMaxFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountElementsWithMaxFreq.CountElementsWithMaxFreq" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.MinCommonValue.*" />
+          <option name="PATTERN" value="Lists.CountElementsWithMaxFreq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumChangeMakeAlternatingBinaryStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.MinimumChangeMakeAlternatingBinaryStr.MinimumChangeMakeAlternatingBinaryStr" />
+    <configuration name="MinCommonValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinCommonValue.MinCommonValue" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.MinimumChangeMakeAlternatingBinaryStr.*" />
+          <option name="PATTERN" value="Lists.MinCommonValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,15 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountElementsWithMaxFreq" />
         <item itemvalue="Application.RectangleOverlap" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.MinCommonValue" />
         <item itemvalue="Application.BuyTwoChocolates" />
-        <item itemvalue="Application.MinimumChangeMakeAlternatingBinaryStr" />
       </list>
     </recent_temporary>
   </component>
@@ -862,7 +860,8 @@
       <workItem from="1712018946733" duration="2893000" />
       <workItem from="1712199686417" duration="822000" />
       <workItem from="1712272466366" duration="4577000" />
-      <workItem from="1712599263119" duration="451000" />
+      <workItem from="1712599263119" duration="2587000" />
+      <workItem from="1713108817694" duration="2081000" />
     </task>
     <servers />
   </component>
