@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreeVerticalOrderTraversal/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trees/BinaryTreeVerticalOrderTraversal/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,23 +83,9 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountElementsWithMaxFreq">
+  <component name="RunManager" selected="Application.MaxOddBinaryNum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuyTwoChocolates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.BuyTwoChocolates.BuyTwoChocolates" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.BuyTwoChocolates.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +97,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.CountElementsWithMaxFreq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxOddBinaryNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MaxOddBinaryNum.MaxOddBinaryNum" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.MaxOddBinaryNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,13 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxOddBinaryNum" />
         <item itemvalue="Application.CountElementsWithMaxFreq" />
         <item itemvalue="Application.RectangleOverlap" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.MinCommonValue" />
-        <item itemvalue="Application.BuyTwoChocolates" />
       </list>
     </recent_temporary>
   </component>
@@ -861,7 +862,8 @@
       <workItem from="1712199686417" duration="822000" />
       <workItem from="1712272466366" duration="4577000" />
       <workItem from="1712599263119" duration="2587000" />
-      <workItem from="1713108817694" duration="2081000" />
+      <workItem from="1713108817694" duration="2128000" />
+      <workItem from="1713311457356" duration="1134000" />
     </task>
     <servers />
   </component>
