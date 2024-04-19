@@ -4,7 +4,7 @@ public class MaxOddBinaryNum {
     public static void main(String [] args) {
         String [] input = { "010",  "0101"};
         for (String i : input)
-            System.out.println("maxOddBinNum: " + maximumOddBinaryNumber(i) "\n");
+            System.out.println("maxOddBinNum: " + maximumOddBinaryNumber(i) + "\n");
     }
 
     public static String maximumOddBinaryNumber(String s) {
