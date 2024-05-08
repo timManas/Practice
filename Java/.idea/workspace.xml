@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/LatestTimeByReplacingHiddenDigits/LatestTimeByReplacingHiddenDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/LatestTimeByReplacingHiddenDigits/LatestTimeByReplacingHiddenDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumDigitsStrungAfterConvert">
+  <component name="RunManager" selected="Application.LatestTimeByReplacingHiddenDigits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -218,8 +219,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumDigitsStrungAfterConvert" />
         <item itemvalue="Application.LatestTimeByReplacingHiddenDigits" />
+        <item itemvalue="Application.SumDigitsStrungAfterConvert" />
         <item itemvalue="Application.NumStrAppearAsSubStr" />
         <item itemvalue="Application.MaxOddBinaryNum" />
         <item itemvalue="Application.CountElementsWithMaxFreq" />
@@ -866,7 +867,9 @@
       <workItem from="1713843275538" duration="625000" />
       <workItem from="1714607413647" duration="2155000" />
       <workItem from="1714958270609" duration="576000" />
-      <workItem from="1715039493164" duration="2271000" />
+      <workItem from="1715039493164" duration="2323000" />
+      <workItem from="1715041871331" duration="129000" />
+      <workItem from="1715129624042" duration="2354000" />
     </task>
     <servers />
   </component>
