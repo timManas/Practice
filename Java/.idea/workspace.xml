@@ -83,9 +83,23 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfNumAreAscendingInSentence">
+  <component name="RunManager" selected="Application.CheckIfAllAsAppearBeforeBs">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfAllAsAppearBeforeBs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfAllAsAppearBeforeBs.CheckIfAllAsAppearBeforeBs" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.CheckIfAllAsAppearBeforeBs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,20 +125,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.LatestTimeByReplacingHiddenDigits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxOddBinaryNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MaxOddBinaryNum.MaxOddBinaryNum" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.MaxOddBinaryNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,15 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfAllAsAppearBeforeBs" />
         <item itemvalue="Application.CheckIfNumAreAscendingInSentence" />
         <item itemvalue="Application.LatestTimeByReplacingHiddenDigits" />
         <item itemvalue="Application.SumDigitsStrungAfterConvert" />
         <item itemvalue="Application.NumStrAppearAsSubStr" />
-        <item itemvalue="Application.MaxOddBinaryNum" />
       </list>
     </recent_temporary>
   </component>
@@ -871,7 +869,8 @@
       <workItem from="1715039493164" duration="2323000" />
       <workItem from="1715041871331" duration="129000" />
       <workItem from="1715129624042" duration="2438000" />
-      <workItem from="1715214755826" duration="1562000" />
+      <workItem from="1715214755826" duration="1619000" />
+      <workItem from="1715644510985" duration="1188000" />
     </task>
     <servers />
   </component>
