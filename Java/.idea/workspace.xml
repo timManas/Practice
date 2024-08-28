@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfNumAreAscendingInSentence/CheckIfNumAreAscendingInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfNumAreAscendingInSentence/CheckIfNumAreAscendingInSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
