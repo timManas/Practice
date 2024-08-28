@@ -1,6 +1,5 @@
 package Lists.MinIndexSumTwoLists;
 
-import com.sun.tools.javac.util.ArrayUtils;
 
 import java.util.*;
 

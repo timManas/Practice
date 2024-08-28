@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/EncodeDecodeTinyURL/Codec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/CheckIfNumAreAscendingInSentence/CheckIfNumAreAscendingInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/CheckIfNumAreAscendingInSentence/CheckIfNumAreAscendingInSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/timmanas/ProgrammingProjects/Java/Practice/Java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SortThePeople.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/timmanas/ProgrammingProjects/Java/Practice/Java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LinkedList.MergeNodesInBetweenZeroes" />
@@ -78,7 +83,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfAllAsAppearBeforeBs">
+  <component name="RunManager" selected="Application.SortThePeople">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -150,13 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumStrAppearAsSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.NumStrAppearAsSubStr.NumStrAppearAsSubStr" />
+    <configuration name="SortThePeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SortThePeople.SortThePeople" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.NumStrAppearAsSubStr.*" />
+          <option name="PATTERN" value="Lists.SortThePeople.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortThePeople" />
         <item itemvalue="Application.CheckIfAllAsAppearBeforeBs" />
         <item itemvalue="Application.CheckIfNumAreAscendingInSentence" />
         <item itemvalue="Application.LatestTimeByReplacingHiddenDigits" />
         <item itemvalue="Application.SumDigitsStrungAfterConvert" />
-        <item itemvalue="Application.NumStrAppearAsSubStr" />
       </list>
     </recent_temporary>
   </component>
@@ -1310,7 +1315,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Math/NumberComplement/NumberComplement.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="941" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1805,7 +1810,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinIndexSumTwoLists/MinIndexSumTwoLists.java</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="1276" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -2392,6 +2397,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Strings/ValidWordAbbreviation/ValidWordAbbreviation.java</url>
           <line>47</line>
           <option name="timeStamp" value="1524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1525" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

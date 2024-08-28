@@ -1,6 +1,5 @@
 package Strings.CheckIfNumAreAscendingInSentence;
 
-import com.sun.tools.javac.util.StringUtils;
 
 import java.util.Arrays;
 
