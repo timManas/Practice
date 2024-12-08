@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/SortThePeople/SortThePeople.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.ReverseStringII.executor": "Run",
     "Application.SortThePeople.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -79,7 +80,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortThePeople">
+  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceOthers">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -123,13 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LatestTimeByReplacingHiddenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LatestTimeByReplacingHiddenDigits.LatestTimeByReplacingHiddenDigits" />
+    <configuration name="LargestNumberAtLeastTwiceOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.LargestNumberAtLeastTwiceOthers.LargestNumberAtLeastTwiceOthers" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.LatestTimeByReplacingHiddenDigits.*" />
+          <option name="PATTERN" value="Math.LargestNumberAtLeastTwiceOthers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortThePeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SortThePeople.SortThePeople" />
+    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseStringII.ReverseStringII" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.SortThePeople.*" />
+          <option name="PATTERN" value="Strings.ReverseStringII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,13 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDigitsStrungAfterConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.SumDigitsStrungAfterConvert.SumDigitsStrungAfterConvert" />
+    <configuration name="SortThePeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.SortThePeople.SortThePeople" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.SumDigitsStrungAfterConvert.*" />
+          <option name="PATTERN" value="Lists.SortThePeople.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestNumberAtLeastTwiceOthers" />
+        <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SortThePeople" />
         <item itemvalue="Application.CheckIfAllAsAppearBeforeBs" />
         <item itemvalue="Application.CheckIfNumAreAscendingInSentence" />
-        <item itemvalue="Application.LatestTimeByReplacingHiddenDigits" />
-        <item itemvalue="Application.SumDigitsStrungAfterConvert" />
       </list>
     </recent_temporary>
   </component>
