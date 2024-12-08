@@ -53,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.NumDaysInMonth.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.SortThePeople.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,7 +81,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceOthers">
+  <component name="RunManager" selected="Application.NumDaysInMonth">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -110,20 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfNumAreAscendingInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfNumAreAscendingInSentence.CheckIfNumAreAscendingInSentence" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.CheckIfNumAreAscendingInSentence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LargestNumberAtLeastTwiceOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.LargestNumberAtLeastTwiceOthers.LargestNumberAtLeastTwiceOthers" />
       <module name="PracticeJava" />
@@ -145,6 +132,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumDaysInMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.NumDaysInMonth.NumDaysInMonth" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Misc.NumDaysInMonth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumDaysInMonth" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOthers" />
         <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SortThePeople" />
         <item itemvalue="Application.CheckIfAllAsAppearBeforeBs" />
-        <item itemvalue="Application.CheckIfNumAreAscendingInSentence" />
       </list>
     </recent_temporary>
   </component>
