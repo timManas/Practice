@@ -52,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.IntegerToEnglishWords.executor": "Run",
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
@@ -81,7 +82,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumDaysInMonth">
+  <component name="RunManager" selected="Application.IntegerToEnglishWords">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -97,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfAllAsAppearBeforeBs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckIfAllAsAppearBeforeBs.CheckIfAllAsAppearBeforeBs" />
+    <configuration name="IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.IntegerToEnglishWords.IntegerToEnglishWords" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.CheckIfAllAsAppearBeforeBs.*" />
+          <option name="PATTERN" value="Misc.IntegerToEnglishWords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerToEnglishWords" />
         <item itemvalue="Application.NumDaysInMonth" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOthers" />
         <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SortThePeople" />
-        <item itemvalue="Application.CheckIfAllAsAppearBeforeBs" />
       </list>
     </recent_temporary>
   </component>
