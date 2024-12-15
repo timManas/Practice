@@ -2403,19 +2403,25 @@
           <line>9</line>
           <option name="timeStamp" value="1525" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/IntegerToEnglishWords/IntegerToEnglishWords.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="1533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/IntegerToEnglishWords/IntegerToEnglishWords.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Misc/IntegerToEnglishWords/IntegerToEnglishWords.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="1536" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="nums[i]" language="JAVA" />
-        <watch expression="matrix[endRow][endCol]" language="JAVA" />
-        <watch expression="list." language="JAVA" />
-        <watch expression="word.charAt(wordIndex)" language="JAVA" />
-        <watch expression="letter" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
