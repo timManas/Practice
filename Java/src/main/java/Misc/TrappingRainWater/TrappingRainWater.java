@@ -30,8 +30,23 @@ public class TrappingRainWater {
             int trappedIndex = 0;
             int leftIndex = i - trappedIndex;
             int rightIndex = i + trappedIndex;
+            int prevL = 0;
+            int prevR = 0;
             while (0<leftIndex && rightIndex<height.length) {
-                System.out.println("    L: " + leftIndex + "    |   R: " + rightIndex);
+                int leftCurrent = height[leftIndex];
+                int rightCurrent = height[rightIndex];
+
+                // Do not proceed if the L&R Current are smaller than prev ones
+                if (leftCurrent < prevL || rightCurrent < prevR) {
+                    break;
+                }
+
+                System.out.println("   L height["+ leftIndex + "]: " + leftCurrent + " |  R height["+ rightCurrent + "]: " + rightCurrent);
+
+
+                prevL = leftCurrent;
+                prevR = rightCurrent;
+
 
                 trappedIndex++;
                 leftIndex = i - trappedIndex;
