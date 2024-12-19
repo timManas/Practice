@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/ZigzagConversion/Misc/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/ZigzagConversion/Misc/ZigzagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/TrappingRainWater/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/TrappingRainWater/TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "Application.NumDaysInMonth.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.SortThePeople.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
     "Application.ZigzagConversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -84,7 +85,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZigzagConversion">
+  <component name="RunManager" selected="Application.TrappingRainWater">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -156,13 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseStringII.ReverseStringII" />
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.TrappingRainWater.TrappingRainWater" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReverseStringII.*" />
+          <option name="PATTERN" value="Misc.TrappingRainWater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.ZigzagConversion" />
         <item itemvalue="Application.IntegerToEnglishWords" />
         <item itemvalue="Application.NumDaysInMonth" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOthers" />
-        <item itemvalue="Application.ReverseStringII" />
       </list>
     </recent_temporary>
   </component>

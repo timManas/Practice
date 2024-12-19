@@ -5,36 +5,39 @@ public class TrappingRainWater {
         int [] height = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println("trap: " + trap(height) + "\n");
 
-        int [] height1 = {4,2,0,3,2,5};
-        System.out.println("trap: " + trap(height1) + "\n");
-
-        int [] height2 = {4,2,3};
-        System.out.println("trap: " + trap(height2) + "\n");
+//        int [] height1 = {4,2,0,3,2,5};
+//        System.out.println("trap: " + trap(height1) + "\n");
+//
+//        int [] height2 = {4,2,3};
+//        System.out.println("trap: " + trap(height2) + "\n");
     }
 
     public static int trap(int[] height) {
         int total = 0;
-        int [] dp = new int[height.length];
 
-        for (int current=0; current<height.length-1; current++) {
-            System.out.println("current: "+ height[current]);
+        for (int i=1; i<height.length-1; i++) {
+            int curr = height[i];
+            int prev = height[i-1];
+            int next = height[i+1];
 
-            int trap = 0;
-            for (int next=current+1; next < height.length; next++) {
-                System.out.println("    next: " + height[next]);
+            System.out.println("current: "+ height[i]);
 
-                if (height[current] <= height[next]) {
-                    current = next-1;
-                    dp[next-1] = next-1;
-                    total += trap;
-                    System.out.println("        trap: " + trap + "      total: " + total);
-                    break;
-                }
-
-                trap += height[current] - height[next];
-
-
+            if (prev <= curr || curr >= next) {
+                continue;
             }
+
+            // This scenario is where prev<current && current<next
+            int trappedIndex = 0;
+            int leftIndex = i - trappedIndex;
+            int rightIndex = i + trappedIndex;
+            while (0<leftIndex && rightIndex<height.length) {
+                System.out.println("    L: " + leftIndex + "    |   R: " + rightIndex);
+
+                trappedIndex++;
+                leftIndex = i - trappedIndex;
+                rightIndex = i + trappedIndex;
+            }
+
         }
 
         return total;
