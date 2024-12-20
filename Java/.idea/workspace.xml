@@ -55,6 +55,7 @@
   "keyToString": {
     "Application.IntegerToEnglishWords.executor": "Run",
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.SortThePeople.executor": "Run",
@@ -85,7 +86,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -115,13 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberAtLeastTwiceOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.LargestNumberAtLeastTwiceOthers.LargestNumberAtLeastTwiceOthers" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.MergeIntervals.MergeIntervals" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.LargestNumberAtLeastTwiceOthers.*" />
+          <option name="PATTERN" value="Misc.MergeIntervals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.ZigzagConversion" />
         <item itemvalue="Application.IntegerToEnglishWords" />
         <item itemvalue="Application.NumDaysInMonth" />
-        <item itemvalue="Application.LargestNumberAtLeastTwiceOthers" />
       </list>
     </recent_temporary>
   </component>

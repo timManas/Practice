@@ -2,7 +2,7 @@ package Misc.TrappingRainWater;
 
 public class TrappingRainWater {
     public static void main(String [] args) {
-        int [] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int [] height = {0,1,0,3,1,0,1,3,2,1,2,1};
         System.out.println("trap: " + trap(height) + "\n");
 
 //        int [] height1 = {4,2,0,3,2,5};
@@ -30,8 +30,8 @@ public class TrappingRainWater {
             int trappedIndex = 0;
             int leftIndex = i - trappedIndex;
             int rightIndex = i + trappedIndex;
-            int prevL = 0;
-            int prevR = 0;
+            int prevL = curr;
+            int prevR = curr;
             while (0<leftIndex && rightIndex<height.length) {
                 int leftCurrent = height[leftIndex];
                 int rightCurrent = height[rightIndex];
@@ -40,14 +40,19 @@ public class TrappingRainWater {
                 if (leftCurrent < prevL || rightCurrent < prevR) {
                     break;
                 }
+                System.out.print("   L height["+ leftIndex + "]: " + leftCurrent + " |  R height["+ rightCurrent + "]: " + rightCurrent);
 
-                System.out.println("   L height["+ leftIndex + "]: " + leftCurrent + " |  R height["+ rightCurrent + "]: " + rightCurrent);
+                // Find the difference
+                int leftDiff = leftCurrent - prevL;
+                int rightDiff = rightCurrent - prevR;
+                int minDiff = Math.min(leftDiff, rightDiff);
+                System.out.print("  | MinDiff: " + minDiff + "\n");
 
 
+
+                //Update the counters
                 prevL = leftCurrent;
                 prevR = rightCurrent;
-
-
                 trappedIndex++;
                 leftIndex = i - trappedIndex;
                 rightIndex = i + trappedIndex;
