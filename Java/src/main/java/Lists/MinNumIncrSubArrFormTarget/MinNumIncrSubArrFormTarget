@@ -37,3 +37,42 @@ Constraints:
     1 <= target.length <= 105
     1 <= target[i] <= 105
 
+
+
+Current: [0, 0, 0, 0, 0]
+    Incr : [1, 1, 1, 1, 1]    Min: 1
+    Current: 1 | Target: 3
+    Current: 1 | Target: 1
+Current: [1]
+    Incr : [2]    Min: 3
+    Current: 2 | Target: 3
+Current: [2]
+    Incr : [3]    Min: 3
+    Current: 3 | Target: 3
+Current: []
+    Count: 3
+    Count: 3
+    Current: 1 | Target: 5
+    Current: 1 | Target: 4
+    Current: 1 | Target: 2
+Current: [1, 1, 1]
+    Incr : [2, 2, 2]    Min: 2
+    Current: 2 | Target: 5
+    Current: 2 | Target: 4
+    Current: 2 | Target: 2
+Current: [2, 2]
+    Incr : [3, 3]    Min: 4
+    Current: 3 | Target: 5
+    Current: 3 | Target: 4
+Current: [3, 3]
+    Incr : [4, 4]    Min: 4
+    Current: 4 | Target: 5
+    Current: 4 | Target: 4
+Current: [4]
+    Incr : [5]    Min: 5
+    Current: 5 | Target: 5
+Current: []
+    Count: 7
+    Count: 7
+    Count: 7
+Min Number: 7

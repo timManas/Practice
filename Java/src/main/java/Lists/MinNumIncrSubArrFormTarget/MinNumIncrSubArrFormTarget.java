@@ -1,8 +1,6 @@
 package Lists.MinNumIncrSubArrFormTarget;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class MinNumIncrSubArrFormTarget {
     public static void main(String [] args) {
@@ -29,7 +27,6 @@ public class MinNumIncrSubArrFormTarget {
             targetList.add(i);
         }
 
-        int count = 0;
         return findOperations(current, targetList, 0);
     }
 
@@ -38,22 +35,28 @@ public class MinNumIncrSubArrFormTarget {
 
 
         if (current.isEmpty())
-            return count;
+            return 0;
+
+        // Find Minimum
+        int min = Collections.min(target);
 
         // Increment all in current
-        current.replaceAll(integer -> integer + 1);
-        count++;
+//        current.replaceAll(integer -> integer + 1);
+//        count = count + 1;
 
-        System.out.println("    Incremented Current: " + current);
+        current.replaceAll(integer -> min);
+        count = min - count;
+
+        System.out.println("    Incr : " + current + "    Min: " + min);
 
         List<Integer> subList = new ArrayList<>();
         List<Integer> subTargetList = new ArrayList<>();
 
         for (int i=0; i<current.size(); i++) {
-            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i));
+            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i) + " | Count: " + count);
 
             if (current.get(i) == target.get(i)) {
-                count = findOperations(subList, subTargetList, count);
+                count = count + findOperations(subList, subTargetList, count);
                 subList.clear();
                 subTargetList.clear();
                 System.out.println("    Count: " + count);
@@ -65,7 +68,7 @@ public class MinNumIncrSubArrFormTarget {
         }
 
         if (!subList.isEmpty())
-            count = findOperations(subList, subTargetList, count);
+            count = count + findOperations(subList, subTargetList, count);
 
 
 
