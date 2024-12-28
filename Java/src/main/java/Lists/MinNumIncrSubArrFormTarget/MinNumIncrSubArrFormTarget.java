@@ -35,25 +35,22 @@ public class MinNumIncrSubArrFormTarget {
 
 
         if (current.isEmpty())
-            return 0;
+            return count;
 
         // Find Minimum
         int min = Collections.min(target);
 
         // Increment all in current
-//        current.replaceAll(integer -> integer + 1);
-//        count = count + 1;
-
         current.replaceAll(integer -> min);
         count = min - count;
 
-        System.out.println("    Incr : " + current + "    Min: " + min);
-
+        System.out.println("    Incr : " + current + "    Min: " + min + "   Count: " + count);
+`
         List<Integer> subList = new ArrayList<>();
         List<Integer> subTargetList = new ArrayList<>();
 
         for (int i=0; i<current.size(); i++) {
-            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i) + " | Count: " + count);
+            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i));
 
             if (current.get(i) == target.get(i)) {
                 count = count + findOperations(subList, subTargetList, count);

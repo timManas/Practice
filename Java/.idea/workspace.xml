@@ -2466,37 +2466,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>57</line>
+          <line>54</line>
           <option name="timeStamp" value="1556" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>54</line>
+          <line>51</line>
           <option name="timeStamp" value="1557" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>51</line>
+          <line>48</line>
           <option name="timeStamp" value="1558" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>65</line>
+          <line>62</line>
           <option name="timeStamp" value="1559" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>69</line>
+          <line>66</line>
           <option name="timeStamp" value="1560" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>59</line>
+          <line>56</line>
           <option name="timeStamp" value="1561" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>49</line>
+          <line>46</line>
           <option name="timeStamp" value="1562" />
         </line-breakpoint>
       </breakpoints>
@@ -2504,5 +2504,11 @@
         <breakpoint suspend="NONE" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="current.get(i)" language="JAVA" />
+        <watch expression="target.get(i)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
