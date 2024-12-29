@@ -18,6 +18,7 @@ public class MinNumIncrSubArrFormTarget {
     }
 
     public static int minNumberOperations(int[] target) {
+        System.out.println("Target: " + Arrays.toString(target));
         List<Integer> current = new ArrayList<>();
         List<Integer> targetList = new ArrayList<>();
 
@@ -31,32 +32,29 @@ public class MinNumIncrSubArrFormTarget {
     }
 
     private static int findOperations(List<Integer> current, List<Integer> target, int count) {
-        System.out.println("Current: " + current);
-
+        System.out.println("    Current : " + current + "    Target: " + target + "   Count: " + count);
+        List<Integer> subList = new ArrayList<>();
+        List<Integer> subTargetList = new ArrayList<>();
 
         if (current.isEmpty())
             return count;
 
-        // Find Minimum
+        // Find Minimum   and  Increment all in current
         int min = Collections.min(target);
-
-        // Increment all in current
         current.replaceAll(integer -> min);
-        count = min - count;
 
-        System.out.println("    Incr : " + current + "    Min: " + min + "   Count: " + count);
-`
-        List<Integer> subList = new ArrayList<>();
-        List<Integer> subTargetList = new ArrayList<>();
+        System.out.println("        Incremented: " + current);
+
 
         for (int i=0; i<current.size(); i++) {
-            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i));
+            System.out.println("        Current: " + current.get(i) + " | Target: " + target.get(i));
 
             if (current.get(i) == target.get(i)) {
-                count = count + findOperations(subList, subTargetList, count);
+                System.out.println("        Existing Count: " + count);
+                count = count + findOperations(subList, subTargetList, min);
                 subList.clear();
                 subTargetList.clear();
-                System.out.println("    Count: " + count);
+                System.out.println("        New Count: " + count);
                 continue;
             }
 
@@ -64,11 +62,53 @@ public class MinNumIncrSubArrFormTarget {
             subTargetList.add(target.get(i));
         }
 
+
         if (!subList.isEmpty())
-            count = count + findOperations(subList, subTargetList, count);
-
-
+            count = count + findOperations(subList, subTargetList, min);
 
         return count;
     }
+
+
+//    private static int findOperations(List<Integer> current, List<Integer> target, int count) {
+//        System.out.println("Current: " + current);
+//
+//
+//        if (current.isEmpty())
+//            return count;
+//
+//        // Find Minimum
+//        int min = Collections.min(target);
+//
+//        // Increment all in current
+//        current.replaceAll(integer -> min);
+//        count = min;
+//
+//        System.out.println("    Incr : " + current + "    Min: " + min + "   Count: " + count);
+//
+//        List<Integer> subList = new ArrayList<>();
+//        List<Integer> subTargetList = new ArrayList<>();
+//
+//        for (int i=0; i<current.size(); i++) {
+//            System.out.println("    Current: " + current.get(i) + " | Target: " + target.get(i));
+//
+//            if (current.get(i) == target.get(i)) {
+//                count = count + findOperations(subList, subTargetList, count);
+//                subList.clear();
+//                subTargetList.clear();
+//                System.out.println("    Count: " + count);
+//                continue;
+//            }
+//
+//            subList.add(current.get(i));
+//            subTargetList.add(target.get(i));
+//        }
+//
+//
+//
+//        if (!subList.isEmpty())
+//            count = count + findOperations(subList, subTargetList, count);
+//
+//        return count;
+//    }
 }

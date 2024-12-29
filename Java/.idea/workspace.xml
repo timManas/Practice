@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
@@ -2458,46 +2457,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Misc/MergeIntervals/MergeIntervals.java</url>
           <line>50</line>
           <option name="timeStamp" value="1551" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1552" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="1556" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1557" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="1558" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="1559" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="1560" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="1561" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="1562" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
