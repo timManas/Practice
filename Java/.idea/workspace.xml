@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/MinNumIncrSubArrFormTarget/MinNumIncrSubArrFormTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CombineTwoTables/CombineTwoTables.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,65 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.8235910172675731" />
+      <entry key="MS500" value="1.9619274546647851" />
+      <entry key="S2" value="1.9906758291627922" />
+      <entry key="S5" value="2.0521581294617137" />
+      <entry key="S10" value="2.3802845524065193" />
+      <entry key="S30" value="3.9051376714607415" />
+      <entry key="S60" value="5.981376407414723" />
+      <entry key="M2" value="12.1015498631307" />
+      <entry key="M5" value="32.75382582400208" />
+      <entry key="M10" value="51.66643049440968" />
+      <entry key="M15" value="60.8913412864354" />
+      <entry key="M30" value="72.17147994302124" />
+      <entry key="H1" value="78.73185961443197" />
+      <entry key="H2" value="82.2725962047856" />
+      <entry key="H4" value="84.1123263414644" />
+      <entry key="D1" value="85.68200265131479" />
+      <entry key="W1" value="85.95448817160552" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.3862707390856929E-11" />
+      <entry key="MS500" value="0.006749868465618421" />
+      <entry key="S2" value="0.39140381421981946" />
+      <entry key="S5" value="1.4209895194282147" />
+      <entry key="S10" value="2.6792087485119938" />
+      <entry key="S30" value="5.4057606641487945" />
+      <entry key="S60" value="7.495559078032508" />
+      <entry key="M2" value="10.575937672416362" />
+      <entry key="M5" value="17.170963285673082" />
+      <entry key="M10" value="22.090254274438813" />
+      <entry key="M15" value="24.314302734579215" />
+      <entry key="M30" value="26.925913652773296" />
+      <entry key="H1" value="28.399902232984577" />
+      <entry key="H2" value="29.183477124799648" />
+      <entry key="H4" value="29.587527598756175" />
+      <entry key="D1" value="29.93066171825971" />
+      <entry key="W1" value="29.99007990576475" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9092914289192173" />
+      <entry key="MS500" value="1.4946996612320067" />
+      <entry key="S2" value="2.0194845379762287" />
+      <entry key="S5" value="3.100824282654279" />
+      <entry key="S10" value="4.710363638017389" />
+      <entry key="S30" value="8.932519734742183" />
+      <entry key="S60" value="13.068244317308896" />
+      <entry key="M2" value="22.28364897655134" />
+      <entry key="M5" value="49.64715395908511" />
+      <entry key="M10" value="73.5806228552784" />
+      <entry key="M15" value="85.07766074245768" />
+      <entry key="M30" value="99.02733152665866" />
+      <entry key="H1" value="107.09504725057457" />
+      <entry key="H2" value="111.43727215817584" />
+      <entry key="H4" value="113.69033935981786" />
+      <entry key="D1" value="115.61106250919698" />
+      <entry key="W1" value="115.94433884246251" />
+    </decayedShown>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -44,7 +101,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="1VPTmcxdqoN0ksVtOnG6GbcOQlb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,10 +121,21 @@
     "Application.TrappingRainWater.executor": "Run",
     "Application.ZigzagConversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/timmanas/ProgrammingProjects/Java/Practice/Java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,7 +156,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinNumIncrSubArrFormTarget">
+  <component name="RunManager" selected="Application.FlipGame">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -111,6 +179,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.FindValidMatrixGivenRowCol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlipGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.FlipGame.FlipGame" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.FlipGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,20 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigzagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.ZigzagConversion.Misc.ZigzagConversion" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.ZigzagConversion.Misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -212,13 +280,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipGame" />
         <item itemvalue="Application.MinNumIncrSubArrFormTarget" />
         <item itemvalue="Application.FindValidMatrixGivenRowCol" />
         <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.ZigzagConversion" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SliceToolwindowSettings">
     <option name="autoScroll" value="true" />
