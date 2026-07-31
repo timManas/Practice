@@ -37,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.002388141845145" />
-      <entry key="MS500" value="1.3692976103184735" />
-      <entry key="S2" value="3.011053298743483" />
-      <entry key="S5" value="5.029049147476413" />
-      <entry key="S10" value="6.784270388753826" />
-      <entry key="S30" value="11.159959591174808" />
-      <entry key="S60" value="14.561686550880653" />
-      <entry key="M2" value="17.253455254380533" />
-      <entry key="M5" value="19.78230423584295" />
-      <entry key="M10" value="27.581569940726972" />
-      <entry key="M15" value="40.17946588516727" />
-      <entry key="M30" value="74.11173168677907" />
-      <entry key="H1" value="109.25180676077106" />
-      <entry key="H2" value="134.85449333588323" />
-      <entry key="H4" value="150.35633269846875" />
-      <entry key="D1" value="164.89832763501533" />
-      <entry key="W1" value="167.552788038286" />
+      <entry key="MS100" value="2.3587889970848346E-191" />
+      <entry key="MS500" value="1.1884075154293766E-38" />
+      <entry key="S2" value="5.523869775021934E-10" />
+      <entry key="S5" value="3.1663916053763995E-4" />
+      <entry key="S10" value="0.03295675223402227" />
+      <entry key="S30" value="1.2327741980295144" />
+      <entry key="S60" value="4.335405157065782" />
+      <entry key="M2" value="10.674655577200957" />
+      <entry key="M5" value="26.251801522896812" />
+      <entry key="M10" value="51.4880076663626" />
+      <entry key="M15" value="79.30427651842601" />
+      <entry key="M30" value="160.03862791992856" />
+      <entry key="H1" value="270.98289280914116" />
+      <entry key="H2" value="375.2072884426145" />
+      <entry key="H4" value="449.4015059702866" />
+      <entry key="D1" value="527.2968528816541" />
+      <entry key="W1" value="542.4233180637364" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.4726164169179398E-51" />
-      <entry key="MS500" value="7.687414039097687E-11" />
-      <entry key="S2" value="0.004657451221937373" />
-      <entry key="S5" value="0.2152803908530138" />
-      <entry key="S10" value="0.9387240886671682" />
-      <entry key="S30" value="2.7942424636819427" />
-      <entry key="S60" value="3.726519819346944" />
-      <entry key="M2" value="4.313326255827715" />
-      <entry key="M5" value="4.774929827338545" />
-      <entry key="M10" value="6.205977023148996" />
-      <entry key="M15" value="8.717169704800403" />
-      <entry key="M30" value="15.78907738415804" />
-      <entry key="H1" value="23.289834418373413" />
-      <entry key="H2" value="28.81014511030653" />
-      <entry key="H4" value="32.16770568255309" />
-      <entry key="D1" value="35.32555719714961" />
-      <entry key="W1" value="35.90273766412235" />
+      <entry key="MS100" value="1.0000000713752928" />
+      <entry key="MS500" value="1.0372142765426553" />
+      <entry key="S2" value="1.4392333826968835" />
+      <entry key="S5" value="1.7445003867095712" />
+      <entry key="S10" value="2.197359302470834" />
+      <entry key="S30" value="4.681420737828088" />
+      <entry key="S60" value="7.380761082157643" />
+      <entry key="M2" value="10.438054697604453" />
+      <entry key="M5" value="15.250957899629793" />
+      <entry key="M10" value="22.947832623014854" />
+      <entry key="M15" value="31.495466460503984" />
+      <entry key="M30" value="54.47823100758603" />
+      <entry key="H1" value="83.3908570467377" />
+      <entry key="H2" value="109.23333647710488" />
+      <entry key="H4" value="127.19797938671577" />
+      <entry key="D1" value="145.80124027303015" />
+      <entry key="W1" value="149.38947050343063" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8971625297728996" />
-      <entry key="MS500" value="1.3402000947774786" />
-      <entry key="S2" value="2.9989450396971553" />
-      <entry key="S5" value="5.18860812123185" />
-      <entry key="S10" value="7.618377392650535" />
-      <entry key="S30" value="13.836063215470958" />
-      <entry key="S60" value="18.201527682054344" />
-      <entry key="M2" value="21.513427872197113" />
-      <entry key="M5" value="24.53195837208353" />
-      <entry key="M10" value="33.76442789723395" />
-      <entry key="M15" value="48.86854609186357" />
-      <entry key="M30" value="89.86895824868574" />
-      <entry key="H1" value="132.51632163877792" />
-      <entry key="H2" value="163.6485337512837" />
-      <entry key="H4" value="182.5149404088382" />
-      <entry key="D1" value="200.2222048015696" />
-      <entry key="W1" value="203.45528142647152" />
+      <entry key="MS100" value="0.007651721087391634" />
+      <entry key="MS500" value="0.38395337406313823" />
+      <entry key="S2" value="1.0687776623476142" />
+      <entry key="S5" value="1.5357343115619944" />
+      <entry key="S10" value="2.0892636913820115" />
+      <entry key="S30" value="5.738880512074163" />
+      <entry key="S60" value="11.530946788017417" />
+      <entry key="M2" value="20.95939514047078" />
+      <entry key="M5" value="41.402894350958285" />
+      <entry key="M10" value="74.35767715332412" />
+      <entry key="M15" value="110.72608797508646" />
+      <entry key="M30" value="214.44731866781498" />
+      <entry key="H1" value="354.315413638146" />
+      <entry key="H2" value="484.4000069509021" />
+      <entry key="H4" value="576.5750208782026" />
+      <entry key="D1" value="673.093279317167" />
+      <entry key="W1" value="691.8120803104164" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -114,6 +114,7 @@
     "Application.FlipGame.executor": "Run",
     "Application.IntegerToEnglishWords.executor": "Run",
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.LongestUnCommonSubsequenceI.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MinNumIncrSubArrFormTarget.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
@@ -135,7 +136,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -157,7 +158,7 @@
       <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestUnCommonSubsequenceI">
+  <component name="RunManager" selected="Application.ReverseStringII">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -215,20 +216,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MergeIntervals.MergeIntervals" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.MergeIntervals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinNumIncrSubArrFormTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MinNumIncrSubArrFormTarget.MinNumIncrSubArrFormTarget" />
       <module name="PracticeJava" />
@@ -250,6 +237,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MissingRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseStringII.ReverseStringII" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.ReverseStringII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.LongestUnCommonSubsequenceI" />
         <item itemvalue="Application.FlipGame" />
         <item itemvalue="Application.MinNumIncrSubArrFormTarget" />
         <item itemvalue="Application.FindValidMatrixGivenRowCol" />
-        <item itemvalue="Application.MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
