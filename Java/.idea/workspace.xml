@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ReverseStringII/ReverseStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ReverseStringII/ReverseStringII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.00000018635677" />
-      <entry key="S5" value="1.0029112196830916" />
-      <entry key="S10" value="1.1042226353796927" />
-      <entry key="S30" value="3.472998355693674" />
-      <entry key="S60" value="10.427220253151471" />
-      <entry key="M2" value="26.562820954607123" />
-      <entry key="M5" value="59.704763516746475" />
-      <entry key="M10" value="94.86156495290759" />
-      <entry key="M15" value="125.94727595349194" />
-      <entry key="M30" value="210.59396077580791" />
-      <entry key="H1" value="327.2672254296427" />
-      <entry key="H2" value="438.81713150823333" />
-      <entry key="H4" value="519.2608453991072" />
-      <entry key="D1" value="604.519168829087" />
-      <entry key="W1" value="621.1622904954636" />
+      <entry key="MS100" value="8.572051243518044E-5" />
+      <entry key="MS500" value="0.1537288673912584" />
+      <entry key="S2" value="0.758185690600881" />
+      <entry key="S5" value="1.516698635700473" />
+      <entry key="S10" value="2.3692867727401477" />
+      <entry key="S30" value="5.458952344077696" />
+      <entry key="S60" value="9.668342286216083" />
+      <entry key="M2" value="16.68389252228657" />
+      <entry key="M5" value="27.77850008639227" />
+      <entry key="M10" value="41.64767332601873" />
+      <entry key="M15" value="61.82236591523593" />
+      <entry key="M30" value="139.3127155724778" />
+      <entry key="H1" value="277.42769827217575" />
+      <entry key="H2" value="434.5527008156591" />
+      <entry key="H4" value="560.6571212474449" />
+      <entry key="D1" value="704.6908665352798" />
+      <entry key="W1" value="733.9710583815751" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.087358227363517E-235" />
-      <entry key="S2" value="3.983559582001257E-59" />
-      <entry key="S5" value="6.584565276672131E-24" />
-      <entry key="S10" value="4.2690289047118415E-12" />
-      <entry key="S30" value="5.841445747660072E-4" />
-      <entry key="S60" value="0.08244654934632102" />
-      <entry key="M2" value="1.1032024979875985" />
-      <entry key="M5" value="6.2074236923847605" />
-      <entry key="M10" value="14.640260595802909" />
-      <entry key="M15" value="23.34100046349722" />
-      <entry key="M30" value="46.89847361401414" />
-      <entry key="H1" value="77.37244000474982" />
-      <entry key="H2" value="105.21777821410515" />
-      <entry key="H4" value="124.83810748643172" />
-      <entry key="D1" value="145.34687955220988" />
-      <entry key="W1" value="149.32287540458137" />
+      <entry key="MS100" value="1.0000004065684696" />
+      <entry key="MS500" value="1.0564757872329802" />
+      <entry key="S2" value="1.8577875758857876" />
+      <entry key="S5" value="2.790058075980996" />
+      <entry key="S10" value="3.712196478191351" />
+      <entry key="S30" value="7.0424411937355575" />
+      <entry key="S60" value="11.688503217161557" />
+      <entry key="M2" value="19.8484433438389" />
+      <entry key="M5" value="31.894094275788095" />
+      <entry key="M10" value="39.029413799128" />
+      <entry key="M15" value="43.78661146335457" />
+      <entry key="M30" value="59.97386928690946" />
+      <entry key="H1" value="90.7248162458855" />
+      <entry key="H2" value="126.71927462243914" />
+      <entry key="H4" value="155.80618728485425" />
+      <entry key="D1" value="189.07525288329268" />
+      <entry key="W1" value="195.8384686242767" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.755643186404417E-5" />
-      <entry key="MS500" value="0.13659721738761907" />
-      <entry key="S2" value="0.607939822194174" />
-      <entry key="S5" value="0.8223061605677506" />
-      <entry key="S10" value="1.006793691323844" />
-      <entry key="S30" value="3.41105156762809" />
-      <entry key="S60" value="10.444835440043505" />
-      <entry key="M2" value="27.596469231078547" />
-      <entry key="M5" value="65.84002913000585" />
-      <entry key="M10" value="109.43378854538433" />
-      <entry key="M15" value="149.22096976944337" />
-      <entry key="M30" value="257.4258846866035" />
-      <entry key="H1" value="404.5821119892771" />
-      <entry key="H2" value="543.994049440182" />
-      <entry key="H4" value="644.0740690395303" />
-      <entry key="D1" value="749.8611032325035" />
-      <entry key="W1" value="770.4844370382618" />
+      <entry key="MS100" value="0.012526800648466875" />
+      <entry key="MS500" value="0.5462501869163167" />
+      <entry key="S2" value="2.210952264539964" />
+      <entry key="S5" value="4.03934832137779" />
+      <entry key="S10" value="5.885622644182232" />
+      <entry key="S30" value="12.347522675347884" />
+      <entry key="S60" value="21.209094301608204" />
+      <entry key="M2" value="36.393644494181444" />
+      <entry key="M5" value="59.578049085795534" />
+      <entry key="M10" value="80.61588028027526" />
+      <entry key="M15" value="105.55867025520259" />
+      <entry key="M30" value="199.2403158507856" />
+      <entry key="H1" value="368.10634417788486" />
+      <entry key="H2" value="561.2342541636194" />
+      <entry key="H4" value="716.4382540579683" />
+      <entry key="D1" value="893.7607267788779" />
+      <entry key="W1" value="929.8087207366085" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -109,38 +108,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindValidMatrixGivenRowCol.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlipGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerToEnglishWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestNumberAtLeastTwiceOthers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestUnCommonSubsequenceI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinNumIncrSubArrFormTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumDaysInMonth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseStringII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortThePeople.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZigzagConversion.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/timmerz/Projects/Practice/Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTreeTilt.executor": "Run",
+    "Application.FindValidMatrixGivenRowCol.executor": "Run",
+    "Application.FlipGame.executor": "Run",
+    "Application.IntegerToEnglishWords.executor": "Run",
+    "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.LongestUnCommonSubsequenceI.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.MinNumIncrSubArrFormTarget.executor": "Run",
+    "Application.NumDaysInMonth.executor": "Run",
+    "Application.ReverseStringII.executor": "Run",
+    "Application.SortThePeople.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
+    "Application.ZigzagConversion.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LinkedList.MergeNodesInBetweenZeroes" />
@@ -152,14 +152,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/Easy_TwoSets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trees.BinaryTreeTilt" />
       <recent name="Trees.BinaryTreeVerticalOrderTraversal" />
       <recent name="Trees.AllPossibleBinaryTrees" />
       <recent name="Trees.MaximumBinaryTree" />
       <recent name="Trees.FindModeInBST" />
-      <recent name="Trees.SumOfLeftLeaves" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseStringII">
+  <component name="RunManager" selected="Application.BinaryTreeTilt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -175,13 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindValidMatrixGivenRowCol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.FindValidMatrixGivenRowCol.FindValidMatrixGivenRowCol" />
+    <configuration name="BinaryTreeTilt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeTilt.BinaryTreeTilt" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Misc.FindValidMatrixGivenRowCol.*" />
+          <option name="PATTERN" value="Trees.BinaryTreeTilt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeTilt" />
         <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.LongestUnCommonSubsequenceI" />
         <item itemvalue="Application.FlipGame" />
         <item itemvalue="Application.MinNumIncrSubArrFormTarget" />
-        <item itemvalue="Application.FindValidMatrixGivenRowCol" />
       </list>
     </recent_temporary>
   </component>
