@@ -1,5 +1,7 @@
 package Trees.BinaryTreeTilt;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class BinaryTreeTilt {
@@ -32,20 +34,27 @@ public class BinaryTreeTilt {
     public static int findTilt(TreeNode root) {
         int tilt = 0;
 
-//        Stack<TreeNode> stack = new Stack<>();
-        traverseTree(root);
+        List<Integer> list = new ArrayList<>();
+        traverseTree(root, list);
+        for (int i : list)
+            tilt += i;
 
 
         return tilt;
     }
 
-    private static void traverseTree(TreeNode node) {
+    private static int traverseTree(TreeNode node, List<Integer> list) {
 
         if (node == null)
-            return;
+            return 0;
 
-        traverseTree(node.left);
-        traverseTree(node.right);
-        System.out.println("Node: " + node.val);
+        int left = traverseTree(node.left, list);
+        int right = traverseTree(node.right, list);
+
+        list.add(Math.abs(left - right));
+
+        System.out.println("Node: " + node.val  + "     list: " + list);
+
+        return node.val + left + right;
     }
 }
