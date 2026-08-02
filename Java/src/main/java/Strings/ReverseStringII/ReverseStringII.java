@@ -29,11 +29,14 @@ public class ReverseStringII {
 
         int i = 0;
         while (i < s.length()) {
-            int e = i==0 ? k*2 : i * 2 ;
-            System.out.println("index: " + i + "    end: " + e);
+            int e = i + k * 2;
 
             if (e > s.length())
                 e = s.length();
+
+            int diff = e - i;
+            System.out.println("index: " + i + "    end: " + e + "      diff: " + diff);
+
 
             String subStr = s.substring(i, e);
             System.out.println("subStr: " + subStr);
@@ -47,7 +50,7 @@ public class ReverseStringII {
             strBldr.append(reverseStr);
 
 
-            i = i==0 ? k*2 : i*2;
+            i = i + k * 2;
         }
 
         return strBldr.toString();
