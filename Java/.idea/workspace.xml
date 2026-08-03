@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strings/ShortestCompletingWord/ShortestCompletingWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strings/ShortestCompletingWord/ShortestCompletingWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000099289452897" />
-      <entry key="S2" value="1.0998218879303965" />
-      <entry key="S5" value="1.3978239451025116" />
-      <entry key="S10" value="1.6323406213150637" />
-      <entry key="S30" value="2.3593917172577266" />
-      <entry key="S60" value="4.62343162712992" />
-      <entry key="M2" value="10.72924142461141" />
-      <entry key="M5" value="29.801680598265573" />
-      <entry key="M10" value="63.52163921745104" />
-      <entry key="M15" value="96.8996863108067" />
-      <entry key="M30" value="186.50267509027952" />
-      <entry key="H1" value="342.732492995272" />
-      <entry key="H2" value="562.5536860745507" />
-      <entry key="H4" value="776.0473620093485" />
-      <entry key="D1" value="1059.459822121824" />
-      <entry key="W1" value="1122.078345225188" />
+      <entry key="MS100" value="1.8741306473149364" />
+      <entry key="MS500" value="2.5006364804478984" />
+      <entry key="S2" value="2.8468745956421593" />
+      <entry key="S5" value="2.9401896834389563" />
+      <entry key="S10" value="3.095506988257128" />
+      <entry key="S30" value="4.3107977174861185" />
+      <entry key="S60" value="5.479012232809474" />
+      <entry key="M2" value="6.481015126473768" />
+      <entry key="M5" value="7.336237782601572" />
+      <entry key="M10" value="8.89312883152251" />
+      <entry key="M15" value="14.556093333175708" />
+      <entry key="M30" value="58.67727674186679" />
+      <entry key="H1" value="192.61217539657005" />
+      <entry key="H2" value="435.62738455862626" />
+      <entry key="H4" value="713.196252350641" />
+      <entry key="D1" value="1131.446933215045" />
+      <entry key="W1" value="1230.4966770454237" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.6724792107038306E-73" />
-      <entry key="S2" value="8.096043369241303E-19" />
-      <entry key="S5" value="7.774549860872026E-8" />
-      <entry key="S10" value="4.644574823562223E-4" />
-      <entry key="S30" value="0.20452794409087585" />
-      <entry key="S60" value="1.3050512619051735" />
-      <entry key="M2" value="4.704286653086171" />
-      <entry key="M5" value="15.89079709719448" />
-      <entry key="M10" value="34.1887864639098" />
-      <entry key="M15" value="50.91249893672661" />
-      <entry key="M30" value="91.1480815951367" />
-      <entry key="H1" value="147.22131608400255" />
-      <entry key="H2" value="213.49181542604944" />
-      <entry key="H4" value="272.7268292456646" />
-      <entry key="D1" value="347.8951141301869" />
-      <entry key="W1" value="364.17084328697837" />
+      <entry key="MS100" value="1.0143039591973416E-21" />
+      <entry key="MS500" value="6.539448539979205E-5" />
+      <entry key="S2" value="0.12734298512827782" />
+      <entry key="S5" value="0.6510787587130797" />
+      <entry key="S10" value="1.1374413792683404" />
+      <entry key="S30" value="1.8058316309753155" />
+      <entry key="S60" value="2.489819946858652" />
+      <entry key="M2" value="3.3250765780075437" />
+      <entry key="M5" value="4.238708323973768" />
+      <entry key="M10" value="5.862965257840102" />
+      <entry key="M15" value="9.624054569023297" />
+      <entry key="M30" value="31.902214317851435" />
+      <entry key="H1" value="87.92180974422689" />
+      <entry key="H2" value="173.74748771372595" />
+      <entry key="H4" value="261.7922689969907" />
+      <entry key="D1" value="385.62284530005434" />
+      <entry key="W1" value="414.01162532201226" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.985410770054654E-4" />
-      <entry key="MS500" value="0.21860845881964683" />
-      <entry key="S2" value="0.7731047095461241" />
-      <entry key="S5" value="1.2395369861803238" />
-      <entry key="S10" value="1.545667638235205" />
-      <entry key="S30" value="2.520224389236674" />
-      <entry key="S60" value="5.880221612115109" />
-      <entry key="M2" value="15.370161104814901" />
-      <entry key="M5" value="45.606405314363315" />
-      <entry key="M10" value="97.6167042635173" />
-      <entry key="M15" value="147.7209542673275" />
-      <entry key="M30" value="277.5727317666647" />
-      <entry key="H1" value="489.88950459018224" />
-      <entry key="H2" value="775.9948976498306" />
-      <entry key="H4" value="1048.739460481672" />
-      <entry key="D1" value="1407.3469781609078" />
-      <entry key="W1" value="1486.2479817513204" />
+      <entry key="MS100" value="1.1422818669178196" />
+      <entry key="MS500" value="1.9653014610873365" />
+      <entry key="S2" value="2.683797481211105" />
+      <entry key="S5" value="3.354750469873" />
+      <entry key="S10" value="4.059820256960716" />
+      <entry key="S30" value="6.033425262775813" />
+      <entry key="S60" value="7.913883015225264" />
+      <entry key="M2" value="9.770326976172056" />
+      <entry key="M5" value="11.557050218616192" />
+      <entry key="M10" value="14.74381656544281" />
+      <entry key="M15" value="24.165236632648462" />
+      <entry key="M30" value="90.55029499085802" />
+      <entry key="H1" value="280.4919801048732" />
+      <entry key="H2" value="609.3311744213269" />
+      <entry key="H4" value="974.9538706931627" />
+      <entry key="D1" value="1517.0607538045792" />
+      <entry key="W1" value="1644.5069021237769" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -108,40 +109,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTreeTilt.executor": "Run",
-    "Application.FindValidMatrixGivenRowCol.executor": "Run",
-    "Application.FlipGame.executor": "Run",
-    "Application.IntegerToEnglishWords.executor": "Run",
-    "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
-    "Application.LongestUnCommonSubsequenceI.executor": "Run",
-    "Application.MergeIntervals.executor": "Run",
-    "Application.MinNumIncrSubArrFormTarget.executor": "Run",
-    "Application.NumDaysInMonth.executor": "Run",
-    "Application.ReverseStringII.executor": "Run",
-    "Application.ShortestCompletingWord.executor": "Run",
-    "Application.SortThePeople.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.ZigzagConversion.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTreeTilt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindValidMatrixGivenRowCol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlipGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerToEnglishWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestNumberAtLeastTwiceOthers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestUnCommonSubsequenceI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinNumIncrSubArrFormTarget.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumDaysInMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStringII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestCompletingWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortThePeople.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/timmerz/Projects/Practice/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LinkedList.MergeNodesInBetweenZeroes" />
