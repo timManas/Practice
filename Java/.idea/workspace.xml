@@ -37,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.977923539320718E-28" />
-      <entry key="MS500" value="2.8974007296757718E-6" />
-      <entry key="S2" value="0.060642072741474304" />
-      <entry key="S5" value="0.5948861635773688" />
-      <entry key="S10" value="1.408890399993523" />
-      <entry key="S30" value="3.693413041719762" />
-      <entry key="S60" value="7.907687170045651" />
-      <entry key="M2" value="18.15542667861591" />
-      <entry key="M5" value="37.06684805150246" />
-      <entry key="M10" value="48.71233737718261" />
-      <entry key="M15" value="53.84748409544221" />
-      <entry key="M30" value="66.83236470390898" />
-      <entry key="H1" value="126.80730867313112" />
-      <entry key="H2" value="314.6381179233142" />
-      <entry key="H4" value="615.7242130104062" />
-      <entry key="D1" value="1195.9819630334905" />
-      <entry key="W1" value="1351.8037056814333" />
+      <entry key="MS100" value="4.632307137590588E-115" />
+      <entry key="MS500" value="1.3588122999411045E-23" />
+      <entry key="S2" value="1.9291324699661442E-6" />
+      <entry key="S5" value="0.006394851282472206" />
+      <entry key="S10" value="0.14105239649189816" />
+      <entry key="S30" value="1.7211853569185787" />
+      <entry key="S60" value="4.708167410346343" />
+      <entry key="M2" value="11.617382154338713" />
+      <entry key="M5" value="40.17579633640179" />
+      <entry key="M10" value="82.26621130562238" />
+      <entry key="M15" value="108.71060766118256" />
+      <entry key="M30" value="151.39914270995737" />
+      <entry key="H1" value="224.74671678320433" />
+      <entry key="H2" value="414.5354053625999" />
+      <entry key="H4" value="719.7587194342996" />
+      <entry key="D1" value="1320.7933613471291" />
+      <entry key="W1" value="1484.3290599665024" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0016653025229842" />
-      <entry key="MS500" value="1.2786481003853298" />
-      <entry key="S2" value="1.98009550068747" />
-      <entry key="S5" value="3.0852807537342746" />
-      <entry key="S10" value="4.47578537991035" />
-      <entry key="S30" value="7.704603629691236" />
-      <entry key="S60" value="11.541073959329736" />
-      <entry key="M2" value="18.354478983816673" />
-      <entry key="M5" value="28.940302714742792" />
-      <entry key="M10" value="34.94507708013593" />
-      <entry key="M15" value="37.40444848641888" />
-      <entry key="M30" value="42.02903387217459" />
-      <entry key="H1" value="63.42217774857781" />
-      <entry key="H2" value="129.02218696842982" />
-      <entry key="H4" value="227.6392828419063" />
-      <entry key="D1" value="406.8854088760063" />
-      <entry key="W1" value="453.5953727951794" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000004336" />
+      <entry key="S2" value="1.0021340707254" />
+      <entry key="S5" value="1.1357586717141608" />
+      <entry key="S10" value="1.6300595477841133" />
+      <entry key="S30" value="3.194486497577864" />
+      <entry key="S60" value="4.809448036473493" />
+      <entry key="M2" value="7.92965854104987" />
+      <entry key="M5" value="17.67145502114683" />
+      <entry key="M10" value="31.209815364100674" />
+      <entry key="M15" value="39.80247984264914" />
+      <entry key="M30" value="53.51357464239673" />
+      <entry key="H1" value="78.70556801858098" />
+      <entry key="H2" value="144.5687350416745" />
+      <entry key="H4" value="244.67973631946478" />
+      <entry key="D1" value="430.9277616694845" />
+      <entry key="W1" value="480.1242060094534" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0071724727209854875" />
-      <entry key="MS500" value="0.49939910673518173" />
-      <entry key="S2" value="1.5968525253646721" />
-      <entry key="S5" value="3.279369374177326" />
-      <entry key="S10" value="5.529859299388952" />
-      <entry key="S30" value="11.165356728478304" />
-      <entry key="S60" value="19.26997019888987" />
-      <entry key="M2" value="36.36041642951817" />
-      <entry key="M5" value="65.90621045704691" />
-      <entry key="M10" value="83.59463954639742" />
-      <entry key="M15" value="91.20664816859161" />
-      <entry key="M30" value="108.83505528430045" />
-      <entry key="H1" value="190.2061835627895" />
-      <entry key="H2" value="443.6319009499856" />
-      <entry key="H4" value="843.3356706724231" />
-      <entry key="D1" value="1602.8582912111144" />
-      <entry key="W1" value="1805.397609108855" />
+      <entry key="MS100" value="0.04268875802357486" />
+      <entry key="MS500" value="0.5321850912281202" />
+      <entry key="S2" value="0.8556377902084884" />
+      <entry key="S5" value="1.0625190458788112" />
+      <entry key="S10" value="1.690913906600582" />
+      <entry key="S30" value="4.830573639920585" />
+      <entry key="S60" value="9.437747472881865" />
+      <entry key="M2" value="19.473705816216935" />
+      <entry key="M5" value="57.782126003254035" />
+      <entry key="M10" value="113.41905408602187" />
+      <entry key="M15" value="148.46463730435573" />
+      <entry key="M30" value="204.87961730777815" />
+      <entry key="H1" value="303.42498703583067" />
+      <entry key="H2" value="559.0741080990582" />
+      <entry key="H4" value="964.4097843139775" />
+      <entry key="D1" value="1751.7117674137828" />
+      <entry key="W1" value="1964.451749529705" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -112,6 +112,7 @@
   "keyToString": {
     "Application.BinaryTreeTilt.executor": "Run",
     "Application.CheckIfAllCharsHaveEqualOccur.executor": "Run",
+    "Application.FindDistanceBetweenTwoArrays.executor": "Run",
     "Application.FindValidMatrixGivenRowCol.executor": "Run",
     "Application.FlipGame.executor": "Run",
     "Application.IntegerToEnglishWords.executor": "Run",
@@ -161,7 +162,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckIfAllCharsHaveEqualOccur">
+  <component name="RunManager" selected="Application.FindDistanceBetweenTwoArrays">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -205,13 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestUnCommonSubsequenceI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LongestUnCommonSubsequenceI.LongestUnCommonSubsequenceI" />
+    <configuration name="FindDistanceBetweenTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Misc.FindDistanceBetweenTwoArrays.FindDistanceBetweenTwoArrays" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.LongestUnCommonSubsequenceI.*" />
+          <option name="PATTERN" value="Misc.FindDistanceBetweenTwoArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDistanceBetweenTwoArrays" />
         <item itemvalue="Application.CheckIfAllCharsHaveEqualOccur" />
         <item itemvalue="Application.ShortestCompletingWord" />
         <item itemvalue="Application.BinaryTreeTilt" />
         <item itemvalue="Application.ReverseStringII" />
-        <item itemvalue="Application.LongestUnCommonSubsequenceI" />
       </list>
     </recent_temporary>
   </component>
