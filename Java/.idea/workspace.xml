@@ -38,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000004578563935" />
-      <entry key="MS500" value="1.0690227572809785" />
-      <entry key="S2" value="2.0224296700024076" />
-      <entry key="S5" value="2.921919681110314" />
-      <entry key="S10" value="3.3950499667392267" />
-      <entry key="S30" value="3.781429745416444" />
-      <entry key="S60" value="3.8884386448850528" />
-      <entry key="M2" value="3.945161199937863" />
-      <entry key="M5" value="5.170814819174633" />
-      <entry key="M10" value="17.360130741269554" />
-      <entry key="M15" value="36.36979405314475" />
-      <entry key="M30" value="96.1634740500975" />
-      <entry key="H1" value="196.8624472539906" />
-      <entry key="H2" value="393.60616958643067" />
-      <entry key="H4" value="717.2997222580941" />
-      <entry key="D1" value="1422.1843715200073" />
-      <entry key="W1" value="1626.4526536422031" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.3472259626049523E-167" />
+      <entry key="S2" value="1.9158438574637526E-42" />
+      <entry key="S5" value="2.055625759546899E-17" />
+      <entry key="S10" value="4.534945821921101E-9" />
+      <entry key="S30" value="0.0019061476500058917" />
+      <entry key="S60" value="0.07375193547209453" />
+      <entry key="M2" value="0.6749492345773239" />
+      <entry key="M5" value="5.013739571196904" />
+      <entry key="M10" value="16.808003234450254" />
+      <entry key="M15" value="31.67075247005681" />
+      <entry key="M30" value="81.0496176948371" />
+      <entry key="H1" value="182.04830487107532" />
+      <entry key="H2" value="381.78446181893685" />
+      <entry key="H4" value="726.3005679281063" />
+      <entry key="D1" value="1579.718907592201" />
+      <entry key="W1" value="1848.6644990529244" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.577584535091557E-5" />
-      <entry key="MS500" value="0.1410227671820639" />
-      <entry key="S2" value="0.6128050111864559" />
-      <entry key="S5" value="0.822108092461588" />
-      <entry key="S10" value="0.9067017659967295" />
-      <entry key="S30" value="0.9678799362437251" />
-      <entry key="S60" value="0.983809388680522" />
-      <entry key="M2" value="0.9941697837263551" />
-      <entry key="M5" value="1.6187567132167147" />
-      <entry key="M10" value="5.95339283875099" />
-      <entry key="M15" value="11.90655089914663" />
-      <entry key="M30" value="30.210485519519914" />
-      <entry key="H1" value="62.420499688543906" />
-      <entry key="H2" value="128.74399579489267" />
-      <entry key="H4" value="235.2096855229364" />
-      <entry key="D1" value="456.2734516113613" />
-      <entry key="W1" value="518.6050713298539" />
+      <entry key="MS100" value="1.0094270154275409" />
+      <entry key="MS500" value="1.4855230487574769" />
+      <entry key="S2" value="2.3429128487739614" />
+      <entry key="S5" value="2.6987762459383156" />
+      <entry key="S10" value="2.842033864187722" />
+      <entry key="S30" value="2.9456095550263397" />
+      <entry key="S60" value="2.9729285004553887" />
+      <entry key="M2" value="3.0353549816485397" />
+      <entry key="M5" value="4.6684317804923605" />
+      <entry key="M10" value="12.292285634100272" />
+      <entry key="M15" value="23.03329242015877" />
+      <entry key="M30" value="53.86154639358172" />
+      <entry key="H1" value="99.58547985668756" />
+      <entry key="H2" value="173.3484907096264" />
+      <entry key="H4" value="290.4224233966974" />
+      <entry key="D1" value="563.7891865674771" />
+      <entry key="W1" value="647.43618522076" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.02164470100519064" />
-      <entry key="MS500" value="0.5805813510297694" />
-      <entry key="S2" value="2.2555508576591343" />
-      <entry key="S5" value="3.5325124345782943" />
-      <entry key="S10" value="4.181525846864071" />
-      <entry key="S30" value="4.705423284578058" />
-      <entry key="S60" value="4.849785315834161" />
-      <entry key="M2" value="4.927947939648752" />
-      <entry key="M5" value="6.782941749624238" />
-      <entry key="M10" value="23.302706277926497" />
-      <entry key="M15" value="48.262067611234706" />
-      <entry key="M30" value="126.35567156909836" />
-      <entry key="H1" value="259.2626305546708" />
-      <entry key="H2" value="522.325381510282" />
-      <entry key="H4" value="952.4834122914243" />
-      <entry key="D1" value="1878.4482856469235" />
-      <entry key="W1" value="2145.056142594019" />
+      <entry key="MS100" value="0.06032405586159934" />
+      <entry key="MS500" value="0.7887749766789537" />
+      <entry key="S2" value="1.8818628612476287" />
+      <entry key="S5" value="2.44822807644647" />
+      <entry key="S10" value="2.7019649050954615" />
+      <entry key="S30" value="2.897073498683949" />
+      <entry key="S60" value="3.020764651980824" />
+      <entry key="M2" value="3.6952680406458542" />
+      <entry key="M5" value="9.659772047460706" />
+      <entry key="M10" value="29.06517103665674" />
+      <entry key="M15" value="54.66393271439932" />
+      <entry key="M30" value="134.87080653446156" />
+      <entry key="H1" value="281.59926479637033" />
+      <entry key="H2" value="555.1019380187944" />
+      <entry key="H4" value="1016.6940611363581" />
+      <entry key="D1" value="2143.497242221229" />
+      <entry key="W1" value="2496.098853707071" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -116,6 +116,7 @@
     "Application.FindDistanceBetweenTwoArrays.executor": "Run",
     "Application.FindValidMatrixGivenRowCol.executor": "Run",
     "Application.FlipGame.executor": "Run",
+    "Application.FourSum.executor": "Run",
     "Application.IntegerToEnglishWords.executor": "Run",
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
     "Application.LongestUnCommonSubsequenceI.executor": "Run",
@@ -166,7 +167,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemovePalindromSubSeq">
+  <component name="RunManager" selected="Application.FourSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -178,20 +179,6 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTreeTilt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTreeTilt.BinaryTreeTilt" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.BinaryTreeTilt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,6 +204,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Misc.FindDistanceBetweenTwoArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.FourSum.FourSum" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.FourSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourSum" />
         <item itemvalue="Application.RemovePalindromSubSeq" />
         <item itemvalue="Application.FindDistanceBetweenTwoArrays" />
         <item itemvalue="Application.CheckIfAllCharsHaveEqualOccur" />
         <item itemvalue="Application.ShortestCompletingWord" />
-        <item itemvalue="Application.BinaryTreeTilt" />
       </list>
     </recent_temporary>
   </component>
@@ -2544,6 +2545,11 @@
           <line>50</line>
           <option name="timeStamp" value="1551" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lists/FourSum/FourSum.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1555" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="java-exception" />
@@ -2553,6 +2559,7 @@
       <configuration name="Application">
         <watch expression="current.get(i)" language="JAVA" />
         <watch expression="target.get(i)" language="JAVA" />
+        <watch expression="nums[k+1]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
