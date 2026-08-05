@@ -20,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -37,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.632307137590588E-115" />
-      <entry key="MS500" value="1.3588122999411045E-23" />
-      <entry key="S2" value="1.9291324699661442E-6" />
-      <entry key="S5" value="0.006394851282472206" />
-      <entry key="S10" value="0.14105239649189816" />
-      <entry key="S30" value="1.7211853569185787" />
-      <entry key="S60" value="4.708167410346343" />
-      <entry key="M2" value="11.617382154338713" />
-      <entry key="M5" value="40.17579633640179" />
-      <entry key="M10" value="82.26621130562238" />
-      <entry key="M15" value="108.71060766118256" />
-      <entry key="M30" value="151.39914270995737" />
-      <entry key="H1" value="224.74671678320433" />
-      <entry key="H2" value="414.5354053625999" />
-      <entry key="H4" value="719.7587194342996" />
-      <entry key="D1" value="1320.7933613471291" />
-      <entry key="W1" value="1484.3290599665024" />
+      <entry key="MS100" value="1.0000004578563935" />
+      <entry key="MS500" value="1.0690227572809785" />
+      <entry key="S2" value="2.0224296700024076" />
+      <entry key="S5" value="2.921919681110314" />
+      <entry key="S10" value="3.3950499667392267" />
+      <entry key="S30" value="3.781429745416444" />
+      <entry key="S60" value="3.8884386448850528" />
+      <entry key="M2" value="3.945161199937863" />
+      <entry key="M5" value="5.170814819174633" />
+      <entry key="M10" value="17.360130741269554" />
+      <entry key="M15" value="36.36979405314475" />
+      <entry key="M30" value="96.1634740500975" />
+      <entry key="H1" value="196.8624472539906" />
+      <entry key="H2" value="393.60616958643067" />
+      <entry key="H4" value="717.2997222580941" />
+      <entry key="D1" value="1422.1843715200073" />
+      <entry key="W1" value="1626.4526536422031" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000004336" />
-      <entry key="S2" value="1.0021340707254" />
-      <entry key="S5" value="1.1357586717141608" />
-      <entry key="S10" value="1.6300595477841133" />
-      <entry key="S30" value="3.194486497577864" />
-      <entry key="S60" value="4.809448036473493" />
-      <entry key="M2" value="7.92965854104987" />
-      <entry key="M5" value="17.67145502114683" />
-      <entry key="M10" value="31.209815364100674" />
-      <entry key="M15" value="39.80247984264914" />
-      <entry key="M30" value="53.51357464239673" />
-      <entry key="H1" value="78.70556801858098" />
-      <entry key="H2" value="144.5687350416745" />
-      <entry key="H4" value="244.67973631946478" />
-      <entry key="D1" value="430.9277616694845" />
-      <entry key="W1" value="480.1242060094534" />
+      <entry key="MS100" value="5.577584535091557E-5" />
+      <entry key="MS500" value="0.1410227671820639" />
+      <entry key="S2" value="0.6128050111864559" />
+      <entry key="S5" value="0.822108092461588" />
+      <entry key="S10" value="0.9067017659967295" />
+      <entry key="S30" value="0.9678799362437251" />
+      <entry key="S60" value="0.983809388680522" />
+      <entry key="M2" value="0.9941697837263551" />
+      <entry key="M5" value="1.6187567132167147" />
+      <entry key="M10" value="5.95339283875099" />
+      <entry key="M15" value="11.90655089914663" />
+      <entry key="M30" value="30.210485519519914" />
+      <entry key="H1" value="62.420499688543906" />
+      <entry key="H2" value="128.74399579489267" />
+      <entry key="H4" value="235.2096855229364" />
+      <entry key="D1" value="456.2734516113613" />
+      <entry key="W1" value="518.6050713298539" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.04268875802357486" />
-      <entry key="MS500" value="0.5321850912281202" />
-      <entry key="S2" value="0.8556377902084884" />
-      <entry key="S5" value="1.0625190458788112" />
-      <entry key="S10" value="1.690913906600582" />
-      <entry key="S30" value="4.830573639920585" />
-      <entry key="S60" value="9.437747472881865" />
-      <entry key="M2" value="19.473705816216935" />
-      <entry key="M5" value="57.782126003254035" />
-      <entry key="M10" value="113.41905408602187" />
-      <entry key="M15" value="148.46463730435573" />
-      <entry key="M30" value="204.87961730777815" />
-      <entry key="H1" value="303.42498703583067" />
-      <entry key="H2" value="559.0741080990582" />
-      <entry key="H4" value="964.4097843139775" />
-      <entry key="D1" value="1751.7117674137828" />
-      <entry key="W1" value="1964.451749529705" />
+      <entry key="MS100" value="0.02164470100519064" />
+      <entry key="MS500" value="0.5805813510297694" />
+      <entry key="S2" value="2.2555508576591343" />
+      <entry key="S5" value="3.5325124345782943" />
+      <entry key="S10" value="4.181525846864071" />
+      <entry key="S30" value="4.705423284578058" />
+      <entry key="S60" value="4.849785315834161" />
+      <entry key="M2" value="4.927947939648752" />
+      <entry key="M5" value="6.782941749624238" />
+      <entry key="M10" value="23.302706277926497" />
+      <entry key="M15" value="48.262067611234706" />
+      <entry key="M30" value="126.35567156909836" />
+      <entry key="H1" value="259.2626305546708" />
+      <entry key="H2" value="522.325381510282" />
+      <entry key="H4" value="952.4834122914243" />
+      <entry key="D1" value="1878.4482856469235" />
+      <entry key="W1" value="2145.056142594019" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -121,6 +122,7 @@
     "Application.MergeIntervals.executor": "Run",
     "Application.MinNumIncrSubArrFormTarget.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
+    "Application.RemovePalindromSubSeq.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.ShortestCompletingWord.executor": "Run",
     "Application.SortThePeople.executor": "Run",
@@ -136,8 +138,10 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -162,7 +166,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDistanceBetweenTwoArrays">
+  <component name="RunManager" selected="Application.RemovePalindromSubSeq">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -234,13 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseStringII.ReverseStringII" />
+    <configuration name="RemovePalindromSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.RemovePalindromSubSeq.RemovePalindromSubSeq" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.ReverseStringII.*" />
+          <option name="PATTERN" value="Strings.RemovePalindromSubSeq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemovePalindromSubSeq" />
         <item itemvalue="Application.FindDistanceBetweenTwoArrays" />
         <item itemvalue="Application.CheckIfAllCharsHaveEqualOccur" />
         <item itemvalue="Application.ShortestCompletingWord" />
         <item itemvalue="Application.BinaryTreeTilt" />
-        <item itemvalue="Application.ReverseStringII" />
       </list>
     </recent_temporary>
   </component>
