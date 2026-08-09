@@ -38,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.9940280347498234E-60" />
-      <entry key="MS500" value="1.1480115355080802E-12" />
-      <entry key="S2" value="0.001035110140036408" />
-      <entry key="S5" value="0.0639726918213035" />
-      <entry key="S10" value="0.2529285472389232" />
-      <entry key="S30" value="0.6784815021150017" />
-      <entry key="S60" value="1.84613971050328" />
-      <entry key="M2" value="6.706638408281389" />
-      <entry key="M5" value="29.04086905650851" />
-      <entry key="M10" value="75.13888733296781" />
-      <entry key="M15" value="120.93716217845993" />
-      <entry key="M30" value="238.38658519755563" />
-      <entry key="H1" value="414.1134233003364" />
-      <entry key="H2" value="678.685585581294" />
-      <entry key="H4" value="1085.6417900747842" />
-      <entry key="D1" value="2171.11584734579" />
-      <entry key="W1" value="2542.155718550132" />
+      <entry key="MS100" value="1.29405402595598" />
+      <entry key="MS500" value="4.317165072378364" />
+      <entry key="S2" value="10.426129313608822" />
+      <entry key="S5" value="13.740655359616582" />
+      <entry key="S10" value="15.23603429301067" />
+      <entry key="S30" value="16.378695489818774" />
+      <entry key="S60" value="16.686896372844384" />
+      <entry key="M2" value="16.95084021401322" />
+      <entry key="M5" value="18.880925018924785" />
+      <entry key="M10" value="26.192042358664935" />
+      <entry key="M15" value="39.66712744946607" />
+      <entry key="M30" value="109.77917925174329" />
+      <entry key="H1" value="283.6676912811433" />
+      <entry key="H2" value="587.9393316123343" />
+      <entry key="H4" value="1050.2400478470013" />
+      <entry key="D1" value="2310.003151020473" />
+      <entry key="W1" value="2756.809450435373" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001053881297088" />
-      <entry key="S2" value="1.1013206399856637" />
-      <entry key="S5" value="1.4002019217156771" />
-      <entry key="S10" value="1.6326152653759256" />
-      <entry key="S30" value="1.8707725865357983" />
-      <entry key="S60" value="2.1784269697382825" />
-      <entry key="M2" value="3.4428762961628103" />
-      <entry key="M5" value="10.599183023890728" />
-      <entry key="M10" value="24.451607764754456" />
-      <entry key="M15" value="37.501117077665945" />
-      <entry key="M30" value="72.00579623518207" />
-      <entry key="H1" value="130.31916288993256" />
-      <entry key="H2" value="224.65950459864197" />
-      <entry key="H4" value="367.0011578080107" />
-      <entry key="D1" value="725.7846979656608" />
-      <entry key="W1" value="844.4880175147289" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.2882809597827874E-102" />
+      <entry key="S5" value="3.306836899509417E-41" />
+      <entry key="S10" value="5.750510324753587E-21" />
+      <entry key="S30" value="1.79173380094597E-7" />
+      <entry key="S60" value="4.321275550573633E-4" />
+      <entry key="M2" value="0.028589294250305583" />
+      <entry key="M5" value="0.9161193841054761" />
+      <entry key="M10" value="5.545346091277287" />
+      <entry key="M15" value="12.816952284894626" />
+      <entry key="M30" value="40.639168386678755" />
+      <entry key="H1" value="100.004135890444" />
+      <entry key="H2" value="204.47766340617198" />
+      <entry key="H4" value="363.7213403169649" />
+      <entry key="D1" value="781.4144319792692" />
+      <entry key="W1" value="925.4017500865251" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.00445610826511103" />
-      <entry key="MS500" value="0.3386903804099623" />
-      <entry key="S2" value="0.8188765549683357" />
-      <entry key="S5" value="1.2746972577837588" />
-      <entry key="S10" value="1.7599518408605008" />
-      <entry key="S30" value="2.4957625824465053" />
-      <entry key="S60" value="3.98402063705018" />
-      <entry key="M2" value="10.101973565932148" />
-      <entry key="M5" value="39.576109756046904" />
-      <entry key="M10" value="99.5215379750879" />
-      <entry key="M15" value="158.3702297714436" />
-      <entry key="M30" value="310.32844685333816" />
-      <entry key="H1" value="544.3755705194224" />
-      <entry key="H2" value="903.2972204833195" />
-      <entry key="H4" value="1452.6034050351118" />
-      <entry key="D1" value="2896.8864864452457" />
-      <entry key="W1" value="3386.6413501125235" />
+      <entry key="MS100" value="1.1319558305463908" />
+      <entry key="MS500" value="4.253562591063306" />
+      <entry key="S2" value="10.389598089355983" />
+      <entry key="S5" value="13.721147555362073" />
+      <entry key="S10" value="15.225138789954956" />
+      <entry key="S30" value="16.374768357252353" />
+      <entry key="S60" value="16.68531108532245" />
+      <entry key="M2" value="16.97795094050518" />
+      <entry key="M5" value="19.79060947899764" />
+      <entry key="M10" value="31.719568181037857" />
+      <entry key="M15" value="52.45711961545587" />
+      <entry key="M30" value="150.37665030153255" />
+      <entry key="H1" value="383.62264727475434" />
+      <entry key="H2" value="792.3693285089546" />
+      <entry key="H4" value="1413.9198835602422" />
+      <entry key="D1" value="3091.4021228888832" />
+      <entry key="W1" value="3682.2085435350245" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -127,6 +127,7 @@
     "Application.MinNumPushTypeWord.executor": "Run",
     "Application.MinTimeTypeSpecTypeWriter.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
+    "Application.NumValidWordSentence.executor": "Run",
     "Application.RemovePalindromSubSeq.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.ShortestCompletingWord.executor": "Run",
@@ -171,7 +172,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinNumPushTypeWord">
+  <component name="RunManager" selected="Application.NumValidWordSentence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -194,20 +195,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.FindGreatestCommonDivisorArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FourSum.FourSum" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.FourSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,6 +258,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumValidWordSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.NumValidWordSentence.NumValidWordSentence" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.NumValidWordSentence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -295,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumValidWordSentence" />
         <item itemvalue="Application.MinNumPushTypeWord" />
         <item itemvalue="Application.MinCostBuyCandy" />
         <item itemvalue="Application.FindGreatestCommonDivisorArray" />
         <item itemvalue="Application.MinTimeTypeSpecTypeWriter" />
-        <item itemvalue="Application.FourSum" />
       </list>
     </recent_temporary>
   </component>
@@ -2553,6 +2554,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lists/FourSum/FourSum.java</url>
           <line>55</line>
           <option name="timeStamp" value="1555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Strings/NumValidWordSentence/NumValidWordSentence.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1557" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
