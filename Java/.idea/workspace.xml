@@ -15,6 +15,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="1064" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -36,63 +39,67 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="9.853990150870824E-18" />
-      <entry key="MS500" value="8.114680859979479E-4" />
-      <entry key="S2" value="0.3883670614475343" />
-      <entry key="S5" value="1.8961315605892468" />
-      <entry key="S10" value="4.751996699976126" />
-      <entry key="S30" value="14.256123243641014" />
-      <entry key="S60" value="29.601235901395135" />
-      <entry key="M2" value="64.52145114140735" />
-      <entry key="M5" value="143.5437813905222" />
-      <entry key="M10" value="209.08901948421502" />
-      <entry key="M15" value="244.69464620738844" />
-      <entry key="M30" value="321.0971049851184" />
-      <entry key="H1" value="480.5354065176482" />
-      <entry key="H2" value="781.7477490546723" />
-      <entry key="H4" value="1256.877152892036" />
-      <entry key="D1" value="2588.511878344717" />
-      <entry key="W1" value="3070.5392657000743" />
+      <entry key="MS100" value="1.000001465678388" />
+      <entry key="MS500" value="1.0682317466685711" />
+      <entry key="S2" value="1.616008528759592" />
+      <entry key="S5" value="2.1706940767181244" />
+      <entry key="S10" value="2.5252730298440977" />
+      <entry key="S30" value="3.409477424916986" />
+      <entry key="S60" value="5.178267103236437" />
+      <entry key="M2" value="10.620332374399696" />
+      <entry key="M5" value="41.013858364333245" />
+      <entry key="M10" value="119.59392533159166" />
+      <entry key="M15" value="194.97392338175646" />
+      <entry key="M30" value="357.06306059539355" />
+      <entry key="H1" value="580.1984554056816" />
+      <entry key="H2" value="923.5908521002924" />
+      <entry key="H4" value="1432.0360825959488" />
+      <entry key="D1" value="2838.6473838358575" />
+      <entry key="W1" value="3351.3270847433832" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000001336337" />
-      <entry key="S2" value="1.007651257577102" />
-      <entry key="S5" value="1.2302184741288684" />
-      <entry key="S10" value="1.9507346072893634" />
-      <entry key="S30" value="4.661338453992441" />
-      <entry key="S60" value="7.667374036255826" />
-      <entry key="M2" value="12.615516464749923" />
-      <entry key="M5" value="22.10151397316118" />
-      <entry key="M10" value="29.543621461197013" />
-      <entry key="M15" value="34.6490248037637" />
-      <entry key="M30" value="53.343947120954866" />
-      <entry key="H1" value="103.30731940611771" />
-      <entry key="H2" value="204.29964113711029" />
-      <entry key="H4" value="366.6558401247609" />
-      <entry key="D1" value="808.2920180385267" />
-      <entry key="W1" value="963.996881279208" />
+      <entry key="MS100" value="1.173018766148016E-275" />
+      <entry key="MS500" value="1.0336183140836273E-55" />
+      <entry key="S2" value="2.122629293516876E-14" />
+      <entry key="S5" value="4.7848320403455264E-6" />
+      <entry key="S10" value="0.003069448550098911" />
+      <entry key="S30" value="0.343933516301426" />
+      <entry key="S60" value="2.0771010068450075" />
+      <entry key="M2" value="7.0461372077594335" />
+      <entry key="M5" value="19.744137257766063" />
+      <entry key="M10" value="36.08534628347371" />
+      <entry key="M15" value="48.843309624641556" />
+      <entry key="M30" value="78.08529917474854" />
+      <entry key="H1" value="132.17469034891565" />
+      <entry key="H2" value="235.45431365295937" />
+      <entry key="H4" value="402.09986775704704" />
+      <entry key="D1" value="863.1903387650991" />
+      <entry key="W1" value="1028.106030456127" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.005920767837931249" />
-      <entry key="MS500" value="0.35910529221746607" />
-      <entry key="S2" value="1.1304670056646304" />
-      <entry key="S5" value="2.9104371587300437" />
-      <entry key="S10" value="6.470239905855951" />
-      <entry key="S30" value="18.704695481773534" />
-      <entry key="S60" value="37.093314815946684" />
-      <entry key="M2" value="76.99172267930257" />
-      <entry key="M5" value="165.54286587680687" />
-      <entry key="M10" value="238.5636603379662" />
-      <entry key="M15" value="279.2887121626949" />
-      <entry key="M30" value="374.3953867148781" />
-      <entry key="H1" value="583.795903263918" />
-      <entry key="H2" value="986.0013066256291" />
-      <entry key="H4" value="1623.4918366290522" />
-      <entry key="D1" value="3396.788051036092" />
-      <entry key="W1" value="4034.533401990669" />
+      <entry key="MS100" value="0.9012517653683382" />
+      <entry key="MS500" value="1.0460636569447168" />
+      <entry key="S2" value="1.6073860111595741" />
+      <entry key="S5" value="2.16613658740188" />
+      <entry key="S10" value="2.525039467167703" />
+      <entry key="S30" value="3.7404262929694134" />
+      <entry key="S60" value="7.222181251082607" />
+      <entry key="M2" value="17.60667394974136" />
+      <entry key="M5" value="60.678725258370186" />
+      <entry key="M10" value="155.59872915653168" />
+      <entry key="M15" value="243.74163686408605" />
+      <entry key="M30" value="435.08428880324874" />
+      <entry key="H1" value="712.3158162410837" />
+      <entry key="H2" value="1158.9932538976125" />
+      <entry key="H4" value="1834.091372464528" />
+      <entry key="D1" value="3701.820951164392" />
+      <entry key="W1" value="4379.430212211024" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -109,53 +116,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinaryTreeTilt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfAllCharsHaveEqualOccur.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindDistanceBetweenTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindGreatestCommonDivisorArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindTargetIndicesAfterSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindValidMatrixGivenRowCol.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlipGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerToEnglishWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestNumberAtLeastTwiceOthers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestUnCommonSubsequenceI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinCostBuyCandy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinNumIncrSubArrFormTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinNumPushTypeWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinTimeTypeSpecTypeWriter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumDaysInMonth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumValidWordSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemovePalindromSubSeq.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseStringII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestCompletingWord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestIndexWithEqualValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortThePeople.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZigzagConversion.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/timmerz/Projects/Practice/Java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTreeTilt.executor": "Run",
+    "Application.CheckIfAllCharsHaveEqualOccur.executor": "Run",
+    "Application.FindDistanceBetweenTwoArrays.executor": "Run",
+    "Application.FindFirstPalindromicStrArr.executor": "Run",
+    "Application.FindGreatestCommonDivisorArray.executor": "Run",
+    "Application.FindTargetIndicesAfterSort.executor": "Run",
+    "Application.FindValidMatrixGivenRowCol.executor": "Run",
+    "Application.FlipGame.executor": "Run",
+    "Application.FourSum.executor": "Run",
+    "Application.IntegerToEnglishWords.executor": "Run",
+    "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
+    "Application.LongestUnCommonSubsequenceI.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.MinCostBuyCandy.executor": "Run",
+    "Application.MinNumIncrSubArrFormTarget.executor": "Run",
+    "Application.MinNumPushTypeWord.executor": "Run",
+    "Application.MinTimeTypeSpecTypeWriter.executor": "Run",
+    "Application.NumDaysInMonth.executor": "Run",
+    "Application.NumValidWordSentence.executor": "Run",
+    "Application.RemovePalindromSubSeq.executor": "Run",
+    "Application.ReverseStringII.executor": "Run",
+    "Application.ShortestCompletingWord.executor": "Run",
+    "Application.SmallestIndexWithEqualValue.executor": "Run",
+    "Application.SortThePeople.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
+    "Application.TwoOfThree.executor": "Run",
+    "Application.ZigzagConversion.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LinkedList.MergeNodesInBetweenZeroes" />
@@ -174,7 +184,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindFirstPalindromicStrArr">
+  <component name="RunManager" selected="Application.TwoOfThree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -211,20 +221,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.FindTargetIndicesAfterSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinNumPushTypeWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Misc.MinNumPushTypeWord.MinNumPushTypeWord" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Misc.MinNumPushTypeWord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,6 +270,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.TwoOfThree.TwoOfThree" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.TwoOfThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -298,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoOfThree" />
         <item itemvalue="Application.FindFirstPalindromicStrArr" />
         <item itemvalue="Application.FindTargetIndicesAfterSort" />
         <item itemvalue="Application.SmallestIndexWithEqualValue" />
         <item itemvalue="Application.NumValidWordSentence" />
-        <item itemvalue="Application.MinNumPushTypeWord" />
       </list>
     </recent_temporary>
   </component>
