@@ -11,26 +11,68 @@ public class TwoOfThree {
     }
 
     public static List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {
-        Set<Integer> output = new TreeSet<>();
 
-        Set<Integer> set1 = new TreeSet<>();
-        for (int i : nums1) set1.add(i);
+        List<Integer> output = new ArrayList<>();
+        Set<Integer> set = new TreeSet<>();
 
-        Set<Integer> set2 = new TreeSet<>();
-        for (int i : nums2) set2.add(i);
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        Arrays.sort(nums3);
 
-        Set<Integer> set3 = new TreeSet<>();
-        for (int i : nums3) set3.add(i);
+        int [][] nums = {nums1, nums2, nums3};
+        Arrays.sort(nums, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return Integer.compare(o1.length, o2.length);
+            }
+        });
 
-        int max = Math.max(nums1.length, nums2.length);
-        max = Math.max(max, nums3.length);
+        int [] max = nums[2];
+        int [] mid = nums[1];
+        int [] min = nums[0];
 
-        for (int i=0; i<max; i++) {
+        maxLoop:
+        for (int i=0; i<max.length; i++) {
+            int maxCurrent = max[i];
 
+            for (int j=0; j<mid.length; j++) {
+                int midCurrent = mid[j];
+
+                if (maxCurrent == midCurrent) {
+                    set.add(maxCurrent);
+                    continue maxLoop;
+                }
+            }
+
+            for (int k=0; k<min.length; k++) {
+                int minCurrent = min[k];
+
+                if (maxCurrent == minCurrent) {
+                    set.add(maxCurrent);
+                    continue maxLoop;
+                }
+            }
+        }
+
+
+        for (int j=0; j<mid.length; j++) {
+            int midCurrent = mid[j];
+
+            for (int k=0; k<min.length; k++) {
+                int minCurrent = min[k];
+
+                if (midCurrent == minCurrent) {
+                    set.add(midCurrent);
+                    break;
+                }
+            }
         }
 
 
 
-        return new ArrayList<>(output);
+
+
+
+        return new ArrayList<>(set);
     }
 }
