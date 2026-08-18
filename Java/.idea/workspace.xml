@@ -16,7 +16,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1064" />
+    <option name="cachedIndexableFilesCount" value="1066" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000041140789" />
-      <entry key="S2" value="1.0100522404675936" />
-      <entry key="S5" value="1.270809763176974" />
-      <entry key="S10" value="1.8813970496216565" />
-      <entry key="S30" value="3.0486870459227187" />
-      <entry key="S60" value="4.01736101348288" />
-      <entry key="M2" value="6.288016718624626" />
-      <entry key="M5" value="20.625082851860952" />
-      <entry key="M10" value="58.01695162135794" />
-      <entry key="M15" value="103.83595108093046" />
-      <entry key="M30" value="261.4161197980735" />
-      <entry key="H1" value="560.4709847308953" />
-      <entry key="H2" value="1021.3590455635373" />
-      <entry key="H4" value="1656.3366140671915" />
-      <entry key="D1" value="3362.1297104390414" />
-      <entry key="W1" value="3996.594922143304" />
+      <entry key="MS100" value="1.3288743238625215E-5" />
+      <entry key="MS500" value="0.12787906967818105" />
+      <entry key="S2" value="0.9567974037534719" />
+      <entry key="S5" value="1.604682990568346" />
+      <entry key="S10" value="2.500182794040972" />
+      <entry key="S30" value="6.680455777397295" />
+      <entry key="S60" value="14.029615145238921" />
+      <entry key="M2" value="31.496066526226805" />
+      <entry key="M5" value="67.36809291006551" />
+      <entry key="M10" value="105.29329291500207" />
+      <entry key="M15" value="144.17881505909463" />
+      <entry key="M30" value="284.02506156174877" />
+      <entry key="H1" value="573.9726546838356" />
+      <entry key="H2" value="1042.510910057998" />
+      <entry key="H4" value="1695.4660602926579" />
+      <entry key="D1" value="3455.1580391219095" />
+      <entry key="W1" value="4112.835865509337" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.092771176338567E-19" />
-      <entry key="MS500" value="2.4492414907369554E-4" />
-      <entry key="S2" value="0.1964834066617277" />
-      <entry key="S5" value="0.9628389916689243" />
-      <entry key="S10" value="1.7275045008331946" />
-      <entry key="S30" value="2.8724157662381224" />
-      <entry key="S60" value="3.6573670222361567" />
-      <entry key="M2" value="5.174045958716827" />
-      <entry key="M5" value="13.473314507485593" />
-      <entry key="M10" value="29.221030706524417" />
-      <entry key="M15" value="43.893194203484256" />
-      <entry key="M30" value="83.56337472602819" />
-      <entry key="H1" value="151.86297447287632" />
-      <entry key="H2" value="269.123135185239" />
-      <entry key="H4" value="454.8876807979568" />
-      <entry key="D1" value="990.5050323283984" />
-      <entry key="W1" value="1190.7970210296705" />
+      <entry key="MS100" value="1.2473028640194309E-46" />
+      <entry key="MS500" value="7.660729756398755E-10" />
+      <entry key="S2" value="0.010633106751676396" />
+      <entry key="S5" value="0.4024123870449455" />
+      <entry key="S10" value="1.560204417982924" />
+      <entry key="S30" value="4.679530687681802" />
+      <entry key="S60" value="8.133460686008185" />
+      <entry key="M2" value="13.789806766547402" />
+      <entry key="M5" value="22.858136334762825" />
+      <entry key="M10" value="34.614922714215055" />
+      <entry key="M15" value="47.18949399545362" />
+      <entry key="M30" value="85.28430788210844" />
+      <entry key="H1" value="154.55600979835657" />
+      <entry key="H2" value="274.21055024424373" />
+      <entry key="H4" value="463.62352310320915" />
+      <entry key="D1" value="1013.3072708519902" />
+      <entry key="W1" value="1220.3853198495929" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.400170911820331E-12" />
-      <entry key="MS500" value="0.004828446973093915" />
-      <entry key="S2" value="0.41472395513756216" />
-      <entry key="S5" value="1.6624949652732064" />
-      <entry key="S10" value="3.197161744370797" />
-      <entry key="S30" value="5.722900300389795" />
-      <entry key="S60" value="7.559290010368249" />
-      <entry key="M2" value="11.391553829499225" />
-      <entry key="M5" value="34.03953734933975" />
-      <entry key="M10" value="87.17357507907278" />
-      <entry key="M15" value="147.66179783218558" />
-      <entry key="M30" value="344.91070673376146" />
-      <entry key="H1" value="712.2685061599824" />
-      <entry key="H2" value="1290.4229424739488" />
-      <entry key="H4" value="2111.173831344883" />
-      <entry key="D1" value="4352.615622367228" />
-      <entry key="W1" value="5187.388606377821" />
+      <entry key="MS100" value="1.0000008418744328" />
+      <entry key="MS500" value="1.070084461786577" />
+      <entry key="S2" value="1.8139349088237058" />
+      <entry key="S5" value="2.836308788157197" />
+      <entry key="S10" value="4.852733346545399" />
+      <entry key="S30" value="12.177957327641824" />
+      <entry key="S60" value="23.002327384015153" />
+      <entry key="M2" value="46.14345393793647" />
+      <entry key="M5" value="91.12757021109078" />
+      <entry key="M10" value="140.8321645168673" />
+      <entry key="M15" value="192.29760419976208" />
+      <entry key="M30" value="370.2415619310934" />
+      <entry key="H1" value="729.4638339948615" />
+      <entry key="H2" value="1317.6621395339675" />
+      <entry key="H4" value="2160.0386981947686" />
+      <entry key="D1" value="4469.445866131314" />
+      <entry key="W1" value="5334.217783717379" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -136,6 +136,7 @@
     "Application.MinNumIncrSubArrFormTarget.executor": "Run",
     "Application.MinNumPushTypeWord.executor": "Run",
     "Application.MinTimeTypeSpecTypeWriter.executor": "Run",
+    "Application.NumAfterDoubleReversal.executor": "Run",
     "Application.NumDaysInMonth.executor": "Run",
     "Application.NumValidWordSentence.executor": "Run",
     "Application.RemovePalindromSubSeq.executor": "Run",
@@ -185,7 +186,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KthDistinctStrArray">
+  <component name="RunManager" selected="Application.NumAfterDoubleReversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -257,13 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestIndexWithEqualValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.SmallestIndexWithEqualValue.SmallestIndexWithEqualValue" />
+    <configuration name="NumAfterDoubleReversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.NumAfterDoubleReversal.NumAfterDoubleReversal" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.SmallestIndexWithEqualValue.*" />
+          <option name="PATTERN" value="Strings.NumAfterDoubleReversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumAfterDoubleReversal" />
         <item itemvalue="Application.KthDistinctStrArray" />
         <item itemvalue="Application.TwoOfThree" />
         <item itemvalue="Application.FindFirstPalindromicStrArr" />
         <item itemvalue="Application.FindTargetIndicesAfterSort" />
-        <item itemvalue="Application.SmallestIndexWithEqualValue" />
       </list>
     </recent_temporary>
   </component>
