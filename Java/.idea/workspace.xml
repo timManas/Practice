@@ -16,7 +16,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1068" />
+    <option name="cachedIndexableFilesCount" value="1070" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.824194607235357E-27" />
-      <entry key="MS500" value="5.663008005634493E-6" />
-      <entry key="S2" value="0.04878226044960878" />
-      <entry key="S5" value="0.2994761675471966" />
-      <entry key="S10" value="0.574871849069956" />
-      <entry key="S30" value="1.2525525760239855" />
-      <entry key="S60" value="2.555992001701645" />
-      <entry key="M2" value="9.354933078617726" />
-      <entry key="M5" value="50.31596344730724" />
-      <entry key="M10" value="115.55497835714534" />
-      <entry key="M15" value="169.6383469242037" />
-      <entry key="M30" value="323.6120581429931" />
-      <entry key="H1" value="620.8569314797453" />
-      <entry key="H2" value="1101.563491577037" />
-      <entry key="H4" value="1771.4853638166633" />
-      <entry key="D1" value="3575.76614460567" />
-      <entry key="W1" value="4252.036648134275" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000005078998189" />
+      <entry key="S10" value="1.0016486115203032" />
+      <entry key="S30" value="1.6479678568737035" />
+      <entry key="S60" value="5.139132573114958" />
+      <entry key="M2" value="14.908769390350315" />
+      <entry key="M5" value="53.8901113456825" />
+      <entry key="M10" value="126.62912241685639" />
+      <entry key="M15" value="192.09093922016618" />
+      <entry key="M30" value="364.77726282016954" />
+      <entry key="H1" value="675.8820758110105" />
+      <entry key="H2" value="1174.2213678045337" />
+      <entry key="H4" value="1866.31650992884" />
+      <entry key="D1" value="3726.2309823599676" />
+      <entry key="W1" value="4425.3698367105335" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000618887634365" />
-      <entry key="MS500" value="1.1613711134278077" />
-      <entry key="S2" value="1.9791144310998525" />
-      <entry key="S5" value="2.490662362854424" />
-      <entry key="S10" value="2.7300955350894376" />
-      <entry key="S30" value="3.475349621452608" />
-      <entry key="S60" value="5.344957274441615" />
-      <entry key="M2" value="9.906736685258828" />
-      <entry key="M5" value="23.418041056976232" />
-      <entry key="M10" value="41.05520140239899" />
-      <entry key="M15" value="56.20063143263958" />
-      <entry key="M30" value="97.38686693230518" />
-      <entry key="H1" value="169.44840054423747" />
-      <entry key="H2" value="292.0073895663277" />
-      <entry key="H4" value="484.79905323795856" />
-      <entry key="D1" value="1045.8373829280474" />
-      <entry key="W1" value="1258.2722427279814" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.430056011944957E-70" />
+      <entry key="S2" value="5.009365802417929E-18" />
+      <entry key="S5" value="1.6668917107554838E-7" />
+      <entry key="S10" value="6.62091654593747E-4" />
+      <entry key="S30" value="0.20655821118247308" />
+      <entry key="S60" value="1.1101363112601812" />
+      <entry key="M2" value="3.4975718626164327" />
+      <entry key="M5" value="12.786909726136306" />
+      <entry key="M10" value="30.42345299698424" />
+      <entry key="M15" value="47.11385158982366" />
+      <entry key="M30" value="91.83716258396471" />
+      <entry key="H1" value="167.88727848716894" />
+      <entry key="H2" value="294.56292596643715" />
+      <entry key="H4" value="491.8425914981426" />
+      <entry key="D1" value="1066.9381775640063" />
+      <entry key="W1" value="1285.913799930332" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01260378893845813" />
-      <entry key="MS500" value="0.442841660879622" />
-      <entry key="S2" value="1.3234138154942665" />
-      <entry key="S5" value="2.2344267614803424" />
-      <entry key="S10" value="2.933619344011071" />
-      <entry key="S30" value="4.565277203614525" />
-      <entry key="S60" value="7.79038292984768" />
-      <entry key="M2" value="19.155432868377748" />
-      <entry key="M5" value="73.62099801138517" />
-      <entry key="M10" value="156.5088727450681" />
-      <entry key="M15" value="225.74643019568944" />
-      <entry key="M30" value="420.9177594833491" />
-      <entry key="H1" value="790.2329052470693" />
-      <entry key="H2" value="1393.507220757498" />
-      <entry key="H4" value="2256.2310091701256" />
-      <entry key="D1" value="4621.583459273015" />
-      <entry key="W1" value="5510.305385347133" />
+      <entry key="MS100" value="0.8526348917679567" />
+      <entry key="MS500" value="0.9686181892266277" />
+      <entry key="S2" value="0.9920604931322485" />
+      <entry key="S5" value="0.9968172515388941" />
+      <entry key="S10" value="1.0006713019644213" />
+      <entry key="S30" value="1.8469257137081716" />
+      <entry key="S60" value="6.224062629119354" />
+      <entry key="M2" value="18.362039520101867" />
+      <entry key="M5" value="66.61238709564074" />
+      <entry key="M10" value="156.97639494521724" />
+      <entry key="M15" value="239.12645629477086" />
+      <entry key="M30" value="456.5377244178217" />
+      <entry key="H1" value="843.6977992349006" />
+      <entry key="H2" value="1468.7203049655834" />
+      <entry key="H4" value="2358.1050683289254" />
+      <entry key="D1" value="4793.148736420097" />
+      <entry key="W1" value="5711.2800625347445" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -120,6 +120,7 @@
   "keyToString": {
     "Application.BinaryTreeTilt.executor": "Run",
     "Application.CheckIfAllCharsHaveEqualOccur.executor": "Run",
+    "Application.CountElements.executor": "Run",
     "Application.FindDistanceBetweenTwoArrays.executor": "Run",
     "Application.FindFirstPalindromicStrArr.executor": "Run",
     "Application.FindGreatestCommonDivisorArray.executor": "Run",
@@ -187,7 +188,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinSubSeqNonDecrOrder">
+  <component name="RunManager" selected="Application.CountElements">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -203,13 +204,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstPalindromicStrArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.FindFirstPalindromicStrArr.FindFirstPalindromicStrArr" />
+    <configuration name="CountElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.CountElemStrictSmallLarger.CountElements" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.FindFirstPalindromicStrArr.*" />
+          <option name="PATTERN" value="Strings.CountElemStrictSmallLarger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.MinSubSeqNonDecrOrder" />
         <item itemvalue="Application.NumAfterDoubleReversal" />
         <item itemvalue="Application.KthDistinctStrArray" />
         <item itemvalue="Application.TwoOfThree" />
-        <item itemvalue="Application.FindFirstPalindromicStrArr" />
       </list>
     </recent_temporary>
   </component>
