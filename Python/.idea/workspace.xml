@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/DiffWays2AddParanthesis/DiffWays2AddParanthesis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/DiffWays2AddParanthesis/DiffWays2AddParanthesis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Strings/DiffWays2AddParanthesis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater/CountElementsStrictlySmallerGreater" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater/CountElementsStrictlySmallerGreater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,174 +113,6 @@
     <SUITE FILE_PATH="coverage/Python$RemoveOuterMostParanthesis.coverage" NAME="RemoveOuterMostParanthesis Coverage Results" MODIFIED="1597097760973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveOuterMostParanthesis" />
     <SUITE FILE_PATH="coverage/Python$RemoveAllAdjacentDuplicatesInString.coverage" NAME="RemoveAllAdjacentDuplicatesInString Coverage Results" MODIFIED="1600735743015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Strings/RemoveAllAdjacentDuplicatesInString" />
     <SUITE FILE_PATH="coverage/Python$ProductOfArrayExceptSelf.coverage" NAME="ProductOfArrayExceptSelf Coverage Results" MODIFIED="1604963524971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="588843123">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="107" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="10" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="6" />
-          <entry key="project.open.time.13" value="6" />
-          <entry key="project.open.time.14" value="6" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="4" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="4" />
-          <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="9" />
-          <entry key="project.open.time.8" value="13" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="109" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="3Sum" value="1" />
-          <entry key="ArmStrongNumber" value="1" />
-          <entry key="AvailableCapturesForRook" value="1" />
-          <entry key="AvgSalaryExclMinAndMaxSalary" value="1" />
-          <entry key="CheckIfWordIsPrefixInAnyWordInSentence" value="1" />
-          <entry key="ConsecutiveNumberSum" value="1" />
-          <entry key="ConvertBinaryNodeToInt" value="1" />
-          <entry key="CountNegativeNumInMatrix" value="1" />
-          <entry key="CreateTargetArrayInGivenOrder" value="1" />
-          <entry key="DIStringMatch" value="1" />
-          <entry key="DecompressRunLengthEncodedList" value="1" />
-          <entry key="Decrypt String from Alphabet to Integer Mapping" value="1" />
-          <entry key="DesignHitCounter" value="1" />
-          <entry key="DestinationCity" value="1" />
-          <entry key="DiffWays2AddParanthesis" value="1" />
-          <entry key="DifferentWaysToAddParantheses" value="1" />
-          <entry key="FibonacciNum" value="1" />
-          <entry key="FindAnagrams" value="1" />
-          <entry key="FindCommonCharacters" value="1" />
-          <entry key="FindDuplicateNumber" value="1" />
-          <entry key="FindNUniqueIntegersSumToZero" value="1" />
-          <entry key="FindNumbersWithEvenDigits" value="1" />
-          <entry key="FindPivotIndex" value="1" />
-          <entry key="FindWordsThatCanBeFormedByChar" value="1" />
-          <entry key="FixedPoint" value="1" />
-          <entry key="FlippingAnImage" value="1" />
-          <entry key="GenerateStringWithCharactersThatHaveOddCounts" value="1" />
-          <entry key="GoatLatin" value="1" />
-          <entry key="GroupAnagrams" value="1" />
-          <entry key="GroupsOfSpecialEquivalentStrings" value="1" />
-          <entry key="HighFive" value="1" />
-          <entry key="HowManyApplesInBskt" value="1" />
-          <entry key="HowManyNumbersAreSmallerThanCurrent" value="1" />
-          <entry key="InOrderSuccessor" value="1" />
-          <entry key="IntersectionOfThreeArrays" value="1" />
-          <entry key="InvertBinaryTree" value="1" />
-          <entry key="IslandPerimeter" value="2" />
-          <entry key="JewelsAndStones" value="1" />
-          <entry key="KWeakestRowsInMatrix" value="1" />
-          <entry key="KeyboardRow" value="1" />
-          <entry key="KidWithGreatestNumCandies" value="1" />
-          <entry key="KnightDialer" value="1" />
-          <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
-          <entry key="LongestStringChain" value="1" />
-          <entry key="MaxDepthNaryTree" value="1" />
-          <entry key="MaxDepthOfBinaryTree" value="1" />
-          <entry key="MaxLengthOfRepeatedSubArray" value="2" />
-          <entry key="MaxSubArray" value="1" />
-          <entry key="Maximum69Number" value="1" />
-          <entry key="MaximumProductOfTwoElements" value="1" />
-          <entry key="MergeTwoBinaryTrees" value="1" />
-          <entry key="MiddleOfLinkedList" value="2" />
-          <entry key="MinimumAbsoluteDifference" value="1" />
-          <entry key="N-RepeatedElements" value="1" />
-          <entry key="NaryPostOrderTraversal" value="1" />
-          <entry key="NaryPreOrderTraversal" value="1" />
-          <entry key="NestedListWeightSum" value="1" />
-          <entry key="NumStudentsDoingHomework" value="1" />
-          <entry key="NumberOfIslands" value="1" />
-          <entry key="NumberStepsReduceNumToZero" value="1" />
-          <entry key="PalindromicSubString" value="1" />
-          <entry key="ProductOfArrayExceptSelf" value="1" />
-          <entry key="RangeSumBST" value="1" />
-          <entry key="RelativeSortArray" value="1" />
-          <entry key="RemoveAllAdjacentDuplicatesInString" value="1" />
-          <entry key="RemoveOuterMostParanthesis" value="1" />
-          <entry key="RemoveOuterParanthesis" value="1" />
-          <entry key="RemoveVowelsFromString" value="1" />
-          <entry key="ReplaceElementsWithGreatestElement" value="1" />
-          <entry key="ReverseAnImage" value="1" />
-          <entry key="ReverseLinkedListII" value="1" />
-          <entry key="ReverseWordsInStringIII" value="1" />
-          <entry key="RobotRetrunToOrigin" value="1" />
-          <entry key="RunningSum1dArray" value="1" />
-          <entry key="Search2DMatrixII" value="1" />
-          <entry key="SearchInBST" value="1" />
-          <entry key="SelfDividingNumbers" value="1" />
-          <entry key="ShortestDistanceToCharacter" value="1" />
-          <entry key="ShuffleString" value="1" />
-          <entry key="ShuffleTheArray" value="1" />
-          <entry key="SingleNumber" value="1" />
-          <entry key="SingleRowKeyboard" value="1" />
-          <entry key="SlidingWindowMaximum" value="1" />
-          <entry key="Solution" value="2" />
-          <entry key="SortArrayByParity" value="2" />
-          <entry key="SortArrayByParityII" value="1" />
-          <entry key="SplitStringInBalancedString" value="1" />
-          <entry key="SquaresOfSortedArray" value="1" />
-          <entry key="SubtractProductAndSumInteger" value="1" />
-          <entry key="SumOfDigitsMinNumber" value="1" />
-          <entry key="SumRoot2LeafBinaryNumbers" value="1" />
-          <entry key="ThreeConsecutiveOdds" value="1" />
-          <entry key="ToLowerCase" value="1" />
-          <entry key="ToeplitzMatrix" value="1" />
-          <entry key="UniqueEmailAddress" value="1" />
-          <entry key="UniqueMorseCodeWords" value="1" />
-          <entry key="UniqueNumOccurences" value="1" />
-          <entry key="UnivalueBinaryTree" value="1" />
-          <entry key="ValidateBinarySearchTree" value="1" />
-          <entry key="py" value="159" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="104" />
-          <entry key="Python" value="159" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="DiffWays2AddParanthesis" value="1" />
-          <entry key="HighFive" value="1" />
-          <entry key="LeastNumUniqueIntegersAfterKRemovals" value="1" />
-          <entry key="ShuffleString" value="1" />
-          <entry key="SplitStringInBalancedString" value="4" />
-          <entry key="UniqueEmailAddress" value="1" />
-          <entry key="py" value="104592" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="104592" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -382,13 +219,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1281" />
     <option name="y" value="23" />
     <option name="width" value="1252" />
     <option name="height" value="721" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="3ICR6zIW5ql4fGmwmN96v3zUTyL" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -436,12 +277,23 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CountElementsStrictlySmallerGreater.executor": "Run",
+    "Python.CreateTargetArrayInGivenOrder.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Python",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/src/Lists" />
@@ -456,33 +308,45 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.GroupAnagrams">
-    <configuration name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CountElementsStrictlySmallerGreater">
+    <configuration name="CountElementsStrictlySmallerGreater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/3Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/3Sum/3Sum.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater/CountElementsStrictlySmallerGreater.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateTargetArrayInGivenOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/CreateTargetArrayInGivenOrder/CreateTargetArrayInGivenOrder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -493,6 +357,7 @@
     </configuration>
     <configuration name="GroupAnagrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -504,6 +369,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/GroupAnagrams/GroupAnagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -515,6 +381,7 @@
     </configuration>
     <configuration name="MaxLengthOfRepeatedSubArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -526,6 +393,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/MaxLengthOfRepeatedSubArray/MaxLengthOfRepeatedSubArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -537,6 +405,7 @@
     </configuration>
     <configuration name="MaxSubArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -548,6 +417,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/MaxSubArray/MaxSubArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -557,44 +427,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Search2DMatrixII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/Search2DMatrixII/Search2DMatrixII.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Search2DMatrixII" />
-      <item itemvalue="Python.3Sum" />
+      <item itemvalue="Python.CountElementsStrictlySmallerGreater" />
+      <item itemvalue="Python.CreateTargetArrayInGivenOrder" />
       <item itemvalue="Python.MaxSubArray" />
       <item itemvalue="Python.MaxLengthOfRepeatedSubArray" />
       <item itemvalue="Python.GroupAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CountElementsStrictlySmallerGreater" />
+        <item itemvalue="Python.CreateTargetArrayInGivenOrder" />
         <item itemvalue="Python.GroupAnagrams" />
         <item itemvalue="Python.MaxLengthOfRepeatedSubArray" />
         <item itemvalue="Python.MaxSubArray" />
-        <item itemvalue="Python.3Sum" />
-        <item itemvalue="Python.Search2DMatrixII" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SvnConfiguration">
     <configuration />
