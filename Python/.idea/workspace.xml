@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/KeepMultiFoundValuesByTwo/KeepMultiFoundValuesByTwo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/KeepMultiFoundValuesByTwo/KeepMultiFoundValuesByTwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Lists/KeepMultiFoundValuesByTwo/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>

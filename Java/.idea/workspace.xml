@@ -17,7 +17,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1072" />
+    <option name="cachedIndexableFilesCount" value="1074" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.976266644217283E-17" />
-      <entry key="MS500" value="4.562145249847082E-4" />
-      <entry key="S2" value="0.14711373376489673" />
-      <entry key="S5" value="0.6355307990014726" />
-      <entry key="S10" value="1.8095921242312487" />
-      <entry key="S30" value="5.35912627782294" />
-      <entry key="S60" value="10.608546721822298" />
-      <entry key="M2" value="25.598929862740267" />
-      <entry key="M5" value="69.93014991395842" />
-      <entry key="M10" value="141.20053280728635" />
-      <entry key="M15" value="208.0360820606055" />
-      <entry key="M30" value="386.6419817065598" />
-      <entry key="H1" value="704.5080534696301" />
-      <entry key="H2" value="1212.8585173424933" />
-      <entry key="H4" value="1918.1165690407067" />
-      <entry key="D1" value="3811.573189820903" />
-      <entry key="W1" value="4524.5445234753615" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0001550162676245" />
+      <entry key="S5" value="1.0656276287900388" />
+      <entry key="S10" value="1.5379086895624905" />
+      <entry key="S30" value="4.550179799408543" />
+      <entry key="S60" value="11.702385327004665" />
+      <entry key="M2" value="33.157004606278555" />
+      <entry key="M5" value="96.50226631442217" />
+      <entry key="M10" value="182.04469977732225" />
+      <entry key="M15" value="256.3680559048917" />
+      <entry key="M30" value="447.2092303165005" />
+      <entry key="H1" value="775.3361168639997" />
+      <entry key="H2" value="1294.814852027443" />
+      <entry key="H4" value="2012.8474569552752" />
+      <entry key="D1" value="3936.7645145220013" />
+      <entry key="W1" value="4662.038021405834" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000000041" />
-      <entry key="S2" value="1.0004516345540868" />
-      <entry key="S5" value="1.0540851409492764" />
-      <entry key="S10" value="1.370766989600872" />
-      <entry key="S30" value="2.8100742060020965" />
-      <entry key="S60" value="4.63946533388252" />
-      <entry key="M2" value="8.07057845387845" />
-      <entry key="M5" value="16.419548651354496" />
-      <entry key="M10" value="31.615536013865835" />
-      <entry key="M15" value="47.401160398540945" />
-      <entry key="M30" value="92.01985503355262" />
-      <entry key="H1" value="169.34819535496388" />
-      <entry key="H2" value="298.02457665513344" />
-      <entry key="H4" value="497.81057314601736" />
-      <entry key="D1" value="1081.2069531956051" />
-      <entry key="W1" value="1304.0984641159525" />
+      <entry key="MS100" value="1.1842320600933475E-251" />
+      <entry key="MS500" value="6.526605503944892E-51" />
+      <entry key="S2" value="2.8451996404091536E-13" />
+      <entry key="S5" value="1.0774861449473206E-5" />
+      <entry key="S10" value="0.005230657608260817" />
+      <entry key="S30" value="0.5880087329364542" />
+      <entry key="S60" value="2.6634457383433516" />
+      <entry key="M2" value="7.084740031663359" />
+      <entry key="M5" value="17.661531397211437" />
+      <entry key="M10" value="33.43401356005458" />
+      <entry key="M15" value="49.22471565522446" />
+      <entry key="M30" value="94.2637311568381" />
+      <entry key="H1" value="172.85407610035645" />
+      <entry key="H2" value="303.3601874221702" />
+      <entry key="H4" value="505.3908269821515" />
+      <entry key="D1" value="1096.0694649099241" />
+      <entry key="W1" value="1322.385276791212" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.047695600280017465" />
-      <entry key="MS500" value="0.5444311014229265" />
-      <entry key="S2" value="0.9928056146317439" />
-      <entry key="S5" value="1.603991676105259" />
-      <entry key="S10" value="3.105263584021497" />
-      <entry key="S30" value="8.099975544274676" />
-      <entry key="S60" value="15.173807723917172" />
-      <entry key="M2" value="33.58941862377491" />
-      <entry key="M5" value="86.27437721677539" />
-      <entry key="M10" value="172.73988841242831" />
-      <entry key="M15" value="255.36014280702128" />
-      <entry key="M30" value="478.5858064246719" />
-      <entry key="H1" value="873.7846136807764" />
-      <entry key="H2" value="1510.8186957652524" />
-      <entry key="H4" value="2415.8726469615176" />
-      <entry key="D1" value="4892.759494284184" />
-      <entry key="W1" value="5828.639370637114" />
+      <entry key="MS100" value="0.8766057213160351" />
+      <entry key="MS500" value="0.974004268543241" />
+      <entry key="S2" value="0.9935910184152582" />
+      <entry key="S5" value="1.062894139037164" />
+      <entry key="S10" value="1.5410691488204944" />
+      <entry key="S30" value="5.119696658978096" />
+      <entry key="S60" value="14.321184362302036" />
+      <entry key="M2" value="40.17824055073766" />
+      <entry key="M5" value="114.09299819226527" />
+      <entry key="M10" value="215.4056390212636" />
+      <entry key="M15" value="305.5182481275365" />
+      <entry key="M30" value="541.3982005249597" />
+      <entry key="H1" value="948.1188527364666" />
+      <entry key="H2" value="1598.1104732619297" />
+      <entry key="H4" value="2518.1834813440582" />
+      <entry key="D1" value="5032.81315057429" />
+      <entry key="W1" value="5984.4196462148975" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -122,6 +122,7 @@
     "Application.BinaryTreeTilt.executor": "Run",
     "Application.CheckIfAllCharsHaveEqualOccur.executor": "Run",
     "Application.CountElements.executor": "Run",
+    "Application.CountEqualDivisiblePairsArr.executor": "Run",
     "Application.FindDistanceBetweenTwoArrays.executor": "Run",
     "Application.FindFirstPalindromicStrArr.executor": "Run",
     "Application.FindGreatestCommonDivisorArray.executor": "Run",
@@ -190,7 +191,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KeepMultiFoundValuesByTwo">
+  <component name="RunManager" selected="Application.CountEqualDivisiblePairsArr">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -220,13 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeepMultiFoundValuesByTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.KeepMultiFoundValuesByTwo.KeepMultiFoundValuesByTwo" />
+    <configuration name="CountEqualDivisiblePairsArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CountEqualDivisiblePairsArr.CountEqualDivisiblePairsArr" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.KeepMultiFoundValuesByTwo.*" />
+          <option name="PATTERN" value="Lists.CountEqualDivisiblePairsArr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,13 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthDistinctStrArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.KthDistinctStrArray.KthDistinctStrArray" />
+    <configuration name="KeepMultiFoundValuesByTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.KeepMultiFoundValuesByTwo.KeepMultiFoundValuesByTwo" />
       <module name="PracticeJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.KthDistinctStrArray.*" />
+          <option name="PATTERN" value="Lists.KeepMultiFoundValuesByTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountEqualDivisiblePairsArr" />
         <item itemvalue="Application.KeepMultiFoundValuesByTwo" />
         <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.MinSubSeqNonDecrOrder" />
         <item itemvalue="Application.NumAfterDoubleReversal" />
-        <item itemvalue="Application.KthDistinctStrArray" />
       </list>
     </recent_temporary>
   </component>
