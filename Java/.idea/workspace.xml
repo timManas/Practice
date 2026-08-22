@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +17,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1070" />
+    <option name="cachedIndexableFilesCount" value="1072" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000005078998189" />
-      <entry key="S10" value="1.0016486115203032" />
-      <entry key="S30" value="1.6479678568737035" />
-      <entry key="S60" value="5.139132573114958" />
-      <entry key="M2" value="14.908769390350315" />
-      <entry key="M5" value="53.8901113456825" />
-      <entry key="M10" value="126.62912241685639" />
-      <entry key="M15" value="192.09093922016618" />
-      <entry key="M30" value="364.77726282016954" />
-      <entry key="H1" value="675.8820758110105" />
-      <entry key="H2" value="1174.2213678045337" />
-      <entry key="H4" value="1866.31650992884" />
-      <entry key="D1" value="3726.2309823599676" />
-      <entry key="W1" value="4425.3698367105335" />
+      <entry key="MS100" value="1.976266644217283E-17" />
+      <entry key="MS500" value="4.562145249847082E-4" />
+      <entry key="S2" value="0.14711373376489673" />
+      <entry key="S5" value="0.6355307990014726" />
+      <entry key="S10" value="1.8095921242312487" />
+      <entry key="S30" value="5.35912627782294" />
+      <entry key="S60" value="10.608546721822298" />
+      <entry key="M2" value="25.598929862740267" />
+      <entry key="M5" value="69.93014991395842" />
+      <entry key="M10" value="141.20053280728635" />
+      <entry key="M15" value="208.0360820606055" />
+      <entry key="M30" value="386.6419817065598" />
+      <entry key="H1" value="704.5080534696301" />
+      <entry key="H2" value="1212.8585173424933" />
+      <entry key="H4" value="1918.1165690407067" />
+      <entry key="D1" value="3811.573189820903" />
+      <entry key="W1" value="4524.5445234753615" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.430056011944957E-70" />
-      <entry key="S2" value="5.009365802417929E-18" />
-      <entry key="S5" value="1.6668917107554838E-7" />
-      <entry key="S10" value="6.62091654593747E-4" />
-      <entry key="S30" value="0.20655821118247308" />
-      <entry key="S60" value="1.1101363112601812" />
-      <entry key="M2" value="3.4975718626164327" />
-      <entry key="M5" value="12.786909726136306" />
-      <entry key="M10" value="30.42345299698424" />
-      <entry key="M15" value="47.11385158982366" />
-      <entry key="M30" value="91.83716258396471" />
-      <entry key="H1" value="167.88727848716894" />
-      <entry key="H2" value="294.56292596643715" />
-      <entry key="H4" value="491.8425914981426" />
-      <entry key="D1" value="1066.9381775640063" />
-      <entry key="W1" value="1285.913799930332" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000000041" />
+      <entry key="S2" value="1.0004516345540868" />
+      <entry key="S5" value="1.0540851409492764" />
+      <entry key="S10" value="1.370766989600872" />
+      <entry key="S30" value="2.8100742060020965" />
+      <entry key="S60" value="4.63946533388252" />
+      <entry key="M2" value="8.07057845387845" />
+      <entry key="M5" value="16.419548651354496" />
+      <entry key="M10" value="31.615536013865835" />
+      <entry key="M15" value="47.401160398540945" />
+      <entry key="M30" value="92.01985503355262" />
+      <entry key="H1" value="169.34819535496388" />
+      <entry key="H2" value="298.02457665513344" />
+      <entry key="H4" value="497.81057314601736" />
+      <entry key="D1" value="1081.2069531956051" />
+      <entry key="W1" value="1304.0984641159525" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8526348917679567" />
-      <entry key="MS500" value="0.9686181892266277" />
-      <entry key="S2" value="0.9920604931322485" />
-      <entry key="S5" value="0.9968172515388941" />
-      <entry key="S10" value="1.0006713019644213" />
-      <entry key="S30" value="1.8469257137081716" />
-      <entry key="S60" value="6.224062629119354" />
-      <entry key="M2" value="18.362039520101867" />
-      <entry key="M5" value="66.61238709564074" />
-      <entry key="M10" value="156.97639494521724" />
-      <entry key="M15" value="239.12645629477086" />
-      <entry key="M30" value="456.5377244178217" />
-      <entry key="H1" value="843.6977992349006" />
-      <entry key="H2" value="1468.7203049655834" />
-      <entry key="H4" value="2358.1050683289254" />
-      <entry key="D1" value="4793.148736420097" />
-      <entry key="W1" value="5711.2800625347445" />
+      <entry key="MS100" value="0.047695600280017465" />
+      <entry key="MS500" value="0.5444311014229265" />
+      <entry key="S2" value="0.9928056146317439" />
+      <entry key="S5" value="1.603991676105259" />
+      <entry key="S10" value="3.105263584021497" />
+      <entry key="S30" value="8.099975544274676" />
+      <entry key="S60" value="15.173807723917172" />
+      <entry key="M2" value="33.58941862377491" />
+      <entry key="M5" value="86.27437721677539" />
+      <entry key="M10" value="172.73988841242831" />
+      <entry key="M15" value="255.36014280702128" />
+      <entry key="M30" value="478.5858064246719" />
+      <entry key="H1" value="873.7846136807764" />
+      <entry key="H2" value="1510.8186957652524" />
+      <entry key="H4" value="2415.8726469615176" />
+      <entry key="D1" value="4892.759494284184" />
+      <entry key="W1" value="5828.639370637114" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -129,6 +130,7 @@
     "Application.FlipGame.executor": "Run",
     "Application.FourSum.executor": "Run",
     "Application.IntegerToEnglishWords.executor": "Run",
+    "Application.KeepMultiFoundValuesByTwo.executor": "Run",
     "Application.KthDistinctStrArray.executor": "Run",
     "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
     "Application.LongestUnCommonSubsequenceI.executor": "Run",
@@ -188,7 +190,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountElements">
+  <component name="RunManager" selected="Application.KeepMultiFoundValuesByTwo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -211,6 +213,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strings.CountElemStrictSmallLarger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeepMultiFoundValuesByTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.KeepMultiFoundValuesByTwo.KeepMultiFoundValuesByTwo" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.KeepMultiFoundValuesByTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,20 +290,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.TwoOfThree.TwoOfThree" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.TwoOfThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -312,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeepMultiFoundValuesByTwo" />
         <item itemvalue="Application.CountElements" />
         <item itemvalue="Application.MinSubSeqNonDecrOrder" />
         <item itemvalue="Application.NumAfterDoubleReversal" />
         <item itemvalue="Application.KthDistinctStrArray" />
-        <item itemvalue="Application.TwoOfThree" />
       </list>
     </recent_temporary>
   </component>
