@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit/ConcateNonZeroDigit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit/ConcateNonZeroDigit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,6 +281,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ConcateNonZeroDigit.executor": "Run",
     "Python.CountElementsStrictlySmallerGreater.executor": "Run",
     "Python.CountEqualDivisablePairs.executor": "Run",
     "Python.CountIntEvenDigitsSum.executor": "Run",
@@ -308,8 +313,8 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CountIntEvenDigitsSum">
-    <configuration name="CountElementsStrictlySmallerGreater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ConcateNonZeroDigit">
+    <configuration name="ConcateNonZeroDigit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,12 +323,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/CountElementsStrictlySmallerGreater/CountElementsStrictlySmallerGreater.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit/ConcateNonZeroDigit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,19 +430,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.ConcateNonZeroDigit" />
       <item itemvalue="Python.CountIntEvenDigitsSum" />
       <item itemvalue="Python.DivideStrInGroupsSizeK" />
       <item itemvalue="Python.CountEqualDivisablePairs" />
       <item itemvalue="Python.KeepMultiFoundValuesByTwo" />
-      <item itemvalue="Python.CountElementsStrictlySmallerGreater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ConcateNonZeroDigit" />
         <item itemvalue="Python.CountIntEvenDigitsSum" />
         <item itemvalue="Python.DivideStrInGroupsSizeK" />
         <item itemvalue="Python.CountEqualDivisablePairs" />
         <item itemvalue="Python.KeepMultiFoundValuesByTwo" />
-        <item itemvalue="Python.CountElementsStrictlySmallerGreater" />
       </list>
     </recent_temporary>
   </component>
