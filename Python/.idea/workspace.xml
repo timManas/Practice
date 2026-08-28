@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SeperateDigitsInArray/SeperateDigitsInArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SeperateDigitsInArray/SeperateDigitsInArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/SeperateDigitsInArray/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,6 +288,7 @@
     "Python.CreateTargetArrayInGivenOrder.executor": "Run",
     "Python.DivideStrInGroupsSizeK.executor": "Run",
     "Python.KeepMultiFoundValuesByTwo.executor": "Run",
+    "Python.SeperateDigitsInArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -309,7 +314,7 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ConcateNonZeroDigit">
+  <component name="RunManager" selected="Python.SeperateDigitsInArray">
     <configuration name="ConcateNonZeroDigit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -402,7 +407,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="KeepMultiFoundValuesByTwo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SeperateDigitsInArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -411,12 +416,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/KeepMultiFoundValuesByTwo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SeperateDigitsInArray" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/KeepMultiFoundValuesByTwo/KeepMultiFoundValuesByTwo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SeperateDigitsInArray/SeperateDigitsInArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -426,19 +431,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.SeperateDigitsInArray" />
       <item itemvalue="Python.ConcateNonZeroDigit" />
       <item itemvalue="Python.CountIntEvenDigitsSum" />
       <item itemvalue="Python.DivideStrInGroupsSizeK" />
       <item itemvalue="Python.CountEqualDivisablePairs" />
-      <item itemvalue="Python.KeepMultiFoundValuesByTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SeperateDigitsInArray" />
         <item itemvalue="Python.ConcateNonZeroDigit" />
         <item itemvalue="Python.CountIntEvenDigitsSum" />
         <item itemvalue="Python.DivideStrInGroupsSizeK" />
         <item itemvalue="Python.CountEqualDivisablePairs" />
-        <item itemvalue="Python.KeepMultiFoundValuesByTwo" />
       </list>
     </recent_temporary>
   </component>
