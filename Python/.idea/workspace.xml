@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindMissingElements/FindMissingElements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindMissingElements/FindMissingElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/FindMissingElements/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,6 +287,7 @@
     "Python.CountIntEvenDigitsSum.executor": "Run",
     "Python.CreateTargetArrayInGivenOrder.executor": "Run",
     "Python.DivideStrInGroupsSizeK.executor": "Run",
+    "Python.FindMissingElements.executor": "Run",
     "Python.KeepMultiFoundValuesByTwo.executor": "Run",
     "Python.SeperateDigitsInArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -310,7 +315,7 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SeperateDigitsInArray">
+  <component name="RunManager" selected="Python.FindMissingElements">
     <configuration name="ConcateNonZeroDigit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -326,29 +331,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/ConcateNonZeroDigit/ConcateNonZeroDigit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CountEqualDivisablePairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/CountEqualDivisablePairs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/CountEqualDivisablePairs/CountEqualDivisablePairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,6 +385,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="FindMissingElements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/FindMissingElements" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/FindMissingElements/FindMissingElements.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SeperateDigitsInArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -427,19 +432,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.FindMissingElements" />
       <item itemvalue="Python.SeperateDigitsInArray" />
       <item itemvalue="Python.ConcateNonZeroDigit" />
       <item itemvalue="Python.CountIntEvenDigitsSum" />
       <item itemvalue="Python.DivideStrInGroupsSizeK" />
-      <item itemvalue="Python.CountEqualDivisablePairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindMissingElements" />
         <item itemvalue="Python.SeperateDigitsInArray" />
         <item itemvalue="Python.ConcateNonZeroDigit" />
         <item itemvalue="Python.CountIntEvenDigitsSum" />
         <item itemvalue="Python.DivideStrInGroupsSizeK" />
-        <item itemvalue="Python.CountEqualDivisablePairs" />
       </list>
     </recent_temporary>
   </component>
