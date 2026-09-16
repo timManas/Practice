@@ -16,7 +16,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1088" />
+    <option name="cachedIndexableFilesCount" value="1090" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="9.328487927210849E-204" />
-      <entry key="S2" value="2.939054976030621E-51" />
-      <entry key="S5" value="9.295834103505589E-21" />
-      <entry key="S10" value="1.4340722846608187E-10" />
-      <entry key="S30" value="0.0015113546466992863" />
-      <entry key="S60" value="0.11522507368644218" />
-      <entry key="M2" value="1.382462822102941" />
-      <entry key="M5" value="12.739215711400853" />
-      <entry key="M10" value="50.183830877203" />
-      <entry key="M15" value="107.60488343580542" />
-      <entry key="M30" value="333.84828519679644" />
-      <entry key="H1" value="786.9886670303166" />
-      <entry key="H2" value="1493.5429403886376" />
-      <entry key="H4" value="2426.252583343003" />
-      <entry key="D1" value="4822.284870320874" />
-      <entry key="W1" value="5729.250348268167" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000245632759" />
+      <entry key="S10" value="1.0003279569284498" />
+      <entry key="S30" value="1.3579201796640583" />
+      <entry key="S60" value="4.461188250168824" />
+      <entry key="M2" value="15.718992409003379" />
+      <entry key="M5" value="50.63341588628767" />
+      <entry key="M10" value="93.61497574596957" />
+      <entry key="M15" value="127.3886630008454" />
+      <entry key="M30" value="251.56789385712796" />
+      <entry key="H1" value="601.2421337630825" />
+      <entry key="H2" value="1286.9125275258166" />
+      <entry key="H4" value="2278.1704547882127" />
+      <entry key="D1" value="4911.834471724751" />
+      <entry key="W1" value="5924.415435500423" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0003921766334174" />
-      <entry key="MS500" value="1.2716543240244766" />
-      <entry key="S2" value="2.1773968350619284" />
-      <entry key="S5" value="2.6137799948057663" />
-      <entry key="S10" value="2.795749679572747" />
-      <entry key="S30" value="2.9299124170117112" />
-      <entry key="S60" value="3.0105325516991277" />
-      <entry key="M2" value="3.6368019351332017" />
-      <entry key="M5" value="9.105942302047568" />
-      <entry key="M10" value="20.95620659126475" />
-      <entry key="M15" value="34.8629913362428" />
-      <entry key="M30" value="84.49918083762483" />
-      <entry key="H1" value="183.82687234083997" />
-      <entry key="H2" value="347.1721988559337" />
-      <entry key="H4" value="587.5463144533899" />
-      <entry key="D1" value="1285.5491471015737" />
-      <entry key="W1" value="1560.3112723372305" />
+      <entry key="MS100" value="2.9740277058813843E-22" />
+      <entry key="MS500" value="4.951232827021766E-5" />
+      <entry key="S2" value="0.10054246913496705" />
+      <entry key="S5" value="0.7394192149028543" />
+      <entry key="S10" value="1.670485248448558" />
+      <entry key="S30" value="3.845327794143757" />
+      <entry key="S60" value="6.721649410857901" />
+      <entry key="M2" value="11.724900995853835" />
+      <entry key="M5" value="23.567098459500134" />
+      <entry key="M10" value="35.34804864514777" />
+      <entry key="M15" value="43.623692603122734" />
+      <entry key="M30" value="72.40216127147578" />
+      <entry key="H1" value="150.87403231856683" />
+      <entry key="H2" value="308.84990386766043" />
+      <entry key="H4" value="558.8277003488569" />
+      <entry key="D1" value="1310.7294141583307" />
+      <entry key="W1" value="1613.3884882741615" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.007349549646716383" />
-      <entry key="MS500" value="0.49433982516285174" />
-      <entry key="S2" value="1.7241486133100066" />
-      <entry key="S5" value="2.3797497699613164" />
-      <entry key="S10" value="2.6673651981138558" />
-      <entry key="S30" value="2.8857680239911616" />
-      <entry key="S60" value="3.101158782174079" />
-      <entry key="M2" value="4.997979866326517" />
-      <entry key="M5" value="21.805816846156656" />
-      <entry key="M10" value="71.08358105619591" />
-      <entry key="M15" value="142.39852304252165" />
-      <entry key="M30" value="418.25700405469087" />
-      <entry key="H1" value="970.7194023475706" />
-      <entry key="H2" value="1840.628182417505" />
-      <entry key="H4" value="3013.7278476505467" />
-      <entry key="D1" value="6107.808398568877" />
-      <entry key="W1" value="7289.557148971842" />
+      <entry key="MS100" value="2.93135677583315E-6" />
+      <entry key="MS500" value="0.07826252038505523" />
+      <entry key="S2" value="0.6139432329169808" />
+      <entry key="S5" value="1.465318091091141" />
+      <entry key="S10" value="2.4929484168506377" />
+      <entry key="S30" value="5.1026328560629155" />
+      <entry key="S60" value="11.074282179319221" />
+      <entry key="M2" value="27.314317459676722" />
+      <entry key="M5" value="74.07155238903967" />
+      <entry key="M10" value="128.86189611850477" />
+      <entry key="M15" value="170.92803767882512" />
+      <entry key="M30" value="323.8972991911796" />
+      <entry key="H1" value="752.0391189818922" />
+      <entry key="H2" value="1595.685405171001" />
+      <entry key="H4" value="2836.9304939961" />
+      <entry key="D1" value="6222.537736825524" />
+      <entry key="W1" value="7537.799297053897" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -142,6 +142,7 @@
     "Application.MaxLengthSubStrTwoOccr.executor": "Run",
     "Application.MergeIntervals.executor": "Run",
     "Application.MinCostBuyCandy.executor": "Run",
+    "Application.MinDisBetweenThreeElements.executor": "Run",
     "Application.MinNumIncrSubArrFormTarget.executor": "Run",
     "Application.MinNumPushTypeWord.executor": "Run",
     "Application.MinSubSeqNonDecrOrder.executor": "Run",
@@ -197,7 +198,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxLengthSubStrTwoOccr">
+  <component name="RunManager" selected="Application.MinDisBetweenThreeElements">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -227,20 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatNonZeroDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.ConcatNonZeroDigit.ConcatNonZeroDigit" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.ConcatNonZeroDigit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FindMissingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.FindMissingElements.FindMissingElements" />
       <module name="PracticeJava" />
@@ -262,6 +249,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MaxLengthSubStrTwoOccr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinDisBetweenThreeElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.MinDisBetweenThreeElements.MinDisBetweenThreeElements" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.MinDisBetweenThreeElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinDisBetweenThreeElements" />
         <item itemvalue="Application.MaxLengthSubStrTwoOccr" />
         <item itemvalue="Application.CheckDivBySumAndProduct" />
         <item itemvalue="Application.FindMissingElements" />
         <item itemvalue="Application.SeperateDigitsInArray" />
-        <item itemvalue="Application.ConcatNonZeroDigit" />
       </list>
     </recent_temporary>
   </component>
