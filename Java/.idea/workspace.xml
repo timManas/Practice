@@ -17,7 +17,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1092" />
+    <option name="cachedIndexableFilesCount" value="1094" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000015065" />
-      <entry key="MS500" value="1.0069425118156705" />
-      <entry key="S2" value="1.4122749730673427" />
-      <entry key="S5" value="2.4423004354278053" />
-      <entry key="S10" value="3.830151650989879" />
-      <entry key="S30" value="8.080192081287795" />
-      <entry key="S60" value="14.701830070422908" />
-      <entry key="M2" value="32.99564380092622" />
-      <entry key="M5" value="89.82003949648877" />
-      <entry key="M10" value="156.05539537010986" />
-      <entry key="M15" value="202.9968799932011" />
-      <entry key="M30" value="338.80978414976994" />
-      <entry key="H1" value="686.356730028457" />
-      <entry key="H2" value="1371.4590186084886" />
-      <entry key="H4" value="2370.785307258528" />
-      <entry key="D1" value="5038.267980797276" />
-      <entry key="W1" value="6066.2222222319315" />
+      <entry key="MS100" value="7.603342619712533E-19" />
+      <entry key="MS500" value="2.3779401087481452E-4" />
+      <entry key="S2" value="0.1241795918457234" />
+      <entry key="S5" value="0.4342212004656674" />
+      <entry key="S10" value="0.6828983143570118" />
+      <entry key="S30" value="2.1454513687494443" />
+      <entry key="S60" value="5.247404200473339" />
+      <entry key="M2" value="10.915171708038395" />
+      <entry key="M5" value="27.422287031214477" />
+      <entry key="M10" value="72.4414255415572" />
+      <entry key="M15" value="124.79439333619644" />
+      <entry key="M30" value="278.3332832423954" />
+      <entry key="H1" value="621.0136065885606" />
+      <entry key="H2" value="1305.3053463889667" />
+      <entry key="H4" value="2333.1765943513087" />
+      <entry key="D1" value="5124.379836702392" />
+      <entry key="W1" value="6209.347421710431" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.505866210320666E-31" />
-      <entry key="MS500" value="8.108846291400326E-7" />
-      <entry key="S2" value="0.030181549976315815" />
-      <entry key="S5" value="0.2850358200705637" />
-      <entry key="S10" value="0.762179713000084" />
-      <entry key="S30" value="1.828095214109066" />
-      <entry key="S60" value="2.837596469824972" />
-      <entry key="M2" value="5.706132612995234" />
-      <entry key="M5" value="16.741542346519644" />
-      <entry key="M10" value="31.615404136558453" />
-      <entry key="M15" value="42.37450352536054" />
-      <entry key="M30" value="73.44298359880545" />
-      <entry key="H1" value="151.429525048781" />
-      <entry key="H2" value="309.10014443041644" />
-      <entry key="H4" value="560.3726083074934" />
-      <entry key="D1" value="1319.849298755794" />
-      <entry key="W1" value="1626.5298167349458" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000277742771613" />
+      <entry key="S2" value="1.1127758591529793" />
+      <entry key="S5" value="1.6871177174866836" />
+      <entry key="S10" value="2.3656761141907428" />
+      <entry key="S30" value="3.5772735679381857" />
+      <entry key="S60" value="5.175067361428883" />
+      <entry key="M2" value="8.515969305911376" />
+      <entry key="M5" value="18.69262030439762" />
+      <entry key="M10" value="34.97206864234044" />
+      <entry key="M15" value="49.47559670820258" />
+      <entry key="M30" value="86.93690596120722" />
+      <entry key="H1" value="165.07001919930593" />
+      <entry key="H2" value="322.4820265910111" />
+      <entry key="H4" value="578.5601210350007" />
+      <entry key="D1" value="1365.7941417363147" />
+      <entry key="W1" value="1687.3459243551642" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.00364466012349698" />
-      <entry key="MS500" value="0.3285222724357192" />
-      <entry key="S2" value="1.1197472559035766" />
-      <entry key="S5" value="2.493405345229301" />
-      <entry key="S10" value="4.407136123916204" />
-      <entry key="S30" value="9.80122007357509" />
-      <entry key="S60" value="17.461081186907492" />
-      <entry key="M2" value="38.628382657656346" />
-      <entry key="M5" value="106.47264782296016" />
-      <entry key="M10" value="187.58333849560313" />
-      <entry key="M15" value="245.29190312299096" />
-      <entry key="M30" value="412.18074775377414" />
-      <entry key="H1" value="837.7099550374835" />
-      <entry key="H2" value="1680.4825170122986" />
-      <entry key="H4" value="2931.0902402417664" />
-      <entry key="D1" value="6358.0909743227" />
-      <entry key="W1" value="7692.7473784931235" />
+      <entry key="MS100" value="0.010598471308184932" />
+      <entry key="MS500" value="0.40300503843852375" />
+      <entry key="S2" value="0.9972932804206315" />
+      <entry key="S5" value="1.9381695344122476" />
+      <entry key="S10" value="2.9082730494624474" />
+      <entry key="S30" value="5.638479528126273" />
+      <entry key="S60" value="10.339236320407188" />
+      <entry key="M2" value="19.344498721242537" />
+      <entry key="M5" value="46.03491068236316" />
+      <entry key="M10" value="107.33849926615576" />
+      <entry key="M15" value="174.19727230815045" />
+      <entry key="M30" value="365.20039254224076" />
+      <entry key="H1" value="786.0101829606822" />
+      <entry key="H2" value="1627.7124249175681" />
+      <entry key="H4" value="2911.669253004917" />
+      <entry key="D1" value="6490.147159950481" />
+      <entry key="W1" value="7896.688570311758" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -154,6 +154,7 @@
     "Application.RemovePalindromSubSeq.executor": "Run",
     "Application.ReverseStringII.executor": "Run",
     "Application.SeperateDigitsInArray.executor": "Run",
+    "Application.ShortDistanceTargetStrCircArray.executor": "Run",
     "Application.ShortestCompletingWord.executor": "Run",
     "Application.SmallestDivisibleDigitalProduct.executor": "Run",
     "Application.SmallestIndexWithEqualValue.executor": "Run",
@@ -200,7 +201,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallestDivisibleDigitalProduct">
+  <component name="RunManager" selected="Application.ShortDistanceTargetStrCircArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -223,20 +224,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.CheckDivBySumAndProduct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMissingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.FindMissingElements.FindMissingElements" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lists.FindMissingElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,6 +273,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortDistanceTargetStrCircArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.ShortDistanceTargetStrCircArray.ShortDistanceTargetStrCircArray" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.ShortDistanceTargetStrCircArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallestDivisibleDigitalProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.SmallestDivisibleDigitalProduct.SmallestDivisibleDigitalProduct" />
       <module name="PracticeJava" />
@@ -324,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortDistanceTargetStrCircArray" />
         <item itemvalue="Application.SmallestDivisibleDigitalProduct" />
         <item itemvalue="Application.MinDisBetweenThreeElements" />
         <item itemvalue="Application.MaxLengthSubStrTwoOccr" />
         <item itemvalue="Application.CheckDivBySumAndProduct" />
-        <item itemvalue="Application.FindMissingElements" />
       </list>
     </recent_temporary>
   </component>
