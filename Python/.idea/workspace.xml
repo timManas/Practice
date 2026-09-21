@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ShortestDistanceTargetStrCircArray/ShortestDistanceTargetStrCircArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ShortestDistanceTargetStrCircArray/ShortestDistanceTargetStrCircArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/ShortestDistanceTargetStrCircArray/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -276,30 +279,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ConcateNonZeroDigit.executor": "Run",
-    "Python.CountElementsStrictlySmallerGreater.executor": "Run",
-    "Python.CountEqualDivisablePairs.executor": "Run",
-    "Python.CountIntEvenDigitsSum.executor": "Run",
-    "Python.CreateTargetArrayInGivenOrder.executor": "Run",
-    "Python.DivideStrInGroupsSizeK.executor": "Run",
-    "Python.FindMissingElements.executor": "Run",
-    "Python.KeepMultiFoundValuesByTwo.executor": "Run",
-    "Python.MinDistanceBetweenThreeEqualElem.executor": "Run",
-    "Python.SeperateDigitsInArray.executor": "Run",
-    "Python.Smallest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Python",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ConcateNonZeroDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CountElementsStrictlySmallerGreater.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CountEqualDivisablePairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CountIntEvenDigitsSum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CreateTargetArrayInGivenOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DivideStrInGroupsSizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindMissingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KeepMultiFoundValuesByTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MinDistanceBetweenThreeEqualElem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SeperateDigitsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Smallest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/timmerz/Projects/Practice/Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/src/Lists" />

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e763d00-feec-4924-8f4e-95c2b179ba57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Lists/ShortestDistanceTargetStrCircArray/ShortestDistanceTargetStrCircArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Lists/ShortestDistanceTargetStrCircArray/ShortestDistanceTargetStrCircArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/project/src/Lists/ShortestDistanceTargetStrCircArray/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lists/ShortDistanceTargetStrCircArray/ShortDistanceTargetStrCircArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lists/ShortDistanceTargetStrCircArray/ShortDistanceTargetStrCircArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +20,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1094" />
+    <option name="cachedIndexableFilesCount" value="1096" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,61 +49,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.0592896342183266E-96" />
-      <entry key="S2" value="1.0207386463682694E-24" />
-      <entry key="S5" value="3.147730418221614E-10" />
-      <entry key="S10" value="2.9530860366470474E-5" />
-      <entry key="S30" value="0.07823343439985128" />
-      <entry key="S60" value="0.6111738292958808" />
-      <entry key="M2" value="2.433084305690292" />
-      <entry key="M5" value="17.09046846049665" />
-      <entry key="M10" value="56.0187160337344" />
-      <entry key="M15" value="102.7064849902035" />
-      <entry key="M30" value="250.55463894050587" />
-      <entry key="H1" value="584.3780607630304" />
-      <entry key="H2" value="1263.8642401500408" />
-      <entry key="H4" value="2303.6537552604095" />
-      <entry key="D1" value="5159.071872864178" />
-      <entry key="W1" value="6274.882650383555" />
+      <entry key="MS100" value="1.4533122450149934E-176" />
+      <entry key="MS500" value="6.799421266860399E-36" />
+      <entry key="S2" value="1.6591880624106983E-9" />
+      <entry key="S5" value="4.033297233470333E-4" />
+      <entry key="S10" value="0.033479894071334004" />
+      <entry key="S30" value="1.8134753520737363" />
+      <entry key="S60" value="10.907948177173163" />
+      <entry key="M2" value="32.544168317260265" />
+      <entry key="M5" value="73.17740164846079" />
+      <entry key="M10" value="122.14096326594269" />
+      <entry key="M15" value="171.2803084517294" />
+      <entry key="M30" value="320.9802508039271" />
+      <entry key="H1" value="653.8406091393912" />
+      <entry key="H2" value="1332.5141317085777" />
+      <entry key="H4" value="2375.992948049646" />
+      <entry key="D1" value="5250.779218903983" />
+      <entry key="W1" value="6375.924005026898" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000016" />
-      <entry key="S10" value="1.0000000500660955" />
-      <entry key="S30" value="1.006840220613359" />
-      <entry key="S60" value="1.1420609490846714" />
-      <entry key="M2" value="1.7225840285449254" />
-      <entry key="M5" value="5.196737930844747" />
-      <entry key="M10" value="16.056996839683507" />
-      <entry key="M15" value="28.79997863701128" />
-      <entry key="M30" value="65.96717151070186" />
-      <entry key="H1" value="143.54284625089716" />
-      <entry key="H2" value="300.58215869804667" />
-      <entry key="H4" value="558.9623709462912" />
-      <entry key="D1" value="1360.9564657878855" />
-      <entry key="W1" value="1690.6046794225672" />
+      <entry key="MS100" value="1.0009564651343623" />
+      <entry key="MS500" value="1.2490068541727612" />
+      <entry key="S2" value="1.8233522844938943" />
+      <entry key="S5" value="2.572155579987548" />
+      <entry key="S10" value="3.7118209334605097" />
+      <entry key="S30" value="7.433734832158781" />
+      <entry key="S60" value="11.118947457398832" />
+      <entry key="M2" value="15.41483576403745" />
+      <entry key="M5" value="21.892638888795606" />
+      <entry key="M10" value="32.66929112137876" />
+      <entry key="M15" value="44.97599660288449" />
+      <entry key="M30" value="81.73998902733636" />
+      <entry key="H1" value="158.92505431129385" />
+      <entry key="H2" value="315.7108227122584" />
+      <entry key="H4" value="574.6777213487458" />
+      <entry key="D1" value="1381.0070750250677" />
+      <entry key="W1" value="1713.0813432132813" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.002355093413458517" />
-      <entry key="MS500" value="0.29812721808265785" />
-      <entry key="S2" value="0.7389250793367526" />
-      <entry key="S5" value="0.8860131403686216" />
-      <entry key="S10" value="0.9413122657218936" />
-      <entry key="S30" value="1.0649777149674848" />
-      <entry key="S60" value="1.7419059876749914" />
-      <entry key="M2" value="4.146507822150932" />
-      <entry key="M5" value="22.269284859495787" />
-      <entry key="M10" value="72.04295999921645" />
-      <entry key="M15" value="131.4651604305607" />
-      <entry key="M30" value="316.46948716538105" />
-      <entry key="H1" value="727.8575158389342" />
-      <entry key="H2" value="1564.3768138341293" />
-      <entry key="H4" value="2862.5510846897337" />
-      <entry key="D1" value="6520.001638352838" />
-      <entry key="W1" value="7965.482548258452" />
+      <entry key="MS100" value="0.006265282240349502" />
+      <entry key="MS500" value="0.4554012024847111" />
+      <entry key="S2" value="1.3933141353958534" />
+      <entry key="S5" value="2.260571502799929" />
+      <entry key="S10" value="3.491191274974268" />
+      <entry key="S30" value="8.982999069224359" />
+      <entry key="S60" value="21.75600484687805" />
+      <entry key="M2" value="47.739808953448886" />
+      <entry key="M5" value="94.93980915253093" />
+      <entry key="M10" value="154.71846709643563" />
+      <entry key="M15" value="216.1757042116452" />
+      <entry key="M30" value="402.6485849726579" />
+      <entry key="H1" value="812.6929804867419" />
+      <entry key="H2" value="1648.1508385089958" />
+      <entry key="H4" value="2950.6032935748863" />
+      <entry key="D1" value="6631.759120425526" />
+      <entry key="W1" value="8089.000492288085" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -117,72 +120,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTreeTilt.executor": "Run",
-    "Application.CheckDivBySumAndProduct.executor": "Run",
-    "Application.CheckIfAllCharsHaveEqualOccur.executor": "Run",
-    "Application.ConcatNonZeroDigit.executor": "Run",
-    "Application.CountElements.executor": "Run",
-    "Application.CountEqualDivisiblePairsArr.executor": "Run",
-    "Application.CountIntegersEvenDigitsSum.executor": "Run",
-    "Application.DivideStrGroupsByK.executor": "Run",
-    "Application.FindDistanceBetweenTwoArrays.executor": "Run",
-    "Application.FindFirstPalindromicStrArr.executor": "Run",
-    "Application.FindGreatestCommonDivisorArray.executor": "Run",
-    "Application.FindMissingElements.executor": "Run",
-    "Application.FindTargetIndicesAfterSort.executor": "Run",
-    "Application.FindValidMatrixGivenRowCol.executor": "Run",
-    "Application.FlipGame.executor": "Run",
-    "Application.FourSum.executor": "Run",
-    "Application.IntegerToEnglishWords.executor": "Run",
-    "Application.KeepMultiFoundValuesByTwo.executor": "Run",
-    "Application.KthDistinctStrArray.executor": "Run",
-    "Application.LargestNumberAtLeastTwiceOthers.executor": "Run",
-    "Application.LongestUnCommonSubsequenceI.executor": "Run",
-    "Application.MaxLengthSubStrTwoOccr.executor": "Run",
-    "Application.MergeIntervals.executor": "Run",
-    "Application.MinCostBuyCandy.executor": "Run",
-    "Application.MinDisBetweenThreeElements.executor": "Run",
-    "Application.MinNumIncrSubArrFormTarget.executor": "Run",
-    "Application.MinNumPushTypeWord.executor": "Run",
-    "Application.MinSubSeqNonDecrOrder.executor": "Run",
-    "Application.MinTimeTypeSpecTypeWriter.executor": "Run",
-    "Application.NumAfterDoubleReversal.executor": "Run",
-    "Application.NumDaysInMonth.executor": "Run",
-    "Application.NumValidWordSentence.executor": "Run",
-    "Application.RemovePalindromSubSeq.executor": "Run",
-    "Application.ReverseStringII.executor": "Run",
-    "Application.SeperateDigitsInArray.executor": "Run",
-    "Application.ShortDistanceTargetStrCircArray.executor": "Run",
-    "Application.ShortestCompletingWord.executor": "Run",
-    "Application.SmallestDivisibleDigitalProduct.executor": "Run",
-    "Application.SmallestIndexWithEqualValue.executor": "Run",
-    "Application.SortThePeople.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.TwoOfThree.executor": "Run",
-    "Application.ZigzagConversion.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/timmerz/Projects/Practice/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTreeTilt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckDivBySumAndProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfAllCharsHaveEqualOccur.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcatNonZeroDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountEqualDivisiblePairsArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountIntegersEvenDigitsSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivideStrGroupsByK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDistanceBetweenTwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstPalindromicStrArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindGreatestCommonDivisorArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTargetIndicesAfterSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindValidMatrixGivenRowCol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlipGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerToEnglishWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeepMultiFoundValuesByTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthDistinctStrArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestNumberAtLeastTwiceOthers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestUnCommonSubsequenceI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxLengthSubStrTwoOccr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinCostBuyCandy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinDisBetweenThreeElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinNumIncrSubArrFormTarget.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinNumPushTypeWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinSubSeqNonDecrOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinTimeTypeSpecTypeWriter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumAfterDoubleReversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumDaysInMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumValidWordSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemovePalindromSubSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStringII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeperateDigitsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortDistanceTargetStrCircArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestCompletingWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestDivisibleDigitalProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestIndexWithEqualValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortThePeople.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoOfThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZigzagConversion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/timmerz/Projects/Practice/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="LinkedList.MergeNodesInBetweenZeroes" />
@@ -201,7 +204,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortDistanceTargetStrCircArray">
+  <component name="RunManager" selected="Application.MaxProductTwoDigits">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -217,20 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckDivBySumAndProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CheckDivBySumAndProduct.CheckDivBySumAndProduct" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.CheckDivBySumAndProduct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaxLengthSubStrTwoOccr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.MaxLengthSubStrTwoOccr.MaxLengthSubStrTwoOccr" />
       <module name="PracticeJava" />
@@ -238,6 +227,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lists.MaxLengthSubStrTwoOccr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProductTwoDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.MaxProductTwoDigits.MaxProductTwoDigits" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Math.MaxProductTwoDigits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProductTwoDigits" />
         <item itemvalue="Application.ShortDistanceTargetStrCircArray" />
         <item itemvalue="Application.SmallestDivisibleDigitalProduct" />
         <item itemvalue="Application.MinDisBetweenThreeElements" />
         <item itemvalue="Application.MaxLengthSubStrTwoOccr" />
-        <item itemvalue="Application.CheckDivBySumAndProduct" />
       </list>
     </recent_temporary>
   </component>
