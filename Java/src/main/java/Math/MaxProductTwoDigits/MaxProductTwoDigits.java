@@ -10,11 +10,8 @@ public class MaxProductTwoDigits {
     }
 
     public static int maxProduct(int n) {
-        int max = 0;
         String [] digitArr = String.valueOf(n).split("");
         Arrays.sort(digitArr);
-
-
 
         return Integer.valueOf(digitArr[digitArr.length-1]) * Integer.valueOf(digitArr[digitArr.length-2]);
     }
