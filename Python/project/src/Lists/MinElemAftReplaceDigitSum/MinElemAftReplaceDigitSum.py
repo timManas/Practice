@@ -11,8 +11,7 @@ def main():
 class Solution:
     def minElement(self, nums: List[int]) -> int:
         minElement = 200
-        for i, num in enumerate(nums):
-
+        for num in nums:
             sum = 0
             for digit in str(num):
                 sum += int(digit)
