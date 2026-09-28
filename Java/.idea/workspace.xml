@@ -17,7 +17,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1100" />
+    <option name="cachedIndexableFilesCount" value="1102" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2223356286463004E-5" />
-      <entry key="MS500" value="0.10430930450026592" />
-      <entry key="S2" value="0.7527113121542784" />
-      <entry key="S5" value="1.7276071717725712" />
-      <entry key="S10" value="3.408642629198753" />
-      <entry key="S30" value="8.824099808100053" />
-      <entry key="S60" value="12.410175234589966" />
-      <entry key="M2" value="17.269498942097574" />
-      <entry key="M5" value="45.621001239002474" />
-      <entry key="M10" value="107.5033379626515" />
-      <entry key="M15" value="169.32294747664574" />
-      <entry key="M30" value="341.33722260577537" />
-      <entry key="H1" value="682.1750849450452" />
-      <entry key="H2" value="1363.909327203211" />
-      <entry key="H4" value="2434.8304963947703" />
-      <entry key="D1" value="5441.2045669805075" />
-      <entry key="W1" value="6629.631446878142" />
+      <entry key="MS100" value="8.250034088512073E-11" />
+      <entry key="MS500" value="0.0191132226123798" />
+      <entry key="S2" value="0.83878868465309" />
+      <entry key="S5" value="1.80048002514669" />
+      <entry key="S10" value="2.3250977155289427" />
+      <entry key="S30" value="3.30488945404394" />
+      <entry key="S60" value="6.5158030541795116" />
+      <entry key="M2" value="13.745338355062973" />
+      <entry key="M5" value="26.70569267203705" />
+      <entry key="M10" value="53.94789070294598" />
+      <entry key="M15" value="95.33918944210171" />
+      <entry key="M30" value="247.54261991821352" />
+      <entry key="H1" value="578.837243166775" />
+      <entry key="H2" value="1256.0376359647942" />
+      <entry key="H4" value="2351.3275244726174" />
+      <entry key="D1" value="5501.03215550431" />
+      <entry key="W1" value="6761.408794138378" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0005048252677464" />
-      <entry key="S2" value="1.169522702879494" />
-      <entry key="S5" value="1.8339273681368105" />
-      <entry key="S10" value="2.710480716176563" />
-      <entry key="S30" value="3.968914703088737" />
-      <entry key="S60" value="4.46877859851139" />
-      <entry key="M2" value="5.293307685276161" />
-      <entry key="M5" value="10.09539823679134" />
-      <entry key="M10" value="21.759711735911626" />
-      <entry key="M15" value="34.717718094655964" />
-      <entry key="M30" value="73.56467926928924" />
-      <entry key="H1" value="151.65971724917145" />
-      <entry key="H2" value="308.7281241395064" />
-      <entry key="H4" value="572.3479625444228" />
-      <entry key="D1" value="1408.090889117421" />
-      <entry key="W1" value="1756.543906602199" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000016" />
+      <entry key="S5" value="1.0000013320751078" />
+      <entry key="S10" value="1.0015031964919379" />
+      <entry key="S30" value="1.2852140955666063" />
+      <entry key="S60" value="2.5547417216100667" />
+      <entry key="M2" value="5.107060377297509" />
+      <entry key="M5" value="8.911158185941204" />
+      <entry key="M10" value="13.563653228941986" />
+      <entry key="M15" value="20.412970413856165" />
+      <entry key="M30" value="49.52207996234015" />
+      <entry key="H1" value="120.50510513855042" />
+      <entry key="H2" value="273.1233877277155" />
+      <entry key="H4" value="538.8666884268321" />
+      <entry key="D1" value="1404.867562257253" />
+      <entry key="W1" value="1771.560359714236" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.02836029038704514" />
-      <entry key="MS500" value="0.5407864703229225" />
-      <entry key="S2" value="1.5833523716614633" />
-      <entry key="S5" value="3.2322183479461555" />
-      <entry key="S10" value="5.799535518823772" />
-      <entry key="S30" value="12.565482094162917" />
-      <entry key="S60" value="16.72765653085131" />
-      <entry key="M2" value="22.46444340771508" />
-      <entry key="M5" value="55.64373452650382" />
-      <entry key="M10" value="129.19414912709706" />
-      <entry key="M15" value="203.9723751599575" />
-      <entry key="M30" value="414.834496930168" />
-      <entry key="H1" value="833.7649955705492" />
-      <entry key="H2" value="1672.5651395909817" />
-      <entry key="H4" value="3007.111475490143" />
-      <entry key="D1" value="6849.267782289355" />
-      <entry key="W1" value="8386.170380267871" />
+      <entry key="MS100" value="0.014477938544342877" />
+      <entry key="MS500" value="0.44560828437265027" />
+      <entry key="S2" value="1.6119720608454753" />
+      <entry key="S5" value="2.6859393841090635" />
+      <entry key="S10" value="3.2626848923634033" />
+      <entry key="S30" value="4.547851654864247" />
+      <entry key="S60" value="9.0159246668406" />
+      <entry key="M2" value="18.79537365088439" />
+      <entry key="M5" value="35.57690817781087" />
+      <entry key="M10" value="67.47931109458025" />
+      <entry key="M15" value="115.71819671831305" />
+      <entry key="M30" value="297.02188897011126" />
+      <entry key="H1" value="699.2883094026886" />
+      <entry key="H2" value="1529.0978709065191" />
+      <entry key="H4" value="2890.131566174095" />
+      <entry key="D1" value="6905.872181280718" />
+      <entry key="W1" value="8532.964149180249" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -164,6 +164,7 @@
     "Application.SortThePeople.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
     "Application.TwoOfThree.executor": "Run",
+    "Application.Unique3DigitEvenNum.executor": "Run",
     "Application.ZigzagConversion.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -204,7 +205,7 @@
       <recent name="Trees.FindModeInBST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinElemAftReplDigitSum">
+  <component name="RunManager" selected="Application.Unique3DigitEvenNum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -276,20 +277,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestDivisibleDigitalProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.SmallestDivisibleDigitalProduct.SmallestDivisibleDigitalProduct" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.SmallestDivisibleDigitalProduct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SmallestMissingMultipleK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math.SmallestMissingMultipleK.SmallestMissingMultipleK" />
       <module name="PracticeJava" />
@@ -297,6 +284,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math.SmallestMissingMultipleK.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unique3DigitEvenNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.Unique3DigitEvenNum.Unique3DigitEvenNum" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.Unique3DigitEvenNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Unique3DigitEvenNum" />
         <item itemvalue="Application.MinElemAftReplDigitSum" />
         <item itemvalue="Application.SmallestMissingMultipleK" />
         <item itemvalue="Application.MaxProductTwoDigits" />
         <item itemvalue="Application.ShortDistanceTargetStrCircArray" />
-        <item itemvalue="Application.SmallestDivisibleDigitalProduct" />
       </list>
     </recent_temporary>
   </component>
