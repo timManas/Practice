@@ -11,22 +11,43 @@ public class MinimumPairRemoveSortArray {
     }
 
     public static int minimumPairRemoval(int[] nums) {
-        int min = 0;
+        int minNumRemoval = 0;
 
         List<Integer> list = new ArrayList<>();
         for (int i : nums) list.add(i);
-        while (!isSorted(nums)) {
 
+
+        while (!isSorted(list)) {
+            System.out.println("list: " + list);
+            int min = Integer.MAX_VALUE;
+            int smallestIndex = 0;
+            for (int i=0; i<list.size()-1; i++) {
+                int current = list.get(i);
+                int next = list.get(i+1);
+                int sum = current + next;
+
+                if (min > sum) {
+                    min = sum;
+                    smallestIndex = i;
+                }
+            }
+
+            // Update the list and remove the smallest sum
+            list.set(smallestIndex, min);
+            list.remove(smallestIndex+1);
+            ++minNumRemoval;
         }
 
 
-        return min;
+        return minNumRemoval;
     }
 
-    private static boolean isSorted(int[] nums) {
 
-        for (int i=0; i<nums.length-1;i++) {
-            if (nums[i] <= nums[i+1])
+
+    private static boolean isSorted(List<Integer> nums) {
+
+        for (int i=0; i<nums.size()-1;i++) {
+            if (nums.get(i) > nums.get(i+1))
                 return false;
         }
 
