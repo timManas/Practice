@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumPairRemovalSortArray/MinimumPairRemovalSortArray" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumPairRemovalSortArray/MinimumPairRemovalSortArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Lists/MinimumPairRemovalSortArray/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -289,6 +293,7 @@
     "Python.MaxProductTwoDigits.executor": "Run",
     "Python.MinDistanceBetweenThreeEqualElem.executor": "Run",
     "Python.MinElemAftReplaceDigitSum.executor": "Run",
+    "Python.MinimumPairRemovalSortArray.executor": "Run",
     "Python.SeperateDigitsInArray.executor": "Run",
     "Python.Smallest.executor": "Run",
     "Python.SmallestMissingMultipleK.executor": "Run",
@@ -300,7 +305,7 @@
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/timmerz/Projects/Practice/Python",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -318,7 +323,7 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Unique3DigitsEvenNum">
+  <component name="RunManager" selected="Python.MinimumPairRemovalSortArray">
     <configuration name="MaxProductTwoDigits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -365,7 +370,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Smallest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumPairRemovalSortArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,12 +379,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Math/SmallestDivisibleProduct" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/MinimumPairRemovalSortArray" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Math/SmallestDivisibleProduct/Smallest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/MinimumPairRemovalSortArray/MinimumPairRemovalSortArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,19 +440,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.MinimumPairRemovalSortArray" />
       <item itemvalue="Python.Unique3DigitsEvenNum" />
       <item itemvalue="Python.MinElemAftReplaceDigitSum" />
       <item itemvalue="Python.SmallestMissingMultipleK" />
       <item itemvalue="Python.MaxProductTwoDigits" />
-      <item itemvalue="Python.Smallest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MinimumPairRemovalSortArray" />
         <item itemvalue="Python.Unique3DigitsEvenNum" />
         <item itemvalue="Python.MinElemAftReplaceDigitSum" />
         <item itemvalue="Python.SmallestMissingMultipleK" />
         <item itemvalue="Python.MaxProductTwoDigits" />
-        <item itemvalue="Python.Smallest" />
       </list>
     </recent_temporary>
   </component>
