@@ -15,6 +15,10 @@ public class ThreeSumClosest {
         int [] nums2 = {10,20,30,40,50,60,70,80,90};
         int target2 = 1;
         System.out.println("ThreeSum: " + threeSumClosest(nums2, target2) + "\n");
+
+        int [] nums3 = {1,3,4,7,8,9};
+        int target3 = 15;
+        System.out.println("ThreeSum: " + threeSumClosest(nums3, target3) + "\n");
     }
 
     public static int threeSumClosest(int[] nums, int target) {
@@ -31,21 +35,25 @@ public class ThreeSumClosest {
 
                     int sum = first + second + third;
                     int diff = Math.abs(target - sum);
-                    if (diff == 0)
+                    System.out.println("first: " + first + "    second: " + second + "      third: " + third  + "   sum: " + sum + "    diff: " + diff);
+
+                    if (diff == 0) {
+                        System.out.println("map: " + map);
                         return sum;
-                    if (!map.containsKey(diff))
-                        map.put(diff, sum);
-                    System.out.println("first: " + first + "    second: " + second + "      third: " + third + "        sum: " + sum);
+                    }
+//                    if (map.containsKey(diff))
+//                        break;
+                    map.put(diff, sum);
                 }
             }
         }
 
-        System.out.println("map: " + map);
+//        System.out.println("map: " + map);
+//
+//        List<Integer> diffList = new ArrayList<>(map.keySet());
+//        return map.get(diffList.get(0));
 
-        List<Integer> diffList = new ArrayList<>(map.keySet());
-        return map.get(diffList.get(0));
-
-
+        return 0;
     }
 }
 
