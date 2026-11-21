@@ -17,7 +17,7 @@
     <option name="done" value="true" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1112" />
+    <option name="cachedIndexableFilesCount" value="1115" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0038792675603854" />
-      <entry key="MS500" value="1.332260095708568" />
-      <entry key="S2" value="2.2516169890162567" />
-      <entry key="S5" value="3.7419822756129033" />
-      <entry key="S10" value="4.955550730449895" />
-      <entry key="S30" value="7.075937369037072" />
-      <entry key="S60" value="10.030493483322644" />
-      <entry key="M2" value="16.044501992206555" />
-      <entry key="M5" value="39.612119213092534" />
-      <entry key="M10" value="81.54217039496994" />
-      <entry key="M15" value="115.82165469612957" />
-      <entry key="M30" value="200.44332828216406" />
-      <entry key="H1" value="369.142540841771" />
-      <entry key="H2" value="759.2735147416806" />
-      <entry key="H4" value="1675.8597204527878" />
-      <entry key="D1" value="5868.1134280697925" />
-      <entry key="W1" value="7971.289960066951" />
+      <entry key="MS100" value="6.695246343042358E-12" />
+      <entry key="MS500" value="0.005838032547791901" />
+      <entry key="S2" value="0.345593667797562" />
+      <entry key="S5" value="1.1373062014573925" />
+      <entry key="S10" value="1.9955367472256327" />
+      <entry key="S30" value="3.1385508338852595" />
+      <entry key="S60" value="3.9370276744369597" />
+      <entry key="M2" value="7.235652825137814" />
+      <entry key="M5" value="25.561711602974288" />
+      <entry key="M10" value="70.54597577807641" />
+      <entry key="M15" value="118.21054079692807" />
+      <entry key="M30" value="239.1988091013076" />
+      <entry key="H1" value="437.5555633655299" />
+      <entry key="H2" value="837.9678148402315" />
+      <entry key="H4" value="1748.6441840095588" />
+      <entry key="D1" value="6009.456053243529" />
+      <entry key="W1" value="8184.905585380968" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.538338225767071E-121" />
-      <entry key="S2" value="1.3569139195135917E-30" />
-      <entry key="S5" value="2.0262159849416074E-12" />
-      <entry key="S10" value="2.433552699247398E-6" />
-      <entry key="S30" value="0.03132870513978164" />
-      <entry key="S60" value="0.39569773198037195" />
-      <entry key="M2" value="1.7866606066742146" />
-      <entry key="M5" value="8.956749930381017" />
-      <entry key="M10" value="22.127457078819962" />
-      <entry key="M15" value="32.889472819059314" />
-      <entry key="M30" value="58.128072060073485" />
-      <entry key="H1" value="101.1032357416853" />
-      <entry key="H2" value="188.03483676668878" />
-      <entry key="H4" value="393.9965007741238" />
-      <entry key="D1" value="1462.2657629655198" />
-      <entry key="W1" value="2037.3424287859916" />
+      <entry key="MS100" value="1.0003133364007721" />
+      <entry key="MS500" value="1.1991600240713955" />
+      <entry key="S2" value="1.6680370391950496" />
+      <entry key="S5" value="1.8509816924435185" />
+      <entry key="S10" value="1.922489176616924" />
+      <entry key="S30" value="2.028342627052287" />
+      <entry key="S60" value="2.9193642884732816" />
+      <entry key="M2" value="6.847094239682115" />
+      <entry key="M5" value="19.333189663715743" />
+      <entry key="M10" value="35.5757239872092" />
+      <entry key="M15" value="49.13426306609736" />
+      <entry key="M30" value="81.58926179995446" />
+      <entry key="H1" value="131.80091381913925" />
+      <entry key="H2" value="222.96202998520968" />
+      <entry key="H4" value="428.5000059631591" />
+      <entry key="D1" value="1511.0825375710274" />
+      <entry key="W1" value="2103.924316505141" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.09222636645350617" />
-      <entry key="MS500" value="0.7753661781355032" />
-      <entry key="S2" value="1.9416857970599788" />
-      <entry key="S5" value="3.5499635358494306" />
-      <entry key="S10" value="4.838359549623256" />
-      <entry key="S30" value="7.056556067173669" />
-      <entry key="S60" value="10.388928974761379" />
-      <entry key="M2" value="17.793758769135128" />
-      <entry key="M5" value="48.51562085936712" />
-      <entry key="M10" value="103.60877240356369" />
-      <entry key="M15" value="148.6523581446951" />
-      <entry key="M30" value="258.5204845579647" />
-      <entry key="H1" value="470.20095075359507" />
-      <entry key="H2" value="947.2657594986748" />
-      <entry key="H4" value="2069.8109125681594" />
-      <entry key="D1" value="7330.350665273227" />
-      <entry key="W1" value="10008.626660661588" />
+      <entry key="MS100" value="0.005528417292566998" />
+      <entry key="MS500" value="0.43948201797323616" />
+      <entry key="S2" value="1.5415633206229953" />
+      <entry key="S5" value="2.59899644836918" />
+      <entry key="S10" value="3.6246021274158418" />
+      <entry key="S30" value="5.029858025004393" />
+      <entry key="S60" value="6.769988299658792" />
+      <entry key="M2" value="13.99975162641434" />
+      <entry key="M5" value="44.784829694101134" />
+      <entry key="M10" value="106.00915120117838" />
+      <entry key="M15" value="167.23925197161137" />
+      <entry key="M30" value="320.7019424137542" />
+      <entry key="H1" value="569.289304200093" />
+      <entry key="H2" value="1060.8747916565853" />
+      <entry key="H4" value="2177.0926279644514" />
+      <entry key="D1" value="7520.5087375724825" />
+      <entry key="W1" value="10288.823934210646" />
     </decayedShown>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -165,6 +165,7 @@
     "Application.SmallestDivisibleDigitalProduct.executor": "Run",
     "Application.SmallestIndexWithEqualValue.executor": "Run",
     "Application.SmallestMissingMultipleK.executor": "Run",
+    "Application.SmallestPanlindromicReArrangement.executor": "Run",
     "Application.SortThePeople.executor": "Run",
     "Application.ThreeSumClosest.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
@@ -210,7 +211,7 @@
       <recent name="Trees.MaximumBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromLL">
+  <component name="RunManager" selected="Application.SmallestPanlindromicReArrangement">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -222,20 +223,6 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountCommasInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.CountCommasInRange.CountCommasInRange" />
-      <module name="PracticeJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Math.CountCommasInRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,6 +283,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmallestPanlindromicReArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.SmallestPanlindromicReArrangement.SmallestPanlindromicReArrangement" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.SmallestPanlindromicReArrangement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lists.ThreeSumClosest.ThreeSumClosest" />
       <module name="PracticeJava" />
@@ -334,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestPanlindromicReArrangement" />
         <item itemvalue="Application.RemoveNthNodeFromLL" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.ReverseDegreeString" />
         <item itemvalue="Application.MinimumPairRemoveSortArray" />
-        <item itemvalue="Application.CountCommasInRange" />
       </list>
     </recent_temporary>
   </component>
