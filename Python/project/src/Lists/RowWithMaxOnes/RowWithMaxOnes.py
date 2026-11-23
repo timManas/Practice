@@ -30,7 +30,6 @@ class Solution:
 
     def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
         print("list: ", mat)
-        output = []
 
         smallestRow = 0
         maxOnes = 0
