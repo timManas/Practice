@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47d2ee70-89ba-4264-b517-5d1dddcd6ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/CountDigitsDivideNumber/CountDigitsDivideNumber" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/CountDigitsDivideNumber/CountDigitsDivideNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Strings/CountDigitsDivideNumber/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Lists/RowWithMaxOnes/RowWithMaxOnes.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Lists/RowWithMaxOnes/RowWithMaxOnes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
     <SUITE FILE_PATH="coverage/Python$ProductOfArrayExceptSelf.coverage" NAME="ProductOfArrayExceptSelf Coverage Results" MODIFIED="1604963524971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src/Math/ProductOfArrayExceptSelf" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="387" />
+    <option name="cachedIndexableFilesCount" value="390" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileEditorManager">
@@ -284,6 +286,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ConcateNonZeroDigit.executor": "Run",
+    "Python.CountDigitsDivideNumber.executor": "Run",
     "Python.CountElementsStrictlySmallerGreater.executor": "Run",
     "Python.CountEqualDivisablePairs.executor": "Run",
     "Python.CountIntEvenDigitsSum.executor": "Run",
@@ -329,7 +332,30 @@
       <recent name="$PROJECT_DIR$/project/src/Trees/UnivalueBinaryTree" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RowWithMaxOnes">
+  <component name="RunManager" selected="Python.CountDigitsDivideNumber">
+    <configuration name="CountDigitsDivideNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Strings/CountDigitsDivideNumber" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Strings/CountDigitsDivideNumber/CountDigitsDivideNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FindCommonElementsTwoArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -422,43 +448,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SmallestIndexDigitSumEqIndex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/src/Lists/SmallestIndexDigitSumEqIndex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/src/Lists/SmallestIndexDigitSumEqIndex/SmallestIndexDigitSumEqIndex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.CountDigitsDivideNumber" />
       <item itemvalue="Python.RowWithMaxOnes" />
       <item itemvalue="Python.FindCommonElementsTwoArray" />
       <item itemvalue="Python.MaxPairSumArray" />
       <item itemvalue="Python.MinSwapToMoveZeroesToEnd" />
-      <item itemvalue="Python.SmallestIndexDigitSumEqIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CountDigitsDivideNumber" />
         <item itemvalue="Python.RowWithMaxOnes" />
         <item itemvalue="Python.FindCommonElementsTwoArray" />
         <item itemvalue="Python.MaxPairSumArray" />
         <item itemvalue="Python.MinSwapToMoveZeroesToEnd" />
-        <item itemvalue="Python.SmallestIndexDigitSumEqIndex" />
       </list>
     </recent_temporary>
   </component>
