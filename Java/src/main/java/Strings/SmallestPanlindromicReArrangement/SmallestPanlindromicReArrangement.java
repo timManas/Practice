@@ -11,8 +11,7 @@ public class SmallestPanlindromicReArrangement {
             System.out.println("SmallestPal: " + smallestPalindrome(val) + "\n");
     }
 
-    public static String smallestPalindrome(String input) {
-
+    private static String smallestPalindrome(String input) {
         String [] charArr = input.split("");
         Arrays.sort(charArr);
         System.out.println("CharrArray: " + Arrays.toString(charArr) );
@@ -20,54 +19,58 @@ public class SmallestPanlindromicReArrangement {
         StringBuilder firstHalf = new StringBuilder();
         StringBuilder secondHalf = new StringBuilder();
 
-        for (int i=0; i<charArr.length; i++) {
-            String current = charArr[i];
-            String next = i+1 >= charArr.length ? "" : charArr[i+1];
-
-            if (current.equalsIgnoreCase(next)) {
-                firstHalf.append(current);
-                secondHalf.append(next);
-                ++i;
-            } else {
-                firstHalf.append(current);
-            }
-        }
-
-        System.out.println("firstHalf: " + firstHalf + "    secondHalf: "  + secondHalf);
-
-
-        String smallestPal = String.valueOf(firstHalf.append(secondHalf.reverse()));
-        String reverse = String.valueOf(firstHalf.reverse());
-
-        //If not a palindrome, check the reverse
-        if (smallestPal.equalsIgnoreCase(reverse))
-            return smallestPal;
-
-        System.out.println("Checking Reverse Order: ------------------------");
-
-
-        firstHalf = new StringBuilder();
-        secondHalf = new StringBuilder();
-
+        Map<String, Integer> map = new TreeMap<>();
 
 
         for (int i=0; i<charArr.length; i++) {
             String current = charArr[i];
-            String next = i+1 >= charArr.length ? "" : charArr[i+1];
+            int count = 1;
+            if (map.containsKey(current))
+                count = map.get(current) + 1;
+            map.put(current, count);
+        }
+        System.out.println("map: " + map);
 
-            if (current.equalsIgnoreCase(next)) {
-                firstHalf.append(current);
-                secondHalf.append(next);
-                ++i;
-            } else {
-                firstHalf.append(current);
+        // Find Odd Count
+        String oddStr = null;
+        int oddCount = 0;
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String str = entry.getKey();
+            int count = entry.getValue();
+            if (count % 2 != 0) {
+                oddStr = str;
+                oddCount = count;
+                break;
+            }
+        }
+        System.out.println("Odd One: " + oddStr + "     oddCount: " + oddCount);
+
+        // Start with OddCount
+        StringBuilder sb = new StringBuilder();
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String str = entry.getKey();
+            int count = entry.getValue();
+
+            if (str.equalsIgnoreCase(oddStr)) {
+                for (int i=0; i<count; i++)
+                    sb.append(str);
+                continue;
+            }
+
+            for (int i=0; i<count; i+=2) {
+                firstHalf.append(str);
+                secondHalf.append(str);
             }
         }
 
-        System.out.println("secondHalf: "  + secondHalf + "     firstHalf: " + firstHalf );
+        System.out.println("firstHalf: " + firstHalf + "    secondHalf: " + secondHalf.reverse());
+        String output = firstHalf + sb.toString() + secondHalf;
 
-        smallestPal = String.valueOf(secondHalf.append(firstHalf));
 
-        return smallestPal;
+
+        return output;
     }
+
+
+
 }
